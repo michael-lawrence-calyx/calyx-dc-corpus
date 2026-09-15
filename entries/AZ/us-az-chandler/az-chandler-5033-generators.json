@@ -1,0 +1,25 @@
+{
+  "id": "az-chandler-5033-generators",
+  "jurisdiction": "us-az-chandler",
+  "mechanism": "generation",
+  "instrument": "Ordinance No. 5033",
+  "section": "Ch. 35, Art. XXII",
+  "summary": "Backup generators may operate only 9am-5pm weekdays excluding holidays, unless supplying power during an outage. Public website plus 24-hour notice for routine runs.",
+  "text": "Unless the generators are supplying backup electrical supply during a power outage, backup generators may operate between the hours of 9:00 am and 5:00 pm, Monday through Friday, excluding holidays.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "Ordinance No. 5033",
+    "file": "/Calyx DC Corpus/AZ/CHANDLER/2026-09-14-ord-5033.pdf"
+  },
+  "notes": "Secondary sources describe this as a testing protocol. It is an operating-hours restriction.",
+  "tags": [
+    "operating-hours",
+    "BTM"
+  ],
+  "operator": "MLawrence"
+}

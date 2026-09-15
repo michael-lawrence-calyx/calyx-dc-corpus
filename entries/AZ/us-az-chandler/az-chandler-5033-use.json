@@ -1,0 +1,26 @@
+{
+  "id": "az-chandler-5033-use",
+  "jurisdiction": "us-az-chandler",
+  "mechanism": "use-permission",
+  "instrument": "Ordinance No. 5033 (PLH22-0053)",
+  "section": "Ch. 35, Art. XXII, \u00a735-2214",
+  "summary": "Data centers are prohibited citywide unless explicitly approved as part of a Planned Area Development district.",
+  "text": "Data Centers are not permitted to operate in the City of Chandler unless explicitly approved as part of a Planned Area Development zoning district.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "effective": "2023-01-05",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "City of Chandler Ordinance No. 5033, signed PDF",
+    "file": "/Calyx DC Corpus/AZ/CHANDLER/2026-09-14-ord-5033.pdf"
+  },
+  "tags": [
+    "prohibition",
+    "PAD"
+  ],
+  "operator": "MLawrence",
+  "confidence_note": "Effective date is carried from City and trade reporting; it does not appear in the ordinance text obtained."
+}

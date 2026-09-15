@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Instrument register — Calyx Intelligence</title>
+<meta name="description" content="A searchable register of adopted and proposed data center instruments across US jurisdictions. Every entry names its source and how strongly it is held.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#050811">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#050811;--panel:#0A0F1C;--panel2:#0C1220;--line:#1B2437;--text:#D9E2ED;--steel:#7C8AA0;--dim:#9AA8BC;--sky:#7FC2F0;--pale:#C6E5FB;--amber:#E0B050;--rust:#D08770}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ink);color:var(--text);font-family:Archivo,system-ui,sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--pale);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+header{border-bottom:1px solid var(--line);padding:44px 0 26px}
+h1{font-size:clamp(26px,4vw,36px);line-height:1.15;letter-spacing:-.022em;font-weight:600;margin:0 0 12px}
+.lede{font-size:17.5px;color:var(--dim);max-width:62ch;margin:0 0 6px}
+.meta{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--steel);margin-top:14px}
+.controls{position:sticky;top:0;z-index:20;background:rgba(5,8,17,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:16px 0}
+#q{width:100%;background:var(--panel);border:1px solid var(--line);border-radius:4px;color:var(--text);padding:13px 15px;font-family:inherit;font-size:16px}
+#q:focus{outline:none;border-color:var(--sky)}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin-top:11px}
+.chip{background:var(--panel);border:1px solid var(--line);border-radius:100px;color:var(--dim);padding:5px 12px;font-size:13px;cursor:pointer;font-family:inherit}
+.chip:hover{border-color:#2B3A55;color:var(--pale)}
+.chip.on{background:rgba(127,194,240,.15);border-color:var(--sky);color:var(--pale)}
+.count{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--steel);margin:18px 0 12px}
+.e{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:18px 20px;margin-bottom:11px}
+.e:hover{border-color:#2B3A55}
+.eh{display:flex;flex-wrap:wrap;gap:9px;align-items:baseline;margin-bottom:7px}
+.ju{font-weight:600;color:var(--pale);font-size:17px}
+.mech{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.05em;color:var(--sky);text-transform:uppercase}
+.inst{font-size:13.5px;color:var(--steel);margin-bottom:9px}
+.sum{margin:0 0 10px}
+.txt{background:var(--panel2);border-left:2px solid var(--sky);padding:11px 15px;margin:10px 0;font-size:15px;color:var(--pale);border-radius:0 3px 3px 0}
+.notes{font-size:14.5px;color:var(--steel);margin:9px 0 0}
+.conf{font-size:14px;color:var(--amber);margin:9px 0 0;opacity:.92}
+.conf b{font-weight:600;letter-spacing:.01em}
+.marks{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px;padding-top:11px;border-top:1px solid var(--line)}
+.m{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.05em;padding:3px 8px;border-radius:3px;border:1px solid var(--line);color:var(--steel)}
+.m.OBSERVED,.m.CONFIRMED{color:var(--sky);border-color:rgba(127,194,240,.4)}
+.m.RELAYED,.m.NOT_CHECKED{color:var(--amber);border-color:rgba(224,176,80,.35)}
+.m.CONFLICTING,.m.UNRESOLVED,.m.DEVIATION{color:var(--rust);border-color:rgba(208,135,112,.4)}
+.src{font-size:13.5px;color:var(--steel);margin-top:9px}
+.none{color:var(--steel);padding:40px 0;font-style:italic}
+footer{border-top:1px solid var(--line);margin-top:44px;padding:26px 0 60px;color:var(--steel);font-size:14px}
+@media(max-width:640px){.wrap{padding:0 18px}body{font-size:15.5px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Instrument register</h1>
+  <p class="lede">Adopted and proposed instruments governing data centers, one provision per entry. Every entry names the document it came from, whether it was read in original, and whether it reconciles.</p>
+  <p class="lede">This is the public register. It is a finding aid over public records. The marked corpus — draft-to-draft diffs, cross-jurisdiction comparisons, parcel-level constraint sets — is not published.</p>
+  <p class="meta" id="stamp">loading…</p>
+</header>
+</div>
+
+<div class="controls"><div class="wrap">
+  <input id="q" type="search" placeholder="Search provisions, instruments, sections, text…" autocomplete="off">
+  <div class="filters" id="f"></div>
+</div></div>
+
+<div class="wrap">
+  <div class="count" id="count"></div>
+  <div id="list"></div>
+</div>
+
+<div class="wrap"><footer>
+  <p>Calyx Intelligence LLC · Scottsdale, Arizona · <a href="mailto:corrections@calyxos.ai">corrections@calyxos.ai</a></p>
+  <p>Entries marked RELAYED have not been read in original and do not travel into client work without verification. Entries marked CONFLICTING record that two sources of comparable standing disagree; they are not resolved here. Nothing in this register is a legal opinion, an engineering recommendation, or advice on any specific site.</p>
+</footer></div>
+
+<script>
+let DATA = {entries:[]}, active = {state:null, mechanism:null, origin:null};
+
+const esc = s => (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function chips(){
+  const f = document.getElementById('f');
+  const groups = [
+    ['state', DATA.states],
+    ['mechanism', DATA.mechanisms],
+    ['origin', ['OBSERVED','RELAYED','ASSERTED','DERIVED']]
+  ];
+  f.innerHTML = groups.map(([k, vals]) =>
+    vals.map(v => `<button class="chip" data-k="${k}" data-v="${esc(v)}">${esc(v)}</button>`).join('')
+  ).join('');
+  f.querySelectorAll('.chip').forEach(b => b.onclick = () => {
+    const k = b.dataset.k, v = b.dataset.v;
+    active[k] = active[k] === v ? null : v;
+    f.querySelectorAll(`[data-k="${k}"]`).forEach(x => x.classList.toggle('on', x.dataset.v === active[k]));
+    render();
+  });
+}
+
+function render(){
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  const out = DATA.entries.filter(e => {
+    if (active.state && e.state !== active.state) return false;
+    if (active.mechanism && e.mechanism !== active.mechanism) return false;
+    if (active.origin && e.origin !== active.origin) return false;
+    if (!q) return true;
+    return [e.jurisdiction_name,e.jurisdiction,e.instrument,e.section,e.summary,e.text,e.notes,e.confidence_note,(e.tags||[]).join(' '),e.source&&e.source.citation]
+      .join(' ').toLowerCase().includes(q);
+  });
+  document.getElementById('count').textContent =
+    `${out.length} of ${DATA.entries.length} entries` + (DATA.by_origin ? ` \u00b7 ${DATA.by_origin.OBSERVED} read in original` : '');
+  document.getElementById('list').innerHTML = out.length ? out.map(e => `
+    <div class="e">
+      <div class="eh"><span class="ju">${esc(e.jurisdiction_name)}, ${esc(e.state)}</span><span class="mech">${esc(e.mechanism)}</span></div>
+      <div class="inst">${esc(e.instrument)}${e.section ? ' · ' + esc(e.section) : ''}${e.status ? ' · ' + esc(e.status) : ''}</div>
+      <p class="sum">${esc(e.summary)}</p>
+      ${e.text ? `<div class="txt">${esc(e.text)}</div>` : ''}
+      ${e.notes ? `<p class="notes">${esc(e.notes)}</p>` : ''}
+      ${e.confidence_note ? `<p class="conf"><b>Does not establish:</b> ${esc(e.confidence_note)}</p>` : ''}
+      <div class="src">Source: ${esc(e.source.citation || e.source.kind)}${e.source.url ? ` · <a href="${esc(e.source.url)}" rel="noopener">document</a>` : ''} · retrieved ${esc(e.retrieved)}</div>
+      <div class="marks">
+        <span class="m ${esc(e.origin)}">${esc(e.origin)}</span>
+        <span class="m ${esc(e.entry_state)}">${esc(e.entry_state)}</span>
+        <span class="m">${esc(e.freshness)}</span>
+        <span class="m">${esc(e.source.kind)}</span>
+      </div>
+    </div>`).join('') : '<p class="none">Nothing matches. A gap here means nobody has read it yet, not that no provision exists.</p>';
+}
+
+fetch('index.json').then(r => r.json()).then(d => {
+  DATA = d;
+  document.getElementById('stamp').textContent =
+    `${d.count} entries · ${d.jurisdictions.length} jurisdictions · ${d.states.length} states · generated ${d.generated}`;
+  chips(); render();
+}).catch(() => {
+  document.getElementById('stamp').textContent = 'index.json not found — run build.py';
+});
+document.getElementById('q').addEventListener('input', render);
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "id": "or-hillsboro-8502-acreage-caps",
+  "jurisdiction": "us-or-hillsboro",
+  "mechanism": "quantity-cap",
+  "instrument": "Draft Order No. 8502 (CDCA-004-26)",
+  "section": "Exhibits A and D",
+  "summary": "Fixed acreage ceilings for data storage as a primary use: I-P 215 acres; I-S Meek prohibited; Jackson East-South 62; Jackson East-North 21; all other I-S sub-areas 310. Total 608.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "recommended",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "Hillsboro Planning Commission packet, September 9 2026",
+    "file": "/Calyx DC Corpus/OR/HILLSBORO/2026-09-14-pc-2026-09-09-packet.pdf"
+  },
+  "notes": "Figures 215 and 310 appear unchanged in the August 12 work session deck. Remaining capacity against the City's own August 19 inventory is 50.54 acres",
+  "tags": [
+    "acreage-cap",
+    "608"
+  ],
+  "operator": "MLawrence",
+  "text": "",
+  "confidence_note": "Recommendation, not adopted. Could change before first reading on October 6."
+}

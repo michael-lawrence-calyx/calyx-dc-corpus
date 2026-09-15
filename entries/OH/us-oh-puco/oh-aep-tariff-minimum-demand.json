@@ -1,0 +1,27 @@
+{
+  "id": "oh-aep-tariff-minimum-demand",
+  "jurisdiction": "us-oh-puco",
+  "mechanism": "rate-allocation",
+  "instrument": "PUCO Case No. 24-0508-EL-ATA",
+  "section": "",
+  "summary": "Data center customers above 25 MW pay for at least 85 percent of subscribed capacity regardless of actual use, on contracts of at least 12 years, with an exit fee of three years of minimum charges.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "2025-07-09",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "secondary",
+    "citation": "PUCO release and law firm client publications"
+  },
+  "notes": "First contested, litigated large-load tariff in the country. Existing centers and expansions under 25,000 kW grandfathered from full obligations",
+  "tags": [
+    "85-percent",
+    "minimum-demand",
+    "benchmark"
+  ],
+  "operator": "MLawrence",
+  "text": "",
+  "confidence_note": "Order and compliance tariff sheets not read. Comparator only; must never be carried into a sentence about Oregon's Schedule 96."
+}

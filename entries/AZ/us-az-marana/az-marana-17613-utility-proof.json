@@ -1,0 +1,25 @@
+{
+  "id": "az-marana-17613-utility-proof",
+  "jurisdiction": "us-az-marana",
+  "mechanism": "utility-service",
+  "instrument": "Town Code \u00a7 17-6-13",
+  "section": "17-6-13(B)",
+  "summary": "Application must include the intended source of electric power and documentation from the electric utility affirming sufficient power exists to serve the site, plus an assessment of future energy needs.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "Marana Town Code \u00a7 17-6-13"
+  },
+  "notes": "Does not state what happens if the utility declines, or set a utility response deadline",
+  "tags": [
+    "will-serve",
+    "application"
+  ],
+  "operator": "MLawrence",
+  "text": "",
+  "confidence_note": "Does not state what happens if the utility declines to issue the documentation, or set a utility response deadline."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "or-dlcd-ugb-exclusion",
+  "jurisdiction": "us-or-state",
+  "mechanism": "quantity-cap",
+  "instrument": "DLCD Briefing to LCDC, June 2026",
+  "section": "",
+  "summary": "State land-demand analysis estimates approximately 9,100 acres of future data center land demand, about 6,500 of which would require UGB expansion or new rural industrial development. The Hillsboro/Washington County market is excluded.",
+  "text": "the Hillsboro/Washington County market is excluded from this analysis; the city's inability to amend its urban growth boundary (UGB) to urbanize rural reserve lands in Washington County prevents data center industry growth plans that would otherwise be [pursued]",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "retrieved": "2026-09-15",
+  "source": {
+    "kind": "primary",
+    "citation": "Oregon DLCD, Briefing: Data Center Development Trends in Oregon",
+    "url": "https://www.oregon.gov/lcd/Commission/Documents/2026-06_Item%206_Combined.pdf"
+  },
+  "notes": "February 2026 estimate was 8,571 acres. Hyperscale stated at 50-150 acres or more. Bears on whether Hillsboro's acreage ceiling codifies an existing constraint",
+  "tags": [
+    "UGB",
+    "land-demand"
+  ],
+  "operator": "MLawrence",
+  "confidence_note": "February 2026 estimate was 8,571 acres; the figure is moving. DCAC report timing stated here as October 2026 conflicts with the Committee's own December 2026."
+}

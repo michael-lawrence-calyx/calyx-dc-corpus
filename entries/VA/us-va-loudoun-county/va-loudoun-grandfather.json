@@ -1,0 +1,25 @@
+{
+  "id": "va-loudoun-grandfather",
+  "jurisdiction": "us-va-loudoun-county",
+  "mechanism": "process",
+  "instrument": "Grandfathering Resolution",
+  "section": "",
+  "summary": "Applications accepted before February 12, 2025 may proceed without Special Exception approval. An amendment to remove it is before the Board, with a report scheduled October 6, 2026.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "retrieved": "2026-09-15",
+  "source": {
+    "kind": "secondary",
+    "citation": "Loudoun County project page; regional reporting"
+  },
+  "notes": "Only jurisdiction in the corpus treating vesting as a standalone published instrument. Pause amendment led by Supervisor Briskman; grandfather removal by Supervisor TeKrony",
+  "tags": [
+    "vesting",
+    "grandfather"
+  ],
+  "operator": "MLawrence",
+  "text": "",
+  "confidence_note": "Adopted resolution not read. Cutoff date and scope carried from secondary sources."
+}

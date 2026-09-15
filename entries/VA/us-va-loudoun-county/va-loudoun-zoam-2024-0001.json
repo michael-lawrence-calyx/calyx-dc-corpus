@@ -1,0 +1,25 @@
+{
+  "id": "va-loudoun-zoam-2024-0001",
+  "jurisdiction": "us-va-loudoun-county",
+  "mechanism": "use-permission",
+  "instrument": "ZOAM-2024-0001 and CPAM-2024-0001",
+  "section": "",
+  "summary": "Special Exception approval required for data center uses in Industrial Park, General Industry and Mineral Resources-Heavy Industry districts. Reported effect: no by-right data center development anywhere in the county.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "2025-03-18",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "secondary",
+    "citation": "Loudoun County project page; Piedmont Environmental Council alert, September 9 2026"
+  },
+  "notes": "PEC describes it as ending the industry's 25-year ability to build without Board approval or public review",
+  "tags": [
+    "by-right-removal"
+  ],
+  "operator": "MLawrence",
+  "text": "",
+  "confidence_note": "Adopted text not read. Effect described from a county project page and an advocacy alert."
+}

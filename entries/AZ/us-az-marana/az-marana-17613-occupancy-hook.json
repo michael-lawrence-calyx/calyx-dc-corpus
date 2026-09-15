@@ -1,0 +1,24 @@
+{
+  "id": "az-marana-17613-occupancy-hook",
+  "jurisdiction": "us-az-marana",
+  "mechanism": "acoustic",
+  "instrument": "Town Code \u00a7 17-6-13",
+  "section": "17-6-13",
+  "summary": "On exceedance of Table 2 the town issues only a temporary certificate of occupancy; no permanent certificate until compliance is demonstrated.",
+  "text": "If sound levels exceed the maximum levels in Table 2, the town will issue a temporary certificate of occupancy until the operator demonstrates that the required sound mitigation is achieved.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "Marana Town Code \u00a7 17-6-13"
+  },
+  "notes": "Places the acoustic obligation at the moment a building becomes occupiable and financeable.",
+  "tags": [
+    "enforcement",
+    "CofO"
+  ],
+  "operator": "MLawrence"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "or-hillsboro-8502-exception-change",
+  "jurisdiction": "us-or-hillsboro",
+  "mechanism": "definition",
+  "instrument": "Draft Order No. 8502",
+  "section": "CDC 12.10.370.D.1",
+  "summary": "Between the August 26 hearing draft and the September 9 recommendation, the server-room exception changed from placing such uses inside the Data Storage category as accessory to placing them outside the category entirely.",
+  "text": "August 26: 'are defined by their primary use, to which Data Storage is accessory.' September 9: 'are defined by their primary use, not as Data Storage.'",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "recommended",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "Exhibit A as published Aug 26 2026 and Sept 9 2026"
+  },
+  "notes": "A use outside the category is not counted against a limitation on the category",
+  "tags": [
+    "diff",
+    "exception",
+    "reclassification"
+  ],
+  "operator": "MLawrence",
+  "confidence_note": "No inference drawn about why the text changed. Whether a given project falls inside or outside the category is an application question decided by the City."
+}

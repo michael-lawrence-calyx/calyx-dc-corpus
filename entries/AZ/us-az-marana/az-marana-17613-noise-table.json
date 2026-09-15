@@ -1,0 +1,26 @@
+{
+  "id": "az-marana-17613-noise-table",
+  "jurisdiction": "us-az-marana",
+  "mechanism": "acoustic",
+  "instrument": "Town Code \u00a7 17-6-13 (Ord. 2024.029)",
+  "section": "17-6-13, Table 2",
+  "summary": "Numeric dBA caps at the affected property line: residential/mixed-use 55 day and 55 night; agricultural 60/55; commercial 65/60; industrial 72/65.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "Marana Town Code, supp. 2026 S-41, American Legal",
+    "url": "https://codelibrary.amlegal.com/codes/maranaaz/latest/marana_az/0-0-0-17317"
+  },
+  "notes": "A-weighting defined in the code. . Codification, not the enrolled ordinance",
+  "tags": [
+    "numeric-dBA",
+    "day-night"
+  ],
+  "operator": "MLawrence",
+  "text": "",
+  "confidence_note": "No tonality provision, low-frequency criterion, octave-band requirement or averaging period. Read from the codification, not the enrolled ordinance 2024.029."
+}

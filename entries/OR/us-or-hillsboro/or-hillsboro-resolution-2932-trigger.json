@@ -1,0 +1,25 @@
+{
+  "id": "or-hillsboro-resolution-2932-trigger",
+  "jurisdiction": "us-or-hillsboro",
+  "mechanism": "load-trigger",
+  "instrument": "Resolution No. 2932",
+  "section": "",
+  "summary": "Moratorium primary-use test: more than 20% of total structure square footage, more than 20% of original construction value, or more than 20% or 20 megawatts of total contracted or available electrical service capacity.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "effective": "2026-07-27",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "City of Hillsboro Resolution No. 2932"
+  },
+  "notes": "A contracted-capacity trigger appears in the temporary instrument. On the current record it does not appear in the permanent code amendment.",
+  "tags": [
+    "20MW",
+    "moratorium"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

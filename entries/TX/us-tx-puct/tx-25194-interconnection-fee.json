@@ -1,0 +1,25 @@
+{
+  "id": "tx-25194-interconnection-fee",
+  "jurisdiction": "us-tx-puct",
+  "mechanism": "rate-allocation",
+  "instrument": "16 TAC \u00a7 25.194 (draft)",
+  "section": "",
+  "summary": "Draft rule for loads of 75 MW or greater proposes a security deposit and interconnection fee of $50,000 per megawatt, plus a flat study fee of at least $100,000.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "draft",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "secondary",
+    "citation": "PUCT publication of draft rule, March 12 2026"
+  },
+  "notes": "Final SB 6 large-load rule targeted for December 31, 2026. Stated purpose includes reducing duplicate and never-built queue requests",
+  "tags": [
+    "50k-per-MW",
+    "queue"
+  ],
+  "operator": "MLawrence",
+  "text": "",
+  "confidence_note": "Not finally adopted. Figure is provisional; final rule targeted December 31, 2026."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "az-marana-17613-setback",
+  "jurisdiction": "us-az-marana",
+  "mechanism": "acoustic",
+  "instrument": "Town Code \u00a7 17-6-13",
+  "section": "17-6-13",
+  "summary": "400 ft setback from residential or noise-sensitive property lines, 100 ft from other non-industrial, applying to buildings, cooling equipment, ventilating equipment, generators and power supply equipment.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "Marana Town Code \u00a7 17-6-13"
+  },
+  "tags": [
+    "setback"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

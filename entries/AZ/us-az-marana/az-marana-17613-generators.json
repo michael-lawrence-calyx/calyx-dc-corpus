@@ -1,0 +1,24 @@
+{
+  "id": "az-marana-17613-generators",
+  "jurisdiction": "us-az-marana",
+  "mechanism": "generation",
+  "instrument": "Town Code \u00a7 17-6-13",
+  "section": "17-6-13",
+  "summary": "Diesel generators must be tier IV or newer. Except testing or commissioning, use limited to backup and emergency only. Testing weekdays 8am-5pm except emergencies.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "Marana Town Code \u00a7 17-6-13"
+  },
+  "tags": [
+    "tier-IV",
+    "operating-hours",
+    "BTM"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

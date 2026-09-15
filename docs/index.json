@@ -1,0 +1,977 @@
+{
+ "generated": "2026-09-15",
+ "count": 33,
+ "states": [
+  "AZ",
+  "OH",
+  "OR",
+  "TX",
+  "VA"
+ ],
+ "jurisdictions": [
+  "AEP Ohio",
+  "Chandler",
+  "Hillsboro",
+  "Loudoun County",
+  "Marana",
+  "Maricopa County",
+  "Phoenix",
+  "Prince William County",
+  "Public Utilities Commission of Ohio",
+  "Public Utility Commission of Texas",
+  "State of Oregon",
+  "State of Texas"
+ ],
+ "mechanisms": [
+  "acoustic",
+  "definition",
+  "generation",
+  "litigation",
+  "load-trigger",
+  "process",
+  "quantity-cap",
+  "rate-allocation",
+  "storage",
+  "use-permission",
+  "utility-service",
+  "water"
+ ],
+ "by_origin": {
+  "ASSERTED": 0,
+  "DERIVED": 0,
+  "OBSERVED": 25,
+  "RELAYED": 8
+ },
+ "entries": [
+  {
+   "id": "az-chandler-5033-accessory",
+   "jurisdiction": "us-az-chandler",
+   "mechanism": "quantity-cap",
+   "instrument": "Ordinance No. 5033",
+   "section": "Ch. 35, Art. XXII",
+   "summary": "Accessory data centers permitted at no more than 10% of building footprint, owner's enterprise functions only, no third-party leasing, no stand-alone structure.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Ordinance No. 5033",
+    "file": "/Calyx DC Corpus/AZ/CHANDLER/2026-09-14-ord-5033.pdf"
+   },
+   "notes": "Three conditions, conjunctive. Measured on building footprint, not gross floor area.",
+   "tags": [
+    "accessory"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "AZ",
+   "jurisdiction_name": "Chandler",
+   "_path": "entries/AZ/us-az-chandler/az-chandler-5033-accessory.json"
+  },
+  {
+   "id": "az-chandler-5033-generators",
+   "jurisdiction": "us-az-chandler",
+   "mechanism": "generation",
+   "instrument": "Ordinance No. 5033",
+   "section": "Ch. 35, Art. XXII",
+   "summary": "Backup generators may operate only 9am-5pm weekdays excluding holidays, unless supplying power during an outage. Public website plus 24-hour notice for routine runs.",
+   "text": "Unless the generators are supplying backup electrical supply during a power outage, backup generators may operate between the hours of 9:00 am and 5:00 pm, Monday through Friday, excluding holidays.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Ordinance No. 5033",
+    "file": "/Calyx DC Corpus/AZ/CHANDLER/2026-09-14-ord-5033.pdf"
+   },
+   "notes": "Secondary sources describe this as a testing protocol. It is an operating-hours restriction.",
+   "tags": [
+    "operating-hours",
+    "BTM"
+   ],
+   "operator": "MLawrence",
+   "state": "AZ",
+   "jurisdiction_name": "Chandler",
+   "_path": "entries/AZ/us-az-chandler/az-chandler-5033-generators.json"
+  },
+  {
+   "id": "az-chandler-5033-noise",
+   "jurisdiction": "us-az-chandler",
+   "mechanism": "acoustic",
+   "instrument": "Ordinance No. 5033",
+   "section": "Ch. 35, Art. XXII",
+   "summary": "No-net-increase standard: design must prevent sound from exceeding the ambient levels documented in a pre-construction baseline study. No numeric limit.",
+   "text": "...sound mitigation sufficient to prevent sound emanating from it, as determined by a third-party acoustic engineer, from exceeding the ambient noise levels observed in the baseline study.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Ordinance No. 5033",
+    "file": "/Calyx DC Corpus/AZ/CHANDLER/2026-09-14-ord-5033.pdf"
+   },
+   "tags": [
+    "baseline",
+    "no-net-increase"
+   ],
+   "operator": "MLawrence",
+   "confidence_note": "Text specifies no weighting network, measurement standard, averaging period or tonality provision.",
+   "state": "AZ",
+   "jurisdiction_name": "Chandler",
+   "_path": "entries/AZ/us-az-chandler/az-chandler-5033-noise.json"
+  },
+  {
+   "id": "az-chandler-5033-studies",
+   "jurisdiction": "us-az-chandler",
+   "mechanism": "acoustic",
+   "instrument": "Ordinance No. 5033",
+   "section": "Ch. 35, Art. XXII",
+   "summary": "Post-construction noise study at certificate of occupancy during peak mechanical operation, then annually for five years, filed within 30 days of each anniversary.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Ordinance No. 5033",
+    "file": "/Calyx DC Corpus/AZ/CHANDLER/2026-09-14-ord-5033.pdf"
+   },
+   "notes": "Whether any such study has been filed since Jan 2023, and whether it is public, is NOT_CHECKED",
+   "tags": [
+    "study-cadence",
+    "five-year"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "confidence_note": "Whether any such study has been filed since January 2023, and whether it is public, is NOT_CHECKED.",
+   "state": "AZ",
+   "jurisdiction_name": "Chandler",
+   "_path": "entries/AZ/us-az-chandler/az-chandler-5033-studies.json"
+  },
+  {
+   "id": "az-chandler-5033-use",
+   "jurisdiction": "us-az-chandler",
+   "mechanism": "use-permission",
+   "instrument": "Ordinance No. 5033 (PLH22-0053)",
+   "section": "Ch. 35, Art. XXII, \u00a735-2214",
+   "summary": "Data centers are prohibited citywide unless explicitly approved as part of a Planned Area Development district.",
+   "text": "Data Centers are not permitted to operate in the City of Chandler unless explicitly approved as part of a Planned Area Development zoning district.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "effective": "2023-01-05",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Chandler Ordinance No. 5033, signed PDF",
+    "file": "/Calyx DC Corpus/AZ/CHANDLER/2026-09-14-ord-5033.pdf"
+   },
+   "tags": [
+    "prohibition",
+    "PAD"
+   ],
+   "operator": "MLawrence",
+   "confidence_note": "Effective date is carried from City and trade reporting; it does not appear in the ordinance text obtained.",
+   "state": "AZ",
+   "jurisdiction_name": "Chandler",
+   "_path": "entries/AZ/us-az-chandler/az-chandler-5033-use.json"
+  },
+  {
+   "id": "az-marana-17613-generators",
+   "jurisdiction": "us-az-marana",
+   "mechanism": "generation",
+   "instrument": "Town Code \u00a7 17-6-13",
+   "section": "17-6-13",
+   "summary": "Diesel generators must be tier IV or newer. Except testing or commissioning, use limited to backup and emergency only. Testing weekdays 8am-5pm except emergencies.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Marana Town Code \u00a7 17-6-13"
+   },
+   "tags": [
+    "tier-IV",
+    "operating-hours",
+    "BTM"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "AZ",
+   "jurisdiction_name": "Marana",
+   "_path": "entries/AZ/us-az-marana/az-marana-17613-generators.json"
+  },
+  {
+   "id": "az-marana-17613-noise-table",
+   "jurisdiction": "us-az-marana",
+   "mechanism": "acoustic",
+   "instrument": "Town Code \u00a7 17-6-13 (Ord. 2024.029)",
+   "section": "17-6-13, Table 2",
+   "summary": "Numeric dBA caps at the affected property line: residential/mixed-use 55 day and 55 night; agricultural 60/55; commercial 65/60; industrial 72/65.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Marana Town Code, supp. 2026 S-41, American Legal",
+    "url": "https://codelibrary.amlegal.com/codes/maranaaz/latest/marana_az/0-0-0-17317"
+   },
+   "notes": "A-weighting defined in the code. . Codification, not the enrolled ordinance",
+   "tags": [
+    "numeric-dBA",
+    "day-night"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "confidence_note": "No tonality provision, low-frequency criterion, octave-band requirement or averaging period. Read from the codification, not the enrolled ordinance 2024.029.",
+   "state": "AZ",
+   "jurisdiction_name": "Marana",
+   "_path": "entries/AZ/us-az-marana/az-marana-17613-noise-table.json"
+  },
+  {
+   "id": "az-marana-17613-occupancy-hook",
+   "jurisdiction": "us-az-marana",
+   "mechanism": "acoustic",
+   "instrument": "Town Code \u00a7 17-6-13",
+   "section": "17-6-13",
+   "summary": "On exceedance of Table 2 the town issues only a temporary certificate of occupancy; no permanent certificate until compliance is demonstrated.",
+   "text": "If sound levels exceed the maximum levels in Table 2, the town will issue a temporary certificate of occupancy until the operator demonstrates that the required sound mitigation is achieved.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Marana Town Code \u00a7 17-6-13"
+   },
+   "notes": "Places the acoustic obligation at the moment a building becomes occupiable and financeable.",
+   "tags": [
+    "enforcement",
+    "CofO"
+   ],
+   "operator": "MLawrence",
+   "state": "AZ",
+   "jurisdiction_name": "Marana",
+   "_path": "entries/AZ/us-az-marana/az-marana-17613-occupancy-hook.json"
+  },
+  {
+   "id": "az-marana-17613-setback",
+   "jurisdiction": "us-az-marana",
+   "mechanism": "acoustic",
+   "instrument": "Town Code \u00a7 17-6-13",
+   "section": "17-6-13",
+   "summary": "400 ft setback from residential or noise-sensitive property lines, 100 ft from other non-industrial, applying to buildings, cooling equipment, ventilating equipment, generators and power supply equipment.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Marana Town Code \u00a7 17-6-13"
+   },
+   "tags": [
+    "setback"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "AZ",
+   "jurisdiction_name": "Marana",
+   "_path": "entries/AZ/us-az-marana/az-marana-17613-setback.json"
+  },
+  {
+   "id": "az-marana-17613-utility-proof",
+   "jurisdiction": "us-az-marana",
+   "mechanism": "utility-service",
+   "instrument": "Town Code \u00a7 17-6-13",
+   "section": "17-6-13(B)",
+   "summary": "Application must include the intended source of electric power and documentation from the electric utility affirming sufficient power exists to serve the site, plus an assessment of future energy needs.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Marana Town Code \u00a7 17-6-13"
+   },
+   "notes": "Does not state what happens if the utility declines, or set a utility response deadline",
+   "tags": [
+    "will-serve",
+    "application"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "confidence_note": "Does not state what happens if the utility declines to issue the documentation, or set a utility response deadline.",
+   "state": "AZ",
+   "jurisdiction_name": "Marana",
+   "_path": "entries/AZ/us-az-marana/az-marana-17613-utility-proof.json"
+  },
+  {
+   "id": "az-marana-17613-water-bar",
+   "jurisdiction": "us-az-marana",
+   "mechanism": "water",
+   "instrument": "Town Code \u00a7 17-6-13",
+   "section": "17-6-13(H)",
+   "summary": "Marana Water will not provide potable water to a data center, principal or accessory, for cooling or humidity control. An alternate source must be demonstrated.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Marana Town Code \u00a7 17-6-13"
+   },
+   "notes": "Applied effect: the Luckett Road campus was proposed air-cooled, shifting load to the electrical system.",
+   "tags": [
+    "potable-water",
+    "cooling"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "AZ",
+   "jurisdiction_name": "Marana",
+   "_path": "entries/AZ/us-az-marana/az-marana-17613-water-bar.json"
+  },
+  {
+   "id": "az-maricopa-bess-btm",
+   "jurisdiction": "us-az-maricopa-county",
+   "mechanism": "storage",
+   "instrument": "Maricopa County Zoning Ordinance",
+   "section": "Ch. 2, Definitions",
+   "summary": "A BESS is utility-scale when designed for market participation or grid services and not primarily intended to serve on-site load. Behind-the-meter systems serving on-site consumption are distributed generation and exempt.",
+   "text": "Residential, commercial, and industrial systems installed behind the customer meter or serving on-site consumption shall be considered distributed generation and are exempt from this definition.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "MCZO edition of December 10, 2025"
+   },
+   "notes": "Directly opposite to Hillsboro's accessory BESS definition. Adjacency: Calyx founder is CEO/CTO of an entity operating in this category. See /adjacency.",
+   "tags": [
+    "BTM",
+    "carve-out",
+    "adjacency-touch"
+   ],
+   "operator": "MLawrence",
+   "state": "AZ",
+   "jurisdiction_name": "Maricopa County",
+   "_path": "entries/AZ/us-az-maricopa-county/az-maricopa-bess-btm.json"
+  },
+  {
+   "id": "az-maricopa-definition",
+   "jurisdiction": "us-az-maricopa-county",
+   "mechanism": "definition",
+   "instrument": "Maricopa County Zoning Ordinance (TA250001)",
+   "section": "Ch. 2, Definitions",
+   "summary": "Definition enumerates the activities themselves, including AI training or processing, neural networks, quantum computing, GPU processing and cryptocurrency mining, plus telecom hotels, carrier hotels and colocation centers.",
+   "text": "For zoning purposes, the term includes facilities engaged in activities such as telecommunications and storage systems, central and graphical processing, neural networks, quantum computing, data routing, server farms, cryptocurrency mining or processing, virtual private networks, virtual servers, artificial intelligence training or processing, image processing, cloud computing, and email services.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "effective": "2026-01-09",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "MCZO edition of December 10, 2025",
+    "file": "/Calyx DC Corpus/AZ/MARICOPA-COUNTY/2026-09-14-mczo.pdf"
+   },
+   "notes": "Closes reclassification by naming activities",
+   "tags": [
+    "enumeration",
+    "reclassification"
+   ],
+   "operator": "MLawrence",
+   "confidence_note": "Contains no contracted-capacity or density trigger. Chapter 6 use table and use standards NOT_CHECKED.",
+   "state": "AZ",
+   "jurisdiction_name": "Maricopa County",
+   "_path": "entries/AZ/us-az-maricopa-county/az-maricopa-definition.json"
+  },
+  {
+   "id": "az-phoenix-background-interpretation",
+   "jurisdiction": "us-az-phoenix",
+   "mechanism": "definition",
+   "instrument": "Z-TA-2-25-Y staff report",
+   "section": "Background",
+   "summary": "Before July 2025 data centers were not defined and not listed as a permitted use in the Phoenix Zoning Ordinance, and were addressed through informal interpretations.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Z-TA-2-25-Y Staff Report, Background"
+   },
+   "notes": "A use cannot be reclassified against a definition that does not exist.",
+   "tags": [
+    "definitional-gap"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "AZ",
+   "jurisdiction_name": "Phoenix",
+   "_path": "entries/AZ/us-az-phoenix/az-phoenix-background-interpretation.json"
+  },
+  {
+   "id": "az-phoenix-zta-noise",
+   "jurisdiction": "us-az-phoenix",
+   "mechanism": "acoustic",
+   "instrument": "Z-TA-2-25-Y",
+   "section": "\u00a7647.A.2.KK",
+   "summary": "Within 300 ft of a residential district, the facility must not exceed existing ambient noise by more than 5 percent. Final certificate of occupancy withheld on exceedance.",
+   "text": "A final certificate of occupancy shall not be issued if the ambient noise exceeds the prior existing noise level by more than 5%.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "LIVE",
+   "status": "proposed",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Z-TA-2-25-Y Exhibit A"
+   },
+   "notes": "Scope limited to within 300 ft of residential",
+   "tags": [
+    "percentage-standard",
+    "CofO",
+    "unresolved-metric"
+   ],
+   "operator": "MLawrence",
+   "confidence_note": "The text does not state the quantity to which the percentage applies. Sound pressure level is conventionally logarithmic. No weighting network or averaging period specified. CONFIRMED as to staff-proposed text only.",
+   "state": "AZ",
+   "jurisdiction_name": "Phoenix",
+   "_path": "entries/AZ/us-az-phoenix/az-phoenix-zta-noise.json"
+  },
+  {
+   "id": "az-phoenix-zta-transit",
+   "jurisdiction": "us-az-phoenix",
+   "mechanism": "use-permission",
+   "instrument": "Z-TA-2-25-Y",
+   "section": "\u00a7647.A.2.KK",
+   "summary": "No closer than 2,640 feet from an approved high-capacity transit station.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "LIVE",
+   "status": "proposed",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Z-TA-2-25-Y Exhibit A"
+   },
+   "notes": "Only transit-spacing rule identified in any jurisdiction. Stated rationale is preserving transit-adjacent land for employment and housing.",
+   "tags": [
+    "spacing",
+    "transit"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "AZ",
+   "jurisdiction_name": "Phoenix",
+   "_path": "entries/AZ/us-az-phoenix/az-phoenix-zta-transit.json"
+  },
+  {
+   "id": "az-phoenix-zta-willserve",
+   "jurisdiction": "us-az-phoenix",
+   "mechanism": "utility-service",
+   "instrument": "Z-TA-2-25-Y",
+   "section": "\u00a7647.A.2.KK",
+   "summary": "Preliminary site plan approval is withheld until a local utility confirms in writing, by will-serve letter, that it can serve the energy demand within two years.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "LIVE",
+   "status": "proposed",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Phoenix PDD Staff Report Z-TA-2-25-Y, May 1 2026, Exhibit A",
+    "url": "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/staffreports/z-ta-2-25-y-data-center.pdf"
+   },
+   "notes": "Converts an interconnection queue position into an entitlement condition",
+   "tags": [
+    "will-serve",
+    "two-year"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "confidence_note": "CONFIRMED as to staff-proposed text only. Adopted text NOT_CHECKED.",
+   "state": "AZ",
+   "jurisdiction_name": "Phoenix",
+   "_path": "entries/AZ/us-az-phoenix/az-phoenix-zta-willserve.json"
+  },
+  {
+   "id": "oh-aep-service-moratorium",
+   "jurisdiction": "us-oh-aep-ohio",
+   "mechanism": "utility-service",
+   "instrument": "Utility service posture",
+   "section": "",
+   "summary": "AEP Ohio declined to enter new or expanded data center service agreements in Central Ohio beginning March 2023, reported as lasting 28 months.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "expired",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "advocacy",
+    "citation": "Ohio Consumers' Counsel; Buckeye Institute policy brief, March 16 2026"
+   },
+   "notes": "One source asserts it was imposed without prior Commission approval. That is a significant claim resting on a single advocacy publication. Pairs with utility-service entries in AZ and OR",
+   "tags": [
+    "service-refusal",
+    "utility-gate"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "confidence_note": "The claim that it was imposed without prior Commission approval rests on a single advocacy publication.",
+   "state": "OH",
+   "jurisdiction_name": "AEP Ohio",
+   "_path": "entries/OH/us-oh-aep-ohio/oh-aep-service-moratorium.json"
+  },
+  {
+   "id": "oh-aep-tariff-minimum-demand",
+   "jurisdiction": "us-oh-puco",
+   "mechanism": "rate-allocation",
+   "instrument": "PUCO Case No. 24-0508-EL-ATA",
+   "section": "",
+   "summary": "Data center customers above 25 MW pay for at least 85 percent of subscribed capacity regardless of actual use, on contracts of at least 12 years, with an exit fee of three years of minimum charges.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "effective": "2025-07-09",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "secondary",
+    "citation": "PUCO release and law firm client publications"
+   },
+   "notes": "First contested, litigated large-load tariff in the country. Existing centers and expansions under 25,000 kW grandfathered from full obligations",
+   "tags": [
+    "85-percent",
+    "minimum-demand",
+    "benchmark"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "confidence_note": "Order and compliance tariff sheets not read. Comparator only; must never be carried into a sentence about Oregon's Schedule 96.",
+   "state": "OH",
+   "jurisdiction_name": "Public Utilities Commission of Ohio",
+   "_path": "entries/OH/us-oh-puco/oh-aep-tariff-minimum-demand.json"
+  },
+  {
+   "id": "or-hillsboro-8502-acreage-caps",
+   "jurisdiction": "us-or-hillsboro",
+   "mechanism": "quantity-cap",
+   "instrument": "Draft Order No. 8502 (CDCA-004-26)",
+   "section": "Exhibits A and D",
+   "summary": "Fixed acreage ceilings for data storage as a primary use: I-P 215 acres; I-S Meek prohibited; Jackson East-South 62; Jackson East-North 21; all other I-S sub-areas 310. Total 608.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "LIVE",
+   "status": "recommended",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Hillsboro Planning Commission packet, September 9 2026",
+    "file": "/Calyx DC Corpus/OR/HILLSBORO/2026-09-14-pc-2026-09-09-packet.pdf"
+   },
+   "notes": "Figures 215 and 310 appear unchanged in the August 12 work session deck. Remaining capacity against the City's own August 19 inventory is 50.54 acres",
+   "tags": [
+    "acreage-cap",
+    "608"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "confidence_note": "Recommendation, not adopted. Could change before first reading on October 6.",
+   "state": "OR",
+   "jurisdiction_name": "Hillsboro",
+   "_path": "entries/OR/us-or-hillsboro/or-hillsboro-8502-acreage-caps.json"
+  },
+  {
+   "id": "or-hillsboro-8502-bess-conflict",
+   "jurisdiction": "us-or-hillsboro",
+   "mechanism": "storage",
+   "instrument": "Draft Order No. 8502",
+   "section": "CDC 12.40.155.C.4.a",
+   "summary": "Accessory energy storage acreage limit does not reconcile between two exhibits to the same order.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFLICTING",
+   "freshness": "LIVE",
+   "status": "recommended",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Exhibit A and Exhibit D to Draft Order No. 8502; Staff Report No. 4"
+   },
+   "notes": "Exhibit A: 30% of gross acreage with three exemptions, no acre ceiling. Exhibit D: 30% of gross acreage or 6 gross acres total. Staff Report No. 4 states the 6-acre cap was removed",
+   "tags": [
+    "conflict",
+    "BESS"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "confidence_note": "Not resolved here. Planning Commission minutes govern and are not yet published.",
+   "state": "OR",
+   "jurisdiction_name": "Hillsboro",
+   "_path": "entries/OR/us-or-hillsboro/or-hillsboro-8502-bess-conflict.json"
+  },
+  {
+   "id": "or-hillsboro-8502-buffer",
+   "jurisdiction": "us-or-hillsboro",
+   "mechanism": "process",
+   "instrument": "Draft Order No. 8502",
+   "section": "CDC 12.40.145.C",
+   "summary": "1,000 ft distance requirement from schools, measured between closest points of affected property lines, reaching schools outside city limits where the buffer extends in.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "LIVE",
+   "status": "recommended",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Exhibit D to Draft Order No. 8502"
+   },
+   "notes": "The August 26 hearing draft contained no proximity restriction of any kind. Added at Planning Commission direction.",
+   "tags": [
+    "buffer",
+    "schools"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "OR",
+   "jurisdiction_name": "Hillsboro",
+   "_path": "entries/OR/us-or-hillsboro/or-hillsboro-8502-buffer.json"
+  },
+  {
+   "id": "or-hillsboro-8502-exception-change",
+   "jurisdiction": "us-or-hillsboro",
+   "mechanism": "definition",
+   "instrument": "Draft Order No. 8502",
+   "section": "CDC 12.10.370.D.1",
+   "summary": "Between the August 26 hearing draft and the September 9 recommendation, the server-room exception changed from placing such uses inside the Data Storage category as accessory to placing them outside the category entirely.",
+   "text": "August 26: 'are defined by their primary use, to which Data Storage is accessory.' September 9: 'are defined by their primary use, not as Data Storage.'",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "LIVE",
+   "status": "recommended",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Exhibit A as published Aug 26 2026 and Sept 9 2026"
+   },
+   "notes": "A use outside the category is not counted against a limitation on the category",
+   "tags": [
+    "diff",
+    "exception",
+    "reclassification"
+   ],
+   "operator": "MLawrence",
+   "confidence_note": "No inference drawn about why the text changed. Whether a given project falls inside or outside the category is an application question decided by the City.",
+   "state": "OR",
+   "jurisdiction_name": "Hillsboro",
+   "_path": "entries/OR/us-or-hillsboro/or-hillsboro-8502-exception-change.json"
+  },
+  {
+   "id": "or-hillsboro-8502-notice",
+   "jurisdiction": "us-or-hillsboro",
+   "mechanism": "process",
+   "instrument": "Staff Report No. 5",
+   "section": "",
+   "summary": "On September 8 the City discovered the public hearing notice did not reach 34 properties carrying the SID I-P overlay, representing 19 property owners, due to a mapping error. Revised notice issued September 9; first reading moved to October 6.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "LIVE",
+   "status": "recommended",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Staff Report No. 5, September 9 2026"
+   },
+   "notes": "Original notice was a Measure 56 mailing to approximately 2,100 owners on August 5, 2026",
+   "tags": [
+    "notice",
+    "Measure-56",
+    "schedule"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "confidence_note": "No inference drawn about legal effect. Oregon notice requirements are not those of any other state.",
+   "state": "OR",
+   "jurisdiction_name": "Hillsboro",
+   "_path": "entries/OR/us-or-hillsboro/or-hillsboro-8502-notice.json"
+  },
+  {
+   "id": "or-hillsboro-8502-typeiii",
+   "jurisdiction": "us-or-hillsboro",
+   "mechanism": "process",
+   "instrument": "Draft Order No. 8502",
+   "section": "CDC 12.80.040.B",
+   "summary": "Development Review becomes a Type III hearing before the Planning and Zoning Hearings Board, appealable to Council, reaching conversions of existing buildings previously in another primary use.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "LIVE",
+   "status": "recommended",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "Exhibit A to Draft Order No. 8502"
+   },
+   "notes": "Also treats previously accessory data storage now proposed as a site's primary use as a new data center. Not subject to exemptions.",
+   "tags": [
+    "Type-III",
+    "conversions"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "OR",
+   "jurisdiction_name": "Hillsboro",
+   "_path": "entries/OR/us-or-hillsboro/or-hillsboro-8502-typeiii.json"
+  },
+  {
+   "id": "or-hillsboro-resolution-2932-trigger",
+   "jurisdiction": "us-or-hillsboro",
+   "mechanism": "load-trigger",
+   "instrument": "Resolution No. 2932",
+   "section": "",
+   "summary": "Moratorium primary-use test: more than 20% of total structure square footage, more than 20% of original construction value, or more than 20% or 20 megawatts of total contracted or available electrical service capacity.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "effective": "2026-07-27",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Hillsboro Resolution No. 2932"
+   },
+   "notes": "A contracted-capacity trigger appears in the temporary instrument. On the current record it does not appear in the permanent code amendment.",
+   "tags": [
+    "20MW",
+    "moratorium"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "OR",
+   "jurisdiction_name": "Hillsboro",
+   "_path": "entries/OR/us-or-hillsboro/or-hillsboro-resolution-2932-trigger.json"
+  },
+  {
+   "id": "or-dlcd-ugb-exclusion",
+   "jurisdiction": "us-or-state",
+   "mechanism": "quantity-cap",
+   "instrument": "DLCD Briefing to LCDC, June 2026",
+   "section": "",
+   "summary": "State land-demand analysis estimates approximately 9,100 acres of future data center land demand, about 6,500 of which would require UGB expansion or new rural industrial development. The Hillsboro/Washington County market is excluded.",
+   "text": "the Hillsboro/Washington County market is excluded from this analysis; the city's inability to amend its urban growth boundary (UGB) to urbanize rural reserve lands in Washington County prevents data center industry growth plans that would otherwise be [pursued]",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "retrieved": "2026-09-15",
+   "source": {
+    "kind": "primary",
+    "citation": "Oregon DLCD, Briefing: Data Center Development Trends in Oregon",
+    "url": "https://www.oregon.gov/lcd/Commission/Documents/2026-06_Item%206_Combined.pdf"
+   },
+   "notes": "February 2026 estimate was 8,571 acres. Hyperscale stated at 50-150 acres or more. Bears on whether Hillsboro's acreage ceiling codifies an existing constraint",
+   "tags": [
+    "UGB",
+    "land-demand"
+   ],
+   "operator": "MLawrence",
+   "confidence_note": "February 2026 estimate was 8,571 acres; the figure is moving. DCAC report timing stated here as October 2026 conflicts with the Committee's own December 2026.",
+   "state": "OR",
+   "jurisdiction_name": "State of Oregon",
+   "_path": "entries/OR/us-or-state/or-dlcd-ugb-exclusion.json"
+  },
+  {
+   "id": "tx-25194-interconnection-fee",
+   "jurisdiction": "us-tx-puct",
+   "mechanism": "rate-allocation",
+   "instrument": "16 TAC \u00a7 25.194 (draft)",
+   "section": "",
+   "summary": "Draft rule for loads of 75 MW or greater proposes a security deposit and interconnection fee of $50,000 per megawatt, plus a flat study fee of at least $100,000.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "draft",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "secondary",
+    "citation": "PUCT publication of draft rule, March 12 2026"
+   },
+   "notes": "Final SB 6 large-load rule targeted for December 31, 2026. Stated purpose includes reducing duplicate and never-built queue requests",
+   "tags": [
+    "50k-per-MW",
+    "queue"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "confidence_note": "Not finally adopted. Figure is provisional; final rule targeted December 31, 2026.",
+   "state": "TX",
+   "jurisdiction_name": "Public Utility Commission of Texas",
+   "_path": "entries/TX/us-tx-puct/tx-25194-interconnection-fee.json"
+  },
+  {
+   "id": "tx-docket-59220-curtailment",
+   "jurisdiction": "us-tx-puct",
+   "mechanism": "generation",
+   "instrument": "PUCT Docket No. 59220",
+   "section": "",
+   "summary": "Order approving a net metering arrangement for a 260 MW data center establishes that emergency load curtailment imposed on co-located data centers is not capped by the capacity of the paired behind-the-meter generator.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "effective": "2026-07-24",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "secondary",
+    "citation": "Law firm client publication on the first SB 6 test case"
+   },
+   "notes": "Governs BTM design across ERCOT. Adjacency: see /adjacency",
+   "tags": [
+    "curtailment",
+    "BTM",
+    "adjacency-touch"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "confidence_note": "Order not read. Highest-value verification item in the Texas file.",
+   "state": "TX",
+   "jurisdiction_name": "Public Utility Commission of Texas",
+   "_path": "entries/TX/us-tx-puct/tx-docket-59220-curtailment.json"
+  },
+  {
+   "id": "tx-sb6-site-control",
+   "jurisdiction": "us-tx-state",
+   "mechanism": "use-permission",
+   "instrument": "SB 6 (89th Legislature)",
+   "section": "",
+   "summary": "Directs the utility regulator to establish a methodology for large loads to demonstrate site control through an ownership interest, a lease, or another acceptable legal interest.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "effective": "2025-06-20",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "secondary",
+    "citation": "Law firm client publications on SB 6 implementation"
+   },
+   "notes": "Inverts the pattern found in four land use codes: land control required by the utility regulator rather than utility service required by the land use authority",
+   "tags": [
+    "site-control",
+    "inversion"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "confidence_note": "Statute not read. Site control methodology as adopted NOT_CHECKED.",
+   "state": "TX",
+   "jurisdiction_name": "State of Texas",
+   "_path": "entries/TX/us-tx-state/tx-sb6-site-control.json"
+  },
+  {
+   "id": "va-loudoun-grandfather",
+   "jurisdiction": "us-va-loudoun-county",
+   "mechanism": "process",
+   "instrument": "Grandfathering Resolution",
+   "section": "",
+   "summary": "Applications accepted before February 12, 2025 may proceed without Special Exception approval. An amendment to remove it is before the Board, with a report scheduled October 6, 2026.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "retrieved": "2026-09-15",
+   "source": {
+    "kind": "secondary",
+    "citation": "Loudoun County project page; regional reporting"
+   },
+   "notes": "Only jurisdiction in the corpus treating vesting as a standalone published instrument. Pause amendment led by Supervisor Briskman; grandfather removal by Supervisor TeKrony",
+   "tags": [
+    "vesting",
+    "grandfather"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "confidence_note": "Adopted resolution not read. Cutoff date and scope carried from secondary sources.",
+   "state": "VA",
+   "jurisdiction_name": "Loudoun County",
+   "_path": "entries/VA/us-va-loudoun-county/va-loudoun-grandfather.json"
+  },
+  {
+   "id": "va-loudoun-zoam-2024-0001",
+   "jurisdiction": "us-va-loudoun-county",
+   "mechanism": "use-permission",
+   "instrument": "ZOAM-2024-0001 and CPAM-2024-0001",
+   "section": "",
+   "summary": "Special Exception approval required for data center uses in Industrial Park, General Industry and Mineral Resources-Heavy Industry districts. Reported effect: no by-right data center development anywhere in the county.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "effective": "2025-03-18",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "secondary",
+    "citation": "Loudoun County project page; Piedmont Environmental Council alert, September 9 2026"
+   },
+   "notes": "PEC describes it as ending the industry's 25-year ability to build without Board approval or public review",
+   "tags": [
+    "by-right-removal"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "confidence_note": "Adopted text not read. Effect described from a county project page and an advocacy alert.",
+   "state": "VA",
+   "jurisdiction_name": "Loudoun County",
+   "_path": "entries/VA/us-va-loudoun-county/va-loudoun-zoam-2024-0001.json"
+  },
+  {
+   "id": "va-pw-notice-void",
+   "jurisdiction": "us-va-prince-william-county",
+   "mechanism": "litigation",
+   "instrument": "Oak Valley Homeowners Association v. Board of County Supervisors (consolidated)",
+   "section": "",
+   "summary": "Virginia Court of Appeals affirmed unanimously that three rezonings for a data center complex reported at 22-23 million square feet were void for failure to comply with public notice requirements.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "FIXED",
+   "status": "void",
+   "effective": "2026-03-31",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting and law firm client publications"
+   },
+   "notes": "Circuit court declared void August 2025. County reported spending approximately $1.72M before withdrawing April 15, 2026. Developer affiliate withdrew petitions July 2026. . Opinion NOT read",
+   "tags": [
+    "notice",
+    "void",
+    "precedent"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "confidence_note": "Opinion not read. Establishes nothing about notice law in any other state.",
+   "state": "VA",
+   "jurisdiction_name": "Prince William County",
+   "_path": "entries/VA/us-va-prince-william-county/va-pw-notice-void.json"
+  }
+ ]
+}

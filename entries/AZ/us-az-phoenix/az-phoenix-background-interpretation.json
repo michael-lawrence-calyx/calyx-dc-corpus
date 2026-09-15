@@ -1,0 +1,23 @@
+{
+  "id": "az-phoenix-background-interpretation",
+  "jurisdiction": "us-az-phoenix",
+  "mechanism": "definition",
+  "instrument": "Z-TA-2-25-Y staff report",
+  "section": "Background",
+  "summary": "Before July 2025 data centers were not defined and not listed as a permitted use in the Phoenix Zoning Ordinance, and were addressed through informal interpretations.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "Z-TA-2-25-Y Staff Report, Background"
+  },
+  "notes": "A use cannot be reclassified against a definition that does not exist.",
+  "tags": [
+    "definitional-gap"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

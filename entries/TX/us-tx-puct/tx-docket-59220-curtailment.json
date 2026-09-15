@@ -1,0 +1,27 @@
+{
+  "id": "tx-docket-59220-curtailment",
+  "jurisdiction": "us-tx-puct",
+  "mechanism": "generation",
+  "instrument": "PUCT Docket No. 59220",
+  "section": "",
+  "summary": "Order approving a net metering arrangement for a 260 MW data center establishes that emergency load curtailment imposed on co-located data centers is not capped by the capacity of the paired behind-the-meter generator.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-07-24",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "secondary",
+    "citation": "Law firm client publication on the first SB 6 test case"
+  },
+  "notes": "Governs BTM design across ERCOT. Adjacency: see /adjacency",
+  "tags": [
+    "curtailment",
+    "BTM",
+    "adjacency-touch"
+  ],
+  "operator": "MLawrence",
+  "text": "",
+  "confidence_note": "Order not read. Highest-value verification item in the Texas file."
+}

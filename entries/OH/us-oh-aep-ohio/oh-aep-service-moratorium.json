@@ -1,0 +1,25 @@
+{
+  "id": "oh-aep-service-moratorium",
+  "jurisdiction": "us-oh-aep-ohio",
+  "mechanism": "utility-service",
+  "instrument": "Utility service posture",
+  "section": "",
+  "summary": "AEP Ohio declined to enter new or expanded data center service agreements in Central Ohio beginning March 2023, reported as lasting 28 months.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "expired",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "advocacy",
+    "citation": "Ohio Consumers' Counsel; Buckeye Institute policy brief, March 16 2026"
+  },
+  "notes": "One source asserts it was imposed without prior Commission approval. That is a significant claim resting on a single advocacy publication. Pairs with utility-service entries in AZ and OR",
+  "tags": [
+    "service-refusal",
+    "utility-gate"
+  ],
+  "operator": "MLawrence",
+  "text": "",
+  "confidence_note": "The claim that it was imposed without prior Commission approval rests on a single advocacy publication."
+}

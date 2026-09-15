@@ -1,0 +1,25 @@
+{
+  "id": "or-hillsboro-8502-bess-conflict",
+  "jurisdiction": "us-or-hillsboro",
+  "mechanism": "storage",
+  "instrument": "Draft Order No. 8502",
+  "section": "CDC 12.40.155.C.4.a",
+  "summary": "Accessory energy storage acreage limit does not reconcile between two exhibits to the same order.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFLICTING",
+  "freshness": "LIVE",
+  "status": "recommended",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "Exhibit A and Exhibit D to Draft Order No. 8502; Staff Report No. 4"
+  },
+  "notes": "Exhibit A: 30% of gross acreage with three exemptions, no acre ceiling. Exhibit D: 30% of gross acreage or 6 gross acres total. Staff Report No. 4 states the 6-acre cap was removed",
+  "tags": [
+    "conflict",
+    "BESS"
+  ],
+  "operator": "MLawrence",
+  "text": "",
+  "confidence_note": "Not resolved here. Planning Commission minutes govern and are not yet published."
+}

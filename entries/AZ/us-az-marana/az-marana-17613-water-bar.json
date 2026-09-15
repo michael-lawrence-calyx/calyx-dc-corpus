@@ -1,0 +1,24 @@
+{
+  "id": "az-marana-17613-water-bar",
+  "jurisdiction": "us-az-marana",
+  "mechanism": "water",
+  "instrument": "Town Code \u00a7 17-6-13",
+  "section": "17-6-13(H)",
+  "summary": "Marana Water will not provide potable water to a data center, principal or accessory, for cooling or humidity control. An alternate source must be demonstrated.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "Marana Town Code \u00a7 17-6-13"
+  },
+  "notes": "Applied effect: the Luckett Road campus was proposed air-cooled, shifting load to the electrical system.",
+  "tags": [
+    "potable-water",
+    "cooling"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

@@ -1,0 +1,157 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Calyx corpus entry (v2)",
+  "description": "One provision, one file. jurisdiction must be a key in schema/jurisdictions.json.",
+  "type": "object",
+  "required": [
+    "id",
+    "jurisdiction",
+    "instrument",
+    "mechanism",
+    "summary",
+    "origin",
+    "entry_state",
+    "freshness",
+    "retrieved",
+    "source"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "<state>-<jurisdiction>-<instrument>-<topic>, lowercase, hyphens. Permanent once written."
+    },
+    "jurisdiction": {
+      "type": "string",
+      "description": "KEY from schema/jurisdictions.json, not a display name"
+    },
+    "instrument": {
+      "type": "string"
+    },
+    "section": {
+      "type": "string"
+    },
+    "mechanism": {
+      "type": "string",
+      "enum": [
+        "use-permission",
+        "quantity-cap",
+        "definition",
+        "load-trigger",
+        "acoustic",
+        "utility-service",
+        "water",
+        "generation",
+        "storage",
+        "rate-allocation",
+        "process",
+        "litigation",
+        "incentive",
+        "connectivity"
+      ]
+    },
+    "summary": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string",
+      "description": "VERBATIM only. Empty unless read in original."
+    },
+    "origin": {
+      "type": "string",
+      "enum": [
+        "OBSERVED",
+        "ASSERTED",
+        "DERIVED",
+        "RELAYED"
+      ]
+    },
+    "entry_state": {
+      "type": "string",
+      "enum": [
+        "CONFIRMED",
+        "DEVIATION",
+        "CONFLICTING",
+        "NOT_CHECKED",
+        "UNRESOLVED"
+      ]
+    },
+    "freshness": {
+      "type": "string",
+      "enum": [
+        "FIXED",
+        "LIVE",
+        "WARM",
+        "STALE"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "adopted",
+        "proposed",
+        "recommended",
+        "draft",
+        "expired",
+        "void"
+      ]
+    },
+    "effective": {
+      "type": "string"
+    },
+    "retrieved": {
+      "type": "string",
+      "description": "YYYY-MM-DD the source was read"
+    },
+    "operator": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "kind"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "primary",
+            "secondary",
+            "sponsored",
+            "advocacy",
+            "commercial-tracker"
+          ]
+        },
+        "citation": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "file": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string"
+        }
+      }
+    },
+    "supersedes": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Context. What the provision relates to, how it applies."
+    },
+    "confidence_note": {
+      "type": "string",
+      "description": "What this entry does NOT establish, and where we are uncertain. Queryable on its own."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

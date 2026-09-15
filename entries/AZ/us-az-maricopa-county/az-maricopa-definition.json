@@ -1,0 +1,27 @@
+{
+  "id": "az-maricopa-definition",
+  "jurisdiction": "us-az-maricopa-county",
+  "mechanism": "definition",
+  "instrument": "Maricopa County Zoning Ordinance (TA250001)",
+  "section": "Ch. 2, Definitions",
+  "summary": "Definition enumerates the activities themselves, including AI training or processing, neural networks, quantum computing, GPU processing and cryptocurrency mining, plus telecom hotels, carrier hotels and colocation centers.",
+  "text": "For zoning purposes, the term includes facilities engaged in activities such as telecommunications and storage systems, central and graphical processing, neural networks, quantum computing, data routing, server farms, cryptocurrency mining or processing, virtual private networks, virtual servers, artificial intelligence training or processing, image processing, cloud computing, and email services.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "effective": "2026-01-09",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "MCZO edition of December 10, 2025",
+    "file": "/Calyx DC Corpus/AZ/MARICOPA-COUNTY/2026-09-14-mczo.pdf"
+  },
+  "notes": "Closes reclassification by naming activities",
+  "tags": [
+    "enumeration",
+    "reclassification"
+  ],
+  "operator": "MLawrence",
+  "confidence_note": "Contains no contracted-capacity or density trigger. Chapter 6 use table and use standards NOT_CHECKED."
+}

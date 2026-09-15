@@ -1,0 +1,26 @@
+{
+  "id": "tx-sb6-site-control",
+  "jurisdiction": "us-tx-state",
+  "mechanism": "use-permission",
+  "instrument": "SB 6 (89th Legislature)",
+  "section": "",
+  "summary": "Directs the utility regulator to establish a methodology for large loads to demonstrate site control through an ownership interest, a lease, or another acceptable legal interest.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2025-06-20",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "secondary",
+    "citation": "Law firm client publications on SB 6 implementation"
+  },
+  "notes": "Inverts the pattern found in four land use codes: land control required by the utility regulator rather than utility service required by the land use authority",
+  "tags": [
+    "site-control",
+    "inversion"
+  ],
+  "operator": "MLawrence",
+  "text": "",
+  "confidence_note": "Statute not read. Site control methodology as adopted NOT_CHECKED."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "or-hillsboro-8502-notice",
+  "jurisdiction": "us-or-hillsboro",
+  "mechanism": "process",
+  "instrument": "Staff Report No. 5",
+  "section": "",
+  "summary": "On September 8 the City discovered the public hearing notice did not reach 34 properties carrying the SID I-P overlay, representing 19 property owners, due to a mapping error. Revised notice issued September 9; first reading moved to October 6.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "recommended",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "Staff Report No. 5, September 9 2026"
+  },
+  "notes": "Original notice was a Measure 56 mailing to approximately 2,100 owners on August 5, 2026",
+  "tags": [
+    "notice",
+    "Measure-56",
+    "schedule"
+  ],
+  "operator": "MLawrence",
+  "text": "",
+  "confidence_note": "No inference drawn about legal effect. Oregon notice requirements are not those of any other state."
+}

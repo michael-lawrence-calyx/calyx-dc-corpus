@@ -1,0 +1,24 @@
+{
+  "id": "or-hillsboro-8502-typeiii",
+  "jurisdiction": "us-or-hillsboro",
+  "mechanism": "process",
+  "instrument": "Draft Order No. 8502",
+  "section": "CDC 12.80.040.B",
+  "summary": "Development Review becomes a Type III hearing before the Planning and Zoning Hearings Board, appealable to Council, reaching conversions of existing buildings previously in another primary use.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "recommended",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "Exhibit A to Draft Order No. 8502"
+  },
+  "notes": "Also treats previously accessory data storage now proposed as a site's primary use as a new data center. Not subject to exemptions.",
+  "tags": [
+    "Type-III",
+    "conversions"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

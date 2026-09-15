@@ -1,0 +1,26 @@
+{
+  "id": "az-phoenix-zta-willserve",
+  "jurisdiction": "us-az-phoenix",
+  "mechanism": "utility-service",
+  "instrument": "Z-TA-2-25-Y",
+  "section": "\u00a7647.A.2.KK",
+  "summary": "Preliminary site plan approval is withheld until a local utility confirms in writing, by will-serve letter, that it can serve the energy demand within two years.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "proposed",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "Phoenix PDD Staff Report Z-TA-2-25-Y, May 1 2026, Exhibit A",
+    "url": "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/staffreports/z-ta-2-25-y-data-center.pdf"
+  },
+  "notes": "Converts an interconnection queue position into an entitlement condition",
+  "tags": [
+    "will-serve",
+    "two-year"
+  ],
+  "operator": "MLawrence",
+  "text": "",
+  "confidence_note": "CONFIRMED as to staff-proposed text only. Adopted text NOT_CHECKED."
+}

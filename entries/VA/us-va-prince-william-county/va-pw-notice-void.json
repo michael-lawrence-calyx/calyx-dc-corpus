@@ -1,0 +1,27 @@
+{
+  "id": "va-pw-notice-void",
+  "jurisdiction": "us-va-prince-william-county",
+  "mechanism": "litigation",
+  "instrument": "Oak Valley Homeowners Association v. Board of County Supervisors (consolidated)",
+  "section": "",
+  "summary": "Virginia Court of Appeals affirmed unanimously that three rezonings for a data center complex reported at 22-23 million square feet were void for failure to comply with public notice requirements.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "FIXED",
+  "status": "void",
+  "effective": "2026-03-31",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting and law firm client publications"
+  },
+  "notes": "Circuit court declared void August 2025. County reported spending approximately $1.72M before withdrawing April 15, 2026. Developer affiliate withdrew petitions July 2026. . Opinion NOT read",
+  "tags": [
+    "notice",
+    "void",
+    "precedent"
+  ],
+  "operator": "MLawrence",
+  "text": "",
+  "confidence_note": "Opinion not read. Establishes nothing about notice law in any other state."
+}

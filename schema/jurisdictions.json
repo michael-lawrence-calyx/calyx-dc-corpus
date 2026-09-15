@@ -1,0 +1,112 @@
+{
+  "us-az-chandler": {
+    "kind": "municipality",
+    "name": "Chandler",
+    "state": "AZ"
+  },
+  "us-az-florence": {
+    "kind": "municipality",
+    "name": "Florence",
+    "state": "AZ"
+  },
+  "us-az-marana": {
+    "kind": "municipality",
+    "name": "Marana",
+    "state": "AZ"
+  },
+  "us-az-maricopa-county": {
+    "kind": "county",
+    "name": "Maricopa County",
+    "state": "AZ"
+  },
+  "us-az-phoenix": {
+    "kind": "municipality",
+    "name": "Phoenix",
+    "state": "AZ"
+  },
+  "us-az-pinal-county": {
+    "kind": "county",
+    "name": "Pinal County",
+    "state": "AZ"
+  },
+  "us-az-state": {
+    "kind": "state",
+    "name": "State of Arizona",
+    "state": "AZ"
+  },
+  "us-az-tucson": {
+    "kind": "municipality",
+    "name": "Tucson",
+    "state": "AZ"
+  },
+  "us-oh-aep-ohio": {
+    "kind": "utility",
+    "name": "AEP Ohio",
+    "state": "OH"
+  },
+  "us-oh-puco": {
+    "kind": "regulator",
+    "name": "Public Utilities Commission of Ohio",
+    "state": "OH"
+  },
+  "us-or-hillsboro": {
+    "kind": "municipality",
+    "name": "Hillsboro",
+    "state": "OR"
+  },
+  "us-or-portland": {
+    "kind": "municipality",
+    "name": "Portland",
+    "state": "OR"
+  },
+  "us-or-puc": {
+    "kind": "regulator",
+    "name": "Oregon Public Utility Commission",
+    "state": "OR"
+  },
+  "us-or-state": {
+    "kind": "state",
+    "name": "State of Oregon",
+    "state": "OR"
+  },
+  "us-or-washington-county": {
+    "kind": "county",
+    "name": "Washington County",
+    "state": "OR"
+  },
+  "us-tx-ercot": {
+    "kind": "iso",
+    "name": "ERCOT",
+    "state": "TX"
+  },
+  "us-tx-puct": {
+    "kind": "regulator",
+    "name": "Public Utility Commission of Texas",
+    "state": "TX"
+  },
+  "us-tx-state": {
+    "kind": "state",
+    "name": "State of Texas",
+    "state": "TX"
+  },
+  "us-va-fairfax-county": {
+    "kind": "county",
+    "name": "Fairfax County",
+    "state": "VA"
+  },
+  "us-va-loudoun-county": {
+    "kind": "county",
+    "name": "Loudoun County",
+    "state": "VA"
+  },
+  "us-va-prince-william-county": {
+    "kind": "county",
+    "name": "Prince William County",
+    "state": "VA"
+  },
+  "us-va-state": {
+    "kind": "state",
+    "name": "Commonwealth of Virginia",
+    "state": "VA"
+  }
+}

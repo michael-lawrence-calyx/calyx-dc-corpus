@@ -1,0 +1,26 @@
+{
+  "id": "az-phoenix-zta-noise",
+  "jurisdiction": "us-az-phoenix",
+  "mechanism": "acoustic",
+  "instrument": "Z-TA-2-25-Y",
+  "section": "\u00a7647.A.2.KK",
+  "summary": "Within 300 ft of a residential district, the facility must not exceed existing ambient noise by more than 5 percent. Final certificate of occupancy withheld on exceedance.",
+  "text": "A final certificate of occupancy shall not be issued if the ambient noise exceeds the prior existing noise level by more than 5%.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "proposed",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "Z-TA-2-25-Y Exhibit A"
+  },
+  "notes": "Scope limited to within 300 ft of residential",
+  "tags": [
+    "percentage-standard",
+    "CofO",
+    "unresolved-metric"
+  ],
+  "operator": "MLawrence",
+  "confidence_note": "The text does not state the quantity to which the percentage applies. Sound pressure level is conventionally logarithmic. No weighting network or averaging period specified. CONFIRMED as to staff-proposed text only."
+}

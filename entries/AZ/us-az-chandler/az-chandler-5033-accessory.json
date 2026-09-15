@@ -1,0 +1,24 @@
+{
+  "id": "az-chandler-5033-accessory",
+  "jurisdiction": "us-az-chandler",
+  "mechanism": "quantity-cap",
+  "instrument": "Ordinance No. 5033",
+  "section": "Ch. 35, Art. XXII",
+  "summary": "Accessory data centers permitted at no more than 10% of building footprint, owner's enterprise functions only, no third-party leasing, no stand-alone structure.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "Ordinance No. 5033",
+    "file": "/Calyx DC Corpus/AZ/CHANDLER/2026-09-14-ord-5033.pdf"
+  },
+  "notes": "Three conditions, conjunctive. Measured on building footprint, not gross floor area.",
+  "tags": [
+    "accessory"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

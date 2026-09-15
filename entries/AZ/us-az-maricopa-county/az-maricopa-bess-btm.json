@@ -1,0 +1,25 @@
+{
+  "id": "az-maricopa-bess-btm",
+  "jurisdiction": "us-az-maricopa-county",
+  "mechanism": "storage",
+  "instrument": "Maricopa County Zoning Ordinance",
+  "section": "Ch. 2, Definitions",
+  "summary": "A BESS is utility-scale when designed for market participation or grid services and not primarily intended to serve on-site load. Behind-the-meter systems serving on-site consumption are distributed generation and exempt.",
+  "text": "Residential, commercial, and industrial systems installed behind the customer meter or serving on-site consumption shall be considered distributed generation and are exempt from this definition.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "MCZO edition of December 10, 2025"
+  },
+  "notes": "Directly opposite to Hillsboro's accessory BESS definition. Adjacency: Calyx founder is CEO/CTO of an entity operating in this category. See /adjacency.",
+  "tags": [
+    "BTM",
+    "carve-out",
+    "adjacency-touch"
+  ],
+  "operator": "MLawrence"
+}

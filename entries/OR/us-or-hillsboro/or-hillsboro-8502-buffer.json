@@ -1,0 +1,24 @@
+{
+  "id": "or-hillsboro-8502-buffer",
+  "jurisdiction": "us-or-hillsboro",
+  "mechanism": "process",
+  "instrument": "Draft Order No. 8502",
+  "section": "CDC 12.40.145.C",
+  "summary": "1,000 ft distance requirement from schools, measured between closest points of affected property lines, reaching schools outside city limits where the buffer extends in.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "recommended",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "Exhibit D to Draft Order No. 8502"
+  },
+  "notes": "The August 26 hearing draft contained no proximity restriction of any kind. Added at Planning Commission direction.",
+  "tags": [
+    "buffer",
+    "schools"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}
