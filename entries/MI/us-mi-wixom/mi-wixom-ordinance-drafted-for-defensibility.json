@@ -1,0 +1,27 @@
+{
+  "id": "mi-wixom-ordinance-drafted-for-defensibility",
+  "jurisdiction": "us-mi-wixom",
+  "instrument": "City of Wixom zoning ordinance amendment, August 26 2026",
+  "section": "",
+  "mechanism": "use-permission",
+  "summary": "Council adopted data center restrictions including a 1,500-foot setback from residential areas, parks and K-12 schools, plus sound study and water use requirements, effective no later than September 6, 2026, ending the six-month moratorium early.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "2026-09-06",
+  "retrieved": "2026-09-16",
+  "source": {
+    "kind": "secondary",
+    "citation": "Detroit News, August 30 2026"
+  },
+  "notes": "Adopted while the federal complaint was pending. Mayor Patrick Beagle is quoted stating that defensibility of the restrictions against the lawsuit was a consideration in finalizing the ordinance. Approximately 100 people are reported to have attended the meeting. The 1,500-foot setback is the largest identified in this corpus; the next largest is 400 feet.",
+  "confidence_note": "Ordinance text not read. Whether the setback applies to buildings only or also to mechanical equipment and generators is NOT_CHECKED, and that distinction materially changes its effect.",
+  "tags": [
+    "setback",
+    "1500-feet",
+    "litigation-aware"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mi-wixom-federal-complaint",
+  "jurisdiction": "us-mi-wixom",
+  "instrument": "Wixom Industrial One, LLC v. City of Wixom, U.S. District Court, Eastern District of Michigan",
+  "section": "",
+  "mechanism": "enforcement",
+  "summary": "Developer filed in federal court on August 7, 2026 alleging the city violated the state zoning act, after the council unanimously declined to lift a six-month data center moratorium.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "proposed",
+  "retrieved": "2026-09-16",
+  "source": {
+    "kind": "secondary",
+    "citation": "Crain's Detroit Business, WHMI and Detroit News, August 2026"
+  },
+  "notes": "Wixom Industrial One is operated by Dennis Griffin of Pleasant Ridge and is reported to be working with the Missouri firm Sansone Group. The site is approximately 54 to 55 acres at 30625 S. Wixom Road, north of I-96, vacant land zoned light industrial near a DTE transmission line. The proposal is a three-building campus of approximately 519,400 square feet. The complaint is reported to allege that the moratorium was illegal and intended to permanently kill the project, and that the city used the developer's site plan to craft ordinances that would nullify data center development on land already zoned for it.",
+  "confidence_note": "Complaint not read. Case number and docket NOT_CHECKED. Allegations are the plaintiff's and are recorded as allegations, not as findings. No outcome has been reached.",
+  "tags": [
+    "federal",
+    "zoning-act",
+    "pending"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

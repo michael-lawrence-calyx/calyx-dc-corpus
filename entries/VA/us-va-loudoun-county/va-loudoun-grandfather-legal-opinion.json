@@ -1,0 +1,27 @@
+{
+  "id": "va-loudoun-grandfather-legal-opinion",
+  "jurisdiction": "us-va-loudoun-county",
+  "instrument": "Board of Supervisors substitute motion, September 15 2026",
+  "section": "",
+  "mechanism": "process",
+  "summary": "A proposal to end grandfathering protections for pending data center applications was replaced by a unanimous motion directing the County Attorney to deliver a legal opinion on whether the rollback is lawful, due October 6, 2026.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "proposed",
+  "effective": "",
+  "retrieved": "2026-09-16",
+  "source": {
+    "kind": "secondary",
+    "citation": "Virginia Business, September 2026; Piedmont Environmental Council alert, September 9 2026"
+  },
+  "notes": "Supervisors Briskman and TeKrony introduced the resolution; a substitution motion calling for the legal opinion passed instead. The board also declined to direct staff to prepare an amendment ready for a vote on October 6. The amendment as proposed would reach only applications that have not advanced to vesting, which is protected in state code. Reported to affect 17 pending applications.",
+  "confidence_note": "The legal opinion does not yet exist. Whether Virginia law permits the rollback is the open question and is not resolved here. The count of affected applications is carried from reporting and has appeared elsewhere as a different figure.",
+  "tags": [
+    "grandfathering",
+    "vesting",
+    "legality"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

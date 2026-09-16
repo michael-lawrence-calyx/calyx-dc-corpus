@@ -1,0 +1,26 @@
+{
+  "id": "va-deq-permit-basis-annual-not-hourly",
+  "jurisdiction": "us-va-state",
+  "instrument": "Virginia air permit structure for data center backup generators",
+  "section": "",
+  "mechanism": "enforcement",
+  "summary": "Backup generator permits are written as annual emissions tonnage and fuel throughput on a rolling 365-day average, not as hours of operation. Reporting states that so long as a generator stays under its permitted annual level there is no limit on how much it runs.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "retrieved": "2026-09-16",
+  "source": {
+    "kind": "secondary",
+    "citation": "Virginia Mercury, January 14 2026, on Tier II generator permitting"
+  },
+  "notes": "Bears directly on how an exceedance occurs. A single extended outage can consume a substantial share of an annual allowance without any hourly limit being broken. In the Leesburg consent order the reported fuel throughput was approximately 1,190,000 gallons against a permit limit of 665,850, arising from a four-day outage.",
+  "confidence_note": "No permit has been read. The structure is described from reporting on Virginia's regime and may not generalize to other states. Whether any hours-based condition also applies is NOT_CHECKED.",
+  "tags": [
+    "permit-structure",
+    "annual-tonnage",
+    "rolling-365"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

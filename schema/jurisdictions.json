@@ -39,6 +39,41 @@
     "name": "Tucson",
     "state": "AZ"
   },
+  "us-ga-atlanta": {
+    "kind": "municipality",
+    "name": "Atlanta",
+    "state": "GA"
+  },
+  "us-ga-fayetteville": {
+    "kind": "municipality",
+    "name": "Fayetteville",
+    "state": "GA"
+  },
+  "us-ga-psc": {
+    "kind": "regulator",
+    "name": "Georgia Public Service Commission",
+    "state": "GA"
+  },
+  "us-ga-state": {
+    "kind": "state",
+    "name": "State of Georgia",
+    "state": "GA"
+  },
+  "us-mi-saline-township": {
+    "kind": "township",
+    "name": "Saline Township",
+    "state": "MI"
+  },
+  "us-mi-state": {
+    "kind": "state",
+    "name": "State of Michigan",
+    "state": "MI"
+  },
+  "us-mi-wixom": {
+    "kind": "municipality",
+    "name": "Wixom",
+    "state": "MI"
+  },
   "us-oh-aep-ohio": {
     "kind": "utility",
     "name": "AEP Ohio",
@@ -73,6 +108,11 @@
     "kind": "county",
     "name": "Washington County",
     "state": "OR"
+  },
+  "us-pjm": {
+    "kind": "iso",
+    "name": "PJM Interconnection",
+    "state": "XX"
   },
   "us-tx-ercot": {
     "kind": "iso",

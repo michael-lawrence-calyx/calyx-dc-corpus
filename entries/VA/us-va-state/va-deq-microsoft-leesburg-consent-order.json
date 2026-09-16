@@ -1,0 +1,28 @@
+{
+  "id": "va-deq-microsoft-leesburg-consent-order",
+  "jurisdiction": "us-va-state",
+  "instrument": "Virginia DEQ consent order, Microsoft Leesburg data center",
+  "section": "",
+  "mechanism": "generation",
+  "summary": "DEQ ordered approximately $2.5 million after a Leesburg data center exceeded its air permit running backup generators during a four-day substation outage. Reported as the agency's largest civil penalty.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "proposed",
+  "effective": "",
+  "retrieved": "2026-09-16",
+  "source": {
+    "kind": "secondary",
+    "citation": "WJLA and regional reporting, September 16 2026, citing state documents and a DEQ spokesperson"
+  },
+  "notes": "Facility at 19515 Compass Creek Parkway, Leesburg. Outage at the Cochran Mill Electrical Substation June 27 to July 1, 2025. DEQ calculated that for the rolling year October 4, 2024 to October 3, 2025 the facility emitted approximately 102 tons NOx against a 94.67 ton limit, 5.158 tons particulate matter against 3.34, and 11.599 tons VOC against 6.86, all on a rolling 365-day average. Fuel throughput approximately 1,190,000 gallons against a permit limit of 665,850 gallons. Microsoft states its emissions calculation method was less accurate and that it invested approximately $31 million in a system to prevent a future extended outage.",
+  "confidence_note": "The consent order itself has not been read. Not final: public comment runs through October 14, 2026 before it can be finalized. All figures are attributed to a DEQ spokesperson through a news outlet, not taken from the order. No inference is drawn about whether the exceedance was avoidable.",
+  "tags": [
+    "enforcement",
+    "air-permit",
+    "exceedance",
+    "hyperscale"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

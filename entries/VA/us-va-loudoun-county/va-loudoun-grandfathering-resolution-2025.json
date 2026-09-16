@@ -1,0 +1,27 @@
+{
+  "id": "va-loudoun-grandfathering-resolution-2025",
+  "jurisdiction": "us-va-loudoun-county",
+  "instrument": "Data Center Grandfathering Resolution, March 2025",
+  "section": "",
+  "mechanism": "process",
+  "summary": "Exempted data center applications submitted by February 12, 2025 from the new special exception requirement, where the project is more than 500 feet from residential units and is diligently pursued through review. Adopted 5-4.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "",
+  "retrieved": "2026-09-16",
+  "source": {
+    "kind": "secondary",
+    "citation": "Loudoun Now, March 2025; Piedmont Environmental Council"
+  },
+  "notes": "Adopted alongside the zoning change eliminating by-right data center development, which passed 7-2 with Supervisors Umstattd and Kershner opposed. Reporting describes the grandfathering resolution as aligning with a Planning Commission recommendation supported by the county chamber of commerce. The only instrument identified in this corpus treating vesting as a standalone published document.",
+  "confidence_note": "Resolution text not read. The 500-foot condition and the diligently pursued standard are carried from reporting and their operative definitions are NOT_CHECKED.",
+  "tags": [
+    "grandfathering",
+    "500-feet",
+    "discretionary"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

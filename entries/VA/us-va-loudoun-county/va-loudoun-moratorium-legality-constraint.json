@@ -1,0 +1,27 @@
+{
+  "id": "va-loudoun-moratorium-legality-constraint",
+  "jurisdiction": "us-va-loudoun-county",
+  "instrument": "County Attorney advice, reported",
+  "section": "",
+  "mechanism": "process",
+  "summary": "The County Attorney is reported to have advised that a blanket moratorium likely lacks legal standing in Virginia because localities must consider each rezoning or special exception application on its individual merits.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "",
+  "retrieved": "2026-09-16",
+  "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting, July through September 2026; advocacy accounts"
+  },
+  "notes": "Bears on comparison across states. A land use moratorium adopted by resolution in an Oregon city may not be available in the same form in Virginia. A neighboring Virginia city is reported to distinguish a pause pending ordinance revision from a moratorium, described there as a total wipeout of one specific use.",
+  "confidence_note": "No written opinion has been read. The advice is reported rather than published. Virginia statutory authority for local moratoria is NOT_CHECKED and no Virginia Code section is cited here.",
+  "tags": [
+    "legality",
+    "moratorium",
+    "cross-state"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

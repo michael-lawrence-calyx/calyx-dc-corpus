@@ -1,0 +1,27 @@
+{
+  "id": "va-loudoun-pause-direction-2026-09-15",
+  "jurisdiction": "us-va-loudoun-county",
+  "instrument": "Board of Supervisors action, September 15 2026",
+  "section": "",
+  "mechanism": "process",
+  "summary": "Board voted 7-1-1 to direct staff to draft a resolution pausing new data center applications for 12 months. The board chair described it as time to write new rules rather than a ban or moratorium.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "proposed",
+  "effective": "",
+  "retrieved": "2026-09-16",
+  "source": {
+    "kind": "secondary",
+    "citation": "NBC4 Washington and FOX 5 DC, September 15-16 2026"
+  },
+  "notes": "Supervisor Kristen Umstattd of the Leesburg district voted against; Supervisor Caleb Kershner of the Catoctin district abstained. Reporting states the county attorney advised that an indefinite moratorium would not be legal and that the temporary halt would apply only to new filings. Proposal led by Supervisors Juli Briskman and Laura TeKrony. The pause as proposed would reach applications, site plans and substations.",
+  "confidence_note": "What passed is a direction to draft a resolution, not the resolution itself. No resolution text exists yet. The scope, including whether substations are covered in the drafted version, is NOT_CHECKED.",
+  "tags": [
+    "pause",
+    "12-month",
+    "substations"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

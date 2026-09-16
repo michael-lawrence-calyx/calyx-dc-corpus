@@ -1,0 +1,27 @@
+{
+  "id": "va-generator-census-loudoun",
+  "jurisdiction": "us-va-loudoun-county",
+  "instrument": "Virginia DEQ figures reported in testimony and press",
+  "section": "",
+  "mechanism": "generation",
+  "summary": "Approximately 9,000 backup generators in Virginia, of which approximately 4,700 are in Loudoun County. Approximately 8,000 of the state total are Tier II.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "STALE",
+  "status": "adopted",
+  "effective": "",
+  "retrieved": "2026-09-16",
+  "source": {
+    "kind": "secondary",
+    "citation": "VPM, December 17 2025, attributing figures to a DEQ representative"
+  },
+  "notes": "A single typical Tier II generator is stated to consume approximately 174 gallons of diesel fuel per hour of operation. Reported as the largest concentration of data center backup generation identified in any jurisdiction in this corpus.",
+  "confidence_note": "Figures are from December 2025 and are marked STALE. No primary DEQ inventory has been located. The count basis, whether by permit, by unit, or by facility, is not stated.",
+  "tags": [
+    "census",
+    "tier-II",
+    "fleet-scale"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

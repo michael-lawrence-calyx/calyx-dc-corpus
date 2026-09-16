@@ -1,0 +1,27 @@
+{
+  "id": "or-moratorium-by-resolution",
+  "jurisdiction": "us-or-hillsboro",
+  "instrument": "Resolution No. 2932",
+  "section": "",
+  "mechanism": "state-authority",
+  "summary": "An Oregon city adopted a 120-day land use moratorium on new and expanded data center and energy storage applications as a primary use, enacted at a special meeting with 24 hours of public notice.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "effective": "2026-07-27",
+  "retrieved": "2026-09-14",
+  "source": {
+    "kind": "primary",
+    "citation": "City of Hillsboro Resolution No. 2932"
+  },
+  "notes": "Recorded under state-authority for comparison. What a locality may do about data centers is set at the state level and differs substantially between states. The speed and form available here are not available in every jurisdiction in this corpus.",
+  "confidence_note": "This entry records what one Oregon city did, not the scope of Oregon enabling law generally. ORS provisions governing local land use moratoria have not been examined.",
+  "tags": [
+    "local-authority",
+    "moratorium",
+    "resolution"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

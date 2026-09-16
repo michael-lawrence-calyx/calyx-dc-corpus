@@ -1,0 +1,27 @@
+{
+  "id": "va-deq-emergency-definition-planned-outage",
+  "jurisdiction": "us-va-state",
+  "instrument": "Virginia DEQ guidance, Air and Renewable Energy Division",
+  "section": "",
+  "mechanism": "generation",
+  "summary": "Guidance expanding the definition of emergency to include a planned utility outage, permitting Tier II generators to operate in circumstances previously outside the emergency definition.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "",
+  "retrieved": "2026-09-16",
+  "source": {
+    "kind": "secondary",
+    "citation": "Virginia Mercury and VPM, December 2025, reporting on a September 30 memo from the Director of the Air and Renewable Energy Division"
+  },
+  "notes": "Virginia regulations permit Tier II generators to operate only in emergencies, generally defined as sudden and reasonably unforeseeable events including power outages or natural disasters. Tier IV generators may run outside emergencies but carry more costly emission controls. The guidance adds a utility-scheduled planned outage to the emergency definition, using a scenario in which notice is provided within 14 days or less. A stated driver is that over 100 planned transmission upgrades require temporary outages for grid users.",
+  "confidence_note": "Memo and final guidance not read. Adoption date and current status NOT_CHECKED. Characterizations of the process by which the guidance was finalized appear in advocacy and press accounts and are not carried here.",
+  "tags": [
+    "emergency-definition",
+    "tier-II",
+    "definitional"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

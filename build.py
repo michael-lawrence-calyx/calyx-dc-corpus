@@ -13,7 +13,8 @@ FRESH     = {"FIXED","LIVE","WARM","STALE"}
 STATUS    = {"adopted","proposed","recommended","draft","expired","void"}
 MECHS     = {"use-permission","quantity-cap","definition","load-trigger","acoustic",
              "utility-service","water","generation","storage","rate-allocation",
-             "process","litigation","incentive","connectivity"}
+             "process","litigation","incentive","connectivity",
+             "enforcement","state-authority"}
 SRCKINDS  = {"primary","secondary","sponsored","advocacy","commercial-tracker"}
 ID_RE     = re.compile(r"^[a-z0-9-]+$")
 DATE_RE   = re.compile(r"^\d{4}-\d{2}-\d{2}$")

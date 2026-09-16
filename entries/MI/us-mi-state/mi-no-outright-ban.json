@@ -1,0 +1,26 @@
+{
+  "id": "mi-no-outright-ban",
+  "jurisdiction": "us-mi-state",
+  "instrument": "Michigan law as reported",
+  "section": "",
+  "mechanism": "state-authority",
+  "summary": "Michigan municipalities are reported to be barred from banning data centers outright.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "retrieved": "2026-09-16",
+  "source": {
+    "kind": "secondary",
+    "citation": "Government Technology, July 2026, reporting on the Wixom council proceedings"
+  },
+  "notes": "Bears on which instruments are available to a Michigan locality. A citywide prohibition of the kind adopted elsewhere in this corpus would not be available here on this reading.",
+  "confidence_note": "No statute or case is cited in the source and none has been read. The Michigan Zoning Enabling Act has not been examined. This entry records a reported constraint, not a legal conclusion, and must not be relied on without counsel.",
+  "tags": [
+    "local-authority",
+    "prohibition",
+    "constraint"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

@@ -1,0 +1,26 @@
+{
+  "id": "va-microsoft-remediation-vs-penalty",
+  "jurisdiction": "us-va-state",
+  "instrument": "Virginia DEQ consent order, Microsoft Leesburg data center",
+  "section": "",
+  "mechanism": "enforcement",
+  "summary": "The operator states it invested approximately $31 million in a system to prevent a future extended outage, against a proposed civil penalty of approximately $2.5 million.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "proposed",
+  "retrieved": "2026-09-16",
+  "source": {
+    "kind": "secondary",
+    "citation": "WJLA, September 16 2026, citing a Microsoft spokesperson and state documents"
+  },
+  "notes": "Recorded because the two figures are frequently compared as though the penalty were an alternative to controls. Both figures are the operator's and the agency's own, reported together.",
+  "confidence_note": "Does not establish that remediation spending was caused by this enforcement action, nor that the penalty influenced the decision. The relationship between the two figures is not stated in any document read here. No inference is drawn about whether paying a penalty is cheaper than compliance for any operator.",
+  "tags": [
+    "penalty",
+    "remediation",
+    "cost-comparison"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

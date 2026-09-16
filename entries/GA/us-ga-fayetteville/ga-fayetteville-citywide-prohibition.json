@@ -1,0 +1,26 @@
+{
+  "id": "ga-fayetteville-citywide-prohibition",
+  "jurisdiction": "us-ga-fayetteville",
+  "instrument": "City of Fayetteville zoning action",
+  "section": "",
+  "mechanism": "state-authority",
+  "summary": "Fayetteville is reported to have prohibited new data centers in every zoning district.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "retrieved": "2026-09-16",
+  "source": {
+    "kind": "secondary",
+    "citation": "Atlanta Tech News, June 2026"
+  },
+  "notes": "Reported to follow a QTS campus becoming a significant public issue. Recorded under state-authority because it is the most restrictive instrument identified in this corpus and because the same action is reported to be unavailable to a municipality in at least one other state.",
+  "confidence_note": "Ordinance not read. Adoption date, instrument number and whether any exception or variance path exists are all NOT_CHECKED. Whether Georgia law permits this is not established here; it is recorded only that it was reported to have been done.",
+  "tags": [
+    "prohibition",
+    "all-districts",
+    "most-restrictive"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

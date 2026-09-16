@@ -1,8 +1,10 @@
 {
- "generated": "2026-09-15",
- "count": 33,
+ "generated": "2026-09-16",
+ "count": 50,
  "states": [
   "AZ",
+  "GA",
+  "MI",
   "OH",
   "OR",
   "TX",
@@ -11,6 +13,8 @@
  "jurisdictions": [
   "AEP Ohio",
   "Chandler",
+  "Commonwealth of Virginia",
+  "Fayetteville",
   "Hillsboro",
   "Loudoun County",
   "Marana",
@@ -19,18 +23,23 @@
   "Prince William County",
   "Public Utilities Commission of Ohio",
   "Public Utility Commission of Texas",
+  "Saline Township",
+  "State of Michigan",
   "State of Oregon",
-  "State of Texas"
+  "State of Texas",
+  "Wixom"
  ],
  "mechanisms": [
   "acoustic",
   "definition",
+  "enforcement",
   "generation",
   "litigation",
   "load-trigger",
   "process",
   "quantity-cap",
   "rate-allocation",
+  "state-authority",
   "storage",
   "use-permission",
   "utility-service",
@@ -39,8 +48,8 @@
  "by_origin": {
   "ASSERTED": 0,
   "DERIVED": 0,
-  "OBSERVED": 25,
-  "RELAYED": 8
+  "OBSERVED": 26,
+  "RELAYED": 24
  },
  "entries": [
   {
@@ -517,6 +526,152 @@
    "_path": "entries/AZ/us-az-phoenix/az-phoenix-zta-willserve.json"
   },
   {
+   "id": "ga-fayetteville-citywide-prohibition",
+   "jurisdiction": "us-ga-fayetteville",
+   "instrument": "City of Fayetteville zoning action",
+   "section": "",
+   "mechanism": "state-authority",
+   "summary": "Fayetteville is reported to have prohibited new data centers in every zoning district.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "retrieved": "2026-09-16",
+   "source": {
+    "kind": "secondary",
+    "citation": "Atlanta Tech News, June 2026"
+   },
+   "notes": "Reported to follow a QTS campus becoming a significant public issue. Recorded under state-authority because it is the most restrictive instrument identified in this corpus and because the same action is reported to be unavailable to a municipality in at least one other state.",
+   "confidence_note": "Ordinance not read. Adoption date, instrument number and whether any exception or variance path exists are all NOT_CHECKED. Whether Georgia law permits this is not established here; it is recorded only that it was reported to have been done.",
+   "tags": [
+    "prohibition",
+    "all-districts",
+    "most-restrictive"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "GA",
+   "jurisdiction_name": "Fayetteville",
+   "_path": "entries/GA/us-ga-fayetteville/ga-fayetteville-citywide-prohibition.json"
+  },
+  {
+   "id": "mi-saline-township-settlement",
+   "jurisdiction": "us-mi-saline-township",
+   "instrument": "Settlement, Related Digital v. Saline Township",
+   "section": "",
+   "mechanism": "enforcement",
+   "summary": "After a board voted 4-1 against rezoning 575 acres of farmland, the developer sued, and the board subsequently voted 4-1 to settle rather than litigate. A county judge certified the settlement.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-16",
+   "source": {
+    "kind": "secondary",
+    "citation": "Regional and national reporting, 2026"
+   },
+   "notes": "Reported settlement terms include restoration of the land if the data center goes unused, preservation of existing wild spaces, and several million dollars annually to the community. The board voted to settle after a two-hour closed session; reporting states township attorneys described the case as difficult to win. Township Supervisor James Marion voted against settling.",
+   "confidence_note": "Settlement document not read. Terms are carried from reporting. The legal theory pleaded, the court, and the case number are NOT_CHECKED. No inference is drawn about the merits of either party's position.",
+   "tags": [
+    "settlement",
+    "community-benefit",
+    "rezoning-denial"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "MI",
+   "jurisdiction_name": "Saline Township",
+   "_path": "entries/MI/us-mi-saline-township/mi-saline-township-settlement.json"
+  },
+  {
+   "id": "mi-no-outright-ban",
+   "jurisdiction": "us-mi-state",
+   "instrument": "Michigan law as reported",
+   "section": "",
+   "mechanism": "state-authority",
+   "summary": "Michigan municipalities are reported to be barred from banning data centers outright.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "retrieved": "2026-09-16",
+   "source": {
+    "kind": "secondary",
+    "citation": "Government Technology, July 2026, reporting on the Wixom council proceedings"
+   },
+   "notes": "Bears on which instruments are available to a Michigan locality. A citywide prohibition of the kind adopted elsewhere in this corpus would not be available here on this reading.",
+   "confidence_note": "No statute or case is cited in the source and none has been read. The Michigan Zoning Enabling Act has not been examined. This entry records a reported constraint, not a legal conclusion, and must not be relied on without counsel.",
+   "tags": [
+    "local-authority",
+    "prohibition",
+    "constraint"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "MI",
+   "jurisdiction_name": "State of Michigan",
+   "_path": "entries/MI/us-mi-state/mi-no-outright-ban.json"
+  },
+  {
+   "id": "mi-wixom-federal-complaint",
+   "jurisdiction": "us-mi-wixom",
+   "instrument": "Wixom Industrial One, LLC v. City of Wixom, U.S. District Court, Eastern District of Michigan",
+   "section": "",
+   "mechanism": "enforcement",
+   "summary": "Developer filed in federal court on August 7, 2026 alleging the city violated the state zoning act, after the council unanimously declined to lift a six-month data center moratorium.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "proposed",
+   "retrieved": "2026-09-16",
+   "source": {
+    "kind": "secondary",
+    "citation": "Crain's Detroit Business, WHMI and Detroit News, August 2026"
+   },
+   "notes": "Wixom Industrial One is operated by Dennis Griffin of Pleasant Ridge and is reported to be working with the Missouri firm Sansone Group. The site is approximately 54 to 55 acres at 30625 S. Wixom Road, north of I-96, vacant land zoned light industrial near a DTE transmission line. The proposal is a three-building campus of approximately 519,400 square feet. The complaint is reported to allege that the moratorium was illegal and intended to permanently kill the project, and that the city used the developer's site plan to craft ordinances that would nullify data center development on land already zoned for it.",
+   "confidence_note": "Complaint not read. Case number and docket NOT_CHECKED. Allegations are the plaintiff's and are recorded as allegations, not as findings. No outcome has been reached.",
+   "tags": [
+    "federal",
+    "zoning-act",
+    "pending"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "MI",
+   "jurisdiction_name": "Wixom",
+   "_path": "entries/MI/us-mi-wixom/mi-wixom-federal-complaint.json"
+  },
+  {
+   "id": "mi-wixom-ordinance-drafted-for-defensibility",
+   "jurisdiction": "us-mi-wixom",
+   "instrument": "City of Wixom zoning ordinance amendment, August 26 2026",
+   "section": "",
+   "mechanism": "use-permission",
+   "summary": "Council adopted data center restrictions including a 1,500-foot setback from residential areas, parks and K-12 schools, plus sound study and water use requirements, effective no later than September 6, 2026, ending the six-month moratorium early.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "effective": "2026-09-06",
+   "retrieved": "2026-09-16",
+   "source": {
+    "kind": "secondary",
+    "citation": "Detroit News, August 30 2026"
+   },
+   "notes": "Adopted while the federal complaint was pending. Mayor Patrick Beagle is quoted stating that defensibility of the restrictions against the lawsuit was a consideration in finalizing the ordinance. Approximately 100 people are reported to have attended the meeting. The 1,500-foot setback is the largest identified in this corpus; the next largest is 400 feet.",
+   "confidence_note": "Ordinance text not read. Whether the setback applies to buildings only or also to mechanical equipment and generators is NOT_CHECKED, and that distinction materially changes its effect.",
+   "tags": [
+    "setback",
+    "1500-feet",
+    "litigation-aware"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "MI",
+   "jurisdiction_name": "Wixom",
+   "_path": "entries/MI/us-mi-wixom/mi-wixom-ordinance-drafted-for-defensibility.json"
+  },
+  {
    "id": "oh-aep-service-moratorium",
    "jurisdiction": "us-oh-aep-ohio",
    "mechanism": "utility-service",
@@ -772,6 +927,36 @@
    "_path": "entries/OR/us-or-hillsboro/or-hillsboro-resolution-2932-trigger.json"
   },
   {
+   "id": "or-moratorium-by-resolution",
+   "jurisdiction": "us-or-hillsboro",
+   "instrument": "Resolution No. 2932",
+   "section": "",
+   "mechanism": "state-authority",
+   "summary": "An Oregon city adopted a 120-day land use moratorium on new and expanded data center and energy storage applications as a primary use, enacted at a special meeting with 24 hours of public notice.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "effective": "2026-07-27",
+   "retrieved": "2026-09-14",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Hillsboro Resolution No. 2932"
+   },
+   "notes": "Recorded under state-authority for comparison. What a locality may do about data centers is set at the state level and differs substantially between states. The speed and form available here are not available in every jurisdiction in this corpus.",
+   "confidence_note": "This entry records what one Oregon city did, not the scope of Oregon enabling law generally. ORS provisions governing local land use moratoria have not been examined.",
+   "tags": [
+    "local-authority",
+    "moratorium",
+    "resolution"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "OR",
+   "jurisdiction_name": "Hillsboro",
+   "_path": "entries/OR/us-or-hillsboro/or-moratorium-by-resolution.json"
+  },
+  {
    "id": "or-dlcd-ugb-exclusion",
    "jurisdiction": "us-or-state",
    "mechanism": "quantity-cap",
@@ -888,6 +1073,66 @@
    "_path": "entries/TX/us-tx-state/tx-sb6-site-control.json"
   },
   {
+   "id": "va-generator-census-loudoun",
+   "jurisdiction": "us-va-loudoun-county",
+   "instrument": "Virginia DEQ figures reported in testimony and press",
+   "section": "",
+   "mechanism": "generation",
+   "summary": "Approximately 9,000 backup generators in Virginia, of which approximately 4,700 are in Loudoun County. Approximately 8,000 of the state total are Tier II.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "STALE",
+   "status": "adopted",
+   "effective": "",
+   "retrieved": "2026-09-16",
+   "source": {
+    "kind": "secondary",
+    "citation": "VPM, December 17 2025, attributing figures to a DEQ representative"
+   },
+   "notes": "A single typical Tier II generator is stated to consume approximately 174 gallons of diesel fuel per hour of operation. Reported as the largest concentration of data center backup generation identified in any jurisdiction in this corpus.",
+   "confidence_note": "Figures are from December 2025 and are marked STALE. No primary DEQ inventory has been located. The count basis, whether by permit, by unit, or by facility, is not stated.",
+   "tags": [
+    "census",
+    "tier-II",
+    "fleet-scale"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Loudoun County",
+   "_path": "entries/VA/us-va-loudoun-county/va-generator-census-loudoun.json"
+  },
+  {
+   "id": "va-loudoun-grandfather-legal-opinion",
+   "jurisdiction": "us-va-loudoun-county",
+   "instrument": "Board of Supervisors substitute motion, September 15 2026",
+   "section": "",
+   "mechanism": "process",
+   "summary": "A proposal to end grandfathering protections for pending data center applications was replaced by a unanimous motion directing the County Attorney to deliver a legal opinion on whether the rollback is lawful, due October 6, 2026.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "proposed",
+   "effective": "",
+   "retrieved": "2026-09-16",
+   "source": {
+    "kind": "secondary",
+    "citation": "Virginia Business, September 2026; Piedmont Environmental Council alert, September 9 2026"
+   },
+   "notes": "Supervisors Briskman and TeKrony introduced the resolution; a substitution motion calling for the legal opinion passed instead. The board also declined to direct staff to prepare an amendment ready for a vote on October 6. The amendment as proposed would reach only applications that have not advanced to vesting, which is protected in state code. Reported to affect 17 pending applications.",
+   "confidence_note": "The legal opinion does not yet exist. Whether Virginia law permits the rollback is the open question and is not resolved here. The count of affected applications is carried from reporting and has appeared elsewhere as a different figure.",
+   "tags": [
+    "grandfathering",
+    "vesting",
+    "legality"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Loudoun County",
+   "_path": "entries/VA/us-va-loudoun-county/va-loudoun-grandfather-legal-opinion.json"
+  },
+  {
    "id": "va-loudoun-grandfather",
    "jurisdiction": "us-va-loudoun-county",
    "mechanism": "process",
@@ -914,6 +1159,96 @@
    "state": "VA",
    "jurisdiction_name": "Loudoun County",
    "_path": "entries/VA/us-va-loudoun-county/va-loudoun-grandfather.json"
+  },
+  {
+   "id": "va-loudoun-grandfathering-resolution-2025",
+   "jurisdiction": "us-va-loudoun-county",
+   "instrument": "Data Center Grandfathering Resolution, March 2025",
+   "section": "",
+   "mechanism": "process",
+   "summary": "Exempted data center applications submitted by February 12, 2025 from the new special exception requirement, where the project is more than 500 feet from residential units and is diligently pursued through review. Adopted 5-4.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "effective": "",
+   "retrieved": "2026-09-16",
+   "source": {
+    "kind": "secondary",
+    "citation": "Loudoun Now, March 2025; Piedmont Environmental Council"
+   },
+   "notes": "Adopted alongside the zoning change eliminating by-right data center development, which passed 7-2 with Supervisors Umstattd and Kershner opposed. Reporting describes the grandfathering resolution as aligning with a Planning Commission recommendation supported by the county chamber of commerce. The only instrument identified in this corpus treating vesting as a standalone published document.",
+   "confidence_note": "Resolution text not read. The 500-foot condition and the diligently pursued standard are carried from reporting and their operative definitions are NOT_CHECKED.",
+   "tags": [
+    "grandfathering",
+    "500-feet",
+    "discretionary"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Loudoun County",
+   "_path": "entries/VA/us-va-loudoun-county/va-loudoun-grandfathering-resolution-2025.json"
+  },
+  {
+   "id": "va-loudoun-moratorium-legality-constraint",
+   "jurisdiction": "us-va-loudoun-county",
+   "instrument": "County Attorney advice, reported",
+   "section": "",
+   "mechanism": "process",
+   "summary": "The County Attorney is reported to have advised that a blanket moratorium likely lacks legal standing in Virginia because localities must consider each rezoning or special exception application on its individual merits.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "effective": "",
+   "retrieved": "2026-09-16",
+   "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting, July through September 2026; advocacy accounts"
+   },
+   "notes": "Bears on comparison across states. A land use moratorium adopted by resolution in an Oregon city may not be available in the same form in Virginia. A neighboring Virginia city is reported to distinguish a pause pending ordinance revision from a moratorium, described there as a total wipeout of one specific use.",
+   "confidence_note": "No written opinion has been read. The advice is reported rather than published. Virginia statutory authority for local moratoria is NOT_CHECKED and no Virginia Code section is cited here.",
+   "tags": [
+    "legality",
+    "moratorium",
+    "cross-state"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Loudoun County",
+   "_path": "entries/VA/us-va-loudoun-county/va-loudoun-moratorium-legality-constraint.json"
+  },
+  {
+   "id": "va-loudoun-pause-direction-2026-09-15",
+   "jurisdiction": "us-va-loudoun-county",
+   "instrument": "Board of Supervisors action, September 15 2026",
+   "section": "",
+   "mechanism": "process",
+   "summary": "Board voted 7-1-1 to direct staff to draft a resolution pausing new data center applications for 12 months. The board chair described it as time to write new rules rather than a ban or moratorium.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "proposed",
+   "effective": "",
+   "retrieved": "2026-09-16",
+   "source": {
+    "kind": "secondary",
+    "citation": "NBC4 Washington and FOX 5 DC, September 15-16 2026"
+   },
+   "notes": "Supervisor Kristen Umstattd of the Leesburg district voted against; Supervisor Caleb Kershner of the Catoctin district abstained. Reporting states the county attorney advised that an indefinite moratorium would not be legal and that the temporary halt would apply only to new filings. Proposal led by Supervisors Juli Briskman and Laura TeKrony. The pause as proposed would reach applications, site plans and substations.",
+   "confidence_note": "What passed is a direction to draft a resolution, not the resolution itself. No resolution text exists yet. The scope, including whether substations are covered in the drafted version, is NOT_CHECKED.",
+   "tags": [
+    "pause",
+    "12-month",
+    "substations"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Loudoun County",
+   "_path": "entries/VA/us-va-loudoun-county/va-loudoun-pause-direction-2026-09-15.json"
   },
   {
    "id": "va-loudoun-zoam-2024-0001",
@@ -972,6 +1307,184 @@
    "state": "VA",
    "jurisdiction_name": "Prince William County",
    "_path": "entries/VA/us-va-prince-william-county/va-pw-notice-void.json"
+  },
+  {
+   "id": "va-deq-emergency-definition-planned-outage",
+   "jurisdiction": "us-va-state",
+   "instrument": "Virginia DEQ guidance, Air and Renewable Energy Division",
+   "section": "",
+   "mechanism": "generation",
+   "summary": "Guidance expanding the definition of emergency to include a planned utility outage, permitting Tier II generators to operate in circumstances previously outside the emergency definition.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "effective": "",
+   "retrieved": "2026-09-16",
+   "source": {
+    "kind": "secondary",
+    "citation": "Virginia Mercury and VPM, December 2025, reporting on a September 30 memo from the Director of the Air and Renewable Energy Division"
+   },
+   "notes": "Virginia regulations permit Tier II generators to operate only in emergencies, generally defined as sudden and reasonably unforeseeable events including power outages or natural disasters. Tier IV generators may run outside emergencies but carry more costly emission controls. The guidance adds a utility-scheduled planned outage to the emergency definition, using a scenario in which notice is provided within 14 days or less. A stated driver is that over 100 planned transmission upgrades require temporary outages for grid users.",
+   "confidence_note": "Memo and final guidance not read. Adoption date and current status NOT_CHECKED. Characterizations of the process by which the guidance was finalized appear in advocacy and press accounts and are not carried here.",
+   "tags": [
+    "emergency-definition",
+    "tier-II",
+    "definitional"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Commonwealth of Virginia",
+   "_path": "entries/VA/us-va-state/va-deq-emergency-definition-planned-outage.json"
+  },
+  {
+   "id": "va-deq-microsoft-leesburg-consent-order",
+   "jurisdiction": "us-va-state",
+   "instrument": "Virginia DEQ consent order, Microsoft Leesburg data center",
+   "section": "",
+   "mechanism": "generation",
+   "summary": "DEQ ordered approximately $2.5 million after a Leesburg data center exceeded its air permit running backup generators during a four-day substation outage. Reported as the agency's largest civil penalty.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "proposed",
+   "effective": "",
+   "retrieved": "2026-09-16",
+   "source": {
+    "kind": "secondary",
+    "citation": "WJLA and regional reporting, September 16 2026, citing state documents and a DEQ spokesperson"
+   },
+   "notes": "Facility at 19515 Compass Creek Parkway, Leesburg. Outage at the Cochran Mill Electrical Substation June 27 to July 1, 2025. DEQ calculated that for the rolling year October 4, 2024 to October 3, 2025 the facility emitted approximately 102 tons NOx against a 94.67 ton limit, 5.158 tons particulate matter against 3.34, and 11.599 tons VOC against 6.86, all on a rolling 365-day average. Fuel throughput approximately 1,190,000 gallons against a permit limit of 665,850 gallons. Microsoft states its emissions calculation method was less accurate and that it invested approximately $31 million in a system to prevent a future extended outage.",
+   "confidence_note": "The consent order itself has not been read. Not final: public comment runs through October 14, 2026 before it can be finalized. All figures are attributed to a DEQ spokesperson through a news outlet, not taken from the order. No inference is drawn about whether the exceedance was avoidable.",
+   "tags": [
+    "enforcement",
+    "air-permit",
+    "exceedance",
+    "hyperscale"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Commonwealth of Virginia",
+   "_path": "entries/VA/us-va-state/va-deq-microsoft-leesburg-consent-order.json"
+  },
+  {
+   "id": "va-deq-permit-basis-annual-not-hourly",
+   "jurisdiction": "us-va-state",
+   "instrument": "Virginia air permit structure for data center backup generators",
+   "section": "",
+   "mechanism": "enforcement",
+   "summary": "Backup generator permits are written as annual emissions tonnage and fuel throughput on a rolling 365-day average, not as hours of operation. Reporting states that so long as a generator stays under its permitted annual level there is no limit on how much it runs.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "retrieved": "2026-09-16",
+   "source": {
+    "kind": "secondary",
+    "citation": "Virginia Mercury, January 14 2026, on Tier II generator permitting"
+   },
+   "notes": "Bears directly on how an exceedance occurs. A single extended outage can consume a substantial share of an annual allowance without any hourly limit being broken. In the Leesburg consent order the reported fuel throughput was approximately 1,190,000 gallons against a permit limit of 665,850, arising from a four-day outage.",
+   "confidence_note": "No permit has been read. The structure is described from reporting on Virginia's regime and may not generalize to other states. Whether any hours-based condition also applies is NOT_CHECKED.",
+   "tags": [
+    "permit-structure",
+    "annual-tonnage",
+    "rolling-365"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Commonwealth of Virginia",
+   "_path": "entries/VA/us-va-state/va-deq-permit-basis-annual-not-hourly.json"
+  },
+  {
+   "id": "va-hb507-generator-emissions-standard",
+   "jurisdiction": "us-va-state",
+   "instrument": "HB 507 (2026 session)",
+   "section": "",
+   "mechanism": "generation",
+   "summary": "Requires data centers applying for air permits on or after July 1, 2026 to meet emissions limits at least as stringent as a stated standard, with DEQ guidance pointing toward Tier 4 controls.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "effective": "2026-07-01",
+   "retrieved": "2026-09-16",
+   "source": {
+    "kind": "secondary",
+    "citation": "Data Center Knowledge, July 2026, on revised Virginia DEQ generator rules"
+   },
+   "notes": "Associated DEQ guidance applies to permit applications submitted on or after July 1, 2026 and reflects a stated conclusion that hyperscale backup fleets no longer fit traditional emergency-only assumptions. Reported control technologies include selective catalytic reduction, diesel particulate filters, and continuous emissions monitoring systems.",
+   "confidence_note": "Enrolled bill text not read. The specific standard the limits must be at least as stringent as is not identified here. DEQ guidance document not read. Whether the guidance is advisory or binding, and how it interacts with the statute, is NOT_CHECKED.",
+   "tags": [
+    "tier-4",
+    "air-permit",
+    "statute"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Commonwealth of Virginia",
+   "_path": "entries/VA/us-va-state/va-hb507-generator-emissions-standard.json"
+  },
+  {
+   "id": "va-individual-merits-constraint",
+   "jurisdiction": "us-va-state",
+   "instrument": "County Attorney advice as reported",
+   "section": "",
+   "mechanism": "state-authority",
+   "summary": "A Virginia county attorney is reported to have advised that a blanket moratorium likely lacks legal standing because localities must consider each rezoning or special exception application on its individual merits.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "retrieved": "2026-09-16",
+   "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting and advocacy accounts, July through September 2026"
+   },
+   "notes": "A neighboring Virginia city is reported to distinguish a pause pending ordinance revision from a moratorium, described there as a total wipeout of one specific use. That distinction appears to be a drafting response to the same constraint.",
+   "confidence_note": "No written opinion has been read and no Virginia Code section is cited here. Reported advice, not a published legal conclusion.",
+   "tags": [
+    "local-authority",
+    "moratorium",
+    "individual-merits"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Commonwealth of Virginia",
+   "_path": "entries/VA/us-va-state/va-individual-merits-constraint.json"
+  },
+  {
+   "id": "va-microsoft-remediation-vs-penalty",
+   "jurisdiction": "us-va-state",
+   "instrument": "Virginia DEQ consent order, Microsoft Leesburg data center",
+   "section": "",
+   "mechanism": "enforcement",
+   "summary": "The operator states it invested approximately $31 million in a system to prevent a future extended outage, against a proposed civil penalty of approximately $2.5 million.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "proposed",
+   "retrieved": "2026-09-16",
+   "source": {
+    "kind": "secondary",
+    "citation": "WJLA, September 16 2026, citing a Microsoft spokesperson and state documents"
+   },
+   "notes": "Recorded because the two figures are frequently compared as though the penalty were an alternative to controls. Both figures are the operator's and the agency's own, reported together.",
+   "confidence_note": "Does not establish that remediation spending was caused by this enforcement action, nor that the penalty influenced the decision. The relationship between the two figures is not stated in any document read here. No inference is drawn about whether paying a penalty is cheaper than compliance for any operator.",
+   "tags": [
+    "penalty",
+    "remediation",
+    "cost-comparison"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Commonwealth of Virginia",
+   "_path": "entries/VA/us-va-state/va-microsoft-remediation-vs-penalty.json"
   }
  ]
 }

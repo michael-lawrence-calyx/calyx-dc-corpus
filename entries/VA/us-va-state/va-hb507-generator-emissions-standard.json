@@ -1,0 +1,27 @@
+{
+  "id": "va-hb507-generator-emissions-standard",
+  "jurisdiction": "us-va-state",
+  "instrument": "HB 507 (2026 session)",
+  "section": "",
+  "mechanism": "generation",
+  "summary": "Requires data centers applying for air permits on or after July 1, 2026 to meet emissions limits at least as stringent as a stated standard, with DEQ guidance pointing toward Tier 4 controls.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "2026-07-01",
+  "retrieved": "2026-09-16",
+  "source": {
+    "kind": "secondary",
+    "citation": "Data Center Knowledge, July 2026, on revised Virginia DEQ generator rules"
+  },
+  "notes": "Associated DEQ guidance applies to permit applications submitted on or after July 1, 2026 and reflects a stated conclusion that hyperscale backup fleets no longer fit traditional emergency-only assumptions. Reported control technologies include selective catalytic reduction, diesel particulate filters, and continuous emissions monitoring systems.",
+  "confidence_note": "Enrolled bill text not read. The specific standard the limits must be at least as stringent as is not identified here. DEQ guidance document not read. Whether the guidance is advisory or binding, and how it interacts with the statute, is NOT_CHECKED.",
+  "tags": [
+    "tier-4",
+    "air-permit",
+    "statute"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

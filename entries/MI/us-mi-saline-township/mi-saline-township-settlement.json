@@ -1,0 +1,26 @@
+{
+  "id": "mi-saline-township-settlement",
+  "jurisdiction": "us-mi-saline-township",
+  "instrument": "Settlement, Related Digital v. Saline Township",
+  "section": "",
+  "mechanism": "enforcement",
+  "summary": "After a board voted 4-1 against rezoning 575 acres of farmland, the developer sued, and the board subsequently voted 4-1 to settle rather than litigate. A county judge certified the settlement.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-16",
+  "source": {
+    "kind": "secondary",
+    "citation": "Regional and national reporting, 2026"
+  },
+  "notes": "Reported settlement terms include restoration of the land if the data center goes unused, preservation of existing wild spaces, and several million dollars annually to the community. The board voted to settle after a two-hour closed session; reporting states township attorneys described the case as difficult to win. Township Supervisor James Marion voted against settling.",
+  "confidence_note": "Settlement document not read. Terms are carried from reporting. The legal theory pleaded, the court, and the case number are NOT_CHECKED. No inference is drawn about the merits of either party's position.",
+  "tags": [
+    "settlement",
+    "community-benefit",
+    "rezoning-denial"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

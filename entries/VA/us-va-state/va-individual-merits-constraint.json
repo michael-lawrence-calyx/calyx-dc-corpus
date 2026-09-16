@@ -1,0 +1,26 @@
+{
+  "id": "va-individual-merits-constraint",
+  "jurisdiction": "us-va-state",
+  "instrument": "County Attorney advice as reported",
+  "section": "",
+  "mechanism": "state-authority",
+  "summary": "A Virginia county attorney is reported to have advised that a blanket moratorium likely lacks legal standing because localities must consider each rezoning or special exception application on its individual merits.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "retrieved": "2026-09-16",
+  "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting and advocacy accounts, July through September 2026"
+  },
+  "notes": "A neighboring Virginia city is reported to distinguish a pause pending ordinance revision from a moratorium, described there as a total wipeout of one specific use. That distinction appears to be a drafting response to the same constraint.",
+  "confidence_note": "No written opinion has been read and no Virginia Code section is cited here. Reported advice, not a published legal conclusion.",
+  "tags": [
+    "local-authority",
+    "moratorium",
+    "individual-merits"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}
