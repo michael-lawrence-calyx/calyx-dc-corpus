@@ -1,0 +1,28 @@
+{
+  "id": "va-loudoun-legislative-application-pause-2026-09-15",
+  "jurisdiction": "us-va-loudoun-county",
+  "instrument": "Board of Supervisors action, September 15 2026",
+  "section": "",
+  "mechanism": "process",
+  "summary": "Board voted 7-1-1 to direct staff to draft a resolution pausing consideration of legislative data center and substation applications for up to 12 months from the date the application was submitted to the planning commission.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "proposed",
+  "retrieved": "2026-09-17",
+  "source": {
+    "kind": "secondary",
+    "citation": "DC News Now, NBC4, FOX 5 DC and WJLA, September 15-16 2026"
+  },
+  "notes": "Supervisor Kristen Umstattd opposed; Supervisor Caleb Kershner abstained. Board Chair Phyllis Randall described the measure as not a ban or moratorium but time to craft new laws. Projects already in the pipeline unaffected. Final vote expected October 13, 2026; the separate grandfather amendment report is scheduled for October 6. Substations are named expressly, which no other jurisdiction in this corpus does.",
+  "confidence_note": "What passed is a direction to draft a resolution. No resolution text exists. The 12-month clock running from application submission rather than from adoption is an unusual construction and has not been read in any document.",
+  "supersedes": "va-loudoun-pause-direction-2026-09-15",
+  "tags": [
+    "pause",
+    "12-month",
+    "substations",
+    "legislative-applications"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

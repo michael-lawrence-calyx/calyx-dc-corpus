@@ -1,0 +1,27 @@
+{
+  "id": "md-montgomery-bill-19-26",
+  "jurisdiction": "us-md-montgomery-county",
+  "instrument": "Expedited Bill 19-26",
+  "section": "",
+  "mechanism": "use-permission",
+  "summary": "Signed into law August 10, 2026 following an 11-0 council vote. Temporarily prohibits the Department of Permitting Services from issuing data center permits for 18 months, alongside an amended zoning measure placing limitations on data center development.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "2026-08-10",
+  "retrieved": "2026-09-17",
+  "source": {
+    "kind": "secondary",
+    "citation": "Montgomery County Council release, July 28 2026; dcmap.us policy tracker"
+  },
+  "notes": "The county describes the 18-month term as a compromise between a six-month proposal and a two-year proposal. The amended zoning measure is described as a bridge to a future, more extensive zoning framework. A permit moratorium is a distinct instrument from an application moratorium: it reaches projects that have already been approved but not yet permitted.",
+  "confidence_note": "Bill text not read. Whether previously approved projects are exempt is NOT_CHECKED.",
+  "tags": [
+    "18-month",
+    "permit-moratorium",
+    "compromise"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

@@ -39,6 +39,21 @@
     "name": "Tucson",
     "state": "AZ"
   },
+  "us-ca-imperial-county": {
+    "kind": "county",
+    "name": "Imperial County",
+    "state": "CA"
+  },
+  "us-ca-richmond": {
+    "kind": "municipality",
+    "name": "Richmond",
+    "state": "CA"
+  },
+  "us-ca-state": {
+    "kind": "state",
+    "name": "State of California",
+    "state": "CA"
+  },
   "us-ga-atlanta": {
     "kind": "municipality",
     "name": "Atlanta",
@@ -59,6 +74,21 @@
     "name": "State of Georgia",
     "state": "GA"
   },
+  "us-in-elkhart": {
+    "kind": "municipality",
+    "name": "Elkhart",
+    "state": "IN"
+  },
+  "us-in-indianapolis": {
+    "kind": "municipality",
+    "name": "Indianapolis and Marion County",
+    "state": "IN"
+  },
+  "us-md-montgomery-county": {
+    "kind": "county",
+    "name": "Montgomery County",
+    "state": "MD"
+  },
   "us-mi-saline-township": {
     "kind": "township",
     "name": "Saline Township",
@@ -73,6 +103,21 @@
     "kind": "municipality",
     "name": "Wixom",
     "state": "MI"
+  },
+  "us-mo-festus": {
+    "kind": "municipality",
+    "name": "Festus",
+    "state": "MO"
+  },
+  "us-nc-lee-county": {
+    "kind": "county",
+    "name": "Lee County and City of Sanford",
+    "state": "NC"
+  },
+  "us-nc-raleigh": {
+    "kind": "municipality",
+    "name": "Raleigh",
+    "state": "NC"
   },
   "us-oh-aep-ohio": {
     "kind": "utility",
@@ -107,6 +152,11 @@
   "us-or-washington-county": {
     "kind": "county",
     "name": "Washington County",
+    "state": "OR"
+  },
+  "us-or-woodburn": {
+    "kind": "municipality",
+    "name": "Woodburn",
     "state": "OR"
   },
   "us-pjm": {

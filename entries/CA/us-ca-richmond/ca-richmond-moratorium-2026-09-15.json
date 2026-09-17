@@ -1,0 +1,27 @@
+{
+  "id": "ca-richmond-moratorium-2026-09-15",
+  "jurisdiction": "us-ca-richmond",
+  "instrument": "Urgency ordinance, Richmond City Council",
+  "section": "",
+  "mechanism": "use-permission",
+  "summary": "Council adopted a 45-day moratorium on new data centers 6-1 with one abstention. Under a staff amendment the city may continue to accept and process applications during the moratorium but may not approve them or issue permits.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-09-15",
+  "retrieved": "2026-09-17",
+  "source": {
+    "kind": "secondary",
+    "citation": "Contra Costa News and regional reporting, September 2026"
+  },
+  "notes": "Councilmember Jamelia Brown abstained. Reported as the second city in Contra Costa County and the third in the Bay Area to adopt a moratorium, following Oakley and Gilroy. No pending data center applications were reported at adoption. The process-but-do-not-approve construction is a distinct instrument design not identified elsewhere in this corpus.",
+  "confidence_note": "Ordinance text not read. Whether the accept-and-process provision survived into the adopted text is NOT_CHECKED.",
+  "tags": [
+    "45-day",
+    "process-not-approve",
+    "bay-area"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

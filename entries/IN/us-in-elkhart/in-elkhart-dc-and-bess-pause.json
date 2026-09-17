@@ -1,0 +1,27 @@
+{
+  "id": "in-elkhart-dc-and-bess-pause",
+  "jurisdiction": "us-in-elkhart",
+  "instrument": "City Council action, August 27 2026",
+  "section": "",
+  "mechanism": "storage",
+  "summary": "Council voted 9-0 to stop accepting data center and battery storage applications until December 2027 while studying grid, water, safety, traffic and noise impacts.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "2026-08-27",
+  "retrieved": "2026-09-17",
+  "source": {
+    "kind": "secondary",
+    "citation": "datacenterbans.com Indiana page"
+  },
+  "notes": "One of several jurisdictions pausing data centers and battery energy storage together in a single instrument, alongside Hillsboro's Resolution No. 2932. A separate county-level moratorium is reported to remain in effect.",
+  "confidence_note": "Ordinance not read. Whether the two uses are defined jointly or separately in the text is NOT_CHECKED, and that determines whether standalone storage is caught.",
+  "tags": [
+    "9-0",
+    "BESS",
+    "joint-pause"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

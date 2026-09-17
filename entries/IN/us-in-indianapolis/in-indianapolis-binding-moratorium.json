@@ -1,0 +1,27 @@
+{
+  "id": "in-indianapolis-binding-moratorium",
+  "jurisdiction": "us-in-indianapolis",
+  "instrument": "City-County Council ordinance",
+  "section": "",
+  "mechanism": "use-permission",
+  "summary": "City-County Council voted 23-1 on August 10, 2026 to bar new data center construction in Marion County through the end of 2027. Three already-approved projects are exempt.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "2026-08-10",
+  "retrieved": "2026-09-17",
+  "source": {
+    "kind": "secondary",
+    "citation": "datacenterbans.com Indiana page; dcmap.us policy tracker"
+  },
+  "notes": "Preceded by a non-binding resolution urging the Metropolitan Development Commission to pause approvals, and by a committee vote of 10-3 on July 13 2026. The Metropolitan Development Commission separately approved a pause on new permits through the end of 2027.",
+  "confidence_note": "Ordinance number and text NOT_CHECKED. The relationship between the Council ordinance and the Metropolitan Development Commission pause is not established here.",
+  "tags": [
+    "23-1",
+    "through-2027",
+    "exemptions"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

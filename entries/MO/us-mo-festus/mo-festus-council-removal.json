@@ -1,0 +1,26 @@
+{
+  "id": "mo-festus-council-removal",
+  "jurisdiction": "us-mo-festus",
+  "instrument": "Municipal election result",
+  "section": "",
+  "mechanism": "state-authority",
+  "summary": "Voters in Festus removed members of the city council who had supported data center development.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-17",
+  "source": {
+    "kind": "secondary",
+    "citation": "KCUR, September 17 2026, quoting a Festus resident at a Missouri Capitol rally"
+  },
+  "notes": "Recorded as a distinct mechanism. Every other entry in this corpus records an instrument adopted by a governing body or a court. This records the replacement of the governing body itself. No jurisdiction tracker identified in this corpus treats electoral turnover as a data center outcome.",
+  "confidence_note": "No election record has been read. Which offices, which election, the margins, and whether data centers were the operative issue are all NOT_CHECKED. The account is a resident's statement reported at a rally, and is a single-hop relay of a partisan speaker.",
+  "tags": [
+    "electoral",
+    "turnover",
+    "novel-mechanism"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

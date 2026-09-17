@@ -1,0 +1,26 @@
+{
+  "id": "or-woodburn-120-day-moratorium",
+  "jurisdiction": "us-or-woodburn",
+  "instrument": "City Council action, Woodburn Oregon",
+  "section": "",
+  "mechanism": "use-permission",
+  "summary": "City Council unanimously approved a 120-day moratorium on new data centers to review zoning, utility and environmental impacts before developing regulations.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "retrieved": "2026-09-17",
+  "source": {
+    "kind": "commercial-tracker",
+    "citation": "Data Centers Daily Notes, September 16 2026"
+  },
+  "notes": "Second Oregon city identified using a 120-day land use moratorium, the same term adopted by Hillsboro in July 2026 under Oregon's local moratorium statute. Establishes the instrument as a pattern in Oregon rather than a single instance.",
+  "confidence_note": "Ordinance or resolution not read. Adoption date, effective date and the statutory basis are NOT_CHECKED.",
+  "tags": [
+    "120-day",
+    "oregon-statute",
+    "second-instance"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

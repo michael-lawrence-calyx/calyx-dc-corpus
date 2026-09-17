@@ -1,0 +1,26 @@
+{
+  "id": "ca-imperial-county-ceqa-ruling",
+  "jurisdiction": "us-ca-imperial-county",
+  "instrument": "Imperial County Superior Court final ruling",
+  "section": "",
+  "mechanism": "enforcement",
+  "summary": "A court delivered a final ruling halting a nearly one-million-square-foot data center complex that had been approved without review under the California Environmental Quality Act.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "FIXED",
+  "status": "void",
+  "retrieved": "2026-09-17",
+  "source": {
+    "kind": "commercial-tracker",
+    "citation": "datacenterbans.com weekly summary, September 2026"
+  },
+  "notes": "A fourth distinct legal theory in this corpus, alongside public notice defect, state zoning act violation, and settlement under litigation pressure. Described by the source as a precedent for litigation as a check on fast-tracked county approvals.",
+  "confidence_note": "Ruling not read. Case name, number, court date and the precise CEQA holding are all NOT_CHECKED. The source is a commercial tracker and the characterization as precedent is the tracker's, not a court's.",
+  "tags": [
+    "CEQA",
+    "litigation",
+    "void"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

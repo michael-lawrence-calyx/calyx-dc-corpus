@@ -1,0 +1,26 @@
+{
+  "id": "nc-raleigh-10000-sqft-threshold",
+  "jurisdiction": "us-nc-raleigh",
+  "instrument": "Draft moratorium proposal, Raleigh City Council",
+  "section": "",
+  "mechanism": "load-trigger",
+  "summary": "The mayor requested Council review of a six-month moratorium reaching data centers larger than 10,000 square feet, with a vote set for the October 6, 2026 meeting.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "draft",
+  "retrieved": "2026-09-17",
+  "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting, September 2026"
+  },
+  "notes": "The only floor-area threshold identified in this corpus. Every other trigger in the file is expressed in megawatts, acreage, or gallons.",
+  "confidence_note": "Draft not read. Whether the threshold is gross floor area, building footprint or something else is NOT_CHECKED, and that distinction materially changes what it reaches.",
+  "tags": [
+    "10000-sqft",
+    "floor-area",
+    "threshold"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

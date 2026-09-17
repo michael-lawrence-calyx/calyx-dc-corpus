@@ -1,39 +1,58 @@
 {
- "generated": "2026-09-16",
- "count": 50,
+ "generated": "2026-09-17",
+ "count": 65,
  "states": [
   "AZ",
+  "CA",
   "GA",
+  "IN",
+  "MD",
   "MI",
+  "MO",
+  "NC",
   "OH",
   "OR",
   "TX",
-  "VA"
+  "VA",
+  "XX"
  ],
  "jurisdictions": [
   "AEP Ohio",
   "Chandler",
   "Commonwealth of Virginia",
+  "Elkhart",
   "Fayetteville",
+  "Festus",
   "Hillsboro",
+  "Imperial County",
+  "Indianapolis and Marion County",
+  "Lee County and City of Sanford",
   "Loudoun County",
   "Marana",
   "Maricopa County",
+  "Montgomery County",
+  "PJM Interconnection",
   "Phoenix",
+  "Pinal County",
   "Prince William County",
   "Public Utilities Commission of Ohio",
   "Public Utility Commission of Texas",
+  "Raleigh",
+  "Richmond",
   "Saline Township",
+  "State of California",
   "State of Michigan",
   "State of Oregon",
   "State of Texas",
-  "Wixom"
+  "Wixom",
+  "Woodburn"
  ],
  "mechanisms": [
   "acoustic",
   "definition",
   "enforcement",
   "generation",
+  "incentive",
   "litigation",
   "load-trigger",
   "process",
@@ -49,7 +68,7 @@
   "ASSERTED": 0,
   "DERIVED": 0,
   "OBSERVED": 26,
-  "RELAYED": 24
+  "RELAYED": 39
  },
  "entries": [
   {
@@ -526,6 +545,123 @@
    "_path": "entries/AZ/us-az-phoenix/az-phoenix-zta-willserve.json"
   },
   {
+   "id": "az-pinal-vermaland-eloy-denial",
+   "jurisdiction": "us-az-pinal-county",
+   "instrument": "Board of Supervisors rezoning decision",
+   "section": "",
+   "mechanism": "use-permission",
+   "summary": "Supervisors rejected Vermaland's 3,300-acre project near Eloy, reported as what would have been Arizona's largest data center campus.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "FIXED",
+   "status": "void",
+   "retrieved": "2026-09-17",
+   "source": {
+    "kind": "commercial-tracker",
+    "citation": "datacenterbans.com, September 2026"
+   },
+   "notes": "Pinal County's zoning code is reported to contain no definitions or development requirements for data centers. A denial in a jurisdiction with no data center provisions is a different fact pattern from a denial under an adopted standard.",
+   "confidence_note": "Case number, hearing date and vote are NOT_CHECKED. No county record has been read.",
+   "tags": [
+    "denial",
+    "3300-acres",
+    "no-code"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "AZ",
+   "jurisdiction_name": "Pinal County",
+   "_path": "entries/AZ/us-az-pinal-county/az-pinal-vermaland-eloy-denial.json"
+  },
+  {
+   "id": "ca-imperial-county-ceqa-ruling",
+   "jurisdiction": "us-ca-imperial-county",
+   "instrument": "Imperial County Superior Court final ruling",
+   "section": "",
+   "mechanism": "enforcement",
+   "summary": "A court delivered a final ruling halting a nearly one-million-square-foot data center complex that had been approved without review under the California Environmental Quality Act.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "FIXED",
+   "status": "void",
+   "retrieved": "2026-09-17",
+   "source": {
+    "kind": "commercial-tracker",
+    "citation": "datacenterbans.com weekly summary, September 2026"
+   },
+   "notes": "A fourth distinct legal theory in this corpus, alongside public notice defect, state zoning act violation, and settlement under litigation pressure. Described by the source as a precedent for litigation as a check on fast-tracked county approvals.",
+   "confidence_note": "Ruling not read. Case name, number, court date and the precise CEQA holding are all NOT_CHECKED. The source is a commercial tracker and the characterization as precedent is the tracker's, not a court's.",
+   "tags": [
+    "CEQA",
+    "litigation",
+    "void"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "CA",
+   "jurisdiction_name": "Imperial County",
+   "_path": "entries/CA/us-ca-imperial-county/ca-imperial-county-ceqa-ruling.json"
+  },
+  {
+   "id": "ca-richmond-moratorium-2026-09-15",
+   "jurisdiction": "us-ca-richmond",
+   "instrument": "Urgency ordinance, Richmond City Council",
+   "section": "",
+   "mechanism": "use-permission",
+   "summary": "Council adopted a 45-day moratorium on new data centers 6-1 with one abstention. Under a staff amendment the city may continue to accept and process applications during the moratorium but may not approve them or issue permits.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "effective": "2026-09-15",
+   "retrieved": "2026-09-17",
+   "source": {
+    "kind": "secondary",
+    "citation": "Contra Costa News and regional reporting, September 2026"
+   },
+   "notes": "Councilmember Jamelia Brown abstained. Reported as the second city in Contra Costa County and the third in the Bay Area to adopt a moratorium, following Oakley and Gilroy. No pending data center applications were reported at adoption. The process-but-do-not-approve construction is a distinct instrument design not identified elsewhere in this corpus.",
+   "confidence_note": "Ordinance text not read. Whether the accept-and-process provision survived into the adopted text is NOT_CHECKED.",
+   "tags": [
+    "45-day",
+    "process-not-approve",
+    "bay-area"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "CA",
+   "jurisdiction_name": "Richmond",
+   "_path": "entries/CA/us-ca-richmond/ca-richmond-moratorium-2026-09-15.json"
+  },
+  {
+   "id": "ca-gov-code-65858",
+   "jurisdiction": "us-ca-state",
+   "instrument": "California Government Code \u00a7 65858",
+   "section": "65858",
+   "mechanism": "state-authority",
+   "summary": "An urgency interim ordinance prohibiting new land uses requires a four-fifths vote of the governing body and takes effect for 45 days initially, extendable by 22 months and 15 days for a maximum of two years.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-17",
+   "source": {
+    "kind": "secondary",
+    "citation": "Hoodline and Contra Costa News, September 2026, citing the statute"
+   },
+   "notes": "Explains why California data center moratoria adopted in 2026 are uniformly 45 days at first reading. Richmond staff are reported to intend returning within the 45-day period to seek the extension, so the initial term understates the instrument's reach.",
+   "confidence_note": "Statute not read in original. The extension structure is carried from two secondary accounts and the precise sequence of extensions has not been verified against the code text.",
+   "tags": [
+    "45-day",
+    "four-fifths",
+    "urgency-ordinance"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "CA",
+   "jurisdiction_name": "State of California",
+   "_path": "entries/CA/us-ca-state/ca-gov-code-65858.json"
+  },
+  {
    "id": "ga-fayetteville-citywide-prohibition",
    "jurisdiction": "us-ga-fayetteville",
    "instrument": "City of Fayetteville zoning action",
@@ -553,6 +689,96 @@
    "state": "GA",
    "jurisdiction_name": "Fayetteville",
    "_path": "entries/GA/us-ga-fayetteville/ga-fayetteville-citywide-prohibition.json"
+  },
+  {
+   "id": "in-elkhart-dc-and-bess-pause",
+   "jurisdiction": "us-in-elkhart",
+   "instrument": "City Council action, August 27 2026",
+   "section": "",
+   "mechanism": "storage",
+   "summary": "Council voted 9-0 to stop accepting data center and battery storage applications until December 2027 while studying grid, water, safety, traffic and noise impacts.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "effective": "2026-08-27",
+   "retrieved": "2026-09-17",
+   "source": {
+    "kind": "secondary",
+    "citation": "datacenterbans.com Indiana page"
+   },
+   "notes": "One of several jurisdictions pausing data centers and battery energy storage together in a single instrument, alongside Hillsboro's Resolution No. 2932. A separate county-level moratorium is reported to remain in effect.",
+   "confidence_note": "Ordinance not read. Whether the two uses are defined jointly or separately in the text is NOT_CHECKED, and that determines whether standalone storage is caught.",
+   "tags": [
+    "9-0",
+    "BESS",
+    "joint-pause"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "IN",
+   "jurisdiction_name": "Elkhart",
+   "_path": "entries/IN/us-in-elkhart/in-elkhart-dc-and-bess-pause.json"
+  },
+  {
+   "id": "in-indianapolis-binding-moratorium",
+   "jurisdiction": "us-in-indianapolis",
+   "instrument": "City-County Council ordinance",
+   "section": "",
+   "mechanism": "use-permission",
+   "summary": "City-County Council voted 23-1 on August 10, 2026 to bar new data center construction in Marion County through the end of 2027. Three already-approved projects are exempt.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "effective": "2026-08-10",
+   "retrieved": "2026-09-17",
+   "source": {
+    "kind": "secondary",
+    "citation": "datacenterbans.com Indiana page; dcmap.us policy tracker"
+   },
+   "notes": "Preceded by a non-binding resolution urging the Metropolitan Development Commission to pause approvals, and by a committee vote of 10-3 on July 13 2026. The Metropolitan Development Commission separately approved a pause on new permits through the end of 2027.",
+   "confidence_note": "Ordinance number and text NOT_CHECKED. The relationship between the Council ordinance and the Metropolitan Development Commission pause is not established here.",
+   "tags": [
+    "23-1",
+    "through-2027",
+    "exemptions"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "IN",
+   "jurisdiction_name": "Indianapolis and Marion County",
+   "_path": "entries/IN/us-in-indianapolis/in-indianapolis-binding-moratorium.json"
+  },
+  {
+   "id": "md-montgomery-bill-19-26",
+   "jurisdiction": "us-md-montgomery-county",
+   "instrument": "Expedited Bill 19-26",
+   "section": "",
+   "mechanism": "use-permission",
+   "summary": "Signed into law August 10, 2026 following an 11-0 council vote. Temporarily prohibits the Department of Permitting Services from issuing data center permits for 18 months, alongside an amended zoning measure placing limitations on data center development.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "effective": "2026-08-10",
+   "retrieved": "2026-09-17",
+   "source": {
+    "kind": "secondary",
+    "citation": "Montgomery County Council release, July 28 2026; dcmap.us policy tracker"
+   },
+   "notes": "The county describes the 18-month term as a compromise between a six-month proposal and a two-year proposal. The amended zoning measure is described as a bridge to a future, more extensive zoning framework. A permit moratorium is a distinct instrument from an application moratorium: it reaches projects that have already been approved but not yet permitted.",
+   "confidence_note": "Bill text not read. Whether previously approved projects are exempt is NOT_CHECKED.",
+   "tags": [
+    "18-month",
+    "permit-moratorium",
+    "compromise"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "MD",
+   "jurisdiction_name": "Montgomery County",
+   "_path": "entries/MD/us-md-montgomery-county/md-montgomery-bill-19-26.json"
   },
   {
    "id": "mi-saline-township-settlement",
@@ -670,6 +896,93 @@
    "state": "MI",
    "jurisdiction_name": "Wixom",
    "_path": "entries/MI/us-mi-wixom/mi-wixom-ordinance-drafted-for-defensibility.json"
+  },
+  {
+   "id": "mo-festus-council-removal",
+   "jurisdiction": "us-mo-festus",
+   "instrument": "Municipal election result",
+   "section": "",
+   "mechanism": "state-authority",
+   "summary": "Voters in Festus removed members of the city council who had supported data center development.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-17",
+   "source": {
+    "kind": "secondary",
+    "citation": "KCUR, September 17 2026, quoting a Festus resident at a Missouri Capitol rally"
+   },
+   "notes": "Recorded as a distinct mechanism. Every other entry in this corpus records an instrument adopted by a governing body or a court. This records the replacement of the governing body itself. No jurisdiction tracker identified in this corpus treats electoral turnover as a data center outcome.",
+   "confidence_note": "No election record has been read. Which offices, which election, the margins, and whether data centers were the operative issue are all NOT_CHECKED. The account is a resident's statement reported at a rally, and is a single-hop relay of a partisan speaker.",
+   "tags": [
+    "electoral",
+    "turnover",
+    "novel-mechanism"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "MO",
+   "jurisdiction_name": "Festus",
+   "_path": "entries/MO/us-mo-festus/mo-festus-council-removal.json"
+  },
+  {
+   "id": "nc-sanford-lee-declined-moratorium",
+   "jurisdiction": "us-nc-lee-county",
+   "instrument": "Public notice, City of Sanford and Lee County",
+   "section": "",
+   "mechanism": "state-authority",
+   "summary": "Sanford and Lee County declined to adopt a moratorium, stating in a public notice that doing so would create a legal quagmire, and updated their development rules instead.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "retrieved": "2026-09-17",
+   "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting, September 2026"
+   },
+   "notes": "Recorded because a documented decision not to use an instrument, with a stated reason, is as informative for comparison as an adoption. Neighbouring North Carolina jurisdictions adopted moratoria in the same period: Cary 18 months from late August with an ordinance decision due February 2028, Apex 12 months to April 2027, Wendell through December 2026, Harnett County one year from May 2026.",
+   "confidence_note": "The public notice has not been read. The legal quagmire characterization is quoted from reporting and no legal analysis underlying it has been located.",
+   "tags": [
+    "declined",
+    "legal-risk",
+    "non-adoption"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "NC",
+   "jurisdiction_name": "Lee County and City of Sanford",
+   "_path": "entries/NC/us-nc-lee-county/nc-sanford-lee-declined-moratorium.json"
+  },
+  {
+   "id": "nc-raleigh-10000-sqft-threshold",
+   "jurisdiction": "us-nc-raleigh",
+   "instrument": "Draft moratorium proposal, Raleigh City Council",
+   "section": "",
+   "mechanism": "load-trigger",
+   "summary": "The mayor requested Council review of a six-month moratorium reaching data centers larger than 10,000 square feet, with a vote set for the October 6, 2026 meeting.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "draft",
+   "retrieved": "2026-09-17",
+   "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting, September 2026"
+   },
+   "notes": "The only floor-area threshold identified in this corpus. Every other trigger in the file is expressed in megawatts, acreage, or gallons.",
+   "confidence_note": "Draft not read. Whether the threshold is gross floor area, building footprint or something else is NOT_CHECKED, and that distinction materially changes what it reaches.",
+   "tags": [
+    "10000-sqft",
+    "floor-area",
+    "threshold"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "NC",
+   "jurisdiction_name": "Raleigh",
+   "_path": "entries/NC/us-nc-raleigh/nc-raleigh-10000-sqft-threshold.json"
   },
   {
    "id": "oh-aep-service-moratorium",
@@ -986,6 +1299,35 @@
    "_path": "entries/OR/us-or-state/or-dlcd-ugb-exclusion.json"
   },
   {
+   "id": "or-woodburn-120-day-moratorium",
+   "jurisdiction": "us-or-woodburn",
+   "instrument": "City Council action, Woodburn Oregon",
+   "section": "",
+   "mechanism": "use-permission",
+   "summary": "City Council unanimously approved a 120-day moratorium on new data centers to review zoning, utility and environmental impacts before developing regulations.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "retrieved": "2026-09-17",
+   "source": {
+    "kind": "commercial-tracker",
+    "citation": "Data Centers Daily Notes, September 16 2026"
+   },
+   "notes": "Second Oregon city identified using a 120-day land use moratorium, the same term adopted by Hillsboro in July 2026 under Oregon's local moratorium statute. Establishes the instrument as a pattern in Oregon rather than a single instance.",
+   "confidence_note": "Ordinance or resolution not read. Adoption date, effective date and the statutory basis are NOT_CHECKED.",
+   "tags": [
+    "120-day",
+    "oregon-statute",
+    "second-instance"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "OR",
+   "jurisdiction_name": "Woodburn",
+   "_path": "entries/OR/us-or-woodburn/or-woodburn-120-day-moratorium.json"
+  },
+  {
    "id": "tx-25194-interconnection-fee",
    "jurisdiction": "us-tx-puct",
    "mechanism": "rate-allocation",
@@ -1103,6 +1445,37 @@
    "_path": "entries/VA/us-va-loudoun-county/va-generator-census-loudoun.json"
   },
   {
+   "id": "va-loudoun-facility-count-and-revenue",
+   "jurisdiction": "us-va-loudoun-county",
+   "instrument": "Loudoun County published figures",
+   "section": "",
+   "mechanism": "incentive",
+   "summary": "Loudoun hosts 233 data centers. Data center tax revenue was approximately $1.2 billion in fiscal 2026, about 39 percent of the county budget.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "retrieved": "2026-09-17",
+   "source": {
+    "kind": "secondary",
+    "citation": "Washington Times, September 16 2026, attributing the revenue figures to the county website"
+   },
+   "notes": "Described as the largest concentration of data centers worldwide. A county-funded Urban Institute report is cited for land values of $2 million to $3 million per acre for parcels zoned for data centers. For comparison, a Hillsboro campus parcel transacted at approximately $1.07 million per acre in September 2025.",
+   "confidence_note": "County budget documents not read. The 233 count supersedes an earlier relayed figure of more than 250 and has not itself been verified against a county source. The Urban Institute report has not been read.",
+   "supersedes": "va-generator-census-loudoun",
+   "tags": [
+    "233",
+    "39-percent",
+    "land-value",
+    "budget-dependency"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Loudoun County",
+   "_path": "entries/VA/us-va-loudoun-county/va-loudoun-facility-count-and-revenue.json"
+  },
+  {
    "id": "va-loudoun-grandfather-legal-opinion",
    "jurisdiction": "us-va-loudoun-county",
    "instrument": "Board of Supervisors substitute motion, September 15 2026",
@@ -1189,6 +1562,37 @@
    "state": "VA",
    "jurisdiction_name": "Loudoun County",
    "_path": "entries/VA/us-va-loudoun-county/va-loudoun-grandfathering-resolution-2025.json"
+  },
+  {
+   "id": "va-loudoun-legislative-application-pause-2026-09-15",
+   "jurisdiction": "us-va-loudoun-county",
+   "instrument": "Board of Supervisors action, September 15 2026",
+   "section": "",
+   "mechanism": "process",
+   "summary": "Board voted 7-1-1 to direct staff to draft a resolution pausing consideration of legislative data center and substation applications for up to 12 months from the date the application was submitted to the planning commission.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "proposed",
+   "retrieved": "2026-09-17",
+   "source": {
+    "kind": "secondary",
+    "citation": "DC News Now, NBC4, FOX 5 DC and WJLA, September 15-16 2026"
+   },
+   "notes": "Supervisor Kristen Umstattd opposed; Supervisor Caleb Kershner abstained. Board Chair Phyllis Randall described the measure as not a ban or moratorium but time to craft new laws. Projects already in the pipeline unaffected. Final vote expected October 13, 2026; the separate grandfather amendment report is scheduled for October 6. Substations are named expressly, which no other jurisdiction in this corpus does.",
+   "confidence_note": "What passed is a direction to draft a resolution. No resolution text exists. The 12-month clock running from application submission rather than from adoption is an unusual construction and has not been read in any document.",
+   "supersedes": "va-loudoun-pause-direction-2026-09-15",
+   "tags": [
+    "pause",
+    "12-month",
+    "substations",
+    "legislative-applications"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Loudoun County",
+   "_path": "entries/VA/us-va-loudoun-county/va-loudoun-legislative-application-pause-2026-09-15.json"
   },
   {
    "id": "va-loudoun-moratorium-legality-constraint",
@@ -1485,6 +1889,67 @@
    "state": "VA",
    "jurisdiction_name": "Commonwealth of Virginia",
    "_path": "entries/VA/us-va-state/va-microsoft-remediation-vs-penalty.json"
+  },
+  {
+   "id": "va-rogers-legislative-pause-distinction",
+   "jurisdiction": "us-va-state",
+   "instrument": "County Attorney advice, reported",
+   "section": "",
+   "mechanism": "state-authority",
+   "summary": "Loudoun County Attorney Leo Rogers is reported to have stated that a moratorium is not allowed in the Commonwealth of Virginia, but that a pause on legislative applications is allowed.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "retrieved": "2026-09-17",
+   "source": {
+    "kind": "secondary",
+    "citation": "DC News Now, September 16 2026"
+   },
+   "notes": "Legislative applications are the discretionary ones, rezonings and special exceptions, as distinct from by-right or administrative review. The distinction appears to be the drafting theory behind the Loudoun pause. A neighboring Virginia city separately distinguishes a pause pending ordinance revision from a moratorium, described there as a total wipeout of one specific use.",
+   "confidence_note": "No written opinion has been read and no Virginia Code section is cited in the source. This records reported advice, not a legal conclusion, and must not be relied on without counsel.",
+   "supersedes": "va-individual-merits-constraint",
+   "tags": [
+    "local-authority",
+    "legislative-applications",
+    "moratorium"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Commonwealth of Virginia",
+   "_path": "entries/VA/us-va-state/va-rogers-legislative-pause-distinction.json"
+  },
+  {
+   "id": "pjm-iras-large-load-filing",
+   "jurisdiction": "us-pjm",
+   "instrument": "PJM filing with FERC, August 13 2026",
+   "section": "",
+   "mechanism": "rate-allocation",
+   "summary": "Proposes an Interim Resource Adequacy Service applying to new large loads that have not brought their own new capacity, under which utilities would be notified to reduce or transfer demand from those loads before any action affecting traditional consumers during low-supply conditions.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "proposed",
+   "effective": "",
+   "retrieved": "2026-09-17",
+   "source": {
+    "kind": "secondary",
+    "citation": "Virginia Mercury, August 27 2026, and regional reporting"
+   },
+   "notes": "Covers a thirteen-state footprint including Ohio and Virginia. PJM requested a FERC decision within 60 days of filing. The filing rests on a Ratepayer Protection Pledge introduced in March 2026 and expanded in July under which new large loads build, bring or buy the generation needed to satisfy their demand and pay its full cost. The filing also proposes a registry of all large loads of at least 50 MW by site, service area, and whether they bring their own supply.",
+   "confidence_note": "Filing not read. Docket number NOT_CHECKED. Whether FERC has acted is NOT_CHECKED. The registry provision is directly relevant to the Oregon committee's question about a centralized state reporting system and should be verified before being cited in that context.",
+   "tags": [
+    "IRAS",
+    "BYOP",
+    "curtailment-order",
+    "registry"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "XX",
+   "jurisdiction_name": "PJM Interconnection",
+   "_path": "entries/XX/us-pjm/pjm-iras-large-load-filing.json"
   }
  ]
 }

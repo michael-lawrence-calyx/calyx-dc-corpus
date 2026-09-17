@@ -1,0 +1,26 @@
+{
+  "id": "az-pinal-vermaland-eloy-denial",
+  "jurisdiction": "us-az-pinal-county",
+  "instrument": "Board of Supervisors rezoning decision",
+  "section": "",
+  "mechanism": "use-permission",
+  "summary": "Supervisors rejected Vermaland's 3,300-acre project near Eloy, reported as what would have been Arizona's largest data center campus.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "FIXED",
+  "status": "void",
+  "retrieved": "2026-09-17",
+  "source": {
+    "kind": "commercial-tracker",
+    "citation": "datacenterbans.com, September 2026"
+  },
+  "notes": "Pinal County's zoning code is reported to contain no definitions or development requirements for data centers. A denial in a jurisdiction with no data center provisions is a different fact pattern from a denial under an adopted standard.",
+  "confidence_note": "Case number, hearing date and vote are NOT_CHECKED. No county record has been read.",
+  "tags": [
+    "denial",
+    "3300-acres",
+    "no-code"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

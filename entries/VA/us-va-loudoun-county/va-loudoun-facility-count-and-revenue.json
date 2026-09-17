@@ -1,0 +1,28 @@
+{
+  "id": "va-loudoun-facility-count-and-revenue",
+  "jurisdiction": "us-va-loudoun-county",
+  "instrument": "Loudoun County published figures",
+  "section": "",
+  "mechanism": "incentive",
+  "summary": "Loudoun hosts 233 data centers. Data center tax revenue was approximately $1.2 billion in fiscal 2026, about 39 percent of the county budget.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "retrieved": "2026-09-17",
+  "source": {
+    "kind": "secondary",
+    "citation": "Washington Times, September 16 2026, attributing the revenue figures to the county website"
+  },
+  "notes": "Described as the largest concentration of data centers worldwide. A county-funded Urban Institute report is cited for land values of $2 million to $3 million per acre for parcels zoned for data centers. For comparison, a Hillsboro campus parcel transacted at approximately $1.07 million per acre in September 2025.",
+  "confidence_note": "County budget documents not read. The 233 count supersedes an earlier relayed figure of more than 250 and has not itself been verified against a county source. The Urban Institute report has not been read.",
+  "supersedes": "va-generator-census-loudoun",
+  "tags": [
+    "233",
+    "39-percent",
+    "land-value",
+    "budget-dependency"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

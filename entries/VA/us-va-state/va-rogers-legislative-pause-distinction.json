@@ -1,0 +1,27 @@
+{
+  "id": "va-rogers-legislative-pause-distinction",
+  "jurisdiction": "us-va-state",
+  "instrument": "County Attorney advice, reported",
+  "section": "",
+  "mechanism": "state-authority",
+  "summary": "Loudoun County Attorney Leo Rogers is reported to have stated that a moratorium is not allowed in the Commonwealth of Virginia, but that a pause on legislative applications is allowed.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "retrieved": "2026-09-17",
+  "source": {
+    "kind": "secondary",
+    "citation": "DC News Now, September 16 2026"
+  },
+  "notes": "Legislative applications are the discretionary ones, rezonings and special exceptions, as distinct from by-right or administrative review. The distinction appears to be the drafting theory behind the Loudoun pause. A neighboring Virginia city separately distinguishes a pause pending ordinance revision from a moratorium, described there as a total wipeout of one specific use.",
+  "confidence_note": "No written opinion has been read and no Virginia Code section is cited in the source. This records reported advice, not a legal conclusion, and must not be relied on without counsel.",
+  "supersedes": "va-individual-merits-constraint",
+  "tags": [
+    "local-authority",
+    "legislative-applications",
+    "moratorium"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

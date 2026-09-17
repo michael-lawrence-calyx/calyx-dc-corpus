@@ -1,0 +1,26 @@
+{
+  "id": "ca-gov-code-65858",
+  "jurisdiction": "us-ca-state",
+  "instrument": "California Government Code \u00a7 65858",
+  "section": "65858",
+  "mechanism": "state-authority",
+  "summary": "An urgency interim ordinance prohibiting new land uses requires a four-fifths vote of the governing body and takes effect for 45 days initially, extendable by 22 months and 15 days for a maximum of two years.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-17",
+  "source": {
+    "kind": "secondary",
+    "citation": "Hoodline and Contra Costa News, September 2026, citing the statute"
+  },
+  "notes": "Explains why California data center moratoria adopted in 2026 are uniformly 45 days at first reading. Richmond staff are reported to intend returning within the 45-day period to seek the extension, so the initial term understates the instrument's reach.",
+  "confidence_note": "Statute not read in original. The extension structure is carried from two secondary accounts and the precise sequence of extensions has not been verified against the code text.",
+  "tags": [
+    "45-day",
+    "four-fifths",
+    "urgency-ordinance"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

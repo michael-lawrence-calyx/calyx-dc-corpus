@@ -1,0 +1,26 @@
+{
+  "id": "nc-sanford-lee-declined-moratorium",
+  "jurisdiction": "us-nc-lee-county",
+  "instrument": "Public notice, City of Sanford and Lee County",
+  "section": "",
+  "mechanism": "state-authority",
+  "summary": "Sanford and Lee County declined to adopt a moratorium, stating in a public notice that doing so would create a legal quagmire, and updated their development rules instead.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "retrieved": "2026-09-17",
+  "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting, September 2026"
+  },
+  "notes": "Recorded because a documented decision not to use an instrument, with a stated reason, is as informative for comparison as an adoption. Neighbouring North Carolina jurisdictions adopted moratoria in the same period: Cary 18 months from late August with an ordinance decision due February 2028, Apex 12 months to April 2027, Wendell through December 2026, Harnett County one year from May 2026.",
+  "confidence_note": "The public notice has not been read. The legal quagmire characterization is quoted from reporting and no legal analysis underlying it has been located.",
+  "tags": [
+    "declined",
+    "legal-risk",
+    "non-adoption"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

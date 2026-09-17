@@ -1,0 +1,28 @@
+{
+  "id": "pjm-iras-large-load-filing",
+  "jurisdiction": "us-pjm",
+  "instrument": "PJM filing with FERC, August 13 2026",
+  "section": "",
+  "mechanism": "rate-allocation",
+  "summary": "Proposes an Interim Resource Adequacy Service applying to new large loads that have not brought their own new capacity, under which utilities would be notified to reduce or transfer demand from those loads before any action affecting traditional consumers during low-supply conditions.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "proposed",
+  "effective": "",
+  "retrieved": "2026-09-17",
+  "source": {
+    "kind": "secondary",
+    "citation": "Virginia Mercury, August 27 2026, and regional reporting"
+  },
+  "notes": "Covers a thirteen-state footprint including Ohio and Virginia. PJM requested a FERC decision within 60 days of filing. The filing rests on a Ratepayer Protection Pledge introduced in March 2026 and expanded in July under which new large loads build, bring or buy the generation needed to satisfy their demand and pay its full cost. The filing also proposes a registry of all large loads of at least 50 MW by site, service area, and whether they bring their own supply.",
+  "confidence_note": "Filing not read. Docket number NOT_CHECKED. Whether FERC has acted is NOT_CHECKED. The registry provision is directly relevant to the Oregon committee's question about a centralized state reporting system and should be verified before being cited in that context.",
+  "tags": [
+    "IRAS",
+    "BYOP",
+    "curtailment-order",
+    "registry"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}
