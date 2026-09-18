@@ -1,0 +1,26 @@
+{
+  "id": "va-dillon-rule-local-authority",
+  "jurisdiction": "us-va-state",
+  "instrument": "Virginia's Dillon Rule, as applied to local data center pauses",
+  "section": "",
+  "mechanism": "state-authority",
+  "summary": "Virginia localities hold only those powers expressly granted by the General Assembly. Loudoun officials emphasized that the twelve-month pause is not a legal moratorium under the Dillon Rule, but a temporary pause on board-level reviews.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Energy News Beat, September 17 2026; WJLA and DC News Now, September 16 2026"
+  },
+  "notes": "Names the doctrine behind the County Attorney's reported advice that a moratorium is not allowed in the Commonwealth while a pause on legislative applications is. Parallel state-authority limits elsewhere in this corpus: Michigan bars municipalities from banning data centers outright; Oregon's governor stated the state lacks authority for a statewide moratorium; California's Government Code sets the form and duration of an urgency ordinance.",
+  "confidence_note": "No Virginia Code section, opinion or case has been read. The Dillon Rule characterization is carried from reporting of officials' remarks, not from a legal source. This must not be relied on or repeated as a legal conclusion.",
+  "tags": [
+    "dillon-rule",
+    "local-authority",
+    "virginia"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

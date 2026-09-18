@@ -1,0 +1,27 @@
+{
+  "id": "wa-sepa-determination-of-significance",
+  "jurisdiction": "us-wa-state",
+  "instrument": "Washington State Environmental Policy Act, as applied to the Wallula Gap application",
+  "section": "",
+  "mechanism": "process",
+  "summary": "Counsel for two organizations has asked Walla Walla County to require additional information or issue a determination of significance, which would trigger a full environmental impact statement for the proposed facility.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting of an Earthjustice letter on behalf of the Walla Walla Anti-Data Center League and Columbia Riverkeeper, 2026"
+  },
+  "notes": "Washington has a state environmental review statute. Oregon does not have a comparable general-purpose analogue. Two states on the same river, with the same utility economics and the same corridor, present different review paths for an identical project because of a difference in state law. California's equivalent produced the Imperial County ruling voiding approvals granted without review.",
+  "confidence_note": "Neither the statute nor the letter has been read. The determination-of-significance standard, who decides it and on what record, is NOT_CHECKED. Whether the county has acted is unknown.",
+  "tags": [
+    "SEPA",
+    "determination-of-significance",
+    "EIS",
+    "oregon-comparison"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

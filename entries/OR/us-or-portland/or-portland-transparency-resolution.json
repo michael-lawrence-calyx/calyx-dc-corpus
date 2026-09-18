@@ -1,0 +1,28 @@
+{
+  "id": "or-portland-transparency-resolution",
+  "jurisdiction": "us-or-portland",
+  "instrument": "City Council resolution, adopted September 16 2026",
+  "section": "",
+  "mechanism": "process",
+  "summary": "Council adopted a resolution unanimously with twelve co-sponsors urging the City Administrator not to sign data center non-disclosure agreements, and directing staff to notify Council of any inquiry, including a preliminary meeting or permit, for a facility drawing 20 MW or more.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-09-16",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "portland.gov District 3 councilor news release, September 17 2026; KATU, KPTV and Willamette Week, September 2026"
+  },
+  "notes": "Introduced August 13 2026 and reported out of the Housing and Permitting committee 4-0. Directed to City Administrator Raymond C. Lee III. The resolution also records Council's stated intent to pursue a moratorium or zoning restriction on hyperscale facilities. The sponsor cited non-disclosure agreements used in early Moda Center renovation negotiations as the origin of the NDA provision. A speaker in testimony asked that urges be replaced with prohibit; that was not adopted.",
+  "confidence_note": "The resolution itself has not been read and its number is unknown. The source is a councilor's news release, not the instrument. The measure urges rather than prohibits: it does not ban anything, does not amend the zoning code, and does not prevent the administrator from signing. Whether any notification has been filed under the 20 MW duty is NOT_CHECKED.",
+  "tags": [
+    "NDA",
+    "20MW",
+    "notification-duty",
+    "upstream-of-permit"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

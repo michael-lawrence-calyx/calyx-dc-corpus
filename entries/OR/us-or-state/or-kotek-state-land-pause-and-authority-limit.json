@@ -1,0 +1,28 @@
+{
+  "id": "or-kotek-state-land-pause-and-authority-limit",
+  "jurisdiction": "us-or-state",
+  "instrument": "Executive order of September 8 2026",
+  "section": "",
+  "mechanism": "state-authority",
+  "summary": "Ordered a roughly one-year pause on data center development on state-owned land, freezing easements, leases, land-use permits and property transfers until July 1, 2027. The Governor stated she stopped short of a three-year statewide moratorium because the state lacks the authority for one.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-09-08",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "datacenterbans.com; regional reporting of the September 8 2026 order"
+  },
+  "notes": "A chief executive stating a limit on her own state's authority is the same class of fact as Virginia's Dillon Rule and Michigan's bar on outright municipal bans, arrived at from the opposite direction. The order reaches property interests \u2014 easements, leases, transfers \u2014 rather than land use approvals, which is a distinct instrument type. Executive-level restriction is now identifiable as its own category: New York Executive Order 62 in July, a Texas grid-interconnection review pause in August, and this order in September.",
+  "confidence_note": "The executive order has not been read and its number is unknown. The Governor's statement about state authority is carried from reporting of remarks, not from the order or from any legal analysis, and is not a legal conclusion.",
+  "tags": [
+    "executive-order",
+    "state-land",
+    "authority-limit",
+    "july-2027"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

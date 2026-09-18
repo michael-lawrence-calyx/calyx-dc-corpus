@@ -1,0 +1,28 @@
+{
+  "id": "va-loudoun-building-count-and-floor-area",
+  "jurisdiction": "us-va-loudoun-county",
+  "instrument": "Loudoun County published figures, as of March 1 2026",
+  "section": "",
+  "mechanism": "quantity-cap",
+  "summary": "Approximately 233 data center buildings totalling about 56.5 million square feet are built or in various stages of construction. The average existing building is roughly 234,000 square feet; permits issued since 2023 average closer to 339,000. The county issued building permits for more than 10 million square feet in 2025 alone.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "2026-03-01",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Energy News Beat, September 17 2026, reporting Loudoun County data"
+  },
+  "notes": "The 233 figure counts buildings, not facilities or campuses. Reporting elsewhere describes the same number as data centers, which is a different unit and a live source of count error in this subject. County staff estimate the separately recorded 35.7 million approved-unbuilt square feet could represent about 115 more buildings. The growth in average permitted building size from roughly 234,000 to 339,000 square feet is a measurable trend not tracked elsewhere in this corpus.",
+  "confidence_note": "No county document has been read; figures are carried from a single secondary account attributing them to county data. Whether the 233 count and the 56.5 million square feet are measured on the same basis is NOT_CHECKED.",
+  "tags": [
+    "233-buildings",
+    "56.5M-sqft",
+    "building-size-trend",
+    "count-unit"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

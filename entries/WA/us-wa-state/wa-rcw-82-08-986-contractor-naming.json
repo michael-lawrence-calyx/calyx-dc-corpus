@@ -1,0 +1,27 @@
+{
+  "id": "wa-rcw-82-08-986-contractor-naming",
+  "jurisdiction": "us-wa-state",
+  "instrument": "RCW 82.08.986(6) and RCW 82.32.534",
+  "section": "82.08.986(6)",
+  "mechanism": "incentive",
+  "summary": "A business or tenant claiming the data center sales and use tax exemption must file an annual tax performance report that identifies construction firm names and employment levels used for constructing, renovating, refurbishing or remodeling the data centers.",
+  "text": "A qualifying business or a qualifying tenant claiming an exemption under this section or RCW 82.12.986 must complete an annual tax performance report with the department as required under RCW 82.32.534. The report must identify construction firm names and employment levels used for constructing, renovating, refurbishing, or remodeling the data centers.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "primary",
+    "citation": "RCW 82.08.986(6), app.leg.wa.gov",
+    "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=82.08.986"
+  },
+  "notes": "The contractor-naming duty sits in the exemption statute itself, not in RCW 82.32.534, which is the general annual tax performance report provision. Under 82.32.534 the report is due by May 31 of the year following the calendar year in which the preference was claimed, beginning in calendar year 2018, and must detail employment by total number of full-time, part-time and temporary positions. Employee names are excluded. A filer may instead authorize the Employment Security Department to release the same employment and wage data. Related: RCW 82.08.986 and 82.12.986 establish the exemption for eligible server equipment and power infrastructure in rural counties; RCW 82.08.9861 governs the 2022 program, barring new certificates on or after July 1 2028, with exemptions expiring July 1 2038 and a qualifying tenant minimum of 150 kW contracted.",
+  "confidence_note": "Statute read in original at the point cited. Whether ESSB 6231, chapter 266 Laws of 2026, alters the reporting duty has not been checked. No filed report has been obtained, so what the reports actually contain is unestablished.",
+  "tags": [
+    "contractor-naming",
+    "annual-report",
+    "82.08.986"
+  ],
+  "operator": "MLawrence"
+}

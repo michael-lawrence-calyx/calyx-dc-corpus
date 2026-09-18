@@ -1,0 +1,27 @@
+{
+  "id": "va-loudoun-office-classification-until-2014",
+  "jurisdiction": "us-va-loudoun-county",
+  "instrument": "Zoning ordinance amendment defining data center, effective April 2 2014",
+  "section": "",
+  "mechanism": "definition",
+  "summary": "Data centers were treated as an office use in Loudoun County until a zoning ordinance amendment defining data center took effect on April 2, 2014.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "effective": "2014-04-02",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "loudoun.gov project pages"
+  },
+  "notes": "Bears on the definitional lane. Phoenix similarly had no definition and addressed data centers through informal interpretation before July 2025. In both cases a use was permitted for years under a classification written for something else.",
+  "confidence_note": "The 2014 amendment has not been read and its case number is unknown. What office use permitted, and under what standards, is NOT_CHECKED.",
+  "tags": [
+    "office-use",
+    "2014",
+    "definitional-gap"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

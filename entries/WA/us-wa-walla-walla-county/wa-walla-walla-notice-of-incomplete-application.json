@@ -1,0 +1,27 @@
+{
+  "id": "wa-walla-walla-notice-of-incomplete-application",
+  "jurisdiction": "us-wa-walla-walla-county",
+  "instrument": "Notice of Incomplete Application, SDP26-01 and SEPA26-05",
+  "section": "",
+  "mechanism": "process",
+  "summary": "The county issued a notice of incomplete application in June 2026, stating the application could not proceed without a traffic impact analysis, with a deadline to complete.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Walla Walla County Community Development materials as reported; regional reporting 2026"
+  },
+  "notes": "A notice of incompleteness is a procedural gate distinct from a denial or a moratorium: the application does not advance until the applicant supplies what is missing, and the clock is the applicant's rather than the jurisdiction's. No other instance is recorded in this corpus. The applicant is separately reported to have paused work toward the project.",
+  "confidence_note": "The notice has not been read. The stated deadline and whether it was met are NOT_CHECKED.",
+  "tags": [
+    "incomplete-application",
+    "SDP26-01",
+    "SEPA26-05",
+    "procedural-gate"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

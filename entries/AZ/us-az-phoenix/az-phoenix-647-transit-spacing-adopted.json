@@ -1,0 +1,28 @@
+{
+  "id": "az-phoenix-647-transit-spacing-adopted",
+  "jurisdiction": "us-az-phoenix",
+  "instrument": "Phoenix Zoning Ordinance \u00a7 647.A.2.kk(1)",
+  "section": "647.A.2.kk(1)",
+  "mechanism": "use-permission",
+  "summary": "The development shall be no closer than 2,640 feet from an approved high-capacity transit station.",
+  "text": "The development shall be no closer than 2,640 feet from an approved high-capacity transit station.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "primary",
+    "citation": "Phoenix Zoning Ordinance \u00a7 647, codified",
+    "url": "https://phoenix.municipal.codes/ZO/647"
+  },
+  "notes": "Adopted unchanged from the staff proposal. Data centers are permitted in the C-2, C-3, CP/GCP, A-1 and A-2 districts by Special Permit granted by Council on Commission recommendation. Atlanta separately bars data centers within a half mile of transit stations; these are the only two transit-spacing provisions identified in this corpus.",
+  "confidence_note": "Codification read, not the enrolled ordinance. What qualifies as an approved high-capacity transit station, and how the distance is measured, are not defined in this section.",
+  "supersedes": "az-phoenix-zta-transit",
+  "tags": [
+    "2640-feet",
+    "transit-spacing",
+    "adopted"
+  ],
+  "operator": "MLawrence"
+}

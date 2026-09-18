@@ -1,0 +1,26 @@
+{
+  "id": "wa-pud-gift-of-public-funds-constraint",
+  "jurisdiction": "us-wa-state",
+  "instrument": "Washington Constitution, Article VIII, Section 7",
+  "section": "art. VIII, \u00a7 7",
+  "mechanism": "state-authority",
+  "summary": "No county, city, town or other municipal corporation may give money or property, or loan its money or credit, to or in aid of any individual, association, company or corporation, except for the necessary support of the poor and infirm.",
+  "text": "No county, city, town or other municipal corporation shall hereafter give any money, or property, or loan its money, or credit to or in aid of any individual, association, company or corporation, except for the necessary support of the poor and infirm, or become directly or indirectly the owner of any stock in or bonds of any association, company or corporation.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "primary",
+    "citation": "Washington Constitution art. VIII, \u00a7 7"
+  },
+  "notes": "A public utility district is a municipal corporation. The Municipal Research and Services Center states that under this provision a local government may not directly give or loan money to private businesses for economic development. Article VIII, Section 10 creates an express exception permitting utilities to provide conservation assistance, which indicates the general prohibition reaches utilities. A Washington Attorney General opinion concluded that a municipal utility loaning funds to its own customers is not saved by a long-range benefit to the utility. Public utility districts are not subject to rate regulation by the Utilities and Transportation Commission, and the rate discrimination bar at RCW 80.28.100 reaches gas, electrical and water companies rather than districts.",
+  "confidence_note": "The constitutional text is read in original. The identification of this provision as the basis for a Grant County PUD manager's statement that public utilities are barred from offering better rates to a particular class is DERIVED and is not stated in any source read. Whether a differential rate that still recovers cost of service would constitute a gift has not been researched and is a question for counsel. This entry replaces an earlier draft that described the constraint as statutory; that draft was never loaded.",
+  "tags": [
+    "article-VIII-7",
+    "gift-of-public-funds",
+    "PUD"
+  ],
+  "operator": "MLawrence"
+}

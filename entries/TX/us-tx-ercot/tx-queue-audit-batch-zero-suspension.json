@@ -1,0 +1,26 @@
+{
+  "id": "tx-queue-audit-batch-zero-suspension",
+  "jurisdiction": "us-tx-ercot",
+  "instrument": "Governor's directive and ERCOT Market Notice M-A080326-01",
+  "section": "",
+  "mechanism": "utility-service",
+  "summary": "The Governor directed the PUCT and ERCOT to verify and audit every data center project in the interconnection queue before additional projects advance. ERCOT suspended the first scheduled deliverable of Batch Zero by market notice.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Trade reporting, first published August 4 2026"
+  },
+  "notes": "The queue subject to audit is reported at approximately 474 GW of pending large-load requests, roughly 90 percent data centers. Batch Zero is a large-load interconnection process approved in June 2026 which assesses projects in batches rather than individually. Reported figures of 204 GW eligible for Batch Zero study and 294 GW applying but not eligible are carried at a further remove.",
+  "confidence_note": "No directive, order or market notice has been read. The 474 GW figure is not shown to be measured on the same basis as the 205 GW ERCOT queue figure filed elsewhere in this corpus, which has a different as-of date and methodology. No growth rate is derived from the two and none should be.",
+  "tags": [
+    "queue-audit",
+    "batch-zero",
+    "474GW"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

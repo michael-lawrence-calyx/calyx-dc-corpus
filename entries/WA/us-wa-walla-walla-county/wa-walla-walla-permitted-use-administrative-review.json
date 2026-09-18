@@ -1,0 +1,26 @@
+{
+  "id": "wa-walla-walla-permitted-use-administrative-review",
+  "jurisdiction": "us-wa-walla-walla-county",
+  "instrument": "Walla Walla County zoning, industrial agriculture - mixed district",
+  "section": "",
+  "mechanism": "use-permission",
+  "summary": "In the industrial agriculture - mixed district covering the Wallula Gap Business Park, data centers are a permitted use subject to administrative zoning and environmental review. No special permit, rezoning or conditional use approval is required.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting of the Amazon Wallula Gap application, 2026"
+  },
+  "notes": "The most permissive land use posture identified in this corpus. Because the use is permitted, the contested question is not whether the facility is allowed but what environmental review it receives. That makes the State Environmental Policy Act the operative instrument rather than the zoning ordinance.",
+  "confidence_note": "The county code has not been read. What administrative zoning review examines, and whether it reaches power or water, is NOT_CHECKED.",
+  "tags": [
+    "permitted-use",
+    "administrative-review",
+    "wallula-gap"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

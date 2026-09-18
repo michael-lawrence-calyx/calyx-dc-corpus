@@ -1,0 +1,28 @@
+{
+  "id": "wa-grant-pud-cost-of-service-ratios",
+  "jurisdiction": "us-wa-grant-pud",
+  "instrument": "Statements on cost-of-service recovery, August 27 2026",
+  "section": "",
+  "mechanism": "rate-allocation",
+  "summary": "Data center customers are reported to pay approximately 150 percent of the cost to serve them and residential customers approximately 60 percent. A rate order effective April 1 2026 raised core customer rates by an average of 3.5 percent and large power users including data centers by an average of 9.5 percent.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "2026-04-01",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Account of the August 27 2026 Grant County PUD commission meeting, reporting Andy Wendell, Senior Manager of Large Power Solutions"
+  },
+  "notes": "The stated rationale for the structure is that large-load rates are set to help members recoup dam costs originally paid through rates while keeping data center rates regionally competitive. The two rate figures and the recovery ratios are not in tension: large loads took the larger increase in the same order and are reported to already recover above cost of service. The all-in residential rate is reported at 6.4 cents per kilowatt-hour for 2026.",
+  "confidence_note": "Single-hop relay of a named manager's statement at a public meeting. No cost-of-service study and no rate order has been read. These figures cut against the prevailing public claim about data center rate burden, which is precisely why they must not travel before the underlying study is in hand. They do not generalise to any other utility and they are not a statement about bills, which have risen.",
+  "tags": [
+    "150-percent",
+    "60-percent",
+    "cost-of-service",
+    "counter-narrative"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

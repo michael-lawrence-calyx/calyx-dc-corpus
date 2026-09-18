@@ -1,0 +1,27 @@
+{
+  "id": "ca-sb1168-transmission-cost-allocation",
+  "jurisdiction": "us-ca-state",
+  "instrument": "Senate Bill 1168",
+  "section": "",
+  "mechanism": "rate-allocation",
+  "summary": "Addresses fair-share allocation of transmission costs through the Public Utilities Commission. Awaits the Governor's signature or veto by the end of September 2026.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "proposed",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "datacenterbans.com weekly summary"
+  },
+  "notes": "The third of three California data center measures before the Governor. Upstream cost allocation is the same mechanism Georgia adopted by Public Service Commission rule in January 2025, billing new customers above 100 MW for site-specific and upstream generation, transmission and distribution costs.",
+  "confidence_note": "Bill text not read, author not confirmed, vote counts NOT_CHECKED. The weakest-sourced of the three California bill entries.",
+  "tags": [
+    "SB1168",
+    "transmission",
+    "cost-allocation",
+    "on-governors-desk"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ca-sb886-data-center-rate-class",
+  "jurisdiction": "us-ca-state",
+  "instrument": "Senate Bill 886 (Padilla), Data Center Ratepayer Protections Act",
+  "section": "",
+  "mechanism": "rate-allocation",
+  "summary": "Would require the Public Utilities Commission to develop a separate tariff, or rate class, for large energy users including data centers. Passed the Senate 28-10 and the Assembly 49-7 and awaits the Governor's signature or veto by the end of September 2026.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "proposed",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Office of Senator Steve Padilla, 18th Senate District, release; datacenterbans.com"
+  },
+  "notes": "California's analogue to Oregon's POWER Act and Ohio's AEP settlement. A support letter from a public utility district frames the purpose as protecting residential ratepayers from stranded assets built to meet sudden load growth. One of three data center bills on the Governor's desk from the same author.",
+  "confidence_note": "Bill text not read. The tariff's structure, thresholds and any minimum demand provision are NOT_CHECKED. Whether the Governor has acted is NOT_CHECKED as of the retrieval date.",
+  "tags": [
+    "SB886",
+    "rate-class",
+    "padilla",
+    "on-governors-desk"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

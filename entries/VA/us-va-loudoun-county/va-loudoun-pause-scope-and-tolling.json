@@ -1,0 +1,28 @@
+{
+  "id": "va-loudoun-pause-scope-and-tolling",
+  "jurisdiction": "us-va-loudoun-county",
+  "instrument": "Board direction of September 16 2026, as described by the Board Chair",
+  "section": "",
+  "mechanism": "process",
+  "summary": "The pause would reach new filings requiring special exceptions or rezonings. Already-permitted work and most administrative site plans would continue. The Board Chair stated the resolution shall be effective September 15, 2026 and that the pause should not cause an application to become inactive.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "proposed",
+  "effective": "2026-09-15",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Reporting of the September 16 2026 Board meeting quoting Board Chair Phyllis Randall; Energy News Beat, September 17 2026"
+  },
+  "notes": "Two provisions not identified elsewhere in this corpus. The retroactive effective date closes the window between direction and adoption, so no filing rush can open during drafting. The tolling provision prevents an application from lapsing while the pause runs. Every other pause in this file leaves both questions unaddressed. The Board Chair described the affected pipeline as a fairly small number; separate reporting puts it at about 13 pending applications that have not reached the planning commission.",
+  "confidence_note": "No resolution text exists. Both provisions are carried from a Board Chair's remarks at a meeting, not from a drafted instrument, and neither may survive drafting. The final vote date is CONFLICTING across sources at October 13 and October 20.",
+  "tags": [
+    "retroactive",
+    "tolling",
+    "scope",
+    "no-filing-window"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

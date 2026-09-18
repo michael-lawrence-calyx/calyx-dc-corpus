@@ -1,0 +1,27 @@
+{
+  "id": "wa-walla-walla-port-land-sale",
+  "jurisdiction": "us-wa-port-of-walla-walla",
+  "instrument": "Port of Walla Walla land sale, Wallula Gap Business Park",
+  "section": "",
+  "mechanism": "process",
+  "summary": "The Port approved the sale of approximately 554 acres to the operator for more than $36 million. The buyer entered under a different entity name on a letter of intent in November 2024, with the identity emerging later.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting of the Port of Walla Walla transaction, 2026"
+  },
+  "notes": "The current application covers three single-story buildings on roughly 134 acres of the 554 purchased; full buildout is reported as four phases of four buildings each at roughly 215,000 square feet, against 120 to 150 full-time positions. Port officials are reported to have said the project would grow the county's tax base by 50 percent. A shell entity on the letter of intent with the principal's identity emerging later is the same pattern recorded for a project in Pima County, Arizona.",
+  "confidence_note": "No deed, port resolution or purchase agreement has been read. The acreage, price, phasing and job figures are all carried from reporting. The tax base figure is an official's statement, not an assessment.",
+  "tags": [
+    "554-acres",
+    "shell-entity",
+    "port-district",
+    "phasing"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

@@ -1,0 +1,26 @@
+{
+  "id": "wa-grant-pud-assigned-load-limits",
+  "jurisdiction": "us-wa-grant-pud",
+  "instrument": "Commission action imposing load-growth limits on data center customers",
+  "section": "",
+  "mechanism": "utility-service",
+  "summary": "Commissioners imposed load-growth limits on data center customers, under which staff communicate to each customer how many megawatts remain before that customer reaches its assigned limit. Not applied to commercial, residential or agricultural customers.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Grant County PUD release, March 2025"
+  },
+  "notes": "A per-customer assigned megawatt ceiling, communicated individually, is a rationing instrument. It is not a moratorium, not a rate and not a zoning provision. The stated rationale is decreasing the risk of outages and voltage instability for other customers. No equivalent utility instrument has been identified in any other state in this corpus.",
+  "confidence_note": "The commission action has not been read and its date is given only as March 2025. Whether the assigned limits are disclosable is NOT_CHECKED, and that question determines whether a per-operator headroom figure can ever be recorded.",
+  "tags": [
+    "rationing",
+    "assigned-limit",
+    "per-customer"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

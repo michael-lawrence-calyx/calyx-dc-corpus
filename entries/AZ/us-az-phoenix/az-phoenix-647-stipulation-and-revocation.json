@@ -1,0 +1,27 @@
+{
+  "id": "az-phoenix-647-stipulation-and-revocation",
+  "jurisdiction": "us-az-phoenix",
+  "instrument": "Phoenix Zoning Ordinance \u00a7 647.A.2.kk",
+  "section": "647.A.2.kk",
+  "mechanism": "enforcement",
+  "summary": "The applicant must comply with additional stipulations or study requirements addressing health and safety concerns, which may include fire protection, water consumption, power consumption, on-site energy generation, noise and hazardous materials. Failure to comply may be grounds for revocation of the special permit.",
+  "text": "The applicant for the special permit will be required to comply with additional stipulations or study requirements to address health and safety concerns, which may include but are not limited to fire protection, water consumption, power consumption, on-site energy generation, noise, and hazardous materials, and to mitigate adverse impact to existing uses. Failure to comply with these requirements may be grounds for revocation per Section 504.1.C.6.b.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "primary",
+    "citation": "Phoenix Zoning Ordinance \u00a7 647, codified",
+    "url": "https://phoenix.municipal.codes/ZO/647"
+  },
+  "notes": "Revocation of an approved special permit is an enforcement mechanism not identified in any other jurisdiction in this corpus. Elsewhere the enforcement hooks are occupancy-based: Marana withholds a permanent certificate of occupancy, Phoenix withholds a final certificate of occupancy for noise. This provision reaches an operating facility. The enumerated list names on-site energy generation expressly.",
+  "confidence_note": "Section 504.1.C.6.b has not been read, so the revocation procedure and its standard of proof are NOT_CHECKED. No revocation is known to have occurred.",
+  "tags": [
+    "revocation",
+    "stipulation-authority",
+    "on-site-generation"
+  ],
+  "operator": "MLawrence"
+}

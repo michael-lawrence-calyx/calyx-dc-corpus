@@ -1,0 +1,26 @@
+{
+  "id": "tx-25194-duplicate-request-disclosure",
+  "jurisdiction": "us-tx-puct",
+  "instrument": "16 TAC \u00a7 25.194 (draft)",
+  "section": "",
+  "mechanism": "utility-service",
+  "summary": "Before ERCOT begins an interconnection study, the draft rule would require the customer to execute an intermediate agreement with the transmission provider including demonstration of site control through a deed, purchase option or lease, and disclosure of duplicate service requests.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "draft",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Law firm client publications on the draft rule, March 2026"
+  },
+  "notes": "Duplicate-service-request disclosure addresses queue inflation directly: a single project applying at multiple interconnection points is the mechanism that makes published pipeline figures unreadable. If adopted as drafted, this would be the first requirement identified anywhere that a developer state on the record whether it has applied elsewhere for the same load. Site control by deed or option is separately a county recorder record.",
+  "confidence_note": "Draft rule not read. Whether the provision survives adoption is NOT_CHECKED, and whether any disclosure becomes public or stays with the transmission provider is unestablished.",
+  "tags": [
+    "duplicate-requests",
+    "queue-inflation",
+    "site-control"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

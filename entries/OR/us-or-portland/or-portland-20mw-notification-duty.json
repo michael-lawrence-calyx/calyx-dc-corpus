@@ -1,0 +1,27 @@
+{
+  "id": "or-portland-20mw-notification-duty",
+  "jurisdiction": "us-or-portland",
+  "instrument": "City Council resolution, adopted September 16 2026",
+  "section": "",
+  "mechanism": "load-trigger",
+  "summary": "Creates a duty for staff to notify Council of any inquiry for a facility drawing 20 MW or more, triggered at inquiry or preliminary meeting rather than at permit application.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-09-16",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "portland.gov District 3 councilor news release, September 17 2026"
+  },
+  "notes": "The only trigger identified in this corpus that operates upstream of a permit application. Every other load threshold in the file attaches to an application, a rate class, or an interconnection request. Compare Hillsboro's 20 MW primary-use test in Resolution No. 2932, which attaches to a land use application.",
+  "confidence_note": "Resolution not read. Whether the duty produces a published record or an internal one is NOT_CHECKED, and that determines whether it is a transparency instrument or an internal management one.",
+  "tags": [
+    "20MW",
+    "inquiry-stage",
+    "notification"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

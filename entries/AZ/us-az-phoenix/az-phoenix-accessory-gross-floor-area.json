@@ -1,0 +1,28 @@
+{
+  "id": "az-phoenix-accessory-gross-floor-area",
+  "jurisdiction": "us-az-phoenix",
+  "instrument": "Phoenix Zoning Ordinance \u00a7 202, data center definition",
+  "section": "202",
+  "mechanism": "quantity-cap",
+  "summary": "A data center may be considered accessory to a non-residential use where it does not exceed 10 percent of the gross floor area of all on-site buildings, serves the enterprise functions of the on-site property owner, and is not used to lease data services to third parties.",
+  "text": "NOT EXCEED 10% OF THE GROSS FLOOR AREA OF ALL ON-SITE BUILDINGS; IS USED TO SERVE THE ENTERPRISE FUNCTIONS OF THE ON-SITE PROPERTY OWNER; AND IS NOT USED TO LEASE DATA SERVICES TO THIRD PARTIES.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "primary",
+    "citation": "Z-TA-2-25-Y proposed ordinance language, Exhibit A; amendments shown in capitals",
+    "url": "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/staffreports/z-ta-2-25-y-data-center.pdf"
+  },
+  "notes": "Resolves a prior conflict in this corpus. The staff report narrative described the threshold as 10 percent of the building footprint; the operative ordinance language is 10 percent of the gross floor area of all on-site buildings. The narrative was a summary, not the text. Chandler by contrast measures its 10 percent accessory threshold on building footprint.",
+  "confidence_note": "Read from the proposed ordinance language in the staff report exhibit rather than from the codified Section 202. The codified definition has not been retrieved and should be checked for any change between proposal and adoption.",
+  "tags": [
+    "10-percent",
+    "gross-floor-area",
+    "accessory",
+    "conflict-resolved"
+  ],
+  "operator": "MLawrence"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "az-phoenix-647-utility-agreement-adopted",
+  "jurisdiction": "us-az-phoenix",
+  "instrument": "Phoenix Zoning Ordinance \u00a7 647.A.2.kk(2)",
+  "section": "647.A.2.kk(2)",
+  "mechanism": "utility-service",
+  "summary": "Preliminary site plan approval is not granted until a local utility company provides a contractual agreement affirming its capacity and commitment to serve the energy demand for the proposed data center, submitted concurrent with the preliminary site plan.",
+  "text": "Preliminary site plan approval will not be granted for a data center until such time that a local utility company provides a contractual agreement that affirms its capacity and commitment to serve the energy demand for the proposed data center. The agreement from the utility company shall be submitted to PDD concurrent with the preliminary site plan.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "primary",
+    "citation": "Phoenix Zoning Ordinance \u00a7 647, codified",
+    "url": "https://phoenix.municipal.codes/ZO/647"
+  },
+  "notes": "The adopted text requires a contractual agreement, not a will-serve letter, and contains no two-year service window. The staff report described a will-serve letter confirming ability to serve within two years; that language is not in the adopted section. The strongest utility-service requirement identified in this corpus. As with every other instance of this mechanism, the section does not state what happens to an application if the utility declines to provide the agreement, and sets no period within which the utility must respond.",
+  "confidence_note": "Codification read, not the enrolled ordinance. What constitutes a contractual agreement for this purpose, and whether PDD has published guidance on it, is NOT_CHECKED.",
+  "supersedes": "az-phoenix-zta-willserve",
+  "tags": [
+    "contractual-agreement",
+    "utility-service",
+    "adopted"
+  ],
+  "operator": "MLawrence"
+}

@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-17",
- "count": 65,
+ "generated": "2026-09-18",
+ "count": 104,
  "states": [
   "AZ",
   "CA",
@@ -14,15 +14,19 @@
   "OR",
   "TX",
   "VA",
+  "WA",
   "XX"
  ],
  "jurisdictions": [
   "AEP Ohio",
   "Chandler",
   "Commonwealth of Virginia",
+  "ERCOT",
   "Elkhart",
   "Fayetteville",
   "Festus",
+  "Forest Grove",
+  "Grant County PUD",
   "Hillsboro",
   "Imperial County",
   "Indianapolis and Marion County",
@@ -34,16 +38,21 @@
   "PJM Interconnection",
   "Phoenix",
   "Pinal County",
+  "Port of Walla Walla",
+  "Portland",
   "Prince William County",
   "Public Utilities Commission of Ohio",
   "Public Utility Commission of Texas",
   "Raleigh",
   "Richmond",
   "Saline Township",
+  "Snohomish County PUD",
   "State of California",
   "State of Michigan",
   "State of Oregon",
   "State of Texas",
+  "State of Washington",
+  "Walla Walla County",
   "Wixom",
   "Woodburn"
  ],
@@ -67,8 +76,8 @@
  "by_origin": {
   "ASSERTED": 0,
   "DERIVED": 0,
-  "OBSERVED": 26,
-  "RELAYED": 39
+  "OBSERVED": 35,
+  "RELAYED": 69
  },
  "entries": [
   {
@@ -434,6 +443,193 @@
    "_path": "entries/AZ/us-az-maricopa-county/az-maricopa-definition.json"
   },
   {
+   "id": "az-phoenix-647-grandfathering-aug-2025",
+   "jurisdiction": "us-az-phoenix",
+   "instrument": "Phoenix Zoning Ordinance \u00a7 647.A.2.kk(4)",
+   "section": "647.A.2.kk(4)",
+   "mechanism": "process",
+   "summary": "The data center regulations and the associated design guidelines do not apply to data centers that received preliminary site plan approval, or a data center use specifically listed as permitted or discussed in a Council-adopted planned unit development narrative, prior to August 2, 2025.",
+   "text": "These regulations and the design guidelines set forth in Section 507 Tab A.II.D.5, Data Centers, are not applicable to data centers which have received preliminary site plan approval; or a data center use that is specifically listed as a permitted use or specifically discussed in a Council-adopted planned unit development narrative prior to August 2, 2025.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "effective": "2025-08-02",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "primary",
+    "citation": "Phoenix Zoning Ordinance \u00a7 647, codified",
+    "url": "https://phoenix.municipal.codes/ZO/647"
+   },
+   "notes": "A grandfathering provision written into the operative section rather than adopted as a separate resolution. Loudoun County by contrast adopted a standalone Grandfathering Resolution with its own cutoff date, which is now proposed for withdrawal. The Phoenix cutoff reaches PUD narratives as well as approved site plans, which is broader than an application-date test.",
+   "confidence_note": "How many projects fall within the exemption is NOT_CHECKED. Section 507 Tab A.II.D.5 has not been read.",
+   "tags": [
+    "grandfathering",
+    "august-2-2025",
+    "PUD-narrative"
+   ],
+   "operator": "MLawrence",
+   "state": "AZ",
+   "jurisdiction_name": "Phoenix",
+   "_path": "entries/AZ/us-az-phoenix/az-phoenix-647-grandfathering-aug-2025.json"
+  },
+  {
+   "id": "az-phoenix-647-noise-adopted",
+   "jurisdiction": "us-az-phoenix",
+   "instrument": "Phoenix Zoning Ordinance \u00a7 647.A.2.kk(3)",
+   "section": "647.A.2.kk(3)",
+   "mechanism": "acoustic",
+   "summary": "Preliminary site plan approval is withheld unless the data center, including all on-site mechanical equipment, is demonstrated not to exceed 55 dB(A) between 7:00 a.m. and 10:00 p.m. and 45 dB(A) between 10:00 p.m. and 7:00 a.m., measured at the property line of the nearest residentially zoned property. A final certificate of occupancy is withheld on exceedance.",
+   "text": "Preliminary site plan approval for a data center shall not be granted unless it has been demonstrated that the data center, including all on-site mechanical equipment and facilities, will not exceed a sound level of 55 dB(A) when measured at the property line of the nearest residentially zoned property to the proposed data center property between the hours of 7:00 a.m. and 10:00 p.m. and 45 dB(A) between the hours of 10:00 p.m. and 7:00 a.m. or a specific noise standard may be stipulated as a condition of an approved special permit.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "primary",
+    "citation": "Phoenix Zoning Ordinance \u00a7 647, codified, Ord. No. G-7396 \u00a7 5 (2025)",
+    "url": "https://phoenix.municipal.codes/ZO/647"
+   },
+   "notes": "The adopted standard is numeric and day-night. The staff-proposed version, which set a limit of 5 percent over existing ambient and applied only within 300 feet of a residential district, did not survive adoption. The adopted provision applies at the nearest residentially zoned property line with no distance scoping. On approval of the noise study, the mitigation methods are stipulated as a condition of final site plan approval. At 45 dB(A) this is the tightest nighttime limit identified in this corpus; Marana's is 55 dB(A) at night for residential.",
+   "confidence_note": "The codification was read, not the enrolled ordinance. The code does not specify a frequency weighting beyond A-weighting, an averaging period, a measurement standard, or any tonality or low-frequency provision.",
+   "supersedes": "az-phoenix-zta-noise",
+   "tags": [
+    "55-dBA",
+    "45-dBA",
+    "day-night",
+    "CofO",
+    "adopted"
+   ],
+   "operator": "MLawrence",
+   "state": "AZ",
+   "jurisdiction_name": "Phoenix",
+   "_path": "entries/AZ/us-az-phoenix/az-phoenix-647-noise-adopted.json"
+  },
+  {
+   "id": "az-phoenix-647-stipulation-and-revocation",
+   "jurisdiction": "us-az-phoenix",
+   "instrument": "Phoenix Zoning Ordinance \u00a7 647.A.2.kk",
+   "section": "647.A.2.kk",
+   "mechanism": "enforcement",
+   "summary": "The applicant must comply with additional stipulations or study requirements addressing health and safety concerns, which may include fire protection, water consumption, power consumption, on-site energy generation, noise and hazardous materials. Failure to comply may be grounds for revocation of the special permit.",
+   "text": "The applicant for the special permit will be required to comply with additional stipulations or study requirements to address health and safety concerns, which may include but are not limited to fire protection, water consumption, power consumption, on-site energy generation, noise, and hazardous materials, and to mitigate adverse impact to existing uses. Failure to comply with these requirements may be grounds for revocation per Section 504.1.C.6.b.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "primary",
+    "citation": "Phoenix Zoning Ordinance \u00a7 647, codified",
+    "url": "https://phoenix.municipal.codes/ZO/647"
+   },
+   "notes": "Revocation of an approved special permit is an enforcement mechanism not identified in any other jurisdiction in this corpus. Elsewhere the enforcement hooks are occupancy-based: Marana withholds a permanent certificate of occupancy, Phoenix withholds a final certificate of occupancy for noise. This provision reaches an operating facility. The enumerated list names on-site energy generation expressly.",
+   "confidence_note": "Section 504.1.C.6.b has not been read, so the revocation procedure and its standard of proof are NOT_CHECKED. No revocation is known to have occurred.",
+   "tags": [
+    "revocation",
+    "stipulation-authority",
+    "on-site-generation"
+   ],
+   "operator": "MLawrence",
+   "state": "AZ",
+   "jurisdiction_name": "Phoenix",
+   "_path": "entries/AZ/us-az-phoenix/az-phoenix-647-stipulation-and-revocation.json"
+  },
+  {
+   "id": "az-phoenix-647-transit-spacing-adopted",
+   "jurisdiction": "us-az-phoenix",
+   "instrument": "Phoenix Zoning Ordinance \u00a7 647.A.2.kk(1)",
+   "section": "647.A.2.kk(1)",
+   "mechanism": "use-permission",
+   "summary": "The development shall be no closer than 2,640 feet from an approved high-capacity transit station.",
+   "text": "The development shall be no closer than 2,640 feet from an approved high-capacity transit station.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "primary",
+    "citation": "Phoenix Zoning Ordinance \u00a7 647, codified",
+    "url": "https://phoenix.municipal.codes/ZO/647"
+   },
+   "notes": "Adopted unchanged from the staff proposal. Data centers are permitted in the C-2, C-3, CP/GCP, A-1 and A-2 districts by Special Permit granted by Council on Commission recommendation. Atlanta separately bars data centers within a half mile of transit stations; these are the only two transit-spacing provisions identified in this corpus.",
+   "confidence_note": "Codification read, not the enrolled ordinance. What qualifies as an approved high-capacity transit station, and how the distance is measured, are not defined in this section.",
+   "supersedes": "az-phoenix-zta-transit",
+   "tags": [
+    "2640-feet",
+    "transit-spacing",
+    "adopted"
+   ],
+   "operator": "MLawrence",
+   "state": "AZ",
+   "jurisdiction_name": "Phoenix",
+   "_path": "entries/AZ/us-az-phoenix/az-phoenix-647-transit-spacing-adopted.json"
+  },
+  {
+   "id": "az-phoenix-647-utility-agreement-adopted",
+   "jurisdiction": "us-az-phoenix",
+   "instrument": "Phoenix Zoning Ordinance \u00a7 647.A.2.kk(2)",
+   "section": "647.A.2.kk(2)",
+   "mechanism": "utility-service",
+   "summary": "Preliminary site plan approval is not granted until a local utility company provides a contractual agreement affirming its capacity and commitment to serve the energy demand for the proposed data center, submitted concurrent with the preliminary site plan.",
+   "text": "Preliminary site plan approval will not be granted for a data center until such time that a local utility company provides a contractual agreement that affirms its capacity and commitment to serve the energy demand for the proposed data center. The agreement from the utility company shall be submitted to PDD concurrent with the preliminary site plan.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "primary",
+    "citation": "Phoenix Zoning Ordinance \u00a7 647, codified",
+    "url": "https://phoenix.municipal.codes/ZO/647"
+   },
+   "notes": "The adopted text requires a contractual agreement, not a will-serve letter, and contains no two-year service window. The staff report described a will-serve letter confirming ability to serve within two years; that language is not in the adopted section. The strongest utility-service requirement identified in this corpus. As with every other instance of this mechanism, the section does not state what happens to an application if the utility declines to provide the agreement, and sets no period within which the utility must respond.",
+   "confidence_note": "Codification read, not the enrolled ordinance. What constitutes a contractual agreement for this purpose, and whether PDD has published guidance on it, is NOT_CHECKED.",
+   "supersedes": "az-phoenix-zta-willserve",
+   "tags": [
+    "contractual-agreement",
+    "utility-service",
+    "adopted"
+   ],
+   "operator": "MLawrence",
+   "state": "AZ",
+   "jurisdiction_name": "Phoenix",
+   "_path": "entries/AZ/us-az-phoenix/az-phoenix-647-utility-agreement-adopted.json"
+  },
+  {
+   "id": "az-phoenix-accessory-gross-floor-area",
+   "jurisdiction": "us-az-phoenix",
+   "instrument": "Phoenix Zoning Ordinance \u00a7 202, data center definition",
+   "section": "202",
+   "mechanism": "quantity-cap",
+   "summary": "A data center may be considered accessory to a non-residential use where it does not exceed 10 percent of the gross floor area of all on-site buildings, serves the enterprise functions of the on-site property owner, and is not used to lease data services to third parties.",
+   "text": "NOT EXCEED 10% OF THE GROSS FLOOR AREA OF ALL ON-SITE BUILDINGS; IS USED TO SERVE THE ENTERPRISE FUNCTIONS OF THE ON-SITE PROPERTY OWNER; AND IS NOT USED TO LEASE DATA SERVICES TO THIRD PARTIES.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "primary",
+    "citation": "Z-TA-2-25-Y proposed ordinance language, Exhibit A; amendments shown in capitals",
+    "url": "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/staffreports/z-ta-2-25-y-data-center.pdf"
+   },
+   "notes": "Resolves a prior conflict in this corpus. The staff report narrative described the threshold as 10 percent of the building footprint; the operative ordinance language is 10 percent of the gross floor area of all on-site buildings. The narrative was a summary, not the text. Chandler by contrast measures its 10 percent accessory threshold on building footprint.",
+   "confidence_note": "Read from the proposed ordinance language in the staff report exhibit rather than from the codified Section 202. The codified definition has not been retrieved and should be checked for any change between proposal and adoption.",
+   "tags": [
+    "10-percent",
+    "gross-floor-area",
+    "accessory",
+    "conflict-resolved"
+   ],
+   "operator": "MLawrence",
+   "state": "AZ",
+   "jurisdiction_name": "Phoenix",
+   "_path": "entries/AZ/us-az-phoenix/az-phoenix-accessory-gross-floor-area.json"
+  },
+  {
    "id": "az-phoenix-background-interpretation",
    "jurisdiction": "us-az-phoenix",
    "mechanism": "definition",
@@ -660,6 +856,96 @@
    "state": "CA",
    "jurisdiction_name": "State of California",
    "_path": "entries/CA/us-ca-state/ca-gov-code-65858.json"
+  },
+  {
+   "id": "ca-sb1168-transmission-cost-allocation",
+   "jurisdiction": "us-ca-state",
+   "instrument": "Senate Bill 1168",
+   "section": "",
+   "mechanism": "rate-allocation",
+   "summary": "Addresses fair-share allocation of transmission costs through the Public Utilities Commission. Awaits the Governor's signature or veto by the end of September 2026.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "proposed",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "datacenterbans.com weekly summary"
+   },
+   "notes": "The third of three California data center measures before the Governor. Upstream cost allocation is the same mechanism Georgia adopted by Public Service Commission rule in January 2025, billing new customers above 100 MW for site-specific and upstream generation, transmission and distribution costs.",
+   "confidence_note": "Bill text not read, author not confirmed, vote counts NOT_CHECKED. The weakest-sourced of the three California bill entries.",
+   "tags": [
+    "SB1168",
+    "transmission",
+    "cost-allocation",
+    "on-governors-desk"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "CA",
+   "jurisdiction_name": "State of California",
+   "_path": "entries/CA/us-ca-state/ca-sb1168-transmission-cost-allocation.json"
+  },
+  {
+   "id": "ca-sb886-data-center-rate-class",
+   "jurisdiction": "us-ca-state",
+   "instrument": "Senate Bill 886 (Padilla), Data Center Ratepayer Protections Act",
+   "section": "",
+   "mechanism": "rate-allocation",
+   "summary": "Would require the Public Utilities Commission to develop a separate tariff, or rate class, for large energy users including data centers. Passed the Senate 28-10 and the Assembly 49-7 and awaits the Governor's signature or veto by the end of September 2026.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "proposed",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Office of Senator Steve Padilla, 18th Senate District, release; datacenterbans.com"
+   },
+   "notes": "California's analogue to Oregon's POWER Act and Ohio's AEP settlement. A support letter from a public utility district frames the purpose as protecting residential ratepayers from stranded assets built to meet sudden load growth. One of three data center bills on the Governor's desk from the same author.",
+   "confidence_note": "Bill text not read. The tariff's structure, thresholds and any minimum demand provision are NOT_CHECKED. Whether the Governor has acted is NOT_CHECKED as of the retrieval date.",
+   "tags": [
+    "SB886",
+    "rate-class",
+    "padilla",
+    "on-governors-desk"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "CA",
+   "jurisdiction_name": "State of California",
+   "_path": "entries/CA/us-ca-state/ca-sb886-data-center-rate-class.json"
+  },
+  {
+   "id": "ca-sb887-environmental-review",
+   "jurisdiction": "us-ca-state",
+   "instrument": "Senate Bill 887 (Padilla)",
+   "section": "",
+   "mechanism": "process",
+   "summary": "Addresses environmental impact review for data centers. Passed the Senate 29-8 and the Assembly 42-10 and awaits the Governor's signature or veto by the end of September 2026.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "proposed",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Office of Senator Steve Padilla release; datacenterbans.com"
+   },
+   "notes": "Sits directly on top of the Imperial County Superior Court ruling this month halting a nearly one-million-square-foot complex approved without review under the California Environmental Quality Act. A court voided a project for skipping review in the same month the Legislature sent the Governor a bill on the same subject.",
+   "confidence_note": "Bill text not read. What the bill requires, and whether it changes CEQA's application to data centers or adds a separate review, is NOT_CHECKED. No relationship between the bill and the Imperial County ruling is asserted beyond their concurrence in time.",
+   "tags": [
+    "SB887",
+    "CEQA",
+    "environmental-review",
+    "on-governors-desk"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "CA",
+   "jurisdiction_name": "State of California",
+   "_path": "entries/CA/us-ca-state/ca-sb887-environmental-review.json"
   },
   {
    "id": "ga-fayetteville-citywide-prohibition",
@@ -1043,6 +1329,65 @@
    "_path": "entries/OH/us-oh-puco/oh-aep-tariff-minimum-demand.json"
   },
   {
+   "id": "or-forest-grove-sdr-criteria-exclude-power-water",
+   "jurisdiction": "us-or-forest-grove",
+   "instrument": "Statement of the Community Development Director on site development review criteria",
+   "section": "",
+   "mechanism": "process",
+   "summary": "Forest Grove's Community Development Director stated on the record that power and water availability are not among the criteria for site development review, which examines zoning compliance, general development standards and natural resource protections.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Forest Grove News-Times, September 6 and October 16 2024, quoting Community Development Director Bryan Pohl"
+   },
+   "notes": "If the same is true in comparator jurisdictions, the two constraints most contested in public sit outside the review that determines whether a facility is approved. Four jurisdictions in this corpus separately require written utility service confirmation before land use approval, which is the opposite arrangement.",
+   "confidence_note": "The Forest Grove development code has not been read and the site development review criteria have not been checked against it. This records a statement about the criteria, not the criteria. Whether it generalises to any other jurisdiction is unestablished.",
+   "tags": [
+    "site-development-review",
+    "criteria",
+    "power-water-excluded"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "OR",
+   "jurisdiction_name": "Forest Grove",
+   "_path": "entries/OR/us-or-forest-grove/or-forest-grove-sdr-criteria-exclude-power-water.json"
+  },
+  {
+   "id": "or-hillsboro-2932-notice-and-extension",
+   "jurisdiction": "us-or-hillsboro",
+   "instrument": "Resolution No. 2932",
+   "section": "",
+   "mechanism": "process",
+   "summary": "The 120-day moratorium was adopted at a special meeting on 24 hours of public notice, is extendable by a further six months, and the City notified the Oregon Department of Land Conservation and Development on entering it.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "effective": "2026-07-27",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting of the July 27 2026 special meeting"
+   },
+   "notes": "The stated reason for the short notice, attributed to Mayor Beach Pace, was to prevent a rush of applications from data centers. Applications submitted before the moratorium may proceed, and it does not stop projects under construction or permits in process. Recorded as a dated statement of position, not as characterization.",
+   "confidence_note": "The resolution is OBSERVED and filed separately; this entry records procedural facts around its adoption from secondary reporting only. The DLCD notification has not been located. The six-month extension is reported and has not been checked against the statute.",
+   "tags": [
+    "24-hour-notice",
+    "extension",
+    "DLCD-notification"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "OR",
+   "jurisdiction_name": "Hillsboro",
+   "_path": "entries/OR/us-or-hillsboro/or-hillsboro-2932-notice-and-extension.json"
+  },
+  {
    "id": "or-hillsboro-8502-acreage-caps",
    "jurisdiction": "us-or-hillsboro",
    "mechanism": "quantity-cap",
@@ -1212,6 +1557,35 @@
    "_path": "entries/OR/us-or-hillsboro/or-hillsboro-8502-typeiii.json"
   },
   {
+   "id": "or-hillsboro-enterprise-zone-boundary",
+   "jurisdiction": "us-or-hillsboro",
+   "instrument": "Hillsboro Enterprise Zone",
+   "section": "",
+   "mechanism": "incentive",
+   "summary": "Established 2006 with two approved areas, North Industrial and Downtown & South Industrial. The North Industrial area was amended in 2025 to include additional parts of the Jackson East Area, planned for industrial development in 2020.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "City of Hillsboro enterprise zone pages"
+   },
+   "notes": "The 2025 North Industrial boundary amendment predates the 2026 application flurry and is a separate instrument from the approvals themselves. Jackson East is also the sub-area carrying two of the acreage sub-caps in Draft Order No. 8502, one of which is at its ceiling.",
+   "confidence_note": "The boundary amendment instrument has not been read. Its effective date and the acreage added are NOT_CHECKED, and no relationship between the boundary amendment and the acreage caps is asserted here.",
+   "tags": [
+    "enterprise-zone",
+    "jackson-east",
+    "boundary-amendment"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "OR",
+   "jurisdiction_name": "Hillsboro",
+   "_path": "entries/OR/us-or-hillsboro/or-hillsboro-enterprise-zone-boundary.json"
+  },
+  {
    "id": "or-hillsboro-resolution-2932-trigger",
    "jurisdiction": "us-or-hillsboro",
    "mechanism": "load-trigger",
@@ -1270,6 +1644,67 @@
    "_path": "entries/OR/us-or-hillsboro/or-moratorium-by-resolution.json"
   },
   {
+   "id": "or-portland-20mw-notification-duty",
+   "jurisdiction": "us-or-portland",
+   "instrument": "City Council resolution, adopted September 16 2026",
+   "section": "",
+   "mechanism": "load-trigger",
+   "summary": "Creates a duty for staff to notify Council of any inquiry for a facility drawing 20 MW or more, triggered at inquiry or preliminary meeting rather than at permit application.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "effective": "2026-09-16",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "portland.gov District 3 councilor news release, September 17 2026"
+   },
+   "notes": "The only trigger identified in this corpus that operates upstream of a permit application. Every other load threshold in the file attaches to an application, a rate class, or an interconnection request. Compare Hillsboro's 20 MW primary-use test in Resolution No. 2932, which attaches to a land use application.",
+   "confidence_note": "Resolution not read. Whether the duty produces a published record or an internal one is NOT_CHECKED, and that determines whether it is a transparency instrument or an internal management one.",
+   "tags": [
+    "20MW",
+    "inquiry-stage",
+    "notification"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "OR",
+   "jurisdiction_name": "Portland",
+   "_path": "entries/OR/us-or-portland/or-portland-20mw-notification-duty.json"
+  },
+  {
+   "id": "or-portland-transparency-resolution",
+   "jurisdiction": "us-or-portland",
+   "instrument": "City Council resolution, adopted September 16 2026",
+   "section": "",
+   "mechanism": "process",
+   "summary": "Council adopted a resolution unanimously with twelve co-sponsors urging the City Administrator not to sign data center non-disclosure agreements, and directing staff to notify Council of any inquiry, including a preliminary meeting or permit, for a facility drawing 20 MW or more.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "effective": "2026-09-16",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "portland.gov District 3 councilor news release, September 17 2026; KATU, KPTV and Willamette Week, September 2026"
+   },
+   "notes": "Introduced August 13 2026 and reported out of the Housing and Permitting committee 4-0. Directed to City Administrator Raymond C. Lee III. The resolution also records Council's stated intent to pursue a moratorium or zoning restriction on hyperscale facilities. The sponsor cited non-disclosure agreements used in early Moda Center renovation negotiations as the origin of the NDA provision. A speaker in testimony asked that urges be replaced with prohibit; that was not adopted.",
+   "confidence_note": "The resolution itself has not been read and its number is unknown. The source is a councilor's news release, not the instrument. The measure urges rather than prohibits: it does not ban anything, does not amend the zoning code, and does not prevent the administrator from signing. Whether any notification has been filed under the 20 MW duty is NOT_CHECKED.",
+   "tags": [
+    "NDA",
+    "20MW",
+    "notification-duty",
+    "upstream-of-permit"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "OR",
+   "jurisdiction_name": "Portland",
+   "_path": "entries/OR/us-or-portland/or-portland-transparency-resolution.json"
+  },
+  {
    "id": "or-dlcd-ugb-exclusion",
    "jurisdiction": "us-or-state",
    "mechanism": "quantity-cap",
@@ -1299,6 +1734,37 @@
    "_path": "entries/OR/us-or-state/or-dlcd-ugb-exclusion.json"
   },
   {
+   "id": "or-kotek-state-land-pause-and-authority-limit",
+   "jurisdiction": "us-or-state",
+   "instrument": "Executive order of September 8 2026",
+   "section": "",
+   "mechanism": "state-authority",
+   "summary": "Ordered a roughly one-year pause on data center development on state-owned land, freezing easements, leases, land-use permits and property transfers until July 1, 2027. The Governor stated she stopped short of a three-year statewide moratorium because the state lacks the authority for one.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "effective": "2026-09-08",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "datacenterbans.com; regional reporting of the September 8 2026 order"
+   },
+   "notes": "A chief executive stating a limit on her own state's authority is the same class of fact as Virginia's Dillon Rule and Michigan's bar on outright municipal bans, arrived at from the opposite direction. The order reaches property interests \u2014 easements, leases, transfers \u2014 rather than land use approvals, which is a distinct instrument type. Executive-level restriction is now identifiable as its own category: New York Executive Order 62 in July, a Texas grid-interconnection review pause in August, and this order in September.",
+   "confidence_note": "The executive order has not been read and its number is unknown. The Governor's statement about state authority is carried from reporting of remarks, not from the order or from any legal analysis, and is not a legal conclusion.",
+   "tags": [
+    "executive-order",
+    "state-land",
+    "authority-limit",
+    "july-2027"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "OR",
+   "jurisdiction_name": "State of Oregon",
+   "_path": "entries/OR/us-or-state/or-kotek-state-land-pause-and-authority-limit.json"
+  },
+  {
    "id": "or-woodburn-120-day-moratorium",
    "jurisdiction": "us-or-woodburn",
    "instrument": "City Council action, Woodburn Oregon",
@@ -1326,6 +1792,94 @@
    "state": "OR",
    "jurisdiction_name": "Woodburn",
    "_path": "entries/OR/us-or-woodburn/or-woodburn-120-day-moratorium.json"
+  },
+  {
+   "id": "tx-queue-audit-batch-zero-suspension",
+   "jurisdiction": "us-tx-ercot",
+   "instrument": "Governor's directive and ERCOT Market Notice M-A080326-01",
+   "section": "",
+   "mechanism": "utility-service",
+   "summary": "The Governor directed the PUCT and ERCOT to verify and audit every data center project in the interconnection queue before additional projects advance. ERCOT suspended the first scheduled deliverable of Batch Zero by market notice.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Trade reporting, first published August 4 2026"
+   },
+   "notes": "The queue subject to audit is reported at approximately 474 GW of pending large-load requests, roughly 90 percent data centers. Batch Zero is a large-load interconnection process approved in June 2026 which assesses projects in batches rather than individually. Reported figures of 204 GW eligible for Batch Zero study and 294 GW applying but not eligible are carried at a further remove.",
+   "confidence_note": "No directive, order or market notice has been read. The 474 GW figure is not shown to be measured on the same basis as the 205 GW ERCOT queue figure filed elsewhere in this corpus, which has a different as-of date and methodology. No growth rate is derived from the two and none should be.",
+   "tags": [
+    "queue-audit",
+    "batch-zero",
+    "474GW"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "TX",
+   "jurisdiction_name": "ERCOT",
+   "_path": "entries/TX/us-tx-ercot/tx-queue-audit-batch-zero-suspension.json"
+  },
+  {
+   "id": "tx-25194-adoption-timing-correction",
+   "jurisdiction": "us-tx-puct",
+   "instrument": "16 TAC \u00a7 25.194 (draft) and SB 6 statutory deadlines",
+   "section": "",
+   "mechanism": "rate-allocation",
+   "summary": "Adoption of the large load interconnection rule is anticipated in September 2026. December 31, 2026 is the statutory deadline for the transmission cost review, not for adoption of the rule.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "draft",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "PUCT Project No. 58317 coverage; law firm client publications on SB 6 implementation"
+   },
+   "notes": "Draft published March 12 2026, comments due April 17 2026. Corrects a prior entry in this corpus which stated the final rule was targeted for December 31 2026 and conflated the two deadlines. Mandatory curtailment applies to new large loads interconnecting in ERCOT after December 31 2025.",
+   "confidence_note": "No PUCT order has been read. Whether the rule adopted in September 2026 is NOT_CHECKED as of the retrieval date.",
+   "supersedes": "tx-25194-interconnection-fee",
+   "tags": [
+    "25.194",
+    "adoption-timing",
+    "correction"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "TX",
+   "jurisdiction_name": "Public Utility Commission of Texas",
+   "_path": "entries/TX/us-tx-puct/tx-25194-adoption-timing-correction.json"
+  },
+  {
+   "id": "tx-25194-duplicate-request-disclosure",
+   "jurisdiction": "us-tx-puct",
+   "instrument": "16 TAC \u00a7 25.194 (draft)",
+   "section": "",
+   "mechanism": "utility-service",
+   "summary": "Before ERCOT begins an interconnection study, the draft rule would require the customer to execute an intermediate agreement with the transmission provider including demonstration of site control through a deed, purchase option or lease, and disclosure of duplicate service requests.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "draft",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Law firm client publications on the draft rule, March 2026"
+   },
+   "notes": "Duplicate-service-request disclosure addresses queue inflation directly: a single project applying at multiple interconnection points is the mechanism that makes published pipeline figures unreadable. If adopted as drafted, this would be the first requirement identified anywhere that a developer state on the record whether it has applied elsewhere for the same load. Site control by deed or option is separately a county recorder record.",
+   "confidence_note": "Draft rule not read. Whether the provision survives adoption is NOT_CHECKED, and whether any disclosure becomes public or stays with the transmission provider is unestablished.",
+   "tags": [
+    "duplicate-requests",
+    "queue-inflation",
+    "site-control"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "TX",
+   "jurisdiction_name": "Public Utility Commission of Texas",
+   "_path": "entries/TX/us-tx-puct/tx-25194-duplicate-request-disclosure.json"
   },
   {
    "id": "tx-25194-interconnection-fee",
@@ -1386,6 +1940,37 @@
    "_path": "entries/TX/us-tx-puct/tx-docket-59220-curtailment.json"
   },
   {
+   "id": "tx-docket-59220-parties-and-site",
+   "jurisdiction": "us-tx-puct",
+   "instrument": "PUCT Docket No. 59220",
+   "section": "",
+   "mechanism": "generation",
+   "summary": "The first SB 6 net metering case involved FGE Goodnight I, LLC and Crusoe Energy Systems LLC, pairing a 260 MW AI data center in Armstrong County with the existing 265.5 MW Goodnight Wind resource behind a single point of interconnection.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "effective": "2026-07-24",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Law firm client publications and trade reporting on the first SB 6 test case"
+   },
+   "notes": "Joint application filed January 9 2026. The load co-locates behind the wind resource's point of interconnection, sharing an ERCOT Polled Settlement meter and netting consumption against production for wholesale settlement. The data center is reported as developed in partnership with Google. The broader site is reported to carry 933 MW of off-grid fossil gas turbines under construction. The registered arrangement and the site's total generation buildout are not the same thing.",
+   "confidence_note": "Order not read. The 933 MW gas figure is reported and NOT_CHECKED, and no relationship is asserted between it and the net metering arrangement before the Commission.",
+   "tags": [
+    "59220",
+    "co-location",
+    "933MW-gas",
+    "armstrong-county"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "TX",
+   "jurisdiction_name": "Public Utility Commission of Texas",
+   "_path": "entries/TX/us-tx-puct/tx-docket-59220-parties-and-site.json"
+  },
+  {
    "id": "tx-sb6-site-control",
    "jurisdiction": "us-tx-state",
    "mechanism": "use-permission",
@@ -1443,6 +2028,66 @@
    "state": "VA",
    "jurisdiction_name": "Loudoun County",
    "_path": "entries/VA/us-va-loudoun-county/va-generator-census-loudoun.json"
+  },
+  {
+   "id": "va-loudoun-approved-unbuilt-floor-area",
+   "jurisdiction": "us-va-loudoun-county",
+   "instrument": "Loudoun County published figures",
+   "section": "",
+   "mechanism": "quantity-cap",
+   "summary": "The county publishes approximately 35.7 million square feet of data center floor area that is approved but not yet built, comprising approved legislative applications and approved site plans. Between 2022 and May 2026 the Board approved 32 of 39 legislative applications.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "loudoun.gov, Data Centers: The Loudoun Story"
+   },
+   "notes": "A pipeline measured in approved-but-unbuilt floor area, published by the approving authority. No other jurisdiction in this corpus publishes an equivalent, and the underlying figure \u2014 approved site plans minus certificates of occupancy \u2014 is computable from records most jurisdictions already keep.",
+   "confidence_note": "Retrieved from a search index rather than by direct fetch. The as-of date of the figure is not established, which matters for a pipeline number. Not hashed.",
+   "tags": [
+    "35.7M-sqft",
+    "pipeline",
+    "approved-unbuilt"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Loudoun County",
+   "_path": "entries/VA/us-va-loudoun-county/va-loudoun-approved-unbuilt-floor-area.json"
+  },
+  {
+   "id": "va-loudoun-building-count-and-floor-area",
+   "jurisdiction": "us-va-loudoun-county",
+   "instrument": "Loudoun County published figures, as of March 1 2026",
+   "section": "",
+   "mechanism": "quantity-cap",
+   "summary": "Approximately 233 data center buildings totalling about 56.5 million square feet are built or in various stages of construction. The average existing building is roughly 234,000 square feet; permits issued since 2023 average closer to 339,000. The county issued building permits for more than 10 million square feet in 2025 alone.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "effective": "2026-03-01",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Energy News Beat, September 17 2026, reporting Loudoun County data"
+   },
+   "notes": "The 233 figure counts buildings, not facilities or campuses. Reporting elsewhere describes the same number as data centers, which is a different unit and a live source of count error in this subject. County staff estimate the separately recorded 35.7 million approved-unbuilt square feet could represent about 115 more buildings. The growth in average permitted building size from roughly 234,000 to 339,000 square feet is a measurable trend not tracked elsewhere in this corpus.",
+   "confidence_note": "No county document has been read; figures are carried from a single secondary account attributing them to county data. Whether the 233 count and the 56.5 million square feet are measured on the same basis is NOT_CHECKED.",
+   "tags": [
+    "233-buildings",
+    "56.5M-sqft",
+    "building-size-trend",
+    "count-unit"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Loudoun County",
+   "_path": "entries/VA/us-va-loudoun-county/va-loudoun-building-count-and-floor-area.json"
   },
   {
    "id": "va-loudoun-facility-count-and-revenue",
@@ -1625,6 +2270,36 @@
    "_path": "entries/VA/us-va-loudoun-county/va-loudoun-moratorium-legality-constraint.json"
   },
   {
+   "id": "va-loudoun-office-classification-until-2014",
+   "jurisdiction": "us-va-loudoun-county",
+   "instrument": "Zoning ordinance amendment defining data center, effective April 2 2014",
+   "section": "",
+   "mechanism": "definition",
+   "summary": "Data centers were treated as an office use in Loudoun County until a zoning ordinance amendment defining data center took effect on April 2, 2014.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "effective": "2014-04-02",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "loudoun.gov project pages"
+   },
+   "notes": "Bears on the definitional lane. Phoenix similarly had no definition and addressed data centers through informal interpretation before July 2025. In both cases a use was permitted for years under a classification written for something else.",
+   "confidence_note": "The 2014 amendment has not been read and its case number is unknown. What office use permitted, and under what standards, is NOT_CHECKED.",
+   "tags": [
+    "office-use",
+    "2014",
+    "definitional-gap"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Loudoun County",
+   "_path": "entries/VA/us-va-loudoun-county/va-loudoun-office-classification-until-2014.json"
+  },
+  {
    "id": "va-loudoun-pause-direction-2026-09-15",
    "jurisdiction": "us-va-loudoun-county",
    "instrument": "Board of Supervisors action, September 15 2026",
@@ -1653,6 +2328,67 @@
    "state": "VA",
    "jurisdiction_name": "Loudoun County",
    "_path": "entries/VA/us-va-loudoun-county/va-loudoun-pause-direction-2026-09-15.json"
+  },
+  {
+   "id": "va-loudoun-pause-scope-and-tolling",
+   "jurisdiction": "us-va-loudoun-county",
+   "instrument": "Board direction of September 16 2026, as described by the Board Chair",
+   "section": "",
+   "mechanism": "process",
+   "summary": "The pause would reach new filings requiring special exceptions or rezonings. Already-permitted work and most administrative site plans would continue. The Board Chair stated the resolution shall be effective September 15, 2026 and that the pause should not cause an application to become inactive.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "proposed",
+   "effective": "2026-09-15",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Reporting of the September 16 2026 Board meeting quoting Board Chair Phyllis Randall; Energy News Beat, September 17 2026"
+   },
+   "notes": "Two provisions not identified elsewhere in this corpus. The retroactive effective date closes the window between direction and adoption, so no filing rush can open during drafting. The tolling provision prevents an application from lapsing while the pause runs. Every other pause in this file leaves both questions unaddressed. The Board Chair described the affected pipeline as a fairly small number; separate reporting puts it at about 13 pending applications that have not reached the planning commission.",
+   "confidence_note": "No resolution text exists. Both provisions are carried from a Board Chair's remarks at a meeting, not from a drafted instrument, and neither may survive drafting. The final vote date is CONFLICTING across sources at October 13 and October 20.",
+   "tags": [
+    "retroactive",
+    "tolling",
+    "scope",
+    "no-filing-window"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Loudoun County",
+   "_path": "entries/VA/us-va-loudoun-county/va-loudoun-pause-scope-and-tolling.json"
+  },
+  {
+   "id": "va-loudoun-phase2-microgrids-generators",
+   "jurisdiction": "us-va-loudoun-county",
+   "instrument": "CPAM-2024-0001 and ZOAM-2024-0001, Phase 2",
+   "section": "",
+   "mechanism": "generation",
+   "summary": "Phase 2 scope covers policy guidance and use-specific zoning standards for data centers, utility substations, microgrids and generators. Drafting window October 2025 through August 2026, with two public open house events in September 2026.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "proposed",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "loudoun.gov project pages"
+   },
+   "notes": "The only jurisdiction in this corpus writing standards for microgrids and generators as land uses alongside data centers. Loudoun facilities are separately reported to operate approximately 4,700 backup generators. Phase 1 was approved March 18 2025 on a 7-2 vote, Supervisors Umstattd and Kershner dissenting, after initiation February 6 2024 and an Intent to Amend approved July 2 2024.",
+   "confidence_note": "Phase 2 draft text has not been read and may not exist in public form. Whether microgrids survive into the drafted standards is NOT_CHECKED.",
+   "tags": [
+    "microgrids",
+    "generators",
+    "substations",
+    "phase-2"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Loudoun County",
+   "_path": "entries/VA/us-va-loudoun-county/va-loudoun-phase2-microgrids-generators.json"
   },
   {
    "id": "va-loudoun-zoam-2024-0001",
@@ -1803,6 +2539,35 @@
    "_path": "entries/VA/us-va-state/va-deq-permit-basis-annual-not-hourly.json"
   },
   {
+   "id": "va-dillon-rule-local-authority",
+   "jurisdiction": "us-va-state",
+   "instrument": "Virginia's Dillon Rule, as applied to local data center pauses",
+   "section": "",
+   "mechanism": "state-authority",
+   "summary": "Virginia localities hold only those powers expressly granted by the General Assembly. Loudoun officials emphasized that the twelve-month pause is not a legal moratorium under the Dillon Rule, but a temporary pause on board-level reviews.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Energy News Beat, September 17 2026; WJLA and DC News Now, September 16 2026"
+   },
+   "notes": "Names the doctrine behind the County Attorney's reported advice that a moratorium is not allowed in the Commonwealth while a pause on legislative applications is. Parallel state-authority limits elsewhere in this corpus: Michigan bars municipalities from banning data centers outright; Oregon's governor stated the state lacks authority for a statewide moratorium; California's Government Code sets the form and duration of an urgency ordinance.",
+   "confidence_note": "No Virginia Code section, opinion or case has been read. The Dillon Rule characterization is carried from reporting of officials' remarks, not from a legal source. This must not be relied on or repeated as a legal conclusion.",
+   "tags": [
+    "dillon-rule",
+    "local-authority",
+    "virginia"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "VA",
+   "jurisdiction_name": "Commonwealth of Virginia",
+   "_path": "entries/VA/us-va-state/va-dillon-rule-local-authority.json"
+  },
+  {
    "id": "va-hb507-generator-emissions-standard",
    "jurisdiction": "us-va-state",
    "instrument": "HB 507 (2026 session)",
@@ -1919,6 +2684,425 @@
    "state": "VA",
    "jurisdiction_name": "Commonwealth of Virginia",
    "_path": "entries/VA/us-va-state/va-rogers-legislative-pause-distinction.json"
+  },
+  {
+   "id": "wa-grant-pud-assigned-load-limits",
+   "jurisdiction": "us-wa-grant-pud",
+   "instrument": "Commission action imposing load-growth limits on data center customers",
+   "section": "",
+   "mechanism": "utility-service",
+   "summary": "Commissioners imposed load-growth limits on data center customers, under which staff communicate to each customer how many megawatts remain before that customer reaches its assigned limit. Not applied to commercial, residential or agricultural customers.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Grant County PUD release, March 2025"
+   },
+   "notes": "A per-customer assigned megawatt ceiling, communicated individually, is a rationing instrument. It is not a moratorium, not a rate and not a zoning provision. The stated rationale is decreasing the risk of outages and voltage instability for other customers. No equivalent utility instrument has been identified in any other state in this corpus.",
+   "confidence_note": "The commission action has not been read and its date is given only as March 2025. Whether the assigned limits are disclosable is NOT_CHECKED, and that question determines whether a per-operator headroom figure can ever be recorded.",
+   "tags": [
+    "rationing",
+    "assigned-limit",
+    "per-customer"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "WA",
+   "jurisdiction_name": "Grant County PUD",
+   "_path": "entries/WA/us-wa-grant-pud/wa-grant-pud-assigned-load-limits.json"
+  },
+  {
+   "id": "wa-grant-pud-cost-of-service-ratios",
+   "jurisdiction": "us-wa-grant-pud",
+   "instrument": "Statements on cost-of-service recovery, August 27 2026",
+   "section": "",
+   "mechanism": "rate-allocation",
+   "summary": "Data center customers are reported to pay approximately 150 percent of the cost to serve them and residential customers approximately 60 percent. A rate order effective April 1 2026 raised core customer rates by an average of 3.5 percent and large power users including data centers by an average of 9.5 percent.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "effective": "2026-04-01",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Account of the August 27 2026 Grant County PUD commission meeting, reporting Andy Wendell, Senior Manager of Large Power Solutions"
+   },
+   "notes": "The stated rationale for the structure is that large-load rates are set to help members recoup dam costs originally paid through rates while keeping data center rates regionally competitive. The two rate figures and the recovery ratios are not in tension: large loads took the larger increase in the same order and are reported to already recover above cost of service. The all-in residential rate is reported at 6.4 cents per kilowatt-hour for 2026.",
+   "confidence_note": "Single-hop relay of a named manager's statement at a public meeting. No cost-of-service study and no rate order has been read. These figures cut against the prevailing public claim about data center rate burden, which is precisely why they must not travel before the underlying study is in hand. They do not generalise to any other utility and they are not a statement about bills, which have risen.",
+   "tags": [
+    "150-percent",
+    "60-percent",
+    "cost-of-service",
+    "counter-narrative"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "WA",
+   "jurisdiction_name": "Grant County PUD",
+   "_path": "entries/WA/us-wa-grant-pud/wa-grant-pud-cost-of-service-ratios.json"
+  },
+  {
+   "id": "wa-grant-pud-large-load-queue",
+   "jurisdiction": "us-wa-grant-pud",
+   "instrument": "Report to Grant County PUD commissioners, August 27 2026",
+   "section": "",
+   "mechanism": "utility-service",
+   "summary": "Seventy-five large-load applications totalling 2,897 MW of requested peak demand, of which 1,568 MW is data centers, 547 MW port districts, utility and government, and 343 MW chemical. By area, 1,578 MW is Quincy and 1,153 MW Moses Lake.",
+   "origin": "RELAYED",
+   "entry_state": "CONFLICTING",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "effective": "2026-08-27",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Account of the August 27 2026 Grant County PUD commission meeting, reporting Andy Wendell"
+   },
+   "notes": "The utility's own FAQ page separately states approximately 800 MW of large-load requests in its power application queue. Both values are recorded and neither is resolved here. Candidate explanations not adopted: different as-of dates, requests under study versus all applications, contracted versus requested. Crypto, mineral and metal processing and general manufacturing are each reported at approximately 100 MW.",
+   "confidence_note": "The commission packet for August 27 2026 has not been read, and the FAQ page's as-of date is unknown. Any ratio of queued interest to load limit derived from these figures is no stronger than the conflicted queue value and should be stated as a magnitude rather than a number.",
+   "tags": [
+    "2897MW",
+    "queue-conflict",
+    "quincy",
+    "moses-lake"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "WA",
+   "jurisdiction_name": "Grant County PUD",
+   "_path": "entries/WA/us-wa-grant-pud/wa-grant-pud-large-load-queue.json"
+  },
+  {
+   "id": "wa-grant-pud-quincy-load-limit",
+   "jurisdiction": "us-wa-grant-pud",
+   "instrument": "Grant County PUD published load limit and Quincy Transmission Expansion Plan",
+   "section": "",
+   "mechanism": "utility-service",
+   "summary": "The Quincy-area load limit is 372 MW, rising to 750 MW on completion of a $260 million transmission expansion scheduled for 2029. Grant PUD holds more than 2,100 MW of generation and recorded a July 2026 peak load near 1,050 MW.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "grantpud.org pages via search index, page updated May 6 2026; grantpudqtep.org"
+   },
+   "notes": "The Quincy Transmission Expansion Plan comprises six transmission line segments of 1 to 32 miles, one new switchyard, expansion of the Mountain View substation and expansion of the Wanapum switchyard. The anchor segment is a 32-mile 230 kV line from Wanapum switchyard to Mountain View substation. Generation headroom and deliverable load are different quantities: the utility holds more than twice its July peak in generation while the Quincy area limit sits at 372 MW.",
+   "confidence_note": "Retrieved from a search index, not fetched, not hashed. QTEP documents have not been read. Whether the 2029 completion date is current is NOT_CHECKED.",
+   "tags": [
+    "372MW",
+    "750MW",
+    "QTEP",
+    "transmission-constraint"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "WA",
+   "jurisdiction_name": "Grant County PUD",
+   "_path": "entries/WA/us-wa-grant-pud/wa-grant-pud-quincy-load-limit.json"
+  },
+  {
+   "id": "wa-walla-walla-port-land-sale",
+   "jurisdiction": "us-wa-port-of-walla-walla",
+   "instrument": "Port of Walla Walla land sale, Wallula Gap Business Park",
+   "section": "",
+   "mechanism": "process",
+   "summary": "The Port approved the sale of approximately 554 acres to the operator for more than $36 million. The buyer entered under a different entity name on a letter of intent in November 2024, with the identity emerging later.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting of the Port of Walla Walla transaction, 2026"
+   },
+   "notes": "The current application covers three single-story buildings on roughly 134 acres of the 554 purchased; full buildout is reported as four phases of four buildings each at roughly 215,000 square feet, against 120 to 150 full-time positions. Port officials are reported to have said the project would grow the county's tax base by 50 percent. A shell entity on the letter of intent with the principal's identity emerging later is the same pattern recorded for a project in Pima County, Arizona.",
+   "confidence_note": "No deed, port resolution or purchase agreement has been read. The acreage, price, phasing and job figures are all carried from reporting. The tax base figure is an official's statement, not an assessment.",
+   "tags": [
+    "554-acres",
+    "shell-entity",
+    "port-district",
+    "phasing"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "WA",
+   "jurisdiction_name": "Port of Walla Walla",
+   "_path": "entries/WA/us-wa-port-of-walla-walla/wa-walla-walla-port-land-sale.json"
+  },
+  {
+   "id": "wa-snohomish-pud-pre-arrival-baseline",
+   "jurisdiction": "us-wa-snohomish-pud",
+   "instrument": "Report to the Snohomish County PUD board, April 21 2026",
+   "section": "",
+   "mechanism": "utility-service",
+   "summary": "No data centers operate in the county. Large-load inquiries average about four per year over five years, ranging from 3.5 to 150 MW, and reached eight in 2025. Nine customers receive or are due to receive energy at 3.5 to 20 MW, none of them data centers.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "effective": "2026-04-21",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Account of the April 21 2026 Snohomish County PUD board meeting, reporting Angela Johnston, senior manager"
+   },
+   "notes": "A utility with no data centers, a documented five-year baseline inquiry rate and a doubling in 2025, recorded before the first facility arrives. Every other jurisdiction in this corpus was entered after development had begun. Residents testified at the May 5 2026 commission meeting regarding a proposed data center in Arlington.",
+   "confidence_note": "Board packets for April 21 and May 5 2026 have not been read. The five-year average is as reported and its basis has not been checked.",
+   "tags": [
+    "control-case",
+    "baseline",
+    "pre-arrival",
+    "snohomish"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "WA",
+   "jurisdiction_name": "Snohomish County PUD",
+   "_path": "entries/WA/us-wa-snohomish-pud/wa-snohomish-pud-pre-arrival-baseline.json"
+  },
+  {
+   "id": "wa-annual-report-public-disclosure",
+   "jurisdiction": "us-wa-state",
+   "instrument": "RCW 82.32.534(3)",
+   "section": "82.32.534(3)",
+   "mechanism": "incentive",
+   "summary": "Information in an annual tax performance report is not subject to the tax confidentiality provisions of RCW 82.32.330 and may be disclosed to the public upon request.",
+   "text": "Other than information requested under subsection (2)(a) of this section, the information contained in an annual report filed under this section is not subject to the confidentiality provisions of RCW 82.32.330 and may be disclosed to the public upon request.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "primary",
+    "citation": "RCW 82.32.534(3), app.leg.wa.gov",
+    "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=82.32.534"
+   },
+   "notes": "The Department of Revenue's own annual tax performance report form states the same: the report is not subject to the confidentiality provisions of RCW 82.32.330 and will be disclosed to the public, including the amount of the preference claimed and employment and wage information. The carve-out in subsection (2)(a) covers additional information requested by the department or the Joint Legislative Audit and Review Committee, which remains confidential.",
+   "confidence_note": "Statute read in original. Whether a request for a specific data center filer's report is honoured in practice, and what redaction is applied, has not been tested.",
+   "tags": [
+    "public-disclosure",
+    "82.32.534",
+    "records-request"
+   ],
+   "operator": "MLawrence",
+   "state": "WA",
+   "jurisdiction_name": "State of Washington",
+   "_path": "entries/WA/us-wa-state/wa-annual-report-public-disclosure.json"
+  },
+  {
+   "id": "wa-pud-gift-of-public-funds-constraint",
+   "jurisdiction": "us-wa-state",
+   "instrument": "Washington Constitution, Article VIII, Section 7",
+   "section": "art. VIII, \u00a7 7",
+   "mechanism": "state-authority",
+   "summary": "No county, city, town or other municipal corporation may give money or property, or loan its money or credit, to or in aid of any individual, association, company or corporation, except for the necessary support of the poor and infirm.",
+   "text": "No county, city, town or other municipal corporation shall hereafter give any money, or property, or loan its money, or credit to or in aid of any individual, association, company or corporation, except for the necessary support of the poor and infirm, or become directly or indirectly the owner of any stock in or bonds of any association, company or corporation.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "primary",
+    "citation": "Washington Constitution art. VIII, \u00a7 7"
+   },
+   "notes": "A public utility district is a municipal corporation. The Municipal Research and Services Center states that under this provision a local government may not directly give or loan money to private businesses for economic development. Article VIII, Section 10 creates an express exception permitting utilities to provide conservation assistance, which indicates the general prohibition reaches utilities. A Washington Attorney General opinion concluded that a municipal utility loaning funds to its own customers is not saved by a long-range benefit to the utility. Public utility districts are not subject to rate regulation by the Utilities and Transportation Commission, and the rate discrimination bar at RCW 80.28.100 reaches gas, electrical and water companies rather than districts.",
+   "confidence_note": "The constitutional text is read in original. The identification of this provision as the basis for a Grant County PUD manager's statement that public utilities are barred from offering better rates to a particular class is DERIVED and is not stated in any source read. Whether a differential rate that still recovers cost of service would constitute a gift has not been researched and is a question for counsel. This entry replaces an earlier draft that described the constraint as statutory; that draft was never loaded.",
+   "tags": [
+    "article-VIII-7",
+    "gift-of-public-funds",
+    "PUD"
+   ],
+   "operator": "MLawrence",
+   "state": "WA",
+   "jurisdiction_name": "State of Washington",
+   "_path": "entries/WA/us-wa-state/wa-pud-gift-of-public-funds-constraint.json"
+  },
+  {
+   "id": "wa-rcw-82-08-986-contractor-naming",
+   "jurisdiction": "us-wa-state",
+   "instrument": "RCW 82.08.986(6) and RCW 82.32.534",
+   "section": "82.08.986(6)",
+   "mechanism": "incentive",
+   "summary": "A business or tenant claiming the data center sales and use tax exemption must file an annual tax performance report that identifies construction firm names and employment levels used for constructing, renovating, refurbishing or remodeling the data centers.",
+   "text": "A qualifying business or a qualifying tenant claiming an exemption under this section or RCW 82.12.986 must complete an annual tax performance report with the department as required under RCW 82.32.534. The report must identify construction firm names and employment levels used for constructing, renovating, refurbishing, or remodeling the data centers.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "primary",
+    "citation": "RCW 82.08.986(6), app.leg.wa.gov",
+    "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=82.08.986"
+   },
+   "notes": "The contractor-naming duty sits in the exemption statute itself, not in RCW 82.32.534, which is the general annual tax performance report provision. Under 82.32.534 the report is due by May 31 of the year following the calendar year in which the preference was claimed, beginning in calendar year 2018, and must detail employment by total number of full-time, part-time and temporary positions. Employee names are excluded. A filer may instead authorize the Employment Security Department to release the same employment and wage data. Related: RCW 82.08.986 and 82.12.986 establish the exemption for eligible server equipment and power infrastructure in rural counties; RCW 82.08.9861 governs the 2022 program, barring new certificates on or after July 1 2028, with exemptions expiring July 1 2038 and a qualifying tenant minimum of 150 kW contracted.",
+   "confidence_note": "Statute read in original at the point cited. Whether ESSB 6231, chapter 266 Laws of 2026, alters the reporting duty has not been checked. No filed report has been obtained, so what the reports actually contain is unestablished.",
+   "tags": [
+    "contractor-naming",
+    "annual-report",
+    "82.08.986"
+   ],
+   "operator": "MLawrence",
+   "state": "WA",
+   "jurisdiction_name": "State of Washington",
+   "_path": "entries/WA/us-wa-state/wa-rcw-82-08-986-contractor-naming.json"
+  },
+  {
+   "id": "wa-sepa-determination-of-significance",
+   "jurisdiction": "us-wa-state",
+   "instrument": "Washington State Environmental Policy Act, as applied to the Wallula Gap application",
+   "section": "",
+   "mechanism": "process",
+   "summary": "Counsel for two organizations has asked Walla Walla County to require additional information or issue a determination of significance, which would trigger a full environmental impact statement for the proposed facility.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting of an Earthjustice letter on behalf of the Walla Walla Anti-Data Center League and Columbia Riverkeeper, 2026"
+   },
+   "notes": "Washington has a state environmental review statute. Oregon does not have a comparable general-purpose analogue. Two states on the same river, with the same utility economics and the same corridor, present different review paths for an identical project because of a difference in state law. California's equivalent produced the Imperial County ruling voiding approvals granted without review.",
+   "confidence_note": "Neither the statute nor the letter has been read. The determination-of-significance standard, who decides it and on what record, is NOT_CHECKED. Whether the county has acted is unknown.",
+   "tags": [
+    "SEPA",
+    "determination-of-significance",
+    "EIS",
+    "oregon-comparison"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "WA",
+   "jurisdiction_name": "State of Washington",
+   "_path": "entries/WA/us-wa-state/wa-sepa-determination-of-significance.json"
+  },
+  {
+   "id": "wa-walla-walla-notice-of-incomplete-application",
+   "jurisdiction": "us-wa-walla-walla-county",
+   "instrument": "Notice of Incomplete Application, SDP26-01 and SEPA26-05",
+   "section": "",
+   "mechanism": "process",
+   "summary": "The county issued a notice of incomplete application in June 2026, stating the application could not proceed without a traffic impact analysis, with a deadline to complete.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Walla Walla County Community Development materials as reported; regional reporting 2026"
+   },
+   "notes": "A notice of incompleteness is a procedural gate distinct from a denial or a moratorium: the application does not advance until the applicant supplies what is missing, and the clock is the applicant's rather than the jurisdiction's. No other instance is recorded in this corpus. The applicant is separately reported to have paused work toward the project.",
+   "confidence_note": "The notice has not been read. The stated deadline and whether it was met are NOT_CHECKED.",
+   "tags": [
+    "incomplete-application",
+    "SDP26-01",
+    "SEPA26-05",
+    "procedural-gate"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "WA",
+   "jurisdiction_name": "Walla Walla County",
+   "_path": "entries/WA/us-wa-walla-walla-county/wa-walla-walla-notice-of-incomplete-application.json"
+  },
+  {
+   "id": "wa-walla-walla-permitted-use-administrative-review",
+   "jurisdiction": "us-wa-walla-walla-county",
+   "instrument": "Walla Walla County zoning, industrial agriculture - mixed district",
+   "section": "",
+   "mechanism": "use-permission",
+   "summary": "In the industrial agriculture - mixed district covering the Wallula Gap Business Park, data centers are a permitted use subject to administrative zoning and environmental review. No special permit, rezoning or conditional use approval is required.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting of the Amazon Wallula Gap application, 2026"
+   },
+   "notes": "The most permissive land use posture identified in this corpus. Because the use is permitted, the contested question is not whether the facility is allowed but what environmental review it receives. That makes the State Environmental Policy Act the operative instrument rather than the zoning ordinance.",
+   "confidence_note": "The county code has not been read. What administrative zoning review examines, and whether it reaches power or water, is NOT_CHECKED.",
+   "tags": [
+    "permitted-use",
+    "administrative-review",
+    "wallula-gap"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "WA",
+   "jurisdiction_name": "Walla Walla County",
+   "_path": "entries/WA/us-wa-walla-walla-county/wa-walla-walla-permitted-use-administrative-review.json"
+  },
+  {
+   "id": "wa-walla-walla-preapplication-publication",
+   "jurisdiction": "us-wa-walla-walla-county",
+   "instrument": "Walla Walla County Community Development publication practice",
+   "section": "",
+   "mechanism": "process",
+   "summary": "The county publishes a dedicated page for the proposed facility hosting pre-application meeting recordings, the application, site plan and survey, with a note that one recording is posted in its entirety without editing.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Walla Walla County Community Development, Amazon data center FAQ page"
+   },
+   "notes": "Publication of unedited pre-application meeting recordings is a transparency practice not identified in any other jurisdiction in this corpus. Pre-application meetings are ordinarily the least visible stage of land use review, occurring before any public notice attaches. Directly relevant to the Oregon committee's question about what a centralized public reporting system would contain.",
+   "confidence_note": "The page has not been fetched directly and no recording has been viewed. Whether publication is required by policy or discretionary in this instance is NOT_CHECKED, and that distinction determines whether it is an instrument or a practice.",
+   "tags": [
+    "pre-application",
+    "unedited-recording",
+    "transparency"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "WA",
+   "jurisdiction_name": "Walla Walla County",
+   "_path": "entries/WA/us-wa-walla-walla-county/wa-walla-walla-preapplication-publication.json"
+  },
+  {
+   "id": "wa-walla-walla-water-claim",
+   "jurisdiction": "us-wa-walla-walla-county",
+   "instrument": "Operator statements at a public open house",
+   "section": "",
+   "mechanism": "water",
+   "summary": "The operator states the facility would use water for cooling only about 7 percent of the time and consume approximately 14 million gallons annually, which it compares to less than a comparably sized irrigated farm circle. The Port provides water and process water treatment but not electricity.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "status": "adopted",
+   "retrieved": "2026-09-18",
+   "source": {
+    "kind": "secondary",
+    "citation": "Tri-Cities Area Journal of Business and regional reporting of the Burbank open house, September 2026"
+   },
+   "notes": "A comparison-based water claim of the same structure as the Hillsboro solar-plant comparison already graded in this corpus: the assertion is not a volume but a ratio against a chosen denominator, and the denominator is the contestable part. The operator also states it would pay 100 percent of property taxes, consistent with Washington's incentive structure, which operates through a sales and use tax exemption on equipment rather than property-roll relief.",
+   "confidence_note": "No engineering document, water right or utility record has been read. The 7 percent figure, the 14 million gallon figure and the farm circle comparison are all operator statements at a public meeting and none has been checked. This entry records that the claim was made, not that it is accurate.",
+   "tags": [
+    "7-percent",
+    "14M-gallons",
+    "comparison-claim",
+    "gradeable"
+   ],
+   "operator": "MLawrence",
+   "text": "",
+   "state": "WA",
+   "jurisdiction_name": "Walla Walla County",
+   "_path": "entries/WA/us-wa-walla-walla-county/wa-walla-walla-water-claim.json"
   },
   {
    "id": "pjm-iras-large-load-filing",

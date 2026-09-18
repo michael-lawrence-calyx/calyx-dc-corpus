@@ -129,6 +129,11 @@
     "name": "Public Utilities Commission of Ohio",
     "state": "OH"
   },
+  "us-or-forest-grove": {
+    "kind": "municipality",
+    "name": "Forest Grove",
+    "state": "OR"
+  },
   "us-or-hillsboro": {
     "kind": "municipality",
     "name": "Hillsboro",
@@ -198,5 +203,30 @@
     "kind": "state",
     "name": "Commonwealth of Virginia",
     "state": "VA"
+  },
+  "us-wa-grant-pud": {
+    "kind": "utility",
+    "name": "Grant County PUD",
+    "state": "WA"
+  },
+  "us-wa-port-of-walla-walla": {
+    "kind": "port-district",
+    "name": "Port of Walla Walla",
+    "state": "WA"
+  },
+  "us-wa-snohomish-pud": {
+    "kind": "utility",
+    "name": "Snohomish County PUD",
+    "state": "WA"
+  },
+  "us-wa-state": {
+    "kind": "state",
+    "name": "State of Washington",
+    "state": "WA"
+  },
+  "us-wa-walla-walla-county": {
+    "kind": "county",
+    "name": "Walla Walla County",
+    "state": "WA"
   }
 }

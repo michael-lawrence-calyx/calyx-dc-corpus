@@ -1,0 +1,30 @@
+{
+  "id": "az-phoenix-647-noise-adopted",
+  "jurisdiction": "us-az-phoenix",
+  "instrument": "Phoenix Zoning Ordinance \u00a7 647.A.2.kk(3)",
+  "section": "647.A.2.kk(3)",
+  "mechanism": "acoustic",
+  "summary": "Preliminary site plan approval is withheld unless the data center, including all on-site mechanical equipment, is demonstrated not to exceed 55 dB(A) between 7:00 a.m. and 10:00 p.m. and 45 dB(A) between 10:00 p.m. and 7:00 a.m., measured at the property line of the nearest residentially zoned property. A final certificate of occupancy is withheld on exceedance.",
+  "text": "Preliminary site plan approval for a data center shall not be granted unless it has been demonstrated that the data center, including all on-site mechanical equipment and facilities, will not exceed a sound level of 55 dB(A) when measured at the property line of the nearest residentially zoned property to the proposed data center property between the hours of 7:00 a.m. and 10:00 p.m. and 45 dB(A) between the hours of 10:00 p.m. and 7:00 a.m. or a specific noise standard may be stipulated as a condition of an approved special permit.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "primary",
+    "citation": "Phoenix Zoning Ordinance \u00a7 647, codified, Ord. No. G-7396 \u00a7 5 (2025)",
+    "url": "https://phoenix.municipal.codes/ZO/647"
+  },
+  "notes": "The adopted standard is numeric and day-night. The staff-proposed version, which set a limit of 5 percent over existing ambient and applied only within 300 feet of a residential district, did not survive adoption. The adopted provision applies at the nearest residentially zoned property line with no distance scoping. On approval of the noise study, the mitigation methods are stipulated as a condition of final site plan approval. At 45 dB(A) this is the tightest nighttime limit identified in this corpus; Marana's is 55 dB(A) at night for residential.",
+  "confidence_note": "The codification was read, not the enrolled ordinance. The code does not specify a frequency weighting beyond A-weighting, an averaging period, a measurement standard, or any tonality or low-frequency provision.",
+  "supersedes": "az-phoenix-zta-noise",
+  "tags": [
+    "55-dBA",
+    "45-dBA",
+    "day-night",
+    "CofO",
+    "adopted"
+  ],
+  "operator": "MLawrence"
+}

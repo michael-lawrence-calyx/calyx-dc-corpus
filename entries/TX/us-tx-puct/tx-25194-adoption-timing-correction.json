@@ -1,0 +1,27 @@
+{
+  "id": "tx-25194-adoption-timing-correction",
+  "jurisdiction": "us-tx-puct",
+  "instrument": "16 TAC \u00a7 25.194 (draft) and SB 6 statutory deadlines",
+  "section": "",
+  "mechanism": "rate-allocation",
+  "summary": "Adoption of the large load interconnection rule is anticipated in September 2026. December 31, 2026 is the statutory deadline for the transmission cost review, not for adoption of the rule.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "draft",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "PUCT Project No. 58317 coverage; law firm client publications on SB 6 implementation"
+  },
+  "notes": "Draft published March 12 2026, comments due April 17 2026. Corrects a prior entry in this corpus which stated the final rule was targeted for December 31 2026 and conflated the two deadlines. Mandatory curtailment applies to new large loads interconnecting in ERCOT after December 31 2025.",
+  "confidence_note": "No PUCT order has been read. Whether the rule adopted in September 2026 is NOT_CHECKED as of the retrieval date.",
+  "supersedes": "tx-25194-interconnection-fee",
+  "tags": [
+    "25.194",
+    "adoption-timing",
+    "correction"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

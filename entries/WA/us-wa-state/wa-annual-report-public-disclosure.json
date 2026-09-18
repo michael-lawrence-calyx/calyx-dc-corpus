@@ -1,0 +1,27 @@
+{
+  "id": "wa-annual-report-public-disclosure",
+  "jurisdiction": "us-wa-state",
+  "instrument": "RCW 82.32.534(3)",
+  "section": "82.32.534(3)",
+  "mechanism": "incentive",
+  "summary": "Information in an annual tax performance report is not subject to the tax confidentiality provisions of RCW 82.32.330 and may be disclosed to the public upon request.",
+  "text": "Other than information requested under subsection (2)(a) of this section, the information contained in an annual report filed under this section is not subject to the confidentiality provisions of RCW 82.32.330 and may be disclosed to the public upon request.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "primary",
+    "citation": "RCW 82.32.534(3), app.leg.wa.gov",
+    "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=82.32.534"
+  },
+  "notes": "The Department of Revenue's own annual tax performance report form states the same: the report is not subject to the confidentiality provisions of RCW 82.32.330 and will be disclosed to the public, including the amount of the preference claimed and employment and wage information. The carve-out in subsection (2)(a) covers additional information requested by the department or the Joint Legislative Audit and Review Committee, which remains confidential.",
+  "confidence_note": "Statute read in original. Whether a request for a specific data center filer's report is honoured in practice, and what redaction is applied, has not been tested.",
+  "tags": [
+    "public-disclosure",
+    "82.32.534",
+    "records-request"
+  ],
+  "operator": "MLawrence"
+}

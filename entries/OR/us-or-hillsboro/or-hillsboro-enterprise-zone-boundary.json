@@ -1,0 +1,26 @@
+{
+  "id": "or-hillsboro-enterprise-zone-boundary",
+  "jurisdiction": "us-or-hillsboro",
+  "instrument": "Hillsboro Enterprise Zone",
+  "section": "",
+  "mechanism": "incentive",
+  "summary": "Established 2006 with two approved areas, North Industrial and Downtown & South Industrial. The North Industrial area was amended in 2025 to include additional parts of the Jackson East Area, planned for industrial development in 2020.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "City of Hillsboro enterprise zone pages"
+  },
+  "notes": "The 2025 North Industrial boundary amendment predates the 2026 application flurry and is a separate instrument from the approvals themselves. Jackson East is also the sub-area carrying two of the acreage sub-caps in Draft Order No. 8502, one of which is at its ceiling.",
+  "confidence_note": "The boundary amendment instrument has not been read. Its effective date and the acreage added are NOT_CHECKED, and no relationship between the boundary amendment and the acreage caps is asserted here.",
+  "tags": [
+    "enterprise-zone",
+    "jackson-east",
+    "boundary-amendment"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

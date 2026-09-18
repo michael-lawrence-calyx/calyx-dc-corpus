@@ -1,0 +1,26 @@
+{
+  "id": "or-forest-grove-sdr-criteria-exclude-power-water",
+  "jurisdiction": "us-or-forest-grove",
+  "instrument": "Statement of the Community Development Director on site development review criteria",
+  "section": "",
+  "mechanism": "process",
+  "summary": "Forest Grove's Community Development Director stated on the record that power and water availability are not among the criteria for site development review, which examines zoning compliance, general development standards and natural resource protections.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Forest Grove News-Times, September 6 and October 16 2024, quoting Community Development Director Bryan Pohl"
+  },
+  "notes": "If the same is true in comparator jurisdictions, the two constraints most contested in public sit outside the review that determines whether a facility is approved. Four jurisdictions in this corpus separately require written utility service confirmation before land use approval, which is the opposite arrangement.",
+  "confidence_note": "The Forest Grove development code has not been read and the site development review criteria have not been checked against it. This records a statement about the criteria, not the criteria. Whether it generalises to any other jurisdiction is unestablished.",
+  "tags": [
+    "site-development-review",
+    "criteria",
+    "power-water-excluded"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ca-sb887-environmental-review",
+  "jurisdiction": "us-ca-state",
+  "instrument": "Senate Bill 887 (Padilla)",
+  "section": "",
+  "mechanism": "process",
+  "summary": "Addresses environmental impact review for data centers. Passed the Senate 29-8 and the Assembly 42-10 and awaits the Governor's signature or veto by the end of September 2026.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "proposed",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Office of Senator Steve Padilla release; datacenterbans.com"
+  },
+  "notes": "Sits directly on top of the Imperial County Superior Court ruling this month halting a nearly one-million-square-foot complex approved without review under the California Environmental Quality Act. A court voided a project for skipping review in the same month the Legislature sent the Governor a bill on the same subject.",
+  "confidence_note": "Bill text not read. What the bill requires, and whether it changes CEQA's application to data centers or adds a separate review, is NOT_CHECKED. No relationship between the bill and the Imperial County ruling is asserted beyond their concurrence in time.",
+  "tags": [
+    "SB887",
+    "CEQA",
+    "environmental-review",
+    "on-governors-desk"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

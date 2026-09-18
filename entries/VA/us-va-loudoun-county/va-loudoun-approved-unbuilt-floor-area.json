@@ -1,0 +1,26 @@
+{
+  "id": "va-loudoun-approved-unbuilt-floor-area",
+  "jurisdiction": "us-va-loudoun-county",
+  "instrument": "Loudoun County published figures",
+  "section": "",
+  "mechanism": "quantity-cap",
+  "summary": "The county publishes approximately 35.7 million square feet of data center floor area that is approved but not yet built, comprising approved legislative applications and approved site plans. Between 2022 and May 2026 the Board approved 32 of 39 legislative applications.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "loudoun.gov, Data Centers: The Loudoun Story"
+  },
+  "notes": "A pipeline measured in approved-but-unbuilt floor area, published by the approving authority. No other jurisdiction in this corpus publishes an equivalent, and the underlying figure \u2014 approved site plans minus certificates of occupancy \u2014 is computable from records most jurisdictions already keep.",
+  "confidence_note": "Retrieved from a search index rather than by direct fetch. The as-of date of the figure is not established, which matters for a pipeline number. Not hashed.",
+  "tags": [
+    "35.7M-sqft",
+    "pipeline",
+    "approved-unbuilt"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

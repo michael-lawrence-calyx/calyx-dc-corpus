@@ -1,0 +1,28 @@
+{
+  "id": "wa-grant-pud-large-load-queue",
+  "jurisdiction": "us-wa-grant-pud",
+  "instrument": "Report to Grant County PUD commissioners, August 27 2026",
+  "section": "",
+  "mechanism": "utility-service",
+  "summary": "Seventy-five large-load applications totalling 2,897 MW of requested peak demand, of which 1,568 MW is data centers, 547 MW port districts, utility and government, and 343 MW chemical. By area, 1,578 MW is Quincy and 1,153 MW Moses Lake.",
+  "origin": "RELAYED",
+  "entry_state": "CONFLICTING",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-08-27",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Account of the August 27 2026 Grant County PUD commission meeting, reporting Andy Wendell"
+  },
+  "notes": "The utility's own FAQ page separately states approximately 800 MW of large-load requests in its power application queue. Both values are recorded and neither is resolved here. Candidate explanations not adopted: different as-of dates, requests under study versus all applications, contracted versus requested. Crypto, mineral and metal processing and general manufacturing are each reported at approximately 100 MW.",
+  "confidence_note": "The commission packet for August 27 2026 has not been read, and the FAQ page's as-of date is unknown. Any ratio of queued interest to load limit derived from these figures is no stronger than the conflicted queue value and should be stated as a magnitude rather than a number.",
+  "tags": [
+    "2897MW",
+    "queue-conflict",
+    "quincy",
+    "moses-lake"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

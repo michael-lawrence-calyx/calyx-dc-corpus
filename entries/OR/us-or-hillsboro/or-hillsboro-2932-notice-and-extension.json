@@ -1,0 +1,27 @@
+{
+  "id": "or-hillsboro-2932-notice-and-extension",
+  "jurisdiction": "us-or-hillsboro",
+  "instrument": "Resolution No. 2932",
+  "section": "",
+  "mechanism": "process",
+  "summary": "The 120-day moratorium was adopted at a special meeting on 24 hours of public notice, is extendable by a further six months, and the City notified the Oregon Department of Land Conservation and Development on entering it.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "2026-07-27",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Regional reporting of the July 27 2026 special meeting"
+  },
+  "notes": "The stated reason for the short notice, attributed to Mayor Beach Pace, was to prevent a rush of applications from data centers. Applications submitted before the moratorium may proceed, and it does not stop projects under construction or permits in process. Recorded as a dated statement of position, not as characterization.",
+  "confidence_note": "The resolution is OBSERVED and filed separately; this entry records procedural facts around its adoption from secondary reporting only. The DLCD notification has not been located. The six-month extension is reported and has not been checked against the statute.",
+  "tags": [
+    "24-hour-notice",
+    "extension",
+    "DLCD-notification"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

@@ -1,0 +1,28 @@
+{
+  "id": "tx-docket-59220-parties-and-site",
+  "jurisdiction": "us-tx-puct",
+  "instrument": "PUCT Docket No. 59220",
+  "section": "",
+  "mechanism": "generation",
+  "summary": "The first SB 6 net metering case involved FGE Goodnight I, LLC and Crusoe Energy Systems LLC, pairing a 260 MW AI data center in Armstrong County with the existing 265.5 MW Goodnight Wind resource behind a single point of interconnection.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "2026-07-24",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Law firm client publications and trade reporting on the first SB 6 test case"
+  },
+  "notes": "Joint application filed January 9 2026. The load co-locates behind the wind resource's point of interconnection, sharing an ERCOT Polled Settlement meter and netting consumption against production for wholesale settlement. The data center is reported as developed in partnership with Google. The broader site is reported to carry 933 MW of off-grid fossil gas turbines under construction. The registered arrangement and the site's total generation buildout are not the same thing.",
+  "confidence_note": "Order not read. The 933 MW gas figure is reported and NOT_CHECKED, and no relationship is asserted between it and the net metering arrangement before the Commission.",
+  "tags": [
+    "59220",
+    "co-location",
+    "933MW-gas",
+    "armstrong-county"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

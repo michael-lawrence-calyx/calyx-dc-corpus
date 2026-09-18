@@ -1,0 +1,27 @@
+{
+  "id": "va-loudoun-phase2-microgrids-generators",
+  "jurisdiction": "us-va-loudoun-county",
+  "instrument": "CPAM-2024-0001 and ZOAM-2024-0001, Phase 2",
+  "section": "",
+  "mechanism": "generation",
+  "summary": "Phase 2 scope covers policy guidance and use-specific zoning standards for data centers, utility substations, microgrids and generators. Drafting window October 2025 through August 2026, with two public open house events in September 2026.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "proposed",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "loudoun.gov project pages"
+  },
+  "notes": "The only jurisdiction in this corpus writing standards for microgrids and generators as land uses alongside data centers. Loudoun facilities are separately reported to operate approximately 4,700 backup generators. Phase 1 was approved March 18 2025 on a 7-2 vote, Supervisors Umstattd and Kershner dissenting, after initiation February 6 2024 and an Intent to Amend approved July 2 2024.",
+  "confidence_note": "Phase 2 draft text has not been read and may not exist in public form. Whether microgrids survive into the drafted standards is NOT_CHECKED.",
+  "tags": [
+    "microgrids",
+    "generators",
+    "substations",
+    "phase-2"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

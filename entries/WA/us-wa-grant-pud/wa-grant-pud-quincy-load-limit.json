@@ -1,0 +1,27 @@
+{
+  "id": "wa-grant-pud-quincy-load-limit",
+  "jurisdiction": "us-wa-grant-pud",
+  "instrument": "Grant County PUD published load limit and Quincy Transmission Expansion Plan",
+  "section": "",
+  "mechanism": "utility-service",
+  "summary": "The Quincy-area load limit is 372 MW, rising to 750 MW on completion of a $260 million transmission expansion scheduled for 2029. Grant PUD holds more than 2,100 MW of generation and recorded a July 2026 peak load near 1,050 MW.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "grantpud.org pages via search index, page updated May 6 2026; grantpudqtep.org"
+  },
+  "notes": "The Quincy Transmission Expansion Plan comprises six transmission line segments of 1 to 32 miles, one new switchyard, expansion of the Mountain View substation and expansion of the Wanapum switchyard. The anchor segment is a 32-mile 230 kV line from Wanapum switchyard to Mountain View substation. Generation headroom and deliverable load are different quantities: the utility holds more than twice its July peak in generation while the Quincy area limit sits at 372 MW.",
+  "confidence_note": "Retrieved from a search index, not fetched, not hashed. QTEP documents have not been read. Whether the 2029 completion date is current is NOT_CHECKED.",
+  "tags": [
+    "372MW",
+    "750MW",
+    "QTEP",
+    "transmission-constraint"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

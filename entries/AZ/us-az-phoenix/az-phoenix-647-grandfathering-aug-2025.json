@@ -1,0 +1,28 @@
+{
+  "id": "az-phoenix-647-grandfathering-aug-2025",
+  "jurisdiction": "us-az-phoenix",
+  "instrument": "Phoenix Zoning Ordinance \u00a7 647.A.2.kk(4)",
+  "section": "647.A.2.kk(4)",
+  "mechanism": "process",
+  "summary": "The data center regulations and the associated design guidelines do not apply to data centers that received preliminary site plan approval, or a data center use specifically listed as permitted or discussed in a Council-adopted planned unit development narrative, prior to August 2, 2025.",
+  "text": "These regulations and the design guidelines set forth in Section 507 Tab A.II.D.5, Data Centers, are not applicable to data centers which have received preliminary site plan approval; or a data center use that is specifically listed as a permitted use or specifically discussed in a Council-adopted planned unit development narrative prior to August 2, 2025.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "effective": "2025-08-02",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "primary",
+    "citation": "Phoenix Zoning Ordinance \u00a7 647, codified",
+    "url": "https://phoenix.municipal.codes/ZO/647"
+  },
+  "notes": "A grandfathering provision written into the operative section rather than adopted as a separate resolution. Loudoun County by contrast adopted a standalone Grandfathering Resolution with its own cutoff date, which is now proposed for withdrawal. The Phoenix cutoff reaches PUD narratives as well as approved site plans, which is broader than an application-date test.",
+  "confidence_note": "How many projects fall within the exemption is NOT_CHECKED. Section 507 Tab A.II.D.5 has not been read.",
+  "tags": [
+    "grandfathering",
+    "august-2-2025",
+    "PUD-narrative"
+  ],
+  "operator": "MLawrence"
+}

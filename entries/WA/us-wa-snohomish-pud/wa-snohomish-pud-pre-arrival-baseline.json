@@ -1,0 +1,28 @@
+{
+  "id": "wa-snohomish-pud-pre-arrival-baseline",
+  "jurisdiction": "us-wa-snohomish-pud",
+  "instrument": "Report to the Snohomish County PUD board, April 21 2026",
+  "section": "",
+  "mechanism": "utility-service",
+  "summary": "No data centers operate in the county. Large-load inquiries average about four per year over five years, ranging from 3.5 to 150 MW, and reached eight in 2025. Nine customers receive or are due to receive energy at 3.5 to 20 MW, none of them data centers.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "2026-04-21",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Account of the April 21 2026 Snohomish County PUD board meeting, reporting Angela Johnston, senior manager"
+  },
+  "notes": "A utility with no data centers, a documented five-year baseline inquiry rate and a doubling in 2025, recorded before the first facility arrives. Every other jurisdiction in this corpus was entered after development had begun. Residents testified at the May 5 2026 commission meeting regarding a proposed data center in Arlington.",
+  "confidence_note": "Board packets for April 21 and May 5 2026 have not been read. The five-year average is as reported and its basis has not been checked.",
+  "tags": [
+    "control-case",
+    "baseline",
+    "pre-arrival",
+    "snohomish"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

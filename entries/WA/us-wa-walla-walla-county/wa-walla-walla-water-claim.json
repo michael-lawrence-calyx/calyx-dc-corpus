@@ -1,0 +1,27 @@
+{
+  "id": "wa-walla-walla-water-claim",
+  "jurisdiction": "us-wa-walla-walla-county",
+  "instrument": "Operator statements at a public open house",
+  "section": "",
+  "mechanism": "water",
+  "summary": "The operator states the facility would use water for cooling only about 7 percent of the time and consume approximately 14 million gallons annually, which it compares to less than a comparably sized irrigated farm circle. The Port provides water and process water treatment but not electricity.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Tri-Cities Area Journal of Business and regional reporting of the Burbank open house, September 2026"
+  },
+  "notes": "A comparison-based water claim of the same structure as the Hillsboro solar-plant comparison already graded in this corpus: the assertion is not a volume but a ratio against a chosen denominator, and the denominator is the contestable part. The operator also states it would pay 100 percent of property taxes, consistent with Washington's incentive structure, which operates through a sales and use tax exemption on equipment rather than property-roll relief.",
+  "confidence_note": "No engineering document, water right or utility record has been read. The 7 percent figure, the 14 million gallon figure and the farm circle comparison are all operator statements at a public meeting and none has been checked. This entry records that the claim was made, not that it is accurate.",
+  "tags": [
+    "7-percent",
+    "14M-gallons",
+    "comparison-claim",
+    "gradeable"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}

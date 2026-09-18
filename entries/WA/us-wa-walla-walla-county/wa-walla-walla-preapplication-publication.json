@@ -1,0 +1,26 @@
+{
+  "id": "wa-walla-walla-preapplication-publication",
+  "jurisdiction": "us-wa-walla-walla-county",
+  "instrument": "Walla Walla County Community Development publication practice",
+  "section": "",
+  "mechanism": "process",
+  "summary": "The county publishes a dedicated page for the proposed facility hosting pre-application meeting recordings, the application, site plan and survey, with a note that one recording is posted in its entirety without editing.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "retrieved": "2026-09-18",
+  "source": {
+    "kind": "secondary",
+    "citation": "Walla Walla County Community Development, Amazon data center FAQ page"
+  },
+  "notes": "Publication of unedited pre-application meeting recordings is a transparency practice not identified in any other jurisdiction in this corpus. Pre-application meetings are ordinarily the least visible stage of land use review, occurring before any public notice attaches. Directly relevant to the Oregon committee's question about what a centralized public reporting system would contain.",
+  "confidence_note": "The page has not been fetched directly and no recording has been viewed. Whether publication is required by policy or discretionary in this instance is NOT_CHECKED, and that distinction determines whether it is an instrument or a practice.",
+  "tags": [
+    "pre-application",
+    "unedited-recording",
+    "transparency"
+  ],
+  "operator": "MLawrence",
+  "text": ""
+}
