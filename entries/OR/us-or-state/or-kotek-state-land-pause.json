@@ -1,0 +1,28 @@
+{
+  "operator": "MLawrence",
+  "id": "or-kotek-state-land-pause",
+  "jurisdiction": "us-or-state",
+  "instrument": "Oregon Governor's directive pausing state-land data center transactions, September 8, 2026",
+  "section": "",
+  "mechanism": "use-permission",
+  "summary": "Directs state agencies to pause unapproved requests for easements, rights-of-way, leases, rentals, land-use permits and sales or transfers of state-owned property for data center projects, in effect until July 1, 2027 or further action by the legislature or Governor; agencies to report status by September 14, 2026.",
+  "text": "",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-09-08",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "secondary",
+    "citation": "OPB / Oregon Capital Chronicle and The Columbian coverage of the September 8, 2026 Capitol rally and Governor's release; Central Oregon Daily (September 2026) for the July 1, 2027 end date"
+  },
+  "notes": "Reaches state land and state buildings only. Not a statewide moratorium on private land. Refresh against the directive text; check the September 14 agency status report.",
+  "confidence_note": "Directive text not read. Quoted release language is relayed through coverage.",
+  "tags": [
+    "kotek",
+    "state-land",
+    "pause",
+    "2027-07-01"
+  ]
+}

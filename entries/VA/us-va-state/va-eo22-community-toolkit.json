@@ -1,0 +1,30 @@
+{
+  "operator": "MLawrence",
+  "id": "va-eo22-community-toolkit",
+  "jurisdiction": "us-va-state",
+  "instrument": "Executive Order 22 (2026)",
+  "section": "I.B.1",
+  "mechanism": "process",
+  "summary": "Within 120 days the Office of the Chief Energy Officer shall publish an initial Data Center Planning and Community Engagement Toolkit for local governments and communities, including model questions, information requests and disclosure templates; guidance for evaluating anticipated electricity demand, water use, wastewater management, backup generation, air emissions, noise, traffic and public-service needs; model approaches for voluntary and enforceable community-benefit agreements; and recommendations for planning, design, landscaping, buffering and mitigation.",
+  "text": "Within 120 days of the Effective Date of this Executive Order, the Office of the Chief Energy Officer shall publish an initial Data Center Planning and Community Engagement Toolkit for local governments and communities. The Toolkit shall include but not be limited to: model questions, information requests, and disclosure templates for proposed data-center projects; guidance for evaluating anticipated electricity demand, water use, wastewater management, backup generation, air emissions, noise, traffic, public-service needs, and other material project impacts; model approaches for voluntary and enforceable community-benefit agreements; best practices for early, accessible, and good-faith community engagement; and recommendations for planning, design, landscaping, buffering, and mitigation practices that reduce adverse impacts on neighboring communities.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-09-18",
+  "retrieved": "2026-09-20",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia Executive Order 22 (2026), Establishing New Nation-Leading Standards and Initiatives to Implement the Virginia Data Center Accountability Framework and Responding to Unprecedented Risk from Artificial Intelligence, signed September 18 2026",
+    "url": "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/eo-22-establishing-va-data-center-accountability-and-ai-initiatives.pdf"
+  },
+  "notes": "Due on or about January 16 2027. Names the parameters a locality is expected to evaluate, which is the closest thing in the order to a checklist of material impacts.",
+  "confidence_note": "Guidance, not a requirement. Localities are under no obligation to adopt any part of the Toolkit. The Toolkit does not exist as of this entry and its content is not established by this order beyond the categories listed.",
+  "tags": [
+    "toolkit",
+    "guidance",
+    "community-benefit",
+    "disclosure",
+    "local-government"
+  ]
+}

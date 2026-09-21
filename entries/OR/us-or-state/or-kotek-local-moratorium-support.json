@@ -1,0 +1,29 @@
+{
+  "operator": "MLawrence",
+  "id": "or-kotek-local-moratorium-support",
+  "jurisdiction": "us-or-state",
+  "instrument": "Office of the Governor of Oregon, statement supporting local data center moratoriums, August 7, 2026",
+  "section": "",
+  "mechanism": "use-permission",
+  "summary": "Governor Kotek supports locally-set moratoriums on new data center development until DCAC recommendations are reviewed and the legislature considers a new statutory framework, stating the state lacks authority to enact a statewide moratorium. Same announcement: termination of the state's sale of about 32 acres at Mill Creek Corporate Center, Salem.",
+  "text": "Governor Tina Kotek announced today that she supports locally-set moratoriums on new data center development until the findings and recommendations from the Oregon Data Center Advisory Committee can be reviewed and a new statutory framework can be considered by the legislature next year. While the state lacks authority to enact a statewide moratorium, Governor Kotek supports local communities taking action.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "",
+  "effective": "2026-08-07",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Oregon Newsroom, Office of the Governor, Governor Kotek Supports Moratoriums on Data Center Development, August 7, 2026",
+    "url": "https://apps.oregon.gov/oregon-newsroom/OR/GOV/Posts/Post/governor-kotek-supports-moratoriums-on-data-center-development"
+  },
+  "notes": "A statement of position, not an instrument. The Governor later (September 2026) called for the legislature to pass a statewide moratorium in the 2027 session; a three-year statewide moratorium bill is proposed by legislators for that session.",
+  "confidence_note": "Text read from the Governor's newsroom page as returned by search index excerpt, not a full page fetch.",
+  "tags": [
+    "kotek",
+    "moratorium",
+    "local-authority",
+    "statement"
+  ]
+}

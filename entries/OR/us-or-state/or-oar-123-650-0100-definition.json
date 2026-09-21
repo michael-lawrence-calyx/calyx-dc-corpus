@@ -1,0 +1,30 @@
+{
+  "operator": "MLawrence",
+  "id": "or-oar-123-650-0100-definition",
+  "jurisdiction": "us-or-state",
+  "instrument": "Oregon Administrative Rules 123-650-0100 (temporary rule adopted June 5, 2026)",
+  "section": "",
+  "mechanism": "definition",
+  "summary": "Oregon defines data centers in a temporary administrative rule, OAR 123-650-0100, adopted June 5, 2026, cited by Washington County staff as the operative definition.",
+  "text": "",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-06-05",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Washington County (Oregon) Board of Commissioners, Work Session Agenda Packet, September 1, 2026, Agenda Item 2, Data Center Moratorium Discussion, including staff presentation Potential Data Center Moratorium Process (CAO, County Counsel, Land Use & Transportation)",
+    "url": "https://washingtoncounty.civicweb.net/portal/",
+    "sha256": "a5ce4fff7d094db5c2f9ba0e419665ab0fe64b122e89a41288cb2c9e1ceb7da5"
+  },
+  "notes": "Chapter 123 is Business Oregon. The definition text has not been read. Oregon temporary rules are generally limited to 180 days; verify the expiry date and whether a permanent rule has followed.",
+  "confidence_note": "Existence relayed from a Washington County staff slide (September 1, 2026, slide 5), not from the Secretary of State's rule text.",
+  "tags": [
+    "definition",
+    "oar",
+    "temporary-rule",
+    "business-oregon"
+  ]
+}

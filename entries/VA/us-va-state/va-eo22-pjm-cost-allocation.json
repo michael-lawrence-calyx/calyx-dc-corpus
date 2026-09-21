@@ -1,0 +1,30 @@
+{
+  "operator": "MLawrence",
+  "id": "va-eo22-pjm-cost-allocation",
+  "jurisdiction": "us-va-state",
+  "instrument": "Executive Order 22 (2026)",
+  "section": "I.D.1",
+  "mechanism": "rate-allocation",
+  "summary": "The Office of the Chief Energy Officer shall engage utilities, the SCC, PJM and other stakeholders to advocate for solutions that shield Virginia households from energy infrastructure costs driven by data center large loads, including assigning costs associated with PJM's Reliability Backstop Procurement to the data center large loads causing those costs, and promoting equitable cost allocation associated with PJM's IRAS program.",
+  "text": "The Office of the Chief Energy Officer shall engage with utilities, the State Corporation Commission (“SCC”), PJM, and other related stakeholders to advocate for solutions that shield Virginia households from energy infrastructure costs driven by data center large loads and ensure equitable benefit sharing, including assigning costs associated with PJM's Reliability Backstop Procurement to data center large loads causing those costs for electric utilities and cooperatives and promoting equitable cost allocation associated with PJM's Interim Resource Adequacy Service (“IRAS”) program, as applicable.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-09-18",
+  "retrieved": "2026-09-20",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia Executive Order 22 (2026), Establishing New Nation-Leading Standards and Initiatives to Implement the Virginia Data Center Accountability Framework and Responding to Unprecedented Risk from Artificial Intelligence, signed September 18 2026",
+    "url": "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/eo-22-establishing-va-data-center-accountability-and-ai-initiatives.pdf"
+  },
+  "notes": "Directs advocacy at the RTO level rather than state action. Compare against the SCC's own directive in Case PUR-2025-00058 requiring Dominion to submit alternative cost allocation proposals in future proceedings.",
+  "confidence_note": "Directs advocacy. Assigns no cost and changes no rate. Allocation authority for the programs named sits with PJM and FERC, not the Commonwealth. No PJM tariff provision has been read for this entry.",
+  "tags": [
+    "cost-allocation",
+    "pjm",
+    "reliability-backstop",
+    "ratepayer",
+    "advocacy"
+  ]
+}

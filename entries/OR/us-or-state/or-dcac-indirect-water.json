@@ -1,0 +1,30 @@
+{
+  "operator": "MLawrence",
+  "id": "or-dcac-indirect-water",
+  "jurisdiction": "us-or-state",
+  "instrument": "Oregon Data Center Advisory Committee, Preliminary Learnings and Questions Document (September 2026)",
+  "section": "Water Stewardship",
+  "mechanism": "water",
+  "summary": "The committee found that indirect water consumption from power generation can be multiple times larger than direct data center water use depending on the generation source, that low-water cooling raises grid load, that Oregon water is fully allocated, and that NDAs and municipal service create significant public data gaps on data center water use.",
+  "text": "The Committee learned that indirect water consumption associated with electric power generation can be multiple times larger than direct data center water usage, depending on the generation source.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "draft",
+  "effective": "2026-09-10",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Oregon Data Center Advisory Committee, Preliminary Learnings and Questions Document, September 2026 (released September 10, 2026)",
+    "url": "https://www.oregon.gov/energy/get-involved/Documents/2026-09-10-DCAC-Preliminary-Learnings.pdf"
+  },
+  "notes": "Addresses the open system-boundary question in the water register (closed-loop 'no water' claims versus boundary-dependent accounting). Consistent with the Scope 1/2/3 framing in the ECOnorthwest deck (July 31, 2026).",
+  "confidence_note": "Read in original. sha256 not recorded: retrieved through the web fetch tool, which does not archive the file; hash on next direct download.",
+  "tags": [
+    "dcac",
+    "water",
+    "indirect-water",
+    "system-boundary",
+    "nda"
+  ]
+}

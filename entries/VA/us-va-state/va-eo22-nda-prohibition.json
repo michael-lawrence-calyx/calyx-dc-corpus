@@ -1,0 +1,29 @@
+{
+  "operator": "MLawrence",
+  "id": "va-eo22-nda-prohibition",
+  "jurisdiction": "us-va-state",
+  "instrument": "Executive Order 22 (2026)",
+  "section": "I.B.2",
+  "mechanism": "process",
+  "summary": "Executive branch agencies, departments, boards, commissions, authorities and any employees under the Governor's supervision are prohibited from entering into, enforcing or requiring a nondisclosure agreement that prevents public disclosure of material information concerning a proposed commercial data center development, its public incentives, anticipated resource demands, or its potential community impacts.",
+  "text": "No executive branch agencies, departments, boards, commissions, authorities, and any other employees under the Governor's supervision shall enter into, and are otherwise prohibited from enforcing or requiring, a nondisclosure agreement that prevents public disclosure of material information concerning a proposed commercial data center development, its public incentives, anticipated resource demands, or its potential community impacts as of the Effective Date of this Executive Order. Executive branch agencies are expected to honor existing contractual commitments and nondisclosure agreements, but absent extraordinary circumstances including matters related to national security, any future nondisclosure agreement involving a proposed data center development would violate this Executive Order.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-09-18",
+  "retrieved": "2026-09-20",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia Executive Order 22 (2026), Establishing New Nation-Leading Standards and Initiatives to Implement the Virginia Data Center Accountability Framework and Responding to Unprecedented Risk from Artificial Intelligence, signed September 18 2026",
+    "url": "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/eo-22-establishing-va-data-center-accountability-and-ai-initiatives.pdf"
+  },
+  "notes": "Effective on signing. The first NDA prohibition in this corpus reaching data center development. Compare against the local-government NDA practice recorded in the Oregon entries.",
+  "confidence_note": "Reaches only the executive branch under the Governor's supervision. Does NOT reach local governments, local officials, or private parties. Does not void existing agreements. A statewide ban on NDAs for commercial data center projects is a Data Center Accountability Framework legislative proposal for the 2027 General Assembly and is not in force under this order; several press accounts describe the broader ban as effective, which this entry does not support.",
+  "tags": [
+    "nda",
+    "disclosure",
+    "transparency",
+    "executive-branch"
+  ]
+}

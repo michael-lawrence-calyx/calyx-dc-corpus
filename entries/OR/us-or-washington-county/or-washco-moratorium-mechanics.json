@@ -1,0 +1,31 @@
+{
+  "operator": "MLawrence",
+  "id": "or-washco-moratorium-mechanics",
+  "jurisdiction": "us-or-washington-county",
+  "instrument": "Washington County BCC Work Session, September 1, 2026, staff presentation",
+  "section": "Moratorium (slide 12); Hypothetical timeline (slide 17)",
+  "mechanism": "process",
+  "summary": "Per county staff: an Oregon land use moratorium requires findings of need and resources for regulatory updates, 45-day notice to DLCD before the final hearing, lasts at most 120 days, and may be extended up to six months on a showing of progress. Staff's hypothetical timeline ran from Board direction September 1 to a moratorium expiring February 18, 2027. The Board did not proceed.",
+  "text": "A moratorium (pause) on a particular land use is allowed by state statute, provided that the local jurisdiction can make findings of the need to impose a moratorium and that resources are available to make necessary regulatory updates. Statute requires a minimum 45-day notice to the state Department of Land Conservation and Development (DLCD) prior to the final public hearing to consider adoption; The moratorium can last for a maximum of 120 days; It may be extended for up to six additional months if the jurisdiction can show progress towards regulatory updates; the extension process requires a notice period, a public hearing, and findings",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "",
+  "effective": "2026-09-01",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Washington County (Oregon) Board of Commissioners, Work Session Agenda Packet, September 1, 2026, Agenda Item 2, Data Center Moratorium Discussion, including staff presentation Potential Data Center Moratorium Process (CAO, County Counsel, Land Use & Transportation)",
+    "url": "https://washingtoncounty.civicweb.net/portal/",
+    "sha256": "a5ce4fff7d094db5c2f9ba0e419665ab0fe64b122e89a41288cb2c9e1ceb7da5"
+  },
+  "notes": "Staff's summary of state statute (ORS 197.505-197.540, not cited on the slide and not read). Also records other Oregon actions as of September 1: Hillsboro moratorium adopted July 27 (data centers and BESS); DLCD notices from Woodburn (July 30), Salem (August 3) and Clackamas County (August 13); Beaverton resolution June 16; Tigard no action June 23.",
+  "confidence_note": "Read in original. The statutory description is the county's, not the statute's text.",
+  "tags": [
+    "washington-county",
+    "moratorium",
+    "dlcd",
+    "120-day",
+    "ors-197"
+  ]
+}

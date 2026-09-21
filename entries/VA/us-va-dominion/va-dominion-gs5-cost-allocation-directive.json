@@ -1,0 +1,30 @@
+{
+  "operator": "MLawrence",
+  "id": "va-dominion-gs5-cost-allocation-directive",
+  "jurisdiction": "us-va-dominion",
+  "instrument": "Virginia SCC Final Order, Case No. PUR-2025-00058",
+  "section": "Jurisdictional and Class Cost of Service Studies (pp. 15-17)",
+  "mechanism": "rate-allocation",
+  "summary": "Directs Dominion to develop, for its next biennial review, three alternatives that transition away from full Average & Excess allocation of plant costs, one of them a modified A&E incorporating six-month-or-higher coincident peak principles, in fully executable and replicable formats; transmission cost allocation alternatives are directed to Dominion's next annual transmission filing, preceded by a Staff-facilitated meeting.",
+  "text": "Accordingly, the Company shall develop - for consideration in its next biennial review - alternatives that transition away from the full Average & Excess (\"A&E\") methodology for the allocation of plant costs. In its next biennial review, Dominion shall include class cost of service studies for the first step of this transition. The Company, in consultation with Staff, shall investigate and develop three alternatives for such purpose. For example, one alternative shall be a modified A&E model that incorporates principles from a six-month (or higher) coincident peak allocation methodology. In addition, Dominion shall develop and prepare such studies in fully executable formats that can be fully replicated.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2025-11-25",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia State Corporation Commission, Final Order, Case No. PUR-2025-00058, Application of Virginia Electric and Power Company for a 2025 biennial review, entered November 25, 2025 (Doc. Con. Cen. No. 251140150)",
+    "url": "https://www.scc.virginia.gov/docketsearch/DOCS/89g601!.PDF",
+    "sha256": "62e236cbb10dd8108bb66b15f955e3c0870d9d7860db6cc24d5024f4f6f9b1f3"
+  },
+  "notes": "A directive to propose, not a change in allocation. The allocation outcome is decided in the next biennial review. Upgraded from ASSERTED/NOT_CHECKED (2026-09-20).",
+  "confidence_note": "Read in original from the full 28-page order plus attachment, supplied by operator after the SCC site blocked automated retrieval. Document Control Center stamp 11/25/2025 12:14 PM. A June 2026 SCC filing (Doc. 8dt001) cites this order as dated November 5, 2025; the order's own stamp governs and the later citation is treated as a typographical error.",
+  "tags": [
+    "cost-allocation",
+    "average-and-excess",
+    "coincident-peak",
+    "biennial-review"
+  ]
+}

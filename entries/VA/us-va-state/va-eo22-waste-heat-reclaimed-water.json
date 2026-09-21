@@ -1,0 +1,30 @@
+{
+  "operator": "MLawrence",
+  "id": "va-eo22-waste-heat-reclaimed-water",
+  "jurisdiction": "us-va-state",
+  "instrument": "Executive Order 22 (2026)",
+  "section": "I.C.4",
+  "mechanism": "water",
+  "summary": "Virginia Energy shall identify and publish opportunities for data center development that diversify economic benefits and minimize energy, water, land-use, infrastructure and community impacts. Within 180 days it shall evaluate and solicit input examining opportunities for brownfield redevelopment and adaptive reuse, edge and distributed development models, regional diversification, co-location of developments that utilize data center waste heat or reclaimed water, and reducing impacts of data centers and associated transmission on scenic and historic landscapes. Recommendations due within 240 days.",
+  "text": "The process shall examine opportunities for: brownfield redevelopment, adaptive reuse, and previously developed sites; edge data centers and other smaller or distributed development models; regional diversification and development in areas with appropriate infrastructure capacity; co-location of developments that utilize data center waste heat or reclaimed water; and reducing the impacts of data centers, including associated transmission lines, on Virginia's scenic and historic landscapes and for mitigating impacts when they are unavoidable.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-09-18",
+  "retrieved": "2026-09-20",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia Executive Order 22 (2026), Establishing New Nation-Leading Standards and Initiatives to Implement the Virginia Data Center Accountability Framework and Responding to Unprecedented Risk from Artificial Intelligence, signed September 18 2026",
+    "url": "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/eo-22-establishing-va-data-center-accountability-and-ai-initiatives.pdf"
+  },
+  "notes": "Input due on or about March 17 2027; recommendations on or about May 16 2027. First provision in this corpus to name data center waste heat or reclaimed water co-location in an instrument.",
+  "confidence_note": "Directs examination of opportunities only. Establishes no baseline requirement, no measurement method, no defined benefit, no verification of any claimed community benefit, and no obligation on any developer. The order does not state a system boundary for any resource flow it names.",
+  "tags": [
+    "waste-heat",
+    "reclaimed-water",
+    "co-location",
+    "siting",
+    "brownfield"
+  ]
+}

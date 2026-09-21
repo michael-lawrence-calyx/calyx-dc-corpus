@@ -1,0 +1,29 @@
+{
+  "operator": "MLawrence",
+  "id": "or-dcac-state-local-roles",
+  "jurisdiction": "us-or-state",
+  "instrument": "Oregon Data Center Advisory Committee, Preliminary Learnings and Questions Document (September 2026)",
+  "section": "Committee Principles for Final Deliberation",
+  "mechanism": "process",
+  "summary": "The Governor's advisory committee coalesced around the state leading on statewide impacts and transparency while local governments oversee local siting and community benefit agreements. Final recommendations to the Governor expected by December 2026; public comment closes 5 PM October 24, 2026.",
+  "text": "The Committee coalesced around the idea that the state could lead on statewide data center impacts and transparency, while local governments would oversee local data center siting and community benefits agreements.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "draft",
+  "effective": "2026-09-10",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Oregon Data Center Advisory Committee, Preliminary Learnings and Questions Document, September 2026 (released September 10, 2026)",
+    "url": "https://www.oregon.gov/energy/get-involved/Documents/2026-09-10-DCAC-Preliminary-Learnings.pdf"
+  },
+  "notes": "Members: Dan Dorran, Greg Dotson, Bill Edmonds, Margaret Hoffman(n), Michael Jung, Tim Miller, Jean Wilson; co-chairs Hoffmann and Jung. Dorran also co-chairs the AOC Transportation and Community Development Steering Committee. Comment form: https://www.surveymonkey.com/r/DCAC-Comments. The committee discounted its own comment record: about 90% of written comments oppose continued development, but about 70% were near-copy form letters, mostly from the Portland metro, with few from Morrow, Umatilla and Crook counties.",
+  "confidence_note": "Read in original. sha256 not recorded: retrieved through the web fetch tool, which does not archive the file; hash on next direct download. Preliminary document; not recommendations.",
+  "tags": [
+    "dcac",
+    "state-local-roles",
+    "comment-period",
+    "oregon"
+  ]
+}

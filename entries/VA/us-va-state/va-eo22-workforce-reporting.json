@@ -1,0 +1,29 @@
+{
+  "operator": "MLawrence",
+  "id": "va-eo22-workforce-reporting",
+  "jurisdiction": "us-va-state",
+  "instrument": "Executive Order 22 (2026)",
+  "section": "I.F.2",
+  "mechanism": "process",
+  "summary": "Within 180 days Virginia Works, in consultation with the Secretary of Labor, will develop criteria for data center project-level workforce data collection, including reporting requirements related to quality jobs, workforce needs, training programs and workforce outcomes. Data collection and reporting requirements developed shall be incorporated into the VA-LEAD program as applicable.",
+  "text": "Within 180 days of the date of this Executive Order, Virginia Works, in consultation with the Secretary of Labor, will develop criteria for data center project-level workforce data collection, including reporting requirements related to quality jobs, workforce needs, training programs, and workforce outcomes. Data collection and reporting requirements developed by Virginia Works shall be incorporated into VA-LEAD program, as applicable.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-09-18",
+  "retrieved": "2026-09-20",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia Executive Order 22 (2026), Establishing New Nation-Leading Standards and Initiatives to Implement the Virginia Data Center Accountability Framework and Responding to Unprecedented Risk from Artificial Intelligence, signed September 18 2026",
+    "url": "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/eo-22-establishing-va-data-center-accountability-and-ai-initiatives.pdf"
+  },
+  "notes": "Criteria due on or about March 17 2027. Project-level workforce reporting is the workforce counterpart to the VA-LEAD scoring factors.",
+  "confidence_note": "Develops criteria only. No reporting obligation attaches to any operator under this order. Quality jobs is not defined in the order.",
+  "tags": [
+    "workforce",
+    "reporting",
+    "virginia-works",
+    "va-lead"
+  ]
+}

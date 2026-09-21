@@ -1,0 +1,29 @@
+{
+  "operator": "MLawrence",
+  "id": "va-dominion-gs5-capacity-reductions",
+  "jurisdiction": "us-va-dominion",
+  "instrument": "Virginia SCC Final Order, Case No. PUR-2025-00058 (Rate Schedule GS-5)",
+  "section": "Capacity Reductions (p. 27)",
+  "mechanism": "rate-allocation",
+  "summary": "A GS-5 customer may reduce contracted capacity by up to 20% at no cost and by a further 30% if another customer assumes it; each reduction requires a separate 36-month notice. Existing high-load customers get a one-time downward adjustment without penalty before the effective date.",
+  "text": "A customer on Rate Schedule GS-5 may reduce its contracted capacity during the contract term: (1) by up to 20% at no cost; and (2) by an additional 30% if another customer agrees to assume the associated capacity. Each capacity reduction shall require a separate 36-month notice. In addition, the Commission agrees that, prior to the effective date, existing customers who would be subject to the High Load Customer Terms and Conditions be allowed to adjust their contracted demand downward (one-time) without penalty.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "2027-01-01",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia State Corporation Commission, Final Order, Case No. PUR-2025-00058, Application of Virginia Electric and Power Company for a 2025 biennial review, entered November 25, 2025 (Doc. Con. Cen. No. 251140150)",
+    "url": "https://www.scc.virginia.gov/docketsearch/DOCS/89g601!.PDF",
+    "sha256": "62e236cbb10dd8108bb66b15f955e3c0870d9d7860db6cc24d5024f4f6f9b1f3"
+  },
+  "notes": "Dominion must track reductions and reassignments from the date of the order and report them to Staff annually; confidentiality of that report is not decided (n.110).",
+  "confidence_note": "Read in original from the full 28-page order plus attachment, supplied by operator after the SCC site blocked automated retrieval. Document Control Center stamp 11/25/2025 12:14 PM. A June 2026 SCC filing (Doc. 8dt001) cites this order as dated November 5, 2025; the order's own stamp governs and the later citation is treated as a typographical error.",
+  "tags": [
+    "gs-5",
+    "capacity-reduction",
+    "36-month-notice"
+  ]
+}

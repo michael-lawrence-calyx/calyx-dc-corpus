@@ -1,0 +1,30 @@
+{
+  "operator": "MLawrence",
+  "id": "or-econw-electricity-demand-estimate",
+  "jurisdiction": "us-or-state",
+  "instrument": "ECOnorthwest / UVA Weldon Cooper Center, Understanding Oregon's Data Center Industry (preliminary, July 31, 2026)",
+  "section": "Electricity Demand Through 2030",
+  "mechanism": "utility-service",
+  "summary": "Preliminary modeled estimate: Oregon data center electricity demand of 14.0 TWh in 2025 rising to 24.8 TWh by 2030, built from installed IT power, utilization, PUE, hours and load factor using S&P Global 451 Research facility data. 111 operational facilities, 32 future.",
+  "text": "Estimated data center electricity demand rises from 14.0 TWh in 2025 to 24.8 TWh by 2030. [...] For 2026 onward, the right-hand chart compares data center demand with Oregon's electricity-demand level in 2025.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFLICTING",
+  "freshness": "WARM",
+  "status": "draft",
+  "effective": "2026-07-31",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "ECOnorthwest and University of Virginia Weldon Cooper Center, Understanding Oregon's Data Center Industry: An Evidence Based Assessment, preliminary findings presented to the Oregon Data Center Advisory Committee, July 31, 2026",
+    "url": "https://www.oregon.gov/energy/get-involved/Documents/2026-07-31-ECONW-Understanding-Data-Center-Industry.pdf"
+  },
+  "notes": "Coverage conflict. The widely reported 22.8% of 2025 retail electricity sales does not appear in this deck; it is attributed to the final 135-page report (released September 17, 2026, Lemelson Foundation funded; not located). Coverage has drifted the denominator from retail sales to consumption to demand, and rounded to 'nearly 25%'. KGW's 'nearly triple by 2030' does not reconcile: 14.0 to 24.8 TWh is 1.77x. The 2030 share (~31-32%) divides future data center demand by 2025 statewide demand. Washington County figures in the deck: $20.58 million in data center property tax, ~1.2% of total collection; data center employment ~0.09%. The deck's Washington County includes incorporated cities; do not compare it with the county's unincorporated-only parcel analysis.",
+  "confidence_note": "Read in original. sha256 not recorded: retrieved through the web fetch tool, which does not archive the file; hash on next direct download. Deck is marked preliminary and subject to refinement. The estimate is modeled, not metered.",
+  "tags": [
+    "econorthwest",
+    "electricity-demand",
+    "modeled",
+    "coverage-drift",
+    "preliminary"
+  ]
+}

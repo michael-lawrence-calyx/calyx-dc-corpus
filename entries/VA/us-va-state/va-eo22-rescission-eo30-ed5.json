@@ -1,0 +1,29 @@
+{
+  "operator": "MLawrence",
+  "id": "va-eo22-rescission-eo30-ed5",
+  "jurisdiction": "us-va-state",
+  "instrument": "Executive Order 22 (2026)",
+  "section": "Effective Date",
+  "mechanism": "process",
+  "summary": "Executive Order 22 rescinds Executive Order No. 30 (January 18, 2024) and Executive Directive No. 5 (September 20, 2023), both issued by Governor Glenn Youngkin. The policies, standards and guidelines published pursuant to Executive Order No. 30 remain in effect unless or until replaced through a future executive or agency action.",
+  "text": "This Executive Order rescinds Executive Order No. 30 (Jan. 18, 2024) and Executive Directive No. 5 (Sept. 20, 2023) issued by Governor Glenn Youngkin. The policies, standards, and guidelines published pursuant to Executive Order No. 30 shall remain in effect unless or until replaced through a future executive or agency action.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-09-18",
+  "retrieved": "2026-09-20",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia Executive Order 22 (2026), Establishing New Nation-Leading Standards and Initiatives to Implement the Virginia Data Center Accountability Framework and Responding to Unprecedented Risk from Artificial Intelligence, signed September 18 2026",
+    "url": "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/eo-22-establishing-va-data-center-accountability-and-ai-initiatives.pdf"
+  },
+  "notes": "Supersession event. Any corpus entry resting on Virginia EO 30 or ED 5 requires review. Note the split: the orders are rescinded, their published outputs survive until replaced. The instrument and its products have different status.",
+  "confidence_note": "The content of Executive Order 30 and Executive Directive 5 has not been read, and this entry does not establish what those instruments contained or which published policies survive. No corpus entry has yet been checked against this rescission.",
+  "tags": [
+    "rescission",
+    "supersession",
+    "eo-30",
+    "ed-5"
+  ]
+}

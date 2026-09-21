@@ -1,0 +1,30 @@
+{
+  "operator": "MLawrence",
+  "id": "va-framework-onsite-gas-and-clean-power",
+  "jurisdiction": "us-va-state",
+  "instrument": "Virginia Data Center Accountability Framework (proposed; 2027 General Assembly legislative agenda)",
+  "section": "Bolster our Clean Energy Economy & Grid Reliability",
+  "mechanism": "generation",
+  "summary": "Proposes to limit electricity data centers generate from on-site or behind-the-meter natural gas, prioritize grid access for facilities investing in clean energy, and make it easier to bring their own clean power by reforming utility charges that discourage it; also proposes ride-through-type standards against sudden demand changes.",
+  "text": "Protect grid reliability by requiring data centers to meet standards that prevent sudden changes in their electricity demand from destabilizing the grid; Limit the amount of electricity data centers can generate from on-site natural gas or behind-the-meter gas generation; Accelerate clean energy deployment by prioritizing grid access for facilities that invest in clean energy, further reduce backup generator emissions, and further limit on-site natural gas generation; Make it easier for data centers to bring their own clean power, including by reforming utility charges that discourage investment in clean energy",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "proposed",
+  "effective": "",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Office of the Governor of Virginia, news release, Governor Spanberger Unveils Nation's Most Comprehensive & Aggressive Data Center Accountability Standards, Signs Executive Order to Immediately Put Into Action, September 18, 2026",
+    "url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/september-releases/name-1123696-en.html"
+  },
+  "notes": "Draws the bring-your-own-power line at fuel: gas limited, clean encouraged. Compare Oregon DCAC Preliminary Learnings (BYONCE, September 2026) and Evolved Energy Research on the gas-price channel (September 17, 2026).",
+  "confidence_note": "Read in original from the Governor's release, which lists the Framework's contents. The Framework document itself was not opened (link behind a redirect). Framework items are proposals for the 2027 General Assembly and are NOT in force except where Executive Order 22 implements them; see the us-va-state EO 22 entries.",
+  "tags": [
+    "framework",
+    "behind-the-meter",
+    "natural-gas",
+    "byonce",
+    "proposed"
+  ]
+}

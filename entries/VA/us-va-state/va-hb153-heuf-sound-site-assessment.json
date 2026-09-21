@@ -1,0 +1,30 @@
+{
+  "operator": "MLawrence",
+  "id": "va-hb153-heuf-sound-site-assessment",
+  "jurisdiction": "us-va-state",
+  "instrument": "Virginia HB 153 (2026), Acts of Assembly Chapter 567, adding Code of Virginia § 15.2-2209.4",
+  "section": "",
+  "mechanism": "acoustic",
+  "summary": "Before approving a rezoning, special exception or special use permit for a new high energy use facility (100 MW or more), a locality shall require the applicant to submit a site assessment of the facility's sound profile on residences and schools within 500 feet of the property boundary; localities may also require assessment of effects on water, agriculture, parks, registered historic sites and forestland. Sets no noise limit, water cap or setback.",
+  "text": "",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "effective": "2026-07-01",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "secondary",
+    "citation": "Virginia LIS record for HB 153 (2026), Chapter 567, approved April 13, 2026 (title and approval date read from LIS; chapter text returned as binary); provision summary relayed from the LIS summary as reproduced by BillTrack50, and Roanoke Rambler, September 2026",
+    "url": "https://lis.virginia.gov/bill-details/20261/HB153/text/CHAP0567"
+  },
+  "notes": "Resolves the pending HB 153 check: enacted. Signed by Governor Spanberger; companion SB 94; HB 153 incorporated HB 511. Third attempt after the 2025 version (HB 1601/SB 1449) was vetoed May 2, 2025. Does not apply to expansions at sites with existing approval unless the expansion adds 100 MW or more; does not supersede local zoning authority. Attaches at the approval endpoint only, consistent with the construction-interval finding.",
+  "confidence_note": "Chapter text not read in original. Do not describe Virginia as the first state to require acoustic assessment by statute; that has not been checked.",
+  "tags": [
+    "acoustic",
+    "site-assessment",
+    "heuf",
+    "100mw",
+    "statute"
+  ]
+}

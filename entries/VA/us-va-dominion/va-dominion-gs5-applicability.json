@@ -1,0 +1,31 @@
+{
+  "operator": "MLawrence",
+  "id": "va-dominion-gs5-applicability",
+  "jurisdiction": "us-va-dominion",
+  "instrument": "Virginia SCC Final Order, Case No. PUR-2025-00058 (Rate Schedule GS-5)",
+  "section": "Rate Schedule GS-5; GS-5 Rate Class (p. 23)",
+  "mechanism": "load-trigger",
+  "summary": "Creates Rate Schedule GS-5, effective January 1, 2027, for Dominion customers with measured or contracted demand of 25 MW or greater on a contiguous site and a measured or expected load factor of at least 75%.",
+  "text": "The Company shall implement a new rate schedule, Rate Schedule GS-5, as set forth below, effective January 1, 2027. [...] The GS-5 rate class shall include customers with: (1) a measured or contracted demand of 25 megawatts (\"MW\") or greater on a contiguous site; and (2) a measured or expected load factor of at least 75%.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "2027-01-01",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia State Corporation Commission, Final Order, Case No. PUR-2025-00058, Application of Virginia Electric and Power Company for a 2025 biennial review, entered November 25, 2025 (Doc. Con. Cen. No. 251140150)",
+    "url": "https://www.scc.virginia.gov/docketsearch/DOCS/89g601!.PDF",
+    "sha256": "62e236cbb10dd8108bb66b15f955e3c0870d9d7860db6cc24d5024f4f6f9b1f3"
+  },
+  "notes": "Also approves measuring demand and load factor to determine class membership, and totalization at contiguous locations but not aggregation of accounts at the customer retail service level for applying minimum demands. Upgraded from ASSERTED/NOT_CHECKED (2026-09-20).",
+  "confidence_note": "Read in original from the full 28-page order plus attachment, supplied by operator after the SCC site blocked automated retrieval. Document Control Center stamp 11/25/2025 12:14 PM. A June 2026 SCC filing (Doc. 8dt001) cites this order as dated November 5, 2025; the order's own stamp governs and the later citation is treated as a typographical error. Both qualifiers are required; the 75% load-factor condition is omitted in several published accounts, including Evolved Energy Research (September 17, 2026).",
+  "tags": [
+    "gs-5",
+    "large-load",
+    "25mw",
+    "load-factor",
+    "rate-class"
+  ]
+}

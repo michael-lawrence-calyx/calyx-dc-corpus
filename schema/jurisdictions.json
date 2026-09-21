@@ -184,6 +184,11 @@
     "name": "State of Texas",
     "state": "TX"
   },
+  "us-va-dominion": {
+    "kind": "utility",
+    "name": "Dominion Energy Virginia",
+    "state": "VA"
+  },
   "us-va-fairfax-county": {
     "kind": "county",
     "name": "Fairfax County",

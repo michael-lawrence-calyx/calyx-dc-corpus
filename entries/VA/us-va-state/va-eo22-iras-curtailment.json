@@ -1,0 +1,30 @@
+{
+  "operator": "MLawrence",
+  "id": "va-eo22-iras-curtailment",
+  "jurisdiction": "us-va-state",
+  "instrument": "Executive Order 22 (2026)",
+  "section": "I.E.1",
+  "mechanism": "utility-service",
+  "summary": "The Office of the Chief Energy Officer shall engage with the SCC and electric utilities to establish appropriate emergency procedures for the curtailment of data centers that have not brought their own new capacity under PJM's Interim Resource Adequacy Service program, when such proposal is approved by the Federal Energy Regulatory Commission. Curtailment practices should prioritize reduced impact for data centers that bring their own clean energy, peak shaving adjustments, or other beneficial energy investments.",
+  "text": "The Office of the Chief Energy Officer shall engage with the SCC and electric utilities to establish appropriate emergency procedures for the curtailment of data centers who have not brought their own new capacity under PJM's IRAS program, when such proposal is approved by the Federal Energy Regulatory Commission. Curtailment practices should prioritize reduced impact for data centers that bring their own clean energy, peak shaving adjustments, or other beneficial energy investments.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-09-18",
+  "retrieved": "2026-09-20",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia Executive Order 22 (2026), Establishing New Nation-Leading Standards and Initiatives to Implement the Virginia Data Center Accountability Framework and Responding to Unprecedented Risk from Artificial Intelligence, signed September 18 2026",
+    "url": "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/eo-22-establishing-va-data-center-accountability-and-ai-initiatives.pdf"
+  },
+  "notes": "First provision in this corpus tying curtailment priority to whether a load has brought its own capacity. Sits directly opposite the Dominion GS-5 minimum demand charges, which price contracted capacity before the load is populated.",
+  "confidence_note": "Contingent on FERC approval of PJM's IRAS proposal. No curtailment procedure exists as of this order. The clean-energy preference is stated as what practices should prioritize, not as a requirement. No curtailment trigger, duration or notice standard is established.",
+  "tags": [
+    "curtailment",
+    "iras",
+    "pjm",
+    "bring-your-own-power",
+    "reliability"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "operator": "MLawrence",
+  "id": "va-dominion-gs5-minimum-demand",
+  "jurisdiction": "us-va-dominion",
+  "instrument": "Virginia SCC Final Order, Case No. PUR-2025-00058 (Rate Schedule GS-5)",
+  "section": "Minimum Demand Charges (pp. 25-27)",
+  "mechanism": "rate-allocation",
+  "summary": "GS-5 minimum demand charges are 85% of contracted demand for distribution, 85% for transmission, and 60% for generation. PJM capacity expense is excluded from the generation minimum. Customers served before January 1, 2016 are exempt from minimum demand charges; certain competitive-supply and Schedule 10 customers as of January 1, 2025 are exempt from the generation minimum.",
+  "text": "The Commission approves Dominion's proposed minimum demand charges: (1) minimum distribution charge of 85% contracted demand; (2) minimum transmission charge of 85% contracted demand; and (3) minimum generation charge of 60% contracted demand. The Commission also approves the Company's proposal to exclude PJM capacity expense from the minimum generation demand charge.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "2027-01-01",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia State Corporation Commission, Final Order, Case No. PUR-2025-00058, Application of Virginia Electric and Power Company for a 2025 biennial review, entered November 25, 2025 (Doc. Con. Cen. No. 251140150)",
+    "url": "https://www.scc.virginia.gov/docketsearch/DOCS/89g601!.PDF",
+    "sha256": "62e236cbb10dd8108bb66b15f955e3c0870d9d7860db6cc24d5024f4f6f9b1f3"
+  },
+  "notes": "Legacy exemptions (p. 26): (a) minimum demand charges do not apply to a customer taking service before January 1, 2016; (b) minimum generation demand charges do not apply to a customer that as of January 1, 2025 took supply from a competitive service provider, was a Schedule 10-Interruptible customer, or had formally notified Dominion before that date of an intent to elect either before January 1, 2026. Otherwise the generation minimum applies to competitive-supply customers. Footnote 101: planned-maintenance exemptions to be included in Terms and Conditions; rolling 12-month averaging denied. Upgraded from ASSERTED/NOT_CHECKED (2026-09-20).",
+  "confidence_note": "Read in original from the full 28-page order plus attachment, supplied by operator after the SCC site blocked automated retrieval. Document Control Center stamp 11/25/2025 12:14 PM. A June 2026 SCC filing (Doc. 8dt001) cites this order as dated November 5, 2025; the order's own stamp governs and the later citation is treated as a typographical error. The 60% generation minimum is omitted in the Evolved Energy Research account (September 17, 2026).",
+  "tags": [
+    "gs-5",
+    "minimum-demand",
+    "85-percent",
+    "60-percent",
+    "legacy-exemption"
+  ]
+}

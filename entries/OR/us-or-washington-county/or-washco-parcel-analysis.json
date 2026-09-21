@@ -1,0 +1,31 @@
+{
+  "operator": "MLawrence",
+  "id": "or-washco-parcel-analysis",
+  "jurisdiction": "us-or-washington-county",
+  "instrument": "Washington County BCC Work Session, September 1, 2026, staff presentation",
+  "section": "Existing land use conditions (slides 8-11)",
+  "mechanism": "use-permission",
+  "summary": "Staff mapped eight numbered sites of IND/SID land in the urban unincorporated area, comprising roughly 80 parcels, and concluded that few are suited to large standalone data centers due to limited size, site constraints, or existing development. Only about four parcels are 30 acres or more: three at site 5 (Jenkins Rd/Murray Blvd, one over 50 acres) and one at site 6 (TV Hwy/209th/198th/Shaw). Site 2 (US 26/Cornelius Pass Rd) is a single 10-29 acre IND parcel that reads as undeveloped on the aerial.",
+  "text": "Few of these properties are suited to development of large-scale standalone data center facilities due to limited property size, site constraints, or existing development",
+  "origin": "DERIVED",
+  "entry_state": "CONFLICTING",
+  "freshness": "LIVE",
+  "status": "",
+  "effective": "2026-09-01",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Washington County (Oregon) Board of Commissioners, Work Session Agenda Packet, September 1, 2026, Agenda Item 2, Data Center Moratorium Discussion, including staff presentation Potential Data Center Moratorium Process (CAO, County Counsel, Land Use & Transportation)",
+    "url": "https://washingtoncounty.civicweb.net/portal/",
+    "sha256": "a5ce4fff7d094db5c2f9ba0e419665ab0fe64b122e89a41288cb2c9e1ceb7da5"
+  },
+  "notes": "Conflicts with the circulating account (Daily Tidings, Oregonian editorial context) that 'just eight parcels met the criteria, all already developed, three over 40 acres'. The county's figures show eight sites, not eight parcels; the size key breaks at <5, 5-9, 10-29, 30-50 and >50 acres, so 'over 40 acres' cannot be read from it; and the stated reasons are size, constraints OR development, not development alone. The 'three over 40' figure is consistent with the size bands at site 5 and may have been stated orally at the meeting. Site 5 appears to be an existing corporate campus (Bowerman Dr labeled on map); that identification is the operator's, not the county's. Next step: assessor records for site 2 (improvement value, use, ownership) and parcel IDs for all sites.",
+  "confidence_note": "Parcel counts and size bands derived from rendered map slides; counts approximate at available resolution. Development status is an aerial read of undated imagery, not assessor data. Do not cite parcel counts as the county's figures.",
+  "tags": [
+    "washington-county",
+    "parcel-analysis",
+    "coverage-conflict",
+    "site-2",
+    "derived"
+  ]
+}

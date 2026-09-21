@@ -1,0 +1,30 @@
+{
+  "operator": "MLawrence",
+  "id": "va-eo22-evgma-cooling-water-scarcity",
+  "jurisdiction": "us-va-state",
+  "instrument": "Executive Order 22 (2026)",
+  "section": "I.C.3",
+  "mechanism": "water",
+  "summary": "DEQ shall prioritize and expedite regulations establishing criteria for designation of cooling water scarcity areas where evaporation of water for cooling could detrimentally reduce the quality or quantity of water available for other beneficial uses. The Eastern Virginia Groundwater Management Area is designated a cooling water scarcity area in the order itself. A proposed accelerated timeline, workplan and stakeholder-engagement plan is due within 180 days.",
+  "text": "DEQ shall prioritize and expedite the development of regulations to establish criteria for the designation of cooling water scarcity areas where the evaporation of water for cooling purposes could have detrimental reductions in the quality or quantity of water available for other beneficial uses consistent with DEQ's existing statutory authority and applicable legislative direction. The Eastern Virginia Groundwater Management Area shall be designated as a cooling water scarcity area.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-09-18",
+  "retrieved": "2026-09-20",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia Executive Order 22 (2026), Establishing New Nation-Leading Standards and Initiatives to Implement the Virginia Data Center Accountability Framework and Responding to Unprecedented Risk from Artificial Intelligence, signed September 18 2026",
+    "url": "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/eo-22-establishing-va-data-center-accountability-and-ai-initiatives.pdf"
+  },
+  "notes": "The designation is made in the order and precedes the criteria regulation. Workplan due on or about March 17 2027. This is the only operative environmental designation in the order; the remainder of Section I.C directs plans and reviews.",
+  "confidence_note": "The order does not state what consequences attach to a designated cooling water scarcity area. Those depend on regulations not yet developed. Establishes no numeric water limit, no consumption cap, and no reporting obligation. The boundary of the Eastern Virginia Groundwater Management Area has not been read.",
+  "tags": [
+    "water",
+    "cooling",
+    "scarcity-area",
+    "evgma",
+    "designation"
+  ]
+}

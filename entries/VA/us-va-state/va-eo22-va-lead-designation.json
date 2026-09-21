@@ -1,0 +1,31 @@
+{
+  "operator": "MLawrence",
+  "id": "va-eo22-va-lead-designation",
+  "jurisdiction": "us-va-state",
+  "instrument": "Executive Order 22 (2026)",
+  "section": "I.B.3",
+  "mechanism": "incentive",
+  "summary": "The Office of the Chief Energy Officer shall develop VA-LEAD designation criteria and an implementation plan using a standardized, tiered scoring system modeled on LEED and EnergyStar, evaluating data center facilities on factors including energy and infrastructure impacts, water and land use, noise pollution, workforce development, clean-energy and resilience investments, sourcing of local sustainable construction materials, and local community benefits. Proposed criteria and implementation plan due to the Governor by the end of calendar year 2027. Once established, VA-LEAD is the baseline for how executive branch agencies align incentives and administrative services.",
+  "text": "Modeled after successful resource-efficiency frameworks like LEED and EnergyStar, the VA-LEAD criteria shall use a standardized, tiered scoring system to evaluate data center facilities based on factors such as, but not limited to: energy and infrastructure impacts; water and land use; noise pollution; workforce development; clean-energy and resilience investments; sourcing of local sustainable construction materials; and local community benefits. [...] Once established, the VA-LEAD program shall serve as the baseline for how executive branch agencies align incentives and administrative services to prioritize developers that achieve the highest tier of responsible development.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-09-18",
+  "retrieved": "2026-09-20",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia Executive Order 22 (2026), Establishing New Nation-Leading Standards and Initiatives to Implement the Virginia Data Center Accountability Framework and Responding to Unprecedented Risk from Artificial Intelligence, signed September 18 2026",
+    "url": "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/eo-22-establishing-va-data-center-accountability-and-ai-initiatives.pdf"
+  },
+  "notes": "Criteria due end of calendar year 2027. The order directs the Office of the Chief Energy Officer to solicit input from technical experts during development. First multi-parameter scoring program for data centers identified in this corpus.",
+  "confidence_note": "No measurement method, parameter definition, measurement point or scoring threshold exists as of the order. Whether designation carries any consequence beyond alignment of discretionary state assistance is not stated. The Joint Subcommittee on Tax Policy recommendations referenced in the text have not been read.",
+  "tags": [
+    "va-lead",
+    "scoring",
+    "designation",
+    "noise",
+    "water",
+    "workforce"
+  ]
+}

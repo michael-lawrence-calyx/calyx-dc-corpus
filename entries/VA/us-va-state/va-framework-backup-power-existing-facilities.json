@@ -1,0 +1,31 @@
+{
+  "operator": "MLawrence",
+  "id": "va-framework-backup-power-existing-facilities",
+  "jurisdiction": "us-va-state",
+  "instrument": "Virginia Data Center Accountability Framework (proposed; 2027 General Assembly legislative agenda)",
+  "section": "Enforce the Nation's Strongest Environmental Protections",
+  "mechanism": "generation",
+  "summary": "Proposes cumulative-impact evaluation of diesel backup generators and requires existing as well as future facilities to move to cleaner backup power; also proposes water-use standards with stronger enforcement and expedited state noise regulations.",
+  "text": "Establish strong, transparent, and nation-leading standards for data center energy efficiency, water use, land impacts, and backup generation; Evaluate cumulative impacts of diesel backup generators and require existing and future facilities to move to cleaner backup power; Set clear water-use standards for these facilities to lower overall water consumption and improve efficiency of water usage backed by stronger state agency enforcement against violations; Expedite the new state noise regulations for data centers",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "proposed",
+  "effective": "",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Office of the Governor of Virginia, news release, Governor Spanberger Unveils Nation's Most Comprehensive & Aggressive Data Center Accountability Standards, Signs Executive Order to Immediately Put Into Action, September 18, 2026",
+    "url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/september-releases/name-1123696-en.html"
+  },
+  "notes": "Reaches existing facilities, unlike most provisions in this corpus, which grandfather what is built. The Framework as described does not address the data center sales and use tax exemption; the omission was raised by a reporter at the September 18 press conference (WTVR). The release's statement that Virginia enacted the nation's first statewide energy consumption tax on data centers is the Governor's office's claim and is not checked here.",
+  "confidence_note": "Read in original from the Governor's release, which lists the Framework's contents. The Framework document itself was not opened (link behind a redirect). Framework items are proposals for the 2027 General Assembly and are NOT in force except where Executive Order 22 implements them; see the us-va-state EO 22 entries.",
+  "tags": [
+    "framework",
+    "backup-generation",
+    "existing-facilities",
+    "water",
+    "noise",
+    "proposed"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "operator": "MLawrence",
+  "id": "va-dominion-gs5-collateral",
+  "jurisdiction": "us-va-dominion",
+  "instrument": "Virginia SCC Final Order, Case No. PUR-2025-00058 (Rate Schedule GS-5)",
+  "section": "Collateral Requirements (p. 25)",
+  "mechanism": "rate-allocation",
+  "summary": "GS-5 customers signing an ESA on or after January 1, 2027 post collateral of $1.5 million per MW, reducible by up to 70% based on established credit, with third-party guarantees and letters of credit permitted and 1/14th released each year of the contract term. Cash collateral accrues interest.",
+  "text": "The collateral requirements shall apply to customers taking initial service and signing an ESA on or after January 1, 2027. The Commission approves the Company's proposed collateral requirement terms, including: (1) $1.5 million/MW; (2) a reduction up to 70% based on the customer's established credit; (3) provisions for third-party guarantees and letters of credit; and (4) releasing 1/14th of the collateral requirement each year throughout the contract term. In addition, cash collateral shall accrue interest while held by Dominion and shall be returned to the customer consistent with standard financial practices.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "2027-01-01",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia State Corporation Commission, Final Order, Case No. PUR-2025-00058, Application of Virginia Electric and Power Company for a 2025 biennial review, entered November 25, 2025 (Doc. Con. Cen. No. 251140150)",
+    "url": "https://www.scc.virginia.gov/docketsearch/DOCS/89g601!.PDF",
+    "sha256": "62e236cbb10dd8108bb66b15f955e3c0870d9d7860db6cc24d5024f4f6f9b1f3"
+  },
+  "notes": "CORRECTION to the 2026-09-20 entry, which marked the $1.5 million/MW figure as not established and not to be cited. The figure is in the order. It is a ceiling, not the requirement: with the full 70% credit reduction the requirement is $450,000/MW. Citing $1.5 million/MW without the credit reduction overstates the obligation for creditworthy customers. Footnote 99: these requirements sit outside the general deposit provisions of 20 VAC 5-10-20.",
+  "confidence_note": "Read in original from the full 28-page order plus attachment, supplied by operator after the SCC site blocked automated retrieval. Document Control Center stamp 11/25/2025 12:14 PM. A June 2026 SCC filing (Doc. 8dt001) cites this order as dated November 5, 2025; the order's own stamp governs and the later citation is treated as a typographical error.",
+  "tags": [
+    "gs-5",
+    "collateral",
+    "financial-assurance",
+    "correction"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "operator": "MLawrence",
+  "id": "or-washco-board-options-and-resourcing",
+  "jurisdiction": "us-or-washington-county",
+  "instrument": "Washington County BCC Work Session, September 1, 2026, staff presentation",
+  "section": "Other potential actions (slide 13); Planning Work Program re-prioritization (slide 15)",
+  "mechanism": "process",
+  "summary": "Staff offered alternatives to a moratorium: a Resolution and Order reflecting community concerns; a briefing after the Governor's DCAC report (tentatively October 2026); or additional research on development potential, community impacts and mitigation. The 2025-2027 Planning Work Program does not contemplate data center regulation; staff would ask the Board to deprioritize other tasks or fund additional staff and/or consultant support.",
+  "text": "Consider adoption of a Resolution and Order reflecting community concerns regarding data centers; Direct staff to brief the Board after the Governor's Data Center Advisory Committee has published a report of its findings and recommendations in October 2026 (tentative); Direct staff to conduct additional research on data centers, including their potential for development in unincorporated areas of Washington County, potential community impacts and mitigation strategies, and report back to the Board at a future date. This action would include a need to deprioritize other items on the workplan. [...] The current work program covers the 2025-2027 period and takes into account existing staff and consultant resources; it does not contemplate work on data center regulations. If the Board wishes to consider adopting data center regulations, staff would ask the Board to de-prioritize one or more Planning Work Program tasks, or allocate limited financial resources to fund additional staff and/or consultant support to accommodate the effort",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "",
+  "effective": "2026-09-01",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Washington County (Oregon) Board of Commissioners, Work Session Agenda Packet, September 1, 2026, Agenda Item 2, Data Center Moratorium Discussion, including staff presentation Potential Data Center Moratorium Process (CAO, County Counsel, Land Use & Transportation)",
+    "url": "https://washingtoncounty.civicweb.net/portal/",
+    "sha256": "a5ce4fff7d094db5c2f9ba0e419665ab0fe64b122e89a41288cb2c9e1ceb7da5"
+  },
+  "notes": "Which option the Board chose is not in this packet; coverage reports the Board declined a moratorium and agreed to draft a resolution acknowledging concerns. Check subsequent regular-business agendas for an adopted R&O and for the post-DCAC briefing. Presenters: Marni Kuyl (Assistant County Administrator), Cortney Duke-Driessen (County Counsel), Erin Wardell (Assistant Director, LUT). The item was requested at the August 25, 2026 work session. Packet also includes a Clean Water Services data center water quality fact sheet, stating CWS serves over 600,000 customers; the county's BCC page says nearly 500,000.",
+  "confidence_note": "Read in original.",
+  "tags": [
+    "washington-county",
+    "planning-work-program",
+    "consultant-support",
+    "dcac-briefing",
+    "forward-calendar"
+  ]
+}

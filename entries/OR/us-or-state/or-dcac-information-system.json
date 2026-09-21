@@ -1,0 +1,29 @@
+{
+  "operator": "MLawrence",
+  "id": "or-dcac-information-system",
+  "jurisdiction": "us-or-state",
+  "instrument": "Oregon Data Center Advisory Committee, Preliminary Learnings and Questions Document (September 2026)",
+  "section": "Transparency & Accountability",
+  "mechanism": "process",
+  "summary": "The committee identified potential value in a coordinated, state-hosted data center information system standardizing water intake and discharge, energy and peak demand, backup power and violations, tax abatements and revenues, employment, community benefit agreements, infrastructure investment, and facility locations.",
+  "text": "The Committee identified potential value in a coordinated, state-hosted data center information system that could bring together standardized information on: water intake and discharge; energy use, peak demand, and flexibility; backup power, emissions from them, and any violations/penalties; tax abatements and public revenues; employment and workforce outcomes; community benefit agreements; infrastructure investments; and facility development and locations.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "draft",
+  "effective": "2026-09-10",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Oregon Data Center Advisory Committee, Preliminary Learnings and Questions Document, September 2026 (released September 10, 2026)",
+    "url": "https://www.oregon.gov/energy/get-involved/Documents/2026-09-10-DCAC-Preliminary-Learnings.pdf"
+  },
+  "notes": "The document is internally inconsistent on facility counts: ~123 active facilities by 2025 (land use section), 123-144 depending on definitions (economics section), 31 facilities in the siting process versus 32 in the ECOnorthwest deck, and 111 operational in the ECOnorthwest headline. Definitions drive the number. Pipeline: ~9,000 acres known to be proposed, 6,500 requiring UGB expansion or rural designation change.",
+  "confidence_note": "Read in original. sha256 not recorded: retrieved through the web fetch tool, which does not archive the file; hash on next direct download. A statement of potential value, not a recommendation.",
+  "tags": [
+    "dcac",
+    "transparency",
+    "information-system",
+    "facility-count-conflict"
+  ]
+}

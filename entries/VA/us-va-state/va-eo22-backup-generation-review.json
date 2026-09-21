@@ -1,0 +1,30 @@
+{
+  "operator": "MLawrence",
+  "id": "va-eo22-backup-generation-review",
+  "jurisdiction": "us-va-state",
+  "instrument": "Executive Order 22 (2026)",
+  "section": "I.C.2",
+  "mechanism": "generation",
+  "summary": "DEQ, in consultation with the Virginia Department of Health and Virginia Energy, shall conduct or oversee a cumulative-impact review of diesel and other backup-generation operations associated with data centers, covering generator count, capacity, fuel type, expected operating hours, geographic concentration, cumulative emissions and localized air-quality impacts, and measures including retrofit of Tier II gen-sets to Tier IV. Findings and recommendations due within 180 days.",
+  "text": "DEQ, in consultation with the Virginia Department of Health and Virginia Energy, shall conduct or oversee a cumulative-impact review of diesel and other backup-generation operations associated with data centers. The review shall consider: the number, capacity, fuel type, expected operating hours, and geographic concentration of backup generators; cumulative emissions and localized air-quality impacts, particularly in communities hosting multiple data-center facilities; available measures to reduce emissions, protect public health, and improve transparency; and measures to promote retrofit of Tier II gen-sets to Tier IV or equivalent emissions controls, battery storage, fuel cells, clean firm generation, non-diesel alternatives, and other feasible technologies that can meet reliability needs while reducing public-health and environmental impacts from backup generation.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-09-18",
+  "retrieved": "2026-09-20",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia Executive Order 22 (2026), Establishing New Nation-Leading Standards and Initiatives to Implement the Virginia Data Center Accountability Framework and Responding to Unprecedented Risk from Artificial Intelligence, signed September 18 2026",
+    "url": "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/eo-22-establishing-va-data-center-accountability-and-ai-initiatives.pdf"
+  },
+  "notes": "Findings due on or about March 17 2027. First cumulative-impact review of backup generation identified in this corpus. Relevant to the growing use of on-site generation to serve load prior to interconnection.",
+  "confidence_note": "Directs a review. Imposes no obligation on any operator. Sets no emissions limit and no operating-hour limit. The order does not anywhere distinguish standby generation from continuous-duty on-site generation, and this entry does not establish that the review reaches primary generation.",
+  "tags": [
+    "generation",
+    "backup",
+    "diesel",
+    "emissions",
+    "cumulative-impact"
+  ]
+}

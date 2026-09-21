@@ -1,0 +1,31 @@
+{
+  "operator": "MLawrence",
+  "id": "va-framework-local-approval-and-nda",
+  "jurisdiction": "us-va-state",
+  "instrument": "Virginia Data Center Accountability Framework (proposed; 2027 General Assembly legislative agenda)",
+  "section": "Increase Transparency and End the Secrecy",
+  "mechanism": "use-permission",
+  "summary": "Proposes to ban NDAs for commercial data center projects, eliminate by-right approval and require local approval of any data center using more than 25 MW, end state site-development subsidies, and remove future large data centers from fast-track permitting.",
+  "text": "Ban non-disclosure agreements for commercial data center projects; Strengthen local control by eliminating by-right approval and requiring local approval of any data center using more than 25 megawatts of power; Empower communities with tools to negotiate stronger, community-centered agreements; End state subsidies for data centers in Virginia's site development programs; Remove future large data centers from Virginia's fast-track permitting process",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "proposed",
+  "effective": "",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Office of the Governor of Virginia, news release, Governor Spanberger Unveils Nation's Most Comprehensive & Aggressive Data Center Accountability Standards, Signs Executive Order to Immediately Put Into Action, September 18, 2026",
+    "url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/september-releases/name-1123696-en.html"
+  },
+  "notes": "These are the provisions widely reported as effective under EO 22. The NDA ban reaching commercial projects and the 25 MW local-approval requirement are Framework proposals; EO 22 implements only the executive-branch NDA prohibition and the VEDP exclusion.",
+  "confidence_note": "Read in original from the Governor's release, which lists the Framework's contents. The Framework document itself was not opened (link behind a redirect). Framework items are proposals for the 2027 General Assembly and are NOT in force except where Executive Order 22 implements them; see the us-va-state EO 22 entries.",
+  "tags": [
+    "framework",
+    "nda",
+    "by-right",
+    "25mw",
+    "local-approval",
+    "proposed"
+  ]
+}

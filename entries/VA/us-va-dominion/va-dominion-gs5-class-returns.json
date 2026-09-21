@@ -1,0 +1,30 @@
+{
+  "operator": "MLawrence",
+  "id": "va-dominion-gs5-class-returns",
+  "jurisdiction": "us-va-dominion",
+  "instrument": "Virginia SCC Final Order, Case No. PUR-2025-00058",
+  "section": "Jurisdictional and Class Cost of Service Studies (pp. 16-17)",
+  "mechanism": "rate-allocation",
+  "summary": "The Commission records that under Dominion's A&E class cost of service study, customers that will make up GS-5 earned a per-books return of 6.28% for the test period ending December 31, 2024, and 3.01% on transmission, the lowest of any class other than outdoor lighting; remaining GS-4 customers earned 20.75% and 22.41%.",
+  "text": "The Company's A&E class cost of service study, updated to reflect the newly proposed GS-5 rate class, demonstrates that customers that will make up the GS-5 rate class contributed an overall per books rate of return of 6.28% for the end-of-test period ending December 31, 2024, which is the lowest return for all rate classes other than outdoor lighting. With respect to the Company's transmission function, the same study revealed that those same customers contributed a per books rate of return of 3.01%, which is the lowest return associated with the transmission function for all rate classes other than outdoor lighting. The same study further revealed that remaining GS-4 class customers pay relatively higher rates of return of 20.75% (overall per books) and 22.41% (transmission).",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "status": "adopted",
+  "effective": "2025-11-25",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia State Corporation Commission, Final Order, Case No. PUR-2025-00058, Application of Virginia Electric and Power Company for a 2025 biennial review, entered November 25, 2025 (Doc. Con. Cen. No. 251140150)",
+    "url": "https://www.scc.virginia.gov/docketsearch/DOCS/89g601!.PDF",
+    "sha256": "62e236cbb10dd8108bb66b15f955e3c0870d9d7860db6cc24d5024f4f6f9b1f3"
+  },
+  "notes": "Basis for the transmission cost allocation directive. The Commission's own record, not an advocacy figure.",
+  "confidence_note": "Read in original from the full 28-page order plus attachment, supplied by operator after the SCC site blocked automated retrieval. Document Control Center stamp 11/25/2025 12:14 PM. A June 2026 SCC filing (Doc. 8dt001) cites this order as dated November 5, 2025; the order's own stamp governs and the later citation is treated as a typographical error. Methodology-dependent. Footnote 60: transmission rates are actually set on a 12 coincident peak method, while this study uses A&E. Do not cite as a measure of what large-load customers pay under current transmission rates.",
+  "tags": [
+    "cost-of-service",
+    "rate-of-return",
+    "large-load",
+    "gs-4"
+  ]
+}

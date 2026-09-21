@@ -1,0 +1,31 @@
+{
+  "operator": "MLawrence",
+  "id": "or-washco-land-use-conditions",
+  "jurisdiction": "us-or-washington-county",
+  "instrument": "Washington County BCC Work Session, September 1, 2026, staff presentation",
+  "section": "Existing land use conditions (slide 7); County land use authority (slide 6)",
+  "mechanism": "use-permission",
+  "summary": "In unincorporated Washington County, rural land use regulations do not allow data centers; in the urban unincorporated area only the Industrial and Special Industrial Overlay designations could potentially offer an approval pathway, and the use is not explicitly allowed. No known large standalone data centers and no data center applications in review.",
+  "text": "There are no known existing large-scale standalone data centers located in unincorporated Washington County; There are no land use applications for data centers currently in the review process in unincorporated Washington County; Land use regulations for the rural areas of Washington County do not allow data centers; In the urban unincorporated area, only the Industrial (IND) and Special Industrial Overlay District (SID) plan designations could potentially allow an approval pathway for a data center; it is not an explicitly allowed use",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "",
+  "effective": "2026-09-01",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Washington County (Oregon) Board of Commissioners, Work Session Agenda Packet, September 1, 2026, Agenda Item 2, Data Center Moratorium Discussion, including staff presentation Potential Data Center Moratorium Process (CAO, County Counsel, Land Use & Transportation)",
+    "url": "https://washingtoncounty.civicweb.net/portal/",
+    "sha256": "a5ce4fff7d094db5c2f9ba0e419665ab0fe64b122e89a41288cb2c9e1ceb7da5"
+  },
+  "notes": "County land use authority stated as home rule under the Oregon Constitution, ORS 197.175 and the County Charter (slide 6). Coverage (Daily Tidings) reports the county would be required to approve a compliant application; the slides say only that a pathway could potentially exist. The 410,900-acre and 93%-rural figures in coverage do not appear in the presentation.",
+  "confidence_note": "Read in original from the September 1, 2026 work session packet, 47 pages.",
+  "tags": [
+    "washington-county",
+    "unincorporated",
+    "ind",
+    "sid",
+    "code-gap"
+  ]
+}

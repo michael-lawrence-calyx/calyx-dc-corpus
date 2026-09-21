@@ -1,0 +1,30 @@
+{
+  "operator": "MLawrence",
+  "id": "va-eo22-vedp-25mw-exclusion",
+  "jurisdiction": "us-va-state",
+  "instrument": "Executive Order 22 (2026)",
+  "section": "I.B.4",
+  "mechanism": "incentive",
+  "summary": "Effective upon issuance, the Virginia Economic Development Partnership shall not provide assistance through the Virginia Business Ready Sites Program, any expedited permitting program, or any similar discretionary state economic development, site-readiness or expedited review program for a new data center project with an anticipated peak electrical demand of 25 MW or greater.",
+  "text": "Effective upon issuance of this Executive Order, VEDP shall not provide assistance through the Virginia Business Ready Sites Program, any expedited permitting program, or any similar discretionary state economic development, site-readiness, or expedited review program for a new data center project with an anticipated peak electrical demand of 25 MW or greater.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-09-18",
+  "retrieved": "2026-09-20",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia Executive Order 22 (2026), Establishing New Nation-Leading Standards and Initiatives to Implement the Virginia Data Center Accountability Framework and Responding to Unprecedented Risk from Artificial Intelligence, signed September 18 2026",
+    "url": "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/eo-22-establishing-va-data-center-accountability-and-ai-initiatives.pdf"
+  },
+  "notes": "The only 25 MW provision operative under this order. Withholds discretionary state assistance above the threshold. Note that Virginia has a second, unrelated 25 MW threshold effective January 1 2027 under the SCC's GS-5 rate class; the number is the same and the mechanism is not.",
+  "confidence_note": "Withholds discretionary state assistance only. Does NOT eliminate by-right approval, does not require local approval, and confers no authority on localities. Multiple press accounts report this order as eliminating by-right approval and requiring public hearing above 25 MW; that is a Framework legislative proposal for 2027 and is not supported by the text of this order.",
+  "tags": [
+    "25-mw",
+    "incentive",
+    "site-readiness",
+    "vedp",
+    "threshold"
+  ]
+}

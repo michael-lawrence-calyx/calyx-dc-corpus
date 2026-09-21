@@ -1,0 +1,29 @@
+{
+  "operator": "MLawrence",
+  "id": "va-dominion-large-load-queue-directive",
+  "jurisdiction": "us-va-dominion",
+  "instrument": "Virginia SCC Final Order, Case No. PUR-2025-00058",
+  "section": "Large Load Interconnection Queue (pp. 22-23)",
+  "mechanism": "connectivity",
+  "summary": "Directs Dominion to file its new large-load interconnection queue process, with testimony, in a separate formal proceeding on or before February 2, 2026, and encourages faster interconnection for loads meeting readiness criteria such as site readiness, proximity to generation, and flexibility.",
+  "text": "the Commission further directs that the Company file its new large load interconnection queue process, along with supporting testimony, in a separate future proceeding at the Commission. The Commission finds that the public interest would be supported by a transparent process wherein the rules for the interconnection process of larger loads are subject to examination and approval in a formal proceeding. [...] The Commission anticipates that such a proceeding will occur on an expedited timeline and directs that the Company make such a filing on or before February 2, 2026.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2025-11-25",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia State Corporation Commission, Final Order, Case No. PUR-2025-00058, Application of Virginia Electric and Power Company for a 2025 biennial review, entered November 25, 2025 (Doc. Con. Cen. No. 251140150)",
+    "url": "https://www.scc.virginia.gov/docketsearch/DOCS/89g601!.PDF",
+    "sha256": "62e236cbb10dd8108bb66b15f955e3c0870d9d7860db6cc24d5024f4f6f9b1f3"
+  },
+  "notes": "The resulting proceeding is SCC Case No. PUR-2026-00011, filed February 2, 2026 (per PJM and secondary accounts; that docket not read). Refresh when PUR-2026-00011 is decided.",
+  "confidence_note": "Read in original from the full 28-page order plus attachment, supplied by operator after the SCC site blocked automated retrieval. Document Control Center stamp 11/25/2025 12:14 PM. A June 2026 SCC filing (Doc. 8dt001) cites this order as dated November 5, 2025; the order's own stamp governs and the later citation is treated as a typographical error.",
+  "tags": [
+    "interconnection-queue",
+    "large-load",
+    "pur-2026-00011"
+  ]
+}

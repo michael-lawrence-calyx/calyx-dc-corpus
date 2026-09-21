@@ -1,0 +1,30 @@
+{
+  "operator": "MLawrence",
+  "id": "va-dominion-gs5-contract-term",
+  "jurisdiction": "us-va-dominion",
+  "instrument": "Virginia SCC Final Order, Case No. PUR-2025-00058 (Rate Schedule GS-5)",
+  "section": "Contract (p. 24)",
+  "mechanism": "rate-allocation",
+  "summary": "GS-5 contracts run 14 years for customers signing an ESA on or after January 1, 2027, with an optional ramp period of up to four years at a minimum 20% annual ramp; minimum charges continue if service continues past the contract term.",
+  "text": "The contract provisions shall apply to customers taking initial service and signing an ESA on or after January 1, 2027. The contract term shall be 14 years. A customer may also include, within the contract term, a load ramp period not to exceed four years (with a minimum annual ramp of 20%). If the customer continues to take service after the conclusion of the contract term, the minimum charges approved herein shall continue.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "WARM",
+  "status": "adopted",
+  "effective": "2027-01-01",
+  "retrieved": "2026-09-21",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia State Corporation Commission, Final Order, Case No. PUR-2025-00058, Application of Virginia Electric and Power Company for a 2025 biennial review, entered November 25, 2025 (Doc. Con. Cen. No. 251140150)",
+    "url": "https://www.scc.virginia.gov/docketsearch/DOCS/89g601!.PDF",
+    "sha256": "62e236cbb10dd8108bb66b15f955e3c0870d9d7860db6cc24d5024f4f6f9b1f3"
+  },
+  "notes": "The post-term continuation of minimum charges is not reported in any secondary account located. Upgraded from ASSERTED/NOT_CHECKED (2026-09-20).",
+  "confidence_note": "Read in original from the full 28-page order plus attachment, supplied by operator after the SCC site blocked automated retrieval. Document Control Center stamp 11/25/2025 12:14 PM. A June 2026 SCC filing (Doc. 8dt001) cites this order as dated November 5, 2025; the order's own stamp governs and the later citation is treated as a typographical error.",
+  "tags": [
+    "gs-5",
+    "contract-term",
+    "14-year",
+    "ramp"
+  ]
+}

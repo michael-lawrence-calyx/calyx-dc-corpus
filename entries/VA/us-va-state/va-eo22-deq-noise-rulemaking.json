@@ -1,0 +1,29 @@
+{
+  "operator": "MLawrence",
+  "id": "va-eo22-deq-noise-rulemaking",
+  "jurisdiction": "us-va-state",
+  "instrument": "Executive Order 22 (2026)",
+  "section": "I.C.1",
+  "mechanism": "acoustic",
+  "summary": "DEQ shall prioritize and expedite development of data center noise regulations consistent with existing statutory authority and applicable legislative direction, and shall establish a public process engaging affected communities, local governments, operators and public-health experts. Within 180 days DEQ shall provide a proposed accelerated timeline, workplan and stakeholder-engagement plan for the noise rulemaking.",
+  "text": "DEQ shall prioritize and expedite the development of data center noise regulations consistent with DEQ's existing statutory authority and applicable legislative direction. DEQ shall establish a public process that meaningfully engages affected communities, local governments, data-center operators, public-health experts, and other stakeholders. Within 180 days of the date of this Executive Order, DEQ shall provide the Office of the Governor with a proposed accelerated timeline, workplan, and stakeholder-engagement plan for the noise-rulemaking process.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "status": "adopted",
+  "effective": "2026-09-18",
+  "retrieved": "2026-09-20",
+  "source": {
+    "kind": "primary",
+    "citation": "Virginia Executive Order 22 (2026), Establishing New Nation-Leading Standards and Initiatives to Implement the Virginia Data Center Accountability Framework and Responding to Unprecedented Risk from Artificial Intelligence, signed September 18 2026",
+    "url": "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/eo-22-establishing-va-data-center-accountability-and-ai-initiatives.pdf"
+  },
+  "notes": "Workplan due on or about March 17 2027. The order's recitals reference noise reduction measures already established by legislation, which is a pointer to existing Virginia statute not yet read into this corpus. If a state noise standard is adopted, Virginia joins the municipal acoustic provisions recorded for Phoenix, Chandler and Marana at a state level.",
+  "confidence_note": "Sets no noise standard. Establishes no decibel limit, no measurement point, no measurement method, no measurement duration and no compliance obligation. The deliverable at 180 days is a plan for a rulemaking, not a rule. The existing legislative direction referenced in the recitals has not been identified or read.",
+  "tags": [
+    "acoustic",
+    "noise",
+    "rulemaking",
+    "deq"
+  ]
+}
