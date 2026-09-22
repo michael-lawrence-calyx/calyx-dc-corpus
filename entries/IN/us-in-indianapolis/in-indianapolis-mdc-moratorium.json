@@ -1,0 +1,28 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "in-indianapolis-mdc-moratorium",
+  "jurisdiction": "us-in-indianapolis",
+  "instrument": "Indianapolis Metropolitan Development Commission data center moratorium",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "The MDC approved a moratorium 6-0 through December 31 2027. Three approved projects proceed (Decatur Township, Martindale-Brightwood, former Ford Visteon on Fintail Drive). The Department of Metropolitan Development will retain a consultant and seat an Advisory Committee to draft standards.",
+  "notes": "Framework-shaped opening: consultant plus advisory committee. Indiana context per IU Environmental Resilience Institute: 11 counties with ordinances, at least 17 moratoria, 2 bans (Marshall, Cass).",
+  "confidence_note": "Relayed; resolution not read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Fox59; IPR/WBOI citing IU ERI"
+  },
+  "tags": [
+    "moratorium",
+    "2027-12-31",
+    "consultant",
+    "advisory-committee"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "nc-duke-large-load-tariff-proposal",
+  "jurisdiction": "us-nc-duke-energy",
+  "instrument": "Duke Energy Carolinas / Progress rate cases before the NCUC (large-load tariff proposal)",
+  "mechanism": "rate-allocation",
+  "status": "proposed",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "Duke proposed a large-load tariff with a minimum bill and a term of at least 10 years in late-June testimony. The DEC settlement is about 9.5 percent against about 18 percent requested; a final NCUC order is expected this fall. On September 14 2026 the Attorney General asked the NCUC for a distinct data center rate class, contract-template disclosure, 90-day load forecasts and a gas-plant pause.",
+  "notes": "Local context: over a dozen moratoria or bans in western North Carolina since January 2026 (WFAE); N.C.G.S. 160D-107 governs moratoria.",
+  "confidence_note": "Relayed; filings not read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Canary Media; EDF; WECT; NC Newsline; WFAE"
+  },
+  "tags": [
+    "rate-case",
+    "large-load",
+    "attorney-general"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

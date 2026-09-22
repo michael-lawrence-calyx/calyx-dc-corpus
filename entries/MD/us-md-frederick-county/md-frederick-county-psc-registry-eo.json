@@ -1,0 +1,26 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "md-frederick-county-psc-registry-eo",
+  "instrument": "Frederick County Executive Order, July 1 2026 (large-load registry)",
+  "mechanism": "process",
+  "summary": "Requires proof of registration in the PSC large-load registry before development review.",
+  "notes": "",
+  "tags": [
+    "registry",
+    "psc"
+  ],
+  "jurisdiction": "us-md-frederick-county",
+  "status": "adopted",
+  "effective": "2026-07-01",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "MeriTalk; WYPR"
+  },
+  "confidence_note": "Relayed; executive orders not read.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

@@ -1,0 +1,28 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "oh-2026-11-03-local-data-center-measures",
+  "jurisdiction": "us-oh-state",
+  "instrument": "November 3 2026 local ballot measures on data centers (18 Ohio municipalities and townships)",
+  "mechanism": "use-permission",
+  "status": "proposed",
+  "effective": "2026-11-03",
+  "freshness": "LIVE",
+  "summary": "Eighteen Ohio municipalities and townships vote November 3 2026 on data center measures. Nine mirror the proposed statewide 25 MW ban: Conneaut, Defiance, Granville, Oregon, Pataskala, Piqua, Sunbury, Trenton and Upper Sandusky. Others include two Adams County township rural-character zoning plans, four Wilmington referendums plus a residents' alternative ordinance, an Ashville referendum and Sidney petitions.",
+  "notes": "The count of 18 is Ohio Capital Journal's. Per-community entries need county board of elections certification.",
+  "confidence_note": "Relayed from reporting; no ballot language read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Ohio Capital Journal, September 14 2026"
+  },
+  "tags": [
+    "ballot",
+    "25-mw",
+    "referendum",
+    "2026-11-03"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

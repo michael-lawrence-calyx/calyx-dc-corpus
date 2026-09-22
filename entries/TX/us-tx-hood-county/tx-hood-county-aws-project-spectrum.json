@@ -1,0 +1,28 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "tx-hood-county-aws-project-spectrum",
+  "jurisdiction": "us-tx-hood-county",
+  "instrument": "Hood County Commissioners Court action on AWS Project Spectrum, June 2026",
+  "mechanism": "incentive",
+  "status": "adopted",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "DISPUTED. CBS reports AWS asked Hood County for up to 90 percent property tax rebates for 30 years, Commissioner Dave Eagle voted no, and the project moved to the next county. Hoodline reports a June 3-0 vote (Eagle absent) clearing the way for Project Spectrum, a 21-building campus near Comanche Peak. Amazon told 60 Minutes it ultimately decided not to build in Hood County.",
+  "notes": "The three accounts may be reconcilable (e.g., conditional approval then withdrawal) but no public record found reconciles them. Hood County has nine proposals before it (reported).",
+  "confidence_note": "All three accounts relayed; no court order or agreement read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "CBS News 60 Minutes, September 20 2026; Hoodline; Amazon statement to CBS"
+  },
+  "tags": [
+    "aws",
+    "abatement",
+    "disputed",
+    "comanche-peak"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

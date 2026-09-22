@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "md-frederick-county-cdi-moratorium-eo",
+  "instrument": "Frederick County Executive Order, July 1 2026 (critical digital infrastructure)",
+  "mechanism": "use-permission",
+  "summary": "County Executive Fitzwater ordered a moratorium on accepting or processing critical digital infrastructure and related substation applications through December 31 2026.",
+  "notes": "The Maryland Supreme Court blocked the CDI referendum from the fall ballot. The pause is keyed to the state DLS Data Center Impact Analysis due September 1 2026; check whether delivered.",
+  "tags": [
+    "moratorium",
+    "cdi",
+    "2026-12-31"
+  ],
+  "jurisdiction": "us-md-frederick-county",
+  "status": "adopted",
+  "effective": "2026-07-01",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "MeriTalk; WYPR"
+  },
+  "confidence_note": "Relayed; executive orders not read.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

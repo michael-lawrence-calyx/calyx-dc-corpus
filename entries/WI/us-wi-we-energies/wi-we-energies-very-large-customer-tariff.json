@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "wi-we-energies-very-large-customer-tariff",
+  "jurisdiction": "us-wi-we-energies",
+  "instrument": "Wisconsin PSC decision on WEPCO Very Large Customer tariff, April 24 2026",
+  "mechanism": "rate-allocation",
+  "status": "adopted",
+  "effective": "2026-04-24",
+  "freshness": "LIVE",
+  "summary": "Unanimous PSC decision lowering the threshold from 500 MW to 100 MW and making the tariff mandatory above it; minimum term 15 years; the 75 percent capacity-only option removed so very large customers pay 100 percent; transmission cost-allocation revisions and added reporting ordered.",
+  "notes": "",
+  "confidence_note": "Relayed; PSC order not read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Clean Wisconsin; Insight"
+  },
+  "tags": [
+    "tariff",
+    "100-mw",
+    "15-year"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

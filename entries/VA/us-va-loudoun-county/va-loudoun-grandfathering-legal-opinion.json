@@ -1,0 +1,28 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "va-loudoun-grandfathering-legal-opinion",
+  "jurisdiction": "us-va-loudoun-county",
+  "instrument": "Loudoun County Board of Supervisors action, September 2 2026 (Randall substitute motion)",
+  "mechanism": "process",
+  "status": "adopted",
+  "effective": "2026-09-02",
+  "freshness": "LIVE",
+  "summary": "The Board voted unanimously to request a county attorney legal opinion on amending the February 2025 grandfathering resolution, due October 6 2026. The Briskman/TeKrony resolution to end grandfathering was not adopted. The memo stays confidential; the Chair asked that the advice be shared publicly on October 6.",
+  "notes": "Grandfathering covers applications accepted before February 12 2025; the ZOAM adopted March 18 2025 (7-2) ended by-right; applications within 500 feet of residential are excluded from grandfathering. COUNT CONFLICT: 17 grandfathered applications (Virginia Business) vs 'nearly two dozen' (Technical.ly) vs 'over 40' originally exempted (Loudoun Climate Project). The county's list requested by the Board is the primary to wait for.",
+  "confidence_note": "Board action relayed from reporting; county page read in search excerpt only.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Virginia Business; Technical.ly; Loudoun County data center page (excerpt)"
+  },
+  "tags": [
+    "grandfathering",
+    "legal-opinion",
+    "2026-10-06",
+    "count-conflict"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

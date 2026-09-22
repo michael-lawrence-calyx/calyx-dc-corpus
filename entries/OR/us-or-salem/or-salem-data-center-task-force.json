@@ -1,0 +1,26 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "or-salem-data-center-task-force",
+  "instrument": "Salem City Council action, July 27 2026",
+  "mechanism": "process",
+  "status": "adopted",
+  "effective": "2026-07-27",
+  "summary": "The Council voted unanimously to create a Data Center Task Force to research impacts on public resources, hold town halls and deliver recommendations by the end of 2026.",
+  "notes": "Nine members per reporting. Framework outreach target (City Attorney Dan Atchison).",
+  "confidence_note": "Relayed; council minutes not read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "KATU; Gizmodo; Salem Reporter via secondary"
+  },
+  "tags": [
+    "task-force",
+    "2026-12-31"
+  ],
+  "jurisdiction": "us-or-salem",
+  "freshness": "LIVE",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

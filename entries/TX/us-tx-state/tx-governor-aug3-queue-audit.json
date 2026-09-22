@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "tx-governor-aug3-queue-audit",
+  "jurisdiction": "us-tx-state",
+  "instrument": "Governor's directive to PUCT and ERCOT, August 3 2026",
+  "mechanism": "process",
+  "status": "adopted",
+  "effective": "2026-08-03",
+  "freshness": "LIVE",
+  "summary": "Directs the PUCT and ERCOT to audit every data center project in the ERCOT interconnection queue before more move forward. Projects disclose public incentives (tax breaks, grants, abatements), projected annual and peak power and grid share, water use, sources and cooling method, on-site generation, community impacts and ownership.",
+  "notes": "The audit duration is not specified, and whether results will be published is open. The governor's letter reportedly puts the queue at 474 GW, about 90 percent data centers.",
+  "confidence_note": "Directive text not read; relayed from law firm summaries and CBS. Confirm the 474 GW and 90 percent figures against the letter.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Greenberg Traurig; Foley & Lardner; CBS News 60 Minutes, September 20 2026"
+  },
+  "tags": [
+    "audit",
+    "disclosure",
+    "interconnection-queue"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

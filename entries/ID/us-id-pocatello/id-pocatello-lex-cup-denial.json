@@ -1,0 +1,28 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "id-pocatello-lex-cup-denial",
+  "jurisdiction": "us-id-pocatello",
+  "instrument": "Pocatello City Council decision on appeal, Lex Developments conditional use permit (former Hoku site)",
+  "mechanism": "process",
+  "status": "adopted",
+  "effective": "2026-07-16",
+  "freshness": "LIVE",
+  "summary": "The Hearing Examiner denied the CUP on May 19 2026 (failing public facilities, environmental impact and public health/welfare criteria). The Council upheld the denial 4-1 on July 16 2026. Lex filed a 14-page request for reconsideration about July 29; the Council has 60 days to issue a final written decision.",
+  "notes": "DERIVED deadline about September 27 2026. Developer has stated it will seek judicial review in the 6th Judicial District. CONFLICT: Baxtel lists the project withdrawn/cancelled while the Post Register shows reconsideration pending. Site 49 acres (BoiseDev) vs about 59 acres (Post Register, Baxtel). Party position: the Shoshone-Bannock Tribes' July 7 2026 statement agrees with the Examiner's denial, citing rates, water and environment and noting the site lies within ceded lands (sbtribes.com).",
+  "confidence_note": "Relayed; decision document not read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Post Register; BoiseDev; Baxtel; sbtribes.com statement July 7 2026"
+  },
+  "tags": [
+    "cup",
+    "appeal",
+    "reconsideration",
+    "2026-09-27"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

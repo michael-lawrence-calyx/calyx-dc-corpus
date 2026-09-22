@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "ga-augusta-data-center-noise-limits",
+  "mechanism": "acoustic",
+  "summary": "Noise limits of 65 dB daytime and 60 dB nighttime at the adjacent property line.",
+  "notes": "",
+  "tags": [
+    "noise",
+    "65-db",
+    "60-db"
+  ],
+  "jurisdiction": "us-ga-augusta",
+  "instrument": "Augusta-Richmond County data center ordinance (adopted September 15 2026)",
+  "status": "adopted",
+  "effective": "2026-09-15",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "WRDW, September 15 2026; final draft ordinance as reported"
+  },
+  "confidence_note": "Adopted 'as is' per WRDW; vote count and adopted text not read. Pull the ordinance from augustaga.gov.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "il-normal-moratorium-extension",
+  "jurisdiction": "us-il-normal",
+  "instrument": "Town of Normal data center moratorium extension",
+  "mechanism": "use-permission",
+  "status": "proposed",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "The Normal Town Council considered extending its data center moratorium from November 2026 to May 2027 to await state data center legislation (the 'Power Act').",
+  "notes": "Vote held September 21 2026; outcome not confirmed at retrieval. Update status after confirming.",
+  "confidence_note": "Relayed from reporting before the vote.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, September 21 2026"
+  },
+  "tags": [
+    "moratorium",
+    "extension",
+    "state-legislation"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

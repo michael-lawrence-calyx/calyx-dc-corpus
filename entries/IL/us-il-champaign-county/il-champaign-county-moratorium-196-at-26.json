@@ -1,0 +1,28 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "il-champaign-county-moratorium-196-at-26",
+  "jurisdiction": "us-il-champaign-county",
+  "instrument": "Champaign County Zoning Case 196-AT-26 (data center moratorium)",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "2026-04-23",
+  "freshness": "LIVE",
+  "summary": "Twelve-month moratorium on data centers with 10,000 square feet or more of processing area in unincorporated Champaign County. ELUC cut the term to nine months on April 9; the full Board restored twelve months and adopted it April 23 2026.",
+  "notes": "Derived expiry about April 23 2027 (confirm effective date). A Data Center Activities Task Force was created February 5 2026 by ELUC; the 'Big Data Centers' text amendment was tabled February 5. The Oct 8 ELUC / Oct 15 ZBA / Nov 5 ELUC / Nov 10 COW path is from prior reporting, not re-verified.",
+  "confidence_note": "ELUC minutes read in search excerpt; adopting ordinance not read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Champaign County ELUC minutes (excerpt); Mahomet Daily"
+  },
+  "tags": [
+    "moratorium",
+    "10000-sqft",
+    "task-force",
+    "2027-04-23"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

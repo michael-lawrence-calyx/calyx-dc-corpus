@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "tx-hood-county-ag-rq-0633-kp",
+  "jurisdiction": "us-tx-hood-county",
+  "instrument": "Attorney General opinion request RQ-0633-KP, from Hood County Attorney Matt Mills, February 23 2026",
+  "mechanism": "litigation",
+  "status": "proposed",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "Asks whether Hood County may declare a moratorium on industrial development under Subchapter K, the 1999 statute unique to Hood County protecting the Lake Granbury and Brazos River watershed, and if so for how long. Listed as pending on the Attorney General's site.",
+  "notes": "Commissioners rejected a second moratorium. County Attorney Mills, the Texas Association of Counties and outside counsel advised the county lacks authority. Stated positions: Sen. Paul Bettencourt and Rep. Jared Patterson urged the AG to investigate counties attempting moratoriums; Rep. Shelby Slawson wrote that Subchapter K expressly grants the authority. The statutory 180-day window likely ran about late August (unverified).",
+  "confidence_note": "Request listing relayed; request letter not read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Texas Attorney General opinion request listing; Hood County News; Texas Tribune"
+  },
+  "tags": [
+    "attorney-general",
+    "subchapter-k",
+    "moratorium-authority"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

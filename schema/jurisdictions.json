@@ -59,6 +59,11 @@
     "name": "Atlanta",
     "state": "GA"
   },
+  "us-ga-augusta": {
+    "kind": "county",
+    "name": "Augusta-Richmond County",
+    "state": "GA"
+  },
   "us-ga-fayetteville": {
     "kind": "municipality",
     "name": "Fayetteville",
@@ -74,9 +79,29 @@
     "name": "State of Georgia",
     "state": "GA"
   },
+  "us-id-pocatello": {
+    "kind": "city",
+    "name": "City of Pocatello",
+    "state": "ID"
+  },
+  "us-il-champaign-county": {
+    "kind": "county",
+    "name": "Champaign County",
+    "state": "IL"
+  },
+  "us-il-normal": {
+    "kind": "city",
+    "name": "Town of Normal",
+    "state": "IL"
+  },
   "us-in-elkhart": {
     "kind": "municipality",
     "name": "Elkhart",
+    "state": "IN"
+  },
+  "us-in-grant-county": {
+    "kind": "county",
+    "name": "Grant County",
     "state": "IN"
   },
   "us-in-indianapolis": {
@@ -84,9 +109,24 @@
     "name": "Indianapolis and Marion County",
     "state": "IN"
   },
+  "us-md-baltimore-county": {
+    "kind": "county",
+    "name": "Baltimore County",
+    "state": "MD"
+  },
+  "us-md-frederick-county": {
+    "kind": "county",
+    "name": "Frederick County",
+    "state": "MD"
+  },
   "us-md-montgomery-county": {
     "kind": "county",
     "name": "Montgomery County",
+    "state": "MD"
+  },
+  "us-md-state": {
+    "kind": "state",
+    "name": "State of Maryland",
     "state": "MD"
   },
   "us-mi-saline-township": {
@@ -109,6 +149,11 @@
     "name": "Festus",
     "state": "MO"
   },
+  "us-nc-duke-energy": {
+    "kind": "utility",
+    "name": "Duke Energy Carolinas / Progress",
+    "state": "NC"
+  },
   "us-nc-lee-county": {
     "kind": "county",
     "name": "Lee County and City of Sanford",
@@ -129,6 +174,21 @@
     "name": "Public Utilities Commission of Ohio",
     "state": "OH"
   },
+  "us-oh-state": {
+    "kind": "state",
+    "name": "State of Ohio",
+    "state": "OH"
+  },
+  "us-ok-state": {
+    "kind": "state",
+    "name": "State of Oklahoma",
+    "state": "OK"
+  },
+  "us-ok-tulsa": {
+    "kind": "city",
+    "name": "City of Tulsa",
+    "state": "OK"
+  },
   "us-or-forest-grove": {
     "kind": "municipality",
     "name": "Forest Grove",
@@ -147,6 +207,11 @@
   "us-or-puc": {
     "kind": "regulator",
     "name": "Oregon Public Utility Commission",
+    "state": "OR"
+  },
+  "us-or-salem": {
+    "kind": "city",
+    "name": "City of Salem",
     "state": "OR"
   },
   "us-or-state": {
@@ -169,14 +234,29 @@
     "name": "PJM Interconnection",
     "state": "XX"
   },
+  "us-sc-spartanburg-county": {
+    "kind": "county",
+    "name": "Spartanburg County",
+    "state": "SC"
+  },
   "us-tx-ercot": {
     "kind": "iso",
     "name": "ERCOT",
     "state": "TX"
   },
+  "us-tx-hood-county": {
+    "kind": "county",
+    "name": "Hood County",
+    "state": "TX"
+  },
   "us-tx-puct": {
     "kind": "regulator",
     "name": "Public Utility Commission of Texas",
+    "state": "TX"
+  },
+  "us-tx-red-oak": {
+    "kind": "city",
+    "name": "City of Red Oak",
     "state": "TX"
   },
   "us-tx-state": {
@@ -233,5 +313,10 @@
     "kind": "county",
     "name": "Walla Walla County",
     "state": "WA"
+  },
+  "us-wi-we-energies": {
+    "kind": "utility",
+    "name": "We Energies (WEPCO)",
+    "state": "WI"
   }
 }

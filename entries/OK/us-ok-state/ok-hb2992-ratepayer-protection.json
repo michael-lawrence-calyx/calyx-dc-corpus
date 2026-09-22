@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "ok-hb2992-ratepayer-protection",
+  "jurisdiction": "us-ok-state",
+  "instrument": "Oklahoma HB 2992, Data Center Consumer Ratepayer Protection Act",
+  "mechanism": "rate-allocation",
+  "status": "adopted",
+  "effective": "2026-07-01",
+  "freshness": "LIVE",
+  "summary": "Creates a large-load class at 75 MW or more and imposes a $1,500-per-day penalty for failing to notify nearby landowners and officials within 60 days of a land purchase.",
+  "notes": "Signed May 11 2026 per the Cherokee Nation task force report; a cited Oklahoma Voice piece is dated April 21. Pull the enrolled bill.",
+  "confidence_note": "Relayed through the Cherokee Nation task force report and secondary coverage.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Cherokee Nation Data Center Task Force Report (June 30 2026); Oklahoma Voice"
+  },
+  "tags": [
+    "75-mw",
+    "notice",
+    "penalty"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

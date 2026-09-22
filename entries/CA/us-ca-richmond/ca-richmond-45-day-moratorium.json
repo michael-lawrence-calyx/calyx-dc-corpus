@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "ca-richmond-45-day-moratorium",
+  "jurisdiction": "us-ca-richmond",
+  "instrument": "Richmond City Council urgency moratorium on data centers",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "A 45-day moratorium on data centers passed 6-1, the third in the Bay Area after Oakley and Gilroy.",
+  "notes": "California urgency moratoria (Gov. Code 65858) run 45 days and may be extended.",
+  "confidence_note": "Relayed; ordinance not read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, September 2026"
+  },
+  "tags": [
+    "moratorium",
+    "45-day",
+    "urgency"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

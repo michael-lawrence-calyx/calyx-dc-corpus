@@ -1,0 +1,28 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "az-tucson-o12268-water",
+  "mechanism": "water",
+  "summary": "No potable water for cooling below the 10,000 CCF large-quantity water user threshold; 50 percent of landscape water from on-site harvesting; 2:1 off-site sensitive-land protection at Council discretion.",
+  "notes": "A Schubert floor amendment directs staff to keep researching a legal pathway to a ban, with one- and two-year reviews. Prop 207 is cited in coverage as the reason a ban stayed off the table.",
+  "confidence_note": "Figures are from the May 28 2026 proposal fact sheet. The adopted ordinance (O12268) PDF is a scan with no text layer and has not been read; the adopted page describes 'enhanced separation distances' without figures. Confirm against the adopted text after OCR.",
+  "tags": [
+    "potable-water",
+    "cooling",
+    "water-harvesting"
+  ],
+  "jurisdiction": "us-az-tucson",
+  "instrument": "Tucson Ordinance O12268, Large-Scale Data Centers UDC amendment",
+  "status": "adopted",
+  "effective": "2026-09-04",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "primary",
+    "citation": "City of Tucson, Large-Scale Data Centers Unified Development Code Amendment fact sheet, May 28 2026 (proposal stage); City of Tucson Regulations for Large-Scale Data Centers page",
+    "url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/pdsd/documents/data-centers/large-scale-data-centers-code-amendment-fact-sheet_05.28.26.pdf"
+  },
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

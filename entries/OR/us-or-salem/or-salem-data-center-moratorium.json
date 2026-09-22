@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "or-salem-data-center-moratorium",
+  "instrument": "Salem City Council data center moratorium",
+  "mechanism": "use-permission",
+  "status": "proposed",
+  "effective": "",
+  "summary": "The Council unanimously initiated a temporary moratorium process on new data center applications on August 3 2026; the City Attorney said the pause would need at least 120 days and could extend to six months. A final hearing was held September 21 2026; reporting ahead of it described a pause to January 19 2027.",
+  "notes": "Verrus (Oakline at Mill Creek, $5.1B, 75 acres) filed before the vote; its application remains under current code. Governor Kotek ordered the state land sale for the project withdrawn. Update status once the September 21 outcome is confirmed.",
+  "confidence_note": "Relayed; ordinance not read and final vote not confirmed at retrieval.",
+  "source": {
+    "kind": "secondary",
+    "citation": "KATU; Salem Reporter via Let's Data Science; OPB Think Out Loud"
+  },
+  "tags": [
+    "moratorium",
+    "verrus",
+    "2027-01-19"
+  ],
+  "jurisdiction": "us-or-salem",
+  "freshness": "LIVE",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

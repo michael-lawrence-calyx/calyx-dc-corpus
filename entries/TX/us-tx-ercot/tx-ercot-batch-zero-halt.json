@@ -1,0 +1,28 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "tx-ercot-batch-zero-halt",
+  "jurisdiction": "us-tx-ercot",
+  "instrument": "ERCOT PGRR 145 'Batch Zero' large-load study",
+  "mechanism": "utility-service",
+  "status": "adopted",
+  "effective": "2026-08-03",
+  "freshness": "LIVE",
+  "summary": "ERCOT halted its Batch Zero large-load interconnection study to comply with the August 3 audit directive. Batch Zero (PGRR 145) had been approved in June 2026.",
+  "notes": "CORRECTION to prior notes listing Batch Zero as approved and proceeding. Batch Zero final report to RPG had been due by June 1 2027. §25.205 was adopted March 2026.",
+  "confidence_note": "Halt per ERCOT statement as relayed; ERCOT notice not read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Foley & Lardner; ERCOT statement as reported"
+  },
+  "tags": [
+    "batch-zero",
+    "pgrr-145",
+    "halt",
+    "correction"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

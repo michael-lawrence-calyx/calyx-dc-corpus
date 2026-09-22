@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "oh-statewide-amendment-not-on-2026-ballot",
+  "jurisdiction": "us-oh-state",
+  "instrument": "Conserve Ohio proposed constitutional amendment (data center ban)",
+  "mechanism": "use-permission",
+  "status": "proposed",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "The statewide data center amendment is not on the November 2026 ballot. Conserve Ohio missed the July signature deadline and is targeting 2027.",
+  "notes": "Ballotpedia listed zero certified statewide measures for November 3 2026 (as of March 30).",
+  "confidence_note": "Relayed; petition filing record not read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Ohio Capital Journal; Ballotpedia"
+  },
+  "tags": [
+    "statewide",
+    "amendment",
+    "2027"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

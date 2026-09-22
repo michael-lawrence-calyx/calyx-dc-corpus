@@ -1,0 +1,28 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "az-state-data-center-tax-exemption-pause",
+  "jurisdiction": "us-az-state",
+  "instrument": "Arizona FY2027 budget legislation (reported as HB 4168 / SB 1861)",
+  "mechanism": "incentive",
+  "status": "adopted",
+  "effective": "2026-07-01",
+  "freshness": "LIVE",
+  "summary": "The Arizona Commerce Authority may not accept data center sales-tax exemption applications from July 1 2026 through June 30 2029. Existing recipients keep their exemptions; construction is not restricted.",
+  "notes": "Governor's office savings estimate about $57 million (ABC15 via Newsweek). Finding candidate: 113 applications were filed June 15-30 2026 against 123 in the program's prior ~13 years (Axios Phoenix via DMNews); ACA has 60 days per application, so approvals land after the pause begins. Same session: a utility large-load interconnection reporting bill signed; the Marana referral bill vetoed (bill numbers not pulled).",
+  "confidence_note": "Bill number from MultiState; confirm against azleg.gov. Application counts reported, not confirmed with ACA. A Bloomberg Tax page carries a Jan 13 2026 timestamp inconsistent with every other source; treated as metadata error.",
+  "source": {
+    "kind": "secondary",
+    "citation": "MultiState; ABC15 via Newsweek; Axios Phoenix via DMNews; Arizona Capitol Times (June 2026)"
+  },
+  "tags": [
+    "tax-exemption",
+    "pause",
+    "2029-06-30",
+    "aca"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

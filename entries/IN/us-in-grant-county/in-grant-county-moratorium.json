@@ -1,0 +1,26 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "in-grant-county-moratorium",
+  "jurisdiction": "us-in-grant-county",
+  "instrument": "Grant County data center moratorium, March 16 2026",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "2026-03-16",
+  "freshness": "LIVE",
+  "summary": "Twenty-four-month moratorium on data centers, under IC 36-7-2-8 and 36-8-4-603.",
+  "notes": "Derived expiry about March 16 2028.",
+  "confidence_note": "Relayed.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, March 2026"
+  },
+  "tags": [
+    "moratorium",
+    "24-month"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

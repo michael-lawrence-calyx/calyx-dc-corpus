@@ -1,34 +1,50 @@
 {
- "generated": "2026-09-21",
- "count": 140,
+ "generated": "2026-09-22",
+ "count": 177,
  "states": [
   "AZ",
   "CA",
   "GA",
+  "ID",
+  "IL",
   "IN",
   "MD",
   "MI",
   "MO",
   "NC",
   "OH",
+  "OK",
   "OR",
+  "SC",
   "TX",
   "VA",
   "WA",
+  "WI",
   "XX"
  ],
  "jurisdictions": [
   "AEP Ohio",
+  "Augusta-Richmond County",
+  "Baltimore County",
+  "Champaign County",
   "Chandler",
+  "City of Pocatello",
+  "City of Red Oak",
+  "City of Salem",
+  "City of Tulsa",
   "Commonwealth of Virginia",
   "Dominion Energy Virginia",
+  "Duke Energy Carolinas / Progress",
   "ERCOT",
   "Elkhart",
   "Fayetteville",
   "Festus",
   "Forest Grove",
+  "Frederick County",
+  "Grant County",
   "Grant County PUD",
   "Hillsboro",
+  "Hood County",
   "Imperial County",
   "Indianapolis and Marion County",
   "Lee County and City of Sanford",
@@ -48,13 +64,21 @@
   "Richmond",
   "Saline Township",
   "Snohomish County PUD",
+  "Spartanburg County",
+  "State of Arizona",
   "State of California",
+  "State of Maryland",
   "State of Michigan",
+  "State of Ohio",
+  "State of Oklahoma",
   "State of Oregon",
   "State of Texas",
   "State of Washington",
+  "Town of Normal",
+  "Tucson",
   "Walla Walla County",
   "Washington County",
+  "We Energies (WEPCO)",
   "Wixom",
   "Woodburn"
  ],
@@ -80,7 +104,7 @@
   "ASSERTED": 0,
   "DERIVED": 1,
   "OBSERVED": 67,
-  "RELAYED": 72
+  "RELAYED": 109
  },
  "entries": [
   {
@@ -773,6 +797,194 @@
    "_path": "entries/AZ/us-az-pinal-county/az-pinal-vermaland-eloy-denial.json"
   },
   {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "az-state-data-center-tax-exemption-pause",
+   "jurisdiction": "us-az-state",
+   "instrument": "Arizona FY2027 budget legislation (reported as HB 4168 / SB 1861)",
+   "mechanism": "incentive",
+   "status": "adopted",
+   "effective": "2026-07-01",
+   "freshness": "LIVE",
+   "summary": "The Arizona Commerce Authority may not accept data center sales-tax exemption applications from July 1 2026 through June 30 2029. Existing recipients keep their exemptions; construction is not restricted.",
+   "notes": "Governor's office savings estimate about $57 million (ABC15 via Newsweek). Finding candidate: 113 applications were filed June 15-30 2026 against 123 in the program's prior ~13 years (Axios Phoenix via DMNews); ACA has 60 days per application, so approvals land after the pause begins. Same session: a utility large-load interconnection reporting bill signed; the Marana referral bill vetoed (bill numbers not pulled).",
+   "confidence_note": "Bill number from MultiState; confirm against azleg.gov. Application counts reported, not confirmed with ACA. A Bloomberg Tax page carries a Jan 13 2026 timestamp inconsistent with every other source; treated as metadata error.",
+   "source": {
+    "kind": "secondary",
+    "citation": "MultiState; ABC15 via Newsweek; Axios Phoenix via DMNews; Arizona Capitol Times (June 2026)"
+   },
+   "tags": [
+    "tax-exemption",
+    "pause",
+    "2029-06-30",
+    "aca"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "AZ",
+   "jurisdiction_name": "State of Arizona",
+   "_path": "entries/AZ/us-az-state/az-state-data-center-tax-exemption-pause.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "az-tucson-o12268-acoustic",
+   "mechanism": "acoustic",
+   "summary": "Requires an independent noise study at application, property-line decibel limits and annual noise monitoring.",
+   "notes": "Compare Chandler Ordinance 5033 (baseline, post-construction and five annual studies).",
+   "confidence_note": "Figures are from the May 28 2026 proposal fact sheet. The adopted ordinance (O12268) PDF is a scan with no text layer and has not been read; the adopted page describes 'enhanced separation distances' without figures. Confirm against the adopted text after OCR.",
+   "tags": [
+    "noise-study",
+    "annual-monitoring"
+   ],
+   "jurisdiction": "us-az-tucson",
+   "instrument": "Tucson Ordinance O12268, Large-Scale Data Centers UDC amendment",
+   "status": "adopted",
+   "effective": "2026-09-04",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Tucson, Large-Scale Data Centers Unified Development Code Amendment fact sheet, May 28 2026 (proposal stage); City of Tucson Regulations for Large-Scale Data Centers page",
+    "url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/pdsd/documents/data-centers/large-scale-data-centers-code-amendment-fact-sheet_05.28.26.pdf"
+   },
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "AZ",
+   "jurisdiction_name": "Tucson",
+   "_path": "entries/AZ/us-az-tucson/az-tucson-o12268-acoustic.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "az-tucson-o12268-definition",
+   "mechanism": "definition",
+   "summary": "A large-scale data center is a facility of more than 25,000 square feet of gross floor area or more than 20 MW on a contiguous site under common ownership. Permitted only through Planned Area Development or Planned Community Development rezoning or a major amendment; no by-right approval and no special exception.",
+   "notes": "Adopted August 5 2026 on a 6-1 vote (Council Member Nikki Lee dissenting); effective September 4 2026.",
+   "confidence_note": "Figures are from the May 28 2026 proposal fact sheet. The adopted ordinance (O12268) PDF is a scan with no text layer and has not been read; the adopted page describes 'enhanced separation distances' without figures. Confirm against the adopted text after OCR.",
+   "tags": [
+    "definition",
+    "25000-sqft",
+    "20-mw",
+    "rezoning-only"
+   ],
+   "jurisdiction": "us-az-tucson",
+   "instrument": "Tucson Ordinance O12268, Large-Scale Data Centers UDC amendment",
+   "status": "adopted",
+   "effective": "2026-09-04",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Tucson, Large-Scale Data Centers Unified Development Code Amendment fact sheet, May 28 2026 (proposal stage); City of Tucson Regulations for Large-Scale Data Centers page",
+    "url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/pdsd/documents/data-centers/large-scale-data-centers-code-amendment-fact-sheet_05.28.26.pdf"
+   },
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "AZ",
+   "jurisdiction_name": "Tucson",
+   "_path": "entries/AZ/us-az-tucson/az-tucson-o12268-definition.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "az-tucson-o12268-generation",
+   "mechanism": "generation",
+   "summary": "Backup generation must be Tier IV or gas/dual-fuel with battery-first backup; no load shifting; generator testing limited to weekdays 9 a.m. to 5 p.m.",
+   "notes": "",
+   "confidence_note": "Figures are from the May 28 2026 proposal fact sheet. The adopted ordinance (O12268) PDF is a scan with no text layer and has not been read; the adopted page describes 'enhanced separation distances' without figures. Confirm against the adopted text after OCR.",
+   "tags": [
+    "generators",
+    "tier-iv",
+    "battery-first",
+    "testing-hours"
+   ],
+   "jurisdiction": "us-az-tucson",
+   "instrument": "Tucson Ordinance O12268, Large-Scale Data Centers UDC amendment",
+   "status": "adopted",
+   "effective": "2026-09-04",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Tucson, Large-Scale Data Centers Unified Development Code Amendment fact sheet, May 28 2026 (proposal stage); City of Tucson Regulations for Large-Scale Data Centers page",
+    "url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/pdsd/documents/data-centers/large-scale-data-centers-code-amendment-fact-sheet_05.28.26.pdf"
+   },
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "AZ",
+   "jurisdiction_name": "Tucson",
+   "_path": "entries/AZ/us-az-tucson/az-tucson-o12268-generation.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "az-tucson-o12268-separation",
+   "mechanism": "use-permission",
+   "summary": "Requires 2,640 feet (one half mile) of separation from urban residential zones and noise-sensitive uses and 1,000 feet from commercial and office zones, plus a 40-foot enhanced landscape border. Notice goes to owners within one half mile and neighborhood associations within two miles.",
+   "notes": "Resolves the half-mile vs 40-foot question in coverage: these are two separate provisions. KOLD's '40-foot buffer around each facility' is the landscape border, not the separation distance.",
+   "confidence_note": "Figures are from the May 28 2026 proposal fact sheet. The adopted ordinance (O12268) PDF is a scan with no text layer and has not been read; the adopted page describes 'enhanced separation distances' without figures. Confirm against the adopted text after OCR.",
+   "tags": [
+    "separation",
+    "setback",
+    "notice-radius",
+    "landscape-buffer"
+   ],
+   "jurisdiction": "us-az-tucson",
+   "instrument": "Tucson Ordinance O12268, Large-Scale Data Centers UDC amendment",
+   "status": "adopted",
+   "effective": "2026-09-04",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Tucson, Large-Scale Data Centers Unified Development Code Amendment fact sheet, May 28 2026 (proposal stage); City of Tucson Regulations for Large-Scale Data Centers page",
+    "url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/pdsd/documents/data-centers/large-scale-data-centers-code-amendment-fact-sheet_05.28.26.pdf"
+   },
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "AZ",
+   "jurisdiction_name": "Tucson",
+   "_path": "entries/AZ/us-az-tucson/az-tucson-o12268-separation.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "az-tucson-o12268-water",
+   "mechanism": "water",
+   "summary": "No potable water for cooling below the 10,000 CCF large-quantity water user threshold; 50 percent of landscape water from on-site harvesting; 2:1 off-site sensitive-land protection at Council discretion.",
+   "notes": "A Schubert floor amendment directs staff to keep researching a legal pathway to a ban, with one- and two-year reviews. Prop 207 is cited in coverage as the reason a ban stayed off the table.",
+   "confidence_note": "Figures are from the May 28 2026 proposal fact sheet. The adopted ordinance (O12268) PDF is a scan with no text layer and has not been read; the adopted page describes 'enhanced separation distances' without figures. Confirm against the adopted text after OCR.",
+   "tags": [
+    "potable-water",
+    "cooling",
+    "water-harvesting"
+   ],
+   "jurisdiction": "us-az-tucson",
+   "instrument": "Tucson Ordinance O12268, Large-Scale Data Centers UDC amendment",
+   "status": "adopted",
+   "effective": "2026-09-04",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Tucson, Large-Scale Data Centers Unified Development Code Amendment fact sheet, May 28 2026 (proposal stage); City of Tucson Regulations for Large-Scale Data Centers page",
+    "url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/pdsd/documents/data-centers/large-scale-data-centers-code-amendment-fact-sheet_05.28.26.pdf"
+   },
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "AZ",
+   "jurisdiction_name": "Tucson",
+   "_path": "entries/AZ/us-az-tucson/az-tucson-o12268-water.json"
+  },
+  {
    "id": "ca-imperial-county-ceqa-ruling",
    "jurisdiction": "us-ca-imperial-county",
    "instrument": "Imperial County Superior Court final ruling",
@@ -800,6 +1012,36 @@
    "state": "CA",
    "jurisdiction_name": "Imperial County",
    "_path": "entries/CA/us-ca-imperial-county/ca-imperial-county-ceqa-ruling.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "ca-richmond-45-day-moratorium",
+   "jurisdiction": "us-ca-richmond",
+   "instrument": "Richmond City Council urgency moratorium on data centers",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "A 45-day moratorium on data centers passed 6-1, the third in the Bay Area after Oakley and Gilroy.",
+   "notes": "California urgency moratoria (Gov. Code 65858) run 45 days and may be extended.",
+   "confidence_note": "Relayed; ordinance not read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, September 2026"
+   },
+   "tags": [
+    "moratorium",
+    "45-day",
+    "urgency"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "CA",
+   "jurisdiction_name": "Richmond",
+   "_path": "entries/CA/us-ca-richmond/ca-richmond-45-day-moratorium.json"
   },
   {
    "id": "ca-richmond-moratorium-2026-09-15",
@@ -951,6 +1193,67 @@
    "_path": "entries/CA/us-ca-state/ca-sb887-environmental-review.json"
   },
   {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "ga-augusta-data-center-noise-limits",
+   "mechanism": "acoustic",
+   "summary": "Noise limits of 65 dB daytime and 60 dB nighttime at the adjacent property line.",
+   "notes": "",
+   "tags": [
+    "noise",
+    "65-db",
+    "60-db"
+   ],
+   "jurisdiction": "us-ga-augusta",
+   "instrument": "Augusta-Richmond County data center ordinance (adopted September 15 2026)",
+   "status": "adopted",
+   "effective": "2026-09-15",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "WRDW, September 15 2026; final draft ordinance as reported"
+   },
+   "confidence_note": "Adopted 'as is' per WRDW; vote count and adopted text not read. Pull the ordinance from augustaga.gov.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "GA",
+   "jurisdiction_name": "Augusta-Richmond County",
+   "_path": "entries/GA/us-ga-augusta/ga-augusta-data-center-noise-limits.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "ga-augusta-data-center-zoning-tiers",
+   "mechanism": "use-permission",
+   "summary": "Data centers are banned in residential and agricultural zones and require a public hearing and Commission approval in industrial, business and mixed-use zones, with process by size across five tiers (under 2,000 sq ft accessory to 500,000 sq ft or more campus). Minimum 500 feet from homes and farmland, reducible to 300 feet with a visual berm and 100 feet along certain roads; closed-loop cooling; no private wells for cooling.",
+   "notes": "The QTS campus (Gordon Highway / Haynes Station) predates the ordinance and is not subject. Preceded by a 49-day moratorium (June) extended 60 days on July 21.",
+   "tags": [
+    "zoning",
+    "size-tiers",
+    "setback",
+    "closed-loop"
+   ],
+   "jurisdiction": "us-ga-augusta",
+   "instrument": "Augusta-Richmond County data center ordinance (adopted September 15 2026)",
+   "status": "adopted",
+   "effective": "2026-09-15",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "WRDW, September 15 2026; final draft ordinance as reported"
+   },
+   "confidence_note": "Adopted 'as is' per WRDW; vote count and adopted text not read. Pull the ordinance from augustaga.gov.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "GA",
+   "jurisdiction_name": "Augusta-Richmond County",
+   "_path": "entries/GA/us-ga-augusta/ga-augusta-data-center-zoning-tiers.json"
+  },
+  {
    "id": "ga-fayetteville-citywide-prohibition",
    "jurisdiction": "us-ga-fayetteville",
    "instrument": "City of Fayetteville zoning action",
@@ -978,6 +1281,98 @@
    "state": "GA",
    "jurisdiction_name": "Fayetteville",
    "_path": "entries/GA/us-ga-fayetteville/ga-fayetteville-citywide-prohibition.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "id-pocatello-lex-cup-denial",
+   "jurisdiction": "us-id-pocatello",
+   "instrument": "Pocatello City Council decision on appeal, Lex Developments conditional use permit (former Hoku site)",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-07-16",
+   "freshness": "LIVE",
+   "summary": "The Hearing Examiner denied the CUP on May 19 2026 (failing public facilities, environmental impact and public health/welfare criteria). The Council upheld the denial 4-1 on July 16 2026. Lex filed a 14-page request for reconsideration about July 29; the Council has 60 days to issue a final written decision.",
+   "notes": "DERIVED deadline about September 27 2026. Developer has stated it will seek judicial review in the 6th Judicial District. CONFLICT: Baxtel lists the project withdrawn/cancelled while the Post Register shows reconsideration pending. Site 49 acres (BoiseDev) vs about 59 acres (Post Register, Baxtel). Party position: the Shoshone-Bannock Tribes' July 7 2026 statement agrees with the Examiner's denial, citing rates, water and environment and noting the site lies within ceded lands (sbtribes.com).",
+   "confidence_note": "Relayed; decision document not read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Post Register; BoiseDev; Baxtel; sbtribes.com statement July 7 2026"
+   },
+   "tags": [
+    "cup",
+    "appeal",
+    "reconsideration",
+    "2026-09-27"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "ID",
+   "jurisdiction_name": "City of Pocatello",
+   "_path": "entries/ID/us-id-pocatello/id-pocatello-lex-cup-denial.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "il-champaign-county-moratorium-196-at-26",
+   "jurisdiction": "us-il-champaign-county",
+   "instrument": "Champaign County Zoning Case 196-AT-26 (data center moratorium)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-04-23",
+   "freshness": "LIVE",
+   "summary": "Twelve-month moratorium on data centers with 10,000 square feet or more of processing area in unincorporated Champaign County. ELUC cut the term to nine months on April 9; the full Board restored twelve months and adopted it April 23 2026.",
+   "notes": "Derived expiry about April 23 2027 (confirm effective date). A Data Center Activities Task Force was created February 5 2026 by ELUC; the 'Big Data Centers' text amendment was tabled February 5. The Oct 8 ELUC / Oct 15 ZBA / Nov 5 ELUC / Nov 10 COW path is from prior reporting, not re-verified.",
+   "confidence_note": "ELUC minutes read in search excerpt; adopting ordinance not read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Champaign County ELUC minutes (excerpt); Mahomet Daily"
+   },
+   "tags": [
+    "moratorium",
+    "10000-sqft",
+    "task-force",
+    "2027-04-23"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "IL",
+   "jurisdiction_name": "Champaign County",
+   "_path": "entries/IL/us-il-champaign-county/il-champaign-county-moratorium-196-at-26.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "il-normal-moratorium-extension",
+   "jurisdiction": "us-il-normal",
+   "instrument": "Town of Normal data center moratorium extension",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "The Normal Town Council considered extending its data center moratorium from November 2026 to May 2027 to await state data center legislation (the 'Power Act').",
+   "notes": "Vote held September 21 2026; outcome not confirmed at retrieval. Update status after confirming.",
+   "confidence_note": "Relayed from reporting before the vote.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, September 21 2026"
+   },
+   "tags": [
+    "moratorium",
+    "extension",
+    "state-legislation"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "IL",
+   "jurisdiction_name": "Town of Normal",
+   "_path": "entries/IL/us-il-normal/il-normal-moratorium-extension.json"
   },
   {
    "id": "in-elkhart-dc-and-bess-pause",
@@ -1010,6 +1405,35 @@
    "_path": "entries/IN/us-in-elkhart/in-elkhart-dc-and-bess-pause.json"
   },
   {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "in-grant-county-moratorium",
+   "jurisdiction": "us-in-grant-county",
+   "instrument": "Grant County data center moratorium, March 16 2026",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-03-16",
+   "freshness": "LIVE",
+   "summary": "Twenty-four-month moratorium on data centers, under IC 36-7-2-8 and 36-8-4-603.",
+   "notes": "Derived expiry about March 16 2028.",
+   "confidence_note": "Relayed.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, March 2026"
+   },
+   "tags": [
+    "moratorium",
+    "24-month"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "IN",
+   "jurisdiction_name": "Grant County",
+   "_path": "entries/IN/us-in-grant-county/in-grant-county-moratorium.json"
+  },
+  {
    "id": "in-indianapolis-binding-moratorium",
    "jurisdiction": "us-in-indianapolis",
    "instrument": "City-County Council ordinance",
@@ -1040,6 +1464,126 @@
    "_path": "entries/IN/us-in-indianapolis/in-indianapolis-binding-moratorium.json"
   },
   {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "in-indianapolis-mdc-moratorium",
+   "jurisdiction": "us-in-indianapolis",
+   "instrument": "Indianapolis Metropolitan Development Commission data center moratorium",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "The MDC approved a moratorium 6-0 through December 31 2027. Three approved projects proceed (Decatur Township, Martindale-Brightwood, former Ford Visteon on Fintail Drive). The Department of Metropolitan Development will retain a consultant and seat an Advisory Committee to draft standards.",
+   "notes": "Framework-shaped opening: consultant plus advisory committee. Indiana context per IU Environmental Resilience Institute: 11 counties with ordinances, at least 17 moratoria, 2 bans (Marshall, Cass).",
+   "confidence_note": "Relayed; resolution not read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Fox59; IPR/WBOI citing IU ERI"
+   },
+   "tags": [
+    "moratorium",
+    "2027-12-31",
+    "consultant",
+    "advisory-committee"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "IN",
+   "jurisdiction_name": "Indianapolis and Marion County",
+   "_path": "entries/IN/us-in-indianapolis/in-indianapolis-mdc-moratorium.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "md-baltimore-county-moratorium-extension",
+   "jurisdiction": "us-md-baltimore-county",
+   "instrument": "Baltimore County Council bill extending data center moratorium",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "Council vote scheduled September 22 2026 on extending the data center moratorium from January 1 2027 to December 2027.",
+   "notes": "Update after the vote.",
+   "confidence_note": "Relayed.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, September 2026"
+   },
+   "tags": [
+    "moratorium",
+    "extension",
+    "2027-12"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "MD",
+   "jurisdiction_name": "Baltimore County",
+   "_path": "entries/MD/us-md-baltimore-county/md-baltimore-county-moratorium-extension.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "md-frederick-county-cdi-moratorium-eo",
+   "instrument": "Frederick County Executive Order, July 1 2026 (critical digital infrastructure)",
+   "mechanism": "use-permission",
+   "summary": "County Executive Fitzwater ordered a moratorium on accepting or processing critical digital infrastructure and related substation applications through December 31 2026.",
+   "notes": "The Maryland Supreme Court blocked the CDI referendum from the fall ballot. The pause is keyed to the state DLS Data Center Impact Analysis due September 1 2026; check whether delivered.",
+   "tags": [
+    "moratorium",
+    "cdi",
+    "2026-12-31"
+   ],
+   "jurisdiction": "us-md-frederick-county",
+   "status": "adopted",
+   "effective": "2026-07-01",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "MeriTalk; WYPR"
+   },
+   "confidence_note": "Relayed; executive orders not read.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "MD",
+   "jurisdiction_name": "Frederick County",
+   "_path": "entries/MD/us-md-frederick-county/md-frederick-county-cdi-moratorium-eo.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "md-frederick-county-psc-registry-eo",
+   "instrument": "Frederick County Executive Order, July 1 2026 (large-load registry)",
+   "mechanism": "process",
+   "summary": "Requires proof of registration in the PSC large-load registry before development review.",
+   "notes": "",
+   "tags": [
+    "registry",
+    "psc"
+   ],
+   "jurisdiction": "us-md-frederick-county",
+   "status": "adopted",
+   "effective": "2026-07-01",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "MeriTalk; WYPR"
+   },
+   "confidence_note": "Relayed; executive orders not read.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "MD",
+   "jurisdiction_name": "Frederick County",
+   "_path": "entries/MD/us-md-frederick-county/md-frederick-county-psc-registry-eo.json"
+  },
+  {
    "id": "md-montgomery-bill-19-26",
    "jurisdiction": "us-md-montgomery-county",
    "instrument": "Expedited Bill 19-26",
@@ -1068,6 +1612,35 @@
    "state": "MD",
    "jurisdiction_name": "Montgomery County",
    "_path": "entries/MD/us-md-montgomery-county/md-montgomery-bill-19-26.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "md-state-utility-relief-act-registry",
+   "jurisdiction": "us-md-state",
+   "instrument": "Maryland Utility Relief Act (2026)",
+   "mechanism": "load-trigger",
+   "status": "adopted",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "Establishes a PSC large-load registry at 25 MW or more.",
+   "notes": "Distinct from the Next Generation Energy Act (Ch. 625/626 of 2025) large-load rate schedule at 100 MW or more with over 80 percent load factor, PSC regulations due June 1 2026 (DLS fiscal note HB 120). Two thresholds in two instruments, not a conflict.",
+   "confidence_note": "Relayed; act text not read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "WYPR; DLS fiscal note HB 120 (excerpt)"
+   },
+   "tags": [
+    "registry",
+    "25-mw"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "MD",
+   "jurisdiction_name": "State of Maryland",
+   "_path": "entries/MD/us-md-state/md-state-utility-relief-act-registry.json"
   },
   {
    "id": "mi-saline-township-settlement",
@@ -1216,6 +1789,36 @@
    "_path": "entries/MO/us-mo-festus/mo-festus-council-removal.json"
   },
   {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "nc-duke-large-load-tariff-proposal",
+   "jurisdiction": "us-nc-duke-energy",
+   "instrument": "Duke Energy Carolinas / Progress rate cases before the NCUC (large-load tariff proposal)",
+   "mechanism": "rate-allocation",
+   "status": "proposed",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "Duke proposed a large-load tariff with a minimum bill and a term of at least 10 years in late-June testimony. The DEC settlement is about 9.5 percent against about 18 percent requested; a final NCUC order is expected this fall. On September 14 2026 the Attorney General asked the NCUC for a distinct data center rate class, contract-template disclosure, 90-day load forecasts and a gas-plant pause.",
+   "notes": "Local context: over a dozen moratoria or bans in western North Carolina since January 2026 (WFAE); N.C.G.S. 160D-107 governs moratoria.",
+   "confidence_note": "Relayed; filings not read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Canary Media; EDF; WECT; NC Newsline; WFAE"
+   },
+   "tags": [
+    "rate-case",
+    "large-load",
+    "attorney-general"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "NC",
+   "jurisdiction_name": "Duke Energy Carolinas / Progress",
+   "_path": "entries/NC/us-nc-duke-energy/nc-duke-large-load-tariff-proposal.json"
+  },
+  {
    "id": "nc-sanford-lee-declined-moratorium",
    "jurisdiction": "us-nc-lee-county",
    "instrument": "Public notice, City of Sanford and Lee County",
@@ -1330,6 +1933,155 @@
    "state": "OH",
    "jurisdiction_name": "Public Utilities Commission of Ohio",
    "_path": "entries/OH/us-oh-puco/oh-aep-tariff-minimum-demand.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "oh-2026-11-03-local-data-center-measures",
+   "jurisdiction": "us-oh-state",
+   "instrument": "November 3 2026 local ballot measures on data centers (18 Ohio municipalities and townships)",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "2026-11-03",
+   "freshness": "LIVE",
+   "summary": "Eighteen Ohio municipalities and townships vote November 3 2026 on data center measures. Nine mirror the proposed statewide 25 MW ban: Conneaut, Defiance, Granville, Oregon, Pataskala, Piqua, Sunbury, Trenton and Upper Sandusky. Others include two Adams County township rural-character zoning plans, four Wilmington referendums plus a residents' alternative ordinance, an Ashville referendum and Sidney petitions.",
+   "notes": "The count of 18 is Ohio Capital Journal's. Per-community entries need county board of elections certification.",
+   "confidence_note": "Relayed from reporting; no ballot language read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Ohio Capital Journal, September 14 2026"
+   },
+   "tags": [
+    "ballot",
+    "25-mw",
+    "referendum",
+    "2026-11-03"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "OH",
+   "jurisdiction_name": "State of Ohio",
+   "_path": "entries/OH/us-oh-state/oh-2026-11-03-local-data-center-measures.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "oh-statewide-amendment-not-on-2026-ballot",
+   "jurisdiction": "us-oh-state",
+   "instrument": "Conserve Ohio proposed constitutional amendment (data center ban)",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "The statewide data center amendment is not on the November 2026 ballot. Conserve Ohio missed the July signature deadline and is targeting 2027.",
+   "notes": "Ballotpedia listed zero certified statewide measures for November 3 2026 (as of March 30).",
+   "confidence_note": "Relayed; petition filing record not read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Ohio Capital Journal; Ballotpedia"
+   },
+   "tags": [
+    "statewide",
+    "amendment",
+    "2027"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "OH",
+   "jurisdiction_name": "State of Ohio",
+   "_path": "entries/OH/us-oh-state/oh-statewide-amendment-not-on-2026-ballot.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "ok-hb2992-ratepayer-protection",
+   "jurisdiction": "us-ok-state",
+   "instrument": "Oklahoma HB 2992, Data Center Consumer Ratepayer Protection Act",
+   "mechanism": "rate-allocation",
+   "status": "adopted",
+   "effective": "2026-07-01",
+   "freshness": "LIVE",
+   "summary": "Creates a large-load class at 75 MW or more and imposes a $1,500-per-day penalty for failing to notify nearby landowners and officials within 60 days of a land purchase.",
+   "notes": "Signed May 11 2026 per the Cherokee Nation task force report; a cited Oklahoma Voice piece is dated April 21. Pull the enrolled bill.",
+   "confidence_note": "Relayed through the Cherokee Nation task force report and secondary coverage.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Cherokee Nation Data Center Task Force Report (June 30 2026); Oklahoma Voice"
+   },
+   "tags": [
+    "75-mw",
+    "notice",
+    "penalty"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "OK",
+   "jurisdiction_name": "State of Oklahoma",
+   "_path": "entries/OK/us-ok-state/ok-hb2992-ratepayer-protection.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "ok-sb259-closed-loop-cooling",
+   "jurisdiction": "us-ok-state",
+   "instrument": "Oklahoma SB 259 (2026)",
+   "mechanism": "water",
+   "status": "adopted",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "Data centers using groundwater for cooling must use closed-loop or low-consumption cooling. Signed May 29 2026.",
+   "notes": "",
+   "confidence_note": "Relayed.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Cherokee Nation Data Center Task Force Report (June 30 2026)"
+   },
+   "tags": [
+    "groundwater",
+    "closed-loop"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "OK",
+   "jurisdiction_name": "State of Oklahoma",
+   "_path": "entries/OK/us-ok-state/ok-sb259-closed-loop-cooling.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "ok-tulsa-data-center-moratorium",
+   "jurisdiction": "us-ok-tulsa",
+   "instrument": "City of Tulsa nine-month moratorium on new data center approvals, March 26 2026",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-03-26",
+   "freshness": "LIVE",
+   "summary": "Nine-month moratorium on new data center approvals.",
+   "notes": "Derived end about late December 2026.",
+   "confidence_note": "Relayed.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Cherokee Nation Data Center Task Force Report (June 30 2026)"
+   },
+   "tags": [
+    "moratorium",
+    "9-month"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "OK",
+   "jurisdiction_name": "City of Tulsa",
+   "_path": "entries/OK/us-ok-tulsa/ok-tulsa-data-center-moratorium.json"
   },
   {
    "id": "or-forest-grove-sdr-criteria-exclude-power-water",
@@ -1709,6 +2461,94 @@
   },
   {
    "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "or-salem-data-center-moratorium",
+   "instrument": "Salem City Council data center moratorium",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "summary": "The Council unanimously initiated a temporary moratorium process on new data center applications on August 3 2026; the City Attorney said the pause would need at least 120 days and could extend to six months. A final hearing was held September 21 2026; reporting ahead of it described a pause to January 19 2027.",
+   "notes": "Verrus (Oakline at Mill Creek, $5.1B, 75 acres) filed before the vote; its application remains under current code. Governor Kotek ordered the state land sale for the project withdrawn. Update status once the September 21 outcome is confirmed.",
+   "confidence_note": "Relayed; ordinance not read and final vote not confirmed at retrieval.",
+   "source": {
+    "kind": "secondary",
+    "citation": "KATU; Salem Reporter via Let's Data Science; OPB Think Out Loud"
+   },
+   "tags": [
+    "moratorium",
+    "verrus",
+    "2027-01-19"
+   ],
+   "jurisdiction": "us-or-salem",
+   "freshness": "LIVE",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "OR",
+   "jurisdiction_name": "City of Salem",
+   "_path": "entries/OR/us-or-salem/or-salem-data-center-moratorium.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "or-salem-data-center-task-force",
+   "instrument": "Salem City Council action, July 27 2026",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-07-27",
+   "summary": "The Council voted unanimously to create a Data Center Task Force to research impacts on public resources, hold town halls and deliver recommendations by the end of 2026.",
+   "notes": "Nine members per reporting. Framework outreach target (City Attorney Dan Atchison).",
+   "confidence_note": "Relayed; council minutes not read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "KATU; Gizmodo; Salem Reporter via secondary"
+   },
+   "tags": [
+    "task-force",
+    "2026-12-31"
+   ],
+   "jurisdiction": "us-or-salem",
+   "freshness": "LIVE",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "OR",
+   "jurisdiction_name": "City of Salem",
+   "_path": "entries/OR/us-or-salem/or-salem-data-center-task-force.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "or-salem-nda-ban-exploration",
+   "instrument": "Salem City Council action, July 27 2026",
+   "mechanism": "process",
+   "status": "proposed",
+   "effective": "",
+   "summary": "The Council voted unanimously to explore banning future non-disclosure agreements with data center developers. The city had operated under an NDA with Verrus signed in March 2025.",
+   "notes": "The Community Planning and Development Director publicly defended the use of confidentiality agreements at the July 27 meeting.",
+   "confidence_note": "Relayed.",
+   "source": {
+    "kind": "secondary",
+    "citation": "KPTV, July 28 2026; Gizmodo"
+   },
+   "tags": [
+    "nda",
+    "transparency"
+   ],
+   "jurisdiction": "us-or-salem",
+   "freshness": "LIVE",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "OR",
+   "jurisdiction_name": "City of Salem",
+   "_path": "entries/OR/us-or-salem/or-salem-nda-ban-exploration.json"
+  },
+  {
+   "operator": "MLawrence",
    "id": "or-dcac-indirect-water",
    "jurisdiction": "us-or-state",
    "instrument": "Oregon Data Center Advisory Committee, Preliminary Learnings and Questions Document (September 2026)",
@@ -1865,6 +2705,36 @@
    "state": "OR",
    "jurisdiction_name": "State of Oregon",
    "_path": "entries/OR/us-or-state/or-econw-electricity-demand-estimate.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "or-hb4084-enterprise-zone-data-center-exclusion",
+   "jurisdiction": "us-or-state",
+   "instrument": "Oregon HB 4084 (2026), -B24 amendment",
+   "mechanism": "incentive",
+   "status": "adopted",
+   "effective": "2026-06-05",
+   "freshness": "LIVE",
+   "summary": "New data centers are ineligible for the Enterprise Zone property tax exemption from June 5 2026 until 90 days after the 2027 session adjourns sine die. Projects already approved keep their benefits. The Strategic Investment Program is unaffected.",
+   "notes": "Carve-out survived. Originated in the Nathanson -B24 amendment adopted March 2 2026 in Ways and Means Capital Construction. OBI testimony noted -24 carried no data center definition; ORS 308.505 has three. Check which definition the enrolled text uses.",
+   "confidence_note": "Relayed from a law firm summary; enrolled bill text on OLIS not read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Davis Wright Tremaine client alert; KLCC/OPB; Portland Tribune"
+   },
+   "tags": [
+    "enterprise-zone",
+    "tax-exemption",
+    "2027-session"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "OR",
+   "jurisdiction_name": "State of Oregon",
+   "_path": "entries/OR/us-or-state/or-hb4084-enterprise-zone-data-center-exclusion.json"
   },
   {
    "operator": "MLawrence",
@@ -2159,6 +3029,66 @@
    "_path": "entries/OR/us-or-woodburn/or-woodburn-120-day-moratorium.json"
   },
   {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "sc-spartanburg-county-moratorium",
+   "jurisdiction": "us-sc-spartanburg-county",
+   "instrument": "Spartanburg County data center moratorium ordinance (final reading September 2026)",
+   "mechanism": "load-trigger",
+   "status": "adopted",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "Moratorium passed on final reading applying only to facilities over 65 MW; already-approved projects, including the Valara data center under construction, are exempt.",
+   "notes": "",
+   "confidence_note": "Relayed; ordinance not read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, September 2026"
+   },
+   "tags": [
+    "moratorium",
+    "65-mw"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "SC",
+   "jurisdiction_name": "Spartanburg County",
+   "_path": "entries/SC/us-sc-spartanburg-county/sc-spartanburg-county-moratorium.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "tx-ercot-batch-zero-halt",
+   "jurisdiction": "us-tx-ercot",
+   "instrument": "ERCOT PGRR 145 'Batch Zero' large-load study",
+   "mechanism": "utility-service",
+   "status": "adopted",
+   "effective": "2026-08-03",
+   "freshness": "LIVE",
+   "summary": "ERCOT halted its Batch Zero large-load interconnection study to comply with the August 3 audit directive. Batch Zero (PGRR 145) had been approved in June 2026.",
+   "notes": "CORRECTION to prior notes listing Batch Zero as approved and proceeding. Batch Zero final report to RPG had been due by June 1 2027. \u00a725.205 was adopted March 2026.",
+   "confidence_note": "Halt per ERCOT statement as relayed; ERCOT notice not read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Foley & Lardner; ERCOT statement as reported"
+   },
+   "tags": [
+    "batch-zero",
+    "pgrr-145",
+    "halt",
+    "correction"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "TX",
+   "jurisdiction_name": "ERCOT",
+   "_path": "entries/TX/us-tx-ercot/tx-ercot-batch-zero-halt.json"
+  },
+  {
    "id": "tx-queue-audit-batch-zero-suspension",
    "jurisdiction": "us-tx-ercot",
    "instrument": "Governor's directive and ERCOT Market Notice M-A080326-01",
@@ -2186,6 +3116,67 @@
    "state": "TX",
    "jurisdiction_name": "ERCOT",
    "_path": "entries/TX/us-tx-ercot/tx-queue-audit-batch-zero-suspension.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "tx-hood-county-ag-rq-0633-kp",
+   "jurisdiction": "us-tx-hood-county",
+   "instrument": "Attorney General opinion request RQ-0633-KP, from Hood County Attorney Matt Mills, February 23 2026",
+   "mechanism": "litigation",
+   "status": "proposed",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "Asks whether Hood County may declare a moratorium on industrial development under Subchapter K, the 1999 statute unique to Hood County protecting the Lake Granbury and Brazos River watershed, and if so for how long. Listed as pending on the Attorney General's site.",
+   "notes": "Commissioners rejected a second moratorium. County Attorney Mills, the Texas Association of Counties and outside counsel advised the county lacks authority. Stated positions: Sen. Paul Bettencourt and Rep. Jared Patterson urged the AG to investigate counties attempting moratoriums; Rep. Shelby Slawson wrote that Subchapter K expressly grants the authority. The statutory 180-day window likely ran about late August (unverified).",
+   "confidence_note": "Request listing relayed; request letter not read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Texas Attorney General opinion request listing; Hood County News; Texas Tribune"
+   },
+   "tags": [
+    "attorney-general",
+    "subchapter-k",
+    "moratorium-authority"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "TX",
+   "jurisdiction_name": "Hood County",
+   "_path": "entries/TX/us-tx-hood-county/tx-hood-county-ag-rq-0633-kp.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "tx-hood-county-aws-project-spectrum",
+   "jurisdiction": "us-tx-hood-county",
+   "instrument": "Hood County Commissioners Court action on AWS Project Spectrum, June 2026",
+   "mechanism": "incentive",
+   "status": "adopted",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "DISPUTED. CBS reports AWS asked Hood County for up to 90 percent property tax rebates for 30 years, Commissioner Dave Eagle voted no, and the project moved to the next county. Hoodline reports a June 3-0 vote (Eagle absent) clearing the way for Project Spectrum, a 21-building campus near Comanche Peak. Amazon told 60 Minutes it ultimately decided not to build in Hood County.",
+   "notes": "The three accounts may be reconcilable (e.g., conditional approval then withdrawal) but no public record found reconciles them. Hood County has nine proposals before it (reported).",
+   "confidence_note": "All three accounts relayed; no court order or agreement read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "CBS News 60 Minutes, September 20 2026; Hoodline; Amazon statement to CBS"
+   },
+   "tags": [
+    "aws",
+    "abatement",
+    "disputed",
+    "comanche-peak"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "TX",
+   "jurisdiction_name": "Hood County",
+   "_path": "entries/TX/us-tx-hood-county/tx-hood-county-aws-project-spectrum.json"
   },
   {
    "id": "tx-25194-adoption-timing-correction",
@@ -2334,6 +3325,96 @@
    "state": "TX",
    "jurisdiction_name": "Public Utility Commission of Texas",
    "_path": "entries/TX/us-tx-puct/tx-docket-59220-parties-and-site.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "tx-puct-25-194-large-load-interconnection",
+   "jurisdiction": "us-tx-puct",
+   "instrument": "16 TAC \u00a725.194, large-load interconnection standards (PUCT Project 58481)",
+   "mechanism": "utility-service",
+   "status": "proposed",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "Proposed rule implementing SB 6 large-load interconnection standards. Draft published March 12 2026; comments due April 17 2026. Final adoption not found.",
+   "notes": "Transmission cost-allocation review due December 31 2026 (reported). Keep status proposed until an adoption order appears in Project 58481.",
+   "confidence_note": "Relayed; docket not read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Greenberg Traurig; DLA Piper; Weil"
+   },
+   "tags": [
+    "sb-6",
+    "large-load",
+    "25-194"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "TX",
+   "jurisdiction_name": "Public Utility Commission of Texas",
+   "_path": "entries/TX/us-tx-puct/tx-puct-25-194-large-load-interconnection.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "tx-red-oak-compass-campus",
+   "jurisdiction": "us-tx-red-oak",
+   "instrument": "Red Oak approvals for Compass Datacenters campus (instrument not yet identified)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "Compass Datacenters plans ten two-story data centers on agricultural land about the size of Central Park, one of seven campuses that together would cover more than a quarter of the town (about 20,000 residents). Residents allege the council approved it without public process.",
+   "notes": "Compass states it has worked with the community for five years and cites closed-loop water and grid investment that does not shift costs to homes. Pull the zoning cases and council approvals. Ellis County proposed a $15 million animal shelter grant agreement in June (separate entry pending).",
+   "confidence_note": "Relayed from broadcast; no approval instrument read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "CBS News 60 Minutes, September 20 2026"
+   },
+   "tags": [
+    "compass",
+    "approval",
+    "60-minutes"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "TX",
+   "jurisdiction_name": "City of Red Oak",
+   "_path": "entries/TX/us-tx-red-oak/tx-red-oak-compass-campus.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "tx-governor-aug3-queue-audit",
+   "jurisdiction": "us-tx-state",
+   "instrument": "Governor's directive to PUCT and ERCOT, August 3 2026",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-08-03",
+   "freshness": "LIVE",
+   "summary": "Directs the PUCT and ERCOT to audit every data center project in the ERCOT interconnection queue before more move forward. Projects disclose public incentives (tax breaks, grants, abatements), projected annual and peak power and grid share, water use, sources and cooling method, on-site generation, community impacts and ownership.",
+   "notes": "The audit duration is not specified, and whether results will be published is open. The governor's letter reportedly puts the queue at 474 GW, about 90 percent data centers.",
+   "confidence_note": "Directive text not read; relayed from law firm summaries and CBS. Confirm the 474 GW and 90 percent figures against the letter.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Greenberg Traurig; Foley & Lardner; CBS News 60 Minutes, September 20 2026"
+   },
+   "tags": [
+    "audit",
+    "disclosure",
+    "interconnection-queue"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "TX",
+   "jurisdiction_name": "State of Texas",
+   "_path": "entries/TX/us-tx-state/tx-governor-aug3-queue-audit.json"
   },
   {
    "id": "tx-sb6-site-control",
@@ -2839,6 +3920,37 @@
    "state": "VA",
    "jurisdiction_name": "Loudoun County",
    "_path": "entries/VA/us-va-loudoun-county/va-loudoun-grandfather.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "va-loudoun-grandfathering-legal-opinion",
+   "jurisdiction": "us-va-loudoun-county",
+   "instrument": "Loudoun County Board of Supervisors action, September 2 2026 (Randall substitute motion)",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-09-02",
+   "freshness": "LIVE",
+   "summary": "The Board voted unanimously to request a county attorney legal opinion on amending the February 2025 grandfathering resolution, due October 6 2026. The Briskman/TeKrony resolution to end grandfathering was not adopted. The memo stays confidential; the Chair asked that the advice be shared publicly on October 6.",
+   "notes": "Grandfathering covers applications accepted before February 12 2025; the ZOAM adopted March 18 2025 (7-2) ended by-right; applications within 500 feet of residential are excluded from grandfathering. COUNT CONFLICT: 17 grandfathered applications (Virginia Business) vs 'nearly two dozen' (Technical.ly) vs 'over 40' originally exempted (Loudoun Climate Project). The county's list requested by the Board is the primary to wait for.",
+   "confidence_note": "Board action relayed from reporting; county page read in search excerpt only.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Virginia Business; Technical.ly; Loudoun County data center page (excerpt)"
+   },
+   "tags": [
+    "grandfathering",
+    "legal-opinion",
+    "2026-10-06",
+    "count-conflict"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "VA",
+   "jurisdiction_name": "Loudoun County",
+   "_path": "entries/VA/us-va-loudoun-county/va-loudoun-grandfathering-legal-opinion.json"
   },
   {
    "id": "va-loudoun-grandfathering-resolution-2025",
@@ -4292,6 +5404,36 @@
    "state": "WA",
    "jurisdiction_name": "Walla Walla County",
    "_path": "entries/WA/us-wa-walla-walla-county/wa-walla-walla-water-claim.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-22",
+   "id": "wi-we-energies-very-large-customer-tariff",
+   "jurisdiction": "us-wi-we-energies",
+   "instrument": "Wisconsin PSC decision on WEPCO Very Large Customer tariff, April 24 2026",
+   "mechanism": "rate-allocation",
+   "status": "adopted",
+   "effective": "2026-04-24",
+   "freshness": "LIVE",
+   "summary": "Unanimous PSC decision lowering the threshold from 500 MW to 100 MW and making the tariff mandatory above it; minimum term 15 years; the 75 percent capacity-only option removed so very large customers pay 100 percent; transmission cost-allocation revisions and added reporting ordered.",
+   "notes": "",
+   "confidence_note": "Relayed; PSC order not read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Clean Wisconsin; Insight"
+   },
+   "tags": [
+    "tariff",
+    "100-mw",
+    "15-year"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "WI",
+   "jurisdiction_name": "We Energies (WEPCO)",
+   "_path": "entries/WI/us-wi-we-energies/wi-we-energies-very-large-customer-tariff.json"
   },
   {
    "id": "pjm-iras-large-load-filing",

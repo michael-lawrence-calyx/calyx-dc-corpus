@@ -1,0 +1,26 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "or-salem-nda-ban-exploration",
+  "instrument": "Salem City Council action, July 27 2026",
+  "mechanism": "process",
+  "status": "proposed",
+  "effective": "",
+  "summary": "The Council voted unanimously to explore banning future non-disclosure agreements with data center developers. The city had operated under an NDA with Verrus signed in March 2025.",
+  "notes": "The Community Planning and Development Director publicly defended the use of confidentiality agreements at the July 27 meeting.",
+  "confidence_note": "Relayed.",
+  "source": {
+    "kind": "secondary",
+    "citation": "KPTV, July 28 2026; Gizmodo"
+  },
+  "tags": [
+    "nda",
+    "transparency"
+  ],
+  "jurisdiction": "us-or-salem",
+  "freshness": "LIVE",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

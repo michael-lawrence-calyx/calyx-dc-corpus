@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "tx-puct-25-194-large-load-interconnection",
+  "jurisdiction": "us-tx-puct",
+  "instrument": "16 TAC §25.194, large-load interconnection standards (PUCT Project 58481)",
+  "mechanism": "utility-service",
+  "status": "proposed",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "Proposed rule implementing SB 6 large-load interconnection standards. Draft published March 12 2026; comments due April 17 2026. Final adoption not found.",
+  "notes": "Transmission cost-allocation review due December 31 2026 (reported). Keep status proposed until an adoption order appears in Project 58481.",
+  "confidence_note": "Relayed; docket not read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Greenberg Traurig; DLA Piper; Weil"
+  },
+  "tags": [
+    "sb-6",
+    "large-load",
+    "25-194"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

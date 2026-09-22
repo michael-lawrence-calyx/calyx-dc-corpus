@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "tx-red-oak-compass-campus",
+  "jurisdiction": "us-tx-red-oak",
+  "instrument": "Red Oak approvals for Compass Datacenters campus (instrument not yet identified)",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "Compass Datacenters plans ten two-story data centers on agricultural land about the size of Central Park, one of seven campuses that together would cover more than a quarter of the town (about 20,000 residents). Residents allege the council approved it without public process.",
+  "notes": "Compass states it has worked with the community for five years and cites closed-loop water and grid investment that does not shift costs to homes. Pull the zoning cases and council approvals. Ellis County proposed a $15 million animal shelter grant agreement in June (separate entry pending).",
+  "confidence_note": "Relayed from broadcast; no approval instrument read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "CBS News 60 Minutes, September 20 2026"
+  },
+  "tags": [
+    "compass",
+    "approval",
+    "60-minutes"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

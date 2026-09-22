@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "md-baltimore-county-moratorium-extension",
+  "jurisdiction": "us-md-baltimore-county",
+  "instrument": "Baltimore County Council bill extending data center moratorium",
+  "mechanism": "use-permission",
+  "status": "proposed",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "Council vote scheduled September 22 2026 on extending the data center moratorium from January 1 2027 to December 2027.",
+  "notes": "Update after the vote.",
+  "confidence_note": "Relayed.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, September 2026"
+  },
+  "tags": [
+    "moratorium",
+    "extension",
+    "2027-12"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

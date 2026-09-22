@@ -1,0 +1,26 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "sc-spartanburg-county-moratorium",
+  "jurisdiction": "us-sc-spartanburg-county",
+  "instrument": "Spartanburg County data center moratorium ordinance (final reading September 2026)",
+  "mechanism": "load-trigger",
+  "status": "adopted",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "Moratorium passed on final reading applying only to facilities over 65 MW; already-approved projects, including the Valara data center under construction, are exempt.",
+  "notes": "",
+  "confidence_note": "Relayed; ordinance not read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, September 2026"
+  },
+  "tags": [
+    "moratorium",
+    "65-mw"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

@@ -1,0 +1,26 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "ok-sb259-closed-loop-cooling",
+  "jurisdiction": "us-ok-state",
+  "instrument": "Oklahoma SB 259 (2026)",
+  "mechanism": "water",
+  "status": "adopted",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "Data centers using groundwater for cooling must use closed-loop or low-consumption cooling. Signed May 29 2026.",
+  "notes": "",
+  "confidence_note": "Relayed.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Cherokee Nation Data Center Task Force Report (June 30 2026)"
+  },
+  "tags": [
+    "groundwater",
+    "closed-loop"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

@@ -1,0 +1,26 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "md-state-utility-relief-act-registry",
+  "jurisdiction": "us-md-state",
+  "instrument": "Maryland Utility Relief Act (2026)",
+  "mechanism": "load-trigger",
+  "status": "adopted",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "Establishes a PSC large-load registry at 25 MW or more.",
+  "notes": "Distinct from the Next Generation Energy Act (Ch. 625/626 of 2025) large-load rate schedule at 100 MW or more with over 80 percent load factor, PSC regulations due June 1 2026 (DLS fiscal note HB 120). Two thresholds in two instruments, not a conflict.",
+  "confidence_note": "Relayed; act text not read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "WYPR; DLS fiscal note HB 120 (excerpt)"
+  },
+  "tags": [
+    "registry",
+    "25-mw"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

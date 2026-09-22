@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "or-hb4084-enterprise-zone-data-center-exclusion",
+  "jurisdiction": "us-or-state",
+  "instrument": "Oregon HB 4084 (2026), -B24 amendment",
+  "mechanism": "incentive",
+  "status": "adopted",
+  "effective": "2026-06-05",
+  "freshness": "LIVE",
+  "summary": "New data centers are ineligible for the Enterprise Zone property tax exemption from June 5 2026 until 90 days after the 2027 session adjourns sine die. Projects already approved keep their benefits. The Strategic Investment Program is unaffected.",
+  "notes": "Carve-out survived. Originated in the Nathanson -B24 amendment adopted March 2 2026 in Ways and Means Capital Construction. OBI testimony noted -24 carried no data center definition; ORS 308.505 has three. Check which definition the enrolled text uses.",
+  "confidence_note": "Relayed from a law firm summary; enrolled bill text on OLIS not read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Davis Wright Tremaine client alert; KLCC/OPB; Portland Tribune"
+  },
+  "tags": [
+    "enterprise-zone",
+    "tax-exemption",
+    "2027-session"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

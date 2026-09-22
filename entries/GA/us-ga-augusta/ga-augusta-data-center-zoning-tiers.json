@@ -1,0 +1,28 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-22",
+  "id": "ga-augusta-data-center-zoning-tiers",
+  "mechanism": "use-permission",
+  "summary": "Data centers are banned in residential and agricultural zones and require a public hearing and Commission approval in industrial, business and mixed-use zones, with process by size across five tiers (under 2,000 sq ft accessory to 500,000 sq ft or more campus). Minimum 500 feet from homes and farmland, reducible to 300 feet with a visual berm and 100 feet along certain roads; closed-loop cooling; no private wells for cooling.",
+  "notes": "The QTS campus (Gordon Highway / Haynes Station) predates the ordinance and is not subject. Preceded by a 49-day moratorium (June) extended 60 days on July 21.",
+  "tags": [
+    "zoning",
+    "size-tiers",
+    "setback",
+    "closed-loop"
+  ],
+  "jurisdiction": "us-ga-augusta",
+  "instrument": "Augusta-Richmond County data center ordinance (adopted September 15 2026)",
+  "status": "adopted",
+  "effective": "2026-09-15",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "WRDW, September 15 2026; final draft ordinance as reported"
+  },
+  "confidence_note": "Adopted 'as is' per WRDW; vote count and adopted text not read. Pull the ordinance from augustaga.gov.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}
