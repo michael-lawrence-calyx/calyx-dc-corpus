@@ -1,0 +1,28 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-23",
+  "id": "va-prince-william-by-right-repeal",
+  "jurisdiction": "us-va-prince-william-county",
+  "instrument": "Prince William County zoning text amendment ending by-right data center development",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "2026-09-22",
+  "freshness": "LIVE",
+  "summary": "The board voted unanimously on September 22, 2026 to end by-right data center approval countywide and shrink the Data Center Opportunity Zone Overlay District from roughly 9,700 acres to roughly 3,500. After the grace period, the overlay covers only land where data centers are built or where applications have been filed and accepted; all other projects require a special use permit with a public hearing and a board vote.",
+  "notes": "The overlay dates to May 2016. The planning commission recommended the amendment 5-3 on September 9 with a 120-day grace period and a 500-foot buffer from homes and schools, after an impasse over 180 days and 2,500 feet. CONFLICT: acreage reported as both 3,500 and 3,650, and the grace period as both 90 and 120 days. Resolve against the adopted text.",
+  "confidence_note": "Relayed; the adopted ordinance has not been read. The grace period matters because it sets the window in which a developer can still file under the old overlay.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Prince William Times; Patch; InsideNoVa, September 22-23 2026"
+  },
+  "tags": [
+    "by-right-repeal",
+    "overlay",
+    "grace-period",
+    "conflict"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

@@ -1,0 +1,29 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-23",
+  "id": "ca-riverbank-moratorium",
+  "jurisdiction": "us-ca-riverbank",
+  "instrument": "City of Riverbank urgency moratorium on data center entitlements",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "2026-09-08",
+  "freshness": "LIVE",
+  "summary": "The city council unanimously adopted a 45-day urgency moratorium on new land-use entitlements for data centers, effective immediately, to study water, energy, noise and land-use impacts. Staff recommended defining a data center as 5,000 square feet or more of server space or a designed electrical load of 3 MW or more. Riverbank has no code provision specifically authorizing or barring data centers; projects would proceed by conditional use permit.",
+  "notes": "The city had been approached by five potential developers, including one proposing a project at the former Army Ammunitions Plant. Aemetis president Andy Foster spoke against the pause, describing a 60 MW facility with minimal local water use and dedicated power lines. Spartan Data Centers and Aemetis publicly announced the Riverbank Technology Center during the pause; as of late August the city reported no formal application on file. Derived: 45 days from September 8 runs to about October 23; California Government Code 65858 permits extension up to two years.",
+  "confidence_note": "Relayed; the urgency ordinance has not been read. The expiry date is derived from the adoption date and has not been confirmed against the ordinance's effective date.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Modesto Bee and local reporting, September 2026"
+  },
+  "tags": [
+    "45-day",
+    "urgency",
+    "5000-sqft",
+    "3-mw",
+    "aemetis"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

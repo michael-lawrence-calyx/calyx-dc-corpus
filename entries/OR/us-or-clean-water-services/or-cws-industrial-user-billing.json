@@ -1,0 +1,26 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-23",
+  "id": "or-cws-industrial-user-billing",
+  "instrument": "Clean Water Services rates and charges (industrial user billing)",
+  "mechanism": "rate-allocation",
+  "status": "adopted",
+  "effective": "",
+  "summary": "The District bills and collects for sewer services to permitted industrial users in its service area and remits to each city an agreed percentage of the wastewater volume charge for industrial users within that city.",
+  "notes": "Means the District sees permitted industrial dischargers directly through the industrial permit, independent of a city's capacity projections. Corrects an earlier working assumption that city projections were the only path.",
+  "confidence_note": "Taken from the District's published rates and charges document; page and effective date not captured.",
+  "tags": [
+    "industrial-billing",
+    "remittance"
+  ],
+  "jurisdiction": "us-or-clean-water-services",
+  "freshness": "LIVE",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "source": {
+    "kind": "primary",
+    "citation": "Clean Water Services Board of Directors agenda packet, September 22, 2026 (City of Sherwood operating intergovernmental agreement)"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-23",
+  "id": "az-pima-county-moratorium",
+  "jurisdiction": "us-az-pima-county",
+  "instrument": "Pima County Board of Supervisors moratorium on data center approvals",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "2026-09-22",
+  "freshness": "LIVE",
+  "summary": "A 120-day moratorium on new data center approvals in unincorporated Pima County, adopted 3-2. County staff are drafting a full data center policy targeted for board approval by December 10, 2026, and an ordinance is in development that would require a conditional use permit for hyperscale development, giving the board discretion to deny.",
+  "notes": "Supervisors Christy and Scott opposed. The chief civil deputy county attorney briefed the board in executive session on legal exposure before the vote. Context: Project Blue's rezoning and land sale near the fairgrounds was approved roughly a year earlier and Tucson subsequently withdrew from the deal.",
+  "confidence_note": "Relayed from reporting; the adopted resolution has not been read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Arizona reporting, September 22-23 2026"
+  },
+  "tags": [
+    "120-day",
+    "unincorporated",
+    "december-10",
+    "cup"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

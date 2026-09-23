@@ -1,0 +1,29 @@
+{
+  "operator": "MLawrence",
+  "section": "Data Center Contracted Portfolio, note (2)",
+  "text": "Planned gas-fired generation facilities not owned by the Company. Gas-fired generation facilities not yet financed, constructed or contracted and subject to permits and approvals.",
+  "retrieved": "2026-09-23",
+  "id": "oh-ports-generation-status",
+  "mechanism": "generation",
+  "status": "proposed",
+  "effective": "",
+  "summary": "The approximately 9.2 GW of gas-fired generation intended to serve the PORTS-Pike campus is not owned by SB Energy and is not yet financed, constructed or contracted, and remains subject to permits and approvals.",
+  "notes": "The filing also states: 'We are developing and will own and operate the data center site, but we do not expect to own or operate the gas-fired generation facilities.' Risk factors state development 'may be affected by the timely funding and commissioning of approximately 9.2 GW of generation under the U.S.-Japan Partnership, which may be delayed, reduced or withdrawn.' The generation is developed by an affiliate of SoftBank that is not an SB Energy subsidiary; air and wastewater permits are that developer's responsibility. Project materials elsewhere describe the generation as to be owned by the U.S. government; the filing states no binding or non-binding agreement has been executed with any governmental entity on funding, construction, ownership or operation. DISPUTED as to ownership.",
+  "confidence_note": "Read in original. Ownership of the generation is unresolved across the filing and the project's public materials.",
+  "tags": [
+    "behind-the-meter",
+    "unfinanced",
+    "disputed",
+    "us-japan-partnership"
+  ],
+  "jurisdiction": "us-oh-pike-county",
+  "instrument": "SB Energy, Inc. Form S-1/A Amendment No. 2 (Reg. No. 333-298675)",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "primary",
+    "citation": "SB Energy, Inc., Form S-1/A Amendment No. 2, filed September 21, 2026 (Reg. No. 333-298675)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002133037/000162828026062846/sbenergy-sx1a2.htm"
+  },
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED"
+}

@@ -1,9 +1,11 @@
 {
- "generated": "2026-09-22",
- "count": 177,
+ "generated": "2026-09-23",
+ "count": 206,
  "states": [
   "AZ",
   "CA",
+  "CO",
+  "FL",
   "GA",
   "ID",
   "IL",
@@ -12,11 +14,14 @@
   "MI",
   "MO",
   "NC",
+  "NH",
   "OH",
   "OK",
   "OR",
   "SC",
   "TX",
+  "US",
+  "UT",
   "VA",
   "WA",
   "WI",
@@ -26,13 +31,23 @@
   "AEP Ohio",
   "Augusta-Richmond County",
   "Baltimore County",
+  "Box Elder County",
   "Champaign County",
   "Chandler",
+  "City and County of Denver",
+  "City of Chicago",
+  "City of Federal Way",
+  "City of Fort Wayne",
+  "City of Hayward",
+  "City of North Port",
   "City of Pocatello",
   "City of Red Oak",
+  "City of Riverbank",
   "City of Salem",
   "City of Tulsa",
+  "Clean Water Services",
   "Commonwealth of Virginia",
+  "DeKalb County",
   "Dominion Energy Virginia",
   "Duke Energy Carolinas / Progress",
   "ERCOT",
@@ -43,6 +58,7 @@
   "Frederick County",
   "Grant County",
   "Grant County PUD",
+  "Greenwood County",
   "Hillsboro",
   "Hood County",
   "Imperial County",
@@ -51,9 +67,12 @@
   "Loudoun County",
   "Marana",
   "Maricopa County",
+  "Michigan City",
   "Montgomery County",
   "PJM Interconnection",
   "Phoenix",
+  "Pike County",
+  "Pima County",
   "Pinal County",
   "Port of Walla Walla",
   "Portland",
@@ -69,13 +88,16 @@
   "State of California",
   "State of Maryland",
   "State of Michigan",
+  "State of New Hampshire",
   "State of Ohio",
   "State of Oklahoma",
   "State of Oregon",
   "State of Texas",
+  "State of Utah",
   "State of Washington",
   "Town of Normal",
   "Tucson",
+  "United States (federal)",
   "Walla Walla County",
   "Washington County",
   "We Energies (WEPCO)",
@@ -103,8 +125,8 @@
  "by_origin": {
   "ASSERTED": 0,
   "DERIVED": 1,
-  "OBSERVED": 67,
-  "RELAYED": 109
+  "OBSERVED": 72,
+  "RELAYED": 133
  },
  "entries": [
   {
@@ -768,6 +790,37 @@
    "_path": "entries/AZ/us-az-phoenix/az-phoenix-zta-willserve.json"
   },
   {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "az-pima-county-moratorium",
+   "jurisdiction": "us-az-pima-county",
+   "instrument": "Pima County Board of Supervisors moratorium on data center approvals",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-09-22",
+   "freshness": "LIVE",
+   "summary": "A 120-day moratorium on new data center approvals in unincorporated Pima County, adopted 3-2. County staff are drafting a full data center policy targeted for board approval by December 10, 2026, and an ordinance is in development that would require a conditional use permit for hyperscale development, giving the board discretion to deny.",
+   "notes": "Supervisors Christy and Scott opposed. The chief civil deputy county attorney briefed the board in executive session on legal exposure before the vote. Context: Project Blue's rezoning and land sale near the fairgrounds was approved roughly a year earlier and Tucson subsequently withdrew from the deal.",
+   "confidence_note": "Relayed from reporting; the adopted resolution has not been read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Arizona reporting, September 22-23 2026"
+   },
+   "tags": [
+    "120-day",
+    "unincorporated",
+    "december-10",
+    "cup"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "AZ",
+   "jurisdiction_name": "Pima County",
+   "_path": "entries/AZ/us-az-pima-county/az-pima-county-moratorium.json"
+  },
+  {
    "id": "az-pinal-vermaland-eloy-denial",
    "jurisdiction": "us-az-pinal-county",
    "instrument": "Board of Supervisors rezoning decision",
@@ -985,6 +1038,35 @@
    "_path": "entries/AZ/us-az-tucson/az-tucson-o12268-water.json"
   },
   {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "ca-hayward-prohibition-direction",
+   "jurisdiction": "us-ca-hayward",
+   "instrument": "Hayward City Council direction to staff on prohibiting data centers",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "The council voted 7-0 to direct staff to begin work on prohibiting future data center approvals, with staff to return in October 2026.",
+   "notes": "",
+   "confidence_note": "Relayed; no adopted instrument yet.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Bay Area reporting, September 2026"
+   },
+   "tags": [
+    "prohibition",
+    "staff-direction"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "CA",
+   "jurisdiction_name": "City of Hayward",
+   "_path": "entries/CA/us-ca-hayward/ca-hayward-prohibition-direction.json"
+  },
+  {
    "id": "ca-imperial-county-ceqa-ruling",
    "jurisdiction": "us-ca-imperial-county",
    "instrument": "Imperial County Superior Court final ruling",
@@ -1072,6 +1154,38 @@
    "state": "CA",
    "jurisdiction_name": "Richmond",
    "_path": "entries/CA/us-ca-richmond/ca-richmond-moratorium-2026-09-15.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "ca-riverbank-moratorium",
+   "jurisdiction": "us-ca-riverbank",
+   "instrument": "City of Riverbank urgency moratorium on data center entitlements",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-09-08",
+   "freshness": "LIVE",
+   "summary": "The city council unanimously adopted a 45-day urgency moratorium on new land-use entitlements for data centers, effective immediately, to study water, energy, noise and land-use impacts. Staff recommended defining a data center as 5,000 square feet or more of server space or a designed electrical load of 3 MW or more. Riverbank has no code provision specifically authorizing or barring data centers; projects would proceed by conditional use permit.",
+   "notes": "The city had been approached by five potential developers, including one proposing a project at the former Army Ammunitions Plant. Aemetis president Andy Foster spoke against the pause, describing a 60 MW facility with minimal local water use and dedicated power lines. Spartan Data Centers and Aemetis publicly announced the Riverbank Technology Center during the pause; as of late August the city reported no formal application on file. Derived: 45 days from September 8 runs to about October 23; California Government Code 65858 permits extension up to two years.",
+   "confidence_note": "Relayed; the urgency ordinance has not been read. The expiry date is derived from the adoption date and has not been confirmed against the ordinance's effective date.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Modesto Bee and local reporting, September 2026"
+   },
+   "tags": [
+    "45-day",
+    "urgency",
+    "5000-sqft",
+    "3-mw",
+    "aemetis"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "CA",
+   "jurisdiction_name": "City of Riverbank",
+   "_path": "entries/CA/us-ca-riverbank/ca-riverbank-moratorium.json"
   },
   {
    "id": "ca-gov-code-65858",
@@ -1196,6 +1310,66 @@
    "operator": "MLawrence",
    "section": "",
    "text": "",
+   "retrieved": "2026-09-23",
+   "id": "co-denver-moratorium",
+   "jurisdiction": "us-co-denver",
+   "instrument": "City and County of Denver data center moratorium",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "A one-year moratorium on accepting, processing or approving data center zoning and site development permits. Telecommunications-focused facilities and already-permitted work are exempt; CoreSite's DE3 project continues.",
+   "notes": "",
+   "confidence_note": "Relayed; the ordinance has not been read and the effective date is not confirmed.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Denver reporting, September 2026"
+   },
+   "tags": [
+    "one-year",
+    "telecom-exempt",
+    "coresite"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "CO",
+   "jurisdiction_name": "City and County of Denver",
+   "_path": "entries/CO/us-co-denver/co-denver-moratorium.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "fl-north-port-moratorium",
+   "jurisdiction": "us-fl-north-port",
+   "instrument": "City of North Port data center moratorium ordinance",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "An 18-month moratorium advanced 4-1 on first reading. As drafted it would also freeze final approval of a pending 896,000 square foot data center application. The city attorney warned that blocking the pending application invites a legal challenge. Second and final reading was scheduled for September 22, 2026.",
+   "notes": "Outcome of the final reading not confirmed. This is the clearest case in the register of a moratorium drafted to reach an application already in process.",
+   "confidence_note": "Relayed; ordinance not read and final vote outcome unknown.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Florida reporting, September 2026"
+   },
+   "tags": [
+    "18-month",
+    "pending-application",
+    "legal-risk"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "FL",
+   "jurisdiction_name": "City of North Port",
+   "_path": "entries/FL/us-fl-north-port/fl-north-port-moratorium.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
    "retrieved": "2026-09-22",
    "id": "ga-augusta-data-center-noise-limits",
    "mechanism": "acoustic",
@@ -1252,6 +1426,35 @@
    "state": "GA",
    "jurisdiction_name": "Augusta-Richmond County",
    "_path": "entries/GA/us-ga-augusta/ga-augusta-data-center-zoning-tiers.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "ga-dekalb-county-moratorium-extension",
+   "jurisdiction": "us-ga-dekalb-county",
+   "instrument": "DeKalb County data center moratorium extension",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "The county extended its data center moratorium to June 23, 2027 on a substitute motion, with rules and regulations to be voted on separately.",
+   "notes": "",
+   "confidence_note": "Relayed; the adopted extension has not been read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Georgia reporting, September 2026"
+   },
+   "tags": [
+    "extension",
+    "2027-06-23"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "GA",
+   "jurisdiction_name": "DeKalb County",
+   "_path": "entries/GA/us-ga-dekalb-county/ga-dekalb-county-moratorium-extension.json"
   },
   {
    "id": "ga-fayetteville-citywide-prohibition",
@@ -1348,24 +1551,54 @@
    "operator": "MLawrence",
    "section": "",
    "text": "",
-   "retrieved": "2026-09-22",
-   "id": "il-normal-moratorium-extension",
-   "jurisdiction": "us-il-normal",
-   "instrument": "Town of Normal data center moratorium extension",
+   "retrieved": "2026-09-23",
+   "id": "il-chicago-moratorium-proposal",
+   "jurisdiction": "us-il-chicago",
+   "instrument": "Mayoral proposal for a citywide data center moratorium",
    "mechanism": "use-permission",
    "status": "proposed",
    "effective": "",
    "freshness": "LIVE",
-   "summary": "The Normal Town Council considered extending its data center moratorium from November 2026 to May 2027 to await state data center legislation (the 'Power Act').",
-   "notes": "Vote held September 21 2026; outcome not confirmed at retrieval. Update status after confirming.",
-   "confidence_note": "Relayed from reporting before the vote.",
+   "summary": "The mayor proposed a one-year citywide moratorium on data centers, framed as time to develop policy on pollution, water use and electricity costs. The proposal is before the City Council.",
+   "notes": "Proposed September 23, 2026.",
+   "confidence_note": "Relayed; no ordinance text read and no council action taken.",
    "source": {
     "kind": "secondary",
-    "citation": "Local reporting, September 21 2026"
+    "citation": "Chicago reporting, September 23 2026"
    },
    "tags": [
-    "moratorium",
+    "proposed",
+    "one-year",
+    "citywide"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "IL",
+   "jurisdiction_name": "City of Chicago",
+   "_path": "entries/IL/us-il-chicago/il-chicago-moratorium-proposal.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "il-normal-moratorium-extension",
+   "jurisdiction": "us-il-normal",
+   "instrument": "Town of Normal data center moratorium extension",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-09-21",
+   "freshness": "LIVE",
+   "summary": "The council voted 6-1 on September 21, 2026 to extend the data center moratorium to May 31, 2027, to await state data center legislation.",
+   "notes": "SUPERSEDES the prior proposed-status entry. Staff reported reviewing other jurisdictions' ordinances, including Aurora and Champaign County, while drafting.",
+   "confidence_note": "Relayed; the adopted extension has not been read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Central Illinois reporting, September 22 2026"
+   },
+   "tags": [
     "extension",
+    "2027-05-31",
     "state-legislation"
    ],
    "origin": "RELAYED",
@@ -1403,6 +1636,35 @@
    "state": "IN",
    "jurisdiction_name": "Elkhart",
    "_path": "entries/IN/us-in-elkhart/in-elkhart-dc-and-bess-pause.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "in-fort-wayne-moratorium-held",
+   "jurisdiction": "us-in-fort-wayne",
+   "instrument": "Fort Wayne one-year data center moratorium proposal",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "The council held its one-year moratorium proposal for three weeks. The Google project already underway would not be affected.",
+   "notes": "One of two jurisdictions recorded this week moving away from a pause rather than toward one.",
+   "confidence_note": "Relayed.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Indiana reporting, September 2026"
+   },
+   "tags": [
+    "held",
+    "google"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "IN",
+   "jurisdiction_name": "City of Fort Wayne",
+   "_path": "entries/IN/us-in-fort-wayne/in-fort-wayne-moratorium-held.json"
   },
   {
    "operator": "MLawrence",
@@ -1467,32 +1729,61 @@
    "operator": "MLawrence",
    "section": "",
    "text": "",
-   "retrieved": "2026-09-22",
+   "retrieved": "2026-09-23",
    "id": "in-indianapolis-mdc-moratorium",
    "jurisdiction": "us-in-indianapolis",
-   "instrument": "Indianapolis Metropolitan Development Commission data center moratorium",
+   "instrument": "Indianapolis data center moratorium (City-County Council and Metropolitan Development Commission)",
    "mechanism": "use-permission",
    "status": "adopted",
    "effective": "",
    "freshness": "LIVE",
-   "summary": "The MDC approved a moratorium 6-0 through December 31 2027. Three approved projects proceed (Decatur Township, Martindale-Brightwood, former Ford Visteon on Fintail Drive). The Department of Metropolitan Development will retain a consultant and seat an Advisory Committee to draft standards.",
-   "notes": "Framework-shaped opening: consultant plus advisory committee. Indiana context per IU Environmental Resilience Institute: 11 counties with ordinances, at least 17 moratoria, 2 bans (Marshall, Cass).",
-   "confidence_note": "Relayed; resolution not read.",
+   "summary": "A moratorium on new data center approvals running through December 31, 2027. Three approved projects proceed. The Department of Metropolitan Development is to retain a consultant and seat an Advisory Committee to draft standards.",
+   "notes": "CONFLICT on the instrument: one account records a 6-0 Metropolitan Development Commission approval; another records the pause becoming binding by a 23-1 City-County Council vote on August 10, 2026, ratified by the MDC on August 19. Exempt projects are described variously as Decatur Township, Martindale-Brightwood and the former Ford Visteon site on Fintail Drive, and as DC Blox, Metrobloks and Sabey. Same pause, unreconciled instrument and vote. Indiana context per IU Environmental Resilience Institute: 11 counties with ordinances, at least 17 moratoria, 2 bans (Marshall, Cass).",
+   "confidence_note": "Both accounts relayed; neither the council proposal nor the MDC record has been read. Resolve before citing the vote.",
    "source": {
     "kind": "secondary",
-    "citation": "Fox59; IPR/WBOI citing IU ERI"
+    "citation": "Fox59; datacenterbans.com; IPR/WBOI citing IU ERI"
    },
    "tags": [
-    "moratorium",
     "2027-12-31",
     "consultant",
-    "advisory-committee"
+    "advisory-committee",
+    "disputed-instrument"
    ],
    "origin": "RELAYED",
    "entry_state": "NOT_CHECKED",
    "state": "IN",
    "jurisdiction_name": "Indianapolis and Marion County",
    "_path": "entries/IN/us-in-indianapolis/in-indianapolis-mdc-moratorium.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "in-michigan-city-moratorium-tabled",
+   "jurisdiction": "us-in-michigan-city",
+   "instrument": "Michigan City data center moratorium and zoning review",
+   "mechanism": "use-permission",
+   "status": "void",
+   "effective": "2026-09-15",
+   "freshness": "LIVE",
+   "summary": "The council voted 8-1 on September 15, 2026 to table the proposed moratorium indefinitely, including the accompanying zoning review.",
+   "notes": "Recorded as void because the instrument was tabled indefinitely rather than adopted, lapsed or rejected outright. Second of two reversals recorded this week.",
+   "confidence_note": "Relayed; the council record has not been read. If the loader's enum treats 'void' differently, reclassify.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Indiana reporting, September 2026"
+   },
+   "tags": [
+    "tabled",
+    "reversal"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "IN",
+   "jurisdiction_name": "Michigan City",
+   "_path": "entries/IN/us-in-michigan-city/in-michigan-city-moratorium-tabled.json"
   },
   {
    "operator": "MLawrence",
@@ -1877,6 +2168,35 @@
    "_path": "entries/NC/us-nc-raleigh/nc-raleigh-10000-sqft-threshold.json"
   },
   {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "nh-senate-2027-moratorium-plan",
+   "jurisdiction": "us-nh-state",
+   "instrument": "New Hampshire Senate President announcement on 2027 data center legislation",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "On September 18, 2026 the Senate President announced that the Republican-majority Senate will pursue AI data center moratorium legislation in the 2027 session.",
+   "notes": "Stated legislative intent, not a filed bill.",
+   "confidence_note": "Relayed; no bill text exists yet.",
+   "source": {
+    "kind": "secondary",
+    "citation": "New Hampshire reporting, September 18 2026"
+   },
+   "tags": [
+    "2027-session",
+    "stated-intent"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "NH",
+   "jurisdiction_name": "State of New Hampshire",
+   "_path": "entries/NH/us-nh-state/nh-senate-2027-moratorium-plan.json"
+  },
+  {
    "id": "oh-aep-service-moratorium",
    "jurisdiction": "us-oh-aep-ohio",
    "mechanism": "utility-service",
@@ -1903,6 +2223,194 @@
    "state": "OH",
    "jurisdiction_name": "AEP Ohio",
    "_path": "entries/OH/us-oh-aep-ohio/oh-aep-service-moratorium.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "Prospectus Summary \u2014 PORTS-Pike Technology Campus",
+   "text": "In connection with the PORTS-Pike Technology Campus, our subsidiary has entered into a phased lease with the DOE at the DOE Portsmouth Site.",
+   "retrieved": "2026-09-23",
+   "id": "oh-ports-doe-lease",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "",
+   "summary": "SB Energy's subsidiary holds a phased lease with the U.S. Department of Energy at the DOE Portsmouth Site in Pike County, Ohio. The campus is designed as 17 data center buildings aggregating approximately 8.0 GW-IT of critical IT capacity, representing 10 GW of gross power load. First phase targets commencement of operations in 2028.",
+   "notes": "Site sits at the confluence of seven major high-voltage transmission lines; that capacity was available in part because of the retirement of the DOE's Portsmouth Gaseous Diffusion Plant. Campus occupies roughly 640 acres of the 3,775-acre DOE site (acreage from secondary sources, not the filing). DOE previously listed the plant among 16 federal sites for rapid data center construction. Groundbreaking ceremony March 20, 2026.",
+   "confidence_note": "Filing read in original. Acreage and groundbreaking date are from secondary coverage and are not verified against the filing.",
+   "tags": [
+    "federal-land",
+    "doe-lease",
+    "openai",
+    "fast-41"
+   ],
+   "jurisdiction": "us-oh-pike-county",
+   "instrument": "SB Energy, Inc. Form S-1/A Amendment No. 2 (Reg. No. 333-298675)",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "primary",
+    "citation": "SB Energy, Inc., Form S-1/A Amendment No. 2, filed September 21, 2026 (Reg. No. 333-298675)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002133037/000162828026062846/sbenergy-sx1a2.htm"
+   },
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "state": "OH",
+   "jurisdiction_name": "Pike County",
+   "_path": "entries/OH/us-oh-pike-county/oh-ports-doe-lease.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "Data Center Contracted Portfolio, note (2)",
+   "text": "Planned gas-fired generation facilities not owned by the Company. Gas-fired generation facilities not yet financed, constructed or contracted and subject to permits and approvals.",
+   "retrieved": "2026-09-23",
+   "id": "oh-ports-generation-status",
+   "mechanism": "generation",
+   "status": "proposed",
+   "effective": "",
+   "summary": "The approximately 9.2 GW of gas-fired generation intended to serve the PORTS-Pike campus is not owned by SB Energy and is not yet financed, constructed or contracted, and remains subject to permits and approvals.",
+   "notes": "The filing also states: 'We are developing and will own and operate the data center site, but we do not expect to own or operate the gas-fired generation facilities.' Risk factors state development 'may be affected by the timely funding and commissioning of approximately 9.2 GW of generation under the U.S.-Japan Partnership, which may be delayed, reduced or withdrawn.' The generation is developed by an affiliate of SoftBank that is not an SB Energy subsidiary; air and wastewater permits are that developer's responsibility. Project materials elsewhere describe the generation as to be owned by the U.S. government; the filing states no binding or non-binding agreement has been executed with any governmental entity on funding, construction, ownership or operation. DISPUTED as to ownership.",
+   "confidence_note": "Read in original. Ownership of the generation is unresolved across the filing and the project's public materials.",
+   "tags": [
+    "behind-the-meter",
+    "unfinanced",
+    "disputed",
+    "us-japan-partnership"
+   ],
+   "jurisdiction": "us-oh-pike-county",
+   "instrument": "SB Energy, Inc. Form S-1/A Amendment No. 2 (Reg. No. 333-298675)",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "primary",
+    "citation": "SB Energy, Inc., Form S-1/A Amendment No. 2, filed September 21, 2026 (Reg. No. 333-298675)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002133037/000162828026062846/sbenergy-sx1a2.htm"
+   },
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "state": "OH",
+   "jurisdiction_name": "Pike County",
+   "_path": "entries/OH/us-oh-pike-county/oh-ports-generation-status.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "Summary Risk Factors \u2014 Risks Related to Governmental Regulation",
+   "text": "State regulatory and environmental permitting could delay projects, the evolving AI regulatory landscape could adversely affect our business, including through potential bans or moratoria regarding data center development, and environmental, health and safety laws could result in liabilities.",
+   "retrieved": "2026-09-23",
+   "id": "oh-ports-moratorium-risk-disclosure",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-09-21",
+   "summary": "SB Energy's registration statement lists data center bans and moratoria among the regulatory risks that could adversely affect its business, alongside state permitting and the evolving AI regulatory landscape.",
+   "notes": "A developer of an 8.0 GW-IT campus identifying local moratoria as a material risk in an SEC filing.",
+   "confidence_note": "Read in original. Status 'adopted' reflects that the filing exists, not that any instrument was enacted.",
+   "tags": [
+    "risk-disclosure",
+    "moratoria",
+    "sec-filing"
+   ],
+   "jurisdiction": "us-oh-pike-county",
+   "instrument": "SB Energy, Inc. Form S-1/A Amendment No. 2 (Reg. No. 333-298675)",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "primary",
+    "citation": "SB Energy, Inc., Form S-1/A Amendment No. 2, filed September 21, 2026 (Reg. No. 333-298675)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002133037/000162828026062846/sbenergy-sx1a2.htm"
+   },
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "state": "OH",
+   "jurisdiction_name": "Pike County",
+   "_path": "entries/OH/us-oh-pike-county/oh-ports-moratorium-risk-disclosure.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "Prospectus Summary \u2014 Recent Developments",
+   "text": "Rent commencement for each phase and the tenant's associated obligations are conditioned on satisfaction of the applicable RFS conditions, including completion and availability of the interconnection facilities and generation resources necessary to serve the contracted load, as well as substantial completion and commissioning of the applicable buildings.",
+   "retrieved": "2026-09-23",
+   "id": "oh-ports-openai-leases",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-08-17",
+   "summary": "On August 17, 2026, 17 SB Energy subsidiaries as landlords and an affiliate of OpenAI as tenant entered into individual leases covering approximately 8.0 GW-IT of critical IT capacity. Each lease has a 20-year initial term with four five-year extension options, structured as triple-net with yield-on-cost rent and phased commencement tied to ready-for-service conditions.",
+   "notes": "Buildings 1-9: 4,248 MW-IT, last RFS 2031. Buildings 10-17: 3,776 MW-IT, last RFS 2032. NVIDIA provided residual value guaranties on the initial ~4.25 GW-IT at an aggregate guaranteed value of $105 billion, with a discretionary option on the remaining 3.78 GW-IT; if NVIDIA declines, OpenAI must secure a replacement guarantor rated at least A-. PORTS constitutes all contracted-but-not-under-construction capacity and a substantial majority of a ~$439 billion total backlog.",
+   "confidence_note": "Read in original.",
+   "tags": [
+    "openai",
+    "nvidia",
+    "triple-net",
+    "20-year"
+   ],
+   "jurisdiction": "us-oh-pike-county",
+   "instrument": "SB Energy, Inc. Form S-1/A Amendment No. 2 (Reg. No. 333-298675)",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "primary",
+    "citation": "SB Energy, Inc., Form S-1/A Amendment No. 2, filed September 21, 2026 (Reg. No. 333-298675)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002133037/000162828026062846/sbenergy-sx1a2.htm"
+   },
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "state": "OH",
+   "jurisdiction_name": "Pike County",
+   "_path": "entries/OH/us-oh-pike-county/oh-ports-openai-leases.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "oh-ports-opsb-siting-case",
+   "jurisdiction": "us-oh-pike-county",
+   "instrument": "Ohio Power Siting Board case 26-0746-EL-BGN (applicant Portsmouth Gas DevCo, LLC)",
+   "mechanism": "generation",
+   "status": "proposed",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "The Ohio Power Siting Board case covering generation for the PORTS-Pike campus addresses only a first tranche of up to 2 gigawatts, against approximately 9.2 GW announced.",
+   "notes": "Applicant is Portsmouth Gas DevCo, LLC, an entity distinct from SB Energy. AEP Ohio transmission is a separate docket.",
+   "confidence_note": "Case number and scope relayed from a secondary tracker; the OPSB docket has not been read. Pull the case from the OPSB docketing system.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Compute Atlas facility record, citing OPSB case 26-0746-EL-BGN"
+   },
+   "tags": [
+    "opsb",
+    "2-gw",
+    "permitted-vs-announced"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "OH",
+   "jurisdiction_name": "Pike County",
+   "_path": "entries/OH/us-oh-pike-county/oh-ports-opsb-siting-case.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "Data Center Contracted Portfolio, note (1)",
+   "text": "Utility service agreements for 9.2 GW capacity are subject to final regulatory approvals.",
+   "retrieved": "2026-09-23",
+   "id": "oh-ports-utility-service-approval",
+   "mechanism": "utility-service",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Utility service agreements for 9.2 GW of capacity serving the PORTS-Pike campus remain subject to final regulatory approvals.",
+   "notes": "AEP Ohio transmission investment is stated as $4.2 billion by DOE and approximately $5.1 billion in the S-1; unreconciled. New 765 kV line and four substations are a separate docket.",
+   "confidence_note": "Read in original. The transmission capex discrepancy is from secondary comparison and not resolved.",
+   "tags": [
+    "aep-ohio",
+    "765kv",
+    "pending-approval"
+   ],
+   "jurisdiction": "us-oh-pike-county",
+   "instrument": "SB Energy, Inc. Form S-1/A Amendment No. 2 (Reg. No. 333-298675)",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "primary",
+    "citation": "SB Energy, Inc., Form S-1/A Amendment No. 2, filed September 21, 2026 (Reg. No. 333-298675)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002133037/000162828026062846/sbenergy-sx1a2.htm"
+   },
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "state": "OH",
+   "jurisdiction_name": "Pike County",
+   "_path": "entries/OH/us-oh-pike-county/oh-ports-utility-service-approval.json"
   },
   {
    "id": "oh-aep-tariff-minimum-demand",
@@ -2082,6 +2590,66 @@
    "state": "OK",
    "jurisdiction_name": "City of Tulsa",
    "_path": "entries/OK/us-ok-tulsa/ok-tulsa-data-center-moratorium.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "or-cws-industrial-user-billing",
+   "instrument": "Clean Water Services rates and charges (industrial user billing)",
+   "mechanism": "rate-allocation",
+   "status": "adopted",
+   "effective": "",
+   "summary": "The District bills and collects for sewer services to permitted industrial users in its service area and remits to each city an agreed percentage of the wastewater volume charge for industrial users within that city.",
+   "notes": "Means the District sees permitted industrial dischargers directly through the industrial permit, independent of a city's capacity projections. Corrects an earlier working assumption that city projections were the only path.",
+   "confidence_note": "Taken from the District's published rates and charges document; page and effective date not captured.",
+   "tags": [
+    "industrial-billing",
+    "remittance"
+   ],
+   "jurisdiction": "us-or-clean-water-services",
+   "freshness": "LIVE",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "source": {
+    "kind": "primary",
+    "citation": "Clean Water Services Board of Directors agenda packet, September 22, 2026 (City of Sherwood operating intergovernmental agreement)"
+   },
+   "state": "OR",
+   "jurisdiction_name": "Clean Water Services",
+   "_path": "entries/OR/us-or-clean-water-services/or-cws-industrial-user-billing.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "or-cws-sherwood-iga-industrial-projections",
+   "instrument": "Clean Water Services - City of Sherwood operating intergovernmental agreement (September 22, 2026)",
+   "mechanism": "utility-service",
+   "status": "adopted",
+   "effective": "2026-09-22",
+   "summary": "Under the operating IGA, the city is responsible for making projections for population growth and industrial development to support the District's modeling of future regional capacity needs. The District retains regulatory authority and holds the integrated watershed permit; pretreatment permit determinations follow 40 CFR 403.8(f)(2). The agreement runs five years.",
+   "notes": "Mechanism by which a large industrial load reaches regional wastewater capacity planning: through the city's projections, years before any permit. Sherwood's council approved the agreement unanimously on September 1. Parallel agreements with Banks and Tigard were on the same agenda. Hillsboro is not among the cities updated; its operating IGA has not been obtained.",
+   "confidence_note": "Read from the board agenda packet, which contains the agreement; the executed instrument has not been separately obtained. Hillsboro's equivalent clause is unknown.",
+   "tags": [
+    "wastewater",
+    "capacity-planning",
+    "pretreatment",
+    "sherwood"
+   ],
+   "jurisdiction": "us-or-clean-water-services",
+   "freshness": "LIVE",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "source": {
+    "kind": "primary",
+    "citation": "Clean Water Services Board of Directors agenda packet, September 22, 2026 (City of Sherwood operating intergovernmental agreement)"
+   },
+   "state": "OR",
+   "jurisdiction_name": "Clean Water Services",
+   "_path": "entries/OR/us-or-clean-water-services/or-cws-sherwood-iga-industrial-projections.json"
   },
   {
    "id": "or-forest-grove-sdr-criteria-exclude-power-water",
@@ -2463,26 +3031,27 @@
    "operator": "MLawrence",
    "section": "",
    "text": "",
-   "retrieved": "2026-09-22",
+   "retrieved": "2026-09-23",
    "id": "or-salem-data-center-moratorium",
-   "instrument": "Salem City Council data center moratorium",
+   "jurisdiction": "us-or-salem",
+   "instrument": "City of Salem data center moratorium",
    "mechanism": "use-permission",
-   "status": "proposed",
-   "effective": "",
-   "summary": "The Council unanimously initiated a temporary moratorium process on new data center applications on August 3 2026; the City Attorney said the pause would need at least 120 days and could extend to six months. A final hearing was held September 21 2026; reporting ahead of it described a pause to January 19 2027.",
-   "notes": "Verrus (Oakline at Mill Creek, $5.1B, 75 acres) filed before the vote; its application remains under current code. Governor Kotek ordered the state land sale for the project withdrawn. Update status once the September 21 outcome is confirmed.",
-   "confidence_note": "Relayed; ordinance not read and final vote not confirmed at retrieval.",
+   "status": "adopted",
+   "effective": "2026-09-21",
+   "freshness": "LIVE",
+   "summary": "The council gave final approval on September 21, 2026 to a 120-day moratorium on data center development, expiring January 19, 2027.",
+   "notes": "SUPERSEDES the prior proposed-status entry. Process initiated unanimously August 3; the City Attorney advised the pause needed at least 120 days and could extend to about six months. Verrus (Oakline at Mill Creek) filed before the vote and its application remains under current code. The council's Data Center Task Force, created July 27, delivers recommendations to council in December 2026.",
+   "confidence_note": "Relayed; the adopted ordinance has not been read.",
    "source": {
     "kind": "secondary",
-    "citation": "KATU; Salem Reporter via Let's Data Science; OPB Think Out Loud"
+    "citation": "Salem Reporter; KATU, September 22 2026"
    },
    "tags": [
-    "moratorium",
+    "120-day",
+    "2027-01-19",
     "verrus",
-    "2027-01-19"
+    "task-force"
    ],
-   "jurisdiction": "us-or-salem",
-   "freshness": "LIVE",
    "origin": "RELAYED",
    "entry_state": "NOT_CHECKED",
    "state": "OR",
@@ -3032,6 +3601,35 @@
    "operator": "MLawrence",
    "section": "",
    "text": "",
+   "retrieved": "2026-09-23",
+   "id": "sc-greenwood-county-moratorium",
+   "jurisdiction": "us-sc-greenwood-county",
+   "instrument": "Greenwood County data center moratorium ordinance",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "A one-year moratorium advanced 4-3 on second reading. County officials disclosed that three companies had approached the county with proposals reported at $30 to $40 million a year.",
+   "notes": "Third reading pending.",
+   "confidence_note": "Relayed; ordinance not read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "South Carolina reporting, September 2026"
+   },
+   "tags": [
+    "one-year",
+    "second-reading"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "SC",
+   "jurisdiction_name": "Greenwood County",
+   "_path": "entries/SC/us-sc-greenwood-county/sc-greenwood-county-moratorium.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
    "retrieved": "2026-09-22",
    "id": "sc-spartanburg-county-moratorium",
    "jurisdiction": "us-sc-spartanburg-county",
@@ -3390,25 +3988,25 @@
    "operator": "MLawrence",
    "section": "",
    "text": "",
-   "retrieved": "2026-09-22",
+   "retrieved": "2026-09-23",
    "id": "tx-governor-aug3-queue-audit",
    "jurisdiction": "us-tx-state",
-   "instrument": "Governor's directive to PUCT and ERCOT, August 3 2026",
+   "instrument": "Governor's directive to the Public Utility Commission of Texas and ERCOT, August 3, 2026",
    "mechanism": "process",
    "status": "adopted",
    "effective": "2026-08-03",
    "freshness": "LIVE",
-   "summary": "Directs the PUCT and ERCOT to audit every data center project in the ERCOT interconnection queue before more move forward. Projects disclose public incentives (tax breaks, grants, abatements), projected annual and peak power and grid share, water use, sources and cooling method, on-site generation, community impacts and ownership.",
-   "notes": "The audit duration is not specified, and whether results will be published is open. The governor's letter reportedly puts the queue at 474 GW, about 90 percent data centers.",
-   "confidence_note": "Directive text not read; relayed from law firm summaries and CBS. Confirm the 474 GW and 90 percent figures against the letter.",
+   "summary": "Directs the PUCT chairman and the ERCOT chief executive to conduct a comprehensive verification and audit of all data centers advancing through ERCOT's interconnection process before any additional data centers are approved to move forward, and states that any project found in violation of Commission, ERCOT or state-law requirements must be denied connection to the Texas grid. The stated reason is the failure of some data centers to comply with the Commission's survey measuring water and power usage.",
+   "notes": "CORRECTION, supersedes the prior version of this entry: the directive is a compliance audit, not a disclosure regime. The water-and-power disclosure is the separate PUCT survey conducted under the General Appropriations Act; non-compliance with that survey is what the letter cites as making the audit necessary. Queue reported at roughly 474 GW across more than 1,800 projects, about 90 percent data centers, against a record peak demand of 91,089 MW set July 22, 2026.",
+   "confidence_note": "The letter has not been read in original; contents are from law-firm alerts and contemporaneous reporting. Confirm the 474 GW and 90 percent figures against the letter.",
    "source": {
     "kind": "secondary",
-    "citation": "Greenberg Traurig; Foley & Lardner; CBS News 60 Minutes, September 20 2026"
+    "citation": "Greenberg Traurig and Foley & Lardner client alerts; CBS News, September 20 2026"
    },
    "tags": [
     "audit",
-    "disclosure",
-    "interconnection-queue"
+    "interconnection-queue",
+    "correction"
    ],
    "origin": "RELAYED",
    "entry_state": "NOT_CHECKED",
@@ -3444,6 +4042,215 @@
    "state": "TX",
    "jurisdiction_name": "State of Texas",
    "_path": "entries/TX/us-tx-state/tx-sb6-site-control.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "tx-twdb-water-survey-directive",
+   "jurisdiction": "us-tx-state",
+   "instrument": "Governor's directive to the Texas Water Development Board, September 14, 2026",
+   "mechanism": "water",
+   "status": "adopted",
+   "effective": "2026-09-14",
+   "freshness": "LIVE",
+   "summary": "Directs the Water Development Board to compel compliance with its large water user survey and impose consequences for past and future failures, including civil penalties, ineligibility for permits and criminal charges, and to coordinate with ERCOT's interconnection audit. A compliance update was requested by October 14, 2026.",
+   "notes": "The board has surveyed users of more than 10 million gallons a year annually since 2020, asking annual volume, self-supplied or purchased, source, and on-site generation; it does not ask what cooling technology is used. Response rates: 22 data centers surveyed in 2023, 32 percent responded; 67 surveyed in 2024, 28 percent responded. Non-response is a Class C misdemeanor, but the board has said it is a non-regulatory agency without authority to prosecute, which sits with district attorneys and local law enforcement, and that it does not track fines issued.",
+   "confidence_note": "Directive not read in original. Survey mechanics and response rates from Texas Tribune reporting on agency records.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Texas Tribune, September 2026"
+   },
+   "tags": [
+    "water-survey",
+    "enforcement-gap",
+    "october-14"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "TX",
+   "jurisdiction_name": "State of Texas",
+   "_path": "entries/TX/us-tx-state/tx-twdb-water-survey-directive.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "us-house-ratepayer-protection-act",
+   "jurisdiction": "us-federal",
+   "instrument": "Ratepayer Protection Act, as passed by the U.S. House of Representatives",
+   "mechanism": "rate-allocation",
+   "status": "proposed",
+   "effective": "2026-09-16",
+   "freshness": "LIVE",
+   "summary": "The House passed the Ratepayer Protection Act 417-3 on September 16, 2026, directing states to consider standards ensuring that data centers cover their own grid-upgrade costs.",
+   "notes": "Senate action unknown. The vote margin is notable given the contested nature of the subject at state and local level.",
+   "confidence_note": "Relayed; the bill text and roll call have not been read. Confirm the bill number and Senate status before citing.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Congressional reporting, September 2026"
+   },
+   "tags": [
+    "federal",
+    "417-3",
+    "cost-allocation"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "US",
+   "jurisdiction_name": "United States (federal)",
+   "_path": "entries/US/us-federal/us-house-ratepayer-protection-act.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "ut-box-elder-stratos-approval",
+   "jurisdiction": "us-ut-box-elder-county",
+   "instrument": "Box Elder County Commission approval, Stratos (O'Leary Digital)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-05-04",
+   "summary": "Box Elder County commissioners approved the Stratos data center project unanimously on May 4, 2026. The site is unincorporated land in Hansel Valley north of the Great Salt Lake, near Snowville.",
+   "notes": "Original proposal reported at roughly 40,000 acres and 7.5 to 9 GW.",
+   "confidence_note": "Relayed; the commission record has not been read.",
+   "tags": [
+    "stratos",
+    "oleary",
+    "unincorporated"
+   ],
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Utah news coverage, June 2026; Salt Lake Tribune, Deseret News and KSL reporting on the Stratos project"
+   },
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "UT",
+   "jurisdiction_name": "Box Elder County",
+   "_path": "entries/UT/us-ut-box-elder-county/ut-box-elder-stratos-approval.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "ut-stratos-resident-litigation",
+   "jurisdiction": "us-ut-box-elder-county",
+   "instrument": "Resident litigation challenging the Stratos approvals",
+   "mechanism": "litigation",
+   "status": "proposed",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "Residents have sued officials over the approval of the Stratos project. This is the first legal challenge to a data center approval recorded in the register.",
+   "notes": "Political context recorded separately: the Senate President who championed the approvals lost his primary on June 23, 2026 after more than twenty years in the legislature. Polling reported a shift from roughly seven in ten voters saying benefits did not outweigh resource costs in May to 60% opposition by late June, with Republican opposition rising from 36% to 49%.",
+   "confidence_note": "Relayed; no filing has been read. Case number unknown. Polling figures are from reporting and have not been traced to the underlying surveys.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Utah news coverage, June 2026"
+   },
+   "tags": [
+    "litigation",
+    "primary-loss",
+    "polling"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "UT",
+   "jurisdiction_name": "Box Elder County",
+   "_path": "entries/UT/us-ut-box-elder-county/ut-stratos-resident-litigation.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "ut-adams-demand-letter-stratos",
+   "jurisdiction": "us-ut-state",
+   "instrument": "Demand letter from the Utah Senate President to O'Leary Digital, June 1, 2026",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-06-01",
+   "summary": "The Senate President demanded a roughly 75% reduction in the project footprint, from about 40,000 acres to about 10,000; treatment and dedication of excess water to the Great Salt Lake; a conservation memorandum of understanding; heat-capture technology; and a public project website. The developer conceded in writing and removed 20,050 acres.",
+   "notes": "A stated position and negotiated concession, not an adopted ordinance. Recorded because the concession changed the project's footprint.",
+   "confidence_note": "Relayed from reporting; the letter and the developer's response have not been read in original.",
+   "tags": [
+    "demand-letter",
+    "footprint-reduction",
+    "great-salt-lake"
+   ],
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Utah news coverage, June 2026; Salt Lake Tribune, Deseret News and KSL reporting on the Stratos project"
+   },
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "UT",
+   "jurisdiction_name": "State of Utah",
+   "_path": "entries/UT/us-ut-state/ut-adams-demand-letter-stratos.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "ut-governor-stratos-phase-one-cap",
+   "jurisdiction": "us-ut-state",
+   "instrument": "Governor's cap on first-phase permit applications, Stratos",
+   "mechanism": "load-trigger",
+   "status": "adopted",
+   "effective": "",
+   "summary": "The Governor capped first-phase permit applications for the Stratos project at 1 GW, against an originally proposed 7.5 to 9 GW.",
+   "notes": "",
+   "confidence_note": "Relayed; the instrument imposing the cap has not been identified or read.",
+   "tags": [
+    "1-gw-cap",
+    "phase-one"
+   ],
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Utah news coverage, June 2026; Salt Lake Tribune, Deseret News and KSL reporting on the Stratos project"
+   },
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "UT",
+   "jurisdiction_name": "State of Utah",
+   "_path": "entries/UT/us-ut-state/ut-governor-stratos-phase-one-cap.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "ut-mida-stratos-project-area",
+   "jurisdiction": "us-ut-state",
+   "instrument": "Military Installation Development Authority project area approval (Hansel Valley)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "summary": "MIDA, a quasi-governmental authority, approved a project area of approximately 41,200 acres in Hansel Valley, Box Elder County, providing the zoning pathway for the Stratos data center campus. MIDA was chaired at the time by the Utah Senate President.",
+   "notes": "Approval reported in late April 2026. The MIDA route is an approval pathway not used by any other entry in the register; county zoning was not the controlling instrument.",
+   "confidence_note": "Relayed from reporting; the MIDA board action has not been read in original.",
+   "tags": [
+    "mida",
+    "project-area",
+    "41200-acres"
+   ],
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Utah news coverage, June 2026; Salt Lake Tribune, Deseret News and KSL reporting on the Stratos project"
+   },
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "UT",
+   "jurisdiction_name": "State of Utah",
+   "_path": "entries/UT/us-ut-state/ut-mida-stratos-project-area.json"
   },
   {
    "operator": "MLawrence",
@@ -4104,6 +4911,37 @@
    "_path": "entries/VA/us-va-loudoun-county/va-loudoun-pause-direction-2026-09-15.json"
   },
   {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "va-loudoun-pause-resolution",
+   "jurisdiction": "us-va-loudoun-county",
+   "instrument": "Loudoun County Board of Supervisors pause on legislative data center and substation applications",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "On September 16, 2026 the board voted 7-1-1 to direct staff to draft a resolution pausing new legislative data center and substation applications for up to 12 months. The final vote is set for October 20, 2026, with a retroactive effective date of September 15. A second 7-1-1 vote created an exception for grid-reliability substations and applications about to expire.",
+   "notes": "Umstattd opposed; Kershner abstained. The county attorney advised that an indefinite moratorium is not lawful in Virginia, making 12 months the statutory maximum. Existing permits and construction continue. As of March 1 the county reported 233 buildings built or under construction totaling about 56.5 million square feet, with another 35.7 million square feet approved but not built, and 21 legislative applications in process, roughly 13 affected by the pause. Data center taxes were reported at $1.2 billion, about 39% of the FY2026 county budget. The board also voted 9-0 to oppose the Valley North 765 kV transmission line. Separate track: the county attorney's grandfathering analysis is due October 6.",
+   "confidence_note": "Relayed; the draft resolution has not been read. Figures are from county reporting, not verified against county documents.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Loudoun Now; Virginia Business; local reporting, September 16-22 2026"
+   },
+   "tags": [
+    "12-month",
+    "october-20",
+    "retroactive",
+    "substations"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "VA",
+   "jurisdiction_name": "Loudoun County",
+   "_path": "entries/VA/us-va-loudoun-county/va-loudoun-pause-resolution.json"
+  },
+  {
    "id": "va-loudoun-pause-scope-and-tolling",
    "jurisdiction": "us-va-loudoun-county",
    "instrument": "Board direction of September 16 2026, as described by the Board Chair",
@@ -4191,6 +5029,37 @@
    "state": "VA",
    "jurisdiction_name": "Loudoun County",
    "_path": "entries/VA/us-va-loudoun-county/va-loudoun-zoam-2024-0001.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "va-prince-william-by-right-repeal",
+   "jurisdiction": "us-va-prince-william-county",
+   "instrument": "Prince William County zoning text amendment ending by-right data center development",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-09-22",
+   "freshness": "LIVE",
+   "summary": "The board voted unanimously on September 22, 2026 to end by-right data center approval countywide and shrink the Data Center Opportunity Zone Overlay District from roughly 9,700 acres to roughly 3,500. After the grace period, the overlay covers only land where data centers are built or where applications have been filed and accepted; all other projects require a special use permit with a public hearing and a board vote.",
+   "notes": "The overlay dates to May 2016. The planning commission recommended the amendment 5-3 on September 9 with a 120-day grace period and a 500-foot buffer from homes and schools, after an impasse over 180 days and 2,500 feet. CONFLICT: acreage reported as both 3,500 and 3,650, and the grace period as both 90 and 120 days. Resolve against the adopted text.",
+   "confidence_note": "Relayed; the adopted ordinance has not been read. The grace period matters because it sets the window in which a developer can still file under the old overlay.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Prince William Times; Patch; InsideNoVa, September 22-23 2026"
+   },
+   "tags": [
+    "by-right-repeal",
+    "overlay",
+    "grace-period",
+    "conflict"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "VA",
+   "jurisdiction_name": "Prince William County",
+   "_path": "entries/VA/us-va-prince-william-county/va-prince-william-by-right-repeal.json"
   },
   {
    "id": "va-pw-notice-void",
@@ -4985,6 +5854,36 @@
    "state": "VA",
    "jurisdiction_name": "Commonwealth of Virginia",
    "_path": "entries/VA/us-va-state/va-rogers-legislative-pause-distinction.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-23",
+   "id": "wa-federal-way-moratorium",
+   "jurisdiction": "us-wa-federal-way",
+   "instrument": "City of Federal Way data center moratorium",
+   "mechanism": "load-trigger",
+   "status": "adopted",
+   "effective": "",
+   "freshness": "LIVE",
+   "summary": "A 12-month moratorium applying to facilities at or above 1 MW or 4,000 square feet. Federal Way joins Seattle and Burien among Washington jurisdictions with pauses in force.",
+   "notes": "At 1 MW, this is the lowest capacity threshold recorded in the register; Dubuque's is 75 MW and Tucson's is 20 MW. The spread across instruments using the same term is a standing finding.",
+   "confidence_note": "Relayed; the ordinance has not been read.",
+   "source": {
+    "kind": "secondary",
+    "citation": "Washington state reporting, September 2026"
+   },
+   "tags": [
+    "1-mw",
+    "4000-sqft",
+    "lowest-threshold"
+   ],
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "state": "WA",
+   "jurisdiction_name": "City of Federal Way",
+   "_path": "entries/WA/us-wa-federal-way/wa-federal-way-moratorium.json"
   },
   {
    "id": "wa-grant-pud-assigned-load-limits",

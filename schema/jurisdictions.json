@@ -24,6 +24,11 @@
     "name": "Phoenix",
     "state": "AZ"
   },
+  "us-az-pima-county": {
+    "kind": "county",
+    "name": "Pima County",
+    "state": "AZ"
+  },
   "us-az-pinal-county": {
     "kind": "county",
     "name": "Pinal County",
@@ -39,6 +44,11 @@
     "name": "Tucson",
     "state": "AZ"
   },
+  "us-ca-hayward": {
+    "kind": "city",
+    "name": "City of Hayward",
+    "state": "CA"
+  },
   "us-ca-imperial-county": {
     "kind": "county",
     "name": "Imperial County",
@@ -49,10 +59,30 @@
     "name": "Richmond",
     "state": "CA"
   },
+  "us-ca-riverbank": {
+    "kind": "city",
+    "name": "City of Riverbank",
+    "state": "CA"
+  },
   "us-ca-state": {
     "kind": "state",
     "name": "State of California",
     "state": "CA"
+  },
+  "us-co-denver": {
+    "kind": "city",
+    "name": "City and County of Denver",
+    "state": "CO"
+  },
+  "us-federal": {
+    "kind": "federal",
+    "name": "United States (federal)",
+    "state": "US"
+  },
+  "us-fl-north-port": {
+    "kind": "city",
+    "name": "City of North Port",
+    "state": "FL"
   },
   "us-ga-atlanta": {
     "kind": "municipality",
@@ -62,6 +92,11 @@
   "us-ga-augusta": {
     "kind": "county",
     "name": "Augusta-Richmond County",
+    "state": "GA"
+  },
+  "us-ga-dekalb-county": {
+    "kind": "county",
+    "name": "DeKalb County",
     "state": "GA"
   },
   "us-ga-fayetteville": {
@@ -89,6 +124,11 @@
     "name": "Champaign County",
     "state": "IL"
   },
+  "us-il-chicago": {
+    "kind": "city",
+    "name": "City of Chicago",
+    "state": "IL"
+  },
   "us-il-normal": {
     "kind": "city",
     "name": "Town of Normal",
@@ -99,6 +139,11 @@
     "name": "Elkhart",
     "state": "IN"
   },
+  "us-in-fort-wayne": {
+    "kind": "city",
+    "name": "City of Fort Wayne",
+    "state": "IN"
+  },
   "us-in-grant-county": {
     "kind": "county",
     "name": "Grant County",
@@ -107,6 +152,11 @@
   "us-in-indianapolis": {
     "kind": "municipality",
     "name": "Indianapolis and Marion County",
+    "state": "IN"
+  },
+  "us-in-michigan-city": {
+    "kind": "city",
+    "name": "Michigan City",
     "state": "IN"
   },
   "us-md-baltimore-county": {
@@ -164,9 +214,19 @@
     "name": "Raleigh",
     "state": "NC"
   },
+  "us-nh-state": {
+    "kind": "state",
+    "name": "State of New Hampshire",
+    "state": "NH"
+  },
   "us-oh-aep-ohio": {
     "kind": "utility",
     "name": "AEP Ohio",
+    "state": "OH"
+  },
+  "us-oh-pike-county": {
+    "kind": "county",
+    "name": "Pike County",
     "state": "OH"
   },
   "us-oh-puco": {
@@ -188,6 +248,11 @@
     "kind": "city",
     "name": "City of Tulsa",
     "state": "OK"
+  },
+  "us-or-clean-water-services": {
+    "kind": "utility",
+    "name": "Clean Water Services",
+    "state": "OR"
   },
   "us-or-forest-grove": {
     "kind": "municipality",
@@ -234,6 +299,11 @@
     "name": "PJM Interconnection",
     "state": "XX"
   },
+  "us-sc-greenwood-county": {
+    "kind": "county",
+    "name": "Greenwood County",
+    "state": "SC"
+  },
   "us-sc-spartanburg-county": {
     "kind": "county",
     "name": "Spartanburg County",
@@ -264,6 +334,16 @@
     "name": "State of Texas",
     "state": "TX"
   },
+  "us-ut-box-elder-county": {
+    "kind": "county",
+    "name": "Box Elder County",
+    "state": "UT"
+  },
+  "us-ut-state": {
+    "kind": "state",
+    "name": "State of Utah",
+    "state": "UT"
+  },
   "us-va-dominion": {
     "kind": "utility",
     "name": "Dominion Energy Virginia",
@@ -288,6 +368,11 @@
     "kind": "state",
     "name": "Commonwealth of Virginia",
     "state": "VA"
+  },
+  "us-wa-federal-way": {
+    "kind": "city",
+    "name": "City of Federal Way",
+    "state": "WA"
   },
   "us-wa-grant-pud": {
     "kind": "utility",

@@ -1,0 +1,26 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-23",
+  "id": "nh-senate-2027-moratorium-plan",
+  "jurisdiction": "us-nh-state",
+  "instrument": "New Hampshire Senate President announcement on 2027 data center legislation",
+  "mechanism": "use-permission",
+  "status": "proposed",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "On September 18, 2026 the Senate President announced that the Republican-majority Senate will pursue AI data center moratorium legislation in the 2027 session.",
+  "notes": "Stated legislative intent, not a filed bill.",
+  "confidence_note": "Relayed; no bill text exists yet.",
+  "source": {
+    "kind": "secondary",
+    "citation": "New Hampshire reporting, September 18 2026"
+  },
+  "tags": [
+    "2027-session",
+    "stated-intent"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

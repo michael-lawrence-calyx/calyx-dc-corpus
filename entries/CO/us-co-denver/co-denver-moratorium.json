@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-23",
+  "id": "co-denver-moratorium",
+  "jurisdiction": "us-co-denver",
+  "instrument": "City and County of Denver data center moratorium",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "A one-year moratorium on accepting, processing or approving data center zoning and site development permits. Telecommunications-focused facilities and already-permitted work are exempt; CoreSite's DE3 project continues.",
+  "notes": "",
+  "confidence_note": "Relayed; the ordinance has not been read and the effective date is not confirmed.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Denver reporting, September 2026"
+  },
+  "tags": [
+    "one-year",
+    "telecom-exempt",
+    "coresite"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

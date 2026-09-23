@@ -1,0 +1,26 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-23",
+  "id": "ga-dekalb-county-moratorium-extension",
+  "jurisdiction": "us-ga-dekalb-county",
+  "instrument": "DeKalb County data center moratorium extension",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "The county extended its data center moratorium to June 23, 2027 on a substitute motion, with rules and regulations to be voted on separately.",
+  "notes": "",
+  "confidence_note": "Relayed; the adopted extension has not been read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Georgia reporting, September 2026"
+  },
+  "tags": [
+    "extension",
+    "2027-06-23"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

@@ -2,26 +2,26 @@
   "operator": "MLawrence",
   "section": "",
   "text": "",
-  "retrieved": "2026-09-22",
+  "retrieved": "2026-09-23",
   "id": "in-indianapolis-mdc-moratorium",
   "jurisdiction": "us-in-indianapolis",
-  "instrument": "Indianapolis Metropolitan Development Commission data center moratorium",
+  "instrument": "Indianapolis data center moratorium (City-County Council and Metropolitan Development Commission)",
   "mechanism": "use-permission",
   "status": "adopted",
   "effective": "",
   "freshness": "LIVE",
-  "summary": "The MDC approved a moratorium 6-0 through December 31 2027. Three approved projects proceed (Decatur Township, Martindale-Brightwood, former Ford Visteon on Fintail Drive). The Department of Metropolitan Development will retain a consultant and seat an Advisory Committee to draft standards.",
-  "notes": "Framework-shaped opening: consultant plus advisory committee. Indiana context per IU Environmental Resilience Institute: 11 counties with ordinances, at least 17 moratoria, 2 bans (Marshall, Cass).",
-  "confidence_note": "Relayed; resolution not read.",
+  "summary": "A moratorium on new data center approvals running through December 31, 2027. Three approved projects proceed. The Department of Metropolitan Development is to retain a consultant and seat an Advisory Committee to draft standards.",
+  "notes": "CONFLICT on the instrument: one account records a 6-0 Metropolitan Development Commission approval; another records the pause becoming binding by a 23-1 City-County Council vote on August 10, 2026, ratified by the MDC on August 19. Exempt projects are described variously as Decatur Township, Martindale-Brightwood and the former Ford Visteon site on Fintail Drive, and as DC Blox, Metrobloks and Sabey. Same pause, unreconciled instrument and vote. Indiana context per IU Environmental Resilience Institute: 11 counties with ordinances, at least 17 moratoria, 2 bans (Marshall, Cass).",
+  "confidence_note": "Both accounts relayed; neither the council proposal nor the MDC record has been read. Resolve before citing the vote.",
   "source": {
     "kind": "secondary",
-    "citation": "Fox59; IPR/WBOI citing IU ERI"
+    "citation": "Fox59; datacenterbans.com; IPR/WBOI citing IU ERI"
   },
   "tags": [
-    "moratorium",
     "2027-12-31",
     "consultant",
-    "advisory-committee"
+    "advisory-committee",
+    "disputed-instrument"
   ],
   "origin": "RELAYED",
   "entry_state": "NOT_CHECKED"

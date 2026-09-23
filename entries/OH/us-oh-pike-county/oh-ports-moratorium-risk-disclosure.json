@@ -1,0 +1,28 @@
+{
+  "operator": "MLawrence",
+  "section": "Summary Risk Factors — Risks Related to Governmental Regulation",
+  "text": "State regulatory and environmental permitting could delay projects, the evolving AI regulatory landscape could adversely affect our business, including through potential bans or moratoria regarding data center development, and environmental, health and safety laws could result in liabilities.",
+  "retrieved": "2026-09-23",
+  "id": "oh-ports-moratorium-risk-disclosure",
+  "mechanism": "process",
+  "status": "adopted",
+  "effective": "2026-09-21",
+  "summary": "SB Energy's registration statement lists data center bans and moratoria among the regulatory risks that could adversely affect its business, alongside state permitting and the evolving AI regulatory landscape.",
+  "notes": "A developer of an 8.0 GW-IT campus identifying local moratoria as a material risk in an SEC filing.",
+  "confidence_note": "Read in original. Status 'adopted' reflects that the filing exists, not that any instrument was enacted.",
+  "tags": [
+    "risk-disclosure",
+    "moratoria",
+    "sec-filing"
+  ],
+  "jurisdiction": "us-oh-pike-county",
+  "instrument": "SB Energy, Inc. Form S-1/A Amendment No. 2 (Reg. No. 333-298675)",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "primary",
+    "citation": "SB Energy, Inc., Form S-1/A Amendment No. 2, filed September 21, 2026 (Reg. No. 333-298675)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002133037/000162828026062846/sbenergy-sx1a2.htm"
+  },
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED"
+}

@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-23",
+  "id": "us-house-ratepayer-protection-act",
+  "jurisdiction": "us-federal",
+  "instrument": "Ratepayer Protection Act, as passed by the U.S. House of Representatives",
+  "mechanism": "rate-allocation",
+  "status": "proposed",
+  "effective": "2026-09-16",
+  "freshness": "LIVE",
+  "summary": "The House passed the Ratepayer Protection Act 417-3 on September 16, 2026, directing states to consider standards ensuring that data centers cover their own grid-upgrade costs.",
+  "notes": "Senate action unknown. The vote margin is notable given the contested nature of the subject at state and local level.",
+  "confidence_note": "Relayed; the bill text and roll call have not been read. Confirm the bill number and Senate status before citing.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Congressional reporting, September 2026"
+  },
+  "tags": [
+    "federal",
+    "417-3",
+    "cost-allocation"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

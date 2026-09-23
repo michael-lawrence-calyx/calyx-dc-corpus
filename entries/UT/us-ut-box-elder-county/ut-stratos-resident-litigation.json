@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-23",
+  "id": "ut-stratos-resident-litigation",
+  "jurisdiction": "us-ut-box-elder-county",
+  "instrument": "Resident litigation challenging the Stratos approvals",
+  "mechanism": "litigation",
+  "status": "proposed",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "Residents have sued officials over the approval of the Stratos project. This is the first legal challenge to a data center approval recorded in the register.",
+  "notes": "Political context recorded separately: the Senate President who championed the approvals lost his primary on June 23, 2026 after more than twenty years in the legislature. Polling reported a shift from roughly seven in ten voters saying benefits did not outweigh resource costs in May to 60% opposition by late June, with Republican opposition rising from 36% to 49%.",
+  "confidence_note": "Relayed; no filing has been read. Case number unknown. Polling figures are from reporting and have not been traced to the underlying surveys.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Utah news coverage, June 2026"
+  },
+  "tags": [
+    "litigation",
+    "primary-loss",
+    "polling"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

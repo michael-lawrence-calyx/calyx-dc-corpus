@@ -2,24 +2,24 @@
   "operator": "MLawrence",
   "section": "",
   "text": "",
-  "retrieved": "2026-09-22",
+  "retrieved": "2026-09-23",
   "id": "il-normal-moratorium-extension",
   "jurisdiction": "us-il-normal",
   "instrument": "Town of Normal data center moratorium extension",
   "mechanism": "use-permission",
-  "status": "proposed",
-  "effective": "",
+  "status": "adopted",
+  "effective": "2026-09-21",
   "freshness": "LIVE",
-  "summary": "The Normal Town Council considered extending its data center moratorium from November 2026 to May 2027 to await state data center legislation (the 'Power Act').",
-  "notes": "Vote held September 21 2026; outcome not confirmed at retrieval. Update status after confirming.",
-  "confidence_note": "Relayed from reporting before the vote.",
+  "summary": "The council voted 6-1 on September 21, 2026 to extend the data center moratorium to May 31, 2027, to await state data center legislation.",
+  "notes": "SUPERSEDES the prior proposed-status entry. Staff reported reviewing other jurisdictions' ordinances, including Aurora and Champaign County, while drafting.",
+  "confidence_note": "Relayed; the adopted extension has not been read.",
   "source": {
     "kind": "secondary",
-    "citation": "Local reporting, September 21 2026"
+    "citation": "Central Illinois reporting, September 22 2026"
   },
   "tags": [
-    "moratorium",
     "extension",
+    "2027-05-31",
     "state-legislation"
   ],
   "origin": "RELAYED",

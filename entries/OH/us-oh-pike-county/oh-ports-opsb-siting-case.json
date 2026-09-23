@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-23",
+  "id": "oh-ports-opsb-siting-case",
+  "jurisdiction": "us-oh-pike-county",
+  "instrument": "Ohio Power Siting Board case 26-0746-EL-BGN (applicant Portsmouth Gas DevCo, LLC)",
+  "mechanism": "generation",
+  "status": "proposed",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "The Ohio Power Siting Board case covering generation for the PORTS-Pike campus addresses only a first tranche of up to 2 gigawatts, against approximately 9.2 GW announced.",
+  "notes": "Applicant is Portsmouth Gas DevCo, LLC, an entity distinct from SB Energy. AEP Ohio transmission is a separate docket.",
+  "confidence_note": "Case number and scope relayed from a secondary tracker; the OPSB docket has not been read. Pull the case from the OPSB docketing system.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Compute Atlas facility record, citing OPSB case 26-0746-EL-BGN"
+  },
+  "tags": [
+    "opsb",
+    "2-gw",
+    "permitted-vs-announced"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

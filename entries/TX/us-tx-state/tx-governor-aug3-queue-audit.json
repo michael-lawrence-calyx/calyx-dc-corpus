@@ -2,25 +2,25 @@
   "operator": "MLawrence",
   "section": "",
   "text": "",
-  "retrieved": "2026-09-22",
+  "retrieved": "2026-09-23",
   "id": "tx-governor-aug3-queue-audit",
   "jurisdiction": "us-tx-state",
-  "instrument": "Governor's directive to PUCT and ERCOT, August 3 2026",
+  "instrument": "Governor's directive to the Public Utility Commission of Texas and ERCOT, August 3, 2026",
   "mechanism": "process",
   "status": "adopted",
   "effective": "2026-08-03",
   "freshness": "LIVE",
-  "summary": "Directs the PUCT and ERCOT to audit every data center project in the ERCOT interconnection queue before more move forward. Projects disclose public incentives (tax breaks, grants, abatements), projected annual and peak power and grid share, water use, sources and cooling method, on-site generation, community impacts and ownership.",
-  "notes": "The audit duration is not specified, and whether results will be published is open. The governor's letter reportedly puts the queue at 474 GW, about 90 percent data centers.",
-  "confidence_note": "Directive text not read; relayed from law firm summaries and CBS. Confirm the 474 GW and 90 percent figures against the letter.",
+  "summary": "Directs the PUCT chairman and the ERCOT chief executive to conduct a comprehensive verification and audit of all data centers advancing through ERCOT's interconnection process before any additional data centers are approved to move forward, and states that any project found in violation of Commission, ERCOT or state-law requirements must be denied connection to the Texas grid. The stated reason is the failure of some data centers to comply with the Commission's survey measuring water and power usage.",
+  "notes": "CORRECTION, supersedes the prior version of this entry: the directive is a compliance audit, not a disclosure regime. The water-and-power disclosure is the separate PUCT survey conducted under the General Appropriations Act; non-compliance with that survey is what the letter cites as making the audit necessary. Queue reported at roughly 474 GW across more than 1,800 projects, about 90 percent data centers, against a record peak demand of 91,089 MW set July 22, 2026.",
+  "confidence_note": "The letter has not been read in original; contents are from law-firm alerts and contemporaneous reporting. Confirm the 474 GW and 90 percent figures against the letter.",
   "source": {
     "kind": "secondary",
-    "citation": "Greenberg Traurig; Foley & Lardner; CBS News 60 Minutes, September 20 2026"
+    "citation": "Greenberg Traurig and Foley & Lardner client alerts; CBS News, September 20 2026"
   },
   "tags": [
     "audit",
-    "disclosure",
-    "interconnection-queue"
+    "interconnection-queue",
+    "correction"
   ],
   "origin": "RELAYED",
   "entry_state": "NOT_CHECKED"

@@ -1,0 +1,26 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-23",
+  "id": "in-michigan-city-moratorium-tabled",
+  "jurisdiction": "us-in-michigan-city",
+  "instrument": "Michigan City data center moratorium and zoning review",
+  "mechanism": "use-permission",
+  "status": "void",
+  "effective": "2026-09-15",
+  "freshness": "LIVE",
+  "summary": "The council voted 8-1 on September 15, 2026 to table the proposed moratorium indefinitely, including the accompanying zoning review.",
+  "notes": "Recorded as void because the instrument was tabled indefinitely rather than adopted, lapsed or rejected outright. Second of two reversals recorded this week.",
+  "confidence_note": "Relayed; the council record has not been read. If the loader's enum treats 'void' differently, reclassify.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Indiana reporting, September 2026"
+  },
+  "tags": [
+    "tabled",
+    "reversal"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

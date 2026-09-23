@@ -1,0 +1,28 @@
+{
+  "operator": "MLawrence",
+  "section": "Data Center Contracted Portfolio, note (1)",
+  "text": "Utility service agreements for 9.2 GW capacity are subject to final regulatory approvals.",
+  "retrieved": "2026-09-23",
+  "id": "oh-ports-utility-service-approval",
+  "mechanism": "utility-service",
+  "status": "proposed",
+  "effective": "",
+  "summary": "Utility service agreements for 9.2 GW of capacity serving the PORTS-Pike campus remain subject to final regulatory approvals.",
+  "notes": "AEP Ohio transmission investment is stated as $4.2 billion by DOE and approximately $5.1 billion in the S-1; unreconciled. New 765 kV line and four substations are a separate docket.",
+  "confidence_note": "Read in original. The transmission capex discrepancy is from secondary comparison and not resolved.",
+  "tags": [
+    "aep-ohio",
+    "765kv",
+    "pending-approval"
+  ],
+  "jurisdiction": "us-oh-pike-county",
+  "instrument": "SB Energy, Inc. Form S-1/A Amendment No. 2 (Reg. No. 333-298675)",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "primary",
+    "citation": "SB Energy, Inc., Form S-1/A Amendment No. 2, filed September 21, 2026 (Reg. No. 333-298675)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002133037/000162828026062846/sbenergy-sx1a2.htm"
+  },
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED"
+}

@@ -1,0 +1,26 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-23",
+  "id": "sc-greenwood-county-moratorium",
+  "jurisdiction": "us-sc-greenwood-county",
+  "instrument": "Greenwood County data center moratorium ordinance",
+  "mechanism": "use-permission",
+  "status": "proposed",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "A one-year moratorium advanced 4-3 on second reading. County officials disclosed that three companies had approached the county with proposals reported at $30 to $40 million a year.",
+  "notes": "Third reading pending.",
+  "confidence_note": "Relayed; ordinance not read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "South Carolina reporting, September 2026"
+  },
+  "tags": [
+    "one-year",
+    "second-reading"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-23",
+  "id": "ut-adams-demand-letter-stratos",
+  "jurisdiction": "us-ut-state",
+  "instrument": "Demand letter from the Utah Senate President to O'Leary Digital, June 1, 2026",
+  "mechanism": "process",
+  "status": "adopted",
+  "effective": "2026-06-01",
+  "summary": "The Senate President demanded a roughly 75% reduction in the project footprint, from about 40,000 acres to about 10,000; treatment and dedication of excess water to the Great Salt Lake; a conservation memorandum of understanding; heat-capture technology; and a public project website. The developer conceded in writing and removed 20,050 acres.",
+  "notes": "A stated position and negotiated concession, not an adopted ordinance. Recorded because the concession changed the project's footprint.",
+  "confidence_note": "Relayed from reporting; the letter and the developer's response have not been read in original.",
+  "tags": [
+    "demand-letter",
+    "footprint-reduction",
+    "great-salt-lake"
+  ],
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Utah news coverage, June 2026; Salt Lake Tribune, Deseret News and KSL reporting on the Stratos project"
+  },
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

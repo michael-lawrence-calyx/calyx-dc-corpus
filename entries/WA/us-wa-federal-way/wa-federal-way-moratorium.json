@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-23",
+  "id": "wa-federal-way-moratorium",
+  "jurisdiction": "us-wa-federal-way",
+  "instrument": "City of Federal Way data center moratorium",
+  "mechanism": "load-trigger",
+  "status": "adopted",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "A 12-month moratorium applying to facilities at or above 1 MW or 4,000 square feet. Federal Way joins Seattle and Burien among Washington jurisdictions with pauses in force.",
+  "notes": "At 1 MW, this is the lowest capacity threshold recorded in the register; Dubuque's is 75 MW and Tucson's is 20 MW. The spread across instruments using the same term is a standing finding.",
+  "confidence_note": "Relayed; the ordinance has not been read.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Washington state reporting, September 2026"
+  },
+  "tags": [
+    "1-mw",
+    "4000-sqft",
+    "lowest-threshold"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

@@ -1,0 +1,27 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-23",
+  "id": "tx-twdb-water-survey-directive",
+  "jurisdiction": "us-tx-state",
+  "instrument": "Governor's directive to the Texas Water Development Board, September 14, 2026",
+  "mechanism": "water",
+  "status": "adopted",
+  "effective": "2026-09-14",
+  "freshness": "LIVE",
+  "summary": "Directs the Water Development Board to compel compliance with its large water user survey and impose consequences for past and future failures, including civil penalties, ineligibility for permits and criminal charges, and to coordinate with ERCOT's interconnection audit. A compliance update was requested by October 14, 2026.",
+  "notes": "The board has surveyed users of more than 10 million gallons a year annually since 2020, asking annual volume, self-supplied or purchased, source, and on-site generation; it does not ask what cooling technology is used. Response rates: 22 data centers surveyed in 2023, 32 percent responded; 67 surveyed in 2024, 28 percent responded. Non-response is a Class C misdemeanor, but the board has said it is a non-regulatory agency without authority to prosecute, which sits with district attorneys and local law enforcement, and that it does not track fines issued.",
+  "confidence_note": "Directive not read in original. Survey mechanics and response rates from Texas Tribune reporting on agency records.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Texas Tribune, September 2026"
+  },
+  "tags": [
+    "water-survey",
+    "enforcement-gap",
+    "october-14"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

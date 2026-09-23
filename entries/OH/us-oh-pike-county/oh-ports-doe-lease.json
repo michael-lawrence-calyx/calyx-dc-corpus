@@ -1,0 +1,29 @@
+{
+  "operator": "MLawrence",
+  "section": "Prospectus Summary — PORTS-Pike Technology Campus",
+  "text": "In connection with the PORTS-Pike Technology Campus, our subsidiary has entered into a phased lease with the DOE at the DOE Portsmouth Site.",
+  "retrieved": "2026-09-23",
+  "id": "oh-ports-doe-lease",
+  "mechanism": "process",
+  "status": "adopted",
+  "effective": "",
+  "summary": "SB Energy's subsidiary holds a phased lease with the U.S. Department of Energy at the DOE Portsmouth Site in Pike County, Ohio. The campus is designed as 17 data center buildings aggregating approximately 8.0 GW-IT of critical IT capacity, representing 10 GW of gross power load. First phase targets commencement of operations in 2028.",
+  "notes": "Site sits at the confluence of seven major high-voltage transmission lines; that capacity was available in part because of the retirement of the DOE's Portsmouth Gaseous Diffusion Plant. Campus occupies roughly 640 acres of the 3,775-acre DOE site (acreage from secondary sources, not the filing). DOE previously listed the plant among 16 federal sites for rapid data center construction. Groundbreaking ceremony March 20, 2026.",
+  "confidence_note": "Filing read in original. Acreage and groundbreaking date are from secondary coverage and are not verified against the filing.",
+  "tags": [
+    "federal-land",
+    "doe-lease",
+    "openai",
+    "fast-41"
+  ],
+  "jurisdiction": "us-oh-pike-county",
+  "instrument": "SB Energy, Inc. Form S-1/A Amendment No. 2 (Reg. No. 333-298675)",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "primary",
+    "citation": "SB Energy, Inc., Form S-1/A Amendment No. 2, filed September 21, 2026 (Reg. No. 333-298675)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002133037/000162828026062846/sbenergy-sx1a2.htm"
+  },
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED"
+}

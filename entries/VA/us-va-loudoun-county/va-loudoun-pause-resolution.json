@@ -1,0 +1,28 @@
+{
+  "operator": "MLawrence",
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-23",
+  "id": "va-loudoun-pause-resolution",
+  "jurisdiction": "us-va-loudoun-county",
+  "instrument": "Loudoun County Board of Supervisors pause on legislative data center and substation applications",
+  "mechanism": "use-permission",
+  "status": "proposed",
+  "effective": "",
+  "freshness": "LIVE",
+  "summary": "On September 16, 2026 the board voted 7-1-1 to direct staff to draft a resolution pausing new legislative data center and substation applications for up to 12 months. The final vote is set for October 20, 2026, with a retroactive effective date of September 15. A second 7-1-1 vote created an exception for grid-reliability substations and applications about to expire.",
+  "notes": "Umstattd opposed; Kershner abstained. The county attorney advised that an indefinite moratorium is not lawful in Virginia, making 12 months the statutory maximum. Existing permits and construction continue. As of March 1 the county reported 233 buildings built or under construction totaling about 56.5 million square feet, with another 35.7 million square feet approved but not built, and 21 legislative applications in process, roughly 13 affected by the pause. Data center taxes were reported at $1.2 billion, about 39% of the FY2026 county budget. The board also voted 9-0 to oppose the Valley North 765 kV transmission line. Separate track: the county attorney's grandfathering analysis is due October 6.",
+  "confidence_note": "Relayed; the draft resolution has not been read. Figures are from county reporting, not verified against county documents.",
+  "source": {
+    "kind": "secondary",
+    "citation": "Loudoun Now; Virginia Business; local reporting, September 16-22 2026"
+  },
+  "tags": [
+    "12-month",
+    "october-20",
+    "retroactive",
+    "substations"
+  ],
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED"
+}

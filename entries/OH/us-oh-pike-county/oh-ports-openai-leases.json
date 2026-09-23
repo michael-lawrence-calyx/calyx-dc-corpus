@@ -1,0 +1,29 @@
+{
+  "operator": "MLawrence",
+  "section": "Prospectus Summary — Recent Developments",
+  "text": "Rent commencement for each phase and the tenant's associated obligations are conditioned on satisfaction of the applicable RFS conditions, including completion and availability of the interconnection facilities and generation resources necessary to serve the contracted load, as well as substantial completion and commissioning of the applicable buildings.",
+  "retrieved": "2026-09-23",
+  "id": "oh-ports-openai-leases",
+  "mechanism": "process",
+  "status": "adopted",
+  "effective": "2026-08-17",
+  "summary": "On August 17, 2026, 17 SB Energy subsidiaries as landlords and an affiliate of OpenAI as tenant entered into individual leases covering approximately 8.0 GW-IT of critical IT capacity. Each lease has a 20-year initial term with four five-year extension options, structured as triple-net with yield-on-cost rent and phased commencement tied to ready-for-service conditions.",
+  "notes": "Buildings 1-9: 4,248 MW-IT, last RFS 2031. Buildings 10-17: 3,776 MW-IT, last RFS 2032. NVIDIA provided residual value guaranties on the initial ~4.25 GW-IT at an aggregate guaranteed value of $105 billion, with a discretionary option on the remaining 3.78 GW-IT; if NVIDIA declines, OpenAI must secure a replacement guarantor rated at least A-. PORTS constitutes all contracted-but-not-under-construction capacity and a substantial majority of a ~$439 billion total backlog.",
+  "confidence_note": "Read in original.",
+  "tags": [
+    "openai",
+    "nvidia",
+    "triple-net",
+    "20-year"
+  ],
+  "jurisdiction": "us-oh-pike-county",
+  "instrument": "SB Energy, Inc. Form S-1/A Amendment No. 2 (Reg. No. 333-298675)",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "primary",
+    "citation": "SB Energy, Inc., Form S-1/A Amendment No. 2, filed September 21, 2026 (Reg. No. 333-298675)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002133037/000162828026062846/sbenergy-sx1a2.htm"
+  },
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED"
+}
