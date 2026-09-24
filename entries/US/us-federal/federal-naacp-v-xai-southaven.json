@@ -1,0 +1,28 @@
+{
+  "id": "federal-naacp-v-xai-southaven",
+  "jurisdiction": "us-federal",
+  "instrument": "NAACP v. xAI and MZX Tech, No. 3:26-cv-00074-MPM-JMV (N.D. Miss.)",
+  "mechanism": "litigation",
+  "status": "proposed",
+  "effective": "",
+  "summary": "Clean Air Act citizen suit filed Apr 14, 2026 alleging operation of unpermitted gas turbines in Southaven powering Colossus 2; seeks injunction, best available control technology and per-day penalties. Preliminary injunction motion filed May 2026. DOJ moved to intervene seeking dismissal, with a DoD declaration citing national security.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Earthjustice/SELC releases, Apr-May 2026; Utility Dive, June 2026",
+    "url": "https://naacp.org/sites/default/files/documents/1%20-%20Complaint.pdf"
+  },
+  "notes": "Status 'proposed' used for pending litigation, consistent with mi-wixom-federal-complaint.",
+  "confidence_note": "Docket not read; rulings on intervention, injunction and dismissal unknown after June 2026.",
+  "tags": [
+    "xai",
+    "clean-air-act",
+    "litigation"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

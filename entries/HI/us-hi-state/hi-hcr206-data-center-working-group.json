@@ -1,0 +1,28 @@
+{
+  "id": "hi-hcr206-data-center-working-group",
+  "jurisdiction": "us-hi-state",
+  "instrument": "House Concurrent Resolution 206, HD1 (2026 session)",
+  "mechanism": "definition",
+  "status": "proposed",
+  "summary": "Requests the Hawaii State Energy Office to convene a working group on large data centers requiring five megawatts or more in instantaneous demand, covering cost allocation, ratepayer protection, reporting, renewable supply, water and grid reliability. Report due to the Legislature 20 days before the 2027 session; the group ends June 30, 2027.",
+  "text": "the Hawaii State Energy Office is requested to convene a working group to study the potential impacts of large data centers requiring electricity of five megawatts or more in instantaneous demand on Hawaii's electric utilities, ratepayers, natural resources, and climate goals",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "WARM",
+  "source": {
+    "kind": "primary",
+    "citation": "Hawaii State Legislature, HCR 206 HD1, 2026",
+    "url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HCR206_HD1_.pdf"
+  },
+  "notes": "Recital states Hawaii has not yet received proposals for large hyperscale data centers. Companion HR 196 HD1 (House only).",
+  "confidence_note": "Status left as proposed: Senate concurrence and whether the working group was convened are not checked.",
+  "tags": [
+    "5-mw",
+    "working-group",
+    "hawaii"
+  ],
+  "section": "",
+  "effective": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "az-el-mirage-compass-phx2-site-plan-extension",
+  "jurisdiction": "us-az-el-mirage",
+  "instrument": "Site plan extension SPE23-12-01 (Planning & Zoning Commission, Jan 9, 2024)",
+  "mechanism": "process",
+  "status": "proposed",
+  "summary": "Compass requested an extension of its 2023 site plan beyond the code's one-year validity, open-ended until its matters with APS are resolved. Staff listed no stipulations, no City Council action, and no action required under the military-airport land use compatibility statute.",
+  "text": "until all matters with Arizona Public Services (APS) are resolved",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "source": {
+    "kind": "primary",
+    "citation": "City of El Mirage P&Z agenda packet, Jan 9, 2024, item 3.2 and staff report SPE23-12-01",
+    "url": "https://public.destinyhosted.com/elmirdocs/2024/PZ/20240109_265/AGENDApacket__01-09-24_1251_264.pdf"
+  },
+  "notes": "Staff report fields: Stipulations: None; City Council: No action is required; ARS 28-8481 Land Use Compatibility: No action is required. CONFLICT: agenda item names the submitter as H&H Capital Acquisitions; staff report names Compass Data Centers / DPML Copperwing Land Co II LLC. Status left as proposed because the Jan 9, 2024 P&Z vote was not read; the Aug 2026 final plat and development agreement indicate the entitlement remained alive.",
+  "confidence_note": "P&Z outcome on Jan 9, 2024 not read (minutes in a later packet).",
+  "tags": [
+    "compass",
+    "expires",
+    "aps",
+    "el-mirage"
+  ],
+  "section": "",
+  "effective": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

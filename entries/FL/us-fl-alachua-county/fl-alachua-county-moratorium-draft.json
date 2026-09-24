@@ -1,0 +1,26 @@
+{
+  "id": "fl-alachua-county-moratorium-draft",
+  "jurisdiction": "us-fl-alachua-county",
+  "instrument": "Alachua County 12-month AI data center moratorium (to be drafted)",
+  "mechanism": "use-permission",
+  "status": "proposed",
+  "summary": "County announced Sept 15, 2026 it will draft a 12-month moratorium on AI data centers.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Savrn moratorium tracker; local reporting"
+  },
+  "notes": "CONFLICT: one summary describes a Planning & Zoning approval; unclear whether city of Alachua or Alachua County. Recorded under the county per the tracker.",
+  "confidence_note": "Body and instrument not confirmed.",
+  "tags": [
+    "moratorium",
+    "proposed"
+  ],
+  "section": "",
+  "text": "",
+  "effective": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

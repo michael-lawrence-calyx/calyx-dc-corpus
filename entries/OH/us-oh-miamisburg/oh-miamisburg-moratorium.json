@@ -1,0 +1,26 @@
+{
+  "id": "oh-miamisburg-moratorium",
+  "jurisdiction": "us-oh-miamisburg",
+  "instrument": "Miamisburg nine-month data center moratorium",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "2026-09-01",
+  "summary": "Nine-month moratorium approved 6-0, prompted by interest in the former DP&L Hutchings Power Station site.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, Sept 2026"
+  },
+  "confidence_note": "Ordinance text and site applicant not checked.",
+  "tags": [
+    "moratorium",
+    "power-plant-site"
+  ],
+  "section": "",
+  "text": "",
+  "notes": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

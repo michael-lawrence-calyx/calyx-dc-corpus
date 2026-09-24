@@ -1,0 +1,28 @@
+{
+  "id": "nj-dep-vineland-dataone-penalty",
+  "jurisdiction": "us-nj-state",
+  "instrument": "NJDEP penalty and order, DataOne (Vineland) under the Air Pollution Control Act (Sept 22, 2026)",
+  "mechanism": "generation",
+  "status": "adopted",
+  "effective": "2026-09-22",
+  "summary": "$1.07 million penalty for installing and operating 62 natural-gas engines of 1,982 kW each without preconstruction permits or operating certificates (threshold 37 kW). DataOne ordered to obtain permits within 45 days or cease operating the engines.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "New Jersey Monitor, WHYY, Newsweek, Sept 22-23, 2026",
+    "url": "https://newjerseymonitor.com/2026/09/22/nj-vineland-data-center-fined/"
+  },
+  "notes": "Engines observed at July 29 inspection, absent at Dec 2025 inspection. Derived: 62 x 1,982 kW = about 122.9 MW of unpermitted on-site generation. Project about 300 MW, developed by DataOne for Nebius. DataOne states it has necessary approvals and is transitioning to fuel cells (ASSERTED). City halted work in August over an LNG tank and fuel cells built before permits; neighbors have sued over noise (RELAYED). 45-day deadline about Nov 6, 2026 (derived; confirm against order). Headline '$1.1 million' is a rounding of $1.07M.",
+  "confidence_note": "DEP order and penalty calculation not read.",
+  "tags": [
+    "behind-the-meter",
+    "enforcement",
+    "vineland"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

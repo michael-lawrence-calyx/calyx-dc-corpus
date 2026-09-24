@@ -1,0 +1,27 @@
+{
+  "id": "az-el-mirage-compass-phx2-development-agreement",
+  "jurisdiction": "us-az-el-mirage",
+  "instrument": "Development Agreement, Compass Datacenters PHX II (Aug 17, 2026, item 5.1.f)",
+  "mechanism": "process",
+  "status": "adopted",
+  "effective": "2026-08-17",
+  "summary": "Council approved a development agreement with Compass Datacenters PHX II, 5-1, after pulling it from consent to the regular agenda. Reported terms: half-street improvements on Peoria Avenue once APS removes power poles, with certificates of occupancy allowed in the interim; Luke AFB review with site-specific stipulations.",
+  "text": "Consideration and action to enter into a Development Agreement with Compass Datacenters PHX II in connection with the proposed multi-building facility located at the southwest corner of El Mirage Road and Peoria Avenue.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "WARM",
+  "source": {
+    "kind": "primary",
+    "citation": "City of El Mirage, Regular City Council Meeting Results, Aug 17, 2026"
+  },
+  "notes": "Vote: Parsons/Winston, 5/1 (Nay: Gentry); six voting. Same night: council ordered 1,826 AF of CAP sub-contract water (6/0) and approved an unrelated warehouse CUP at 9105 N El Mirage Rd; no stated connection to Compass. Agreement terms are RELAYED from a Citizen Portal AI-generated meeting summary, which also reported no project-level water figure given at the hearing.",
+  "confidence_note": "Vote and item confirmed from the city results sheet. Agreement text not read; settled by the Aug 17, 2026 agenda packet.",
+  "tags": [
+    "compass",
+    "development-agreement",
+    "el-mirage"
+  ],
+  "section": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

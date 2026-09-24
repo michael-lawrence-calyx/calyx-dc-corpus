@@ -1,0 +1,29 @@
+{
+  "id": "az-el-mirage-compass-phx2-aps-microgrid",
+  "jurisdiction": "us-az-el-mirage",
+  "instrument": "Compass Datacenters letter to City of El Mirage, Dec 18, 2023 (APS microgrid)",
+  "mechanism": "generation",
+  "status": "proposed",
+  "summary": "Compass states it spent twelve months with APS on a microgrid that would power the site and respond to capacity or frequency events on the APS grid; contract language and design were unresolved and expected to affect final campus design. The landscape plan shows an on-site APS substation and access road.",
+  "origin": "ASSERTED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "source": {
+    "kind": "primary",
+    "citation": "Compass letter (Brett Collard, VP Corporate Development) in El Mirage P&Z packet, Jan 9, 2024",
+    "url": "https://public.destinyhosted.com/elmirdocs/2024/PZ/20240109_265/AGENDApacket__01-09-24_1251_264.pdf"
+  },
+  "notes": "Asserted by the applicant. Settled by an APS filing or ACC docket for a Compass microgrid or grid-services agreement.",
+  "confidence_note": "No APS or ACC document read.",
+  "tags": [
+    "compass",
+    "aps",
+    "microgrid",
+    "behind-the-meter"
+  ],
+  "section": "",
+  "text": "",
+  "effective": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

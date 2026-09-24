@@ -1,0 +1,26 @@
+{
+  "id": "pa-forward-township-misty-hollow",
+  "jurisdiction": "us-pa-forward-township",
+  "instrument": "Misty Hollow Energy & Data Campus preliminary plan (614 Prospect Rd)",
+  "mechanism": "generation",
+  "status": "proposed",
+  "summary": "Preliminary plan for about 1 million sq ft of data center on about 274 acres, with an 80,000 sq ft wastewater treatment facility and a 300 MW on-site power generation facility on about 10 acres; before the Planning Commission Sept 24, 2026.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Ryan Hart (construction tracker), LinkedIn, Sept 23, 2026"
+  },
+  "notes": "300 MW is generation capacity, not IT load; no load, GC or tenant confirmed. Developer targets final approvals early 2027, completion mid-2029; township engineer Gannett Fleming reviewing. Closed-loop cooling is a developer claim.",
+  "confidence_note": "Plan packet, PA DEP air plan approval and NPDES permit not read.",
+  "tags": [
+    "behind-the-meter",
+    "generation-vs-load"
+  ],
+  "section": "",
+  "text": "",
+  "effective": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

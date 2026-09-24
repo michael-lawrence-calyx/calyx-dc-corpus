@@ -1,0 +1,29 @@
+{
+  "id": "az-el-mirage-compass-phx2-warehouse-entitlement",
+  "jurisdiction": "us-az-el-mirage",
+  "instrument": "Site plan PZ22-11-31, Compass Datacenters PHX II (SWC El Mirage Rd & Peoria Ave)",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "2023-02-09",
+  "summary": "A three-building data center campus on about 121 acres was approved by site plan under a Planned Area Development zoning, with the entitlement use recorded as a warehouse. No data-center-specific use classification was applied.",
+  "text": "The site is zoned PAD (Planned Area Development) with the land use of vacant land. The approved site plan was granted the entitlement use of a warehouse.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "source": {
+    "kind": "primary",
+    "citation": "City of El Mirage Planning & Zoning Commission agenda packet, Jan 9, 2024, staff report SPE23-12-01",
+    "url": "https://public.destinyhosted.com/elmirdocs/2024/PZ/20240109_265/AGENDApacket__01-09-24_1251_264.pdf"
+  },
+  "notes": "Approval date per staff report: City Council, Feb 9, 2023. CONFLICT: the applicant's Dec 18, 2023 letter in the same packet gives 'February 9, 2024', which postdates the letter itself; staff report governs.",
+  "confidence_note": "Site plan stipulations not read (Feb 9, 2023 council packet). Whether El Mirage's zoning code defines 'data center' at all is not checked.",
+  "tags": [
+    "compass",
+    "definition-gap",
+    "warehouse",
+    "el-mirage"
+  ],
+  "section": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

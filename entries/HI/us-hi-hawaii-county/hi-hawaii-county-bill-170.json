@@ -1,0 +1,27 @@
+{
+  "id": "hi-hawaii-county-bill-170",
+  "jurisdiction": "us-hi-hawaii-county",
+  "instrument": "Hawaii County Bill 170 (zoning code amendment, data centers vs data processing facilities)",
+  "mechanism": "definition",
+  "status": "proposed",
+  "summary": "Would distinguish industrial-scale data centers from standard data processing facilities in the county zoning code to close a loophole. The Windward Planning Commission deferred action to October; commissioners preferred a limit based on electrical demand over floor area.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Honolulu Star-Advertiser, Sept 9, 2026; West Hawaii Today, July 8 and Sept 6, 2026"
+  },
+  "notes": "Planning director: no data center has sought a permit; warned a county ban could push developers to state land-use approval in the agricultural district.",
+  "confidence_note": "Bill text not read.",
+  "tags": [
+    "definition",
+    "bypass",
+    "hawaii-county"
+  ],
+  "section": "",
+  "text": "",
+  "effective": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

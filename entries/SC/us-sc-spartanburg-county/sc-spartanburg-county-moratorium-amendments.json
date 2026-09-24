@@ -1,0 +1,29 @@
+{
+  "id": "sc-spartanburg-county-moratorium-amendments",
+  "jurisdiction": "us-sc-spartanburg-county",
+  "instrument": "Floor amendments to the data center moratorium ordinance at third reading (Sept 21, 2026)",
+  "mechanism": "load-trigger",
+  "status": "adopted",
+  "effective": "2026-09-21",
+  "summary": "Reported exception pathway: data centers of 65 MW or less may proceed if located in an industrial park or on a former industrial site, not self-generating power except emergency backup, and primarily used for data. Reported as measured in IT megawatts, excluding ancillary load serving other businesses. A further amendment bars an exempted facility from sharing a parcel or industrial park with another data center. Adopted 5-1.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "WSPA, FOX Carolina, Post and Courier, Sept 21-22, 2026"
+  },
+  "notes": "Amendments were made from the floor; they are not in the Sept 18 posted packet. Already-approved Valara project unaffected. Crypto mining and ancillary IT closets reported excluded. Opposed: Coker.",
+  "confidence_note": "No posted document contains the amendment language. Minutes not posted after March 2026. Settled by the enacted ordinance from the Clerk to Council or the meeting video.",
+  "tags": [
+    "65-mw",
+    "it-megawatts",
+    "aggregation",
+    "self-generation",
+    "spartanburg"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "nc-statesville-moratorium",
+  "jurisdiction": "us-nc-statesville",
+  "instrument": "Statesville data center moratorium (180 days)",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "summary": "180-day moratorium on data centers, approved unanimously, running through March 2027.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "datacenterbans.com weekly summary, week of Sept 14-21, 2026"
+  },
+  "confidence_note": "Adoption date and text not read.",
+  "tags": [
+    "moratorium"
+  ],
+  "section": "",
+  "text": "",
+  "effective": "",
+  "notes": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

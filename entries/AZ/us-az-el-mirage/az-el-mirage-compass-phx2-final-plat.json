@@ -1,0 +1,26 @@
+{
+  "id": "az-el-mirage-compass-phx2-final-plat",
+  "jurisdiction": "us-az-el-mirage",
+  "instrument": "Final Plat, Compass Datacenters PHX II (Aug 17, 2026, item 4.17)",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "2026-08-17",
+  "summary": "Council approved the final plat for the multi-building Compass Datacenters PHX II facility on the consent agenda, 5-1.",
+  "text": "Consideration and action to approve a Final Plat for Compass Datacenters PHX II in connection with the proposed multi-building facility located at the southwest corner of El Mirage Road and Peoria Avenue.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "source": {
+    "kind": "primary",
+    "citation": "City of El Mirage, Regular City Council Meeting Results, Aug 17, 2026"
+  },
+  "notes": "Vote: Parsons/Winston, 5/1 (Nay: Gentry). Six voting. The same member voted nay on every item that remained on consent that night; do not characterize as a data-center-specific split.",
+  "tags": [
+    "compass",
+    "el-mirage"
+  ],
+  "section": "",
+  "confidence_note": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

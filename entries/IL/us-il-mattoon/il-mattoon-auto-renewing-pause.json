@@ -1,0 +1,26 @@
+{
+  "id": "il-mattoon-auto-renewing-pause",
+  "jurisdiction": "us-il-mattoon",
+  "instrument": "Mattoon resolution pausing data center development",
+  "mechanism": "process",
+  "status": "adopted",
+  "effective": "2026-09-01",
+  "summary": "One-year pause adopted 5-0 by resolution that renews annually unless repealed; repeal requires a prior public hearing. No applicant had approached the city.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, Sept 2026"
+  },
+  "confidence_note": "Resolution text not read; renewal and repeal mechanics are the key terms to confirm.",
+  "tags": [
+    "expires",
+    "auto-renew"
+  ],
+  "section": "",
+  "text": "",
+  "notes": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

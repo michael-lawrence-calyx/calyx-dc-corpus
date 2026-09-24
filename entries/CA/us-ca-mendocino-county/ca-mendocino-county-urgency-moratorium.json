@@ -1,0 +1,26 @@
+{
+  "id": "ca-mendocino-county-urgency-moratorium",
+  "jurisdiction": "us-ca-mendocino-county",
+  "instrument": "Mendocino County 45-day urgency ordinance on data centers",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "2026-09-01",
+  "summary": "45-day urgency moratorium adopted Sept 1, 2026, running to Oct 16. Deputy county counsel stated county code does not define data centers, so one could proceed on an ordinary building permit.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Local reporting / tracker, Sept 2026"
+  },
+  "notes": "Expires Oct 16, 2026 unless extended; on forward calendar.",
+  "confidence_note": "Ordinance text not read.",
+  "tags": [
+    "definition-gap",
+    "urgency"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

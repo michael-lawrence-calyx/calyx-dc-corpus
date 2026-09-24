@@ -1,0 +1,26 @@
+{
+  "id": "or-hillsboro-8502-council-schedule",
+  "jurisdiction": "us-or-hillsboro",
+  "instrument": "Hillsboro Community Development Code amendment (data and energy storage), council readings",
+  "mechanism": "process",
+  "status": "recommended",
+  "summary": "Planning Commission recommended the Phase 1 amendment Sept 9; City Council first reading Oct 6 and second reading Oct 20, 2026, with public comment at both. Moratorium runs to Nov 24; council may extend six months.",
+  "text": "October 6: City Council first reading of proposed code amendments (public comment accepted) October 20: City Council second reading of proposed code amendments (public comment accepted)",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "primary",
+    "citation": "City of Hillsboro, 'Data Centers in Hillsboro: Next Steps After Moratorium'",
+    "url": "https://www.hillsboro-oregon.gov/Home/Components/News/News/17569/4300"
+  },
+  "notes": "Companion to or-hillsboro-8502-* entries. CONFLICT (claims queue): News-Times reports 17 enterprise zone applications from 8 entities; Herald figure was 18 pending agreements.",
+  "tags": [
+    "forward-calendar"
+  ],
+  "section": "",
+  "effective": "",
+  "confidence_note": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

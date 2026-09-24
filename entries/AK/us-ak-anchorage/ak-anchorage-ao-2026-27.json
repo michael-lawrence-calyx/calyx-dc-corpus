@@ -1,0 +1,25 @@
+{
+  "id": "ak-anchorage-ao-2026-27",
+  "jurisdiction": "us-ak-anchorage",
+  "instrument": "Anchorage Assembly Ordinance AO 2026-27",
+  "mechanism": "use-permission",
+  "status": "proposed",
+  "summary": "Proposed land-use regulations for large-scale data centers across the Municipality, introduced before any hyperscale project had been proposed within city limits; public hearing set for Mar 3, 2026.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "source": {
+    "kind": "secondary",
+    "citation": "The Alaska Story, Feb 28, 2026"
+  },
+  "confidence_note": "Outcome after Mar 3 hearing not checked.",
+  "tags": [
+    "proactive"
+  ],
+  "section": "",
+  "text": "",
+  "effective": "",
+  "notes": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

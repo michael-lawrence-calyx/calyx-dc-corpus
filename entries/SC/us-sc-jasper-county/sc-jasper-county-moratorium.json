@@ -1,0 +1,26 @@
+{
+  "id": "sc-jasper-county-moratorium",
+  "jurisdiction": "us-sc-jasper-county",
+  "instrument": "Jasper County data center and cryptocurrency moratorium",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "2026-09-21",
+  "summary": "One-year moratorium on data centers and cryptocurrency mining in unincorporated areas, approved unanimously.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Local reporting / datacenterbans.com, Sept 2026"
+  },
+  "notes": "One of four South Carolina county actions within about a week (Spartanburg, Jasper, Laurens, Clarendon).",
+  "confidence_note": "Ordinance text not read.",
+  "tags": [
+    "moratorium",
+    "sc-cluster"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

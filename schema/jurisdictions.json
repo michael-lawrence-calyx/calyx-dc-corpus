@@ -1,7 +1,22 @@
 {
+  "us-ak-anchorage": {
+    "kind": "city",
+    "name": "Anchorage",
+    "state": "AK"
+  },
+  "us-ak-state": {
+    "kind": "state",
+    "name": "Alaska",
+    "state": "AK"
+  },
   "us-az-chandler": {
     "kind": "municipality",
     "name": "Chandler",
+    "state": "AZ"
+  },
+  "us-az-el-mirage": {
+    "kind": "city",
+    "name": "El Mirage",
     "state": "AZ"
   },
   "us-az-florence": {
@@ -54,6 +69,11 @@
     "name": "Imperial County",
     "state": "CA"
   },
+  "us-ca-mendocino-county": {
+    "kind": "county",
+    "name": "Mendocino County",
+    "state": "CA"
+  },
   "us-ca-richmond": {
     "kind": "municipality",
     "name": "Richmond",
@@ -62,6 +82,11 @@
   "us-ca-riverbank": {
     "kind": "city",
     "name": "City of Riverbank",
+    "state": "CA"
+  },
+  "us-ca-san-francisco": {
+    "kind": "city",
+    "name": "San Francisco",
     "state": "CA"
   },
   "us-ca-state": {
@@ -78,6 +103,16 @@
     "kind": "federal",
     "name": "United States (federal)",
     "state": "US"
+  },
+  "us-fl-alachua-county": {
+    "kind": "county",
+    "name": "Alachua County",
+    "state": "FL"
+  },
+  "us-fl-manatee-county": {
+    "kind": "county",
+    "name": "Manatee County",
+    "state": "FL"
   },
   "us-fl-north-port": {
     "kind": "city",
@@ -114,6 +149,16 @@
     "name": "State of Georgia",
     "state": "GA"
   },
+  "us-hi-hawaii-county": {
+    "kind": "county",
+    "name": "Hawaii County",
+    "state": "HI"
+  },
+  "us-hi-state": {
+    "kind": "state",
+    "name": "Hawaii",
+    "state": "HI"
+  },
   "us-id-pocatello": {
     "kind": "city",
     "name": "City of Pocatello",
@@ -127,6 +172,11 @@
   "us-il-chicago": {
     "kind": "city",
     "name": "City of Chicago",
+    "state": "IL"
+  },
+  "us-il-mattoon": {
+    "kind": "city",
+    "name": "Mattoon",
     "state": "IL"
   },
   "us-il-normal": {
@@ -158,6 +208,11 @@
     "kind": "city",
     "name": "Michigan City",
     "state": "IN"
+  },
+  "us-md-anne-arundel-county": {
+    "kind": "county",
+    "name": "Anne Arundel County",
+    "state": "MD"
   },
   "us-md-baltimore-county": {
     "kind": "county",
@@ -199,9 +254,19 @@
     "name": "Festus",
     "state": "MO"
   },
+  "us-ms-state": {
+    "kind": "state",
+    "name": "Mississippi",
+    "state": "MS"
+  },
   "us-nc-duke-energy": {
     "kind": "utility",
     "name": "Duke Energy Carolinas / Progress",
+    "state": "NC"
+  },
+  "us-nc-greensboro": {
+    "kind": "city",
+    "name": "Greensboro",
     "state": "NC"
   },
   "us-nc-lee-county": {
@@ -214,14 +279,29 @@
     "name": "Raleigh",
     "state": "NC"
   },
+  "us-nc-statesville": {
+    "kind": "city",
+    "name": "Statesville",
+    "state": "NC"
+  },
   "us-nh-state": {
     "kind": "state",
     "name": "State of New Hampshire",
     "state": "NH"
   },
+  "us-nj-state": {
+    "kind": "state",
+    "name": "New Jersey",
+    "state": "NJ"
+  },
   "us-oh-aep-ohio": {
     "kind": "utility",
     "name": "AEP Ohio",
+    "state": "OH"
+  },
+  "us-oh-miamisburg": {
+    "kind": "city",
+    "name": "Miamisburg",
     "state": "OH"
   },
   "us-oh-pike-county": {
@@ -294,20 +374,50 @@
     "name": "Woodburn",
     "state": "OR"
   },
+  "us-pa-forward-township": {
+    "kind": "city",
+    "name": "Forward Township",
+    "state": "PA"
+  },
   "us-pjm": {
     "kind": "iso",
     "name": "PJM Interconnection",
     "state": "XX"
+  },
+  "us-sc-clarendon-county": {
+    "kind": "county",
+    "name": "Clarendon County",
+    "state": "SC"
   },
   "us-sc-greenwood-county": {
     "kind": "county",
     "name": "Greenwood County",
     "state": "SC"
   },
+  "us-sc-jasper-county": {
+    "kind": "county",
+    "name": "Jasper County",
+    "state": "SC"
+  },
+  "us-sc-laurens-county": {
+    "kind": "county",
+    "name": "Laurens County",
+    "state": "SC"
+  },
   "us-sc-spartanburg-county": {
     "kind": "county",
     "name": "Spartanburg County",
     "state": "SC"
+  },
+  "us-tn-memphis": {
+    "kind": "city",
+    "name": "Memphis",
+    "state": "TN"
+  },
+  "us-tn-shelby-county": {
+    "kind": "county",
+    "name": "Shelby County",
+    "state": "TN"
   },
   "us-tx-ercot": {
     "kind": "iso",

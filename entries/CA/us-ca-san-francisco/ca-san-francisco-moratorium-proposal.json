@@ -1,0 +1,26 @@
+{
+  "id": "ca-san-francisco-moratorium-proposal",
+  "jurisdiction": "us-ca-san-francisco",
+  "instrument": "Proposed 45-day data center moratorium (Supervisor Walton)",
+  "mechanism": "use-permission",
+  "status": "proposed",
+  "summary": "Supervisor Walton announced a proposed 45-day moratorium on data centers.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, mid-Sept 2026"
+  },
+  "confidence_note": "File number and introduction date not checked.",
+  "tags": [
+    "moratorium",
+    "proposed"
+  ],
+  "section": "",
+  "text": "",
+  "effective": "",
+  "notes": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

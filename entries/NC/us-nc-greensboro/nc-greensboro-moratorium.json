@@ -1,0 +1,28 @@
+{
+  "id": "nc-greensboro-moratorium",
+  "jurisdiction": "us-nc-greensboro",
+  "instrument": "Greensboro 180-day data center moratorium ordinance (Aug 18, 2026)",
+  "mechanism": "load-trigger",
+  "status": "adopted",
+  "effective": "2026-08-18",
+  "summary": "Pauses acceptance, processing and approval of development applications for data centers and similar uses with electrical power demand exceeding 10 MW, through Feb 14, 2027. Vote 8-0 with one recusal.",
+  "text": "data centers, data storage and processing facilities, and similar uses with an electrical power demand exceeding 10 megawatts until Sunday, February 14, 2027",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "primary",
+    "citation": "City of Greensboro news release, Aug 18, 2026",
+    "url": "https://www.greensboro-nc.gov/Home/Components/News/News/22889/36"
+  },
+  "notes": "Council extended from an initially considered 120 days. Existing permitted or under-construction projects reported unaffected. Vote tally from FOX8/Rhino Times.",
+  "confidence_note": "City release read; ordinance text itself not read.",
+  "tags": [
+    "10-mw",
+    "moratorium",
+    "greensboro"
+  ],
+  "section": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

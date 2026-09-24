@@ -1,0 +1,27 @@
+{
+  "id": "ak-stak-energy-campus-north-slope",
+  "jurisdiction": "us-ak-state",
+  "instrument": "STAK Energy Campus, state land near Dalton Highway milepost 390",
+  "mechanism": "generation",
+  "status": "proposed",
+  "summary": "Proposed roughly $500 million HPC/AI data center complex on state land on the North Slope, powered by local natural gas and cooled by Arctic air; public comment opened May 2026.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "The Alaska Story, May 26, 2026; Alaska Beacon, Sept 2026"
+  },
+  "confidence_note": "State land-use or lease notice not read.",
+  "tags": [
+    "behind-the-meter",
+    "gas",
+    "state-land"
+  ],
+  "section": "",
+  "text": "",
+  "effective": "",
+  "notes": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

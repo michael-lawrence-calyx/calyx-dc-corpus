@@ -1,0 +1,27 @@
+{
+  "id": "ms-mdeq-xai-southaven-permit",
+  "jurisdiction": "us-ms-state",
+  "instrument": "MDEQ Permit Board construction permit, MZX Tech (xAI) Southaven turbines (Mar 10, 2026)",
+  "mechanism": "generation",
+  "status": "adopted",
+  "effective": "2026-03-10",
+  "summary": "Permit Board unanimously approved a construction permit for 41 permanent gas turbines at the Southaven site powering Colossus 2 in Memphis, to replace unpermitted units already operating.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Mississippi Free Press; SELC; E&E News, Mar 2026"
+  },
+  "notes": "DISPUTED: unpermitted turbine count - 27 (xAI, January 2026; lawsuit), 35 confirmed / up to 46 (plaintiffs, Mar 28, 2026), 57 in Southaven plus 2 elsewhere (MDEQ-Trinity Consultants emails via records request, July 2026). CONFLICT: one outlet describes the permit as covering the 27 units. SELC filed an administrative appeal.",
+  "confidence_note": "Permit not read.",
+  "tags": [
+    "xai",
+    "after-the-fact",
+    "disputed-count"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

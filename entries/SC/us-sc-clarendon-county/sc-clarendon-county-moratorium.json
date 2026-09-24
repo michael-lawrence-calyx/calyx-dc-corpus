@@ -1,0 +1,26 @@
+{
+  "id": "sc-clarendon-county-moratorium",
+  "jurisdiction": "us-sc-clarendon-county",
+  "instrument": "Clarendon County data center moratorium",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "",
+  "summary": "Data center moratorium approved unanimously, described by the county as closing loopholes.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Local reporting / datacenterbans.com, Sept 2026"
+  },
+  "notes": "One of four South Carolina county actions within about a week (Spartanburg, Jasper, Laurens, Clarendon).",
+  "confidence_note": "Ordinance text not read.",
+  "tags": [
+    "moratorium",
+    "sc-cluster"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

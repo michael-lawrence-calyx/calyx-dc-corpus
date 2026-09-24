@@ -1,0 +1,27 @@
+{
+  "id": "va-prince-william-overlay-reduction-grace",
+  "jurisdiction": "us-va-prince-william-county",
+  "instrument": "Zoning text amendment, Data Center Opportunity Zone Overlay District (Sept 22, 2026)",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "2026-09-22",
+  "summary": "Overlay shrinks from about 9,700 to about 3,641 acres; new data centers outside it generally need a special use permit. A 90-day grace period applies; land with built or under-construction data centers or site plans past quality control stays in. Board chose 90 days over the Planning Commission's 120.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "InsideNoVa, WTOP, Virginia Business, Prince William Times, Sept 22-24, 2026"
+  },
+  "notes": "Vote 8-0 after a mid-hearing closed session. Forward: setback proposal to Planning Commission in November, board targeted January. Grace period ends about Dec 21, 2026 (derived). Companion to va-prince-william-by-right-repeal.",
+  "confidence_note": "Adopted ZTA text not read.",
+  "tags": [
+    "by-right",
+    "sup",
+    "grace-period"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

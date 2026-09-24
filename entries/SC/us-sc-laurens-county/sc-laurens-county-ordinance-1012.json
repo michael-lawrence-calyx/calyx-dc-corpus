@@ -1,0 +1,26 @@
+{
+  "id": "sc-laurens-county-ordinance-1012",
+  "jurisdiction": "us-sc-laurens-county",
+  "instrument": "Laurens County Ordinance #1012",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "2026-09-14",
+  "summary": "Twelve-month moratorium on acceptance, review and approval of data center applications and permits, approved unanimously on third reading.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Local reporting / datacenterbans.com, Sept 2026"
+  },
+  "notes": "One of four South Carolina county actions within about a week (Spartanburg, Jasper, Laurens, Clarendon).",
+  "confidence_note": "Ordinance text not read.",
+  "tags": [
+    "moratorium",
+    "sc-cluster"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

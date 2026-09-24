@@ -1,0 +1,27 @@
+{
+  "id": "ms-mdeq-xai-temporary-mobile-letter",
+  "jurisdiction": "us-ms-state",
+  "instrument": "Mississippi letter to xAI treating Southaven turbines as temporary, mobile units",
+  "mechanism": "generation",
+  "status": "adopted",
+  "summary": "Mississippi officials told xAI by letter it could run turbines at 2875 Stanton Road South, Southaven, without an air permit because they were deemed temporary and mobile units.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "source": {
+    "kind": "secondary",
+    "citation": "Mississippi Today, Apr 15, 2026"
+  },
+  "notes": "The regulator-issued bypass. Plaintiffs contend no such exemption applies to units powering a permanent facility.",
+  "confidence_note": "Letter not read; date and signatory unknown.",
+  "tags": [
+    "xai",
+    "bypass",
+    "behind-the-meter"
+  ],
+  "section": "",
+  "text": "",
+  "effective": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

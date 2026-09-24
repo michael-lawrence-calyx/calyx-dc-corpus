@@ -1,0 +1,25 @@
+{
+  "id": "fl-manatee-county-moratorium",
+  "jurisdiction": "us-fl-manatee-county",
+  "instrument": "Manatee County 12-month data center moratorium",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "2026-09-15",
+  "summary": "Twelve-month moratorium approved unanimously.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "datacenterbans.com weekly summary, Sept 14-21, 2026"
+  },
+  "confidence_note": "Ordinance text not read.",
+  "tags": [
+    "moratorium"
+  ],
+  "section": "",
+  "text": "",
+  "notes": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

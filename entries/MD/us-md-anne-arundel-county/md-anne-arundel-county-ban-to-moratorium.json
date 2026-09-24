@@ -1,0 +1,26 @@
+{
+  "id": "md-anne-arundel-county-ban-to-moratorium",
+  "jurisdiction": "us-md-anne-arundel-county",
+  "instrument": "Anne Arundel County data center bill (amended from ban to moratorium)",
+  "mechanism": "use-permission",
+  "status": "proposed",
+  "summary": "Council amended a proposed data center ban into a moratorium on Sept 21, 2026; a final vote is pending.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "datacenterbans.com / local reporting, Sept 2026"
+  },
+  "confidence_note": "Bill number, amended text and final vote date not checked.",
+  "tags": [
+    "moratorium",
+    "instrument-change"
+  ],
+  "section": "",
+  "text": "",
+  "effective": "",
+  "notes": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

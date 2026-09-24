@@ -1,0 +1,26 @@
+{
+  "id": "ak-senate-data-center-bill-2026",
+  "jurisdiction": "us-ak-state",
+  "instrument": "Alaska Senate data center bill (2026 session)",
+  "mechanism": "utility-service",
+  "status": "expired",
+  "summary": "Passed the Senate 14-5; would have regulated data center use of public-utility electricity and required decommissioning plans. The House did not take it up before session end.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "FIXED",
+  "source": {
+    "kind": "secondary",
+    "citation": "Alaska Beacon / Alaska Public Media, Sept 2026"
+  },
+  "confidence_note": "Bill number not checked.",
+  "tags": [
+    "decommissioning",
+    "died"
+  ],
+  "section": "",
+  "text": "",
+  "effective": "",
+  "notes": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "az-el-mirage-compass-ymca-shade-donation",
+  "jurisdiction": "us-az-el-mirage",
+  "instrument": "Contract with Shade N' Net funded by Compass Datacenters donation (June 16, 2026, item 6.1)",
+  "mechanism": "incentive",
+  "status": "adopted",
+  "effective": "2026-06-16",
+  "summary": "Council authorized a contract for a basketball court shade structure at the Northwest Valley YMCA, funded through a private donation from Compass Datacenters of up to $110,573.12, 5-2.",
+  "text": "Consideration and action to authorize the City Manager to enter into a contract with Shade N' Net to complete the outdoor basketball court shade structure installation at the Northwest Valley YMCA, funded through a private donation from Compass Datacenters for an amount not to exceed $110,573.12, and authorize the Finance Department to make any necessary transfers.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "FIXED",
+  "source": {
+    "kind": "primary",
+    "citation": "City of El Mirage, Regular City Council Meeting Results, June 16, 2026"
+  },
+  "notes": "Vote: Mayor Hermosillo/Dorcey, 5/2 (Nay: Eldridge, Gentry). Mechanism 'incentive' used for a developer community-benefit donation; no enum fits exactly. Sequence (dates only): June 16 donation; Aug 17 final plat and development agreement. No inference drawn.",
+  "confidence_note": "Reported detail that the city owns the site and oversees construction is not in this document.",
+  "tags": [
+    "compass",
+    "community-benefit",
+    "el-mirage"
+  ],
+  "section": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

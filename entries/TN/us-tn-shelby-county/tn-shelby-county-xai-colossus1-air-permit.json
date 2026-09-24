@@ -1,0 +1,27 @@
+{
+  "id": "tn-shelby-county-xai-colossus1-air-permit",
+  "jurisdiction": "us-tn-shelby-county",
+  "instrument": "Shelby County Health Department air permit, xAI Colossus 1 (July 2025)",
+  "mechanism": "generation",
+  "status": "adopted",
+  "effective": "",
+  "summary": "Air permit issued to xAI for gas turbines at the Colossus 1 site in South Memphis after more than a year of operation without one; aerial photography in March 2025 showed 35 turbines, at least 33 operating a month later.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "WARM",
+  "source": {
+    "kind": "secondary",
+    "citation": "SELC; E&E News, Mar 2026; TechCrunch, June 2025"
+  },
+  "notes": "Permit commonly reported as covering 15 turbines; unverified. SELC appealed on behalf of NAACP and Young, Gifted & Green.",
+  "confidence_note": "Permit not read; turbine count covered by the permit unconfirmed.",
+  "tags": [
+    "xai",
+    "behind-the-meter",
+    "after-the-fact"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

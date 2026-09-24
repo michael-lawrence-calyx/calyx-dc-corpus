@@ -1,0 +1,28 @@
+{
+  "id": "tx-governor-sep21-tceq-permit-halt",
+  "jurisdiction": "us-tx-state",
+  "instrument": "Governor's letter to TCEQ Executive Director Kelly Keel (Sept 21, 2026)",
+  "mechanism": "process",
+  "status": "adopted",
+  "effective": "2026-09-21",
+  "summary": "Directs TCEQ to issue no permits sought by data center projects until the ERCOT and TWDB audits are complete, and states that no other state agency shall move forward with data center regulatory approvals until the PUC, ERCOT and TWDB information is acquired. Reaches environmental permits, including for behind-the-meter projects the grid audit would not catch.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Texas Tribune, Sept 21, 2026 (links the letter)",
+    "url": "https://www.texastribune.org/2026/09/21/texas-data-center-moratorium-water-energy/"
+  },
+  "notes": "Fourth instrument in sequence: June PUC/ERCOT cost order, Aug 3 ERCOT audit (tx-governor-aug3-queue-audit), Sept 14 TWDB enforcement (tx-twdb-water-survey-directive), Sept 21 TCEQ halt. No end date; lifts on audit completion. Letter at gov.texas.gov/uploads/files/press/TCEQ_Data_Center.pdf.",
+  "confidence_note": "Letter not read in original (automated fetch blocked). Quotes held until read.",
+  "tags": [
+    "tceq",
+    "behind-the-meter",
+    "whole-of-government"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}

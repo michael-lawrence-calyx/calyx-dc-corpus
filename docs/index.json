@@ -1,24 +1,30 @@
 {
- "generated": "2026-09-23",
- "count": 206,
+ "generated": "2026-09-24",
+ "count": 241,
  "states": [
+  "AK",
   "AZ",
   "CA",
   "CO",
   "FL",
   "GA",
+  "HI",
   "ID",
   "IL",
   "IN",
   "MD",
   "MI",
   "MO",
+  "MS",
   "NC",
   "NH",
+  "NJ",
   "OH",
   "OK",
   "OR",
+  "PA",
   "SC",
+  "TN",
   "TX",
   "US",
   "UT",
@@ -29,6 +35,10 @@
  ],
  "jurisdictions": [
   "AEP Ohio",
+  "Alachua County",
+  "Alaska",
+  "Anchorage",
+  "Anne Arundel County",
   "Augusta-Richmond County",
   "Baltimore County",
   "Box Elder County",
@@ -45,30 +55,45 @@
   "City of Riverbank",
   "City of Salem",
   "City of Tulsa",
+  "Clarendon County",
   "Clean Water Services",
   "Commonwealth of Virginia",
   "DeKalb County",
   "Dominion Energy Virginia",
   "Duke Energy Carolinas / Progress",
   "ERCOT",
+  "El Mirage",
   "Elkhart",
   "Fayetteville",
   "Festus",
   "Forest Grove",
+  "Forward Township",
   "Frederick County",
   "Grant County",
   "Grant County PUD",
+  "Greensboro",
   "Greenwood County",
+  "Hawaii",
+  "Hawaii County",
   "Hillsboro",
   "Hood County",
   "Imperial County",
   "Indianapolis and Marion County",
+  "Jasper County",
+  "Laurens County",
   "Lee County and City of Sanford",
   "Loudoun County",
+  "Manatee County",
   "Marana",
   "Maricopa County",
+  "Mattoon",
+  "Memphis",
+  "Mendocino County",
+  "Miamisburg",
   "Michigan City",
+  "Mississippi",
   "Montgomery County",
+  "New Jersey",
   "PJM Interconnection",
   "Phoenix",
   "Pike County",
@@ -82,6 +107,8 @@
   "Raleigh",
   "Richmond",
   "Saline Township",
+  "San Francisco",
+  "Shelby County",
   "Snohomish County PUD",
   "Spartanburg County",
   "State of Arizona",
@@ -95,6 +122,7 @@
   "State of Texas",
   "State of Utah",
   "State of Washington",
+  "Statesville",
   "Town of Normal",
   "Tucson",
   "United States (federal)",
@@ -123,12 +151,99 @@
   "water"
  ],
  "by_origin": {
-  "ASSERTED": 0,
+  "ASSERTED": 1,
   "DERIVED": 1,
-  "OBSERVED": 72,
-  "RELAYED": 133
+  "OBSERVED": 81,
+  "RELAYED": 158
  },
  "entries": [
+  {
+   "id": "ak-anchorage-ao-2026-27",
+   "jurisdiction": "us-ak-anchorage",
+   "instrument": "Anchorage Assembly Ordinance AO 2026-27",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "summary": "Proposed land-use regulations for large-scale data centers across the Municipality, introduced before any hyperscale project had been proposed within city limits; public hearing set for Mar 3, 2026.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "source": {
+    "kind": "secondary",
+    "citation": "The Alaska Story, Feb 28, 2026"
+   },
+   "confidence_note": "Outcome after Mar 3 hearing not checked.",
+   "tags": [
+    "proactive"
+   ],
+   "section": "",
+   "text": "",
+   "effective": "",
+   "notes": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "AK",
+   "jurisdiction_name": "Anchorage",
+   "_path": "entries/AK/us-ak-anchorage/ak-anchorage-ao-2026-27.json"
+  },
+  {
+   "id": "ak-senate-data-center-bill-2026",
+   "jurisdiction": "us-ak-state",
+   "instrument": "Alaska Senate data center bill (2026 session)",
+   "mechanism": "utility-service",
+   "status": "expired",
+   "summary": "Passed the Senate 14-5; would have regulated data center use of public-utility electricity and required decommissioning plans. The House did not take it up before session end.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "secondary",
+    "citation": "Alaska Beacon / Alaska Public Media, Sept 2026"
+   },
+   "confidence_note": "Bill number not checked.",
+   "tags": [
+    "decommissioning",
+    "died"
+   ],
+   "section": "",
+   "text": "",
+   "effective": "",
+   "notes": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "AK",
+   "jurisdiction_name": "Alaska",
+   "_path": "entries/AK/us-ak-state/ak-senate-data-center-bill-2026.json"
+  },
+  {
+   "id": "ak-stak-energy-campus-north-slope",
+   "jurisdiction": "us-ak-state",
+   "instrument": "STAK Energy Campus, state land near Dalton Highway milepost 390",
+   "mechanism": "generation",
+   "status": "proposed",
+   "summary": "Proposed roughly $500 million HPC/AI data center complex on state land on the North Slope, powered by local natural gas and cooled by Arctic air; public comment opened May 2026.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "The Alaska Story, May 26, 2026; Alaska Beacon, Sept 2026"
+   },
+   "confidence_note": "State land-use or lease notice not read.",
+   "tags": [
+    "behind-the-meter",
+    "gas",
+    "state-land"
+   ],
+   "section": "",
+   "text": "",
+   "effective": "",
+   "notes": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "AK",
+   "jurisdiction_name": "Alaska",
+   "_path": "entries/AK/us-ak-state/ak-stak-energy-campus-north-slope.json"
+  },
   {
    "id": "az-chandler-5033-accessory",
    "jurisdiction": "us-az-chandler",
@@ -269,6 +384,191 @@
    "state": "AZ",
    "jurisdiction_name": "Chandler",
    "_path": "entries/AZ/us-az-chandler/az-chandler-5033-use.json"
+  },
+  {
+   "id": "az-el-mirage-compass-phx2-aps-microgrid",
+   "jurisdiction": "us-az-el-mirage",
+   "instrument": "Compass Datacenters letter to City of El Mirage, Dec 18, 2023 (APS microgrid)",
+   "mechanism": "generation",
+   "status": "proposed",
+   "summary": "Compass states it spent twelve months with APS on a microgrid that would power the site and respond to capacity or frequency events on the APS grid; contract language and design were unresolved and expected to affect final campus design. The landscape plan shows an on-site APS substation and access road.",
+   "origin": "ASSERTED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "source": {
+    "kind": "primary",
+    "citation": "Compass letter (Brett Collard, VP Corporate Development) in El Mirage P&Z packet, Jan 9, 2024",
+    "url": "https://public.destinyhosted.com/elmirdocs/2024/PZ/20240109_265/AGENDApacket__01-09-24_1251_264.pdf"
+   },
+   "notes": "Asserted by the applicant. Settled by an APS filing or ACC docket for a Compass microgrid or grid-services agreement.",
+   "confidence_note": "No APS or ACC document read.",
+   "tags": [
+    "compass",
+    "aps",
+    "microgrid",
+    "behind-the-meter"
+   ],
+   "section": "",
+   "text": "",
+   "effective": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "AZ",
+   "jurisdiction_name": "El Mirage",
+   "_path": "entries/AZ/us-az-el-mirage/az-el-mirage-compass-phx2-aps-microgrid.json"
+  },
+  {
+   "id": "az-el-mirage-compass-phx2-development-agreement",
+   "jurisdiction": "us-az-el-mirage",
+   "instrument": "Development Agreement, Compass Datacenters PHX II (Aug 17, 2026, item 5.1.f)",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-08-17",
+   "summary": "Council approved a development agreement with Compass Datacenters PHX II, 5-1, after pulling it from consent to the regular agenda. Reported terms: half-street improvements on Peoria Avenue once APS removes power poles, with certificates of occupancy allowed in the interim; Luke AFB review with site-specific stipulations.",
+   "text": "Consideration and action to enter into a Development Agreement with Compass Datacenters PHX II in connection with the proposed multi-building facility located at the southwest corner of El Mirage Road and Peoria Avenue.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "WARM",
+   "source": {
+    "kind": "primary",
+    "citation": "City of El Mirage, Regular City Council Meeting Results, Aug 17, 2026"
+   },
+   "notes": "Vote: Parsons/Winston, 5/1 (Nay: Gentry); six voting. Same night: council ordered 1,826 AF of CAP sub-contract water (6/0) and approved an unrelated warehouse CUP at 9105 N El Mirage Rd; no stated connection to Compass. Agreement terms are RELAYED from a Citizen Portal AI-generated meeting summary, which also reported no project-level water figure given at the hearing.",
+   "confidence_note": "Vote and item confirmed from the city results sheet. Agreement text not read; settled by the Aug 17, 2026 agenda packet.",
+   "tags": [
+    "compass",
+    "development-agreement",
+    "el-mirage"
+   ],
+   "section": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "AZ",
+   "jurisdiction_name": "El Mirage",
+   "_path": "entries/AZ/us-az-el-mirage/az-el-mirage-compass-phx2-development-agreement.json"
+  },
+  {
+   "id": "az-el-mirage-compass-phx2-final-plat",
+   "jurisdiction": "us-az-el-mirage",
+   "instrument": "Final Plat, Compass Datacenters PHX II (Aug 17, 2026, item 4.17)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-08-17",
+   "summary": "Council approved the final plat for the multi-building Compass Datacenters PHX II facility on the consent agenda, 5-1.",
+   "text": "Consideration and action to approve a Final Plat for Compass Datacenters PHX II in connection with the proposed multi-building facility located at the southwest corner of El Mirage Road and Peoria Avenue.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "City of El Mirage, Regular City Council Meeting Results, Aug 17, 2026"
+   },
+   "notes": "Vote: Parsons/Winston, 5/1 (Nay: Gentry). Six voting. The same member voted nay on every item that remained on consent that night; do not characterize as a data-center-specific split.",
+   "tags": [
+    "compass",
+    "el-mirage"
+   ],
+   "section": "",
+   "confidence_note": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "AZ",
+   "jurisdiction_name": "El Mirage",
+   "_path": "entries/AZ/us-az-el-mirage/az-el-mirage-compass-phx2-final-plat.json"
+  },
+  {
+   "id": "az-el-mirage-compass-phx2-site-plan-extension",
+   "jurisdiction": "us-az-el-mirage",
+   "instrument": "Site plan extension SPE23-12-01 (Planning & Zoning Commission, Jan 9, 2024)",
+   "mechanism": "process",
+   "status": "proposed",
+   "summary": "Compass requested an extension of its 2023 site plan beyond the code's one-year validity, open-ended until its matters with APS are resolved. Staff listed no stipulations, no City Council action, and no action required under the military-airport land use compatibility statute.",
+   "text": "until all matters with Arizona Public Services (APS) are resolved",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "City of El Mirage P&Z agenda packet, Jan 9, 2024, item 3.2 and staff report SPE23-12-01",
+    "url": "https://public.destinyhosted.com/elmirdocs/2024/PZ/20240109_265/AGENDApacket__01-09-24_1251_264.pdf"
+   },
+   "notes": "Staff report fields: Stipulations: None; City Council: No action is required; ARS 28-8481 Land Use Compatibility: No action is required. CONFLICT: agenda item names the submitter as H&H Capital Acquisitions; staff report names Compass Data Centers / DPML Copperwing Land Co II LLC. Status left as proposed because the Jan 9, 2024 P&Z vote was not read; the Aug 2026 final plat and development agreement indicate the entitlement remained alive.",
+   "confidence_note": "P&Z outcome on Jan 9, 2024 not read (minutes in a later packet).",
+   "tags": [
+    "compass",
+    "expires",
+    "aps",
+    "el-mirage"
+   ],
+   "section": "",
+   "effective": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "AZ",
+   "jurisdiction_name": "El Mirage",
+   "_path": "entries/AZ/us-az-el-mirage/az-el-mirage-compass-phx2-site-plan-extension.json"
+  },
+  {
+   "id": "az-el-mirage-compass-phx2-warehouse-entitlement",
+   "jurisdiction": "us-az-el-mirage",
+   "instrument": "Site plan PZ22-11-31, Compass Datacenters PHX II (SWC El Mirage Rd & Peoria Ave)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2023-02-09",
+   "summary": "A three-building data center campus on about 121 acres was approved by site plan under a Planned Area Development zoning, with the entitlement use recorded as a warehouse. No data-center-specific use classification was applied.",
+   "text": "The site is zoned PAD (Planned Area Development) with the land use of vacant land. The approved site plan was granted the entitlement use of a warehouse.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "City of El Mirage Planning & Zoning Commission agenda packet, Jan 9, 2024, staff report SPE23-12-01",
+    "url": "https://public.destinyhosted.com/elmirdocs/2024/PZ/20240109_265/AGENDApacket__01-09-24_1251_264.pdf"
+   },
+   "notes": "Approval date per staff report: City Council, Feb 9, 2023. CONFLICT: the applicant's Dec 18, 2023 letter in the same packet gives 'February 9, 2024', which postdates the letter itself; staff report governs.",
+   "confidence_note": "Site plan stipulations not read (Feb 9, 2023 council packet). Whether El Mirage's zoning code defines 'data center' at all is not checked.",
+   "tags": [
+    "compass",
+    "definition-gap",
+    "warehouse",
+    "el-mirage"
+   ],
+   "section": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "AZ",
+   "jurisdiction_name": "El Mirage",
+   "_path": "entries/AZ/us-az-el-mirage/az-el-mirage-compass-phx2-warehouse-entitlement.json"
+  },
+  {
+   "id": "az-el-mirage-compass-ymca-shade-donation",
+   "jurisdiction": "us-az-el-mirage",
+   "instrument": "Contract with Shade N' Net funded by Compass Datacenters donation (June 16, 2026, item 6.1)",
+   "mechanism": "incentive",
+   "status": "adopted",
+   "effective": "2026-06-16",
+   "summary": "Council authorized a contract for a basketball court shade structure at the Northwest Valley YMCA, funded through a private donation from Compass Datacenters of up to $110,573.12, 5-2.",
+   "text": "Consideration and action to authorize the City Manager to enter into a contract with Shade N' Net to complete the outdoor basketball court shade structure installation at the Northwest Valley YMCA, funded through a private donation from Compass Datacenters for an amount not to exceed $110,573.12, and authorize the Finance Department to make any necessary transfers.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "City of El Mirage, Regular City Council Meeting Results, June 16, 2026"
+   },
+   "notes": "Vote: Mayor Hermosillo/Dorcey, 5/2 (Nay: Eldridge, Gentry). Mechanism 'incentive' used for a developer community-benefit donation; no enum fits exactly. Sequence (dates only): June 16 donation; Aug 17 final plat and development agreement. No inference drawn.",
+   "confidence_note": "Reported detail that the city owns the site and oversees construction is not in this document.",
+   "tags": [
+    "compass",
+    "community-benefit",
+    "el-mirage"
+   ],
+   "section": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "AZ",
+   "jurisdiction_name": "El Mirage",
+   "_path": "entries/AZ/us-az-el-mirage/az-el-mirage-compass-ymca-shade-donation.json"
   },
   {
    "id": "az-marana-17613-generators",
@@ -1096,6 +1396,35 @@
    "_path": "entries/CA/us-ca-imperial-county/ca-imperial-county-ceqa-ruling.json"
   },
   {
+   "id": "ca-mendocino-county-urgency-moratorium",
+   "jurisdiction": "us-ca-mendocino-county",
+   "instrument": "Mendocino County 45-day urgency ordinance on data centers",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-09-01",
+   "summary": "45-day urgency moratorium adopted Sept 1, 2026, running to Oct 16. Deputy county counsel stated county code does not define data centers, so one could proceed on an ordinary building permit.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Local reporting / tracker, Sept 2026"
+   },
+   "notes": "Expires Oct 16, 2026 unless extended; on forward calendar.",
+   "confidence_note": "Ordinance text not read.",
+   "tags": [
+    "definition-gap",
+    "urgency"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "CA",
+   "jurisdiction_name": "Mendocino County",
+   "_path": "entries/CA/us-ca-mendocino-county/ca-mendocino-county-urgency-moratorium.json"
+  },
+  {
    "operator": "MLawrence",
    "section": "",
    "text": "",
@@ -1186,6 +1515,35 @@
    "state": "CA",
    "jurisdiction_name": "City of Riverbank",
    "_path": "entries/CA/us-ca-riverbank/ca-riverbank-moratorium.json"
+  },
+  {
+   "id": "ca-san-francisco-moratorium-proposal",
+   "jurisdiction": "us-ca-san-francisco",
+   "instrument": "Proposed 45-day data center moratorium (Supervisor Walton)",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "summary": "Supervisor Walton announced a proposed 45-day moratorium on data centers.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, mid-Sept 2026"
+   },
+   "confidence_note": "File number and introduction date not checked.",
+   "tags": [
+    "moratorium",
+    "proposed"
+   ],
+   "section": "",
+   "text": "",
+   "effective": "",
+   "notes": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "CA",
+   "jurisdiction_name": "San Francisco",
+   "_path": "entries/CA/us-ca-san-francisco/ca-san-francisco-moratorium-proposal.json"
   },
   {
    "id": "ca-gov-code-65858",
@@ -1337,6 +1695,63 @@
    "_path": "entries/CO/us-co-denver/co-denver-moratorium.json"
   },
   {
+   "id": "fl-alachua-county-moratorium-draft",
+   "jurisdiction": "us-fl-alachua-county",
+   "instrument": "Alachua County 12-month AI data center moratorium (to be drafted)",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "summary": "County announced Sept 15, 2026 it will draft a 12-month moratorium on AI data centers.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Savrn moratorium tracker; local reporting"
+   },
+   "notes": "CONFLICT: one summary describes a Planning & Zoning approval; unclear whether city of Alachua or Alachua County. Recorded under the county per the tracker.",
+   "confidence_note": "Body and instrument not confirmed.",
+   "tags": [
+    "moratorium",
+    "proposed"
+   ],
+   "section": "",
+   "text": "",
+   "effective": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "FL",
+   "jurisdiction_name": "Alachua County",
+   "_path": "entries/FL/us-fl-alachua-county/fl-alachua-county-moratorium-draft.json"
+  },
+  {
+   "id": "fl-manatee-county-moratorium",
+   "jurisdiction": "us-fl-manatee-county",
+   "instrument": "Manatee County 12-month data center moratorium",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-09-15",
+   "summary": "Twelve-month moratorium approved unanimously.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "datacenterbans.com weekly summary, Sept 14-21, 2026"
+   },
+   "confidence_note": "Ordinance text not read.",
+   "tags": [
+    "moratorium"
+   ],
+   "section": "",
+   "text": "",
+   "notes": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "FL",
+   "jurisdiction_name": "Manatee County",
+   "_path": "entries/FL/us-fl-manatee-county/fl-manatee-county-moratorium.json"
+  },
+  {
    "operator": "MLawrence",
    "section": "",
    "text": "",
@@ -1486,6 +1901,67 @@
    "_path": "entries/GA/us-ga-fayetteville/ga-fayetteville-citywide-prohibition.json"
   },
   {
+   "id": "hi-hawaii-county-bill-170",
+   "jurisdiction": "us-hi-hawaii-county",
+   "instrument": "Hawaii County Bill 170 (zoning code amendment, data centers vs data processing facilities)",
+   "mechanism": "definition",
+   "status": "proposed",
+   "summary": "Would distinguish industrial-scale data centers from standard data processing facilities in the county zoning code to close a loophole. The Windward Planning Commission deferred action to October; commissioners preferred a limit based on electrical demand over floor area.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Honolulu Star-Advertiser, Sept 9, 2026; West Hawaii Today, July 8 and Sept 6, 2026"
+   },
+   "notes": "Planning director: no data center has sought a permit; warned a county ban could push developers to state land-use approval in the agricultural district.",
+   "confidence_note": "Bill text not read.",
+   "tags": [
+    "definition",
+    "bypass",
+    "hawaii-county"
+   ],
+   "section": "",
+   "text": "",
+   "effective": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "HI",
+   "jurisdiction_name": "Hawaii County",
+   "_path": "entries/HI/us-hi-hawaii-county/hi-hawaii-county-bill-170.json"
+  },
+  {
+   "id": "hi-hcr206-data-center-working-group",
+   "jurisdiction": "us-hi-state",
+   "instrument": "House Concurrent Resolution 206, HD1 (2026 session)",
+   "mechanism": "definition",
+   "status": "proposed",
+   "summary": "Requests the Hawaii State Energy Office to convene a working group on large data centers requiring five megawatts or more in instantaneous demand, covering cost allocation, ratepayer protection, reporting, renewable supply, water and grid reliability. Report due to the Legislature 20 days before the 2027 session; the group ends June 30, 2027.",
+   "text": "the Hawaii State Energy Office is requested to convene a working group to study the potential impacts of large data centers requiring electricity of five megawatts or more in instantaneous demand on Hawaii's electric utilities, ratepayers, natural resources, and climate goals",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "WARM",
+   "source": {
+    "kind": "primary",
+    "citation": "Hawaii State Legislature, HCR 206 HD1, 2026",
+    "url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HCR206_HD1_.pdf"
+   },
+   "notes": "Recital states Hawaii has not yet received proposals for large hyperscale data centers. Companion HR 196 HD1 (House only).",
+   "confidence_note": "Status left as proposed: Senate concurrence and whether the working group was convened are not checked.",
+   "tags": [
+    "5-mw",
+    "working-group",
+    "hawaii"
+   ],
+   "section": "",
+   "effective": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "HI",
+   "jurisdiction_name": "Hawaii",
+   "_path": "entries/HI/us-hi-state/hi-hcr206-data-center-working-group.json"
+  },
+  {
    "operator": "MLawrence",
    "section": "",
    "text": "",
@@ -1576,6 +2052,35 @@
    "state": "IL",
    "jurisdiction_name": "City of Chicago",
    "_path": "entries/IL/us-il-chicago/il-chicago-moratorium-proposal.json"
+  },
+  {
+   "id": "il-mattoon-auto-renewing-pause",
+   "jurisdiction": "us-il-mattoon",
+   "instrument": "Mattoon resolution pausing data center development",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-09-01",
+   "summary": "One-year pause adopted 5-0 by resolution that renews annually unless repealed; repeal requires a prior public hearing. No applicant had approached the city.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, Sept 2026"
+   },
+   "confidence_note": "Resolution text not read; renewal and repeal mechanics are the key terms to confirm.",
+   "tags": [
+    "expires",
+    "auto-renew"
+   ],
+   "section": "",
+   "text": "",
+   "notes": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "IL",
+   "jurisdiction_name": "Mattoon",
+   "_path": "entries/IL/us-il-mattoon/il-mattoon-auto-renewing-pause.json"
   },
   {
    "operator": "MLawrence",
@@ -1786,31 +2291,60 @@
    "_path": "entries/IN/us-in-michigan-city/in-michigan-city-moratorium-tabled.json"
   },
   {
-   "operator": "MLawrence",
-   "section": "",
-   "text": "",
-   "retrieved": "2026-09-22",
-   "id": "md-baltimore-county-moratorium-extension",
-   "jurisdiction": "us-md-baltimore-county",
-   "instrument": "Baltimore County Council bill extending data center moratorium",
+   "id": "md-anne-arundel-county-ban-to-moratorium",
+   "jurisdiction": "us-md-anne-arundel-county",
+   "instrument": "Anne Arundel County data center bill (amended from ban to moratorium)",
    "mechanism": "use-permission",
    "status": "proposed",
-   "effective": "",
-   "freshness": "LIVE",
-   "summary": "Council vote scheduled September 22 2026 on extending the data center moratorium from January 1 2027 to December 2027.",
-   "notes": "Update after the vote.",
-   "confidence_note": "Relayed.",
-   "source": {
-    "kind": "secondary",
-    "citation": "Local reporting, September 2026"
-   },
-   "tags": [
-    "moratorium",
-    "extension",
-    "2027-12"
-   ],
+   "summary": "Council amended a proposed data center ban into a moratorium on Sept 21, 2026; a final vote is pending.",
    "origin": "RELAYED",
    "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "datacenterbans.com / local reporting, Sept 2026"
+   },
+   "confidence_note": "Bill number, amended text and final vote date not checked.",
+   "tags": [
+    "moratorium",
+    "instrument-change"
+   ],
+   "section": "",
+   "text": "",
+   "effective": "",
+   "notes": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "MD",
+   "jurisdiction_name": "Anne Arundel County",
+   "_path": "entries/MD/us-md-anne-arundel-county/md-anne-arundel-county-ban-to-moratorium.json"
+  },
+  {
+   "id": "md-baltimore-county-moratorium-extension",
+   "jurisdiction": "us-md-baltimore-county",
+   "instrument": "Bill 79-26, extension of the data center moratorium",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-09-22",
+   "summary": "Council voted Sept 22, 2026 to extend its moratorium through December 2027. The moratorium bars issuing data center permits and approving related development plans and zoning petitions; the original one-year moratorium (Feb 2026) would have expired January 2027.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "CBS Baltimore, Sept 23, 2026",
+    "url": "https://www.cbsnews.com/baltimore/news/baltimore-county-vote-data-center-moratorium/"
+   },
+   "notes": "CORRECTION: status updated from proposed (vote scheduled) to adopted.",
+   "confidence_note": "Bill 79-26 as passed not read.",
+   "tags": [
+    "moratorium",
+    "extension"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
    "state": "MD",
    "jurisdiction_name": "Baltimore County",
    "_path": "entries/MD/us-md-baltimore-county/md-baltimore-county-moratorium-extension.json"
@@ -2080,6 +2614,66 @@
    "_path": "entries/MO/us-mo-festus/mo-festus-council-removal.json"
   },
   {
+   "id": "ms-mdeq-xai-southaven-permit",
+   "jurisdiction": "us-ms-state",
+   "instrument": "MDEQ Permit Board construction permit, MZX Tech (xAI) Southaven turbines (Mar 10, 2026)",
+   "mechanism": "generation",
+   "status": "adopted",
+   "effective": "2026-03-10",
+   "summary": "Permit Board unanimously approved a construction permit for 41 permanent gas turbines at the Southaven site powering Colossus 2 in Memphis, to replace unpermitted units already operating.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Mississippi Free Press; SELC; E&E News, Mar 2026"
+   },
+   "notes": "DISPUTED: unpermitted turbine count - 27 (xAI, January 2026; lawsuit), 35 confirmed / up to 46 (plaintiffs, Mar 28, 2026), 57 in Southaven plus 2 elsewhere (MDEQ-Trinity Consultants emails via records request, July 2026). CONFLICT: one outlet describes the permit as covering the 27 units. SELC filed an administrative appeal.",
+   "confidence_note": "Permit not read.",
+   "tags": [
+    "xai",
+    "after-the-fact",
+    "disputed-count"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "MS",
+   "jurisdiction_name": "Mississippi",
+   "_path": "entries/MS/us-ms-state/ms-mdeq-xai-southaven-permit.json"
+  },
+  {
+   "id": "ms-mdeq-xai-temporary-mobile-letter",
+   "jurisdiction": "us-ms-state",
+   "instrument": "Mississippi letter to xAI treating Southaven turbines as temporary, mobile units",
+   "mechanism": "generation",
+   "status": "adopted",
+   "summary": "Mississippi officials told xAI by letter it could run turbines at 2875 Stanton Road South, Southaven, without an air permit because they were deemed temporary and mobile units.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "source": {
+    "kind": "secondary",
+    "citation": "Mississippi Today, Apr 15, 2026"
+   },
+   "notes": "The regulator-issued bypass. Plaintiffs contend no such exemption applies to units powering a permanent facility.",
+   "confidence_note": "Letter not read; date and signatory unknown.",
+   "tags": [
+    "xai",
+    "bypass",
+    "behind-the-meter"
+   ],
+   "section": "",
+   "text": "",
+   "effective": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "MS",
+   "jurisdiction_name": "Mississippi",
+   "_path": "entries/MS/us-ms-state/ms-mdeq-xai-temporary-mobile-letter.json"
+  },
+  {
    "operator": "MLawrence",
    "section": "",
    "text": "",
@@ -2108,6 +2702,37 @@
    "state": "NC",
    "jurisdiction_name": "Duke Energy Carolinas / Progress",
    "_path": "entries/NC/us-nc-duke-energy/nc-duke-large-load-tariff-proposal.json"
+  },
+  {
+   "id": "nc-greensboro-moratorium",
+   "jurisdiction": "us-nc-greensboro",
+   "instrument": "Greensboro 180-day data center moratorium ordinance (Aug 18, 2026)",
+   "mechanism": "load-trigger",
+   "status": "adopted",
+   "effective": "2026-08-18",
+   "summary": "Pauses acceptance, processing and approval of development applications for data centers and similar uses with electrical power demand exceeding 10 MW, through Feb 14, 2027. Vote 8-0 with one recusal.",
+   "text": "data centers, data storage and processing facilities, and similar uses with an electrical power demand exceeding 10 megawatts until Sunday, February 14, 2027",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Greensboro news release, Aug 18, 2026",
+    "url": "https://www.greensboro-nc.gov/Home/Components/News/News/22889/36"
+   },
+   "notes": "Council extended from an initially considered 120 days. Existing permitted or under-construction projects reported unaffected. Vote tally from FOX8/Rhino Times.",
+   "confidence_note": "City release read; ordinance text itself not read.",
+   "tags": [
+    "10-mw",
+    "moratorium",
+    "greensboro"
+   ],
+   "section": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "NC",
+   "jurisdiction_name": "Greensboro",
+   "_path": "entries/NC/us-nc-greensboro/nc-greensboro-moratorium.json"
   },
   {
    "id": "nc-sanford-lee-declined-moratorium",
@@ -2168,6 +2793,34 @@
    "_path": "entries/NC/us-nc-raleigh/nc-raleigh-10000-sqft-threshold.json"
   },
   {
+   "id": "nc-statesville-moratorium",
+   "jurisdiction": "us-nc-statesville",
+   "instrument": "Statesville data center moratorium (180 days)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "summary": "180-day moratorium on data centers, approved unanimously, running through March 2027.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "datacenterbans.com weekly summary, week of Sept 14-21, 2026"
+   },
+   "confidence_note": "Adoption date and text not read.",
+   "tags": [
+    "moratorium"
+   ],
+   "section": "",
+   "text": "",
+   "effective": "",
+   "notes": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "NC",
+   "jurisdiction_name": "Statesville",
+   "_path": "entries/NC/us-nc-statesville/nc-statesville-moratorium.json"
+  },
+  {
    "operator": "MLawrence",
    "section": "",
    "text": "",
@@ -2197,6 +2850,66 @@
    "_path": "entries/NH/us-nh-state/nh-senate-2027-moratorium-plan.json"
   },
   {
+   "id": "nj-a5482-ai-data-center-pause",
+   "jurisdiction": "us-nj-state",
+   "instrument": "Assembly Bill A5482 (proposed)",
+   "mechanism": "load-trigger",
+   "status": "proposed",
+   "summary": "Would impose a six-month pause on approvals and incentives for AI data centers over 10 MW.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Tracker reporting, Sept 2026"
+   },
+   "confidence_note": "Bill text and sponsor not read.",
+   "tags": [
+    "10-mw",
+    "proposed"
+   ],
+   "section": "",
+   "text": "",
+   "effective": "",
+   "notes": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "NJ",
+   "jurisdiction_name": "New Jersey",
+   "_path": "entries/NJ/us-nj-state/nj-a5482-ai-data-center-pause.json"
+  },
+  {
+   "id": "nj-dep-vineland-dataone-penalty",
+   "jurisdiction": "us-nj-state",
+   "instrument": "NJDEP penalty and order, DataOne (Vineland) under the Air Pollution Control Act (Sept 22, 2026)",
+   "mechanism": "generation",
+   "status": "adopted",
+   "effective": "2026-09-22",
+   "summary": "$1.07 million penalty for installing and operating 62 natural-gas engines of 1,982 kW each without preconstruction permits or operating certificates (threshold 37 kW). DataOne ordered to obtain permits within 45 days or cease operating the engines.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "New Jersey Monitor, WHYY, Newsweek, Sept 22-23, 2026",
+    "url": "https://newjerseymonitor.com/2026/09/22/nj-vineland-data-center-fined/"
+   },
+   "notes": "Engines observed at July 29 inspection, absent at Dec 2025 inspection. Derived: 62 x 1,982 kW = about 122.9 MW of unpermitted on-site generation. Project about 300 MW, developed by DataOne for Nebius. DataOne states it has necessary approvals and is transitioning to fuel cells (ASSERTED). City halted work in August over an LNG tank and fuel cells built before permits; neighbors have sued over noise (RELAYED). 45-day deadline about Nov 6, 2026 (derived; confirm against order). Headline '$1.1 million' is a rounding of $1.07M.",
+   "confidence_note": "DEP order and penalty calculation not read.",
+   "tags": [
+    "behind-the-meter",
+    "enforcement",
+    "vineland"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "NJ",
+   "jurisdiction_name": "New Jersey",
+   "_path": "entries/NJ/us-nj-state/nj-dep-vineland-dataone-penalty.json"
+  },
+  {
    "id": "oh-aep-service-moratorium",
    "jurisdiction": "us-oh-aep-ohio",
    "mechanism": "utility-service",
@@ -2223,6 +2936,35 @@
    "state": "OH",
    "jurisdiction_name": "AEP Ohio",
    "_path": "entries/OH/us-oh-aep-ohio/oh-aep-service-moratorium.json"
+  },
+  {
+   "id": "oh-miamisburg-moratorium",
+   "jurisdiction": "us-oh-miamisburg",
+   "instrument": "Miamisburg nine-month data center moratorium",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-09-01",
+   "summary": "Nine-month moratorium approved 6-0, prompted by interest in the former DP&L Hutchings Power Station site.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, Sept 2026"
+   },
+   "confidence_note": "Ordinance text and site applicant not checked.",
+   "tags": [
+    "moratorium",
+    "power-plant-site"
+   ],
+   "section": "",
+   "text": "",
+   "notes": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "OH",
+   "jurisdiction_name": "Miamisburg",
+   "_path": "entries/OH/us-oh-miamisburg/oh-miamisburg-moratorium.json"
   },
   {
    "operator": "MLawrence",
@@ -2793,6 +3535,35 @@
    "state": "OR",
    "jurisdiction_name": "Hillsboro",
    "_path": "entries/OR/us-or-hillsboro/or-hillsboro-8502-buffer.json"
+  },
+  {
+   "id": "or-hillsboro-8502-council-schedule",
+   "jurisdiction": "us-or-hillsboro",
+   "instrument": "Hillsboro Community Development Code amendment (data and energy storage), council readings",
+   "mechanism": "process",
+   "status": "recommended",
+   "summary": "Planning Commission recommended the Phase 1 amendment Sept 9; City Council first reading Oct 6 and second reading Oct 20, 2026, with public comment at both. Moratorium runs to Nov 24; council may extend six months.",
+   "text": "October 6: City Council first reading of proposed code amendments (public comment accepted) October 20: City Council second reading of proposed code amendments (public comment accepted)",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Hillsboro, 'Data Centers in Hillsboro: Next Steps After Moratorium'",
+    "url": "https://www.hillsboro-oregon.gov/Home/Components/News/News/17569/4300"
+   },
+   "notes": "Companion to or-hillsboro-8502-* entries. CONFLICT (claims queue): News-Times reports 17 enterprise zone applications from 8 entities; Herald figure was 18 pending agreements.",
+   "tags": [
+    "forward-calendar"
+   ],
+   "section": "",
+   "effective": "",
+   "confidence_note": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "OR",
+   "jurisdiction_name": "Hillsboro",
+   "_path": "entries/OR/us-or-hillsboro/or-hillsboro-8502-council-schedule.json"
   },
   {
    "id": "or-hillsboro-8502-exception-change",
@@ -3598,6 +4369,64 @@
    "_path": "entries/OR/us-or-woodburn/or-woodburn-120-day-moratorium.json"
   },
   {
+   "id": "pa-forward-township-misty-hollow",
+   "jurisdiction": "us-pa-forward-township",
+   "instrument": "Misty Hollow Energy & Data Campus preliminary plan (614 Prospect Rd)",
+   "mechanism": "generation",
+   "status": "proposed",
+   "summary": "Preliminary plan for about 1 million sq ft of data center on about 274 acres, with an 80,000 sq ft wastewater treatment facility and a 300 MW on-site power generation facility on about 10 acres; before the Planning Commission Sept 24, 2026.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Ryan Hart (construction tracker), LinkedIn, Sept 23, 2026"
+   },
+   "notes": "300 MW is generation capacity, not IT load; no load, GC or tenant confirmed. Developer targets final approvals early 2027, completion mid-2029; township engineer Gannett Fleming reviewing. Closed-loop cooling is a developer claim.",
+   "confidence_note": "Plan packet, PA DEP air plan approval and NPDES permit not read.",
+   "tags": [
+    "behind-the-meter",
+    "generation-vs-load"
+   ],
+   "section": "",
+   "text": "",
+   "effective": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "PA",
+   "jurisdiction_name": "Forward Township",
+   "_path": "entries/PA/us-pa-forward-township/pa-forward-township-misty-hollow.json"
+  },
+  {
+   "id": "sc-clarendon-county-moratorium",
+   "jurisdiction": "us-sc-clarendon-county",
+   "instrument": "Clarendon County data center moratorium",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "summary": "Data center moratorium approved unanimously, described by the county as closing loopholes.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Local reporting / datacenterbans.com, Sept 2026"
+   },
+   "notes": "One of four South Carolina county actions within about a week (Spartanburg, Jasper, Laurens, Clarendon).",
+   "confidence_note": "Ordinance text not read.",
+   "tags": [
+    "moratorium",
+    "sc-cluster"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "SC",
+   "jurisdiction_name": "Clarendon County",
+   "_path": "entries/SC/us-sc-clarendon-county/sc-clarendon-county-moratorium.json"
+  },
+  {
    "operator": "MLawrence",
    "section": "",
    "text": "",
@@ -3627,33 +4456,184 @@
    "_path": "entries/SC/us-sc-greenwood-county/sc-greenwood-county-moratorium.json"
   },
   {
-   "operator": "MLawrence",
-   "section": "",
-   "text": "",
-   "retrieved": "2026-09-22",
-   "id": "sc-spartanburg-county-moratorium",
-   "jurisdiction": "us-sc-spartanburg-county",
-   "instrument": "Spartanburg County data center moratorium ordinance (final reading September 2026)",
-   "mechanism": "load-trigger",
+   "id": "sc-jasper-county-moratorium",
+   "jurisdiction": "us-sc-jasper-county",
+   "instrument": "Jasper County data center and cryptocurrency moratorium",
+   "mechanism": "use-permission",
    "status": "adopted",
-   "effective": "",
-   "freshness": "LIVE",
-   "summary": "Moratorium passed on final reading applying only to facilities over 65 MW; already-approved projects, including the Valara data center under construction, are exempt.",
-   "notes": "",
-   "confidence_note": "Relayed; ordinance not read.",
-   "source": {
-    "kind": "secondary",
-    "citation": "Local reporting, September 2026"
-   },
-   "tags": [
-    "moratorium",
-    "65-mw"
-   ],
+   "effective": "2026-09-21",
+   "summary": "One-year moratorium on data centers and cryptocurrency mining in unincorporated areas, approved unanimously.",
    "origin": "RELAYED",
    "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Local reporting / datacenterbans.com, Sept 2026"
+   },
+   "notes": "One of four South Carolina county actions within about a week (Spartanburg, Jasper, Laurens, Clarendon).",
+   "confidence_note": "Ordinance text not read.",
+   "tags": [
+    "moratorium",
+    "sc-cluster"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "SC",
+   "jurisdiction_name": "Jasper County",
+   "_path": "entries/SC/us-sc-jasper-county/sc-jasper-county-moratorium.json"
+  },
+  {
+   "id": "sc-laurens-county-ordinance-1012",
+   "jurisdiction": "us-sc-laurens-county",
+   "instrument": "Laurens County Ordinance #1012",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-09-14",
+   "summary": "Twelve-month moratorium on acceptance, review and approval of data center applications and permits, approved unanimously on third reading.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Local reporting / datacenterbans.com, Sept 2026"
+   },
+   "notes": "One of four South Carolina county actions within about a week (Spartanburg, Jasper, Laurens, Clarendon).",
+   "confidence_note": "Ordinance text not read.",
+   "tags": [
+    "moratorium",
+    "sc-cluster"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "SC",
+   "jurisdiction_name": "Laurens County",
+   "_path": "entries/SC/us-sc-laurens-county/sc-laurens-county-ordinance-1012.json"
+  },
+  {
+   "id": "sc-spartanburg-county-moratorium-amendments",
+   "jurisdiction": "us-sc-spartanburg-county",
+   "instrument": "Floor amendments to the data center moratorium ordinance at third reading (Sept 21, 2026)",
+   "mechanism": "load-trigger",
+   "status": "adopted",
+   "effective": "2026-09-21",
+   "summary": "Reported exception pathway: data centers of 65 MW or less may proceed if located in an industrial park or on a former industrial site, not self-generating power except emergency backup, and primarily used for data. Reported as measured in IT megawatts, excluding ancillary load serving other businesses. A further amendment bars an exempted facility from sharing a parcel or industrial park with another data center. Adopted 5-1.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "WSPA, FOX Carolina, Post and Courier, Sept 21-22, 2026"
+   },
+   "notes": "Amendments were made from the floor; they are not in the Sept 18 posted packet. Already-approved Valara project unaffected. Crypto mining and ancillary IT closets reported excluded. Opposed: Coker.",
+   "confidence_note": "No posted document contains the amendment language. Minutes not posted after March 2026. Settled by the enacted ordinance from the Clerk to Council or the meeting video.",
+   "tags": [
+    "65-mw",
+    "it-megawatts",
+    "aggregation",
+    "self-generation",
+    "spartanburg"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "SC",
+   "jurisdiction_name": "Spartanburg County",
+   "_path": "entries/SC/us-sc-spartanburg-county/sc-spartanburg-county-moratorium-amendments.json"
+  },
+  {
+   "id": "sc-spartanburg-county-moratorium",
+   "jurisdiction": "us-sc-spartanburg-county",
+   "instrument": "Ordinance imposing a moratorium on development applications for data centers (first reading June 22, 2026; third reading Sept 21, 2026)",
+   "mechanism": "load-trigger",
+   "status": "adopted",
+   "effective": "2026-09-21",
+   "summary": "Twelve-month moratorium on accepting, processing or approving development applications for data centers, defined as facilities of one megawatt or more of combined connected electrical load. Applications received after first reading are held in abeyance; projects with prior conditional plan approval or a development permit issued in the prior twelve months are exempt; extendable by council resolution. Floor amendments at third reading are recorded separately.",
+   "text": "Data Centers are defined as a facility comprised of one or more buildings that houses computer systems and associated components, including telecommunications and data storages systems, that has a combined connected electrical load of one megawatt or more, and whose primary function is the storage, management and processing of data.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "primary",
+    "citation": "Spartanburg County Council, Main Agenda - Final with backup, Sept 21, 2026, item XVII.A (ordinance as presented for third reading)"
+   },
+   "notes": "CORRECTION: previous entry described the moratorium as applying only to facilities over 65 MW. The ordinance defines data centers at 1 MW; 65 MW is the ceiling of an exception added by floor amendment (see sc-spartanburg-county-moratorium-amendments). Pending Ordinance Doctrine invoked, so applications were held from first reading. The packet text is unamended (signature block still 'June 2026'). Same day, executive session item II.F: legal advice regarding litigation related to data centers (parties not named).",
+   "confidence_note": "Enacted text with amendments not read; settled by the Clerk to Council or approved minutes.",
+   "tags": [
+    "moratorium",
+    "definition",
+    "1-mw",
+    "spartanburg"
+   ],
+   "section": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
    "state": "SC",
    "jurisdiction_name": "Spartanburg County",
    "_path": "entries/SC/us-sc-spartanburg-county/sc-spartanburg-county-moratorium.json"
+  },
+  {
+   "id": "tn-memphis-xai-tax-revenue-allocation",
+   "jurisdiction": "us-tn-memphis",
+   "instrument": "Memphis City Council ordinance allocating xAI tax revenue",
+   "mechanism": "incentive",
+   "status": "adopted",
+   "summary": "Allocates 25 percent of tax revenue generated from xAI to the communities closest to its facilities.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "secondary",
+    "citation": "SELC timeline, June 2026"
+   },
+   "confidence_note": "Ordinance number and date not checked.",
+   "tags": [
+    "xai",
+    "community-benefit"
+   ],
+   "section": "",
+   "text": "",
+   "effective": "",
+   "notes": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "TN",
+   "jurisdiction_name": "Memphis",
+   "_path": "entries/TN/us-tn-memphis/tn-memphis-xai-tax-revenue-allocation.json"
+  },
+  {
+   "id": "tn-shelby-county-xai-colossus1-air-permit",
+   "jurisdiction": "us-tn-shelby-county",
+   "instrument": "Shelby County Health Department air permit, xAI Colossus 1 (July 2025)",
+   "mechanism": "generation",
+   "status": "adopted",
+   "effective": "",
+   "summary": "Air permit issued to xAI for gas turbines at the Colossus 1 site in South Memphis after more than a year of operation without one; aerial photography in March 2025 showed 35 turbines, at least 33 operating a month later.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "WARM",
+   "source": {
+    "kind": "secondary",
+    "citation": "SELC; E&E News, Mar 2026; TechCrunch, June 2025"
+   },
+   "notes": "Permit commonly reported as covering 15 turbines; unverified. SELC appealed on behalf of NAACP and Young, Gifted & Green.",
+   "confidence_note": "Permit not read; turbine count covered by the permit unconfirmed.",
+   "tags": [
+    "xai",
+    "behind-the-meter",
+    "after-the-fact"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "TN",
+   "jurisdiction_name": "Shelby County",
+   "_path": "entries/TN/us-tn-shelby-county/tn-shelby-county-xai-colossus1-air-permit.json"
   },
   {
    "operator": "MLawrence",
@@ -4015,6 +4995,37 @@
    "_path": "entries/TX/us-tx-state/tx-governor-aug3-queue-audit.json"
   },
   {
+   "id": "tx-governor-sep21-tceq-permit-halt",
+   "jurisdiction": "us-tx-state",
+   "instrument": "Governor's letter to TCEQ Executive Director Kelly Keel (Sept 21, 2026)",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-09-21",
+   "summary": "Directs TCEQ to issue no permits sought by data center projects until the ERCOT and TWDB audits are complete, and states that no other state agency shall move forward with data center regulatory approvals until the PUC, ERCOT and TWDB information is acquired. Reaches environmental permits, including for behind-the-meter projects the grid audit would not catch.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Texas Tribune, Sept 21, 2026 (links the letter)",
+    "url": "https://www.texastribune.org/2026/09/21/texas-data-center-moratorium-water-energy/"
+   },
+   "notes": "Fourth instrument in sequence: June PUC/ERCOT cost order, Aug 3 ERCOT audit (tx-governor-aug3-queue-audit), Sept 14 TWDB enforcement (tx-twdb-water-survey-directive), Sept 21 TCEQ halt. No end date; lifts on audit completion. Letter at gov.texas.gov/uploads/files/press/TCEQ_Data_Center.pdf.",
+   "confidence_note": "Letter not read in original (automated fetch blocked). Quotes held until read.",
+   "tags": [
+    "tceq",
+    "behind-the-meter",
+    "whole-of-government"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "TX",
+   "jurisdiction_name": "State of Texas",
+   "_path": "entries/TX/us-tx-state/tx-governor-sep21-tceq-permit-halt.json"
+  },
+  {
    "id": "tx-sb6-site-control",
    "jurisdiction": "us-tx-state",
    "mechanism": "use-permission",
@@ -4072,6 +5083,37 @@
    "state": "TX",
    "jurisdiction_name": "State of Texas",
    "_path": "entries/TX/us-tx-state/tx-twdb-water-survey-directive.json"
+  },
+  {
+   "id": "federal-naacp-v-xai-southaven",
+   "jurisdiction": "us-federal",
+   "instrument": "NAACP v. xAI and MZX Tech, No. 3:26-cv-00074-MPM-JMV (N.D. Miss.)",
+   "mechanism": "litigation",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Clean Air Act citizen suit filed Apr 14, 2026 alleging operation of unpermitted gas turbines in Southaven powering Colossus 2; seeks injunction, best available control technology and per-day penalties. Preliminary injunction motion filed May 2026. DOJ moved to intervene seeking dismissal, with a DoD declaration citing national security.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Earthjustice/SELC releases, Apr-May 2026; Utility Dive, June 2026",
+    "url": "https://naacp.org/sites/default/files/documents/1%20-%20Complaint.pdf"
+   },
+   "notes": "Status 'proposed' used for pending litigation, consistent with mi-wixom-federal-complaint.",
+   "confidence_note": "Docket not read; rulings on intervention, injunction and dismissal unknown after June 2026.",
+   "tags": [
+    "xai",
+    "clean-air-act",
+    "litigation"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "US",
+   "jurisdiction_name": "United States (federal)",
+   "_path": "entries/US/us-federal/federal-naacp-v-xai-southaven.json"
   },
   {
    "operator": "MLawrence",
@@ -5060,6 +6102,36 @@
    "state": "VA",
    "jurisdiction_name": "Prince William County",
    "_path": "entries/VA/us-va-prince-william-county/va-prince-william-by-right-repeal.json"
+  },
+  {
+   "id": "va-prince-william-overlay-reduction-grace",
+   "jurisdiction": "us-va-prince-william-county",
+   "instrument": "Zoning text amendment, Data Center Opportunity Zone Overlay District (Sept 22, 2026)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-09-22",
+   "summary": "Overlay shrinks from about 9,700 to about 3,641 acres; new data centers outside it generally need a special use permit. A 90-day grace period applies; land with built or under-construction data centers or site plans past quality control stays in. Board chose 90 days over the Planning Commission's 120.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "InsideNoVa, WTOP, Virginia Business, Prince William Times, Sept 22-24, 2026"
+   },
+   "notes": "Vote 8-0 after a mid-hearing closed session. Forward: setback proposal to Planning Commission in November, board targeted January. Grace period ends about Dec 21, 2026 (derived). Companion to va-prince-william-by-right-repeal.",
+   "confidence_note": "Adopted ZTA text not read.",
+   "tags": [
+    "by-right",
+    "sup",
+    "grace-period"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-24",
+   "operator": "MLawrence",
+   "state": "VA",
+   "jurisdiction_name": "Prince William County",
+   "_path": "entries/VA/us-va-prince-william-county/va-prince-william-overlay-reduction-grace.json"
   },
   {
    "id": "va-pw-notice-void",

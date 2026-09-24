@@ -1,0 +1,26 @@
+{
+  "id": "tn-memphis-xai-tax-revenue-allocation",
+  "jurisdiction": "us-tn-memphis",
+  "instrument": "Memphis City Council ordinance allocating xAI tax revenue",
+  "mechanism": "incentive",
+  "status": "adopted",
+  "summary": "Allocates 25 percent of tax revenue generated from xAI to the communities closest to its facilities.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "FIXED",
+  "source": {
+    "kind": "secondary",
+    "citation": "SELC timeline, June 2026"
+  },
+  "confidence_note": "Ordinance number and date not checked.",
+  "tags": [
+    "xai",
+    "community-benefit"
+  ],
+  "section": "",
+  "text": "",
+  "effective": "",
+  "notes": "",
+  "retrieved": "2026-09-24",
+  "operator": "MLawrence"
+}
