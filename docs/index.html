@@ -60,6 +60,18 @@ h1{font-size:clamp(26px,4vw,36px);line-height:1.15;letter-spacing:-.022em;font-w
 .none{color:var(--steel);padding:40px 0;font-style:italic}
 footer{border-top:1px solid var(--line);margin-top:44px;padding:26px 0 60px;color:var(--steel);font-size:14px}
 @media(max-width:640px){.wrap{padding:0 18px}body{font-size:15.5px}}
+
+.stamp{font-family:"IBM Plex Mono",monospace;font-size:14px;color:var(--pale);margin-top:16px;letter-spacing:.01em}
+.lens{display:flex;flex-wrap:wrap;gap:0;margin-bottom:12px;border:1px solid var(--line);border-radius:6px;overflow:hidden;width:max-content;max-width:100%}
+.lens button{background:transparent;border:0;border-right:1px solid var(--line);color:var(--dim);padding:8px 14px;font-family:inherit;font-size:14px;cursor:pointer}
+.lens button:last-child{border-right:0}
+.lens button[aria-pressed="true"]{background:rgba(127,194,240,.15);color:var(--pale)}
+.lens button:focus-visible,.chip:focus-visible{outline:2px solid var(--sky);outline-offset:2px}
+.lensnote{font-size:14px;color:var(--steel);margin:0 0 10px}
+.grp{font-size:15px;font-weight:600;color:var(--pale);margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.plain{font-size:13.5px;color:var(--dim);margin-top:12px;padding-top:11px;border-top:1px solid var(--line)}
+.plain b{font-weight:500;color:var(--text)}
+@media(max-width:640px){.lens{width:100%}.lens button{flex:1 1 50%;border-bottom:1px solid var(--line)}}
 </style>
 </head>
 <body>
@@ -68,11 +80,18 @@ footer{border-top:1px solid var(--line);margin-top:44px;padding:26px 0 60px;colo
   <h1>Instrument register</h1>
   <p class="lede">Adopted and proposed instruments governing data centers, one provision per entry. Every entry names the document it came from, whether it was read in original, and whether it reconciles.</p>
   <p class="lede">This is the public register. It is a finding aid over public records. The marked corpus — draft-to-draft diffs, cross-jurisdiction comparisons, parcel-level constraint sets — is not published.</p>
-  <p class="meta" id="stamp">loading…</p>
+  <p class="stamp" id="stamp">loading…</p>
 </header>
 </div>
 
 <div class="controls"><div class="wrap">
+  <div class="lens" role="group" aria-label="View the register as">
+    <button type="button" data-lens="all" aria-pressed="true">Everything</button>
+    <button type="button" data-lens="residents" aria-pressed="false">Residents</button>
+    <button type="button" data-lens="officials" aria-pressed="false">Public officials</button>
+    <button type="button" data-lens="industry" aria-pressed="false">Developers and contractors</button>
+  </div>
+  <p class="lensnote" id="lensnote">Every entry, in register order.</p>
   <input id="q" type="search" placeholder="Search provisions, instruments, sections, text…" autocomplete="off">
   <div class="filters" id="f"></div>
 </div></div>
@@ -88,66 +107,99 @@ footer{border-top:1px solid var(--line);margin-top:44px;padding:26px 0 60px;colo
 </footer></div>
 
 <script>
-let DATA = {entries:[]}, active = {state:null, mechanism:null, origin:null};
-
+let DATA = {entries:[]}, active = {state:null, mechanism:null, origin:null}, lens = 'all';
 const esc = s => (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const REAL = new Set("AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY".split(" "));
+const STATE_LABEL = s => REAL.has(s) ? s : (s === 'US' ? 'Federal' : 'Multi-state');
+const PLAIN_MECH = {"use-permission":"Where data centers are allowed","quantity-cap":"Limits on size or number","definition":"What counts as a data center","load-trigger":"Power-size thresholds","acoustic":"Noise","utility-service":"Utility service and grid connection","water":"Water","generation":"On-site power plants","storage":"Battery storage","rate-allocation":"Who pays for grid costs","process":"Review and approval process","litigation":"Court cases","incentive":"Tax breaks and incentives","connectivity":"Fiber and connectivity","enforcement":"Enforcement and fines","state-authority":"State powers over local rules"};
+const PLAIN_STATUS = {adopted:"Adopted",proposed:"Proposed",recommended:"Recommended, not yet adopted",draft:"Draft",expired:"Expired",void:"Rejected or void"};
+const PLAIN_ORIGIN = {OBSERVED:"Read in the original document",RELAYED:"Reported by others, not yet read in original",ASSERTED:"A party's own statement, not independently checked",DERIVED:"Worked out from other entries"};
+const STATUS_ORDER = {adopted:0,proposed:1,recommended:2,draft:3,expired:4,void:5};
+const NOTES = {all:"Every entry, in register order.",residents:"Grouped by place, with plain-language labels. Same entries, same wording of each rule.",officials:"Grouped by type of rule, so you can compare how other places wrote the same provision.",industry:"Adopted rules first, then what's proposed, newest first within each."};
+const SNAME = {"AL":"Alabama","AK":"Alaska","AZ":"Arizona","AR":"Arkansas","CA":"California","CO":"Colorado","CT":"Connecticut","DE":"Delaware","DC":"District of Columbia","FL":"Florida","GA":"Georgia","HI":"Hawaii","ID":"Idaho","IL":"Illinois","IN":"Indiana","IA":"Iowa","KS":"Kansas","KY":"Kentucky","LA":"Louisiana","ME":"Maine","MD":"Maryland","MA":"Massachusetts","MI":"Michigan","MN":"Minnesota","MS":"Mississippi","MO":"Missouri","MT":"Montana","NE":"Nebraska","NV":"Nevada","NH":"New Hampshire","NJ":"New Jersey","NM":"New Mexico","NY":"New York","NC":"North Carolina","ND":"North Dakota","OH":"Ohio","OK":"Oklahoma","OR":"Oregon","PA":"Pennsylvania","RI":"Rhode Island","SC":"South Carolina","SD":"South Dakota","TN":"Tennessee","TX":"Texas","UT":"Utah","VT":"Vermont","VA":"Virginia","WA":"Washington","WV":"West Virginia","WI":"Wisconsin","WY":"Wyoming"};
+const jn = e => e.jurisdiction_name + (REAL.has(e.state) ? ', ' + e.state : '');
 
 function chips(){
   const f = document.getElementById('f');
-  const groups = [
-    ['state', DATA.states],
-    ['mechanism', DATA.mechanisms],
-    ['origin', ['OBSERVED','RELAYED','ASSERTED','DERIVED']]
-  ];
-  f.innerHTML = groups.map(([k, vals]) =>
-    vals.map(v => `<button class="chip" data-k="${k}" data-v="${esc(v)}">${esc(v)}</button>`).join('')
-  ).join('');
+  const states = DATA.states.slice().sort((a,b)=> (REAL.has(b)-REAL.has(a)) || a.localeCompare(b));
+  const groups = [['state', states],['mechanism', DATA.mechanisms],['origin', ['OBSERVED','RELAYED','ASSERTED','DERIVED']]];
+  f.innerHTML = groups.map(([k, vals]) => vals.map(v => `<button class="chip${active[k]===v?' on':''}" data-k="${k}" data-v="${esc(v)}">${esc(k==='state'?STATE_LABEL(v):v)}</button>`).join('')).join('');
   f.querySelectorAll('.chip').forEach(b => b.onclick = () => {
     const k = b.dataset.k, v = b.dataset.v;
     active[k] = active[k] === v ? null : v;
     f.querySelectorAll(`[data-k="${k}"]`).forEach(x => x.classList.toggle('on', x.dataset.v === active[k]));
-    render();
+    syncURL(); render();
   });
 }
-
+function sorted(list){
+  const a = list.slice();
+  if (lens === 'residents') a.sort((x,y)=> x.state.localeCompare(y.state) || x.jurisdiction_name.localeCompare(y.jurisdiction_name) || (STATUS_ORDER[x.status]??9)-(STATUS_ORDER[y.status]??9));
+  if (lens === 'officials') a.sort((x,y)=> (PLAIN_MECH[x.mechanism]||x.mechanism).localeCompare(PLAIN_MECH[y.mechanism]||y.mechanism) || (STATUS_ORDER[x.status]??9)-(STATUS_ORDER[y.status]??9) || x.state.localeCompare(y.state));
+  if (lens === 'industry') a.sort((x,y)=> (STATUS_ORDER[x.status]??9)-(STATUS_ORDER[y.status]??9) || (y.retrieved||'').localeCompare(x.retrieved||'') || x.state.localeCompare(y.state));
+  return a;
+}
+function card(e){
+  const plainLens = lens === 'residents' || lens === 'officials';
+  const mechLabel = plainLens ? (PLAIN_MECH[e.mechanism]||e.mechanism) : e.mechanism;
+  const status = e.status ? (plainLens ? PLAIN_STATUS[e.status]||e.status : e.status) : '';
+  const marks = lens === 'residents'
+    ? `<div class="plain"><b>${esc(PLAIN_ORIGIN[e.origin]||e.origin)}.</b> ${e.entry_state==='CONFLICTING'?'Sources disagree on this one. ':''}Retrieved ${esc(e.retrieved)}.</div>`
+    : `<div class="marks"><span class="m ${esc(e.origin)}">${esc(e.origin)}</span><span class="m ${esc(e.entry_state)}">${esc(e.entry_state)}</span><span class="m">${esc(e.freshness)}</span><span class="m">${esc(e.source.kind)}</span></div>`;
+  const eff = (lens === 'industry' && e.effective) ? ` · effective ${esc(e.effective)}` : '';
+  return `<div class="e">
+    <div class="eh"><span class="ju">${esc(jn(e))}</span><span class="mech">${esc(mechLabel)}</span></div>
+    <div class="inst">${esc(e.instrument)}${e.section ? ' · ' + esc(e.section) : ''}${status ? ' · ' + esc(status) : ''}${eff}</div>
+    <p class="sum">${esc(e.summary)}</p>
+    ${e.text ? `<div class="txt">${esc(e.text)}</div>` : ''}
+    ${e.notes ? `<p class="notes">${esc(e.notes)}</p>` : ''}
+    ${e.confidence_note ? `<p class="conf"><b>Does not establish:</b> ${esc(e.confidence_note)}</p>` : ''}
+    <div class="src">Source: ${esc(e.source.citation || e.source.kind)}${e.source.url ? ` · <a href="${esc(e.source.url)}" rel="noopener">document</a>` : ''} · retrieved ${esc(e.retrieved)}</div>
+    ${marks}
+  </div>`;
+}
 function render(){
   const q = document.getElementById('q').value.trim().toLowerCase();
-  const out = DATA.entries.filter(e => {
+  const out = sorted(DATA.entries.filter(e => {
     if (active.state && e.state !== active.state) return false;
     if (active.mechanism && e.mechanism !== active.mechanism) return false;
     if (active.origin && e.origin !== active.origin) return false;
     if (!q) return true;
-    return [e.jurisdiction_name,e.jurisdiction,e.instrument,e.section,e.summary,e.text,e.notes,e.confidence_note,(e.tags||[]).join(' '),e.source&&e.source.citation]
-      .join(' ').toLowerCase().includes(q);
+    return [e.jurisdiction_name,e.jurisdiction,e.instrument,e.section,e.summary,e.text,e.notes,e.confidence_note,(e.tags||[]).join(' '),e.source&&e.source.citation,PLAIN_MECH[e.mechanism]].join(' ').toLowerCase().includes(q);
+  }));
+  document.getElementById('count').textContent = `${out.length} of ${DATA.entries.length} entries` + (DATA.by_origin ? ` \u00b7 ${DATA.by_origin.OBSERVED} read in original` : '');
+  let html = '', last = null;
+  out.forEach(e => {
+    const key = lens === 'officials' ? (PLAIN_MECH[e.mechanism]||e.mechanism) : lens === 'residents' ? (REAL.has(e.state) ? SNAME[e.state] : STATE_LABEL(e.state)) : null;
+    if (key && key !== last){ html += `<h2 class="grp">${esc(key)}</h2>`; last = key; }
+    html += card(e);
   });
-  document.getElementById('count').textContent =
-    `${out.length} of ${DATA.entries.length} entries` + (DATA.by_origin ? ` \u00b7 ${DATA.by_origin.OBSERVED} read in original` : '');
-  document.getElementById('list').innerHTML = out.length ? out.map(e => `
-    <div class="e">
-      <div class="eh"><span class="ju">${esc(e.jurisdiction_name)}, ${esc(e.state)}</span><span class="mech">${esc(e.mechanism)}</span></div>
-      <div class="inst">${esc(e.instrument)}${e.section ? ' · ' + esc(e.section) : ''}${e.status ? ' · ' + esc(e.status) : ''}</div>
-      <p class="sum">${esc(e.summary)}</p>
-      ${e.text ? `<div class="txt">${esc(e.text)}</div>` : ''}
-      ${e.notes ? `<p class="notes">${esc(e.notes)}</p>` : ''}
-      ${e.confidence_note ? `<p class="conf"><b>Does not establish:</b> ${esc(e.confidence_note)}</p>` : ''}
-      <div class="src">Source: ${esc(e.source.citation || e.source.kind)}${e.source.url ? ` · <a href="${esc(e.source.url)}" rel="noopener">document</a>` : ''} · retrieved ${esc(e.retrieved)}</div>
-      <div class="marks">
-        <span class="m ${esc(e.origin)}">${esc(e.origin)}</span>
-        <span class="m ${esc(e.entry_state)}">${esc(e.entry_state)}</span>
-        <span class="m">${esc(e.freshness)}</span>
-        <span class="m">${esc(e.source.kind)}</span>
-      </div>
-    </div>`).join('') : '<p class="none">Nothing matches. A gap here means nobody has read it yet, not that no provision exists.</p>';
+  document.getElementById('list').innerHTML = out.length ? html : '<p class="none">Nothing matches. A gap here means nobody has read it yet, not that no provision exists.</p>';
 }
-
+function setLens(l){
+  lens = ['all','residents','officials','industry'].includes(l) ? l : 'all';
+  document.querySelectorAll('.lens button').forEach(b => b.setAttribute('aria-pressed', b.dataset.lens === lens));
+  document.getElementById('lensnote').textContent = NOTES[lens];
+}
+function syncURL(){
+  const p = new URLSearchParams();
+  if (lens !== 'all') p.set('lens', lens);
+  if (active.state) p.set('state', active.state);
+  if (active.mechanism) p.set('mechanism', active.mechanism);
+  history.replaceState(null, '', p.toString() ? '?' + p : location.pathname);
+}
+document.querySelectorAll('.lens button').forEach(b => b.onclick = () => { setLens(b.dataset.lens); syncURL(); render(); });
+const params = new URLSearchParams(location.search);
+setLens(params.get('lens') || 'all');
 fetch('index.json').then(r => r.json()).then(d => {
   DATA = d;
+  if (params.get('state') && d.states.includes(params.get('state').toUpperCase())) active.state = params.get('state').toUpperCase();
+  if (params.get('mechanism') && d.mechanisms.includes(params.get('mechanism'))) active.mechanism = params.get('mechanism');
+  const real = d.states.filter(s => REAL.has(s)).length;
+  const other = d.entries.filter(e => !REAL.has(e.state)).length;
   document.getElementById('stamp').textContent =
-    `${d.count} entries · ${d.jurisdictions.length} jurisdictions · ${d.states.length} states · generated ${d.generated}`;
+    `${d.count} entries · ${d.jurisdictions.length} jurisdictions · ${real} states` + (other ? ` plus ${other} federal and multi-state entries` : '') + ` · generated ${d.generated}`;
   chips(); render();
-}).catch(() => {
-  document.getElementById('stamp').textContent = 'index.json not found — run build.py';
-});
+}).catch(() => { document.getElementById('stamp').textContent = 'index.json not found — run build.py'; });
 document.getElementById('q').addEventListener('input', render);
 </script>
 </body>
