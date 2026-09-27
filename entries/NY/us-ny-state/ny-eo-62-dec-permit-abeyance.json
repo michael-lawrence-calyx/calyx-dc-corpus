@@ -1,0 +1,30 @@
+{
+  "id": "ny-eo-62-dec-permit-abeyance",
+  "jurisdiction": "us-ny-state",
+  "instrument": "Executive Order No. 62 (Gov. Hochul, July 14, 2026)",
+  "section": "Sections 1, 6",
+  "mechanism": "load-trigger",
+  "status": "adopted",
+  "effective": "2026-07-14",
+  "retrieved": "2026-09-24",
+  "summary": "Directs DEC to hold in abeyance all discretionary permit applications for construction or expansion of data centers that were not deemed complete before July 14, 2026, until DPS submits a final Generic Environmental Impact Statement and findings. Covers facilities that consume or can consume 50 MW or more, counted across the same or contiguous sites. Does not apply to local government approvals. Excludes facilities primarily for manufacturing, research, education or medical care.",
+  "text": "DEC, consistent with its obligations under SEQRA, is directed to hold in abeyance all applications for any discretionary permit, approval, license, or similar form of permission for the construction or expansion of a data center that (1) are or may hereafter be pending before DEC and (2) have not been determined to be complete by DEC before the date of this Executive Order.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "primary",
+    "citation": "New York Executive Order No. 62, July 14, 2026",
+    "url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops"
+  },
+  "notes": "First statewide data center permitting pause. Definition aggregates 'a facility or group of facilities located on the same site or contiguous sites' (aggregation clause). No fixed end date; lasts until the final GEIS (commonly described as up to one year). Also directs: ESD Community Investment Framework within 60 days (~Sept 12, 2026 \u2014 check whether posted); DPS Data Center Interconnection Working Group within 60 days; transmission-owner study review reported to the Commission within 90 days (~Oct 12, 2026); DEC water-withdrawal report within 12 months (~July 14, 2027); Grid Acceleration Fund under consideration (Case 26-E-0045). The Legislature's Responsible Data Center Development Act (S10642/A11560, 20 MW, passed June 4, 2026) has not been acted on; commentators expect a veto (RELAYED).",
+  "confidence_note": "EO read in full. Status of the ESD framework, working group and the Legislature's Act not checked.",
+  "tags": [
+    "statewide",
+    "50-mw",
+    "aggregation",
+    "seqra",
+    "new-york"
+  ],
+  "operator": "MLawrence"
+}

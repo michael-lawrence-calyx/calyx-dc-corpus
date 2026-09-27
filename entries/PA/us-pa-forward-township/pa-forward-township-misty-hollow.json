@@ -4,23 +4,23 @@
   "instrument": "Misty Hollow Energy & Data Campus preliminary plan (614 Prospect Rd)",
   "mechanism": "generation",
   "status": "proposed",
-  "summary": "Preliminary plan for about 1 million sq ft of data center on about 274 acres, with an 80,000 sq ft wastewater treatment facility and a 300 MW on-site power generation facility on about 10 acres; before the Planning Commission Sept 24, 2026.",
+  "effective": "",
+  "summary": "Preliminary plan for about 1 million sq ft of data center on about 274 acres, with an 80,000 sq ft wastewater plant and about 10 acres of on-site gas-fired generation (300 MW). The Sept 24 Planning Commission meeting was canceled after a large opposition turnout; rescheduling expected Oct 1.",
   "origin": "RELAYED",
   "entry_state": "NOT_CHECKED",
   "freshness": "LIVE",
   "source": {
     "kind": "secondary",
-    "citation": "Ryan Hart (construction tracker), LinkedIn, Sept 23, 2026"
+    "citation": "Butler Eagle; ButlerRadio (Sept 18-25, 2026)"
   },
-  "notes": "300 MW is generation capacity, not IT load; no load, GC or tenant confirmed. Developer targets final approvals early 2027, completion mid-2029; township engineer Gannett Fleming reviewing. Closed-loop cooling is a developer claim.",
-  "confidence_note": "Plan packet, PA DEP air plan approval and NPDES permit not read.",
+  "notes": "Update to existing entry. Forward Township has no zoning ordinance; a SALDO amendment for industrial development is expected before supervisors in November, but the plan was submitted before it would take effect. 300 MW is generation capacity, not IT load. Pennsylvania municipalities may not exclude a use entirely.",
+  "confidence_note": "Primary instrument not read.",
   "tags": [
     "behind-the-meter",
-    "generation-vs-load"
+    "forward-calendar"
   ],
   "section": "",
   "text": "",
-  "effective": "",
-  "retrieved": "2026-09-24",
+  "retrieved": "2026-09-27",
   "operator": "MLawrence"
 }

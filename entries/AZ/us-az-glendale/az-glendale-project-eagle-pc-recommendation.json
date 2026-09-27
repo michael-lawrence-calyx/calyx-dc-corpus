@@ -1,0 +1,27 @@
+{
+  "id": "az-glendale-project-eagle-pc-recommendation",
+  "jurisdiction": "us-az-glendale",
+  "instrument": "Planning Commission recommendation, rezoning for Project Eagle / Project Baccara (Sept 24, 2026)",
+  "mechanism": "use-permission",
+  "status": "recommended",
+  "effective": "",
+  "summary": "Planning Commission voted 4-2 to recommend rezoning 160 acres north of Olive Ave. near Litchfield Rd. for three 330,000 sq ft data centers and 18 natural gas turbines (Takanock LLC). Council votes on annexation and rezoning Oct 27, 2026.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Daily Independent; ABC15; AZBEX (Sept 2026)"
+  },
+  "notes": "ACC granted a Certificate of Environmental Compatibility for the 700.2 MW gas plant; Maricopa County approved a military compatibility permit 4-1 on May 6. Annexation as route choice (compare Decatur County, IN). Arizona outreach hold to Oct 24 \u2014 records only.",
+  "confidence_note": "Primary instrument not read.",
+  "tags": [
+    "annexation",
+    "behind-the-meter",
+    "forward-calendar"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-27",
+  "operator": "MLawrence"
+}

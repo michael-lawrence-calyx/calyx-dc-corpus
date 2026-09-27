@@ -1,0 +1,26 @@
+{
+  "id": "mn-woodbury-moratorium",
+  "jurisdiction": "us-mn-woodbury",
+  "instrument": "Woodbury moratorium on new data centers and expansions",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "",
+  "summary": "Moratorium of up to one year on new data centers and expansions to study water, electricity and noise.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, Sept 2026"
+  },
+  "notes": "",
+  "confidence_note": "Primary instrument not read.",
+  "tags": [
+    "moratorium",
+    "noise"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-27",
+  "operator": "MLawrence"
+}

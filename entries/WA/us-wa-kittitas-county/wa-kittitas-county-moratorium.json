@@ -1,0 +1,26 @@
+{
+  "id": "wa-kittitas-county-moratorium",
+  "jurisdiction": "us-wa-kittitas-county",
+  "instrument": "Kittitas County emergency moratorium on data center land-use applications (Aug 2026; extended Sept 2026)",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "",
+  "summary": "Emergency six-month moratorium on accepting and processing land-use applications for data centers in unincorporated county, extended six more months after a public hearing, for about a year in total; no applications had been received.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Daily Record; Yakima Herald-Republic; Skamania Dispatch; MyNorthwest (June-Sept 2026)"
+  },
+  "notes": "Resolution number reported as 2026-141 (unverified).",
+  "confidence_note": "Primary instrument not read.",
+  "tags": [
+    "moratorium",
+    "washington"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-27",
+  "operator": "MLawrence"
+}

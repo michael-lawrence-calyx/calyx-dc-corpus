@@ -1,0 +1,26 @@
+{
+  "id": "fl-palm-beach-county-pause",
+  "jurisdiction": "us-fl-palm-beach-county",
+  "instrument": "Palm Beach County pause on new large data center applications (Sept 24, 2026)",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "2026-09-24",
+  "summary": "Commission voted 6-0 to pause new applications for large data centers for up to one year while writing rules on noise, water, electricity and proximity to homes; a smaller approved project (Project Tango) remains approved.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "CBS12, Sept 24, 2026"
+  },
+  "notes": "",
+  "confidence_note": "Primary instrument not read.",
+  "tags": [
+    "moratorium",
+    "noise"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-27",
+  "operator": "MLawrence"
+}

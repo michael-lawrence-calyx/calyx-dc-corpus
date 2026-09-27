@@ -1,0 +1,27 @@
+{
+  "id": "ks-kcc-evergy-llps-tariff",
+  "jurisdiction": "us-ks-state",
+  "instrument": "KCC Docket 25-EKME-315-TAR, Evergy Large Load Power Service tariff (approved Nov 6, 2025)",
+  "mechanism": "rate-allocation",
+  "status": "adopted",
+  "effective": "2025-11-06",
+  "summary": "Applies to new load or growth above 75 MW peak: minimum 12-year term plus optional 5-year ramp, auto-extends 5 years, minimum bill of 80% of contract demand, collateral covering two years of minimum bills, 36-month exit notice.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "FIXED",
+  "source": {
+    "kind": "secondary",
+    "citation": "KCC news release; KCC Senate Utilities update Jan 15, 2026; Kansas Reflector"
+  },
+  "notes": "CONFLICT: De Soto city FAQ describes the threshold as >100 MW expected and at least 75 MW in any month; KCC materials say >75 MW peak. Compare FERC ComEd $1 letter-of-credit dispute.",
+  "confidence_note": "KCC order not read.",
+  "tags": [
+    "large-load",
+    "collateral",
+    "minimum-bill"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-27",
+  "operator": "MLawrence"
+}

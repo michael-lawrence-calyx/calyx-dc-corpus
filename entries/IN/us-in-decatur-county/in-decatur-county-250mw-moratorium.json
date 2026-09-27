@@ -1,0 +1,27 @@
+{
+  "id": "in-decatur-county-250mw-moratorium",
+  "jurisdiction": "us-in-decatur-county",
+  "instrument": "Decatur County moratorium on large data centers (Sept 21, 2026)",
+  "mechanism": "load-trigger",
+  "status": "adopted",
+  "effective": "2026-09-21",
+  "summary": "Bars applications for data centers of 250 MW or more until Dec 31, 2026 (may be shortened or extended); does not apply to facilities annexed into a city.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Greensburg Daily News, Sept 2026"
+  },
+  "notes": "Highest MW threshold in the corpus; annexation exemption is a bypass route (compare Glendale, AZ).",
+  "confidence_note": "Primary instrument not read.",
+  "tags": [
+    "250-mw",
+    "annexation",
+    "bypass"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-27",
+  "operator": "MLawrence"
+}

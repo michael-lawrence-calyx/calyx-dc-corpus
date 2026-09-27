@@ -1,0 +1,28 @@
+{
+  "id": "ks-de-soto-digital-realty-tif-plan-3",
+  "jurisdiction": "us-ks-de-soto",
+  "instrument": "Sunflower Redevelopment District, TIF Redevelopment Project Plan 3 (Digital Astra Park North, LLC)",
+  "mechanism": "incentive",
+  "status": "proposed",
+  "summary": "Two data center buildings of about 1,425,000 sq ft on 273.88 acres, total project cost $7,522,879,333. Developer projects about $358.7 million of TIF revenue over the statutory maximum 20 years from incremental ad valorem property tax only; 80% of increment reimburses developer costs on a pay-as-you-go basis, the balance to the city for district infrastructure; the city does not pledge its credit. Developer may also seek an IRB sales-tax exemption on construction materials.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "primary",
+    "citation": "City of De Soto Planning Commission packet, Sept 22, 2026, Item 7c (TIF Project Plan) and City Attorney memo Sept 17, 2026"
+  },
+  "notes": "District based on a 'blighted area' finding (Ordinance 2527, Jan 20, 2022; expanded Ord. 2598, Dec 7, 2023) under K.S.A. 12-1770 et seq. Process: Planning Commission conformance finding, then City Council resolution and public hearing (dates TBD \u2014 forward calendar). Resolves 3M vs 1.5M sq ft: plan states ~1.425M in two buildings. Construction 2027-2030.",
+  "confidence_note": "TIF plan and memo read in full. Which item the reported 5-2 PC vote applied to is unconfirmed; site plan staff report (Item 7b) is a scanned image not yet read.",
+  "tags": [
+    "tif",
+    "incentive",
+    "blight",
+    "forward-calendar"
+  ],
+  "section": "",
+  "text": "",
+  "effective": "",
+  "retrieved": "2026-09-27",
+  "operator": "MLawrence"
+}

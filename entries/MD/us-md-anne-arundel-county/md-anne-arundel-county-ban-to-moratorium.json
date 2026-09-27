@@ -1,26 +1,26 @@
 {
   "id": "md-anne-arundel-county-ban-to-moratorium",
   "jurisdiction": "us-md-anne-arundel-county",
-  "instrument": "Anne Arundel County data center bill (amended from ban to moratorium)",
+  "instrument": "Bill No. 63-26 (as amended Sept 21, 2026)",
   "mechanism": "use-permission",
   "status": "proposed",
-  "summary": "Council amended a proposed data center ban into a moratorium on Sept 21, 2026; a final vote is pending.",
+  "effective": "",
+  "summary": "Council amendment converted a proposed ban into a moratorium running to Jan 31, 2028 or until comprehensive legislation is adopted; creates a work group and repeals the personal property tax assessment reduction for qualified data storage centers; projects in development and future phases of existing campuses on adjacent lots exempt. Final hearing and vote Oct 5, 2026.",
   "origin": "RELAYED",
   "entry_state": "NOT_CHECKED",
   "freshness": "LIVE",
   "source": {
     "kind": "secondary",
-    "citation": "datacenterbans.com / local reporting, Sept 2026"
+    "citation": "Anne Arundel County bill page; Baltimore Sun; GovTech; WMAR (Sept 21-23, 2026)"
   },
-  "confidence_note": "Bill number, amended text and final vote date not checked.",
+  "notes": "Update to existing entry. CONFLICT: some outlets report the moratorium as enacted; the county bill page shows only the amendment adopted. Forward calendar: Oct 5.",
+  "confidence_note": "Bill page status via research report; amended bill text not read.",
   "tags": [
     "moratorium",
-    "instrument-change"
+    "forward-calendar"
   ],
   "section": "",
   "text": "",
-  "effective": "",
-  "notes": "",
-  "retrieved": "2026-09-24",
+  "retrieved": "2026-09-27",
   "operator": "MLawrence"
 }

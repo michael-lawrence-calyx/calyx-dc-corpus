@@ -1,0 +1,28 @@
+{
+  "id": "or-hillsboro-enterprise-zone-2017-redesignation",
+  "jurisdiction": "us-or-hillsboro",
+  "instrument": "Hillsboro Enterprise Zone re-designation, Resolution No. 2558 (April 2017; boundary expanded 2024)",
+  "mechanism": "incentive",
+  "status": "adopted",
+  "summary": "The Enterprise Zone allows a 100% property tax abatement for 3 to 5 years on new buildings and equipment of eligible businesses; the City Manager or designee is Zone Manager and authorizes eligibility administratively. The city states staff have no discretion to deny an application that meets state law and local policy. Facilities in the Hillsboro School District pay a School Support Fee of 15% of the abated tax in years 4 and 5; local agreements are posted 21 days before taking effect.",
+  "text": "City staff have no discretion to deny an application that meets the standards set forth in state law",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "primary",
+    "citation": "City of Hillsboro, Data Centers in Hillsboro page and Enterprise Zone Program page",
+    "url": "https://www.hillsboro-oregon.gov/community/data-centers"
+  },
+  "notes": "Resolution 2558 text not located online; the Section 7 delegation quoted by the Hillsboro Herald is RELAYED. Council vote April 2017 with one dissent (Allen) on the wage threshold (150% to 105% of minimum wage) (Hillsboro Signal). State HB 4084 (2026) excludes new data centers from Enterprise Zone eligibility from June 2026 (see or-hb4084-enterprise-zone-data-center-exclusion). The 10-year designation implies a renewal decision around mid-2027 \u2014 confirm. Herald claims ('7.6 square miles tax-exempt', 'virtually zero property taxes') are in the claims queue, not this entry.",
+  "confidence_note": "City pages read; resolution text not read \u2014 records request pending.",
+  "tags": [
+    "enterprise-zone",
+    "incentive",
+    "hillsboro"
+  ],
+  "section": "",
+  "effective": "",
+  "retrieved": "2026-09-27",
+  "operator": "MLawrence"
+}

@@ -1,29 +1,33 @@
 {
   "id": "sc-spartanburg-county-moratorium-amendments",
   "jurisdiction": "us-sc-spartanburg-county",
-  "instrument": "Floor amendments to the data center moratorium ordinance at third reading (Sept 21, 2026)",
+  "instrument": "Ordinance No. O-26-26, Section 4(3) conditional exemption (enacted Sept 21, 2026)",
+  "section": "Section 4",
   "mechanism": "load-trigger",
   "status": "adopted",
   "effective": "2026-09-21",
-  "summary": "Reported exception pathway: data centers of 65 MW or less may proceed if located in an industrial park or on a former industrial site, not self-generating power except emergency backup, and primarily used for data. Reported as measured in IT megawatts, excluding ancillary load serving other businesses. A further amendment bars an exempted facility from sharing a parcel or industrial park with another data center. Adopted 5-1.",
-  "origin": "RELAYED",
-  "entry_state": "NOT_CHECKED",
+  "retrieved": "2026-09-24",
+  "summary": "Data centers of 65 IT-megawatts or less may proceed if located in a named industrial park or on a former industrial site and not self-generating power except emergency backup. Exempt projects must submit light-and-glare, noise, and landscaping plans as if all neighboring properties were in a Restrictive Development District, including a noise study establishing pre-construction levels and showing post-construction levels do not increase by more than 10 dB. They may not share a parcel or industrial park with, or sit within one mile of, any other data center, and must enter a development agreement under S.C. Code 6-31-10.",
+  "text": "Data Centers which will (A) be located (i) in a named industrial park or (ii) on a former industrial site (B) will not self-generate power, except for emergency back-up power and (C) be 65 IT-megawatts or less, and whose primary function is the storage, management and processing of data.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
   "freshness": "LIVE",
   "source": {
-    "kind": "secondary",
-    "citation": "WSPA, FOX Carolina, Post and Courier, Sept 21-22, 2026"
+    "kind": "primary",
+    "citation": "Spartanburg County Ordinance No. O-26-26, enacted Sept 21, 2026 (4 pp., signed; provided by Clerk to Council)",
+    "url": "https://www.spartanburgcounty.gov/DocumentCenter/View/107510/Moratorium-Ordinance-O-26-26"
   },
-  "notes": "Amendments were made from the floor; they are not in the Sept 18 posted packet. Already-approved Valara project unaffected. Crypto mining and ancillary IT closets reported excluded. Opposed: Coker.",
-  "confidence_note": "No posted document contains the amendment language. Minutes not posted after March 2026. Settled by the enacted ordinance from the Clerk to Council or the meeting video.",
+  "notes": "CORRECTION: previously RELAYED. Confirms the reported 65 MW (as IT-megawatts), industrial-site and no-self-generation conditions. Reporting understated the anti-clustering clause: it also bars any exempt facility within one (1) mile of any other data center. Not previously reported: the pre-construction noise baseline with a 10 dB post-construction cap, the Restrictive Development District standard applied to neighbors, and the mandatory development agreement. Noise five-element read: limit = relative (+10 dB over measured baseline); measurement standard, weighting and tonal penalty not specified in this ordinance (may be in PZO 2.3.70, not read); measurement by applicant's study; consequence = condition of the application.",
+  "confidence_note": "Ordinance read in full. PZO Sections 2.3.70 and 2.3.80 not read.",
   "tags": [
     "65-mw",
     "it-megawatts",
     "aggregation",
+    "one-mile",
     "self-generation",
+    "noise-baseline",
+    "acoustic",
     "spartanburg"
   ],
-  "section": "",
-  "text": "",
-  "retrieved": "2026-09-24",
   "operator": "MLawrence"
 }

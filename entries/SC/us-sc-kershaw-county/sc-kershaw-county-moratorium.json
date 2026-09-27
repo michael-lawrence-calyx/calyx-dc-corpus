@@ -1,0 +1,26 @@
+{
+  "id": "sc-kershaw-county-moratorium",
+  "jurisdiction": "us-sc-kershaw-county",
+  "instrument": "Kershaw County moratorium on data centers, crypto mining and data processing",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "",
+  "summary": "One-year moratorium approved unanimously.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Local reporting via digest, ~Sept 22, 2026"
+  },
+  "notes": "Fifth South Carolina county in the September cluster (Spartanburg, Jasper, Laurens, Clarendon, Kershaw). Governor McMaster said Sept 23 he will not call for a statewide moratorium at this time.",
+  "confidence_note": "Primary instrument not read.",
+  "tags": [
+    "moratorium",
+    "sc-cluster"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-27",
+  "operator": "MLawrence"
+}

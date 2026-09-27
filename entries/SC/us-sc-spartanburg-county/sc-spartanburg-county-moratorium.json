@@ -1,28 +1,29 @@
 {
   "id": "sc-spartanburg-county-moratorium",
   "jurisdiction": "us-sc-spartanburg-county",
-  "instrument": "Ordinance imposing a moratorium on development applications for data centers (first reading June 22, 2026; third reading Sept 21, 2026)",
+  "instrument": "Ordinance No. O-26-26, moratorium on development applications for data centers (enacted Sept 21, 2026)",
+  "section": "Sections 1(b), 2, 4, 6",
   "mechanism": "load-trigger",
   "status": "adopted",
   "effective": "2026-09-21",
-  "summary": "Twelve-month moratorium on accepting, processing or approving development applications for data centers, defined as facilities of one megawatt or more of combined connected electrical load. Applications received after first reading are held in abeyance; projects with prior conditional plan approval or a development permit issued in the prior twelve months are exempt; extendable by council resolution. Floor amendments at third reading are recorded separately.",
-  "text": "Data Centers are defined as a facility comprised of one or more buildings that houses computer systems and associated components, including telecommunications and data storages systems, that has a combined connected electrical load of one megawatt or more, and whose primary function is the storage, management and processing of data.",
+  "retrieved": "2026-09-24",
+  "summary": "Twelve-month moratorium on accepting, processing or approving development applications for data centers, defined as facilities of one megawatt or more of combined connected electrical load whose primary function is data, excluding minor ancillary server rooms or IT closets supporting a different business and digital asset mining businesses. Applications received after first reading are held in abeyance. Exempt: prior conditional plan approvals, data centers issued a development permit in the 18 months before adoption, and a conditional small-facility pathway (see sc-spartanburg-county-moratorium-amendments). Extendable by council resolution.",
+  "text": "Data Centers are defined as a facility comprised of one or more buildings that houses computer systems and associated components, including telecommunications and data storages systems, that has a combined connected electrical load of one megawatt or more, and whose primary function is the storage, management and processing of data and does not include minor, ancillary server rooms, or IT closets that support a different primary business on the same premises; or a Digital Mining Asset Business in accordance with SC Code Section 34-47-10 et seq.",
   "origin": "OBSERVED",
   "entry_state": "CONFIRMED",
   "freshness": "LIVE",
   "source": {
     "kind": "primary",
-    "citation": "Spartanburg County Council, Main Agenda - Final with backup, Sept 21, 2026, item XVII.A (ordinance as presented for third reading)"
+    "citation": "Spartanburg County Ordinance No. O-26-26, enacted Sept 21, 2026 (4 pp., signed; provided by Clerk to Council)",
+    "url": "https://www.spartanburgcounty.gov/DocumentCenter/View/107510/Moratorium-Ordinance-O-26-26"
   },
-  "notes": "CORRECTION: previous entry described the moratorium as applying only to facilities over 65 MW. The ordinance defines data centers at 1 MW; 65 MW is the ceiling of an exception added by floor amendment (see sc-spartanburg-county-moratorium-amendments). Pending Ordinance Doctrine invoked, so applications were held from first reading. The packet text is unamended (signature block still 'June 2026'). Same day, executive session item II.F: legal advice regarding litigation related to data centers (parties not named).",
-  "confidence_note": "Enacted text with amendments not read; settled by the Clerk to Council or approved minutes.",
+  "notes": "CORRECTION: prior versions described a >65 MW threshold (Sept 22) and then the unamended first-reading text (Sept 24 load). Enacted text read in original. Changes from first reading: definition now excludes ancillary server rooms/IT closets and digital asset mining; development-permit exemption lookback is 18 months (first reading said 12). Readings: first June 22, second and public hearing July 20, third Sept 21, 2026. Pending Ordinance Doctrine applied from first reading. Opposed at third reading: Coker (reported).",
+  "confidence_note": "Enacted text read in full. Vote tally from reporting, not minutes.",
   "tags": [
     "moratorium",
     "definition",
     "1-mw",
     "spartanburg"
   ],
-  "section": "",
-  "retrieved": "2026-09-24",
   "operator": "MLawrence"
 }

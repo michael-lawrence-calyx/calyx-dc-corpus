@@ -1,0 +1,26 @@
+{
+  "id": "wa-skamania-county-moratorium",
+  "jurisdiction": "us-wa-skamania-county",
+  "instrument": "Skamania County data center moratorium (Aug 2026)",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "",
+  "summary": "Adopted a data center moratorium the same morning neighboring Klickitat County declined one in favor of a policy statement.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Daily Record; Yakima Herald-Republic; Skamania Dispatch; MyNorthwest (June-Sept 2026)"
+  },
+  "notes": "",
+  "confidence_note": "Primary instrument not read.",
+  "tags": [
+    "moratorium",
+    "washington"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-27",
+  "operator": "MLawrence"
+}

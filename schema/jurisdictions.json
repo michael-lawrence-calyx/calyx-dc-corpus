@@ -9,6 +9,11 @@
     "name": "Alaska",
     "state": "AK"
   },
+  "us-ar-pulaski-county": {
+    "kind": "county",
+    "name": "Pulaski County",
+    "state": "AR"
+  },
   "us-az-chandler": {
     "kind": "municipality",
     "name": "Chandler",
@@ -22,6 +27,11 @@
   "us-az-florence": {
     "kind": "municipality",
     "name": "Florence",
+    "state": "AZ"
+  },
+  "us-az-glendale": {
+    "kind": "city",
+    "name": "Glendale",
     "state": "AZ"
   },
   "us-az-marana": {
@@ -94,6 +104,11 @@
     "name": "State of California",
     "state": "CA"
   },
+  "us-ca-tulare-county": {
+    "kind": "county",
+    "name": "Tulare County",
+    "state": "CA"
+  },
   "us-co-denver": {
     "kind": "city",
     "name": "City and County of Denver",
@@ -118,6 +133,16 @@
     "kind": "city",
     "name": "City of North Port",
     "state": "FL"
+  },
+  "us-fl-palm-beach-county": {
+    "kind": "county",
+    "name": "Palm Beach County",
+    "state": "FL"
+  },
+  "us-ga-americus": {
+    "kind": "city",
+    "name": "Americus",
+    "state": "GA"
   },
   "us-ga-atlanta": {
     "kind": "municipality",
@@ -159,6 +184,11 @@
     "name": "Hawaii",
     "state": "HI"
   },
+  "us-ia-marshall-county": {
+    "kind": "county",
+    "name": "Marshall County",
+    "state": "IA"
+  },
   "us-id-pocatello": {
     "kind": "city",
     "name": "City of Pocatello",
@@ -184,6 +214,16 @@
     "name": "Town of Normal",
     "state": "IL"
   },
+  "us-il-troy": {
+    "kind": "city",
+    "name": "Troy",
+    "state": "IL"
+  },
+  "us-in-decatur-county": {
+    "kind": "county",
+    "name": "Decatur County",
+    "state": "IN"
+  },
   "us-in-elkhart": {
     "kind": "municipality",
     "name": "Elkhart",
@@ -208,6 +248,16 @@
     "kind": "city",
     "name": "Michigan City",
     "state": "IN"
+  },
+  "us-ks-de-soto": {
+    "kind": "city",
+    "name": "De Soto",
+    "state": "KS"
+  },
+  "us-ks-state": {
+    "kind": "state",
+    "name": "Kansas",
+    "state": "KS"
   },
   "us-md-anne-arundel-county": {
     "kind": "county",
@@ -249,6 +299,11 @@
     "name": "Wixom",
     "state": "MI"
   },
+  "us-mn-woodbury": {
+    "kind": "city",
+    "name": "Woodbury",
+    "state": "MN"
+  },
   "us-mo-festus": {
     "kind": "municipality",
     "name": "Festus",
@@ -279,6 +334,11 @@
     "name": "Raleigh",
     "state": "NC"
   },
+  "us-nc-state": {
+    "kind": "state",
+    "name": "North Carolina",
+    "state": "NC"
+  },
   "us-nc-statesville": {
     "kind": "city",
     "name": "Statesville",
@@ -293,6 +353,11 @@
     "kind": "state",
     "name": "New Jersey",
     "state": "NJ"
+  },
+  "us-ny-state": {
+    "kind": "state",
+    "name": "New York",
+    "state": "NY"
   },
   "us-oh-aep-ohio": {
     "kind": "utility",
@@ -317,6 +382,11 @@
   "us-oh-state": {
     "kind": "state",
     "name": "State of Ohio",
+    "state": "OH"
+  },
+  "us-oh-warren-county": {
+    "kind": "county",
+    "name": "Warren County",
     "state": "OH"
   },
   "us-ok-state": {
@@ -399,6 +469,11 @@
     "name": "Jasper County",
     "state": "SC"
   },
+  "us-sc-kershaw-county": {
+    "kind": "county",
+    "name": "Kershaw County",
+    "state": "SC"
+  },
   "us-sc-laurens-county": {
     "kind": "county",
     "name": "Laurens County",
@@ -479,6 +554,11 @@
     "name": "Commonwealth of Virginia",
     "state": "VA"
   },
+  "us-wa-cle-elum": {
+    "kind": "city",
+    "name": "Cle Elum",
+    "state": "WA"
+  },
   "us-wa-federal-way": {
     "kind": "city",
     "name": "City of Federal Way",
@@ -489,14 +569,34 @@
     "name": "Grant County PUD",
     "state": "WA"
   },
+  "us-wa-kittitas-county": {
+    "kind": "county",
+    "name": "Kittitas County",
+    "state": "WA"
+  },
   "us-wa-port-of-walla-walla": {
     "kind": "port-district",
     "name": "Port of Walla Walla",
     "state": "WA"
   },
+  "us-wa-seattle": {
+    "kind": "city",
+    "name": "Seattle",
+    "state": "WA"
+  },
+  "us-wa-skamania-county": {
+    "kind": "county",
+    "name": "Skamania County",
+    "state": "WA"
+  },
   "us-wa-snohomish-pud": {
     "kind": "utility",
     "name": "Snohomish County PUD",
+    "state": "WA"
+  },
+  "us-wa-spokane-county": {
+    "kind": "county",
+    "name": "Spokane County",
     "state": "WA"
   },
   "us-wa-state": {
@@ -507,6 +607,11 @@
   "us-wa-walla-walla-county": {
     "kind": "county",
     "name": "Walla Walla County",
+    "state": "WA"
+  },
+  "us-wa-yakima-county": {
+    "kind": "county",
+    "name": "Yakima County",
     "state": "WA"
   },
   "us-wi-we-energies": {

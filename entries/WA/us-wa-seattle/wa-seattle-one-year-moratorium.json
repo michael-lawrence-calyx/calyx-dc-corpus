@@ -1,0 +1,26 @@
+{
+  "id": "wa-seattle-one-year-moratorium",
+  "jurisdiction": "us-wa-seattle",
+  "instrument": "Seattle one-year moratorium on large data centers (June 2026)",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "",
+  "summary": "City Council voted unanimously for a one-year moratorium on the creation or expansion of large data centers within city limits.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Daily Record; Yakima Herald-Republic; Skamania Dispatch; MyNorthwest (June-Sept 2026)"
+  },
+  "notes": "",
+  "confidence_note": "Primary instrument not read.",
+  "tags": [
+    "moratorium",
+    "washington"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-27",
+  "operator": "MLawrence"
+}

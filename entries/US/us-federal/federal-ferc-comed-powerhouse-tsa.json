@@ -1,0 +1,27 @@
+{
+  "id": "federal-ferc-comed-powerhouse-tsa",
+  "jurisdiction": "us-federal",
+  "instrument": "FERC order rejecting ComEd's notice of cancellation of the PowerHouse Hillwood transmission security agreement (Joliet, IL; ~Sept 22, 2026)",
+  "mechanism": "utility-service",
+  "status": "adopted",
+  "effective": "",
+  "summary": "FERC rejected ComEd's cancellation of a transmission security agreement for a 1.8 GW, ~$20 billion data center in Joliet and declined primary jurisdiction, leaving the dispute to federal district court in Illinois. PowerHouse says it met initial credit requirements by posting $1. Concurrences by Chairman Swett and Commissioner See (pro forma cost-recovery agreements), Commissioner LaCerte and Commissioner Rosner (properly sized security deposits).",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Richard Krauze (LinkedIn), Sept 25, 2026; Utility Dive"
+  },
+  "notes": "ComEd's stated reason for cancelling TSAs: underlying retail service applications withdrawn; 4 of ComEd's first 8 TSAs cancelled. RTO/ISO show-cause responses due mid-November. Candidate large-load security field; compare Kansas LLPS collateral.",
+  "confidence_note": "Order and concurrences not read (FERC eLibrary).",
+  "tags": [
+    "large-load",
+    "security",
+    "ferc"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-27",
+  "operator": "MLawrence"
+}

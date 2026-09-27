@@ -1,0 +1,28 @@
+{
+  "id": "ks-de-soto-m1-permitted-use",
+  "jurisdiction": "us-ks-de-soto",
+  "instrument": "City of De Soto zoning (M-1 Light Industrial) as described by the city",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "summary": "Data centers are a permitted use in the M-1 district; the city states it cannot prohibit the use on M-1 land. Public notice is triggered only by discretionary actions such as annexation, rezoning or a special use permit. Data centers must use city water (no private wells); industrial wastewater must be treated in separate developer-funded facilities.",
+  "origin": "OBSERVED",
+  "entry_state": "CONFIRMED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "primary",
+    "citation": "City of De Soto Data Centers pages",
+    "url": "https://www.desotoks.us/465/Data-Centers"
+  },
+  "notes": "City and Astra hold senior water rights of about 8 MGD; current city peak about 1 MGD, about 2 MGD with Panasonic. City FAQ states data centers are not noisy while committing to evaluate noise mitigation, monitoring and enforcement; council asked June 4 about low-frequency noise regulation. Beale Infrastructure campus: PILOT $1M/yr Phase I. Ordinance 2697 (Sept 17, 2026) rezoned 1,118 acres south of the Panasonic plant from county RUR to city M-1 (R; relation to Digital Realty unconfirmed).",
+  "confidence_note": "City pages read; zoning code text not read.",
+  "tags": [
+    "by-right",
+    "water",
+    "noise"
+  ],
+  "section": "",
+  "text": "",
+  "effective": "",
+  "retrieved": "2026-09-27",
+  "operator": "MLawrence"
+}

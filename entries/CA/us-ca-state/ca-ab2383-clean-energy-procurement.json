@@ -1,11 +1,11 @@
 {
-  "id": "ca-sb887-environmental-review",
+  "id": "ca-ab2383-clean-energy-procurement",
   "jurisdiction": "us-ca-state",
-  "instrument": "SB 887 (2026), signed Sept 21, 2026",
-  "mechanism": "process",
+  "instrument": "AB 2383 (2026), signed Sept 21, 2026",
+  "mechanism": "rate-allocation",
   "status": "adopted",
   "effective": "2026-09-21",
-  "summary": "Bars blanket CEQA exemptions for data centers; provides a fast track for facilities meeting state water and energy standards.",
+  "summary": "Requires data centers to meet clean-energy procurement rules and pay incremental generation costs for at least 10 years.",
   "origin": "RELAYED",
   "entry_state": "NOT_CHECKED",
   "freshness": "LIVE",
@@ -13,11 +13,10 @@
     "kind": "secondary",
     "citation": "Governor's office release Sept 22, 2026; CalMatters, KQED, NatLawReview (Sept 22-24, 2026)"
   },
-  "notes": "CORRECTION: status proposed -> adopted.",
+  "notes": "",
   "confidence_note": "Primary instrument not read.",
   "tags": [
-    "california",
-    "ceqa"
+    "california"
   ],
   "section": "",
   "text": "",

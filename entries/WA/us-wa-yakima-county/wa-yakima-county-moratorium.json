@@ -1,0 +1,26 @@
+{
+  "id": "wa-yakima-county-moratorium",
+  "jurisdiction": "us-wa-yakima-county",
+  "instrument": "Yakima County six-month moratorium (Aug 2026)",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "",
+  "summary": "Commissioners voted unanimously for a six-month moratorium barring land use and building permits for data centers in unincorporated county; no applications received.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Daily Record; Yakima Herald-Republic; Skamania Dispatch; MyNorthwest (June-Sept 2026)"
+  },
+  "notes": "",
+  "confidence_note": "Primary instrument not read.",
+  "tags": [
+    "moratorium",
+    "washington"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-27",
+  "operator": "MLawrence"
+}

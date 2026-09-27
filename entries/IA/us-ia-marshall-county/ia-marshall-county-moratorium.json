@@ -1,0 +1,25 @@
+{
+  "id": "ia-marshall-county-moratorium",
+  "jurisdiction": "us-ia-marshall-county",
+  "instrument": "Marshall County six-month moratorium",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "",
+  "summary": "Six-month moratorium on data centers, AI computing, data mining and cryptocurrency, approved unanimously.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Local reporting, Sept 2026"
+  },
+  "notes": "",
+  "confidence_note": "Primary instrument not read.",
+  "tags": [
+    "moratorium"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-27",
+  "operator": "MLawrence"
+}

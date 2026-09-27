@@ -1,0 +1,26 @@
+{
+  "id": "wa-spokane-county-pause",
+  "jurisdiction": "us-wa-spokane-county",
+  "instrument": "Spokane County pause on large data center permits (Aug 18, 2026)",
+  "mechanism": "use-permission",
+  "status": "adopted",
+  "effective": "2026-08-18",
+  "summary": "Paused large data center permits through Dec 15, 2026.",
+  "origin": "RELAYED",
+  "entry_state": "NOT_CHECKED",
+  "freshness": "LIVE",
+  "source": {
+    "kind": "secondary",
+    "citation": "Daily Record; Yakima Herald-Republic; Skamania Dispatch; MyNorthwest (June-Sept 2026)"
+  },
+  "notes": "",
+  "confidence_note": "Primary instrument not read.",
+  "tags": [
+    "moratorium",
+    "washington"
+  ],
+  "section": "",
+  "text": "",
+  "retrieved": "2026-09-27",
+  "operator": "MLawrence"
+}
