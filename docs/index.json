@@ -213,9 +213,100 @@
  },
  "upcoming": [
   {
+   "date": "2026-09-29",
+   "event": "Buffalo Common Council vote on two-year data center ban",
+   "url": "https://www.wgrz.com/article/news/local/buffalo/two-year-data-center-ban-in-buffalo-expected-to-pass-common-council-next-tuesday/71-cb231595-32af-4c96-ad1b-4b07c50de223",
+   "basis": "reported",
+   "id": "ny-buffalo-ban-proposal",
+   "state": "NY",
+   "jurisdiction_name": "City of Buffalo"
+  },
+  {
+   "date": "2026-10-06",
+   "event": "Oakland full council vote on 45-day moratorium",
+   "url": "https://www.nbcbayarea.com/news/local/oakland-data-center-moratorium-vote/4147127/",
+   "basis": "reported",
+   "id": "ca-oakland-moratorium-proposal",
+   "state": "CA",
+   "jurisdiction_name": "City of Oakland"
+  },
+  {
+   "date": "2026-10-13",
+   "event": "Fort Wayne City Council delayed moratorium vote",
+   "url": "https://www.21alivenews.com/2026/09/23/vote-fort-wayne-data-center-moratorium-held-3-weeks/",
+   "basis": "reported",
+   "id": "in-fort-wayne-moratorium-held",
+   "state": "IN",
+   "jurisdiction_name": "City of Fort Wayne"
+  },
+  {
+   "date": "2026-10-20",
+   "event": "Reading Planning Commission possible vote on data center zoning amendment",
+   "url": "https://www.wfmz.com/news/area/berks/reading-area/reading-planning-commission-sets-october-workshop-meeting-as-a-special-voting-meeting-for-data-center-zoning-amendment/article_c00cd3d8-777f-4e28-9c4c-731d1404bb10.html",
+   "basis": "reported",
+   "id": "pa-reading-zoning-amendment",
+   "state": "PA",
+   "jurisdiction_name": "City of Reading"
+  },
+  {
+   "date": "2026-10-23",
+   "event": "Westlake data center hearing, Tarrant County",
+   "url": "https://www.cbsnews.com/texas/news/westlake-data-center-court-hearing-tarrant-county-september-2026/",
+   "basis": "reported",
+   "id": "tx-westlake-litigation",
+   "state": "TX",
+   "jurisdiction_name": "Town of Westlake"
+  },
+  {
+   "date": "2026-10-26",
+   "event": "Kirksville City Council possible action on data center zoning",
+   "url": "https://www.kirksvilledailyexpress.com/stories/kirksville-commission-sends-data-center-zoning-rules-to-city-council,32747",
+   "basis": "reported",
+   "id": "mo-kirksville-zoning",
+   "state": "MO",
+   "jurisdiction_name": "City of Kirksville"
+  },
+  {
+   "date": "2026-10-27",
+   "event": "Pulaski County Quorum Court veto-override vote (reported)",
+   "url": "https://writing.strisker.com/data-centers-weekly-briefing-september-21-24-2026/",
+   "basis": "reported",
+   "id": "ar-pulaski-county-conditional-use-ordinance",
+   "state": "AR",
+   "jurisdiction_name": "Pulaski County"
+  },
+  {
+   "date": "2026-11-05",
+   "event": "Charlotte moratorium expires unless extended",
+   "url": "https://www.qcnews.com/charlotte/city-officials-discuss-extending-data-center-moratorium-during-district-5-town-hall/",
+   "basis": "reported",
+   "id": "nc-charlotte-moratorium",
+   "state": "NC",
+   "jurisdiction_name": "City of Charlotte"
+  },
+  {
+   "date": "2026-11-05",
+   "event": "Potsdam public hearing on Local Law 2026-5",
+   "url": "https://northcountrynow.com/stories/potsdam-town-board-eyes-12-month-moratorium-on-large-data-centers,392132",
+   "basis": "reported",
+   "id": "ny-potsdam-moratorium",
+   "state": "NY",
+   "jurisdiction_name": "Town of Potsdam"
+  },
+  {
+   "date": "2026-11-18",
+   "event": "Chesterfield County vote on data center revenue car-tax ordinance",
+   "url": "https://www.12onyourside.com/2026/09/24/chesterfield-supervisors-delay-vote-again-using-data-center-revenue-cut-car-tax/",
+   "basis": "reported",
+   "id": "va-chesterfield-dc-revenue-car-tax",
+   "state": "VA",
+   "jurisdiction_name": "Chesterfield County"
+  },
+  {
    "date": "2026-12-31",
    "event": "MassDEP deadline to establish the alternative compliance payment for data centers (EO 658 \u00a75)",
    "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment",
+   "basis": "document",
    "id": "ma-eo-658-clean-electricity-acp",
    "state": "MA",
    "jurisdiction_name": "Commonwealth of Massachusetts"
@@ -224,6 +315,7 @@
    "date": "2026-12-31",
    "event": "Massachusetts Municipal Guidance Document for Data Center Development due (EO 658 \u00a79)",
    "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment",
+   "basis": "document",
    "id": "ma-eo-658-municipal-guide",
    "state": "MA",
    "jurisdiction_name": "Commonwealth of Massachusetts"
@@ -344,7 +436,9 @@
    "operator": "MLawrence",
    "next": {
     "date": "2026-10-27",
-    "event": "Pulaski County Quorum Court veto-override vote (reported)"
+    "event": "Pulaski County Quorum Court veto-override vote (reported)",
+    "url": "https://writing.strisker.com/data-centers-weekly-briefing-september-21-24-2026/",
+    "basis": "reported"
    },
    "state": "AR",
    "jurisdiction_name": "Pulaski County",
@@ -1643,7 +1737,9 @@
    "operator": "MLawrence",
    "next": {
     "date": "2026-10-06",
-    "event": "Oakland full council vote on 45-day moratorium"
+    "event": "Oakland full council vote on 45-day moratorium",
+    "url": "https://www.nbcbayarea.com/news/local/oakland-data-center-moratorium-vote/4147127/",
+    "basis": "reported"
    },
    "state": "CA",
    "jurisdiction_name": "City of Oakland",
@@ -2822,7 +2918,9 @@
    "entry_state": "NOT_CHECKED",
    "next": {
     "date": "2026-10-13",
-    "event": "Fort Wayne City Council delayed moratorium vote"
+    "event": "Fort Wayne City Council delayed moratorium vote",
+    "url": "https://www.21alivenews.com/2026/09/23/vote-fort-wayne-data-center-moratorium-held-3-weeks/",
+    "basis": "reported"
    },
    "state": "IN",
    "jurisdiction_name": "City of Fort Wayne",
@@ -3097,7 +3195,8 @@
    "next": {
     "date": "2026-12-31",
     "event": "MassDEP deadline to establish the alternative compliance payment for data centers (EO 658 \u00a75)",
-    "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment"
+    "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment",
+    "basis": "document"
    },
    "state": "MA",
    "jurisdiction_name": "Commonwealth of Massachusetts",
@@ -3162,7 +3261,8 @@
    "next": {
     "date": "2026-12-31",
     "event": "Massachusetts Municipal Guidance Document for Data Center Development due (EO 658 \u00a79)",
-    "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment"
+    "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment",
+    "basis": "document"
    },
    "state": "MA",
    "jurisdiction_name": "Commonwealth of Massachusetts",
@@ -3812,7 +3912,9 @@
    "operator": "MLawrence",
    "next": {
     "date": "2026-10-26",
-    "event": "Kirksville City Council possible action on data center zoning"
+    "event": "Kirksville City Council possible action on data center zoning",
+    "url": "https://www.kirksvilledailyexpress.com/stories/kirksville-commission-sends-data-center-zoning-rules-to-city-council,32747",
+    "basis": "reported"
    },
    "state": "MO",
    "jurisdiction_name": "City of Kirksville",
@@ -3934,7 +4036,9 @@
    "operator": "MLawrence",
    "next": {
     "date": "2026-11-05",
-    "event": "Charlotte moratorium expires unless extended"
+    "event": "Charlotte moratorium expires unless extended",
+    "url": "https://www.qcnews.com/charlotte/city-officials-discuss-extending-data-center-moratorium-during-district-5-town-hall/",
+    "basis": "reported"
    },
    "state": "NC",
    "jurisdiction_name": "City of Charlotte",
@@ -4277,7 +4381,7 @@
     "kind": "secondary",
     "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (WGRZ)"
    },
-   "notes": "",
+   "notes": "Buffalo News reports the moratorium would apply to data centers of 20 MW or more and include crypto-mining and blockchain facilities; resolution not read.",
    "confidence_note": "Primary instrument not read.",
    "tags": [
     "ban",
@@ -4289,7 +4393,9 @@
    "operator": "MLawrence",
    "next": {
     "date": "2026-09-29",
-    "event": "Buffalo Common Council vote on two-year data center ban"
+    "event": "Buffalo Common Council vote on two-year data center ban",
+    "url": "https://www.wgrz.com/article/news/local/buffalo/two-year-data-center-ban-in-buffalo-expected-to-pass-common-council-next-tuesday/71-cb231595-32af-4c96-ad1b-4b07c50de223",
+    "basis": "reported"
    },
    "state": "NY",
    "jurisdiction_name": "City of Buffalo",
@@ -4322,7 +4428,9 @@
    "operator": "MLawrence",
    "next": {
     "date": "2026-11-05",
-    "event": "Potsdam public hearing on Local Law 2026-5"
+    "event": "Potsdam public hearing on Local Law 2026-5",
+    "url": "https://northcountrynow.com/stories/potsdam-town-board-eyes-12-month-moratorium-on-large-data-centers,392132",
+    "basis": "reported"
    },
    "state": "NY",
    "jurisdiction_name": "Town of Potsdam",
@@ -6021,7 +6129,9 @@
    "operator": "MLawrence",
    "next": {
     "date": "2026-10-20",
-    "event": "Reading Planning Commission possible vote on data center zoning amendment"
+    "event": "Reading Planning Commission possible vote on data center zoning amendment",
+    "url": "https://www.wfmz.com/news/area/berks/reading-area/reading-planning-commission-sets-october-workshop-meeting-as-a-special-voting-meeting-for-data-center-zoning-amendment/article_c00cd3d8-777f-4e28-9c4c-731d1404bb10.html",
+    "basis": "reported"
    },
    "state": "PA",
    "jurisdiction_name": "City of Reading",
@@ -6775,7 +6885,9 @@
    "operator": "MLawrence",
    "next": {
     "date": "2026-10-23",
-    "event": "Westlake data center hearing, Tarrant County"
+    "event": "Westlake data center hearing, Tarrant County",
+    "url": "https://www.cbsnews.com/texas/news/westlake-data-center-court-hearing-tarrant-county-september-2026/",
+    "basis": "reported"
    },
    "state": "TX",
    "jurisdiction_name": "Town of Westlake",
@@ -7079,7 +7191,9 @@
    "operator": "MLawrence",
    "next": {
     "date": "2026-11-18",
-    "event": "Chesterfield County vote on data center revenue car-tax ordinance"
+    "event": "Chesterfield County vote on data center revenue car-tax ordinance",
+    "url": "https://www.12onyourside.com/2026/09/24/chesterfield-supervisors-delay-vote-again-using-data-center-revenue-cut-car-tax/",
+    "basis": "reported"
    },
    "state": "VA",
    "jurisdiction_name": "Chesterfield County",

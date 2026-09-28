@@ -57,7 +57,9 @@ for p in sorted(glob.glob(os.path.join(ROOT, "entries", "**", "*.json"), recursi
         if not isinstance(nx, dict) or not DATE_RE.match(str(nx.get("date",""))) or not nx.get("event"):
             err("next must be {date: YYYY-MM-DD, event: text, url: optional}")
         elif nx.get("url") and not str(nx["url"]).startswith("http"):
-            err("next.url must be a link to the document that states the date")
+            err("next.url must be a link to the document or report that states the date")
+        elif nx.get("basis") not in (None, "document", "reported"):
+            err("next.basis must be 'document' (date read in the governing document) or 'reported'")
 
     for f in ("retrieved","effective"):
         if e.get(f) and not DATE_RE.match(e[f]): err(f + " '" + e[f] + "' must be YYYY-MM-DD")
@@ -93,11 +95,12 @@ if errors:
     print("VALIDATION FAILED\n" + "\n".join("  " + x for x in errors))
     sys.exit(1)
 
-# Coming up: only dates stated in a linked document are published.
+# Coming up: a date is published only with a link to where it is stated.
+# basis 'document' = read in the governing document; 'reported' = from reporting, may change.
 # Dates without next.url stay in the entry for tracking but are not listed.
 today = datetime.date.today().isoformat()
 upcoming = sorted(
-    [{"date": e["next"]["date"], "event": e["next"]["event"], "url": e["next"]["url"],
+    [{"date": e["next"]["date"], "event": e["next"]["event"], "url": e["next"]["url"], "basis": e["next"].get("basis", "document"),
       "id": e["id"], "state": e["state"], "jurisdiction_name": e["jurisdiction_name"]}
      for e in entries if isinstance(e.get("next"), dict) and e["next"].get("url") and e["next"]["date"] >= today],
     key=lambda u: (u["date"], u["jurisdiction_name"]))

@@ -85,6 +85,11 @@ footer{border-top:1px solid var(--line);margin-top:44px;padding:26px 0 60px;colo
 .soon .d{font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--pale);padding-top:2px}
 .soon .w b{color:var(--pale);font-weight:600}
 .soon .w a{font-size:13px;margin-left:6px}
+.soon li.more{display:none}
+.soon.open li.more{display:grid}
+.soon .tag{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.05em;padding:1px 6px;border-radius:3px;border:1px solid rgba(224,176,80,.35);color:var(--amber);margin-left:4px;vertical-align:1px}
+.soonmore{margin-top:8px;background:transparent;border:1px solid var(--line);border-radius:4px;color:var(--pale);padding:6px 12px;font-family:inherit;font-size:13.5px;cursor:pointer}
+.soonmore:hover{border-color:var(--sky)}
 .soon .fine{font-size:12.5px;color:var(--steel);margin:8px 0 0}
 @media(max-width:640px){.soon li{grid-template-columns:1fr;gap:2px}}
 @media(max-width:640px){
@@ -199,10 +204,14 @@ function soon(list){
   const el = document.getElementById('soon');
   if (!list.length) { el.hidden = true; return; }
   const fmt = s => { const [y,m,dd] = s.split('-').map(Number); return new Date(y, m-1, dd).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}); };
-  el.innerHTML = `<h2>Coming up</h2><ol>` + list.slice(0,6).map(u =>
-    `<li><span class="d">${esc(fmt(u.date))}</span><span class="w"><b>${esc(REAL.has(u.state) ? u.jurisdiction_name + ', ' + u.state : u.jurisdiction_name)}</b> · ${esc(u.event)}<a href="${esc(u.url)}" rel="noopener">source</a></span></li>`).join('') +
-    `</ol><p class="fine">Listed only when the date appears in a document linked here.</p>`;
+  const SHOW = 4;
+  const row = (u, k) => `<li${k >= SHOW ? ' class="more"' : ''}><span class="d">${esc(fmt(u.date))}</span><span class="w"><b>${esc(REAL.has(u.state) ? u.jurisdiction_name + ', ' + u.state : u.jurisdiction_name)}</b> · ${esc(u.event)}${u.basis === 'reported' ? ' <span class="tag">reported</span>' : ''}<a href="${esc(u.url)}" rel="noopener">source</a></span></li>`;
+  el.innerHTML = `<h2>Coming up · ${list.length}</h2><ol>` + list.map(row).join('') + `</ol>` +
+    (list.length > SHOW ? `<button type="button" class="soonmore" id="soonmore" aria-expanded="false">Show all ${list.length} <span aria-hidden="true">▾</span></button>` : '') +
+    `<p class="fine">Every date links to where it is stated. Dates marked reported come from news coverage and can move; the rest are read in the governing document.</p>`;
   el.hidden = false;
+  const b = document.getElementById('soonmore');
+  if (b) b.onclick = function(){ const open = el.classList.toggle('open'); this.setAttribute('aria-expanded', open); this.innerHTML = open ? 'Show fewer <span aria-hidden="true">▴</span>' : `Show all ${list.length} <span aria-hidden="true">▾</span>`; };
 }
 function syncURL(){
   const p = new URLSearchParams();

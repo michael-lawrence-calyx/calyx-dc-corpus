@@ -13,7 +13,7 @@
   "kind": "secondary",
   "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (WGRZ)"
  },
- "notes": "",
+ "notes": "Buffalo News reports the moratorium would apply to data centers of 20 MW or more and include crypto-mining and blockchain facilities; resolution not read.",
  "confidence_note": "Primary instrument not read.",
  "tags": [
   "ban",
@@ -25,6 +25,8 @@
  "operator": "MLawrence",
  "next": {
   "date": "2026-09-29",
-  "event": "Buffalo Common Council vote on two-year data center ban"
+  "event": "Buffalo Common Council vote on two-year data center ban",
+  "url": "https://www.wgrz.com/article/news/local/buffalo/two-year-data-center-ban-in-buffalo-expected-to-pass-common-council-next-tuesday/71-cb231595-32af-4c96-ad1b-4b07c50de223",
+  "basis": "reported"
  }
 }
