@@ -63,7 +63,13 @@ footer{border-top:1px solid var(--line);margin-top:44px;padding:26px 0 60px;colo
 
 .stamp{font-family:"IBM Plex Mono",monospace;font-size:14px;color:var(--pale);margin-top:16px;letter-spacing:.01em}
 .chip:focus-visible,.ftoggle:focus-visible{outline:2px solid var(--sky);outline-offset:2px}
-.ftoggle{display:inline-block;margin-top:10px;background:var(--panel);border:1px solid var(--line);border-radius:4px;color:var(--pale);padding:8px 14px;font-family:inherit;font-size:14px;cursor:pointer}
+.ftoggle{display:inline-flex;align-items:center;gap:10px;margin-top:12px;background:rgba(127,194,240,.12);border:1px solid var(--sky);border-radius:4px;color:var(--pale);padding:11px 18px;font-family:inherit;font-size:15px;font-weight:600;letter-spacing:.01em;cursor:pointer}
+.ftoggle:hover{background:rgba(127,194,240,.2)}
+.ftoggle .n{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:500;background:var(--sky);color:var(--ink);border-radius:100px;padding:1px 8px}
+.ftoggle .car{font-size:12px;color:var(--sky);transition:transform .15s}
+.ftoggle[aria-expanded="true"] .car{transform:rotate(180deg)}
+.filters.open{padding-top:4px}
+@media(max-width:640px){.ftoggle{width:100%;justify-content:center}}
 .fhead{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--steel);width:100%;margin:8px 0 2px}
 .fhead:first-child{margin-top:0}
 .grp{font-size:15px;font-weight:600;color:var(--pale);margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
@@ -88,7 +94,7 @@ footer{border-top:1px solid var(--line);margin-top:44px;padding:26px 0 60px;colo
 
 <div class="controls"><div class="wrap">
   <input id="q" type="search" placeholder="Search provisions, instruments, sections, text…" autocomplete="off">
-  <button type="button" class="ftoggle" id="ft" aria-expanded="false" aria-controls="f">Filters</button>
+  <button type="button" class="ftoggle" id="ft" aria-expanded="false" aria-controls="f">Search filters <span class="car">▾</span></button>
   <div class="filters" id="f"></div>
 </div></div>
 
@@ -132,7 +138,7 @@ function chips(){
 }
 function toggleLabel(){
   const n = Object.values(active).filter(Boolean).length;
-  document.getElementById('ft').textContent = n ? `Filters (${n} on)` : 'Filters';
+  document.getElementById('ft').innerHTML = 'Search filters' + (n ? ` <span class="n">${n} on</span>` : '') + ' <span class="car">▾</span>';
 }
 document.getElementById('ft').onclick = function(){
   const f = document.getElementById('f'), open = f.classList.toggle('open');
