@@ -1,0 +1,26 @@
+{
+ "id": "ga-statesboro-rezoning-litigation",
+ "jurisdiction": "us-ga-statesboro",
+ "instrument": "Coastal Community United et al. v. City of Statesboro and 4 AM Development, SUCV2026000219 (Bulloch Co. Sup. Ct.)",
+ "mechanism": "litigation",
+ "status": "proposed",
+ "effective": "",
+ "summary": "Petition filed Sept 17 challenges rezoning RZ 26-07-05 of 26.49 acres at 6539 Burkhalter Road from R-4 residential to office/business for a data center campus reported at 99 MW. City served Sept 21 with 30 days to respond.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "WTOC, Sept 22, 2026"
+ },
+ "notes": "Petitioners argue the project sits at the hyperscale threshold the city's ordinance was meant to exclude (Strisker).",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "litigation",
+  "rezoning"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

@@ -1,0 +1,31 @@
+{
+ "id": "ma-eo-658-municipal-guide",
+ "jurisdiction": "us-ma-state",
+ "instrument": "Executive Order No. 658, Section 9",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "2026-09-08",
+ "summary": "EEA and EOED must publish a Municipal Guidance Document for Data Center Development by Dec 31, 2026, developed with municipalities, regional planning agencies, utilities, labor, environmental justice organizations, businesses, the Attorney General and the public.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "Massachusetts Executive Order No. 658 (Sept 8, 2026), mass.gov",
+  "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment"
+ },
+ "notes": "",
+ "confidence_note": "",
+ "tags": [
+  "municipal-guidance"
+ ],
+ "section": "Section 9",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence",
+ "next": {
+  "date": "2026-12-31",
+  "event": "Massachusetts Municipal Guidance Document for Data Center Development due (EO 658 \u00a79)",
+  "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "id": "mi-dearborn-moratorium",
+ "jurisdiction": "us-mi-dearborn",
+ "instrument": "Dearborn six-month data center moratorium",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "",
+ "summary": "City Council gave final approval to a six-month moratorium on new data centers.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Michigan Advance, Sept 28, 2026, citing MLive"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "moratorium"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

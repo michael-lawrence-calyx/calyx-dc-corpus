@@ -1,0 +1,26 @@
+{
+ "id": "mi-kalamazoo-zoning-codification",
+ "jurisdiction": "us-mi-kalamazoo",
+ "instrument": "Kalamazoo proposal to codify data center moratorium in zoning code",
+ "mechanism": "use-permission",
+ "status": "proposed",
+ "effective": "",
+ "summary": "Commissioners set a public hearing to embed the city's data center moratorium, which exists only as a resolution, into the zoning code.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (WKZO)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "moratorium",
+  "pending"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

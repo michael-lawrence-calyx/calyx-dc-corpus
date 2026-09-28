@@ -1,0 +1,26 @@
+{
+ "id": "nj-raritan-township-ban",
+ "jurisdiction": "us-nj-raritan-township",
+ "instrument": "Raritan Township ordinance banning data centers",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "",
+ "summary": "Township Committee adopted an ordinance banning data centers municipality-wide, closing warehouse and flex-space workarounds, with an exception for accessory server rooms under 2,000 square feet.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (WRNJ Radio)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "ban",
+  "accessory-exception"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

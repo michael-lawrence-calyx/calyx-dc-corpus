@@ -1,0 +1,25 @@
+{
+ "id": "fl-wakulla-county-ban",
+ "jurisdiction": "us-fl-wakulla-county",
+ "instrument": "Wakulla County ordinance prohibiting data centers",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "",
+ "summary": "County Commission voted unanimously to adopt an ordinance prohibiting data centers throughout unincorporated areas; staff said the ban already existed in practice under the zoning code.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (FOX 49)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "ban"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

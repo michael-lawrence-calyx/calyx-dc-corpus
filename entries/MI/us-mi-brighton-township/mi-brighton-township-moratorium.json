@@ -1,0 +1,25 @@
+{
+ "id": "mi-brighton-township-moratorium",
+ "jurisdiction": "us-mi-brighton-township",
+ "instrument": "Brighton Township data center moratorium",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "",
+ "summary": "Township approved a moratorium on data center development while the planning commission drafts an ordinance.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Michigan Advance Weekly Download, Sept 28, 2026, citing Livingston Daily (Sept 24)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "moratorium"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

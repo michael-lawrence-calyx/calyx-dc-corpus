@@ -1,0 +1,25 @@
+{
+ "id": "nm-raton-moratorium-rejected",
+ "jurisdiction": "us-nm-raton",
+ "instrument": "Raton resolution for a data center moratorium (rejected)",
+ "mechanism": "use-permission",
+ "status": "void",
+ "effective": "",
+ "summary": "City Commission voted 3-2 to reject a resolution pausing business licenses and zoning approvals for data centers; dissenters cited existing utility safeguards and no current proposal. A resident submitted 477 signatures in support.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (KRTN)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "rejected"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

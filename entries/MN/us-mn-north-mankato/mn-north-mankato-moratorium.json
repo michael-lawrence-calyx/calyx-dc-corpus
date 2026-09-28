@@ -1,0 +1,25 @@
+{
+ "id": "mn-north-mankato-moratorium",
+ "jurisdiction": "us-mn-north-mankato",
+ "instrument": "North Mankato one-year data center moratorium",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "",
+ "summary": "City Council passed a one-year moratorium and study.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (KEYC)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "moratorium"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

@@ -1,0 +1,25 @@
+{
+ "id": "oh-fayette-county-moratorium",
+ "jurisdiction": "us-oh-fayette-county",
+ "instrument": "Fayette County temporary data center moratorium",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "",
+ "summary": "Commissioners moved to approve a moratorium of about eight months covering seven townships, after resolutions from seven township governments.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (Record-Herald)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "moratorium"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

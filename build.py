@@ -52,6 +52,13 @@ for p in sorted(glob.glob(os.path.join(ROOT, "entries", "**", "*.json"), recursi
     if e.get("freshness") not in FRESH:     err("bad freshness '" + str(e.get("freshness")) + "'")
     if e.get("status") and e["status"] not in STATUS: err("bad status '" + e["status"] + "'")
 
+    nx = e.get("next")
+    if nx is not None:
+        if not isinstance(nx, dict) or not DATE_RE.match(str(nx.get("date",""))) or not nx.get("event"):
+            err("next must be {date: YYYY-MM-DD, event: text, url: optional}")
+        elif nx.get("url") and not str(nx["url"]).startswith("http"):
+            err("next.url must be a link to the document that states the date")
+
     for f in ("retrieved","effective"):
         if e.get(f) and not DATE_RE.match(e[f]): err(f + " '" + e[f] + "' must be YYYY-MM-DD")
 
@@ -86,6 +93,15 @@ if errors:
     print("VALIDATION FAILED\n" + "\n".join("  " + x for x in errors))
     sys.exit(1)
 
+# Coming up: only dates stated in a linked document are published.
+# Dates without next.url stay in the entry for tracking but are not listed.
+today = datetime.date.today().isoformat()
+upcoming = sorted(
+    [{"date": e["next"]["date"], "event": e["next"]["event"], "url": e["next"]["url"],
+      "id": e["id"], "state": e["state"], "jurisdiction_name": e["jurisdiction_name"]}
+     for e in entries if isinstance(e.get("next"), dict) and e["next"].get("url") and e["next"]["date"] >= today],
+    key=lambda u: (u["date"], u["jurisdiction_name"]))
+
 out = {
     "generated": datetime.date.today().isoformat(),
     "count": len(entries),
@@ -93,6 +109,7 @@ out = {
     "jurisdictions": sorted(set(e["jurisdiction_name"] for e in entries)),
     "mechanisms": sorted(set(e["mechanism"] for e in entries)),
     "by_origin": dict((o, sum(1 for e in entries if e["origin"] == o)) for o in sorted(ORIGINS)),
+    "upcoming": upcoming,
     "entries": entries,
 }
 os.makedirs(os.path.join(ROOT, "docs"), exist_ok=True)

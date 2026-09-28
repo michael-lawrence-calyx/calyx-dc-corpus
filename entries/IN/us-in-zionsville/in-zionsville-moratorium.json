@@ -1,0 +1,26 @@
+{
+ "id": "in-zionsville-moratorium",
+ "jurisdiction": "us-in-zionsville",
+ "instrument": "Zionsville one-year moratorium on data centers, solar, wind and battery storage",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "",
+ "summary": "Town Council approved a one-year moratorium on data centers, solar and wind farms and battery storage, directing the Plan Commission to review the zoning code, which has no permitted category for these uses.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (Current)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "moratorium",
+  "bess"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

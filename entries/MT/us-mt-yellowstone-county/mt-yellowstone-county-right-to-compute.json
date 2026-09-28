@@ -1,0 +1,26 @@
+{
+ "id": "mt-yellowstone-county-right-to-compute",
+ "jurisdiction": "us-mt-yellowstone-county",
+ "instrument": "Yellowstone County letter to legislators on the Montana Right to Compute Act",
+ "mechanism": "state-authority",
+ "status": "proposed",
+ "effective": "",
+ "summary": "County commissioners drafted a letter asking state lawmakers to clarify the Right to Compute Act to preserve local zoning authority over data centers.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (KTVQ)"
+ },
+ "notes": "",
+ "confidence_note": "Letter and statute not read; whether the Act limits local zoning is the question raised, not a finding.",
+ "tags": [
+  "preemption",
+  "right-to-compute"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

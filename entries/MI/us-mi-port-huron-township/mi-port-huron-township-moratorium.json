@@ -1,0 +1,25 @@
+{
+ "id": "mi-port-huron-township-moratorium",
+ "jurisdiction": "us-mi-port-huron-township",
+ "instrument": "Port Huron Township 12-month data center moratorium",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "",
+ "summary": "Township approved a 12-month moratorium on data centers and other high resource-demand facilities, extendable by the board.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Michigan Advance, Sept 28, 2026, citing Port Huron Times Herald (Sept 22)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "moratorium"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

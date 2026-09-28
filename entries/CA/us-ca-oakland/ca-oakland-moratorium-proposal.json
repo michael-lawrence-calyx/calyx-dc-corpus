@@ -1,0 +1,30 @@
+{
+ "id": "ca-oakland-moratorium-proposal",
+ "jurisdiction": "us-ca-oakland",
+ "instrument": "Proposed 45-day data center moratorium, Oakland",
+ "mechanism": "use-permission",
+ "status": "proposed",
+ "effective": "",
+ "summary": "A City Council committee approved a proposed 45-day moratorium on new data centers, sending it to the full council.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (NBC Bay Area)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "moratorium",
+  "pending"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence",
+ "next": {
+  "date": "2026-10-06",
+  "event": "Oakland full council vote on 45-day moratorium"
+ }
+}

@@ -69,6 +69,11 @@
     "name": "Tucson",
     "state": "AZ"
   },
+  "us-ca-calexico": {
+    "kind": "city",
+    "name": "City of Calexico",
+    "state": "CA"
+  },
   "us-ca-hayward": {
     "kind": "city",
     "name": "City of Hayward",
@@ -82,6 +87,11 @@
   "us-ca-mendocino-county": {
     "kind": "county",
     "name": "Mendocino County",
+    "state": "CA"
+  },
+  "us-ca-oakland": {
+    "kind": "city",
+    "name": "City of Oakland",
     "state": "CA"
   },
   "us-ca-richmond": {
@@ -139,6 +149,11 @@
     "name": "Palm Beach County",
     "state": "FL"
   },
+  "us-fl-wakulla-county": {
+    "kind": "county",
+    "name": "Wakulla County",
+    "state": "FL"
+  },
   "us-ga-americus": {
     "kind": "city",
     "name": "Americus",
@@ -159,6 +174,11 @@
     "name": "DeKalb County",
     "state": "GA"
   },
+  "us-ga-effingham-county": {
+    "kind": "county",
+    "name": "Effingham County",
+    "state": "GA"
+  },
   "us-ga-fayetteville": {
     "kind": "municipality",
     "name": "Fayetteville",
@@ -172,6 +192,11 @@
   "us-ga-state": {
     "kind": "state",
     "name": "State of Georgia",
+    "state": "GA"
+  },
+  "us-ga-statesboro": {
+    "kind": "city",
+    "name": "City of Statesboro",
     "state": "GA"
   },
   "us-hi-hawaii-county": {
@@ -202,6 +227,11 @@
   "us-il-chicago": {
     "kind": "city",
     "name": "City of Chicago",
+    "state": "IL"
+  },
+  "us-il-galesburg": {
+    "kind": "city",
+    "name": "City of Galesburg",
     "state": "IL"
   },
   "us-il-mattoon": {
@@ -249,6 +279,11 @@
     "name": "Michigan City",
     "state": "IN"
   },
+  "us-in-zionsville": {
+    "kind": "town",
+    "name": "Town of Zionsville",
+    "state": "IN"
+  },
   "us-ks-de-soto": {
     "kind": "city",
     "name": "De Soto",
@@ -258,6 +293,11 @@
     "kind": "state",
     "name": "Kansas",
     "state": "KS"
+  },
+  "us-ma-state": {
+    "kind": "state",
+    "name": "Commonwealth of Massachusetts",
+    "state": "MA"
   },
   "us-md-anne-arundel-county": {
     "kind": "county",
@@ -284,6 +324,26 @@
     "name": "State of Maryland",
     "state": "MD"
   },
+  "us-mi-brighton-township": {
+    "kind": "township",
+    "name": "Brighton Township",
+    "state": "MI"
+  },
+  "us-mi-dearborn": {
+    "kind": "city",
+    "name": "City of Dearborn",
+    "state": "MI"
+  },
+  "us-mi-kalamazoo": {
+    "kind": "city",
+    "name": "City of Kalamazoo",
+    "state": "MI"
+  },
+  "us-mi-port-huron-township": {
+    "kind": "township",
+    "name": "Port Huron Township",
+    "state": "MI"
+  },
   "us-mi-saline-township": {
     "kind": "township",
     "name": "Saline Township",
@@ -299,6 +359,11 @@
     "name": "Wixom",
     "state": "MI"
   },
+  "us-mn-north-mankato": {
+    "kind": "city",
+    "name": "North Mankato",
+    "state": "MN"
+  },
   "us-mn-woodbury": {
     "kind": "city",
     "name": "Woodbury",
@@ -309,10 +374,25 @@
     "name": "Festus",
     "state": "MO"
   },
+  "us-mo-kirksville": {
+    "kind": "city",
+    "name": "City of Kirksville",
+    "state": "MO"
+  },
   "us-ms-state": {
     "kind": "state",
     "name": "Mississippi",
     "state": "MS"
+  },
+  "us-mt-yellowstone-county": {
+    "kind": "county",
+    "name": "Yellowstone County",
+    "state": "MT"
+  },
+  "us-nc-charlotte": {
+    "kind": "city",
+    "name": "City of Charlotte",
+    "state": "NC"
   },
   "us-nc-duke-energy": {
     "kind": "utility",
@@ -349,10 +429,30 @@
     "name": "State of New Hampshire",
     "state": "NH"
   },
+  "us-nj-raritan-township": {
+    "kind": "township",
+    "name": "Raritan Township",
+    "state": "NJ"
+  },
   "us-nj-state": {
     "kind": "state",
     "name": "New Jersey",
     "state": "NJ"
+  },
+  "us-nm-raton": {
+    "kind": "city",
+    "name": "City of Raton",
+    "state": "NM"
+  },
+  "us-ny-buffalo": {
+    "kind": "city",
+    "name": "City of Buffalo",
+    "state": "NY"
+  },
+  "us-ny-potsdam": {
+    "kind": "town",
+    "name": "Town of Potsdam",
+    "state": "NY"
   },
   "us-ny-state": {
     "kind": "state",
@@ -362,6 +462,11 @@
   "us-oh-aep-ohio": {
     "kind": "utility",
     "name": "AEP Ohio",
+    "state": "OH"
+  },
+  "us-oh-fayette-county": {
+    "kind": "county",
+    "name": "Fayette County",
     "state": "OH"
   },
   "us-oh-miamisburg": {
@@ -444,9 +549,24 @@
     "name": "Woodburn",
     "state": "OR"
   },
+  "us-pa-east-whiteland-township": {
+    "kind": "township",
+    "name": "East Whiteland Township",
+    "state": "PA"
+  },
   "us-pa-forward-township": {
     "kind": "city",
     "name": "Forward Township",
+    "state": "PA"
+  },
+  "us-pa-lycoming-county": {
+    "kind": "county",
+    "name": "Lycoming County",
+    "state": "PA"
+  },
+  "us-pa-reading": {
+    "kind": "city",
+    "name": "City of Reading",
     "state": "PA"
   },
   "us-pjm": {
@@ -519,6 +639,11 @@
     "name": "State of Texas",
     "state": "TX"
   },
+  "us-tx-westlake": {
+    "kind": "town",
+    "name": "Town of Westlake",
+    "state": "TX"
+  },
   "us-ut-box-elder-county": {
     "kind": "county",
     "name": "Box Elder County",
@@ -528,6 +653,11 @@
     "kind": "state",
     "name": "State of Utah",
     "state": "UT"
+  },
+  "us-va-chesterfield-county": {
+    "kind": "county",
+    "name": "Chesterfield County",
+    "state": "VA"
   },
   "us-va-dominion": {
     "kind": "utility",

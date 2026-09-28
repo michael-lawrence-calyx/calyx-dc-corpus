@@ -77,6 +77,16 @@ footer{border-top:1px solid var(--line);margin-top:44px;padding:26px 0 60px;colo
 .plain b{font-weight:500;color:var(--text)}
 .filters{display:none}
 .filters.open{display:flex}
+.soon{margin-top:22px;border:1px solid var(--line);border-left:2px solid var(--sky);border-radius:4px;background:var(--panel);padding:14px 18px}
+.soon h2{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--sky);font-weight:500;margin:0 0 8px}
+.soon ol{list-style:none;margin:0;padding:0}
+.soon li{display:grid;grid-template-columns:110px 1fr;gap:12px;padding:7px 0;border-top:1px solid var(--line);font-size:14.5px}
+.soon li:first-child{border-top:0}
+.soon .d{font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--pale);padding-top:2px}
+.soon .w b{color:var(--pale);font-weight:600}
+.soon .w a{font-size:13px;margin-left:6px}
+.soon .fine{font-size:12.5px;color:var(--steel);margin:8px 0 0}
+@media(max-width:640px){.soon li{grid-template-columns:1fr;gap:2px}}
 @media(max-width:640px){
   .controls{position:static;backdrop-filter:none;background:var(--ink)}
 }
@@ -89,6 +99,7 @@ footer{border-top:1px solid var(--line);margin-top:44px;padding:26px 0 60px;colo
   <p class="lede">Adopted and proposed instruments governing data centers, one provision per entry. Every entry names the document it came from, whether it was read in original, and whether it reconciles.</p>
   <p class="lede">This is the public register. It is a finding aid over public records. The marked corpus — draft-to-draft diffs, cross-jurisdiction comparisons, parcel-level constraint sets — is not published.</p>
   <p class="stamp" id="stamp">loading…</p>
+  <section class="soon" id="soon" hidden></section>
 </header>
 </div>
 
@@ -184,6 +195,15 @@ function render(){
       ? `<p class="none">No entries yet for ${esc(SNAME[active.state]||active.state)}. A gap here means nobody has read it yet, not that no provision exists.</p>`
       : '<p class="none">Nothing matches. A gap here means nobody has read it yet, not that no provision exists.</p>');
 }
+function soon(list){
+  const el = document.getElementById('soon');
+  if (!list.length) { el.hidden = true; return; }
+  const fmt = s => { const [y,m,dd] = s.split('-').map(Number); return new Date(y, m-1, dd).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}); };
+  el.innerHTML = `<h2>Coming up</h2><ol>` + list.slice(0,6).map(u =>
+    `<li><span class="d">${esc(fmt(u.date))}</span><span class="w"><b>${esc(REAL.has(u.state) ? u.jurisdiction_name + ', ' + u.state : u.jurisdiction_name)}</b> · ${esc(u.event)}<a href="${esc(u.url)}" rel="noopener">source</a></span></li>`).join('') +
+    `</ol><p class="fine">Listed only when the date appears in a document linked here.</p>`;
+  el.hidden = false;
+}
 function syncURL(){
   const p = new URLSearchParams();
   if (active.state) p.set('state', active.state);
@@ -200,6 +220,7 @@ fetch('index.json').then(r => r.json()).then(d => {
   const other = d.entries.filter(e => !REAL.has(e.state)).length;
   document.getElementById('stamp').textContent =
     `${d.count} entries · ${d.jurisdictions.length} jurisdictions · ${real} states` + (other ? ` plus ${other} federal and multi-state entries` : '') + ` · generated ${d.generated}`;
+  soon(d.upcoming || []);
   chips(); render(); toggleLabel();
 }).catch(() => { document.getElementById('stamp').textContent = 'index.json not found — run build.py'; });
 document.getElementById('q').addEventListener('input', render);

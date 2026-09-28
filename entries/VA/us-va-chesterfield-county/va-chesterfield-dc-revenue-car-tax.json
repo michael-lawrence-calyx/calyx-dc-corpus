@@ -1,0 +1,30 @@
+{
+ "id": "va-chesterfield-dc-revenue-car-tax",
+ "jurisdiction": "us-va-chesterfield-county",
+ "instrument": "Proposed ordinance using data center tax revenue to cut the car tax rate",
+ "mechanism": "process",
+ "status": "proposed",
+ "effective": "",
+ "summary": "Board of Supervisors deferred a second time a vote on using data center tax revenue to reduce the county car tax rate, to Nov 18. The county expects revenue from nine projects, several delayed by a Dominion capacity shortfall.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (12 On Your Side)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "public-finance",
+  "tax-revenue"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence",
+ "next": {
+  "date": "2026-11-18",
+  "event": "Chesterfield County vote on data center revenue car-tax ordinance"
+ }
+}

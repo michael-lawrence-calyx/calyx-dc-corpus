@@ -1,0 +1,26 @@
+{
+ "id": "pa-lycoming-county-curative-amendment",
+ "jurisdiction": "us-pa-lycoming-county",
+ "instrument": "Lycoming County draft curative amendment defining data centers",
+ "mechanism": "definition",
+ "status": "draft",
+ "effective": "",
+ "summary": "County Planning Commission reviewed a draft curative amendment defining data centers in the zoning ordinance, begun in June to avoid exposure under Pennsylvania's fair share doctrine. Hearings possibly from mid-November.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (Lock Haven Express)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "definition",
+  "fair-share"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

@@ -1,0 +1,28 @@
+{
+ "id": "ma-eo-658-speculative-queue",
+ "jurisdiction": "us-ma-state",
+ "instrument": "Executive Order No. 658, Sections 3 and 4",
+ "mechanism": "utility-service",
+ "status": "adopted",
+ "effective": "2026-09-08",
+ "summary": "Directs the DPU to continue developing large-load rate schedules so other ratepayers do not pay distribution upgrades for data centers, and to direct the electric distribution companies to use fees, deposits or other requirements to remove speculative data center projects over 25 MW from interconnection queues.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "Massachusetts Executive Order No. 658 (Sept 8, 2026), mass.gov",
+  "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment"
+ },
+ "notes": "A DPU directive to Unitil, Eversource and National Grid pursuant to EO 658 exists on mass.gov; not yet read.",
+ "confidence_note": "",
+ "tags": [
+  "queue",
+  "deposits",
+  "large-load-tariff"
+ ],
+ "section": "Sections 3-4",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

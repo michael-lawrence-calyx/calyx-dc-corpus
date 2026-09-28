@@ -1,0 +1,30 @@
+{
+ "id": "ny-potsdam-moratorium",
+ "jurisdiction": "us-ny-potsdam",
+ "instrument": "Proposed Local Law 2026-5, 12-month moratorium on large data centers and crypto mining (Town of Potsdam)",
+ "mechanism": "use-permission",
+ "status": "proposed",
+ "effective": "",
+ "summary": "Town Board proposed a 12-month moratorium on large-scale data centers and cryptocurrency mining outside the villages of Potsdam and Norwood.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (NorthCountryNow)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "moratorium",
+  "pending"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence",
+ "next": {
+  "date": "2026-11-05",
+  "event": "Potsdam public hearing on Local Law 2026-5"
+ }
+}

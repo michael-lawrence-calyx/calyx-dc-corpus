@@ -1,0 +1,26 @@
+{
+ "id": "il-galesburg-moratorium",
+ "jurisdiction": "us-il-galesburg",
+ "instrument": "Galesburg 180-day data center moratorium (first reading)",
+ "mechanism": "use-permission",
+ "status": "proposed",
+ "effective": "",
+ "summary": "City Council took up at first reading an ordinance for a 180-day moratorium on new permits, pending possible state legislation.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (WGIL)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "moratorium",
+  "pending"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

@@ -1,0 +1,26 @@
+{
+ "id": "pa-east-whiteland-ordinance",
+ "jurisdiction": "us-pa-east-whiteland-township",
+ "instrument": "East Whiteland Township data center zoning ordinance (Sept 24, 2026)",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "",
+ "summary": "Board of Supervisors voted unanimously to adopt a 32-page data center ordinance after a months-long moratorium; it does not affect the 1.5 million sq ft project under construction on the former Cyprus Foote Mineral site.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Philadelphia Inquirer, Sept 25, 2026"
+ },
+ "notes": "Township used the Pennsylvania MPC 180-day curative-amendment pause (Center Square, May 8, 2026).",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "ordinance",
+  "pa"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

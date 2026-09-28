@@ -1,0 +1,30 @@
+{
+ "id": "mo-kirksville-zoning",
+ "jurisdiction": "us-mo-kirksville",
+ "instrument": "Kirksville data center zoning amendments",
+ "mechanism": "use-permission",
+ "status": "recommended",
+ "effective": "",
+ "summary": "Planning and Zoning Commission unanimously recommended confining data centers to the single heavy industrial district; council study session Oct 19, possible action Oct 26.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (Kirksville Daily Express)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "zoning",
+  "pending"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence",
+ "next": {
+  "date": "2026-10-26",
+  "event": "Kirksville City Council possible action on data center zoning"
+ }
+}

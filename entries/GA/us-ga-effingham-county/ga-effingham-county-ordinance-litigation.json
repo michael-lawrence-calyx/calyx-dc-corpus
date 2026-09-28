@@ -1,0 +1,26 @@
+{
+ "id": "ga-effingham-county-ordinance-litigation",
+ "jurisdiction": "us-ga-effingham-county",
+ "instrument": "Resident suit challenging Effingham County Ordinance 2026-352",
+ "mechanism": "litigation",
+ "status": "proposed",
+ "effective": "",
+ "summary": "Three residents ask the Superior Court to invalidate Ordinance 2026-352 (final approval Aug 4, 2026), which opened all industrial-zoned land to data centers, alleging the two required public hearings were not held.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "WTOC, Sept 3, 2026"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "litigation",
+  "public-hearing"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

@@ -1,0 +1,30 @@
+{
+ "id": "nc-charlotte-moratorium",
+ "jurisdiction": "us-nc-charlotte",
+ "instrument": "Charlotte 150-day data center moratorium (June 8, 2026)",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "2026-06-08",
+ "summary": "City Council voted 11-0 on June 8, 2026 for a 150-day moratorium on new data centers; projects already approved proceed. Expires Nov 5, 2026. A council committee recommended extending it up to nine months; the full-council extension vote is not confirmed.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "WBTV (June 9), WFAE (Sept 8), QCNews (Sept 25, 2026)"
+ },
+ "notes": "City attorney said state law bars applying it to approved projects.",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "moratorium",
+  "nc"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence",
+ "next": {
+  "date": "2026-11-05",
+  "event": "Charlotte moratorium expires unless extended"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "id": "ca-calexico-ban",
+ "jurisdiction": "us-ca-calexico",
+ "instrument": "Calexico zoning amendment prohibiting data centers",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "",
+ "summary": "City Council voted 3-0 to amend the zoning code to expressly prohibit data centers, after starting as a proposed moratorium in June. Reported as the third California city to ban them.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (Imperial Valley Press)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "ban"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

@@ -1,26 +1,30 @@
 {
-  "id": "ar-pulaski-county-conditional-use-ordinance",
-  "jurisdiction": "us-ar-pulaski-county",
-  "instrument": "Pulaski County high-intensity digital infrastructure ordinance (passed Sept 22, vetoed Sept 25, 2026)",
-  "mechanism": "use-permission",
-  "status": "proposed",
-  "effective": "",
-  "summary": "Quorum Court passed 11-4 with an emergency clause an ordinance classifying large data centers as heavy industrial uses requiring a conditional use permit, without grandfathering AVAIO Digital's Wrightsville campus. County Judge Barry Hyde vetoed it Sept 25; an override needs nine votes at the next regular meeting, reported as Oct 27.",
-  "origin": "RELAYED",
-  "entry_state": "NOT_CHECKED",
-  "freshness": "LIVE",
-  "source": {
-    "kind": "secondary",
-    "citation": "Arkansas Democrat-Gazette, Arkansas Times, KATV, FOX16 (Sept 25-26, 2026)"
-  },
-  "notes": "CONFLICT: ordinance number reported as 26-I-56B, 25-OR-19 and 26-OR-19; AVAIO size reported as 150 MW initial vs more than 1 GW at build-out. Status 'proposed' used for a vetoed ordinance pending override. Forward calendar: Oct 27.",
-  "confidence_note": "Ordinance and veto letter not read; confirm number with the county clerk.",
-  "tags": [
-    "veto",
-    "forward-calendar"
-  ],
-  "section": "",
-  "text": "",
-  "retrieved": "2026-09-27",
-  "operator": "MLawrence"
+ "id": "ar-pulaski-county-conditional-use-ordinance",
+ "jurisdiction": "us-ar-pulaski-county",
+ "instrument": "Pulaski County high-intensity digital infrastructure ordinance (passed Sept 22, vetoed Sept 25, 2026)",
+ "mechanism": "use-permission",
+ "status": "proposed",
+ "effective": "",
+ "summary": "Quorum Court passed 11-4 with an emergency clause an ordinance classifying large data centers as heavy industrial uses requiring a conditional use permit, without grandfathering AVAIO Digital's Wrightsville campus. County Judge Barry Hyde vetoed it Sept 25; an override needs nine votes at the next regular meeting, reported as Oct 27.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Arkansas Democrat-Gazette, Arkansas Times, KATV, FOX16 (Sept 25-26, 2026)"
+ },
+ "notes": "CONFLICT: ordinance number reported as 26-I-56B, 25-OR-19 and 26-OR-19; AVAIO size reported as 150 MW initial vs more than 1 GW at build-out. Status 'proposed' used for a vetoed ordinance pending override. Forward calendar: Oct 27.",
+ "confidence_note": "Ordinance and veto letter not read; confirm number with the county clerk.",
+ "tags": [
+  "veto",
+  "forward-calendar"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-27",
+ "operator": "MLawrence",
+ "next": {
+  "date": "2026-10-27",
+  "event": "Pulaski County Quorum Court veto-override vote (reported)"
+ }
 }

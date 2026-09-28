@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-27",
- "count": 271,
+ "generated": "2026-09-28",
+ "count": 304,
  "states": [
   "AK",
   "AR",
@@ -15,14 +15,17 @@
   "IL",
   "IN",
   "KS",
+  "MA",
   "MD",
   "MI",
   "MN",
   "MO",
   "MS",
+  "MT",
   "NC",
   "NH",
   "NJ",
+  "NM",
   "NY",
   "OH",
   "OK",
@@ -48,22 +51,36 @@
   "Augusta-Richmond County",
   "Baltimore County",
   "Box Elder County",
+  "Brighton Township",
   "Champaign County",
   "Chandler",
+  "Chesterfield County",
   "City and County of Denver",
+  "City of Buffalo",
+  "City of Calexico",
+  "City of Charlotte",
   "City of Chicago",
+  "City of Dearborn",
   "City of Federal Way",
   "City of Fort Wayne",
+  "City of Galesburg",
   "City of Hayward",
+  "City of Kalamazoo",
+  "City of Kirksville",
   "City of North Port",
+  "City of Oakland",
   "City of Pocatello",
+  "City of Raton",
+  "City of Reading",
   "City of Red Oak",
   "City of Riverbank",
   "City of Salem",
+  "City of Statesboro",
   "City of Tulsa",
   "Clarendon County",
   "Cle Elum",
   "Clean Water Services",
+  "Commonwealth of Massachusetts",
   "Commonwealth of Virginia",
   "De Soto",
   "DeKalb County",
@@ -71,8 +88,11 @@
   "Dominion Energy Virginia",
   "Duke Energy Carolinas / Progress",
   "ERCOT",
+  "East Whiteland Township",
+  "Effingham County",
   "El Mirage",
   "Elkhart",
+  "Fayette County",
   "Fayetteville",
   "Festus",
   "Forest Grove",
@@ -96,6 +116,7 @@
   "Laurens County",
   "Lee County and City of Sanford",
   "Loudoun County",
+  "Lycoming County",
   "Manatee County",
   "Marana",
   "Maricopa County",
@@ -110,12 +131,14 @@
   "New Jersey",
   "New York",
   "North Carolina",
+  "North Mankato",
   "PJM Interconnection",
   "Palm Beach County",
   "Phoenix",
   "Pike County",
   "Pima County",
   "Pinal County",
+  "Port Huron Township",
   "Port of Walla Walla",
   "Portland",
   "Prince William County",
@@ -123,6 +146,7 @@
   "Public Utility Commission of Texas",
   "Pulaski County",
   "Raleigh",
+  "Raritan Township",
   "Richmond",
   "Saline Township",
   "San Francisco",
@@ -145,10 +169,14 @@
   "State of Washington",
   "Statesville",
   "Town of Normal",
+  "Town of Potsdam",
+  "Town of Westlake",
+  "Town of Zionsville",
   "Troy",
   "Tucson",
   "Tulare County",
   "United States (federal)",
+  "Wakulla County",
   "Walla Walla County",
   "Warren County",
   "Washington County",
@@ -156,7 +184,8 @@
   "Wixom",
   "Woodburn",
   "Woodbury",
-  "Yakima County"
+  "Yakima County",
+  "Yellowstone County"
  ],
  "mechanisms": [
   "acoustic",
@@ -179,9 +208,27 @@
  "by_origin": {
   "ASSERTED": 1,
   "DERIVED": 1,
-  "OBSERVED": 88,
-  "RELAYED": 181
+  "OBSERVED": 95,
+  "RELAYED": 207
  },
+ "upcoming": [
+  {
+   "date": "2026-12-31",
+   "event": "MassDEP deadline to establish the alternative compliance payment for data centers (EO 658 \u00a75)",
+   "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment",
+   "id": "ma-eo-658-clean-electricity-acp",
+   "state": "MA",
+   "jurisdiction_name": "Commonwealth of Massachusetts"
+  },
+  {
+   "date": "2026-12-31",
+   "event": "Massachusetts Municipal Guidance Document for Data Center Development due (EO 658 \u00a79)",
+   "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment",
+   "id": "ma-eo-658-municipal-guide",
+   "state": "MA",
+   "jurisdiction_name": "Commonwealth of Massachusetts"
+  }
+ ],
  "entries": [
   {
    "id": "ak-anchorage-ao-2026-27",
@@ -295,6 +342,10 @@
    "text": "",
    "retrieved": "2026-09-27",
    "operator": "MLawrence",
+   "next": {
+    "date": "2026-10-27",
+    "event": "Pulaski County Quorum Court veto-override vote (reported)"
+   },
    "state": "AR",
    "jurisdiction_name": "Pulaski County",
    "_path": "entries/AR/us-ar-pulaski-county/ar-pulaski-county-conditional-use-ordinance.json"
@@ -1451,6 +1502,34 @@
    "_path": "entries/AZ/us-az-tucson/az-tucson-o12268-water.json"
   },
   {
+   "id": "ca-calexico-ban",
+   "jurisdiction": "us-ca-calexico",
+   "instrument": "Calexico zoning amendment prohibiting data centers",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "summary": "City Council voted 3-0 to amend the zoning code to expressly prohibit data centers, after starting as a proposed moratorium in June. Reported as the third California city to ban them.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (Imperial Valley Press)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "ban"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "CA",
+   "jurisdiction_name": "City of Calexico",
+   "_path": "entries/CA/us-ca-calexico/ca-calexico-ban.json"
+  },
+  {
    "operator": "MLawrence",
    "section": "",
    "text": "",
@@ -1536,6 +1615,39 @@
    "state": "CA",
    "jurisdiction_name": "Mendocino County",
    "_path": "entries/CA/us-ca-mendocino-county/ca-mendocino-county-urgency-moratorium.json"
+  },
+  {
+   "id": "ca-oakland-moratorium-proposal",
+   "jurisdiction": "us-ca-oakland",
+   "instrument": "Proposed 45-day data center moratorium, Oakland",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "summary": "A City Council committee approved a proposed 45-day moratorium on new data centers, sending it to the full council.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (NBC Bay Area)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium",
+    "pending"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "next": {
+    "date": "2026-10-06",
+    "event": "Oakland full council vote on 45-day moratorium"
+   },
+   "state": "CA",
+   "jurisdiction_name": "City of Oakland",
+   "_path": "entries/CA/us-ca-oakland/ca-oakland-moratorium-proposal.json"
   },
   {
    "operator": "MLawrence",
@@ -2064,6 +2176,34 @@
    "_path": "entries/FL/us-fl-palm-beach-county/fl-palm-beach-county-pause.json"
   },
   {
+   "id": "fl-wakulla-county-ban",
+   "jurisdiction": "us-fl-wakulla-county",
+   "instrument": "Wakulla County ordinance prohibiting data centers",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "summary": "County Commission voted unanimously to adopt an ordinance prohibiting data centers throughout unincorporated areas; staff said the ban already existed in practice under the zoning code.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (FOX 49)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "ban"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "FL",
+   "jurisdiction_name": "Wakulla County",
+   "_path": "entries/FL/us-fl-wakulla-county/fl-wakulla-county-ban.json"
+  },
+  {
    "id": "ga-americus-30-day-moratorium",
    "jurisdiction": "us-ga-americus",
    "instrument": "Americus 30-day data center moratorium",
@@ -2182,6 +2322,64 @@
    "_path": "entries/GA/us-ga-dekalb-county/ga-dekalb-county-moratorium-extension.json"
   },
   {
+   "id": "ga-effingham-county-ordinance-litigation",
+   "jurisdiction": "us-ga-effingham-county",
+   "instrument": "Resident suit challenging Effingham County Ordinance 2026-352",
+   "mechanism": "litigation",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Three residents ask the Superior Court to invalidate Ordinance 2026-352 (final approval Aug 4, 2026), which opened all industrial-zoned land to data centers, alleging the two required public hearings were not held.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "WTOC, Sept 3, 2026"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "litigation",
+    "public-hearing"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "GA",
+   "jurisdiction_name": "Effingham County",
+   "_path": "entries/GA/us-ga-effingham-county/ga-effingham-county-ordinance-litigation.json"
+  },
+  {
+   "id": "ga-effingham-ida-open-meetings-litigation",
+   "jurisdiction": "us-ga-effingham-county",
+   "instrument": "Suit against the Effingham County Industrial Development Authority over deals with Octans Georgia",
+   "mechanism": "litigation",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Plaintiffs ask the court to find the development authority conducted public business in private and to void its agreements with Octans Georgia, an OpenAI affiliate, for a data center near Rincon.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "The Current GA, Sept 21, 2026"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "litigation",
+    "open-meetings"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "GA",
+   "jurisdiction_name": "Effingham County",
+   "_path": "entries/GA/us-ga-effingham-county/ga-effingham-ida-open-meetings-litigation.json"
+  },
+  {
    "id": "ga-fayetteville-citywide-prohibition",
    "jurisdiction": "us-ga-fayetteville",
    "instrument": "City of Fayetteville zoning action",
@@ -2209,6 +2407,35 @@
    "state": "GA",
    "jurisdiction_name": "Fayetteville",
    "_path": "entries/GA/us-ga-fayetteville/ga-fayetteville-citywide-prohibition.json"
+  },
+  {
+   "id": "ga-statesboro-rezoning-litigation",
+   "jurisdiction": "us-ga-statesboro",
+   "instrument": "Coastal Community United et al. v. City of Statesboro and 4 AM Development, SUCV2026000219 (Bulloch Co. Sup. Ct.)",
+   "mechanism": "litigation",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Petition filed Sept 17 challenges rezoning RZ 26-07-05 of 26.49 acres at 6539 Burkhalter Road from R-4 residential to office/business for a data center campus reported at 99 MW. City served Sept 21 with 30 days to respond.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "WTOC, Sept 22, 2026"
+   },
+   "notes": "Petitioners argue the project sits at the hyperscale threshold the city's ordinance was meant to exclude (Strisker).",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "litigation",
+    "rezoning"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "GA",
+   "jurisdiction_name": "City of Statesboro",
+   "_path": "entries/GA/us-ga-statesboro/ga-statesboro-rezoning-litigation.json"
   },
   {
    "id": "hi-hawaii-county-bill-170",
@@ -2392,6 +2619,35 @@
    "_path": "entries/IL/us-il-chicago/il-chicago-moratorium-proposal.json"
   },
   {
+   "id": "il-galesburg-moratorium",
+   "jurisdiction": "us-il-galesburg",
+   "instrument": "Galesburg 180-day data center moratorium (first reading)",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "summary": "City Council took up at first reading an ordinance for a 180-day moratorium on new permits, pending possible state legislation.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (WGIL)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium",
+    "pending"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "IL",
+   "jurisdiction_name": "City of Galesburg",
+   "_path": "entries/IL/us-il-galesburg/il-galesburg-moratorium.json"
+  },
+  {
    "id": "il-mattoon-auto-renewing-pause",
    "jurisdiction": "us-il-mattoon",
    "instrument": "Mattoon resolution pausing data center development",
@@ -2564,6 +2820,10 @@
    ],
    "origin": "RELAYED",
    "entry_state": "NOT_CHECKED",
+   "next": {
+    "date": "2026-10-13",
+    "event": "Fort Wayne City Council delayed moratorium vote"
+   },
    "state": "IN",
    "jurisdiction_name": "City of Fort Wayne",
    "_path": "entries/IN/us-in-fort-wayne/in-fort-wayne-moratorium-held.json"
@@ -2688,6 +2948,35 @@
    "_path": "entries/IN/us-in-michigan-city/in-michigan-city-moratorium-tabled.json"
   },
   {
+   "id": "in-zionsville-moratorium",
+   "jurisdiction": "us-in-zionsville",
+   "instrument": "Zionsville one-year moratorium on data centers, solar, wind and battery storage",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "summary": "Town Council approved a one-year moratorium on data centers, solar and wind farms and battery storage, directing the Plan Commission to review the zoning code, which has no permitted category for these uses.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (Current)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium",
+    "bess"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "IN",
+   "jurisdiction_name": "Town of Zionsville",
+   "_path": "entries/IN/us-in-zionsville/in-zionsville-moratorium.json"
+  },
+  {
    "id": "ks-de-soto-digital-realty-tif-plan-3",
    "jurisdiction": "us-ks-de-soto",
    "instrument": "Sunflower Redevelopment District, TIF Redevelopment Project Plan 3 (Digital Astra Park North, LLC)",
@@ -2778,6 +3067,198 @@
    "state": "KS",
    "jurisdiction_name": "Kansas",
    "_path": "entries/KS/us-ks-state/ks-kcc-evergy-llps-tariff.json"
+  },
+  {
+   "id": "ma-eo-658-clean-electricity-acp",
+   "jurisdiction": "us-ma-state",
+   "instrument": "Executive Order No. 658, Section 5",
+   "mechanism": "generation",
+   "status": "adopted",
+   "effective": "2026-09-08",
+   "summary": "MassDEP must develop protocols requiring covered data centers to procure incremental new clean electricity (Clean Energy Standard eligible) equal to annual consumption, and by Dec 31, 2026 establish an alternative compliance payment for projects that fall short, paid into a Ratepayer Protection Fund.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Massachusetts Executive Order No. 658 (Sept 8, 2026), mass.gov",
+    "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment"
+   },
+   "notes": "",
+   "confidence_note": "",
+   "tags": [
+    "clean-energy",
+    "ratepayer-protection-fund"
+   ],
+   "section": "Section 5",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "next": {
+    "date": "2026-12-31",
+    "event": "MassDEP deadline to establish the alternative compliance payment for data centers (EO 658 \u00a75)",
+    "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment"
+   },
+   "state": "MA",
+   "jurisdiction_name": "Commonwealth of Massachusetts",
+   "_path": "entries/MA/us-ma-state/ma-eo-658-clean-electricity-acp.json"
+  },
+  {
+   "id": "ma-eo-658-definition",
+   "jurisdiction": "us-ma-state",
+   "instrument": "Executive Order No. 658, Section 13",
+   "mechanism": "definition",
+   "status": "adopted",
+   "effective": "2026-09-08",
+   "summary": "Covers data centers as defined in 400 CMR 9.00, built or expanded after Sept 8, 2026, exceeding 25 MW peak demand, or for an expansion adding 25 MW of peak demand. The EEA and EOED secretaries may jointly exempt a facility tied to an accredited college or university doing academic research, to medical care, or to a state-sponsored program.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Massachusetts Executive Order No. 658 (Sept 8, 2026), mass.gov",
+    "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment"
+   },
+   "notes": "",
+   "confidence_note": "",
+   "tags": [
+    "25-mw",
+    "definition",
+    "expansion"
+   ],
+   "section": "Section 13",
+   "text": "exceeds a peak electric demand of twenty-five megawatts, or in the case of a data center expansion, an addition of twenty-five megawatts of peak electric demand",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "MA",
+   "jurisdiction_name": "Commonwealth of Massachusetts",
+   "_path": "entries/MA/us-ma-state/ma-eo-658-definition.json"
+  },
+  {
+   "id": "ma-eo-658-municipal-guide",
+   "jurisdiction": "us-ma-state",
+   "instrument": "Executive Order No. 658, Section 9",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-09-08",
+   "summary": "EEA and EOED must publish a Municipal Guidance Document for Data Center Development by Dec 31, 2026, developed with municipalities, regional planning agencies, utilities, labor, environmental justice organizations, businesses, the Attorney General and the public.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Massachusetts Executive Order No. 658 (Sept 8, 2026), mass.gov",
+    "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment"
+   },
+   "notes": "",
+   "confidence_note": "",
+   "tags": [
+    "municipal-guidance"
+   ],
+   "section": "Section 9",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "next": {
+    "date": "2026-12-31",
+    "event": "Massachusetts Municipal Guidance Document for Data Center Development due (EO 658 \u00a79)",
+    "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment"
+   },
+   "state": "MA",
+   "jurisdiction_name": "Commonwealth of Massachusetts",
+   "_path": "entries/MA/us-ma-state/ma-eo-658-municipal-guide.json"
+  },
+  {
+   "id": "ma-eo-658-nda-ban",
+   "jurisdiction": "us-ma-state",
+   "instrument": "Executive Order No. 658, Section 1",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-09-08",
+   "summary": "Prohibits permitting-related state agencies from using non-disclosure agreements with a data center project, except as otherwise provided by law.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Massachusetts Executive Order No. 658 (Sept 8, 2026), mass.gov",
+    "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment"
+   },
+   "notes": "",
+   "confidence_note": "",
+   "tags": [
+    "nda",
+    "transparency"
+   ],
+   "section": "Section 1",
+   "text": "the use of non-disclosure agreements with a data center project is prohibited, except as otherwise provided by law",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "MA",
+   "jurisdiction_name": "Commonwealth of Massachusetts",
+   "_path": "entries/MA/us-ma-state/ma-eo-658-nda-ban.json"
+  },
+  {
+   "id": "ma-eo-658-permit-condition",
+   "jurisdiction": "us-ma-state",
+   "instrument": "Executive Order No. 658, Section 1",
+   "mechanism": "load-trigger",
+   "status": "adopted",
+   "effective": "2026-09-08",
+   "summary": "State permitting agencies (MassDEP, EFSB, MEPA and others) may not issue permits or authorizations for a data center project with peak demand over 25 MW unless the applicant has shown conformance with the June 25, 2026 state Framework and submitted a community benefits agreement reviewed by the Office of Environmental Justice and Equity.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Massachusetts Executive Order No. 658 (Sept 8, 2026), mass.gov",
+    "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment"
+   },
+   "notes": "Third 25 MW state or utility threshold in the register, with Maryland EO (Sept 23) and Dominion GS-5.",
+   "confidence_note": "",
+   "tags": [
+    "25-mw",
+    "executive-order",
+    "community-benefits"
+   ],
+   "section": "Section 1",
+   "text": "shall not issue any permits or authorizations associated with any data center project with peak electricity demand exceeding twenty-five megawatts",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "MA",
+   "jurisdiction_name": "Commonwealth of Massachusetts",
+   "_path": "entries/MA/us-ma-state/ma-eo-658-permit-condition.json"
+  },
+  {
+   "id": "ma-eo-658-speculative-queue",
+   "jurisdiction": "us-ma-state",
+   "instrument": "Executive Order No. 658, Sections 3 and 4",
+   "mechanism": "utility-service",
+   "status": "adopted",
+   "effective": "2026-09-08",
+   "summary": "Directs the DPU to continue developing large-load rate schedules so other ratepayers do not pay distribution upgrades for data centers, and to direct the electric distribution companies to use fees, deposits or other requirements to remove speculative data center projects over 25 MW from interconnection queues.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Massachusetts Executive Order No. 658 (Sept 8, 2026), mass.gov",
+    "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment"
+   },
+   "notes": "A DPU directive to Unitil, Eversource and National Grid pursuant to EO 658 exists on mass.gov; not yet read.",
+   "confidence_note": "",
+   "tags": [
+    "queue",
+    "deposits",
+    "large-load-tariff"
+   ],
+   "section": "Sections 3-4",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "MA",
+   "jurisdiction_name": "Commonwealth of Massachusetts",
+   "_path": "entries/MA/us-ma-state/ma-eo-658-speculative-queue.json"
   },
   {
    "id": "md-anne-arundel-county-ban-to-moratorium",
@@ -2989,6 +3470,119 @@
    "_path": "entries/MD/us-md-state/md-state-utility-relief-act-registry.json"
   },
   {
+   "id": "mi-brighton-township-moratorium",
+   "jurisdiction": "us-mi-brighton-township",
+   "instrument": "Brighton Township data center moratorium",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "summary": "Township approved a moratorium on data center development while the planning commission drafts an ordinance.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Michigan Advance Weekly Download, Sept 28, 2026, citing Livingston Daily (Sept 24)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "MI",
+   "jurisdiction_name": "Brighton Township",
+   "_path": "entries/MI/us-mi-brighton-township/mi-brighton-township-moratorium.json"
+  },
+  {
+   "id": "mi-dearborn-moratorium",
+   "jurisdiction": "us-mi-dearborn",
+   "instrument": "Dearborn six-month data center moratorium",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "summary": "City Council gave final approval to a six-month moratorium on new data centers.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Michigan Advance, Sept 28, 2026, citing MLive"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "MI",
+   "jurisdiction_name": "City of Dearborn",
+   "_path": "entries/MI/us-mi-dearborn/mi-dearborn-moratorium.json"
+  },
+  {
+   "id": "mi-kalamazoo-zoning-codification",
+   "jurisdiction": "us-mi-kalamazoo",
+   "instrument": "Kalamazoo proposal to codify data center moratorium in zoning code",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Commissioners set a public hearing to embed the city's data center moratorium, which exists only as a resolution, into the zoning code.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (WKZO)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium",
+    "pending"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "MI",
+   "jurisdiction_name": "City of Kalamazoo",
+   "_path": "entries/MI/us-mi-kalamazoo/mi-kalamazoo-zoning-codification.json"
+  },
+  {
+   "id": "mi-port-huron-township-moratorium",
+   "jurisdiction": "us-mi-port-huron-township",
+   "instrument": "Port Huron Township 12-month data center moratorium",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "summary": "Township approved a 12-month moratorium on data centers and other high resource-demand facilities, extendable by the board.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Michigan Advance, Sept 28, 2026, citing Port Huron Times Herald (Sept 22)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "MI",
+   "jurisdiction_name": "Port Huron Township",
+   "_path": "entries/MI/us-mi-port-huron-township/mi-port-huron-township-moratorium.json"
+  },
+  {
    "id": "mi-saline-township-settlement",
    "jurisdiction": "us-mi-saline-township",
    "instrument": "Settlement, Related Digital v. Saline Township",
@@ -3106,6 +3700,34 @@
    "_path": "entries/MI/us-mi-wixom/mi-wixom-ordinance-drafted-for-defensibility.json"
   },
   {
+   "id": "mn-north-mankato-moratorium",
+   "jurisdiction": "us-mn-north-mankato",
+   "instrument": "North Mankato one-year data center moratorium",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "summary": "City Council passed a one-year moratorium and study.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (KEYC)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "MN",
+   "jurisdiction_name": "North Mankato",
+   "_path": "entries/MN/us-mn-north-mankato/mn-north-mankato-moratorium.json"
+  },
+  {
    "id": "mn-woodbury-moratorium",
    "jurisdiction": "us-mn-woodbury",
    "instrument": "Woodbury moratorium on new data centers and expansions",
@@ -3162,6 +3784,39 @@
    "state": "MO",
    "jurisdiction_name": "Festus",
    "_path": "entries/MO/us-mo-festus/mo-festus-council-removal.json"
+  },
+  {
+   "id": "mo-kirksville-zoning",
+   "jurisdiction": "us-mo-kirksville",
+   "instrument": "Kirksville data center zoning amendments",
+   "mechanism": "use-permission",
+   "status": "recommended",
+   "effective": "",
+   "summary": "Planning and Zoning Commission unanimously recommended confining data centers to the single heavy industrial district; council study session Oct 19, possible action Oct 26.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (Kirksville Daily Express)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "zoning",
+    "pending"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "next": {
+    "date": "2026-10-26",
+    "event": "Kirksville City Council possible action on data center zoning"
+   },
+   "state": "MO",
+   "jurisdiction_name": "City of Kirksville",
+   "_path": "entries/MO/us-mo-kirksville/mo-kirksville-zoning.json"
   },
   {
    "id": "ms-mdeq-xai-southaven-permit",
@@ -3222,6 +3877,68 @@
    "state": "MS",
    "jurisdiction_name": "Mississippi",
    "_path": "entries/MS/us-ms-state/ms-mdeq-xai-temporary-mobile-letter.json"
+  },
+  {
+   "id": "mt-yellowstone-county-right-to-compute",
+   "jurisdiction": "us-mt-yellowstone-county",
+   "instrument": "Yellowstone County letter to legislators on the Montana Right to Compute Act",
+   "mechanism": "state-authority",
+   "status": "proposed",
+   "effective": "",
+   "summary": "County commissioners drafted a letter asking state lawmakers to clarify the Right to Compute Act to preserve local zoning authority over data centers.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (KTVQ)"
+   },
+   "notes": "",
+   "confidence_note": "Letter and statute not read; whether the Act limits local zoning is the question raised, not a finding.",
+   "tags": [
+    "preemption",
+    "right-to-compute"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "MT",
+   "jurisdiction_name": "Yellowstone County",
+   "_path": "entries/MT/us-mt-yellowstone-county/mt-yellowstone-county-right-to-compute.json"
+  },
+  {
+   "id": "nc-charlotte-moratorium",
+   "jurisdiction": "us-nc-charlotte",
+   "instrument": "Charlotte 150-day data center moratorium (June 8, 2026)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-06-08",
+   "summary": "City Council voted 11-0 on June 8, 2026 for a 150-day moratorium on new data centers; projects already approved proceed. Expires Nov 5, 2026. A council committee recommended extending it up to nine months; the full-council extension vote is not confirmed.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "WBTV (June 9), WFAE (Sept 8), QCNews (Sept 25, 2026)"
+   },
+   "notes": "City attorney said state law bars applying it to approved projects.",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium",
+    "nc"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "next": {
+    "date": "2026-11-05",
+    "event": "Charlotte moratorium expires unless extended"
+   },
+   "state": "NC",
+   "jurisdiction_name": "City of Charlotte",
+   "_path": "entries/NC/us-nc-charlotte/nc-charlotte-moratorium.json"
   },
   {
    "operator": "MLawrence",
@@ -3429,6 +4146,35 @@
    "_path": "entries/NH/us-nh-state/nh-senate-2027-moratorium-plan.json"
   },
   {
+   "id": "nj-raritan-township-ban",
+   "jurisdiction": "us-nj-raritan-township",
+   "instrument": "Raritan Township ordinance banning data centers",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "summary": "Township Committee adopted an ordinance banning data centers municipality-wide, closing warehouse and flex-space workarounds, with an exception for accessory server rooms under 2,000 square feet.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (WRNJ Radio)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "ban",
+    "accessory-exception"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "NJ",
+   "jurisdiction_name": "Raritan Township",
+   "_path": "entries/NJ/us-nj-raritan-township/nj-raritan-township-ban.json"
+  },
+  {
    "id": "nj-a5482-ai-data-center-pause",
    "jurisdiction": "us-nj-state",
    "instrument": "Assembly Bill A5482 (proposed)",
@@ -3487,6 +4233,100 @@
    "state": "NJ",
    "jurisdiction_name": "New Jersey",
    "_path": "entries/NJ/us-nj-state/nj-dep-vineland-dataone-penalty.json"
+  },
+  {
+   "id": "nm-raton-moratorium-rejected",
+   "jurisdiction": "us-nm-raton",
+   "instrument": "Raton resolution for a data center moratorium (rejected)",
+   "mechanism": "use-permission",
+   "status": "void",
+   "effective": "",
+   "summary": "City Commission voted 3-2 to reject a resolution pausing business licenses and zoning approvals for data centers; dissenters cited existing utility safeguards and no current proposal. A resident submitted 477 signatures in support.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (KRTN)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "rejected"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "NM",
+   "jurisdiction_name": "City of Raton",
+   "_path": "entries/NM/us-nm-raton/nm-raton-moratorium-rejected.json"
+  },
+  {
+   "id": "ny-buffalo-ban-proposal",
+   "jurisdiction": "us-ny-buffalo",
+   "instrument": "Proposed two-year data center ban, Buffalo Common Council",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "summary": "A proposed two-year ban on data centers showed enough council support at hearing to pass; the sponsor expects a possibly unanimous vote. Mayoral signature uncertain.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (WGRZ)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "ban",
+    "pending"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "next": {
+    "date": "2026-09-29",
+    "event": "Buffalo Common Council vote on two-year data center ban"
+   },
+   "state": "NY",
+   "jurisdiction_name": "City of Buffalo",
+   "_path": "entries/NY/us-ny-buffalo/ny-buffalo-ban-proposal.json"
+  },
+  {
+   "id": "ny-potsdam-moratorium",
+   "jurisdiction": "us-ny-potsdam",
+   "instrument": "Proposed Local Law 2026-5, 12-month moratorium on large data centers and crypto mining (Town of Potsdam)",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Town Board proposed a 12-month moratorium on large-scale data centers and cryptocurrency mining outside the villages of Potsdam and Norwood.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (NorthCountryNow)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium",
+    "pending"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "next": {
+    "date": "2026-11-05",
+    "event": "Potsdam public hearing on Local Law 2026-5"
+   },
+   "state": "NY",
+   "jurisdiction_name": "Town of Potsdam",
+   "_path": "entries/NY/us-ny-potsdam/ny-potsdam-moratorium.json"
   },
   {
    "id": "ny-eo-62-dec-permit-abeyance",
@@ -3548,6 +4388,34 @@
    "state": "OH",
    "jurisdiction_name": "AEP Ohio",
    "_path": "entries/OH/us-oh-aep-ohio/oh-aep-service-moratorium.json"
+  },
+  {
+   "id": "oh-fayette-county-moratorium",
+   "jurisdiction": "us-oh-fayette-county",
+   "instrument": "Fayette County temporary data center moratorium",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "summary": "Commissioners moved to approve a moratorium of about eight months covering seven townships, after resolutions from seven township governments.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (Record-Herald)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "OH",
+   "jurisdiction_name": "Fayette County",
+   "_path": "entries/OH/us-oh-fayette-county/oh-fayette-county-moratorium.json"
   },
   {
    "id": "oh-miamisburg-moratorium",
@@ -5040,6 +5908,35 @@
    "_path": "entries/OR/us-or-woodburn/or-woodburn-120-day-moratorium.json"
   },
   {
+   "id": "pa-east-whiteland-ordinance",
+   "jurisdiction": "us-pa-east-whiteland-township",
+   "instrument": "East Whiteland Township data center zoning ordinance (Sept 24, 2026)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "summary": "Board of Supervisors voted unanimously to adopt a 32-page data center ordinance after a months-long moratorium; it does not affect the 1.5 million sq ft project under construction on the former Cyprus Foote Mineral site.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Philadelphia Inquirer, Sept 25, 2026"
+   },
+   "notes": "Township used the Pennsylvania MPC 180-day curative-amendment pause (Center Square, May 8, 2026).",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "ordinance",
+    "pa"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "PA",
+   "jurisdiction_name": "East Whiteland Township",
+   "_path": "entries/PA/us-pa-east-whiteland-township/pa-east-whiteland-ordinance.json"
+  },
+  {
    "id": "pa-forward-township-misty-hollow",
    "jurisdiction": "us-pa-forward-township",
    "instrument": "Misty Hollow Energy & Data Campus preliminary plan (614 Prospect Rd)",
@@ -5067,6 +5964,68 @@
    "state": "PA",
    "jurisdiction_name": "Forward Township",
    "_path": "entries/PA/us-pa-forward-township/pa-forward-township-misty-hollow.json"
+  },
+  {
+   "id": "pa-lycoming-county-curative-amendment",
+   "jurisdiction": "us-pa-lycoming-county",
+   "instrument": "Lycoming County draft curative amendment defining data centers",
+   "mechanism": "definition",
+   "status": "draft",
+   "effective": "",
+   "summary": "County Planning Commission reviewed a draft curative amendment defining data centers in the zoning ordinance, begun in June to avoid exposure under Pennsylvania's fair share doctrine. Hearings possibly from mid-November.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (Lock Haven Express)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "definition",
+    "fair-share"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "PA",
+   "jurisdiction_name": "Lycoming County",
+   "_path": "entries/PA/us-pa-lycoming-county/pa-lycoming-county-curative-amendment.json"
+  },
+  {
+   "id": "pa-reading-zoning-amendment",
+   "jurisdiction": "us-pa-reading",
+   "instrument": "Reading zoning amendment limiting data centers to manufacturing districts",
+   "mechanism": "use-permission",
+   "status": "draft",
+   "effective": "",
+   "summary": "Draft amendment would limit data centers to the Heavy Manufacturing and Manufacturing Commercial districts. The city's 180-day curative-amendment moratorium expires in January if the ordinance is not adopted first.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (WFMZ)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "zoning",
+    "curative-amendment"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "next": {
+    "date": "2026-10-20",
+    "event": "Reading Planning Commission possible vote on data center zoning amendment"
+   },
+   "state": "PA",
+   "jurisdiction_name": "City of Reading",
+   "_path": "entries/PA/us-pa-reading/pa-reading-zoning-amendment.json"
   },
   {
    "id": "sc-clarendon-county-moratorium",
@@ -5790,6 +6749,39 @@
    "_path": "entries/TX/us-tx-state/tx-twdb-water-survey-directive.json"
   },
   {
+   "id": "tx-westlake-litigation",
+   "jurisdiction": "us-tx-westlake",
+   "instrument": "Lakes of Marshall Ridge HOA and City of Keller v. Town of Westlake (Tarrant County)",
+   "mechanism": "litigation",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Suit alleges Westlake violated its zoning ordinance and concealed the project's purpose, including a site plan omitting the required 150-foot setback and landscaped buffer from single-family homes. On Sept 25 the judge dissolved the temporary restraining order and set a hearing for Oct 23.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "CBS Texas, Sept 25, 2026"
+   },
+   "notes": "Plaintiffs allege a Dec 2024 P&Z notice for a 45-to-80-foot height amendment did not mention data centers.",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "litigation",
+    "setback"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "next": {
+    "date": "2026-10-23",
+    "event": "Westlake data center hearing, Tarrant County"
+   },
+   "state": "TX",
+   "jurisdiction_name": "Town of Westlake",
+   "_path": "entries/TX/us-tx-westlake/tx-westlake-litigation.json"
+  },
+  {
    "id": "federal-ferc-comed-powerhouse-tsa",
    "jurisdiction": "us-federal",
    "instrument": "FERC order rejecting ComEd's notice of cancellation of the PowerHouse Hillwood transmission security agreement (Joliet, IL; ~Sept 22, 2026)",
@@ -5818,6 +6810,37 @@
    "state": "US",
    "jurisdiction_name": "United States (federal)",
    "_path": "entries/US/us-federal/federal-ferc-comed-powerhouse-tsa.json"
+  },
+  {
+   "id": "federal-ferc-large-load-show-cause",
+   "jurisdiction": "us-federal",
+   "instrument": "FERC show cause orders to six RTOs/ISOs on large load integration (June 18, 2026), Dockets EL26-67 (PJM), EL26-68 (SPP), EL26-69 (NYISO), EL26-70 (MISO), EL26-71 (CAISO), EL26-72 (ISO-NE)",
+   "mechanism": "utility-service",
+   "status": "adopted",
+   "effective": "2026-06-18",
+   "summary": "FERC issued separate section 206 show cause orders to each RTO/ISO and its transmission owners: within 60 days justify existing tariffs or file changes covering five areas (transmission service study processes, cost shifting and transparency, co-location and behind-the-meter generation, service for flexible large loads, study of generation serving proximate or co-located loads), plus a 30-day informational report on generation adequacy for large loads.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "FERC news release, June 18, 2026 (Items E-7 to E-12)",
+    "url": "https://www.ferc.gov/news-events/news/ferc-launches-aggressive-targeted-action-speed-large-load-integration"
+   },
+   "notes": "Docket-to-item mapping per release links: E-7 EL26-67, E-8 EL26-70, E-9 EL26-68, E-10 EL26-71, E-11 EL26-72, E-12 EL26-69.",
+   "confidence_note": "Read the FERC news release, not the six orders. RTO responses, abeyance requests and current deadlines not checked.",
+   "tags": [
+    "ferc",
+    "show-cause",
+    "co-location"
+   ],
+   "section": "",
+   "text": "have 60 days to either justify why their current tariffs remain just and reasonable without provisions tailored to large loads, or to file tariff changes",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "state": "US",
+   "jurisdiction_name": "United States (federal)",
+   "_path": "entries/US/us-federal/federal-ferc-large-load-show-cause.json"
   },
   {
    "id": "federal-naacp-v-xai-southaven",
@@ -6028,6 +7051,39 @@
    "state": "UT",
    "jurisdiction_name": "State of Utah",
    "_path": "entries/UT/us-ut-state/ut-mida-stratos-project-area.json"
+  },
+  {
+   "id": "va-chesterfield-dc-revenue-car-tax",
+   "jurisdiction": "us-va-chesterfield-county",
+   "instrument": "Proposed ordinance using data center tax revenue to cut the car tax rate",
+   "mechanism": "process",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Board of Supervisors deferred a second time a vote on using data center tax revenue to reduce the county car tax rate, to Nov 18. The county expects revenue from nine projects, several delayed by a Dominion capacity shortfall.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (12 On Your Side)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "public-finance",
+    "tax-revenue"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-28",
+   "operator": "MLawrence",
+   "next": {
+    "date": "2026-11-18",
+    "event": "Chesterfield County vote on data center revenue car-tax ordinance"
+   },
+   "state": "VA",
+   "jurisdiction_name": "Chesterfield County",
+   "_path": "entries/VA/us-va-chesterfield-county/va-chesterfield-dc-revenue-car-tax.json"
   },
   {
    "operator": "MLawrence",

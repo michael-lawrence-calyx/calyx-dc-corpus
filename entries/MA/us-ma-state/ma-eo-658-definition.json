@@ -1,0 +1,28 @@
+{
+ "id": "ma-eo-658-definition",
+ "jurisdiction": "us-ma-state",
+ "instrument": "Executive Order No. 658, Section 13",
+ "mechanism": "definition",
+ "status": "adopted",
+ "effective": "2026-09-08",
+ "summary": "Covers data centers as defined in 400 CMR 9.00, built or expanded after Sept 8, 2026, exceeding 25 MW peak demand, or for an expansion adding 25 MW of peak demand. The EEA and EOED secretaries may jointly exempt a facility tied to an accredited college or university doing academic research, to medical care, or to a state-sponsored program.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "Massachusetts Executive Order No. 658 (Sept 8, 2026), mass.gov",
+  "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment"
+ },
+ "notes": "",
+ "confidence_note": "",
+ "tags": [
+  "25-mw",
+  "definition",
+  "expansion"
+ ],
+ "section": "Section 13",
+ "text": "exceeds a peak electric demand of twenty-five megawatts, or in the case of a data center expansion, an addition of twenty-five megawatts of peak electric demand",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

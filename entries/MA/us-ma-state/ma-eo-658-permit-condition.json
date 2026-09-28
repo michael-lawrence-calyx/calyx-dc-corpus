@@ -1,0 +1,28 @@
+{
+ "id": "ma-eo-658-permit-condition",
+ "jurisdiction": "us-ma-state",
+ "instrument": "Executive Order No. 658, Section 1",
+ "mechanism": "load-trigger",
+ "status": "adopted",
+ "effective": "2026-09-08",
+ "summary": "State permitting agencies (MassDEP, EFSB, MEPA and others) may not issue permits or authorizations for a data center project with peak demand over 25 MW unless the applicant has shown conformance with the June 25, 2026 state Framework and submitted a community benefits agreement reviewed by the Office of Environmental Justice and Equity.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "Massachusetts Executive Order No. 658 (Sept 8, 2026), mass.gov",
+  "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment"
+ },
+ "notes": "Third 25 MW state or utility threshold in the register, with Maryland EO (Sept 23) and Dominion GS-5.",
+ "confidence_note": "",
+ "tags": [
+  "25-mw",
+  "executive-order",
+  "community-benefits"
+ ],
+ "section": "Section 1",
+ "text": "shall not issue any permits or authorizations associated with any data center project with peak electricity demand exceeding twenty-five megawatts",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

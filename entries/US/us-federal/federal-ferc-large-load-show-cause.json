@@ -1,0 +1,28 @@
+{
+ "id": "federal-ferc-large-load-show-cause",
+ "jurisdiction": "us-federal",
+ "instrument": "FERC show cause orders to six RTOs/ISOs on large load integration (June 18, 2026), Dockets EL26-67 (PJM), EL26-68 (SPP), EL26-69 (NYISO), EL26-70 (MISO), EL26-71 (CAISO), EL26-72 (ISO-NE)",
+ "mechanism": "utility-service",
+ "status": "adopted",
+ "effective": "2026-06-18",
+ "summary": "FERC issued separate section 206 show cause orders to each RTO/ISO and its transmission owners: within 60 days justify existing tariffs or file changes covering five areas (transmission service study processes, cost shifting and transparency, co-location and behind-the-meter generation, service for flexible large loads, study of generation serving proximate or co-located loads), plus a 30-day informational report on generation adequacy for large loads.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "FERC news release, June 18, 2026 (Items E-7 to E-12)",
+  "url": "https://www.ferc.gov/news-events/news/ferc-launches-aggressive-targeted-action-speed-large-load-integration"
+ },
+ "notes": "Docket-to-item mapping per release links: E-7 EL26-67, E-8 EL26-70, E-9 EL26-68, E-10 EL26-71, E-11 EL26-72, E-12 EL26-69.",
+ "confidence_note": "Read the FERC news release, not the six orders. RTO responses, abeyance requests and current deadlines not checked.",
+ "tags": [
+  "ferc",
+  "show-cause",
+  "co-location"
+ ],
+ "section": "",
+ "text": "have 60 days to either justify why their current tariffs remain just and reasonable without provisions tailored to large loads, or to file tariff changes",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence"
+}

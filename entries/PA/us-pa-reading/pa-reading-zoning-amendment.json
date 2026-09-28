@@ -1,0 +1,30 @@
+{
+ "id": "pa-reading-zoning-amendment",
+ "jurisdiction": "us-pa-reading",
+ "instrument": "Reading zoning amendment limiting data centers to manufacturing districts",
+ "mechanism": "use-permission",
+ "status": "draft",
+ "effective": "",
+ "summary": "Draft amendment would limit data centers to the Heavy Manufacturing and Manufacturing Commercial districts. The city's 180-day curative-amendment moratorium expires in January if the ordinance is not adopted first.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (WFMZ)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "zoning",
+  "curative-amendment"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence",
+ "next": {
+  "date": "2026-10-20",
+  "event": "Reading Planning Commission possible vote on data center zoning amendment"
+ }
+}

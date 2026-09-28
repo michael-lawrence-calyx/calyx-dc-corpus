@@ -1,0 +1,30 @@
+{
+ "id": "tx-westlake-litigation",
+ "jurisdiction": "us-tx-westlake",
+ "instrument": "Lakes of Marshall Ridge HOA and City of Keller v. Town of Westlake (Tarrant County)",
+ "mechanism": "litigation",
+ "status": "proposed",
+ "effective": "",
+ "summary": "Suit alleges Westlake violated its zoning ordinance and concealed the project's purpose, including a site plan omitting the required 150-foot setback and landscaped buffer from single-family homes. On Sept 25 the judge dissolved the temporary restraining order and set a hearing for Oct 23.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "CBS Texas, Sept 25, 2026"
+ },
+ "notes": "Plaintiffs allege a Dec 2024 P&Z notice for a 45-to-80-foot height amendment did not mention data centers.",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "litigation",
+  "setback"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence",
+ "next": {
+  "date": "2026-10-23",
+  "event": "Westlake data center hearing, Tarrant County"
+ }
+}

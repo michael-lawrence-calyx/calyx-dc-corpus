@@ -1,0 +1,30 @@
+{
+ "id": "ny-buffalo-ban-proposal",
+ "jurisdiction": "us-ny-buffalo",
+ "instrument": "Proposed two-year data center ban, Buffalo Common Council",
+ "mechanism": "use-permission",
+ "status": "proposed",
+ "effective": "",
+ "summary": "A proposed two-year ban on data centers showed enough council support at hearing to pass; the sponsor expects a possibly unanimous vote. Mayoral signature uncertain.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (WGRZ)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "ban",
+  "pending"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-28",
+ "operator": "MLawrence",
+ "next": {
+  "date": "2026-09-29",
+  "event": "Buffalo Common Council vote on two-year data center ban"
+ }
+}
