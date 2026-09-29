@@ -14,6 +14,11 @@
     "name": "Pulaski County",
     "state": "AR"
   },
+  "us-ar-state": {
+    "kind": "state",
+    "name": "State of Arkansas",
+    "state": "AR"
+  },
   "us-az-chandler": {
     "kind": "municipality",
     "name": "Chandler",
@@ -359,9 +364,19 @@
     "name": "Wixom",
     "state": "MI"
   },
+  "us-mn-inver-grove-heights": {
+    "kind": "city",
+    "name": "City of Inver Grove Heights",
+    "state": "MN"
+  },
   "us-mn-north-mankato": {
     "kind": "city",
     "name": "North Mankato",
+    "state": "MN"
+  },
+  "us-mn-state": {
+    "kind": "state",
+    "name": "State of Minnesota",
     "state": "MN"
   },
   "us-mn-woodbury": {
@@ -442,6 +457,11 @@
   "us-nm-raton": {
     "kind": "city",
     "name": "City of Raton",
+    "state": "NM"
+  },
+  "us-nm-state": {
+    "kind": "state",
+    "name": "State of New Mexico",
     "state": "NM"
   },
   "us-ny-buffalo": {
@@ -619,6 +639,11 @@
     "name": "ERCOT",
     "state": "TX"
   },
+  "us-tx-hill-county": {
+    "kind": "county",
+    "name": "Hill County",
+    "state": "TX"
+  },
   "us-tx-hood-county": {
     "kind": "county",
     "name": "Hood County",
@@ -743,6 +768,11 @@
     "kind": "county",
     "name": "Yakima County",
     "state": "WA"
+  },
+  "us-wi-vilas-county": {
+    "kind": "county",
+    "name": "Vilas County",
+    "state": "WI"
   },
   "us-wi-we-energies": {
     "kind": "utility",

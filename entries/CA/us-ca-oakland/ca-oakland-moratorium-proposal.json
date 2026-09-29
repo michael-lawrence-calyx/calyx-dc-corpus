@@ -13,7 +13,7 @@
   "kind": "secondary",
   "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (NBC Bay Area)"
  },
- "notes": "",
+ "notes": "City file 27-0050 on the Oct 6 agenda; covers approval of land use entitlements or agreements for development or operation of data centers; amendment packages from Councilmember Wang (D2) and supplemental legislation dated Sept 24 attached.",
  "confidence_note": "Primary instrument not read.",
  "tags": [
   "moratorium",
@@ -21,12 +21,12 @@
  ],
  "section": "",
  "text": "",
- "retrieved": "2026-09-28",
+ "retrieved": "2026-09-29",
  "operator": "MLawrence",
  "next": {
   "date": "2026-10-06",
-  "event": "Oakland full council vote on 45-day moratorium",
-  "url": "https://www.nbcbayarea.com/news/local/oakland-data-center-moratorium-vote/4147127/",
-  "basis": "reported"
+  "event": "Oakland City Council, File 27-0050: urgency interim ordinance (Gov. Code 65858) moratorium on data center entitlements",
+  "url": "https://oakland.legistar.com/LegislationDetail.aspx?GUID=4775CA8D-0CB2-4BC8-BC13-DCCDA9352E08&ID=8203751",
+  "basis": "document"
  }
 }

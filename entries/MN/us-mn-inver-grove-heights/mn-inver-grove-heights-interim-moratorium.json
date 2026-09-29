@@ -1,0 +1,28 @@
+{
+ "id": "mn-inver-grove-heights-interim-moratorium",
+ "jurisdiction": "us-mn-inver-grove-heights",
+ "instrument": "Interim ordinance authorizing study of data centers and imposing a moratorium (June 26, 2026), as amended Sept 14, 2026",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "2026-06-26",
+ "summary": "Council voted 3-2 on June 26, 2026 for a one-year moratorium on data center construction or expansion that included the pending application at 5842 Carmen Avenue East. After the developer threatened litigation citing up to $150 million in damages, council approved an ordinance removing that project from the moratorium in three readings (Aug 10, Aug 24, Sept 14); it takes effect on publication in the Pioneer Press.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "primary",
+  "citation": "City of Inver Grove Heights, Proposed Data Center updates page (city news flash, read Sept 28, 2026)",
+  "url": "https://www.ighmn.gov/m/newsflash/Home/Detail/2896"
+ },
+ "notes": "City pages give the site as 5842 Carmen Ave E and about 50,000 sq ft; the June 26 agenda item title reads 54,070 sq ft at 5890 Carmen Avenue; MPR and other reporting say 55,000 sq ft. All three recorded. Developer-stated load: 5 MW. A residents' EAW petition was reviewed by a third-party consultant; the city reports the project is exempt from an EAW. On Sept 28, 2026 the council approved the major site plan (reported; see mn-inver-grove-heights-site-plan-approval). The moratorium remains in place for any other data center until at least June 2027.",
+ "confidence_note": "Read on the city's own update page; the ordinance text itself not read.",
+ "tags": [
+  "moratorium",
+  "carve-out",
+  "threatened-litigation"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

@@ -1,0 +1,28 @@
+{
+ "id": "federal-blm-green-chile-emergency-row",
+ "jurisdiction": "us-federal",
+ "instrument": "Bureau of Land Management approval of the Green Chile pipeline crossing of federal land (May 2026)",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "",
+ "summary": "BLM approved the pipeline's crossing of federal land in May 2026 under an accelerated 14-day emergency review.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Construction Review Online, Sept 28, 2026",
+  "url": "https://constructionreviewonline.com/how-is-oracles-165b-project-jupiter-on-track-or-derailed/"
+ },
+ "notes": "",
+ "confidence_note": "BLM decision record not read; single secondary source.",
+ "tags": [
+  "project-jupiter",
+  "blm",
+  "emergency-review"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

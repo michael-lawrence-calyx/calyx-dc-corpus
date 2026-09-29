@@ -1,0 +1,35 @@
+{
+ "id": "nm-slo-green-chile-row-denials",
+ "jurisdiction": "us-nm-state",
+ "instrument": "New Mexico State Land Office denials of right-of-way for the Green Chile gas pipeline (Transwestern / Energy Transfer)",
+ "mechanism": "generation",
+ "status": "adopted",
+ "effective": "2026-07-14",
+ "summary": "The Commissioner of Public Lands twice denied Transwestern Pipeline a right-of-way across about 0.6 mile of state trust land for the roughly 17-mile Green Chile pipeline that would fuel the Project Jupiter campus's on-site fuel cells: in March 2026 and again on July 14, 2026. The FERC-filed in-service date moved from Aug 15, 2026 to Feb 1, 2027.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "El Paso Matters (Sept 24, 2026); Source NM (July 16, Aug 17, 2026) as cited in secondary coverage",
+  "url": "https://elpasomatters.org/2026/09/24/project-jupiter-rent-force-majeure-new-mexico-oracle-ai-el-paso-data-center/"
+ },
+ "notes": "Reported grounds: the pipeline would not benefit state trust land (El Paso Matters); emissions and strain on water and local resources (other coverage). On Sept 24, 2026 Oracle sent a force majeure notice to the developer (Stack Infrastructure / Blue Owl); Oracle says the project remains on schedule. Pipeline length reported as 17 to 18 miles.",
+ "confidence_note": "Denial letters not read.",
+ "tags": [
+  "project-jupiter",
+  "pipeline",
+  "state-trust-land",
+  "dona-ana-county"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence",
+ "next": {
+  "date": "2027-02-01",
+  "event": "Green Chile pipeline revised in-service date (Project Jupiter)",
+  "url": "https://elpasomatters.org/2026/09/24/project-jupiter-rent-force-majeure-new-mexico-oracle-ai-el-paso-data-center/",
+  "basis": "reported"
+ }
+}

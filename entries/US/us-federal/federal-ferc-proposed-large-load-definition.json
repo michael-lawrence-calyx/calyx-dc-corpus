@@ -1,0 +1,29 @@
+{
+ "id": "federal-ferc-proposed-large-load-definition",
+ "jurisdiction": "us-federal",
+ "instrument": "FERC preliminary large load definition, PJM show cause order (June 18, 2026)",
+ "mechanism": "definition",
+ "status": "proposed",
+ "effective": "2026-06-18",
+ "summary": "FERC finds it appears reasonable to define a large load as a new commercial or industrial customer at a single site behind one or more points of interconnection, with peak load of 50 MW or greater, interconnecting above 69 kV, and not part of a co-location arrangement; PJM may propose its own. The order quotes SPP's tariff definition of a high impact large load: 10 MW or more at 69 kV or below, or 50 MW or more above 69 kV.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "195 FERC \u00b6 61,211 at n.2, P 58 and n.53",
+  "url": "https://www.pjm.com/-/media/DotCom/documents/ferc/orders/2026/20260618-el26-67-000.pdf"
+ },
+ "notes": "",
+ "confidence_note": "",
+ "tags": [
+  "50-mw",
+  "69-kv",
+  "voltage-threshold",
+  "spp-hill"
+ ],
+ "section": "",
+ "text": "has a peak load of 50 MW or greater, interconnects to the transmission system at a voltage level of greater than 69 kV, and is not part of a co-location arrangement",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

@@ -1,0 +1,28 @@
+{
+ "id": "ar-pulaski-county-veto-letter",
+ "jurisdiction": "us-ar-pulaski-county",
+ "instrument": "County Judge Barry Hyde veto letter, Ordinance No. 26-OR-19 / 26-I-56B (Sept 25, 2026)",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "2026-09-25",
+ "summary": "Vetoes the data center ordinance under Amendment 55 and Ark. Code 14-14-911, citing: (1) vested-rights exposure under Article 17 for projects lacking Final County Approvals (Blundell v. City of West Helena; Potter v. City of Tontitown) and limits on local authority under Ark. Code 23-119-105(f) and AG Op. 2023-060; (2) Article 9 appeals conflicting with Ark. Code 14-17-203(g) and MMSC, LLC v. Washington County (2026); (3) an unfunded administrative program whose monitoring fee requires a separate fee ordinance; (4) forgone tax base; (5) litigation and immunity risk (RCM Hill, LLC v. Hill County, Texas).",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "Letter to Pulaski County Clerk Terri Hollingsworth, filed Sept 25, 2026 16:30, 6 pp.",
+  "url": "https://katv.com/resources/pdf/689eb2ac-697b-43ce-8fca-28531196c097-1783_001.pdf"
+ },
+ "notes": "Reporting that the Quorum Court bypassed the planning commission (THV11) is not supported by the letter. Override date not stated in the letter.",
+ "confidence_note": "",
+ "tags": [
+  "veto",
+  "vested-rights",
+  "quasi-judicial"
+ ],
+ "section": "",
+ "text": "For these reasons, I veto Ordinance No. 26-OR-19.",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

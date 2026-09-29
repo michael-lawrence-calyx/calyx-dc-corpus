@@ -1,0 +1,28 @@
+{
+ "id": "tx-sb6-backup-generation-curtailment",
+ "jurisdiction": "us-tx-state",
+ "instrument": "Texas SB 6, Util. Code 37.0561(e) and 39.170",
+ "mechanism": "generation",
+ "status": "adopted",
+ "effective": "2025-06-20",
+ "summary": "Large loads must disclose on-site backup generating facilities (non-exporting, able to serve at least 50% of on-site demand); in an energy emergency ERCOT may direct them to deploy backup generation or curtail, without authorizing emissions violations. Transmission-voltage loads interconnected after December 31, 2025 must install equipment allowing curtailment during firm load shed; ERCOT must procure a demand-reduction service from loads of at least 75 MW with 24-hour notice.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "Texas SB 6 (89th Leg., enrolled; effective June 20, 2025), LegiScan mirror",
+  "url": "https://legiscan.com/TX/text/SB6/id/3248460"
+ },
+ "notes": "",
+ "confidence_note": "",
+ "tags": [
+  "backup-generation",
+  "curtailment",
+  "firm-load-shed"
+ ],
+ "section": "Util. Code 37.0561(e); 39.170",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

@@ -1,0 +1,26 @@
+{
+ "id": "ca-tulare-county-opposition-position",
+ "jurisdiction": "us-ca-tulare-county",
+ "instrument": "Tulare County Board of Supervisors formal position on data center development",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "",
+ "summary": "Supervisors voted 3-2 to adopt a formal position opposing most data center development within county boundaries, including in areas outside the county's land-use jurisdiction.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Daily Notes, Sept 28, 2026 (digest)"
+ },
+ "notes": "",
+ "confidence_note": "Resolution not read. A position on areas outside county jurisdiction (cities) is not itself a land-use control there.",
+ "tags": [
+  "position",
+  "non-binding"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

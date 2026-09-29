@@ -1,0 +1,28 @@
+{
+ "id": "va-eo-22-data-center-accountability",
+ "jurisdiction": "us-va-state",
+ "instrument": "Executive Order 22 (Sept 18, 2026)",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "2026-09-18",
+ "summary": "Bars executive branch agencies and employees from entering into or requiring non-disclosure agreements for data center projects; creates a Data Center Planning and Community Engagement Toolkit for localities; expedites state data center noise regulations; directs a review of diesel and other backup generation; directs data center investment toward local energy projects; develops workforce best practices; creates an AI Task Force.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "Governor of Virginia news release, Sept 18, 2026 (lists Executive Order 22 actions)",
+  "url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/september-releases/name-1123696-en.html"
+ },
+ "notes": "",
+ "confidence_note": "Read on the Governor's release; the order text itself not read. Whether the order removes large projects from state fast-track permitting (reported by Bay Journal) is not stated among the release's order actions.",
+ "tags": [
+  "nda",
+  "noise-regulations",
+  "backup-generation"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

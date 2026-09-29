@@ -1,0 +1,28 @@
+{
+ "id": "nm-jupiter-fuel-cell-air-permit",
+ "jurisdiction": "us-nm-state",
+ "instrument": "Pending New Mexico air quality permit for the Project Jupiter 2.45 GW fuel-cell power plant",
+ "mechanism": "generation",
+ "status": "proposed",
+ "effective": "",
+ "summary": "State air quality permitting for the campus's 2.45 GW on-site fuel-cell power plant remains pending. The New Mexico Supreme Court paused the state air quality and water use permitting proceedings before allowing them to continue in September 2026.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "El Paso Matters; Santa Fe New Mexican, Sept 24-25, 2026",
+  "url": "https://www.santafenewmexican.com/las_cruces/local_news/oracle-sends-force-majeure-notice-to-project-jupiter-developers-to-protect-itself-from-liability/article_ecdbb097-66d9-49eb-9436-95fe7b6a2eec.html"
+ },
+ "notes": "",
+ "confidence_note": "Permit application and court orders not read.",
+ "tags": [
+  "project-jupiter",
+  "air-permit",
+  "fuel-cells"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

@@ -1,0 +1,27 @@
+{
+ "id": "mn-sixty-day-rule-auto-approval",
+ "jurisdiction": "us-mn-state",
+ "instrument": "Minnesota 60-day rule for city action on development applications",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "",
+ "summary": "A city must act on a development application within 60 days, extendable by the city to 120 days; further extensions only by the applicant. Failure to act results in automatic approval. In Inver Grove Heights the 120-day deadline (July 1, 2026) shaped how and when the council could apply its moratorium to a pending data center.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "As described on the City of Inver Grove Heights proposed data center page",
+  "url": "https://www.ighmn.gov/m/newsflash/Home/Detail/2896"
+ },
+ "notes": "",
+ "confidence_note": "Statute not read; described by the city. Relevant anywhere a moratorium is drafted after an application is filed.",
+ "tags": [
+  "deemed-approval",
+  "timing"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

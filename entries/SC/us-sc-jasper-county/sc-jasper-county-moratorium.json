@@ -1,26 +1,26 @@
 {
-  "id": "sc-jasper-county-moratorium",
-  "jurisdiction": "us-sc-jasper-county",
-  "instrument": "Jasper County data center and cryptocurrency moratorium",
-  "mechanism": "use-permission",
-  "status": "adopted",
-  "effective": "2026-09-21",
-  "summary": "One-year moratorium on data centers and cryptocurrency mining in unincorporated areas, approved unanimously.",
-  "origin": "RELAYED",
-  "entry_state": "NOT_CHECKED",
-  "freshness": "LIVE",
-  "source": {
-    "kind": "secondary",
-    "citation": "Local reporting / datacenterbans.com, Sept 2026"
-  },
-  "notes": "One of four South Carolina county actions within about a week (Spartanburg, Jasper, Laurens, Clarendon).",
-  "confidence_note": "Ordinance text not read.",
-  "tags": [
-    "moratorium",
-    "sc-cluster"
-  ],
-  "section": "",
-  "text": "",
-  "retrieved": "2026-09-24",
-  "operator": "MLawrence"
+ "id": "sc-jasper-county-moratorium",
+ "jurisdiction": "us-sc-jasper-county",
+ "instrument": "Jasper County data center and cryptocurrency moratorium",
+ "mechanism": "use-permission",
+ "status": "proposed",
+ "effective": "2026-09-21",
+ "summary": "One-year moratorium on data centers, data processing facilities and cryptocurrency mining in unincorporated areas. Second reading approved unanimously Sept 21, 2026; third and final reading set for the next council meeting. Would pause rezoning, site plan, building permit and economic incentive applications; council may extend in six-month increments.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Bluffton Today, Sept 2026 (via Yahoo News/AOL)"
+ },
+ "notes": "CORRECTION: previously recorded as adopted. Bluffton Today (via Yahoo/AOL, Sept 27-28) reports second reading only; the earlier source described it as approved. One of four South Carolina county actions within about a week (Spartanburg, Jasper, Laurens, Clarendon).",
+ "confidence_note": "Ordinance text not read.",
+ "tags": [
+  "moratorium",
+  "sc-cluster"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
 }

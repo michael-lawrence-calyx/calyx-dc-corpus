@@ -11,18 +11,18 @@
  "freshness": "FIXED",
  "source": {
   "kind": "primary",
-  "citation": "FERC news release, June 18, 2026 (Items E-7 to E-12)",
-  "url": "https://www.ferc.gov/news-events/news/ferc-launches-aggressive-targeted-action-speed-large-load-integration"
+  "citation": "PJM Interconnection, L.L.C., 195 FERC \u00b6 61,211 (June 18, 2026), Docket EL26-67-000; companion orders 195 FERC \u00b6\u00b6 61,212-61,216",
+  "url": "https://www.pjm.com/-/media/DotCom/documents/ferc/orders/2026/20260618-el26-67-000.pdf"
  },
- "notes": "Docket-to-item mapping per release links: E-7 EL26-67, E-8 EL26-70, E-9 EL26-68, E-10 EL26-71, E-11 EL26-72, E-12 EL26-69.",
- "confidence_note": "Read the FERC news release, not the six orders. RTO responses, abeyance requests and current deadlines not checked.",
+ "notes": "Docket-to-item mapping per release links: E-7 EL26-67, E-8 EL26-70, E-9 EL26-68, E-10 EL26-71, E-11 EL26-72, E-12 EL26-69. Read in the PJM order (pp. 1-45 of 114). Abeyance: requests within 45 days; up to 90 days; FERC will look with great disfavor on extensions. Refund effective date: Federal Register publication. Not intended to disrupt existing arrangements; reforms prospective. Study timeline expectation: 60-90 calendar days. Other five orders not read (parallel).",
+ "confidence_note": "PJM order read in part (directives, definitions, discussion through P ~60). Other RTO orders and responses/abeyance filings not read; whether abeyances were granted not checked.",
  "tags": [
   "ferc",
   "show-cause",
   "co-location"
  ],
  "section": "",
- "text": "have 60 days to either justify why their current tariffs remain just and reasonable without provisions tailored to large loads, or to file tariff changes",
- "retrieved": "2026-09-28",
+ "text": "we direct PJM and the Transmission Owners, within 60 days of the date of this order, to either: (1) show cause as to why the Tariff remains just and reasonable",
+ "retrieved": "2026-09-29",
  "operator": "MLawrence"
 }

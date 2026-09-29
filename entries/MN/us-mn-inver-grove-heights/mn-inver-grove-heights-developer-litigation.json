@@ -1,0 +1,27 @@
+{
+ "id": "mn-inver-grove-heights-developer-litigation",
+ "jurisdiction": "us-mn-inver-grove-heights",
+ "instrument": "Developer litigation against the City of Inver Grove Heights over the data center moratorium",
+ "mechanism": "litigation",
+ "status": "proposed",
+ "effective": "",
+ "summary": "The developer, QLevr LLC, threatened suit citing damages up to $150 million because the moratorium was drafted after its application was filed, and filed suit once the moratorium took effect. City officials estimated the city could owe at least $20 million if it lost. The council then amended the moratorium to exclude the project (third reading Sept 14, 2026; one councilmember opposed).",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "City of Inver Grove Heights update page; MPR News and CBS Minnesota, Sept 15, 2026",
+  "url": "https://www.mprnews.org/story/2026/09/15/inver-grove-heights-data-center-project-exempted-from-city-moratorium"
+ },
+ "notes": "Damages CONFLICT: developer communications cited up to $150 million (city page); city officials cited at least $20 million (MPR, Sept 15). Both recorded.",
+ "confidence_note": "Complaint and case number not read; lawsuit filing and damages estimate reported.",
+ "tags": [
+  "litigation",
+  "retroactive-moratorium"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

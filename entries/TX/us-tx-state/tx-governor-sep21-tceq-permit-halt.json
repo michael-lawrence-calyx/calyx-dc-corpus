@@ -1,28 +1,34 @@
 {
-  "id": "tx-governor-sep21-tceq-permit-halt",
-  "jurisdiction": "us-tx-state",
-  "instrument": "Governor's letter to TCEQ Executive Director Kelly Keel (Sept 21, 2026)",
-  "section": "",
-  "mechanism": "process",
-  "status": "adopted",
-  "effective": "2026-09-21",
-  "retrieved": "2026-09-24",
-  "summary": "Directs TCEQ to halt all permits sought by data centers and to pause issuance of all permits related to data center projects until ERCOT completes its review. States that no other state agency shall move forward with data center regulatory approvals until the PUC, ERCOT and TWDB information is acquired. TCEQ must report on compliance by October 19, 2026.",
-  "text": "Because the information sought by the PUC, ERCOT, and TWDB is necessary to make informed decisions by each of those agencies, no other state agency shall move forward with regulatory approvals related to data centers until this information is acquired. Therefore, I direct the TCEQ to pause the issuance of all permits related to data center projects until ERCOT completes its review.",
-  "origin": "OBSERVED",
-  "entry_state": "CONFIRMED",
-  "freshness": "LIVE",
-  "source": {
-    "kind": "primary",
-    "citation": "Letter from Gov. Greg Abbott to Kelly Keel, Executive Director, TCEQ, Sept 21, 2026 (2 pp.)",
-    "url": "https://gov.texas.gov/uploads/files/press/TCEQ_Data_Center.pdf"
-  },
-  "notes": "CORRECTION: previous version was RELAYED from the Texas Tribune. Read in original. Opening sentence: directs TCEQ 'to halt all permits sought by data centers.' Expiry is tied to ERCOT completing its review; no date. Compliance update due Monday, October 19, 2026 (forward calendar). Letter also states data centers must abide by setback requirements and that the governor will work with the Legislature to eliminate financial incentives for data centers. CONFLICT: two sentences the Tribune quoted ('Simply put, Texans must come first...' and 'Until they do, TCEQ will issue no permits sought by data center projects') do not appear in the letter; likely from an accompanying press release, not read. The behind-the-meter reading is the Tribune's interpretation; the letter does not mention behind-the-meter generation. Sequence: June PUC/ERCOT cost order; Aug 3 ERCOT audit (tx-governor-aug3-queue-audit); Sept 14 TWDB enforcement (tx-twdb-water-survey-directive); Sept 21 TCEQ halt.",
-  "confidence_note": "Letter read in full. Accompanying press release not read. Whether TCEQ has paused specific pending permits is not checked; the Oct 19 compliance update would show it.",
-  "tags": [
-    "tceq",
-    "whole-of-government",
-    "forward-calendar"
-  ],
-  "operator": "MLawrence"
+ "id": "tx-governor-sep21-tceq-permit-halt",
+ "jurisdiction": "us-tx-state",
+ "instrument": "Governor's letter to TCEQ Executive Director Kelly Keel (Sept 21, 2026)",
+ "section": "",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "2026-09-21",
+ "retrieved": "2026-09-24",
+ "summary": "Directs TCEQ to halt all permits sought by data centers and to pause issuance of all permits related to data center projects until ERCOT completes its review. States that no other state agency shall move forward with data center regulatory approvals until the PUC, ERCOT and TWDB information is acquired. TCEQ must report on compliance by October 19, 2026.",
+ "text": "Because the information sought by the PUC, ERCOT, and TWDB is necessary to make informed decisions by each of those agencies, no other state agency shall move forward with regulatory approvals related to data centers until this information is acquired. Therefore, I direct the TCEQ to pause the issuance of all permits related to data center projects until ERCOT completes its review.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "primary",
+  "citation": "Letter from Gov. Greg Abbott to Kelly Keel, Executive Director, TCEQ, Sept 21, 2026 (2 pp.)",
+  "url": "https://gov.texas.gov/uploads/files/press/TCEQ_Data_Center.pdf"
+ },
+ "notes": "CORRECTION: previous version was RELAYED from the Texas Tribune. Read in original. Opening sentence: directs TCEQ 'to halt all permits sought by data centers.' Expiry is tied to ERCOT completing its review; no date. Compliance update due Monday, October 19, 2026 (forward calendar). Letter also states data centers must abide by setback requirements and that the governor will work with the Legislature to eliminate financial incentives for data centers. CONFLICT: two sentences the Tribune quoted ('Simply put, Texans must come first...' and 'Until they do, TCEQ will issue no permits sought by data center projects') do not appear in the letter; likely from an accompanying press release, not read. The behind-the-meter reading is the Tribune's interpretation; the letter does not mention behind-the-meter generation. Sequence: June PUC/ERCOT cost order; Aug 3 ERCOT audit (tx-governor-aug3-queue-audit); Sept 14 TWDB enforcement (tx-twdb-water-survey-directive); Sept 21 TCEQ halt.",
+ "confidence_note": "Letter read in full. Accompanying press release not read. Whether TCEQ has paused specific pending permits is not checked; the Oct 19 compliance update would show it.",
+ "tags": [
+  "tceq",
+  "whole-of-government",
+  "forward-calendar"
+ ],
+ "operator": "MLawrence",
+ "next": {
+  "date": "2026-10-19",
+  "event": "TCEQ report to the Governor on compliance with the data center permit pause",
+  "url": "https://gov.texas.gov/uploads/files/press/TCEQ_Data_Center.pdf",
+  "basis": "document"
+ }
 }

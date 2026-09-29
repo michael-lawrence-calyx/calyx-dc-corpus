@@ -1,0 +1,29 @@
+{
+ "id": "tx-sb6-large-load-threshold",
+ "jurisdiction": "us-tx-state",
+ "instrument": "Texas SB 6, Util. Code 37.0561(a)-(f), (h), (l)",
+ "mechanism": "load-trigger",
+ "status": "adopted",
+ "effective": "2025-06-20",
+ "summary": "PUC standards for interconnecting large loads in ERCOT apply only to new or expanded interconnections where total load at a single site would exceed a demand threshold of 75 MW, unless the PUC finds a lower threshold necessary. Large loads must disclose substantially similar requests elsewhere in Texas, disclose on-site backup generation, pay a flat screening study fee of at least $100,000, and post financial commitments; municipal utilities and co-ops may impose additional requirements.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "Texas SB 6 (89th Leg., enrolled; effective June 20, 2025), LegiScan mirror",
+  "url": "https://legiscan.com/TX/text/SB6/id/3248460"
+ },
+ "notes": "",
+ "confidence_note": "",
+ "tags": [
+  "75-mw",
+  "single-site",
+  "duplicate-disclosure",
+  "study-fee"
+ ],
+ "section": "Util. Code 37.0561",
+ "text": "where the total load at a single site would exceed a demand threshold established by the commission ... The commission shall establish a demand threshold of 75 megawatts unless the commission determines that a lower threshold is necessary",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

@@ -13,7 +13,7 @@
   "kind": "secondary",
   "citation": "Arkansas Democrat-Gazette, Arkansas Times, KATV, FOX16 (Sept 25-26, 2026)"
  },
- "notes": "CONFLICT: ordinance number reported as 26-I-56B, 25-OR-19 and 26-OR-19; AVAIO size reported as 150 MW initial vs more than 1 GW at build-out. Status 'proposed' used for a vetoed ordinance pending override. Forward calendar: Oct 27.",
+ "notes": "CONFLICT: ordinance number reported as 26-I-56B, 25-OR-19 and 26-OR-19; AVAIO size reported as 150 MW initial vs more than 1 GW at build-out. Status 'proposed' used for a vetoed ordinance pending override. Forward calendar: Oct 27.  Ordinance numbers SETTLED by the veto letter: the letter uses both 26-OR-19 (subject line, closing) and 26-I-56B (first paragraph). \"25-OR-19\" in KATV coverage is an error.",
  "confidence_note": "Ordinance and veto letter not read; confirm number with the county clerk.",
  "tags": [
   "veto",
@@ -21,7 +21,7 @@
  ],
  "section": "",
  "text": "",
- "retrieved": "2026-09-27",
+ "retrieved": "2026-09-29",
  "operator": "MLawrence",
  "next": {
   "date": "2026-10-27",

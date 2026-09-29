@@ -1,26 +1,26 @@
 {
-  "id": "ca-ab1577-cec-reporting",
-  "jurisdiction": "us-ca-state",
-  "instrument": "AB 1577 (2026), signed Sept 21, 2026",
-  "mechanism": "process",
-  "status": "adopted",
-  "effective": "2026-09-21",
-  "summary": "Establishes California Energy Commission reporting and a registry for data centers.",
-  "origin": "RELAYED",
-  "entry_state": "NOT_CHECKED",
-  "freshness": "LIVE",
-  "source": {
-    "kind": "secondary",
-    "citation": "Governor's office release Sept 22, 2026; CalMatters, KQED, NatLawReview (Sept 22-24, 2026)"
-  },
-  "notes": "",
-  "confidence_note": "Primary instrument not read.",
-  "tags": [
-    "california",
-    "disclosure"
-  ],
-  "section": "",
-  "text": "",
-  "retrieved": "2026-09-27",
-  "operator": "MLawrence"
+ "id": "ca-ab1577-cec-reporting",
+ "jurisdiction": "us-ca-state",
+ "instrument": "AB 1577 (2026), signed Sept 21, 2026",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "2026-09-21",
+ "summary": "Establishes California Energy Commission reporting and a registry for data centers.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Governor's office release Sept 22, 2026; CalMatters, KQED, NatLawReview (Sept 22-24, 2026)"
+ },
+ "notes": "Threshold UNRESOLVED: drafts used 10 kW plus 20 W per sq ft (March committee analysis), 500 kW installed capacity, and 10 MW (later summary). Do not cite any threshold until the chaptered text is read.",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "california",
+  "disclosure"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
 }

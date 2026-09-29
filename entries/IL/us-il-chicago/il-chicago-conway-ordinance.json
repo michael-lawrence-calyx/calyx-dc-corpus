@@ -1,0 +1,26 @@
+{
+ "id": "il-chicago-conway-ordinance",
+ "jurisdiction": "us-il-chicago",
+ "instrument": "Ald. Conway (34th) data center regulation ordinance",
+ "mechanism": "use-permission",
+ "status": "proposed",
+ "effective": "",
+ "summary": "Introduced Sept 23, 2026: adds regulations for data centers and bans them in some districts, without a citywide moratorium.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Block Club Chicago, Sept 23, 2026"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "zoning",
+  "alternative"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

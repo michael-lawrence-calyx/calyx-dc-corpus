@@ -1,0 +1,27 @@
+{
+ "id": "il-chicago-eo-data-center-review",
+ "jurisdiction": "us-il-chicago",
+ "instrument": "Mayor's Executive Order on enhanced regulatory review for data centers (Aug 2026)",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "",
+ "summary": "Establishes enhanced standards and departmental enforcement for data center review and a Data Centers Task Force; its interim review provisions give way once the Council enacts a moratorium.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "City of Chicago press release, Aug 11, 2026 (search excerpt)",
+  "url": "https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2026/august/data-center-order.html"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "executive-order",
+  "task-force"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

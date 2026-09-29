@@ -1,0 +1,28 @@
+{
+ "id": "tx-hill-county-rcm-hill-litigation",
+ "jurisdiction": "us-tx-hill-county",
+ "instrument": "RCM Hill, LLC v. Hill County, Texas (42 U.S.C. 1983)",
+ "mechanism": "litigation",
+ "status": "void",
+ "effective": "",
+ "summary": "A data center developer sued Hill County and individual county officials under 42 U.S.C. 1983 in May 2026 over a county moratorium; the case was dismissed with prejudice on July 9, 2026 without a determination that the officials were personally liable.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "As described in the Pulaski County veto letter, Sept 25, 2026",
+  "url": "https://katv.com/resources/pdf/689eb2ac-697b-43ce-8fca-28531196c097-1783_001.pdf"
+ },
+ "notes": "",
+ "confidence_note": "Docket not read; described in a primary document.",
+ "tags": [
+  "1983",
+  "official-liability",
+  "moratorium"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

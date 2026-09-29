@@ -1,0 +1,27 @@
+{
+ "id": "tx-sb6-colocation-deemed-approval",
+ "jurisdiction": "us-tx-state",
+ "instrument": "Texas SB 6, Util. Code 39.169 (co-location with existing generation)",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "2025-06-20",
+ "summary": "Net metering between an existing stand-alone generator and a new large load requires notice to ERCOT, an ERCOT study within 120 days of complete information, and a PUC decision within 60 days of the study; if the PUC does not act by the deadline the arrangement is considered approved. Decisions are posted on the PUC website.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "Texas SB 6 (89th Leg., enrolled; effective June 20, 2025), LegiScan mirror",
+  "url": "https://legiscan.com/TX/text/SB6/id/3248460"
+ },
+ "notes": "",
+ "confidence_note": "",
+ "tags": [
+  "co-location",
+  "deemed-approval"
+ ],
+ "section": "Util. Code 39.169",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

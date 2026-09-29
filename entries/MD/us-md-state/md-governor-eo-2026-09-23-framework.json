@@ -1,29 +1,29 @@
 {
-  "id": "md-governor-eo-2026-09-23-framework",
-  "jurisdiction": "us-md-state",
-  "instrument": "Governor's Executive Order, Responsible Data Center Development Framework (Sept 23, 2026)",
-  "mechanism": "load-trigger",
-  "status": "adopted",
-  "effective": "2026-09-23",
-  "summary": "Applies one standard and one review to every data center of 25 MW or more as soon as it seeks any State action, including a permit, incentive or letter of support. A Maryland Data Center Task Force reviews projects and issues public Aligned / Conditionally Aligned / Not Aligned determinations; a monthly public dashboard lists developer, parent company, disclosed anchor tenant, projected power demand and water use, State actions requested, determinations and commitments.",
-  "origin": "OBSERVED",
-  "entry_state": "CONFIRMED",
-  "freshness": "LIVE",
-  "source": {
-    "kind": "primary",
-    "citation": "Governor of Maryland press release, Sept 23, 2026",
-    "url": "https://governor.maryland.gov/news/press-releases/governor-moore-signs-executive-order-codifying-responsible-data-center-development-framework"
-  },
-  "notes": "Governor also stated support for repealing the 2020 data center sales and use tax exemption in the next session (stated position, not an instrument). Release contains partisan framing; not recorded. Charles County remains a firewall exclusion; the state task force is a separate body.",
-  "confidence_note": "Press release read in full; executive order text not read.",
-  "tags": [
-    "25-mw",
-    "dashboard",
-    "disclosure",
-    "maryland"
-  ],
-  "section": "",
-  "text": "",
-  "retrieved": "2026-09-27",
-  "operator": "MLawrence"
+ "id": "md-governor-eo-2026-09-23-framework",
+ "jurisdiction": "us-md-state",
+ "instrument": "Governor's Executive Order, Responsible Data Center Development Framework (Sept 23, 2026)",
+ "mechanism": "load-trigger",
+ "status": "adopted",
+ "effective": "2026-09-23",
+ "summary": "Applies one standard and one review to every data center of 25 MW or more as soon as it seeks any State action, including a permit, incentive or letter of support. A Maryland Data Center Task Force reviews projects and issues public Aligned / Conditionally Aligned / Not Aligned determinations; a monthly public dashboard lists developer, parent company, disclosed anchor tenant, projected power demand and water use, State actions requested, determinations and commitments.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "primary",
+  "citation": "Governor of Maryland press release, Sept 23, 2026",
+  "url": "https://governor.maryland.gov/news/press-releases/governor-moore-signs-executive-order-codifying-responsible-data-center-development-framework"
+ },
+ "notes": "Governor also stated support for repealing the 2020 data center sales and use tax exemption in the next session (stated position, not an instrument). Release contains partisan framing; not recorded. Charles County remains a firewall exclusion; the state task force is a separate body.  Order number 01.01.2026.16 (reported). Per quotations and summaries (Maryland Matters, Maryland Bay News, Venable): covers projected or actual peak demand of 25 MW or more, including expansions adding 25 MW, and large load customers under state utility law; agencies \"shall defer substantive review until the developer documents all required local land use approvals\"; a project denied required local approval cannot be Aligned; state incentives only for Aligned or Conditionally Aligned; applications administratively complete by Sept 23 grandfathered; excludes research, clinical, higher education, health care, state agency and DoD facilities. RELAYED detail; order text not read.",
+ "confidence_note": "Press release read in full; executive order text not read.",
+ "tags": [
+  "25-mw",
+  "dashboard",
+  "disclosure",
+  "maryland"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
 }

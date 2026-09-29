@@ -1,0 +1,27 @@
+{
+ "id": "ar-mmsc-washington-county-quasi-judicial",
+ "jurisdiction": "us-ar-state",
+ "instrument": "MMSC, LLC v. Washington County (Ark. Sup. Ct., March 2026)",
+ "mechanism": "litigation",
+ "status": "adopted",
+ "effective": "",
+ "summary": "Arkansas Supreme Court held that deciding an individual conditional-use application by applying existing standards to facts is a quasi-judicial act, not a legislative one, with procedural consequences for county data center permitting.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "As described in the Pulaski County veto letter, Sept 25, 2026",
+  "url": "https://katv.com/resources/pdf/689eb2ac-697b-43ce-8fca-28531196c097-1783_001.pdf"
+ },
+ "notes": "",
+ "confidence_note": "Opinion not read; described in a primary document.",
+ "tags": [
+  "quasi-judicial",
+  "conditional-use"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

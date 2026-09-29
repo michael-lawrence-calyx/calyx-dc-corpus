@@ -1,0 +1,28 @@
+{
+ "id": "ny-s10642-responsible-data-center-development-act",
+ "jurisdiction": "us-ny-state",
+ "instrument": "Responsible Data Center Development Act, S10642/A11560 (passed June 4, 2026)",
+ "mechanism": "use-permission",
+ "status": "proposed",
+ "effective": "",
+ "summary": "Passed the Senate 44-16 and Assembly 102-39 on June 4, 2026: a one-year moratorium on DEC permits for large data centers of 20 MW or more peak demand, with a 1 MW definition of data center and energy-law obligations from 5 MW. Not signed; on July 14 the Governor instead issued Executive Order 62 (50 MW), her office describing the bill as needing more work.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "DLA Piper (July 1), Harris Beach (July 18), Greenberg Traurig (June 12), NBC News (July 14), Governor's release (July 14)"
+ },
+ "notes": "Delivery status to the Governor not confirmed; check nysenate.gov.",
+ "confidence_note": "Bill text not read. Status after July not confirmed.",
+ "tags": [
+  "20-mw",
+  "1-mw",
+  "5-mw",
+  "not-signed"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

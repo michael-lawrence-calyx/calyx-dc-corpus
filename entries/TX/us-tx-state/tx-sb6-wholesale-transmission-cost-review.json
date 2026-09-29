@@ -1,0 +1,33 @@
+{
+ "id": "tx-sb6-wholesale-transmission-cost-review",
+ "jurisdiction": "us-tx-state",
+ "instrument": "Texas SB 6, Section 6 (wholesale transmission cost methodology)",
+ "mechanism": "rate-allocation",
+ "status": "adopted",
+ "effective": "2025-06-20",
+ "summary": "The PUC must evaluate whether the four-coincident-peak methodology and retail ratemaking appropriately assign transmission costs, and must amend its rules by December 31, 2026 so wholesale transmission charges appropriately assign costs for transmission investment.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "Texas SB 6 (89th Leg., enrolled; effective June 20, 2025), LegiScan mirror",
+  "url": "https://legiscan.com/TX/text/SB6/id/3248460"
+ },
+ "notes": "",
+ "confidence_note": "",
+ "tags": [
+  "4cp",
+  "transmission-cost"
+ ],
+ "section": "SB 6 Sec. 6",
+ "text": "",
+ "next": {
+  "date": "2026-12-31",
+  "event": "Texas PUC deadline to amend wholesale transmission cost rules (SB 6 Sec. 6)",
+  "url": "https://legiscan.com/TX/text/SB6/id/3248460",
+  "basis": "document"
+ },
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-28",
- "count": 304,
+ "generated": "2026-09-29",
+ "count": 328,
  "states": [
   "AK",
   "AR",
@@ -65,6 +65,7 @@
   "City of Fort Wayne",
   "City of Galesburg",
   "City of Hayward",
+  "City of Inver Grove Heights",
   "City of Kalamazoo",
   "City of Kirksville",
   "City of North Port",
@@ -105,6 +106,7 @@
   "Greenwood County",
   "Hawaii",
   "Hawaii County",
+  "Hill County",
   "Hillsboro",
   "Hood County",
   "Imperial County",
@@ -157,10 +159,13 @@
   "Spartanburg County",
   "Spokane County",
   "State of Arizona",
+  "State of Arkansas",
   "State of California",
   "State of Maryland",
   "State of Michigan",
+  "State of Minnesota",
   "State of New Hampshire",
+  "State of New Mexico",
   "State of Ohio",
   "State of Oklahoma",
   "State of Oregon",
@@ -176,6 +181,7 @@
   "Tucson",
   "Tulare County",
   "United States (federal)",
+  "Vilas County",
   "Wakulla County",
   "Walla Walla County",
   "Warren County",
@@ -208,8 +214,8 @@
  "by_origin": {
   "ASSERTED": 1,
   "DERIVED": 1,
-  "OBSERVED": 95,
-  "RELAYED": 207
+  "OBSERVED": 113,
+  "RELAYED": 213
  },
  "upcoming": [
   {
@@ -223,12 +229,30 @@
   },
   {
    "date": "2026-10-06",
-   "event": "Oakland full council vote on 45-day moratorium",
-   "url": "https://www.nbcbayarea.com/news/local/oakland-data-center-moratorium-vote/4147127/",
-   "basis": "reported",
+   "event": "Oakland City Council, File 27-0050: urgency interim ordinance (Gov. Code 65858) moratorium on data center entitlements",
+   "url": "https://oakland.legistar.com/LegislationDetail.aspx?GUID=4775CA8D-0CB2-4BC8-BC13-DCCDA9352E08&ID=8203751",
+   "basis": "document",
    "id": "ca-oakland-moratorium-proposal",
    "state": "CA",
    "jurisdiction_name": "City of Oakland"
+  },
+  {
+   "date": "2026-10-06",
+   "event": "Mendocino County hearing on extending the 45-day urgency moratorium (can extend up to two years)",
+   "url": "https://mendovoice.com/2026/09/mendocino-county-supes-ban-data-centers-for-the-moment-at-least/",
+   "basis": "reported",
+   "id": "ca-mendocino-county-urgency-moratorium",
+   "state": "CA",
+   "jurisdiction_name": "Mendocino County"
+  },
+  {
+   "date": "2026-10-06",
+   "event": "Raleigh City Council possible vote on six-month data center moratorium",
+   "url": "https://www.axios.com/local/raleigh/2026/09/16/raleigh-is-considering-a-six-month-moratorium-on-data-centers",
+   "basis": "reported",
+   "id": "nc-raleigh-10000-sqft-threshold",
+   "state": "NC",
+   "jurisdiction_name": "Raleigh"
   },
   {
    "date": "2026-10-13",
@@ -238,6 +262,15 @@
    "id": "in-fort-wayne-moratorium-held",
    "state": "IN",
    "jurisdiction_name": "City of Fort Wayne"
+  },
+  {
+   "date": "2026-10-19",
+   "event": "TCEQ report to the Governor on compliance with the data center permit pause",
+   "url": "https://gov.texas.gov/uploads/files/press/TCEQ_Data_Center.pdf",
+   "basis": "document",
+   "id": "tx-governor-sep21-tceq-permit-halt",
+   "state": "TX",
+   "jurisdiction_name": "State of Texas"
   },
   {
    "date": "2026-10-20",
@@ -319,6 +352,51 @@
    "id": "ma-eo-658-municipal-guide",
    "state": "MA",
    "jurisdiction_name": "Commonwealth of Massachusetts"
+  },
+  {
+   "date": "2026-12-31",
+   "event": "Texas PUC deadline to amend wholesale transmission cost rules (SB 6 Sec. 6)",
+   "url": "https://legiscan.com/TX/text/SB6/id/3248460",
+   "basis": "document",
+   "id": "tx-sb6-wholesale-transmission-cost-review",
+   "state": "TX",
+   "jurisdiction_name": "State of Texas"
+  },
+  {
+   "date": "2027-01-19",
+   "event": "Salem data center moratorium expires",
+   "url": "https://www.salemreporter.com/2026/09/21/salem-city-council-to-hold-public-hearing-on-data-center-moratorium-tonight-at-6-p-m/",
+   "basis": "reported",
+   "id": "or-salem-data-center-moratorium",
+   "state": "OR",
+   "jurisdiction_name": "City of Salem"
+  },
+  {
+   "date": "2027-02-01",
+   "event": "Green Chile pipeline revised in-service date (Project Jupiter)",
+   "url": "https://elpasomatters.org/2026/09/24/project-jupiter-rent-force-majeure-new-mexico-oracle-ai-el-paso-data-center/",
+   "basis": "reported",
+   "id": "nm-slo-green-chile-row-denials",
+   "state": "NM",
+   "jurisdiction_name": "State of New Mexico"
+  },
+  {
+   "date": "2028-01-01",
+   "event": "California CCAs and electric service providers must adopt data center generation tariffs (AB 2383)",
+   "url": "https://legiscan.com/CA/text/AB2383/id/3459555",
+   "basis": "document",
+   "id": "ca-ab2383-clean-energy-procurement",
+   "state": "CA",
+   "jurisdiction_name": "State of California"
+  },
+  {
+   "date": "2028-01-01",
+   "event": "California data center water scarcity plan requirement begins (AB 2469)",
+   "url": "https://legiscan.com/CA/text/AB2469/id/3459423",
+   "basis": "document",
+   "id": "ca-ab2469-water-disclosure-local-approval",
+   "state": "CA",
+   "jurisdiction_name": "State of California"
   }
  ],
  "entries": [
@@ -424,7 +502,7 @@
     "kind": "secondary",
     "citation": "Arkansas Democrat-Gazette, Arkansas Times, KATV, FOX16 (Sept 25-26, 2026)"
    },
-   "notes": "CONFLICT: ordinance number reported as 26-I-56B, 25-OR-19 and 26-OR-19; AVAIO size reported as 150 MW initial vs more than 1 GW at build-out. Status 'proposed' used for a vetoed ordinance pending override. Forward calendar: Oct 27.",
+   "notes": "CONFLICT: ordinance number reported as 26-I-56B, 25-OR-19 and 26-OR-19; AVAIO size reported as 150 MW initial vs more than 1 GW at build-out. Status 'proposed' used for a vetoed ordinance pending override. Forward calendar: Oct 27.  Ordinance numbers SETTLED by the veto letter: the letter uses both 26-OR-19 (subject line, closing) and 26-I-56B (first paragraph). \"25-OR-19\" in KATV coverage is an error.",
    "confidence_note": "Ordinance and veto letter not read; confirm number with the county clerk.",
    "tags": [
     "veto",
@@ -432,7 +510,7 @@
    ],
    "section": "",
    "text": "",
-   "retrieved": "2026-09-27",
+   "retrieved": "2026-09-29",
    "operator": "MLawrence",
    "next": {
     "date": "2026-10-27",
@@ -471,6 +549,67 @@
    "state": "AR",
    "jurisdiction_name": "Pulaski County",
    "_path": "entries/AR/us-ar-pulaski-county/ar-pulaski-county-moratorium-may-2026.json"
+  },
+  {
+   "id": "ar-pulaski-county-veto-letter",
+   "jurisdiction": "us-ar-pulaski-county",
+   "instrument": "County Judge Barry Hyde veto letter, Ordinance No. 26-OR-19 / 26-I-56B (Sept 25, 2026)",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-09-25",
+   "summary": "Vetoes the data center ordinance under Amendment 55 and Ark. Code 14-14-911, citing: (1) vested-rights exposure under Article 17 for projects lacking Final County Approvals (Blundell v. City of West Helena; Potter v. City of Tontitown) and limits on local authority under Ark. Code 23-119-105(f) and AG Op. 2023-060; (2) Article 9 appeals conflicting with Ark. Code 14-17-203(g) and MMSC, LLC v. Washington County (2026); (3) an unfunded administrative program whose monitoring fee requires a separate fee ordinance; (4) forgone tax base; (5) litigation and immunity risk (RCM Hill, LLC v. Hill County, Texas).",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Letter to Pulaski County Clerk Terri Hollingsworth, filed Sept 25, 2026 16:30, 6 pp.",
+    "url": "https://katv.com/resources/pdf/689eb2ac-697b-43ce-8fca-28531196c097-1783_001.pdf"
+   },
+   "notes": "Reporting that the Quorum Court bypassed the planning commission (THV11) is not supported by the letter. Override date not stated in the letter.",
+   "confidence_note": "",
+   "tags": [
+    "veto",
+    "vested-rights",
+    "quasi-judicial"
+   ],
+   "section": "",
+   "text": "For these reasons, I veto Ordinance No. 26-OR-19.",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "AR",
+   "jurisdiction_name": "Pulaski County",
+   "_path": "entries/AR/us-ar-pulaski-county/ar-pulaski-county-veto-letter.json"
+  },
+  {
+   "id": "ar-mmsc-washington-county-quasi-judicial",
+   "jurisdiction": "us-ar-state",
+   "instrument": "MMSC, LLC v. Washington County (Ark. Sup. Ct., March 2026)",
+   "mechanism": "litigation",
+   "status": "adopted",
+   "effective": "",
+   "summary": "Arkansas Supreme Court held that deciding an individual conditional-use application by applying existing standards to facts is a quasi-judicial act, not a legislative one, with procedural consequences for county data center permitting.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "As described in the Pulaski County veto letter, Sept 25, 2026",
+    "url": "https://katv.com/resources/pdf/689eb2ac-697b-43ce-8fca-28531196c097-1783_001.pdf"
+   },
+   "notes": "",
+   "confidence_note": "Opinion not read; described in a primary document.",
+   "tags": [
+    "quasi-judicial",
+    "conditional-use"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "AR",
+   "jurisdiction_name": "State of Arkansas",
+   "_path": "entries/AR/us-ar-state/ar-mmsc-washington-county-quasi-judicial.json"
   },
   {
    "id": "az-chandler-5033-accessory",
@@ -1348,6 +1487,36 @@
    "_path": "entries/AZ/us-az-phoenix/az-phoenix-zta-willserve.json"
   },
   {
+   "id": "az-pima-county-moratorium-goldwater-challenge",
+   "jurisdiction": "us-az-pima-county",
+   "instrument": "Goldwater Institute position that the Pima County data center moratorium is unlawful",
+   "mechanism": "litigation",
+   "status": "proposed",
+   "effective": "",
+   "summary": "The Goldwater Institute says Pima County's 120-day data center moratorium violates two state laws, including a voter-approved initiative, because the county cannot show data centers are an imminent threat. No lawsuit is reported as filed.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "KJZZ, Sept 29, 2026",
+    "url": "https://www.kjzz.org/fronteras-desk/2026-09-29/goldwater-institute-says-pima-county-data-center-moratorium-is-illegal-facilities-arent-a-threat"
+   },
+   "notes": "The moratorium passed 3-2 on Sept 22, 2026 and runs 120 days to January. It applies to new data centers where site improvement permits have not been submitted; Project Blue is already under construction, and the effect on Project Gravel is disputed because its land is zoned industrial (AZPM).",
+   "confidence_note": "A position, not a filing. The statutes cited are not named in the source seen.",
+   "tags": [
+    "legal-challenge",
+    "imminent-threat"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "AZ",
+   "jurisdiction_name": "Pima County",
+   "_path": "entries/AZ/us-az-pima-county/az-pima-county-moratorium-goldwater-challenge.json"
+  },
+  {
    "operator": "MLawrence",
    "section": "",
    "text": "",
@@ -1704,8 +1873,14 @@
    ],
    "section": "",
    "text": "",
-   "retrieved": "2026-09-24",
+   "retrieved": "2026-09-29",
    "operator": "MLawrence",
+   "next": {
+    "date": "2026-10-06",
+    "event": "Mendocino County hearing on extending the 45-day urgency moratorium (can extend up to two years)",
+    "url": "https://mendovoice.com/2026/09/mendocino-county-supes-ban-data-centers-for-the-moment-at-least/",
+    "basis": "reported"
+   },
    "state": "CA",
    "jurisdiction_name": "Mendocino County",
    "_path": "entries/CA/us-ca-mendocino-county/ca-mendocino-county-urgency-moratorium.json"
@@ -1725,7 +1900,7 @@
     "kind": "secondary",
     "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (NBC Bay Area)"
    },
-   "notes": "",
+   "notes": "City file 27-0050 on the Oct 6 agenda; covers approval of land use entitlements or agreements for development or operation of data centers; amendment packages from Councilmember Wang (D2) and supplemental legislation dated Sept 24 attached.",
    "confidence_note": "Primary instrument not read.",
    "tags": [
     "moratorium",
@@ -1733,13 +1908,13 @@
    ],
    "section": "",
    "text": "",
-   "retrieved": "2026-09-28",
+   "retrieved": "2026-09-29",
    "operator": "MLawrence",
    "next": {
     "date": "2026-10-06",
-    "event": "Oakland full council vote on 45-day moratorium",
-    "url": "https://www.nbcbayarea.com/news/local/oakland-data-center-moratorium-vote/4147127/",
-    "basis": "reported"
+    "event": "Oakland City Council, File 27-0050: urgency interim ordinance (Gov. Code 65858) moratorium on data center entitlements",
+    "url": "https://oakland.legistar.com/LegislationDetail.aspx?GUID=4775CA8D-0CB2-4BC8-BC13-DCCDA9352E08&ID=8203751",
+    "basis": "document"
    },
    "state": "CA",
    "jurisdiction_name": "City of Oakland",
@@ -1881,7 +2056,7 @@
     "kind": "secondary",
     "citation": "Governor's office release Sept 22, 2026; CalMatters, KQED, NatLawReview (Sept 22-24, 2026)"
    },
-   "notes": "",
+   "notes": "Threshold UNRESOLVED: drafts used 10 kW plus 20 W per sq ft (March committee analysis), 500 kW installed capacity, and 10 MW (later summary). Do not cite any threshold until the chaptered text is read.",
    "confidence_note": "Primary instrument not read.",
    "tags": [
     "california",
@@ -1889,7 +2064,7 @@
    ],
    "section": "",
    "text": "",
-   "retrieved": "2026-09-27",
+   "retrieved": "2026-09-29",
    "operator": "MLawrence",
    "state": "CA",
    "jurisdiction_name": "State of California",
@@ -1902,23 +2077,30 @@
    "mechanism": "rate-allocation",
    "status": "adopted",
    "effective": "2026-09-21",
-   "summary": "Requires data centers to meet clean-energy procurement rules and pay incremental generation costs for at least 10 years.",
-   "origin": "RELAYED",
-   "entry_state": "NOT_CHECKED",
-   "freshness": "LIVE",
+   "summary": "Requires each electrical corporation to file transmission-and-distribution and generation service tariffs for data centers. The generation tariff must make data centers pay incremental generation cost increases for at least 10 years, with non-completion and early termination fees, upfront collateral or prepayment, and a minimum payment based on projected load. The CPUC sets the minimum peak demand threshold, which may not exceed 25 MW; CCAs and electric service providers must adopt parallel tariffs by January 1, 2028 under the same 25 MW cap.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
    "source": {
-    "kind": "secondary",
-    "citation": "Governor's office release Sept 22, 2026; CalMatters, KQED, NatLawReview (Sept 22-24, 2026)"
+    "kind": "primary",
+    "citation": "AB 2383, Chapter 435, Statutes of 2026 (chaptered text, LegiScan mirror)",
+    "url": "https://legiscan.com/CA/text/AB2383/id/3459555"
    },
-   "notes": "",
-   "confidence_note": "Primary instrument not read.",
+   "notes": "Exempts publicly funded research, public safety, publicly funded national security, publicly owned and utility facilities from the generation tariff.",
+   "confidence_note": "Read in the chaptered text reproduced by LegiScan.",
    "tags": [
     "california"
    ],
-   "section": "",
-   "text": "",
-   "retrieved": "2026-09-27",
+   "section": "Pub. Util. Code 945.1, 945.4, 945.5, 945.6",
+   "text": "The commission may not set a minimum peak electricity demand threshold that exceeds 25 megawatts.",
+   "retrieved": "2026-09-29",
    "operator": "MLawrence",
+   "next": {
+    "date": "2028-01-01",
+    "event": "California CCAs and electric service providers must adopt data center generation tariffs (AB 2383)",
+    "url": "https://legiscan.com/CA/text/AB2383/id/3459555",
+    "basis": "document"
+   },
    "state": "CA",
    "jurisdiction_name": "State of California",
    "_path": "entries/CA/us-ca-state/ca-ab2383-clean-energy-procurement.json"
@@ -1930,25 +2112,32 @@
    "mechanism": "water",
    "status": "adopted",
    "effective": "2026-09-21",
-   "summary": "Requires developers to disclose projected water demand, water supply and efficiency measures as a condition of local approval.",
-   "origin": "RELAYED",
-   "entry_state": "NOT_CHECKED",
-   "freshness": "LIVE",
+   "summary": "Bars a city or county from approving any discretionary or ministerial permit or entitlement for construction of a data center, or an expansion increasing maximum peak water use, unless the applicant provides a water supply assessment, a drought-stage water scarcity plan (from January 1, 2028), projected water use and efficiency measures, and workforce disclosures, and assumes the full cost of required water infrastructure. Satisfying the conditions does not require approval. Applies to charter cities.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
    "source": {
-    "kind": "secondary",
-    "citation": "Governor's office release Sept 22, 2026; CalMatters, KQED, NatLawReview (Sept 22-24, 2026)"
+    "kind": "primary",
+    "citation": "AB 2469, Chapter 436, Statutes of 2026 (chaptered text, LegiScan mirror)",
+    "url": "https://legiscan.com/CA/text/AB2469/id/3459423"
    },
-   "notes": "",
-   "confidence_note": "Primary instrument not read.",
+   "notes": "Workforce disclosures: composition, job classifications, duration, wage ranges and benefits, share residing in county and in state.",
+   "confidence_note": "Read in the chaptered text reproduced by LegiScan.",
    "tags": [
     "california",
     "water",
     "disclosure"
    ],
-   "section": "",
-   "text": "",
-   "retrieved": "2026-09-27",
+   "section": "Gov. Code 65964.7",
+   "text": "a city, county, or city and county shall not approve a discretionary or ministerial permit or other entitlement that would result in the construction, or expansion that increases the maximum peak water use, of a data center unless all of the following conditions are satisfied",
+   "retrieved": "2026-09-29",
    "operator": "MLawrence",
+   "next": {
+    "date": "2028-01-01",
+    "event": "California data center water scarcity plan requirement begins (AB 2469)",
+    "url": "https://legiscan.com/CA/text/AB2469/id/3459423",
+    "basis": "document"
+   },
    "state": "CA",
    "jurisdiction_name": "State of California",
    "_path": "entries/CA/us-ca-state/ca-ab2469-water-disclosure-local-approval.json"
@@ -1960,23 +2149,24 @@
    "mechanism": "water",
    "status": "adopted",
    "effective": "2026-09-21",
-   "summary": "Requires annual water-use reporting by data centers.",
-   "origin": "RELAYED",
-   "entry_state": "NOT_CHECKED",
-   "freshness": "LIVE",
+   "summary": "Before applying for an initial city or county business license or permit, a data center owner or operator must give its water supplier, under penalty of perjury, a good-faith estimate of expected water use, source, and maximum-day, maximum-month and average-year volumes, and report it on the application; at each renewal it must report the prior year's total and direct water use and cooling system type. Urban water suppliers must include data center demand in annual supply and demand assessments. Defines data center tiers: Type I (hyperscale) more than 10,000 servers or more than 25 MW; Type II 2 to 25 MW; Type III under 2 MW.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
    "source": {
-    "kind": "secondary",
-    "citation": "Governor's office release Sept 22, 2026; CalMatters, KQED, NatLawReview (Sept 22-24, 2026)"
+    "kind": "primary",
+    "citation": "AB 2619, Chapter 437, Statutes of 2026 (chaptered text, LegiScan mirror)",
+    "url": "https://legiscan.com/CA/text/AB2619/id/3459543"
    },
-   "notes": "",
-   "confidence_note": "Primary instrument not read.",
+   "notes": "The reporting duties apply to all data centers; the enacted text defines the tiers but no operative provision shown keys off them.",
+   "confidence_note": "Read in the chaptered text reproduced by LegiScan.",
    "tags": [
     "california",
     "water"
    ],
-   "section": "",
-   "text": "",
-   "retrieved": "2026-09-27",
+   "section": "Bus. & Prof. Code 16000.4, 16100.4; Water Code 10632",
+   "text": "\"Type I data center,\" also commonly known as a \"hyperscale data center,\" means a data center with more than 10,000 servers or a power consumption of more than 25 megawatts.",
+   "retrieved": "2026-09-29",
    "operator": "MLawrence",
    "state": "CA",
    "jurisdiction_name": "State of California",
@@ -2018,22 +2208,23 @@
    "mechanism": "rate-allocation",
    "status": "adopted",
    "effective": "2026-09-21",
-   "summary": "Addresses rate structures and fair-share allocation of transmission costs for data centers.",
-   "origin": "RELAYED",
-   "entry_state": "NOT_CHECKED",
-   "freshness": "LIVE",
+   "summary": "Directs the CPUC, in a new or existing proceeding, to assess opportunities for rate structures that ensure data centers pay a reasonable share of transmission and distribution costs regardless of interconnection level, pay a proportionate share of load increases and procurement consistent with integrated resource planning, and alleviate cost pressure on residential ratepayers including CARE and FERA customers. No deadline, threshold or surcharge.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
    "source": {
-    "kind": "secondary",
-    "citation": "Governor's office release Sept 22, 2026; CalMatters, KQED, NatLawReview (Sept 22-24, 2026)"
+    "kind": "primary",
+    "citation": "SB 1168, Chapter 440, Statutes of 2026 (chaptered text, LegiScan mirror)",
+    "url": "https://legiscan.com/CA/text/SB1168/id/3459554"
    },
-   "notes": "CORRECTION: status proposed -> adopted.",
-   "confidence_note": "Primary instrument not read.",
+   "notes": "CORRECTION: status proposed -> adopted. CORRECTION: previous summary read as a binding allocation. Drafting history: introduced as a data center gas and electricity surcharge law; amended in April 2026 to an assessment directive.",
+   "confidence_note": "Read in the chaptered text reproduced by LegiScan.",
    "tags": [
     "california"
    ],
-   "section": "",
-   "text": "",
-   "retrieved": "2026-09-27",
+   "section": "Pub. Util. Code 901",
+   "text": "the commission shall assess opportunities for rate structures to do all of the following",
+   "retrieved": "2026-09-29",
    "operator": "MLawrence",
    "state": "CA",
    "jurisdiction_name": "State of California",
@@ -2046,23 +2237,24 @@
    "mechanism": "rate-allocation",
    "status": "adopted",
    "effective": "2026-09-21",
-   "summary": "Requires the CPUC to adopt data center tariffs by Jan 1, 2028 that assign transmission upgrade costs to data centers, with a 10-year early termination fee; applies to new interconnection agreements from Jan 1, 2027.",
-   "origin": "RELAYED",
-   "entry_state": "NOT_CHECKED",
-   "freshness": "LIVE",
+   "summary": "Requires the CPUC, by January 1, 2028, to establish new tariffs or update electric rules for interconnection and retail, transmission, distribution and generation service to participating customers, including a transmission-level interconnection tariff that assigns transmission upgrade costs to the data center, requires disclosure of duplicate applications, caps refunds at 75% of annual net transmission revenue, and imposes a 10-year early termination fee. Applies to data centers entering a new transmission-level interconnection agreement on or after January 1, 2027.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
    "source": {
-    "kind": "secondary",
-    "citation": "Governor's office release Sept 22, 2026; CalMatters, KQED, NatLawReview (Sept 22-24, 2026)"
+    "kind": "primary",
+    "citation": "SB 886, Chapter 438, Statutes of 2026 (chaptered text, LegiScan mirror)",
+    "url": "https://legiscan.com/CA/text/SB886/id/3459497"
    },
-   "notes": "CORRECTION: status proposed -> adopted. Signed with six companion bills on Sept 21; earlier calendar item 'Sept 30 Newsom deadline' retired.",
-   "confidence_note": "Primary instrument not read.",
+   "notes": "CORRECTION: status proposed -> adopted. Signed with six companion bills on Sept 21; earlier calendar item 'Sept 30 Newsom deadline' retired. No megawatt threshold in the enacted text. Drafting history: introduced/March drafts defined a large load customer at 75 MW peak demand; a later draft substituted 25 MW; the chaptered text drops both. Trade reporting citing 75 MW reflects the drafts.",
+   "confidence_note": "Read in the chaptered text reproduced by LegiScan; leginfo blocks automated access.",
    "tags": [
     "california",
     "rate-class"
    ],
-   "section": "",
-   "text": "",
-   "retrieved": "2026-09-27",
+   "section": "Pub. Util. Code 945.2, 945.3, 945.9",
+   "text": "This section shall only apply to a data center that enters into a new interconnection agreement to receive retail electric service at the transmission level on or after January 1, 2027.",
+   "retrieved": "2026-09-29",
    "operator": "MLawrence",
    "state": "CA",
    "jurisdiction_name": "State of California",
@@ -2075,23 +2267,24 @@
    "mechanism": "process",
    "status": "adopted",
    "effective": "2026-09-21",
-   "summary": "Bars blanket CEQA exemptions for data centers; provides a fast track for facilities meeting state water and energy standards.",
-   "origin": "RELAYED",
-   "entry_state": "NOT_CHECKED",
-   "freshness": "LIVE",
+   "summary": "Applies CEQA, notwithstanding any other law, to the issuance of entitlements related to the development and operation of a data center, and bars categorical exemptions for data center projects (with carve-outs for public, utility, telecom and university research facilities). Adds data centers meeting eleven conditions, including 4-hour zero-carbon storage at 100% of forecasted peak and 100% zero-carbon hourly supply within five years (75% new), to the environmental leadership fast track.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
    "source": {
-    "kind": "secondary",
-    "citation": "Governor's office release Sept 22, 2026; CalMatters, KQED, NatLawReview (Sept 22-24, 2026)"
+    "kind": "primary",
+    "citation": "SB 887, Chapter 439, Statutes of 2026 (chaptered text, LegiScan mirror)",
+    "url": "https://legiscan.com/CA/text/SB887/id/3459438"
    },
-   "notes": "CORRECTION: status proposed -> adopted.",
-   "confidence_note": "Primary instrument not read.",
+   "notes": "CORRECTION: status proposed -> adopted. CORRECTION: previous summary said it bars \"blanket\" CEQA exemptions, understating 21080.08. No size threshold: data center defined by function. Whether 21080.08 reaches otherwise ministerial approvals is a legal question not resolved here.",
+   "confidence_note": "Read in the chaptered text reproduced by LegiScan. Interpretation of 21080.08 scope not asserted.",
    "tags": [
     "california",
     "ceqa"
    ],
-   "section": "",
-   "text": "",
-   "retrieved": "2026-09-27",
+   "section": "Pub. Res. Code 21061.6, 21080.08, 21084(f), 21180(b)(5)",
+   "text": "Notwithstanding any other law, this division shall apply to the issuance of entitlements related to the development and operation of a data center.",
+   "retrieved": "2026-09-29",
    "operator": "MLawrence",
    "state": "CA",
    "jurisdiction_name": "State of California",
@@ -2104,26 +2297,55 @@
    "mechanism": "use-permission",
    "status": "adopted",
    "effective": "",
-   "summary": "Extended the moratorium 10 months in unincorporated areas.",
+   "summary": "Supervisors unanimously extended the moratorium on new data centers in unincorporated areas by 10 months and 15 days.",
    "origin": "RELAYED",
    "entry_state": "NOT_CHECKED",
    "freshness": "LIVE",
    "source": {
     "kind": "secondary",
-    "citation": "Local reporting, Sept 2026"
+    "citation": "Strisker Data Centers Daily Notes, Sept 28, 2026 (digest)"
    },
-   "notes": "",
+   "notes": "Earlier version said 10 months. Same meeting: separate 3-2 vote on a formal position opposing most data center development in the county (see ca-tulare-county-opposition-position).",
    "confidence_note": "Primary instrument not read.",
    "tags": [
     "moratorium"
    ],
    "section": "",
    "text": "",
-   "retrieved": "2026-09-27",
+   "retrieved": "2026-09-29",
    "operator": "MLawrence",
    "state": "CA",
    "jurisdiction_name": "Tulare County",
    "_path": "entries/CA/us-ca-tulare-county/ca-tulare-county-extension.json"
+  },
+  {
+   "id": "ca-tulare-county-opposition-position",
+   "jurisdiction": "us-ca-tulare-county",
+   "instrument": "Tulare County Board of Supervisors formal position on data center development",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "",
+   "summary": "Supervisors voted 3-2 to adopt a formal position opposing most data center development within county boundaries, including in areas outside the county's land-use jurisdiction.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Daily Notes, Sept 28, 2026 (digest)"
+   },
+   "notes": "",
+   "confidence_note": "Resolution not read. A position on areas outside county jurisdiction (cities) is not itself a land-use control there.",
+   "tags": [
+    "position",
+    "non-binding"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "CA",
+   "jurisdiction_name": "Tulare County",
+   "_path": "entries/CA/us-ca-tulare-county/ca-tulare-county-opposition-position.json"
   },
   {
    "operator": "MLawrence",
@@ -2685,10 +2907,99 @@
    "_path": "entries/IL/us-il-champaign-county/il-champaign-county-moratorium-196-at-26.json"
   },
   {
+   "id": "il-chicago-conway-ordinance",
+   "jurisdiction": "us-il-chicago",
+   "instrument": "Ald. Conway (34th) data center regulation ordinance",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Introduced Sept 23, 2026: adds regulations for data centers and bans them in some districts, without a citywide moratorium.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Block Club Chicago, Sept 23, 2026"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "zoning",
+    "alternative"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "IL",
+   "jurisdiction_name": "City of Chicago",
+   "_path": "entries/IL/us-il-chicago/il-chicago-conway-ordinance.json"
+  },
+  {
+   "id": "il-chicago-eo-data-center-review",
+   "jurisdiction": "us-il-chicago",
+   "instrument": "Mayor's Executive Order on enhanced regulatory review for data centers (Aug 2026)",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "",
+   "summary": "Establishes enhanced standards and departmental enforcement for data center review and a Data Centers Task Force; its interim review provisions give way once the Council enacts a moratorium.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "City of Chicago press release, Aug 11, 2026 (search excerpt)",
+    "url": "https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2026/august/data-center-order.html"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "executive-order",
+    "task-force"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "IL",
+   "jurisdiction_name": "City of Chicago",
+   "_path": "entries/IL/us-il-chicago/il-chicago-eo-data-center-review.json"
+  },
+  {
+   "id": "il-chicago-existing-dc-disclosure",
+   "jurisdiction": "us-il-chicago",
+   "instrument": "Ordinance requiring existing data centers to disclose energy and water use",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "",
+   "summary": "City Council passed a measure on Sept 23, 2026 requiring the 39 data centers operating in Chicago to disclose energy and water consumption to the city.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Tech Times, Sept 24, 2026; Chicago Tribune"
+   },
+   "notes": "",
+   "confidence_note": "Ordinance not read; single detailed source for passage.",
+   "tags": [
+    "disclosure",
+    "energy",
+    "water"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "IL",
+   "jurisdiction_name": "City of Chicago",
+   "_path": "entries/IL/us-il-chicago/il-chicago-existing-dc-disclosure.json"
+  },
+  {
    "operator": "MLawrence",
    "section": "",
    "text": "",
-   "retrieved": "2026-09-23",
+   "retrieved": "2026-09-29",
    "id": "il-chicago-moratorium-proposal",
    "jurisdiction": "us-il-chicago",
    "instrument": "Mayoral proposal for a citywide data center moratorium",
@@ -2696,12 +3007,12 @@
    "status": "proposed",
    "effective": "",
    "freshness": "LIVE",
-   "summary": "The mayor proposed a one-year citywide moratorium on data centers, framed as time to develop policy on pollution, water use and electricity costs. The proposal is before the City Council.",
+   "summary": "Ordinance introduced Sept 23, 2026 by Mayor Johnson and Ald. Robinson (4th), co-sponsored by Ald. Hadden (49th) and Manaa-Hoppenworth (48th), to pause new data centers and the material expansion of existing ones for 12 months while the Data Centers Task Force develops regulations. Not yet adopted.",
    "notes": "Proposed September 23, 2026.",
    "confidence_note": "Relayed; no ordinance text read and no council action taken.",
    "source": {
     "kind": "secondary",
-    "citation": "Chicago reporting, September 23 2026"
+    "citation": "City of Chicago press release (search excerpt; site blocks automated reading); Block Club Chicago and Chicago Tribune, Sept 23-24, 2026"
    },
    "tags": [
     "proposed",
@@ -3143,24 +3454,25 @@
    "mechanism": "rate-allocation",
    "status": "adopted",
    "effective": "2025-11-06",
-   "summary": "Applies to new load or growth above 75 MW peak: minimum 12-year term plus optional 5-year ramp, auto-extends 5 years, minimum bill of 80% of contract demand, collateral covering two years of minimum bills, 36-month exit notice.",
-   "origin": "RELAYED",
-   "entry_state": "NOT_CHECKED",
+   "summary": "KCC approved a unanimous settlement creating Evergy's Large Load Power Service rate plan for any new facility with a peak load forecast of 75 MW or more, or an existing customer expanding by 75 MW: minimum 12-year term plus optional ramp of up to 5 years, minimum monthly bill of 80% of contract demand, collateral of two years of minimum bills, exit fee equal to all remaining minimum bills, and direct assignment of upgrades serving only the customer.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
    "freshness": "FIXED",
    "source": {
-    "kind": "secondary",
-    "citation": "KCC news release; KCC Senate Utilities update Jan 15, 2026; Kansas Reflector"
+    "kind": "primary",
+    "citation": "Kansas Corporation Commission news release, Nov 6, 2025 (Docket 25-EKME-315-TAR)",
+    "url": "https://www.kcc.ks.gov/news-11-6-25"
    },
-   "notes": "CONFLICT: De Soto city FAQ describes the threshold as >100 MW expected and at least 75 MW in any month; KCC materials say >75 MW peak. Compare FERC ComEd $1 letter-of-credit dispute.",
-   "confidence_note": "KCC order not read.",
+   "notes": "CONFLICT: De Soto city FAQ describes the threshold as >100 MW expected and at least 75 MW in any month; KCC materials say >75 MW peak. Compare FERC ComEd $1 letter-of-credit dispute. CONFLICT RESOLVED: the De Soto FAQ's \">100 MW\" reflects Evergy's original proposal, lowered to 75 MW in settlement (Kansas Reflector, citing Sierra Club). The release's lead says \"greater than 75 megawatts\"; the operative sentence says \"75 MW or more\".",
+   "confidence_note": "Read on the regulator's release; order and settlement PDFs linked there not read.",
    "tags": [
     "large-load",
     "collateral",
     "minimum-bill"
    ],
    "section": "",
-   "text": "",
-   "retrieved": "2026-09-27",
+   "text": "The new LLPS rates will apply to any new facility beginning service with a peak load forecast at 75 megawatts (75 MW) or more, or an existing customer expecting to expand by 75 MW.",
+   "retrieved": "2026-09-29",
    "operator": "MLawrence",
    "state": "KS",
    "jurisdiction_name": "Kansas",
@@ -3524,7 +3836,7 @@
     "citation": "Governor of Maryland press release, Sept 23, 2026",
     "url": "https://governor.maryland.gov/news/press-releases/governor-moore-signs-executive-order-codifying-responsible-data-center-development-framework"
    },
-   "notes": "Governor also stated support for repealing the 2020 data center sales and use tax exemption in the next session (stated position, not an instrument). Release contains partisan framing; not recorded. Charles County remains a firewall exclusion; the state task force is a separate body.",
+   "notes": "Governor also stated support for repealing the 2020 data center sales and use tax exemption in the next session (stated position, not an instrument). Release contains partisan framing; not recorded. Charles County remains a firewall exclusion; the state task force is a separate body.  Order number 01.01.2026.16 (reported). Per quotations and summaries (Maryland Matters, Maryland Bay News, Venable): covers projected or actual peak demand of 25 MW or more, including expansions adding 25 MW, and large load customers under state utility law; agencies \"shall defer substantive review until the developer documents all required local land use approvals\"; a project denied required local approval cannot be Aligned; state incentives only for Aligned or Conditionally Aligned; applications administratively complete by Sept 23 grandfathered; excludes research, clinical, higher education, health care, state agency and DoD facilities. RELAYED detail; order text not read.",
    "confidence_note": "Press release read in full; executive order text not read.",
    "tags": [
     "25-mw",
@@ -3534,7 +3846,7 @@
    ],
    "section": "",
    "text": "",
-   "retrieved": "2026-09-27",
+   "retrieved": "2026-09-29",
    "operator": "MLawrence",
    "state": "MD",
    "jurisdiction_name": "State of Maryland",
@@ -3800,6 +4112,97 @@
    "_path": "entries/MI/us-mi-wixom/mi-wixom-ordinance-drafted-for-defensibility.json"
   },
   {
+   "id": "mn-inver-grove-heights-developer-litigation",
+   "jurisdiction": "us-mn-inver-grove-heights",
+   "instrument": "Developer litigation against the City of Inver Grove Heights over the data center moratorium",
+   "mechanism": "litigation",
+   "status": "proposed",
+   "effective": "",
+   "summary": "The developer, QLevr LLC, threatened suit citing damages up to $150 million because the moratorium was drafted after its application was filed, and filed suit once the moratorium took effect. City officials estimated the city could owe at least $20 million if it lost. The council then amended the moratorium to exclude the project (third reading Sept 14, 2026; one councilmember opposed).",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "City of Inver Grove Heights update page; MPR News and CBS Minnesota, Sept 15, 2026",
+    "url": "https://www.mprnews.org/story/2026/09/15/inver-grove-heights-data-center-project-exempted-from-city-moratorium"
+   },
+   "notes": "Damages CONFLICT: developer communications cited up to $150 million (city page); city officials cited at least $20 million (MPR, Sept 15). Both recorded.",
+   "confidence_note": "Complaint and case number not read; lawsuit filing and damages estimate reported.",
+   "tags": [
+    "litigation",
+    "retroactive-moratorium"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "MN",
+   "jurisdiction_name": "City of Inver Grove Heights",
+   "_path": "entries/MN/us-mn-inver-grove-heights/mn-inver-grove-heights-developer-litigation.json"
+  },
+  {
+   "id": "mn-inver-grove-heights-interim-moratorium",
+   "jurisdiction": "us-mn-inver-grove-heights",
+   "instrument": "Interim ordinance authorizing study of data centers and imposing a moratorium (June 26, 2026), as amended Sept 14, 2026",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-06-26",
+   "summary": "Council voted 3-2 on June 26, 2026 for a one-year moratorium on data center construction or expansion that included the pending application at 5842 Carmen Avenue East. After the developer threatened litigation citing up to $150 million in damages, council approved an ordinance removing that project from the moratorium in three readings (Aug 10, Aug 24, Sept 14); it takes effect on publication in the Pioneer Press.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Inver Grove Heights, Proposed Data Center updates page (city news flash, read Sept 28, 2026)",
+    "url": "https://www.ighmn.gov/m/newsflash/Home/Detail/2896"
+   },
+   "notes": "City pages give the site as 5842 Carmen Ave E and about 50,000 sq ft; the June 26 agenda item title reads 54,070 sq ft at 5890 Carmen Avenue; MPR and other reporting say 55,000 sq ft. All three recorded. Developer-stated load: 5 MW. A residents' EAW petition was reviewed by a third-party consultant; the city reports the project is exempt from an EAW. On Sept 28, 2026 the council approved the major site plan (reported; see mn-inver-grove-heights-site-plan-approval). The moratorium remains in place for any other data center until at least June 2027.",
+   "confidence_note": "Read on the city's own update page; the ordinance text itself not read.",
+   "tags": [
+    "moratorium",
+    "carve-out",
+    "threatened-litigation"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "MN",
+   "jurisdiction_name": "City of Inver Grove Heights",
+   "_path": "entries/MN/us-mn-inver-grove-heights/mn-inver-grove-heights-interim-moratorium.json"
+  },
+  {
+   "id": "mn-inver-grove-heights-site-plan-approval",
+   "jurisdiction": "us-mn-inver-grove-heights",
+   "instrument": "Major site plan approval, QLevr LLC data center, Carmen Avenue East (Sept 28, 2026)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-09-28",
+   "summary": "City Council approved the major site plan for a roughly 55,000 sq ft data center, covering architecture, landscaping, light output and parking. A development contract and building permit are still required before construction.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Yahoo News (local wire), Sept 29, 2026",
+    "url": "https://www.yahoo.com/news/articles/inver-grove-heights-approves-data-025839260.html"
+   },
+   "notes": "Next steps per the city page: development contract, then building permit.",
+   "confidence_note": "Council action not read in minutes; vote count not reported in the source seen.",
+   "tags": [
+    "site-plan",
+    "carve-out"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "MN",
+   "jurisdiction_name": "City of Inver Grove Heights",
+   "_path": "entries/MN/us-mn-inver-grove-heights/mn-inver-grove-heights-site-plan-approval.json"
+  },
+  {
    "id": "mn-north-mankato-moratorium",
    "jurisdiction": "us-mn-north-mankato",
    "instrument": "North Mankato one-year data center moratorium",
@@ -3826,6 +4229,36 @@
    "state": "MN",
    "jurisdiction_name": "North Mankato",
    "_path": "entries/MN/us-mn-north-mankato/mn-north-mankato-moratorium.json"
+  },
+  {
+   "id": "mn-sixty-day-rule-auto-approval",
+   "jurisdiction": "us-mn-state",
+   "instrument": "Minnesota 60-day rule for city action on development applications",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "",
+   "summary": "A city must act on a development application within 60 days, extendable by the city to 120 days; further extensions only by the applicant. Failure to act results in automatic approval. In Inver Grove Heights the 120-day deadline (July 1, 2026) shaped how and when the council could apply its moratorium to a pending data center.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "As described on the City of Inver Grove Heights proposed data center page",
+    "url": "https://www.ighmn.gov/m/newsflash/Home/Detail/2896"
+   },
+   "notes": "",
+   "confidence_note": "Statute not read; described by the city. Relevant anywhere a moratorium is drafted after an application is filed.",
+   "tags": [
+    "deemed-approval",
+    "timing"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "MN",
+   "jurisdiction_name": "State of Minnesota",
+   "_path": "entries/MN/us-mn-state/mn-sixty-day-rule-auto-approval.json"
   },
   {
    "id": "mn-woodbury-moratorium",
@@ -4145,7 +4578,7 @@
    "entry_state": "NOT_CHECKED",
    "freshness": "LIVE",
    "status": "draft",
-   "retrieved": "2026-09-17",
+   "retrieved": "2026-09-29",
    "source": {
     "kind": "secondary",
     "citation": "Regional reporting, September 2026"
@@ -4159,6 +4592,12 @@
    ],
    "operator": "MLawrence",
    "text": "",
+   "next": {
+    "date": "2026-10-06",
+    "event": "Raleigh City Council possible vote on six-month data center moratorium",
+    "url": "https://www.axios.com/local/raleigh/2026/09/16/raleigh-is-considering-a-six-month-moratorium-on-data-centers",
+    "basis": "reported"
+   },
    "state": "NC",
    "jurisdiction_name": "Raleigh",
    "_path": "entries/NC/us-nc-raleigh/nc-raleigh-10000-sqft-threshold.json"
@@ -4367,6 +4806,75 @@
    "_path": "entries/NM/us-nm-raton/nm-raton-moratorium-rejected.json"
   },
   {
+   "id": "nm-jupiter-fuel-cell-air-permit",
+   "jurisdiction": "us-nm-state",
+   "instrument": "Pending New Mexico air quality permit for the Project Jupiter 2.45 GW fuel-cell power plant",
+   "mechanism": "generation",
+   "status": "proposed",
+   "effective": "",
+   "summary": "State air quality permitting for the campus's 2.45 GW on-site fuel-cell power plant remains pending. The New Mexico Supreme Court paused the state air quality and water use permitting proceedings before allowing them to continue in September 2026.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "El Paso Matters; Santa Fe New Mexican, Sept 24-25, 2026",
+    "url": "https://www.santafenewmexican.com/las_cruces/local_news/oracle-sends-force-majeure-notice-to-project-jupiter-developers-to-protect-itself-from-liability/article_ecdbb097-66d9-49eb-9436-95fe7b6a2eec.html"
+   },
+   "notes": "",
+   "confidence_note": "Permit application and court orders not read.",
+   "tags": [
+    "project-jupiter",
+    "air-permit",
+    "fuel-cells"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "NM",
+   "jurisdiction_name": "State of New Mexico",
+   "_path": "entries/NM/us-nm-state/nm-jupiter-fuel-cell-air-permit.json"
+  },
+  {
+   "id": "nm-slo-green-chile-row-denials",
+   "jurisdiction": "us-nm-state",
+   "instrument": "New Mexico State Land Office denials of right-of-way for the Green Chile gas pipeline (Transwestern / Energy Transfer)",
+   "mechanism": "generation",
+   "status": "adopted",
+   "effective": "2026-07-14",
+   "summary": "The Commissioner of Public Lands twice denied Transwestern Pipeline a right-of-way across about 0.6 mile of state trust land for the roughly 17-mile Green Chile pipeline that would fuel the Project Jupiter campus's on-site fuel cells: in March 2026 and again on July 14, 2026. The FERC-filed in-service date moved from Aug 15, 2026 to Feb 1, 2027.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "El Paso Matters (Sept 24, 2026); Source NM (July 16, Aug 17, 2026) as cited in secondary coverage",
+    "url": "https://elpasomatters.org/2026/09/24/project-jupiter-rent-force-majeure-new-mexico-oracle-ai-el-paso-data-center/"
+   },
+   "notes": "Reported grounds: the pipeline would not benefit state trust land (El Paso Matters); emissions and strain on water and local resources (other coverage). On Sept 24, 2026 Oracle sent a force majeure notice to the developer (Stack Infrastructure / Blue Owl); Oracle says the project remains on schedule. Pipeline length reported as 17 to 18 miles.",
+   "confidence_note": "Denial letters not read.",
+   "tags": [
+    "project-jupiter",
+    "pipeline",
+    "state-trust-land",
+    "dona-ana-county"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "next": {
+    "date": "2027-02-01",
+    "event": "Green Chile pipeline revised in-service date (Project Jupiter)",
+    "url": "https://elpasomatters.org/2026/09/24/project-jupiter-rent-force-majeure-new-mexico-oracle-ai-el-paso-data-center/",
+    "basis": "reported"
+   },
+   "state": "NM",
+   "jurisdiction_name": "State of New Mexico",
+   "_path": "entries/NM/us-nm-state/nm-slo-green-chile-row-denials.json"
+  },
+  {
    "id": "ny-buffalo-ban-proposal",
    "jurisdiction": "us-ny-buffalo",
    "instrument": "Proposed two-year data center ban, Buffalo Common Council",
@@ -4381,7 +4889,7 @@
     "kind": "secondary",
     "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (WGRZ)"
    },
-   "notes": "Buffalo News reports the moratorium would apply to data centers of 20 MW or more and include crypto-mining and blockchain facilities; resolution not read.",
+   "notes": "Buffalo News reports the moratorium would apply to data centers of 20 MW or more and include crypto-mining and blockchain facilities; resolution not read.  Corroborated: WKBW and Buffalo News both report the 20 MW threshold; six sponsors including Golombek (veto-proof); mayor's office says Corporation Counsel will review if passed. Resolution text not located.",
    "confidence_note": "Primary instrument not read.",
    "tags": [
     "ban",
@@ -4389,7 +4897,7 @@
    ],
    "section": "",
    "text": "",
-   "retrieved": "2026-09-28",
+   "retrieved": "2026-09-29",
    "operator": "MLawrence",
    "next": {
     "date": "2026-09-29",
@@ -4468,6 +4976,37 @@
    "state": "NY",
    "jurisdiction_name": "New York",
    "_path": "entries/NY/us-ny-state/ny-eo-62-dec-permit-abeyance.json"
+  },
+  {
+   "id": "ny-s10642-responsible-data-center-development-act",
+   "jurisdiction": "us-ny-state",
+   "instrument": "Responsible Data Center Development Act, S10642/A11560 (passed June 4, 2026)",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Passed the Senate 44-16 and Assembly 102-39 on June 4, 2026: a one-year moratorium on DEC permits for large data centers of 20 MW or more peak demand, with a 1 MW definition of data center and energy-law obligations from 5 MW. Not signed; on July 14 the Governor instead issued Executive Order 62 (50 MW), her office describing the bill as needing more work.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "DLA Piper (July 1), Harris Beach (July 18), Greenberg Traurig (June 12), NBC News (July 14), Governor's release (July 14)"
+   },
+   "notes": "Delivery status to the Governor not confirmed; check nysenate.gov.",
+   "confidence_note": "Bill text not read. Status after July not confirmed.",
+   "tags": [
+    "20-mw",
+    "1-mw",
+    "5-mw",
+    "not-signed"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "NY",
+   "jurisdiction_name": "New York",
+   "_path": "entries/NY/us-ny-state/ny-s10642-responsible-data-center-development-act.json"
   },
   {
    "id": "oh-aep-service-moratorium",
@@ -4862,31 +5401,63 @@
    "_path": "entries/OH/us-oh-warren-county/oh-warren-county-moratorium-drafting.json"
   },
   {
-   "operator": "MLawrence",
+   "id": "ok-17os906-land-purchase-notice",
+   "jurisdiction": "us-ok-state",
+   "instrument": "17 O.S. \u00a7 906, large load land-purchase notice",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "",
+   "summary": "A large load customer developer, owner or agent that buys land outside an industrial development park or a municipality must notify the Corporation Commission, the county commissioners, and all abutting property owners by certified mail within 60 days of the purchase.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Oklahoma Corporation Commission, Data Center Customer Ratepayer Protection Act page",
+    "url": "https://oklahoma.gov/occ/divisions/public-utility/energy/electric-utility/data-center-customer-ratepayer-protection-act.html"
+   },
+   "notes": "",
+   "confidence_note": "Read on the regulator's page; statute text not read.",
+   "tags": [
+    "neighbor-notice",
+    "land-purchase",
+    "75-mw"
+   ],
    "section": "",
    "text": "",
-   "retrieved": "2026-09-22",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "OK",
+   "jurisdiction_name": "State of Oklahoma",
+   "_path": "entries/OK/us-ok-state/ok-17os906-land-purchase-notice.json"
+  },
+  {
+   "operator": "MLawrence",
+   "section": "",
+   "text": "contract with an electric supplier to add seventy-five (75) megawatts or greater electric load per facility or in aggregate behind a single point of interconnection",
+   "retrieved": "2026-09-29",
    "id": "ok-hb2992-ratepayer-protection",
    "jurisdiction": "us-ok-state",
    "instrument": "Oklahoma HB 2992, Data Center Consumer Ratepayer Protection Act",
    "mechanism": "rate-allocation",
    "status": "adopted",
    "effective": "2026-07-01",
-   "freshness": "LIVE",
+   "freshness": "FIXED",
    "summary": "Creates a large-load class at 75 MW or more and imposes a $1,500-per-day penalty for failing to notify nearby landowners and officials within 60 days of a land purchase.",
-   "notes": "Signed May 11 2026 per the Cherokee Nation task force report; a cited Oklahoma Voice piece is dated April 21. Pull the enrolled bill.",
-   "confidence_note": "Relayed through the Cherokee Nation task force report and secondary coverage.",
+   "notes": "Signed May 11 2026 per the Cherokee Nation task force report; a cited Oklahoma Voice piece is dated April 21. Pull the enrolled bill. Covers new data centers, crypto mining and AI computing facilities adding load after July 1, 2026; excludes entities building behind-the-meter generation. Attestation required before inauguration.",
+   "confidence_note": "Read on the regulator's page, which quotes the statute; statute text on OSCN not read.",
    "source": {
-    "kind": "secondary",
-    "citation": "Cherokee Nation Data Center Task Force Report (June 30 2026); Oklahoma Voice"
+    "kind": "primary",
+    "citation": "Oklahoma Corporation Commission, Data Center Customer Ratepayer Protection Act of 2026 page (17 O.S. 900-906)",
+    "url": "https://oklahoma.gov/occ/divisions/public-utility/energy/electric-utility/data-center-customer-ratepayer-protection-act.html"
    },
    "tags": [
     "75-mw",
     "notice",
     "penalty"
    ],
-   "origin": "RELAYED",
-   "entry_state": "NOT_CHECKED",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
    "state": "OK",
    "jurisdiction_name": "State of Oklahoma",
    "_path": "entries/OK/us-ok-state/ok-hb2992-ratepayer-protection.json"
@@ -5449,7 +6020,7 @@
    "operator": "MLawrence",
    "section": "",
    "text": "",
-   "retrieved": "2026-09-23",
+   "retrieved": "2026-09-29",
    "id": "or-salem-data-center-moratorium",
    "jurisdiction": "us-or-salem",
    "instrument": "City of Salem data center moratorium",
@@ -5458,7 +6029,7 @@
    "effective": "2026-09-21",
    "freshness": "LIVE",
    "summary": "The council gave final approval on September 21, 2026 to a 120-day moratorium on data center development, expiring January 19, 2027.",
-   "notes": "SUPERSEDES the prior proposed-status entry. Process initiated unanimously August 3; the City Attorney advised the pause needed at least 120 days and could extend to about six months. Verrus (Oakline at Mill Creek) filed before the vote and its application remains under current code. The council's Data Center Task Force, created July 27, delivers recommendations to council in December 2026.",
+   "notes": "SUPERSEDES the prior proposed-status entry. Process initiated unanimously August 3; the City Attorney advised the pause needed at least 120 days and could extend to about six months. Verrus (Oakline at Mill Creek) filed before the vote and its application remains under current code. The council's Data Center Task Force, created July 27, delivers recommendations to council in December 2026. Salem Reporter reports the moratorium applies to data centers using more than two megawatts of power.",
    "confidence_note": "Relayed; the adopted ordinance has not been read.",
    "source": {
     "kind": "secondary",
@@ -5468,10 +6039,17 @@
     "120-day",
     "2027-01-19",
     "verrus",
-    "task-force"
+    "task-force",
+    "2-mw"
    ],
    "origin": "RELAYED",
    "entry_state": "NOT_CHECKED",
+   "next": {
+    "date": "2027-01-19",
+    "event": "Salem data center moratorium expires",
+    "url": "https://www.salemreporter.com/2026/09/21/salem-city-council-to-hold-public-hearing-on-data-center-moratorium-tonight-at-6-p-m/",
+    "basis": "reported"
+   },
    "state": "OR",
    "jurisdiction_name": "City of Salem",
    "_path": "entries/OR/us-or-salem/or-salem-data-center-moratorium.json"
@@ -6200,17 +6778,17 @@
    "jurisdiction": "us-sc-jasper-county",
    "instrument": "Jasper County data center and cryptocurrency moratorium",
    "mechanism": "use-permission",
-   "status": "adopted",
+   "status": "proposed",
    "effective": "2026-09-21",
-   "summary": "One-year moratorium on data centers and cryptocurrency mining in unincorporated areas, approved unanimously.",
+   "summary": "One-year moratorium on data centers, data processing facilities and cryptocurrency mining in unincorporated areas. Second reading approved unanimously Sept 21, 2026; third and final reading set for the next council meeting. Would pause rezoning, site plan, building permit and economic incentive applications; council may extend in six-month increments.",
    "origin": "RELAYED",
    "entry_state": "NOT_CHECKED",
    "freshness": "LIVE",
    "source": {
     "kind": "secondary",
-    "citation": "Local reporting / datacenterbans.com, Sept 2026"
+    "citation": "Bluffton Today, Sept 2026 (via Yahoo News/AOL)"
    },
-   "notes": "One of four South Carolina county actions within about a week (Spartanburg, Jasper, Laurens, Clarendon).",
+   "notes": "CORRECTION: previously recorded as adopted. Bluffton Today (via Yahoo/AOL, Sept 27-28) reports second reading only; the earlier source described it as approved. One of four South Carolina county actions within about a week (Spartanburg, Jasper, Laurens, Clarendon).",
    "confidence_note": "Ordinance text not read.",
    "tags": [
     "moratorium",
@@ -6218,7 +6796,7 @@
    ],
    "section": "",
    "text": "",
-   "retrieved": "2026-09-24",
+   "retrieved": "2026-09-29",
    "operator": "MLawrence",
    "state": "SC",
    "jurisdiction_name": "Jasper County",
@@ -6468,6 +7046,37 @@
    "state": "TX",
    "jurisdiction_name": "ERCOT",
    "_path": "entries/TX/us-tx-ercot/tx-queue-audit-batch-zero-suspension.json"
+  },
+  {
+   "id": "tx-hill-county-rcm-hill-litigation",
+   "jurisdiction": "us-tx-hill-county",
+   "instrument": "RCM Hill, LLC v. Hill County, Texas (42 U.S.C. 1983)",
+   "mechanism": "litigation",
+   "status": "void",
+   "effective": "",
+   "summary": "A data center developer sued Hill County and individual county officials under 42 U.S.C. 1983 in May 2026 over a county moratorium; the case was dismissed with prejudice on July 9, 2026 without a determination that the officials were personally liable.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "As described in the Pulaski County veto letter, Sept 25, 2026",
+    "url": "https://katv.com/resources/pdf/689eb2ac-697b-43ce-8fca-28531196c097-1783_001.pdf"
+   },
+   "notes": "",
+   "confidence_note": "Docket not read; described in a primary document.",
+   "tags": [
+    "1983",
+    "official-liability",
+    "moratorium"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "TX",
+   "jurisdiction_name": "Hill County",
+   "_path": "entries/TX/us-tx-hill-county/tx-hill-county-rcm-hill-litigation.json"
   },
   {
    "operator": "MLawrence",
@@ -6795,26 +7404,126 @@
     "forward-calendar"
    ],
    "operator": "MLawrence",
+   "next": {
+    "date": "2026-10-19",
+    "event": "TCEQ report to the Governor on compliance with the data center permit pause",
+    "url": "https://gov.texas.gov/uploads/files/press/TCEQ_Data_Center.pdf",
+    "basis": "document"
+   },
    "state": "TX",
    "jurisdiction_name": "State of Texas",
    "_path": "entries/TX/us-tx-state/tx-governor-sep21-tceq-permit-halt.json"
+  },
+  {
+   "id": "tx-sb6-backup-generation-curtailment",
+   "jurisdiction": "us-tx-state",
+   "instrument": "Texas SB 6, Util. Code 37.0561(e) and 39.170",
+   "mechanism": "generation",
+   "status": "adopted",
+   "effective": "2025-06-20",
+   "summary": "Large loads must disclose on-site backup generating facilities (non-exporting, able to serve at least 50% of on-site demand); in an energy emergency ERCOT may direct them to deploy backup generation or curtail, without authorizing emissions violations. Transmission-voltage loads interconnected after December 31, 2025 must install equipment allowing curtailment during firm load shed; ERCOT must procure a demand-reduction service from loads of at least 75 MW with 24-hour notice.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Texas SB 6 (89th Leg., enrolled; effective June 20, 2025), LegiScan mirror",
+    "url": "https://legiscan.com/TX/text/SB6/id/3248460"
+   },
+   "notes": "",
+   "confidence_note": "",
+   "tags": [
+    "backup-generation",
+    "curtailment",
+    "firm-load-shed"
+   ],
+   "section": "Util. Code 37.0561(e); 39.170",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "TX",
+   "jurisdiction_name": "State of Texas",
+   "_path": "entries/TX/us-tx-state/tx-sb6-backup-generation-curtailment.json"
+  },
+  {
+   "id": "tx-sb6-colocation-deemed-approval",
+   "jurisdiction": "us-tx-state",
+   "instrument": "Texas SB 6, Util. Code 39.169 (co-location with existing generation)",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2025-06-20",
+   "summary": "Net metering between an existing stand-alone generator and a new large load requires notice to ERCOT, an ERCOT study within 120 days of complete information, and a PUC decision within 60 days of the study; if the PUC does not act by the deadline the arrangement is considered approved. Decisions are posted on the PUC website.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Texas SB 6 (89th Leg., enrolled; effective June 20, 2025), LegiScan mirror",
+    "url": "https://legiscan.com/TX/text/SB6/id/3248460"
+   },
+   "notes": "",
+   "confidence_note": "",
+   "tags": [
+    "co-location",
+    "deemed-approval"
+   ],
+   "section": "Util. Code 39.169",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "TX",
+   "jurisdiction_name": "State of Texas",
+   "_path": "entries/TX/us-tx-state/tx-sb6-colocation-deemed-approval.json"
+  },
+  {
+   "id": "tx-sb6-large-load-threshold",
+   "jurisdiction": "us-tx-state",
+   "instrument": "Texas SB 6, Util. Code 37.0561(a)-(f), (h), (l)",
+   "mechanism": "load-trigger",
+   "status": "adopted",
+   "effective": "2025-06-20",
+   "summary": "PUC standards for interconnecting large loads in ERCOT apply only to new or expanded interconnections where total load at a single site would exceed a demand threshold of 75 MW, unless the PUC finds a lower threshold necessary. Large loads must disclose substantially similar requests elsewhere in Texas, disclose on-site backup generation, pay a flat screening study fee of at least $100,000, and post financial commitments; municipal utilities and co-ops may impose additional requirements.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Texas SB 6 (89th Leg., enrolled; effective June 20, 2025), LegiScan mirror",
+    "url": "https://legiscan.com/TX/text/SB6/id/3248460"
+   },
+   "notes": "",
+   "confidence_note": "",
+   "tags": [
+    "75-mw",
+    "single-site",
+    "duplicate-disclosure",
+    "study-fee"
+   ],
+   "section": "Util. Code 37.0561",
+   "text": "where the total load at a single site would exceed a demand threshold established by the commission ... The commission shall establish a demand threshold of 75 megawatts unless the commission determines that a lower threshold is necessary",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "TX",
+   "jurisdiction_name": "State of Texas",
+   "_path": "entries/TX/us-tx-state/tx-sb6-large-load-threshold.json"
   },
   {
    "id": "tx-sb6-site-control",
    "jurisdiction": "us-tx-state",
    "mechanism": "use-permission",
    "instrument": "SB 6 (89th Legislature)",
-   "section": "",
+   "section": "Util. Code 37.0561(g)",
    "summary": "Directs the utility regulator to establish a methodology for large loads to demonstrate site control through an ownership interest, a lease, or another acceptable legal interest.",
-   "origin": "RELAYED",
-   "entry_state": "NOT_CHECKED",
-   "freshness": "LIVE",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
    "status": "adopted",
    "effective": "2025-06-20",
-   "retrieved": "2026-09-14",
+   "retrieved": "2026-09-29",
    "source": {
-    "kind": "secondary",
-    "citation": "Law firm client publications on SB 6 implementation"
+    "kind": "primary",
+    "citation": "Texas SB 6 (89th Leg., enrolled; effective June 20, 2025), LegiScan mirror",
+    "url": "https://legiscan.com/TX/text/SB6/id/3248460"
    },
    "notes": "Inverts the pattern found in four land use codes: land control required by the utility regulator rather than utility service required by the land use authority",
    "tags": [
@@ -6822,11 +7531,47 @@
     "inversion"
    ],
    "operator": "MLawrence",
-   "text": "",
-   "confidence_note": "Statute not read. Site control methodology as adopted NOT_CHECKED.",
+   "text": "The standards must include a method for a large load customer subject to Subsection (c) to demonstrate site control for the proposed load location through an ownership interest, lease, or another legal interest acceptable to the commission.",
+   "confidence_note": "Read in the enrolled text reproduced by LegiScan.",
    "state": "TX",
    "jurisdiction_name": "State of Texas",
    "_path": "entries/TX/us-tx-state/tx-sb6-site-control.json"
+  },
+  {
+   "id": "tx-sb6-wholesale-transmission-cost-review",
+   "jurisdiction": "us-tx-state",
+   "instrument": "Texas SB 6, Section 6 (wholesale transmission cost methodology)",
+   "mechanism": "rate-allocation",
+   "status": "adopted",
+   "effective": "2025-06-20",
+   "summary": "The PUC must evaluate whether the four-coincident-peak methodology and retail ratemaking appropriately assign transmission costs, and must amend its rules by December 31, 2026 so wholesale transmission charges appropriately assign costs for transmission investment.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Texas SB 6 (89th Leg., enrolled; effective June 20, 2025), LegiScan mirror",
+    "url": "https://legiscan.com/TX/text/SB6/id/3248460"
+   },
+   "notes": "",
+   "confidence_note": "",
+   "tags": [
+    "4cp",
+    "transmission-cost"
+   ],
+   "section": "SB 6 Sec. 6",
+   "text": "",
+   "next": {
+    "date": "2026-12-31",
+    "event": "Texas PUC deadline to amend wholesale transmission cost rules (SB 6 Sec. 6)",
+    "url": "https://legiscan.com/TX/text/SB6/id/3248460",
+    "basis": "document"
+   },
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "TX",
+   "jurisdiction_name": "State of Texas",
+   "_path": "entries/TX/us-tx-state/tx-sb6-wholesale-transmission-cost-review.json"
   },
   {
    "operator": "MLawrence",
@@ -6894,6 +7639,37 @@
    "_path": "entries/TX/us-tx-westlake/tx-westlake-litigation.json"
   },
   {
+   "id": "federal-blm-green-chile-emergency-row",
+   "jurisdiction": "us-federal",
+   "instrument": "Bureau of Land Management approval of the Green Chile pipeline crossing of federal land (May 2026)",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "",
+   "summary": "BLM approved the pipeline's crossing of federal land in May 2026 under an accelerated 14-day emergency review.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Construction Review Online, Sept 28, 2026",
+    "url": "https://constructionreviewonline.com/how-is-oracles-165b-project-jupiter-on-track-or-derailed/"
+   },
+   "notes": "",
+   "confidence_note": "BLM decision record not read; single secondary source.",
+   "tags": [
+    "project-jupiter",
+    "blm",
+    "emergency-review"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "US",
+   "jurisdiction_name": "United States (federal)",
+   "_path": "entries/US/us-federal/federal-blm-green-chile-emergency-row.json"
+  },
+  {
    "id": "federal-ferc-comed-powerhouse-tsa",
    "jurisdiction": "us-federal",
    "instrument": "FERC order rejecting ComEd's notice of cancellation of the PowerHouse Hillwood transmission security agreement (Joliet, IL; ~Sept 22, 2026)",
@@ -6936,23 +7712,55 @@
    "freshness": "FIXED",
    "source": {
     "kind": "primary",
-    "citation": "FERC news release, June 18, 2026 (Items E-7 to E-12)",
-    "url": "https://www.ferc.gov/news-events/news/ferc-launches-aggressive-targeted-action-speed-large-load-integration"
+    "citation": "PJM Interconnection, L.L.C., 195 FERC \u00b6 61,211 (June 18, 2026), Docket EL26-67-000; companion orders 195 FERC \u00b6\u00b6 61,212-61,216",
+    "url": "https://www.pjm.com/-/media/DotCom/documents/ferc/orders/2026/20260618-el26-67-000.pdf"
    },
-   "notes": "Docket-to-item mapping per release links: E-7 EL26-67, E-8 EL26-70, E-9 EL26-68, E-10 EL26-71, E-11 EL26-72, E-12 EL26-69.",
-   "confidence_note": "Read the FERC news release, not the six orders. RTO responses, abeyance requests and current deadlines not checked.",
+   "notes": "Docket-to-item mapping per release links: E-7 EL26-67, E-8 EL26-70, E-9 EL26-68, E-10 EL26-71, E-11 EL26-72, E-12 EL26-69. Read in the PJM order (pp. 1-45 of 114). Abeyance: requests within 45 days; up to 90 days; FERC will look with great disfavor on extensions. Refund effective date: Federal Register publication. Not intended to disrupt existing arrangements; reforms prospective. Study timeline expectation: 60-90 calendar days. Other five orders not read (parallel).",
+   "confidence_note": "PJM order read in part (directives, definitions, discussion through P ~60). Other RTO orders and responses/abeyance filings not read; whether abeyances were granted not checked.",
    "tags": [
     "ferc",
     "show-cause",
     "co-location"
    ],
    "section": "",
-   "text": "have 60 days to either justify why their current tariffs remain just and reasonable without provisions tailored to large loads, or to file tariff changes",
-   "retrieved": "2026-09-28",
+   "text": "we direct PJM and the Transmission Owners, within 60 days of the date of this order, to either: (1) show cause as to why the Tariff remains just and reasonable",
+   "retrieved": "2026-09-29",
    "operator": "MLawrence",
    "state": "US",
    "jurisdiction_name": "United States (federal)",
    "_path": "entries/US/us-federal/federal-ferc-large-load-show-cause.json"
+  },
+  {
+   "id": "federal-ferc-proposed-large-load-definition",
+   "jurisdiction": "us-federal",
+   "instrument": "FERC preliminary large load definition, PJM show cause order (June 18, 2026)",
+   "mechanism": "definition",
+   "status": "proposed",
+   "effective": "2026-06-18",
+   "summary": "FERC finds it appears reasonable to define a large load as a new commercial or industrial customer at a single site behind one or more points of interconnection, with peak load of 50 MW or greater, interconnecting above 69 kV, and not part of a co-location arrangement; PJM may propose its own. The order quotes SPP's tariff definition of a high impact large load: 10 MW or more at 69 kV or below, or 50 MW or more above 69 kV.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "195 FERC \u00b6 61,211 at n.2, P 58 and n.53",
+    "url": "https://www.pjm.com/-/media/DotCom/documents/ferc/orders/2026/20260618-el26-67-000.pdf"
+   },
+   "notes": "",
+   "confidence_note": "",
+   "tags": [
+    "50-mw",
+    "69-kv",
+    "voltage-threshold",
+    "spp-hill"
+   ],
+   "section": "",
+   "text": "has a peak load of 50 MW or greater, interconnects to the transmission system at a voltage level of greater than 69 kV, and is not part of a co-location arrangement",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "US",
+   "jurisdiction_name": "United States (federal)",
+   "_path": "entries/US/us-federal/federal-ferc-proposed-large-load-definition.json"
   },
   {
    "id": "federal-naacp-v-xai-southaven",
@@ -8188,6 +8996,37 @@
    "_path": "entries/VA/us-va-state/va-dillon-rule-local-authority.json"
   },
   {
+   "id": "va-eo-22-data-center-accountability",
+   "jurisdiction": "us-va-state",
+   "instrument": "Executive Order 22 (Sept 18, 2026)",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-09-18",
+   "summary": "Bars executive branch agencies and employees from entering into or requiring non-disclosure agreements for data center projects; creates a Data Center Planning and Community Engagement Toolkit for localities; expedites state data center noise regulations; directs a review of diesel and other backup generation; directs data center investment toward local energy projects; develops workforce best practices; creates an AI Task Force.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Governor of Virginia news release, Sept 18, 2026 (lists Executive Order 22 actions)",
+    "url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/september-releases/name-1123696-en.html"
+   },
+   "notes": "",
+   "confidence_note": "Read on the Governor's release; the order text itself not read. Whether the order removes large projects from state fast-track permitting (reported by Bay Journal) is not stated among the release's order actions.",
+   "tags": [
+    "nda",
+    "noise-regulations",
+    "backup-generation"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "VA",
+   "jurisdiction_name": "Commonwealth of Virginia",
+   "_path": "entries/VA/us-va-state/va-eo-22-data-center-accountability.json"
+  },
+  {
    "operator": "MLawrence",
    "id": "va-eo22-backup-generation-review",
    "jurisdiction": "us-va-state",
@@ -8628,13 +9467,13 @@
    "freshness": "LIVE",
    "status": "proposed",
    "effective": "",
-   "retrieved": "2026-09-21",
+   "retrieved": "2026-09-29",
    "source": {
     "kind": "primary",
     "citation": "Office of the Governor of Virginia, news release, Governor Spanberger Unveils Nation's Most Comprehensive & Aggressive Data Center Accountability Standards, Signs Executive Order to Immediately Put Into Action, September 18, 2026",
     "url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/september-releases/name-1123696-en.html"
    },
-   "notes": "These are the provisions widely reported as effective under EO 22. The NDA ban reaching commercial projects and the 25 MW local-approval requirement are Framework proposals; EO 22 implements only the executive-branch NDA prohibition and the VEDP exclusion.",
+   "notes": "These are the provisions widely reported as effective under EO 22. The NDA ban reaching commercial projects and the 25 MW local-approval requirement are Framework proposals; EO 22 implements only the executive-branch NDA prohibition and the VEDP exclusion.  The Governor's release lists eliminating by-right approval above 25 MW as a Framework priority, not among Executive Order 22's actions; reports that the order itself ended by-right approval overstate it.",
    "confidence_note": "Read in original from the Governor's release, which lists the Framework's contents. The Framework document itself was not opened (link behind a redirect). Framework items are proposals for the 2027 General Assembly and are NOT in force except where Executive Order 22 implements them; see the us-va-state EO 22 entries.",
    "tags": [
     "framework",
@@ -9454,6 +10293,37 @@
    "state": "WA",
    "jurisdiction_name": "Yakima County",
    "_path": "entries/WA/us-wa-yakima-county/wa-yakima-county-moratorium.json"
+  },
+  {
+   "id": "wi-vilas-county-moratorium-proposal",
+   "jurisdiction": "us-wi-vilas-county",
+   "instrument": "Proposed Vilas County data center moratorium",
+   "mechanism": "use-permission",
+   "status": "recommended",
+   "effective": "",
+   "summary": "After a Sept 23, 2026 public hearing, the county zoning and planning committee forwarded a data center moratorium to the county board. The proposal also covers some battery and solar facilities.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Lakeland Times, Sept 29, 2026",
+    "url": "https://lakelandtimes.com/news/2026/sep/29/vilas-county-zoning-committee-forwards-data-center-moratorium-to-county-board/"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read; county board date not reported in the source seen.",
+   "tags": [
+    "moratorium",
+    "bess",
+    "solar"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-29",
+   "operator": "MLawrence",
+   "state": "WI",
+   "jurisdiction_name": "Vilas County",
+   "_path": "entries/WI/us-wi-vilas-county/wi-vilas-county-moratorium-proposal.json"
   },
   {
    "operator": "MLawrence",

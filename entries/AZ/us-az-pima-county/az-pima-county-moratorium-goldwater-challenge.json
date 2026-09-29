@@ -1,0 +1,27 @@
+{
+ "id": "az-pima-county-moratorium-goldwater-challenge",
+ "jurisdiction": "us-az-pima-county",
+ "instrument": "Goldwater Institute position that the Pima County data center moratorium is unlawful",
+ "mechanism": "litigation",
+ "status": "proposed",
+ "effective": "",
+ "summary": "The Goldwater Institute says Pima County's 120-day data center moratorium violates two state laws, including a voter-approved initiative, because the county cannot show data centers are an imminent threat. No lawsuit is reported as filed.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "KJZZ, Sept 29, 2026",
+  "url": "https://www.kjzz.org/fronteras-desk/2026-09-29/goldwater-institute-says-pima-county-data-center-moratorium-is-illegal-facilities-arent-a-threat"
+ },
+ "notes": "The moratorium passed 3-2 on Sept 22, 2026 and runs 120 days to January. It applies to new data centers where site improvement permits have not been submitted; Project Blue is already under construction, and the effect on Project Gravel is disputed because its land is zoned industrial (AZPM).",
+ "confidence_note": "A position, not a filing. The statutes cited are not named in the source seen.",
+ "tags": [
+  "legal-challenge",
+  "imminent-threat"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

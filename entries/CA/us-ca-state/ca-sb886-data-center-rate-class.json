@@ -1,26 +1,27 @@
 {
-  "id": "ca-sb886-data-center-rate-class",
-  "jurisdiction": "us-ca-state",
-  "instrument": "SB 886 (2026), signed Sept 21, 2026",
-  "mechanism": "rate-allocation",
-  "status": "adopted",
-  "effective": "2026-09-21",
-  "summary": "Requires the CPUC to adopt data center tariffs by Jan 1, 2028 that assign transmission upgrade costs to data centers, with a 10-year early termination fee; applies to new interconnection agreements from Jan 1, 2027.",
-  "origin": "RELAYED",
-  "entry_state": "NOT_CHECKED",
-  "freshness": "LIVE",
-  "source": {
-    "kind": "secondary",
-    "citation": "Governor's office release Sept 22, 2026; CalMatters, KQED, NatLawReview (Sept 22-24, 2026)"
-  },
-  "notes": "CORRECTION: status proposed -> adopted. Signed with six companion bills on Sept 21; earlier calendar item 'Sept 30 Newsom deadline' retired.",
-  "confidence_note": "Primary instrument not read.",
-  "tags": [
-    "california",
-    "rate-class"
-  ],
-  "section": "",
-  "text": "",
-  "retrieved": "2026-09-27",
-  "operator": "MLawrence"
+ "id": "ca-sb886-data-center-rate-class",
+ "jurisdiction": "us-ca-state",
+ "instrument": "SB 886 (2026), signed Sept 21, 2026",
+ "mechanism": "rate-allocation",
+ "status": "adopted",
+ "effective": "2026-09-21",
+ "summary": "Requires the CPUC, by January 1, 2028, to establish new tariffs or update electric rules for interconnection and retail, transmission, distribution and generation service to participating customers, including a transmission-level interconnection tariff that assigns transmission upgrade costs to the data center, requires disclosure of duplicate applications, caps refunds at 75% of annual net transmission revenue, and imposes a 10-year early termination fee. Applies to data centers entering a new transmission-level interconnection agreement on or after January 1, 2027.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "SB 886, Chapter 438, Statutes of 2026 (chaptered text, LegiScan mirror)",
+  "url": "https://legiscan.com/CA/text/SB886/id/3459497"
+ },
+ "notes": "CORRECTION: status proposed -> adopted. Signed with six companion bills on Sept 21; earlier calendar item 'Sept 30 Newsom deadline' retired. No megawatt threshold in the enacted text. Drafting history: introduced/March drafts defined a large load customer at 75 MW peak demand; a later draft substituted 25 MW; the chaptered text drops both. Trade reporting citing 75 MW reflects the drafts.",
+ "confidence_note": "Read in the chaptered text reproduced by LegiScan; leginfo blocks automated access.",
+ "tags": [
+  "california",
+  "rate-class"
+ ],
+ "section": "Pub. Util. Code 945.2, 945.3, 945.9",
+ "text": "This section shall only apply to a data center that enters into a new interconnection agreement to receive retail electric service at the transmission level on or after January 1, 2027.",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
 }

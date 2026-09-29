@@ -1,0 +1,28 @@
+{
+ "id": "ok-17os906-land-purchase-notice",
+ "jurisdiction": "us-ok-state",
+ "instrument": "17 O.S. \u00a7 906, large load land-purchase notice",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "",
+ "summary": "A large load customer developer, owner or agent that buys land outside an industrial development park or a municipality must notify the Corporation Commission, the county commissioners, and all abutting property owners by certified mail within 60 days of the purchase.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "Oklahoma Corporation Commission, Data Center Customer Ratepayer Protection Act page",
+  "url": "https://oklahoma.gov/occ/divisions/public-utility/energy/electric-utility/data-center-customer-ratepayer-protection-act.html"
+ },
+ "notes": "",
+ "confidence_note": "Read on the regulator's page; statute text not read.",
+ "tags": [
+  "neighbor-notice",
+  "land-purchase",
+  "75-mw"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

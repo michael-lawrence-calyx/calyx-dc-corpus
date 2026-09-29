@@ -1,25 +1,26 @@
 {
-  "id": "ca-sb1168-transmission-cost-allocation",
-  "jurisdiction": "us-ca-state",
-  "instrument": "SB 1168 (2026), signed Sept 21, 2026",
-  "mechanism": "rate-allocation",
-  "status": "adopted",
-  "effective": "2026-09-21",
-  "summary": "Addresses rate structures and fair-share allocation of transmission costs for data centers.",
-  "origin": "RELAYED",
-  "entry_state": "NOT_CHECKED",
-  "freshness": "LIVE",
-  "source": {
-    "kind": "secondary",
-    "citation": "Governor's office release Sept 22, 2026; CalMatters, KQED, NatLawReview (Sept 22-24, 2026)"
-  },
-  "notes": "CORRECTION: status proposed -> adopted.",
-  "confidence_note": "Primary instrument not read.",
-  "tags": [
-    "california"
-  ],
-  "section": "",
-  "text": "",
-  "retrieved": "2026-09-27",
-  "operator": "MLawrence"
+ "id": "ca-sb1168-transmission-cost-allocation",
+ "jurisdiction": "us-ca-state",
+ "instrument": "SB 1168 (2026), signed Sept 21, 2026",
+ "mechanism": "rate-allocation",
+ "status": "adopted",
+ "effective": "2026-09-21",
+ "summary": "Directs the CPUC, in a new or existing proceeding, to assess opportunities for rate structures that ensure data centers pay a reasonable share of transmission and distribution costs regardless of interconnection level, pay a proportionate share of load increases and procurement consistent with integrated resource planning, and alleviate cost pressure on residential ratepayers including CARE and FERA customers. No deadline, threshold or surcharge.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "SB 1168, Chapter 440, Statutes of 2026 (chaptered text, LegiScan mirror)",
+  "url": "https://legiscan.com/CA/text/SB1168/id/3459554"
+ },
+ "notes": "CORRECTION: status proposed -> adopted. CORRECTION: previous summary read as a binding allocation. Drafting history: introduced as a data center gas and electricity surcharge law; amended in April 2026 to an assessment directive.",
+ "confidence_note": "Read in the chaptered text reproduced by LegiScan.",
+ "tags": [
+  "california"
+ ],
+ "section": "Pub. Util. Code 901",
+ "text": "the commission shall assess opportunities for rate structures to do all of the following",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
 }

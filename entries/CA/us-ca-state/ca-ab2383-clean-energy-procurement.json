@@ -1,25 +1,32 @@
 {
-  "id": "ca-ab2383-clean-energy-procurement",
-  "jurisdiction": "us-ca-state",
-  "instrument": "AB 2383 (2026), signed Sept 21, 2026",
-  "mechanism": "rate-allocation",
-  "status": "adopted",
-  "effective": "2026-09-21",
-  "summary": "Requires data centers to meet clean-energy procurement rules and pay incremental generation costs for at least 10 years.",
-  "origin": "RELAYED",
-  "entry_state": "NOT_CHECKED",
-  "freshness": "LIVE",
-  "source": {
-    "kind": "secondary",
-    "citation": "Governor's office release Sept 22, 2026; CalMatters, KQED, NatLawReview (Sept 22-24, 2026)"
-  },
-  "notes": "",
-  "confidence_note": "Primary instrument not read.",
-  "tags": [
-    "california"
-  ],
-  "section": "",
-  "text": "",
-  "retrieved": "2026-09-27",
-  "operator": "MLawrence"
+ "id": "ca-ab2383-clean-energy-procurement",
+ "jurisdiction": "us-ca-state",
+ "instrument": "AB 2383 (2026), signed Sept 21, 2026",
+ "mechanism": "rate-allocation",
+ "status": "adopted",
+ "effective": "2026-09-21",
+ "summary": "Requires each electrical corporation to file transmission-and-distribution and generation service tariffs for data centers. The generation tariff must make data centers pay incremental generation cost increases for at least 10 years, with non-completion and early termination fees, upfront collateral or prepayment, and a minimum payment based on projected load. The CPUC sets the minimum peak demand threshold, which may not exceed 25 MW; CCAs and electric service providers must adopt parallel tariffs by January 1, 2028 under the same 25 MW cap.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "AB 2383, Chapter 435, Statutes of 2026 (chaptered text, LegiScan mirror)",
+  "url": "https://legiscan.com/CA/text/AB2383/id/3459555"
+ },
+ "notes": "Exempts publicly funded research, public safety, publicly funded national security, publicly owned and utility facilities from the generation tariff.",
+ "confidence_note": "Read in the chaptered text reproduced by LegiScan.",
+ "tags": [
+  "california"
+ ],
+ "section": "Pub. Util. Code 945.1, 945.4, 945.5, 945.6",
+ "text": "The commission may not set a minimum peak electricity demand threshold that exceeds 25 megawatts.",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence",
+ "next": {
+  "date": "2028-01-01",
+  "event": "California CCAs and electric service providers must adopt data center generation tariffs (AB 2383)",
+  "url": "https://legiscan.com/CA/text/AB2383/id/3459555",
+  "basis": "document"
+ }
 }

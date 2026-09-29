@@ -1,0 +1,27 @@
+{
+ "id": "mn-inver-grove-heights-site-plan-approval",
+ "jurisdiction": "us-mn-inver-grove-heights",
+ "instrument": "Major site plan approval, QLevr LLC data center, Carmen Avenue East (Sept 28, 2026)",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "2026-09-28",
+ "summary": "City Council approved the major site plan for a roughly 55,000 sq ft data center, covering architecture, landscaping, light output and parking. A development contract and building permit are still required before construction.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Yahoo News (local wire), Sept 29, 2026",
+  "url": "https://www.yahoo.com/news/articles/inver-grove-heights-approves-data-025839260.html"
+ },
+ "notes": "Next steps per the city page: development contract, then building permit.",
+ "confidence_note": "Council action not read in minutes; vote count not reported in the source seen.",
+ "tags": [
+  "site-plan",
+  "carve-out"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

@@ -1,0 +1,28 @@
+{
+ "id": "wi-vilas-county-moratorium-proposal",
+ "jurisdiction": "us-wi-vilas-county",
+ "instrument": "Proposed Vilas County data center moratorium",
+ "mechanism": "use-permission",
+ "status": "recommended",
+ "effective": "",
+ "summary": "After a Sept 23, 2026 public hearing, the county zoning and planning committee forwarded a data center moratorium to the county board. The proposal also covers some battery and solar facilities.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Lakeland Times, Sept 29, 2026",
+  "url": "https://lakelandtimes.com/news/2026/sep/29/vilas-county-zoning-committee-forwards-data-center-moratorium-to-county-board/"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read; county board date not reported in the source seen.",
+ "tags": [
+  "moratorium",
+  "bess",
+  "solar"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

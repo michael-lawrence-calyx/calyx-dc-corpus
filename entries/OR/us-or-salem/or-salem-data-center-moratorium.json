@@ -1,28 +1,35 @@
 {
-  "operator": "MLawrence",
-  "section": "",
-  "text": "",
-  "retrieved": "2026-09-23",
-  "id": "or-salem-data-center-moratorium",
-  "jurisdiction": "us-or-salem",
-  "instrument": "City of Salem data center moratorium",
-  "mechanism": "use-permission",
-  "status": "adopted",
-  "effective": "2026-09-21",
-  "freshness": "LIVE",
-  "summary": "The council gave final approval on September 21, 2026 to a 120-day moratorium on data center development, expiring January 19, 2027.",
-  "notes": "SUPERSEDES the prior proposed-status entry. Process initiated unanimously August 3; the City Attorney advised the pause needed at least 120 days and could extend to about six months. Verrus (Oakline at Mill Creek) filed before the vote and its application remains under current code. The council's Data Center Task Force, created July 27, delivers recommendations to council in December 2026.",
-  "confidence_note": "Relayed; the adopted ordinance has not been read.",
-  "source": {
-    "kind": "secondary",
-    "citation": "Salem Reporter; KATU, September 22 2026"
-  },
-  "tags": [
-    "120-day",
-    "2027-01-19",
-    "verrus",
-    "task-force"
-  ],
-  "origin": "RELAYED",
-  "entry_state": "NOT_CHECKED"
+ "operator": "MLawrence",
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "id": "or-salem-data-center-moratorium",
+ "jurisdiction": "us-or-salem",
+ "instrument": "City of Salem data center moratorium",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "2026-09-21",
+ "freshness": "LIVE",
+ "summary": "The council gave final approval on September 21, 2026 to a 120-day moratorium on data center development, expiring January 19, 2027.",
+ "notes": "SUPERSEDES the prior proposed-status entry. Process initiated unanimously August 3; the City Attorney advised the pause needed at least 120 days and could extend to about six months. Verrus (Oakline at Mill Creek) filed before the vote and its application remains under current code. The council's Data Center Task Force, created July 27, delivers recommendations to council in December 2026. Salem Reporter reports the moratorium applies to data centers using more than two megawatts of power.",
+ "confidence_note": "Relayed; the adopted ordinance has not been read.",
+ "source": {
+  "kind": "secondary",
+  "citation": "Salem Reporter; KATU, September 22 2026"
+ },
+ "tags": [
+  "120-day",
+  "2027-01-19",
+  "verrus",
+  "task-force",
+  "2-mw"
+ ],
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "next": {
+  "date": "2027-01-19",
+  "event": "Salem data center moratorium expires",
+  "url": "https://www.salemreporter.com/2026/09/21/salem-city-council-to-hold-public-hearing-on-data-center-moratorium-tonight-at-6-p-m/",
+  "basis": "reported"
+ }
 }

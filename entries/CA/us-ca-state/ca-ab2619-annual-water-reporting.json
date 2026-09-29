@@ -1,26 +1,27 @@
 {
-  "id": "ca-ab2619-annual-water-reporting",
-  "jurisdiction": "us-ca-state",
-  "instrument": "AB 2619 (2026), signed Sept 21, 2026",
-  "mechanism": "water",
-  "status": "adopted",
-  "effective": "2026-09-21",
-  "summary": "Requires annual water-use reporting by data centers.",
-  "origin": "RELAYED",
-  "entry_state": "NOT_CHECKED",
-  "freshness": "LIVE",
-  "source": {
-    "kind": "secondary",
-    "citation": "Governor's office release Sept 22, 2026; CalMatters, KQED, NatLawReview (Sept 22-24, 2026)"
-  },
-  "notes": "",
-  "confidence_note": "Primary instrument not read.",
-  "tags": [
-    "california",
-    "water"
-  ],
-  "section": "",
-  "text": "",
-  "retrieved": "2026-09-27",
-  "operator": "MLawrence"
+ "id": "ca-ab2619-annual-water-reporting",
+ "jurisdiction": "us-ca-state",
+ "instrument": "AB 2619 (2026), signed Sept 21, 2026",
+ "mechanism": "water",
+ "status": "adopted",
+ "effective": "2026-09-21",
+ "summary": "Before applying for an initial city or county business license or permit, a data center owner or operator must give its water supplier, under penalty of perjury, a good-faith estimate of expected water use, source, and maximum-day, maximum-month and average-year volumes, and report it on the application; at each renewal it must report the prior year's total and direct water use and cooling system type. Urban water suppliers must include data center demand in annual supply and demand assessments. Defines data center tiers: Type I (hyperscale) more than 10,000 servers or more than 25 MW; Type II 2 to 25 MW; Type III under 2 MW.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "AB 2619, Chapter 437, Statutes of 2026 (chaptered text, LegiScan mirror)",
+  "url": "https://legiscan.com/CA/text/AB2619/id/3459543"
+ },
+ "notes": "The reporting duties apply to all data centers; the enacted text defines the tiers but no operative provision shown keys off them.",
+ "confidence_note": "Read in the chaptered text reproduced by LegiScan.",
+ "tags": [
+  "california",
+  "water"
+ ],
+ "section": "Bus. & Prof. Code 16000.4, 16100.4; Water Code 10632",
+ "text": "\"Type I data center,\" also commonly known as a \"hyperscale data center,\" means a data center with more than 10,000 servers or a power consumption of more than 25 megawatts.",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
 }

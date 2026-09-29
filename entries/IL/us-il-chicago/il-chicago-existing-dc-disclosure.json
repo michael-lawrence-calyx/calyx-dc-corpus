@@ -1,0 +1,27 @@
+{
+ "id": "il-chicago-existing-dc-disclosure",
+ "jurisdiction": "us-il-chicago",
+ "instrument": "Ordinance requiring existing data centers to disclose energy and water use",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "",
+ "summary": "City Council passed a measure on Sept 23, 2026 requiring the 39 data centers operating in Chicago to disclose energy and water consumption to the city.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Tech Times, Sept 24, 2026; Chicago Tribune"
+ },
+ "notes": "",
+ "confidence_note": "Ordinance not read; single detailed source for passage.",
+ "tags": [
+  "disclosure",
+  "energy",
+  "water"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
+}

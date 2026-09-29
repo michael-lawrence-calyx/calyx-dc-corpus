@@ -1,26 +1,27 @@
 {
-  "id": "ca-sb887-environmental-review",
-  "jurisdiction": "us-ca-state",
-  "instrument": "SB 887 (2026), signed Sept 21, 2026",
-  "mechanism": "process",
-  "status": "adopted",
-  "effective": "2026-09-21",
-  "summary": "Bars blanket CEQA exemptions for data centers; provides a fast track for facilities meeting state water and energy standards.",
-  "origin": "RELAYED",
-  "entry_state": "NOT_CHECKED",
-  "freshness": "LIVE",
-  "source": {
-    "kind": "secondary",
-    "citation": "Governor's office release Sept 22, 2026; CalMatters, KQED, NatLawReview (Sept 22-24, 2026)"
-  },
-  "notes": "CORRECTION: status proposed -> adopted.",
-  "confidence_note": "Primary instrument not read.",
-  "tags": [
-    "california",
-    "ceqa"
-  ],
-  "section": "",
-  "text": "",
-  "retrieved": "2026-09-27",
-  "operator": "MLawrence"
+ "id": "ca-sb887-environmental-review",
+ "jurisdiction": "us-ca-state",
+ "instrument": "SB 887 (2026), signed Sept 21, 2026",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "2026-09-21",
+ "summary": "Applies CEQA, notwithstanding any other law, to the issuance of entitlements related to the development and operation of a data center, and bars categorical exemptions for data center projects (with carve-outs for public, utility, telecom and university research facilities). Adds data centers meeting eleven conditions, including 4-hour zero-carbon storage at 100% of forecasted peak and 100% zero-carbon hourly supply within five years (75% new), to the environmental leadership fast track.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "SB 887, Chapter 439, Statutes of 2026 (chaptered text, LegiScan mirror)",
+  "url": "https://legiscan.com/CA/text/SB887/id/3459438"
+ },
+ "notes": "CORRECTION: status proposed -> adopted. CORRECTION: previous summary said it bars \"blanket\" CEQA exemptions, understating 21080.08. No size threshold: data center defined by function. Whether 21080.08 reaches otherwise ministerial approvals is a legal question not resolved here.",
+ "confidence_note": "Read in the chaptered text reproduced by LegiScan. Interpretation of 21080.08 scope not asserted.",
+ "tags": [
+  "california",
+  "ceqa"
+ ],
+ "section": "Pub. Res. Code 21061.6, 21080.08, 21084(f), 21180(b)(5)",
+ "text": "Notwithstanding any other law, this division shall apply to the issuance of entitlements related to the development and operation of a data center.",
+ "retrieved": "2026-09-29",
+ "operator": "MLawrence"
 }

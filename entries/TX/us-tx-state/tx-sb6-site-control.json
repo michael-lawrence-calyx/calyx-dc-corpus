@@ -1,26 +1,27 @@
 {
-  "id": "tx-sb6-site-control",
-  "jurisdiction": "us-tx-state",
-  "mechanism": "use-permission",
-  "instrument": "SB 6 (89th Legislature)",
-  "section": "",
-  "summary": "Directs the utility regulator to establish a methodology for large loads to demonstrate site control through an ownership interest, a lease, or another acceptable legal interest.",
-  "origin": "RELAYED",
-  "entry_state": "NOT_CHECKED",
-  "freshness": "LIVE",
-  "status": "adopted",
-  "effective": "2025-06-20",
-  "retrieved": "2026-09-14",
-  "source": {
-    "kind": "secondary",
-    "citation": "Law firm client publications on SB 6 implementation"
-  },
-  "notes": "Inverts the pattern found in four land use codes: land control required by the utility regulator rather than utility service required by the land use authority",
-  "tags": [
-    "site-control",
-    "inversion"
-  ],
-  "operator": "MLawrence",
-  "text": "",
-  "confidence_note": "Statute not read. Site control methodology as adopted NOT_CHECKED."
+ "id": "tx-sb6-site-control",
+ "jurisdiction": "us-tx-state",
+ "mechanism": "use-permission",
+ "instrument": "SB 6 (89th Legislature)",
+ "section": "Util. Code 37.0561(g)",
+ "summary": "Directs the utility regulator to establish a methodology for large loads to demonstrate site control through an ownership interest, a lease, or another acceptable legal interest.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "status": "adopted",
+ "effective": "2025-06-20",
+ "retrieved": "2026-09-29",
+ "source": {
+  "kind": "primary",
+  "citation": "Texas SB 6 (89th Leg., enrolled; effective June 20, 2025), LegiScan mirror",
+  "url": "https://legiscan.com/TX/text/SB6/id/3248460"
+ },
+ "notes": "Inverts the pattern found in four land use codes: land control required by the utility regulator rather than utility service required by the land use authority",
+ "tags": [
+  "site-control",
+  "inversion"
+ ],
+ "operator": "MLawrence",
+ "text": "The standards must include a method for a large load customer subject to Subsection (c) to demonstrate site control for the proposed load location through an ownership interest, lease, or another legal interest acceptable to the commission.",
+ "confidence_note": "Read in the enrolled text reproduced by LegiScan."
 }
