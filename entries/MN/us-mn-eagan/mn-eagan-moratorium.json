@@ -1,0 +1,26 @@
+{
+ "id": "mn-eagan-moratorium",
+ "jurisdiction": "us-mn-eagan",
+ "instrument": "Eagan data center moratorium",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "",
+ "summary": "Applies only to the expansion or new development of data centers using more than 20 MW of electricity or within 500 feet of residential uses; the city solicited comments from owners of existing and approved data centers on its scope.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "As quoted in QLevr counsel letter to Inver Grove Heights, May 19, 2026 (Larkin Hoffman)"
+ },
+ "notes": "",
+ "confidence_note": "Eagan ordinance not read; quoted in a primary document from a party to litigation.",
+ "tags": [
+  "20-mw",
+  "residential-buffer"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-30",
+ "operator": "MLawrence"
+}

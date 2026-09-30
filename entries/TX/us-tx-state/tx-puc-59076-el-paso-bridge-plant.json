@@ -1,0 +1,29 @@
+{
+ "id": "tx-puc-59076-el-paso-bridge-plant",
+ "jurisdiction": "us-tx-state",
+ "instrument": "Proposal for decision, PUC Docket 59076: El Paso Electric / Enchanted Rock McCloud bridge-to-power plant for Meta (Wurldwide)",
+ "mechanism": "generation",
+ "status": "recommended",
+ "effective": "",
+ "summary": "Two administrative law judges recommended approval of a 366 MW, $499.8 million plant of 813 modular gas generators on 31 acres, owned by El Paso Electric and operated by Enchanted Rock, running as an island for up to five years until transmission is built. Condition: El Paso Electric must shield other retail customers from the plant's capital and operating costs for its life. The judges questioned the lack of competitive bids. Commercial operation expected 2027 if approved.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Microgrid Knowledge / Energy Changemakers (Elisa Wood), Sept 27, 2026",
+  "url": "https://microgridsnow.com/texas-enchanted-rock-meta-bridge-to-power/"
+ },
+ "notes": "El Paso Electric is outside ERCOT. The Sept 21 letter ties the TCEQ pause to ERCOT's review but does not limit it to ERCOT territory; whether the plant's TCEQ air authorization is paused is TCEQ's determination.",
+ "confidence_note": "Proposal for decision not read (PUC interchange blocked automated access).",
+ "tags": [
+  "bridge-power",
+  "onsite-generation",
+  "cost-shield",
+  "non-ercot"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-30",
+ "operator": "MLawrence"
+}

@@ -1,8 +1,9 @@
 {
- "generated": "2026-09-29",
- "count": 328,
+ "generated": "2026-09-30",
+ "count": 346,
  "states": [
   "AK",
+  "AL",
   "AR",
   "AZ",
   "CA",
@@ -15,6 +16,7 @@
   "IL",
   "IN",
   "KS",
+  "KY",
   "MA",
   "MD",
   "MI",
@@ -39,6 +41,7 @@
   "VA",
   "WA",
   "WI",
+  "WY",
   "XX"
  ],
  "jurisdictions": [
@@ -59,15 +62,20 @@
   "City of Buffalo",
   "City of Calexico",
   "City of Charlotte",
+  "City of Cheyenne",
   "City of Chicago",
   "City of Dearborn",
+  "City of Eagan",
   "City of Federal Way",
+  "City of Foley",
   "City of Fort Wayne",
+  "City of Fort Worth",
   "City of Galesburg",
   "City of Hayward",
   "City of Inver Grove Heights",
   "City of Kalamazoo",
   "City of Kirksville",
+  "City of London",
   "City of North Port",
   "City of Oakland",
   "City of Pocatello",
@@ -75,6 +83,7 @@
   "City of Reading",
   "City of Red Oak",
   "City of Riverbank",
+  "City of Saginaw",
   "City of Salem",
   "City of Statesboro",
   "City of Tulsa",
@@ -82,6 +91,7 @@
   "Cle Elum",
   "Clean Water Services",
   "Commonwealth of Massachusetts",
+  "Commonwealth of Pennsylvania",
   "Commonwealth of Virginia",
   "De Soto",
   "DeKalb County",
@@ -106,6 +116,7 @@
   "Greenwood County",
   "Hawaii",
   "Hawaii County",
+  "Hazle Township",
   "Hill County",
   "Hillsboro",
   "Hood County",
@@ -116,6 +127,7 @@
   "Kershaw County",
   "Kittitas County",
   "Laurens County",
+  "Leavenworth County",
   "Lee County and City of Sanford",
   "Loudoun County",
   "Lycoming County",
@@ -214,19 +226,10 @@
  "by_origin": {
   "ASSERTED": 1,
   "DERIVED": 1,
-  "OBSERVED": 113,
-  "RELAYED": 213
+  "OBSERVED": 117,
+  "RELAYED": 227
  },
  "upcoming": [
-  {
-   "date": "2026-09-29",
-   "event": "Buffalo Common Council vote on two-year data center ban",
-   "url": "https://www.wgrz.com/article/news/local/buffalo/two-year-data-center-ban-in-buffalo-expected-to-pass-common-council-next-tuesday/71-cb231595-32af-4c96-ad1b-4b07c50de223",
-   "basis": "reported",
-   "id": "ny-buffalo-ban-proposal",
-   "state": "NY",
-   "jurisdiction_name": "City of Buffalo"
-  },
   {
    "date": "2026-10-06",
    "event": "Oakland City Council, File 27-0050: urgency interim ordinance (Gov. Code 65858) moratorium on data center entitlements",
@@ -253,6 +256,24 @@
    "id": "nc-raleigh-10000-sqft-threshold",
    "state": "NC",
    "jurisdiction_name": "Raleigh"
+  },
+  {
+   "date": "2026-10-08",
+   "event": "Texas PUC large-load interconnection rule (16 TAC \u00a7 25.194) takes effect",
+   "url": "https://www.whitecase.com/insight-alert/puct-sets-financial-commitments-data-center-interconnection-governor-pauses-permit",
+   "basis": "reported",
+   "id": "tx-25194-interconnection-fee",
+   "state": "TX",
+   "jurisdiction_name": "Public Utility Commission of Texas"
+  },
+  {
+   "date": "2026-10-12",
+   "event": "ERCOT data center community-impact RFI responses due (25 MW+ developers)",
+   "url": "https://www.ercot.com/about/legal/data-center-impact-rfi",
+   "basis": "document",
+   "id": "tx-ercot-state-community-impact-rfi",
+   "state": "TX",
+   "jurisdiction_name": "State of Texas"
   },
   {
    "date": "2026-10-13",
@@ -307,6 +328,15 @@
    "id": "ar-pulaski-county-conditional-use-ordinance",
    "state": "AR",
    "jurisdiction_name": "Pulaski County"
+  },
+  {
+   "date": "2026-11-03",
+   "event": "Fort Worth Data Center and Infrastructure Commission report expected",
+   "url": "https://www.nbcdfw.com/news/local/fort-worth-city-council-outlines-process-for-data-center-regulation-amid-public-pushback/4061229/",
+   "basis": "reported",
+   "id": "tx-fort-worth-moratorium-process",
+   "state": "TX",
+   "jurisdiction_name": "City of Fort Worth"
   },
   {
    "date": "2026-11-05",
@@ -486,6 +516,36 @@
    "state": "AK",
    "jurisdiction_name": "Alaska",
    "_path": "entries/AK/us-ak-state/ak-stak-energy-campus-north-slope.json"
+  },
+  {
+   "id": "al-foley-moratorium",
+   "jurisdiction": "us-al-foley",
+   "instrument": "Foley six-month moratorium on data center applications",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-09-08",
+   "summary": "City Council approved a six-month moratorium on data center applications (Sept 2026); no data center had been proposed.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "WALA Fox 10, Sept 9, 2026",
+    "url": "https://www.fox10tv.com/2026/09/09/foley-approves-6-month-data-center-moratorium/"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium",
+    "preemptive"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "AL",
+   "jurisdiction_name": "City of Foley",
+   "_path": "entries/AL/us-al-foley/al-foley-moratorium.json"
   },
   {
    "id": "ar-pulaski-county-conditional-use-ordinance",
@@ -3055,6 +3115,36 @@
    "_path": "entries/IL/us-il-galesburg/il-galesburg-moratorium.json"
   },
   {
+   "id": "il-mattoon-21780-sqft-definition",
+   "jurisdiction": "us-il-mattoon",
+   "instrument": "Mattoon moratorium scope (Sept 1, 2026)",
+   "mechanism": "definition",
+   "status": "adopted",
+   "effective": "2026-09-01",
+   "summary": "The moratorium applies to new data center developments larger than 21,780 square feet (about half an acre) within city limits and the area up to 1.5 miles outside where the city has zoning authority. Existing businesses that may meet the definition continue operating.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Mattoon news release, Sept 3, 2026",
+    "url": "https://mattoon.illinois.gov/city-news/city-council-passes-data-center-moratorium/"
+   },
+   "notes": "",
+   "confidence_note": "Read on the city's release; resolution text not read.",
+   "tags": [
+    "square-footage",
+    "extraterritorial"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "IL",
+   "jurisdiction_name": "Mattoon",
+   "_path": "entries/IL/us-il-mattoon/il-mattoon-21780-sqft-definition.json"
+  },
+  {
    "id": "il-mattoon-auto-renewing-pause",
    "jurisdiction": "us-il-mattoon",
    "instrument": "Mattoon resolution pausing data center development",
@@ -3448,6 +3538,36 @@
    "_path": "entries/KS/us-ks-de-soto/ks-de-soto-m1-permitted-use.json"
   },
   {
+   "id": "ks-leavenworth-county-moratorium",
+   "jurisdiction": "us-ks-leavenworth-county",
+   "instrument": "Leavenworth County moratoria on data center and battery storage applications",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "summary": "County commissioners imposed a moratorium on new applications for data centers and a separate moratorium on battery energy storage (reported Sept 3, 2026).",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Leavenworth Times via Kansas Press, Sept 3, 2026",
+    "url": "https://kspress.com/news/2026/09/03/county-imposes-new-data-center-moratorium"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium",
+    "bess"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "KS",
+   "jurisdiction_name": "Leavenworth County",
+   "_path": "entries/KS/us-ks-leavenworth-county/ks-leavenworth-county-moratorium.json"
+  },
+  {
    "id": "ks-kcc-evergy-llps-tariff",
    "jurisdiction": "us-ks-state",
    "instrument": "KCC Docket 25-EKME-315-TAR, Evergy Large Load Power Service tariff (approved Nov 6, 2025)",
@@ -3477,6 +3597,34 @@
    "state": "KS",
    "jurisdiction_name": "Kansas",
    "_path": "entries/KS/us-ks-state/ks-kcc-evergy-llps-tariff.json"
+  },
+  {
+   "id": "ky-london-moratorium",
+   "jurisdiction": "us-ky-london",
+   "instrument": "London two-year data center moratorium",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "summary": "City Council passed a two-year moratorium on data centers within city limits 5-1, in effect until Sept 30, 2028 and extendable by one year.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "WKYT via regional reporting (Aug 2026)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "KY",
+   "jurisdiction_name": "City of London",
+   "_path": "entries/KY/us-ky-london/ky-london-moratorium.json"
   },
   {
    "id": "ma-eo-658-clean-electricity-acp",
@@ -3995,6 +4143,34 @@
    "_path": "entries/MI/us-mi-port-huron-township/mi-port-huron-township-moratorium.json"
   },
   {
+   "id": "mi-saginaw-ordinance",
+   "jurisdiction": "us-mi-saginaw",
+   "instrument": "Saginaw data center ordinance",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-09-28",
+   "summary": "City Council unanimously approved a data center ordinance on Sept 28, 2026, after a directive in January and a moratorium running through the end of 2026.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Daily Notes, Sept 29, 2026 (digest)"
+   },
+   "notes": "",
+   "confidence_note": "Single secondary digest source; ordinance not read.",
+   "tags": [
+    "ordinance"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "MI",
+   "jurisdiction_name": "City of Saginaw",
+   "_path": "entries/MI/us-mi-saginaw/mi-saginaw-ordinance.json"
+  },
+  {
    "id": "mi-saline-township-settlement",
    "jurisdiction": "us-mi-saline-township",
    "instrument": "Settlement, Related Digital v. Saline Township",
@@ -4112,6 +4288,35 @@
    "_path": "entries/MI/us-mi-wixom/mi-wixom-ordinance-drafted-for-defensibility.json"
   },
   {
+   "id": "mn-eagan-moratorium",
+   "jurisdiction": "us-mn-eagan",
+   "instrument": "Eagan data center moratorium",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "summary": "Applies only to the expansion or new development of data centers using more than 20 MW of electricity or within 500 feet of residential uses; the city solicited comments from owners of existing and approved data centers on its scope.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "As quoted in QLevr counsel letter to Inver Grove Heights, May 19, 2026 (Larkin Hoffman)"
+   },
+   "notes": "",
+   "confidence_note": "Eagan ordinance not read; quoted in a primary document from a party to litigation.",
+   "tags": [
+    "20-mw",
+    "residential-buffer"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "MN",
+   "jurisdiction_name": "City of Eagan",
+   "_path": "entries/MN/us-mn-eagan/mn-eagan-moratorium.json"
+  },
+  {
    "id": "mn-inver-grove-heights-developer-litigation",
    "jurisdiction": "us-mn-inver-grove-heights",
    "instrument": "Developer litigation against the City of Inver Grove Heights over the data center moratorium",
@@ -4157,7 +4362,7 @@
     "citation": "City of Inver Grove Heights, Proposed Data Center updates page (city news flash, read Sept 28, 2026)",
     "url": "https://www.ighmn.gov/m/newsflash/Home/Detail/2896"
    },
-   "notes": "City pages give the site as 5842 Carmen Ave E and about 50,000 sq ft; the June 26 agenda item title reads 54,070 sq ft at 5890 Carmen Avenue; MPR and other reporting say 55,000 sq ft. All three recorded. Developer-stated load: 5 MW. A residents' EAW petition was reviewed by a third-party consultant; the city reports the project is exempt from an EAW. On Sept 28, 2026 the council approved the major site plan (reported; see mn-inver-grove-heights-site-plan-approval). The moratorium remains in place for any other data center until at least June 2027.",
+   "notes": "City pages give the site as 5842 Carmen Ave E and about 50,000 sq ft; the June 26 agenda item title reads 54,070 sq ft at 5890 Carmen Avenue; MPR and other reporting say 55,000 sq ft. All three recorded. Developer-stated load: 5 MW. A residents' EAW petition was reviewed by a third-party consultant; the city reports the project is exempt from an EAW. On Sept 28, 2026 the council approved the major site plan (reported; see mn-inver-grove-heights-site-plan-approval). The moratorium remains in place for any other data center until at least June 2027. Case No. 26-09SP: filed March 3, 2026, deemed complete March 17, 2026 (QLevr counsel letter, May 19, 2026; city litigation counsel memo, June 25, 2026). Applicant of record: Kimley-Horn & Associates as agent; developer QLevr LLC; owner FIG Ion Timber LLC. Counsel letter states a long-term lease requires substantial completion by Aug 1, 2027. Data centers were a permitted use in B-1, B-3, IOP, I-1 and I-2 districts (ordinance findings).",
    "confidence_note": "Read on the city's own update page; the ordinance text itself not read.",
    "tags": [
     "moratorium",
@@ -4166,7 +4371,7 @@
    ],
    "section": "",
    "text": "",
-   "retrieved": "2026-09-29",
+   "retrieved": "2026-09-30",
    "operator": "MLawrence",
    "state": "MN",
    "jurisdiction_name": "City of Inver Grove Heights",
@@ -4229,6 +4434,36 @@
    "state": "MN",
    "jurisdiction_name": "North Mankato",
    "_path": "entries/MN/us-mn-north-mankato/mn-north-mankato-moratorium.json"
+  },
+  {
+   "id": "mn-462-355-interim-ordinance-limit",
+   "jurisdiction": "us-mn-state",
+   "instrument": "Minn. Stat. \u00a7 462.355, subd. 4(d), as applied in the Inver Grove Heights interim ordinance",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "",
+   "summary": "An interim ordinance (moratorium) alone may not halt, delay or impede a subdivision with preliminary approval, nor unilaterally extend the \u00a7 15.99 review timelines for an application filed before the ordinance takes effect. Minnesota interim ordinances may run up to 12 months and cannot be used solely to delay or prevent a single project.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Inver Grove Heights, June 22/26, 2026 council packet, Item 7.D (interim ordinance text; litigation counsel memo; developer counsel letter)"
+   },
+   "notes": "",
+   "confidence_note": "Read in the ordinance text that restates the statute; the statute itself not read.",
+   "tags": [
+    "moratorium-limits",
+    "pending-applications",
+    "60-day-rule"
+   ],
+   "section": "Interim ordinance \u00a7 5",
+   "text": "nor may it unilaterally extend the timelines set forth in Minnesota Statutes, Section 15.99 with respect to any application filed prior to the effective date of the Ordinance",
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "MN",
+   "jurisdiction_name": "State of Minnesota",
+   "_path": "entries/MN/us-mn-state/mn-462-355-interim-ordinance-limit.json"
   },
   {
    "id": "mn-sixty-day-rule-auto-approval",
@@ -4879,15 +5114,16 @@
    "jurisdiction": "us-ny-buffalo",
    "instrument": "Proposed two-year data center ban, Buffalo Common Council",
    "mechanism": "use-permission",
-   "status": "proposed",
+   "status": "adopted",
    "effective": "",
-   "summary": "A proposed two-year ban on data centers showed enough council support at hearing to pass; the sponsor expects a possibly unanimous vote. Mayoral signature uncertain.",
+   "summary": "Common Council adopted as amended on Sept 29, 2026 a resolution calling for a two-year moratorium on new data center projects and no expansions of existing ones, and a nine-member task force, while the city updates zoning and property tax codes. Not yet binding: a local law drafted by Corporation Counsel is expected before the council in early October, with a formal vote to follow. The mayor's office is reviewing the resolution with Corporation Counsel.",
    "origin": "RELAYED",
    "entry_state": "NOT_CHECKED",
    "freshness": "LIVE",
    "source": {
     "kind": "secondary",
-    "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (WGRZ)"
+    "citation": "WIVB, WGRZ, WBEN (Sept 29-30, 2026)",
+    "url": "https://www.wivb.com/news/local-news/buffalo/step-forward-for-2-year-moratorium-on-new-buffalo-data-centers-not-a-done-deal-yet/"
    },
    "notes": "Buffalo News reports the moratorium would apply to data centers of 20 MW or more and include crypto-mining and blockchain facilities; resolution not read.  Corroborated: WKBW and Buffalo News both report the 20 MW threshold; six sponsors including Golombek (veto-proof); mayor's office says Corporation Counsel will review if passed. Resolution text not located.",
    "confidence_note": "Primary instrument not read.",
@@ -4897,14 +5133,8 @@
    ],
    "section": "",
    "text": "",
-   "retrieved": "2026-09-29",
+   "retrieved": "2026-09-30",
    "operator": "MLawrence",
-   "next": {
-    "date": "2026-09-29",
-    "event": "Buffalo Common Council vote on two-year data center ban",
-    "url": "https://www.wgrz.com/article/news/local/buffalo/two-year-data-center-ban-in-buffalo-expected-to-pass-common-council-next-tuesday/71-cb231595-32af-4c96-ad1b-4b07c50de223",
-    "basis": "reported"
-   },
    "state": "NY",
    "jurisdiction_name": "City of Buffalo",
    "_path": "entries/NY/us-ny-buffalo/ny-buffalo-ban-proposal.json"
@@ -6652,6 +6882,97 @@
    "_path": "entries/PA/us-pa-forward-township/pa-forward-township-misty-hollow.json"
   },
   {
+   "id": "pa-hazle-township-appeal-ruling",
+   "jurisdiction": "us-pa-hazle-township",
+   "instrument": "Luzerne County Court ruling on NP Hazleton Logistics appeal (May 2026)",
+   "mechanism": "litigation",
+   "status": "adopted",
+   "effective": "",
+   "summary": "Judge Lesa Gelb denied the developer's appeal, agreeing the project belongs before the township zoning hearing board as a special-exception application because the zoning ordinance does not address data centers.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Times Leader; Fox 56; Center Square; Food & Water Watch; Penn Capital-Star (Nov 2025-Sept 2026)",
+    "url": "https://www.timesleader.com/news/1744766/about:blank"
+   },
+   "notes": "",
+   "confidence_note": "Opinion not read.",
+   "tags": [
+    "litigation",
+    "special-exception"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "PA",
+   "jurisdiction_name": "Hazle Township",
+   "_path": "entries/PA/us-pa-hazle-township/pa-hazle-township-appeal-ruling.json"
+  },
+  {
+   "id": "pa-hazle-township-curative-amendment",
+   "jurisdiction": "us-pa-hazle-township",
+   "instrument": "Municipal curative amendment and 180-day pause on data center applications (June 8, 2026)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-06-08",
+   "summary": "Supervisors unanimously declared parts of the zoning ordinance invalid for not addressing data centers, triggering a 180-day period to draft a curative amendment for data centers and accessory uses, during which no one else may challenge the ordinance.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Times Leader; Fox 56; Center Square; Food & Water Watch; Penn Capital-Star (Nov 2025-Sept 2026)",
+    "url": "https://www.foodandwaterwatch.org/2026/06/09/hazle-township-pa-pauses-data-center-development-for-six-months/"
+   },
+   "notes": "",
+   "confidence_note": "Resolution not read; expiry (about early December 2026) is derived, not stated.",
+   "tags": [
+    "curative-amendment",
+    "fair-share",
+    "moratorium"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "PA",
+   "jurisdiction_name": "Hazle Township",
+   "_path": "entries/PA/us-pa-hazle-township/pa-hazle-township-curative-amendment.json"
+  },
+  {
+   "id": "pa-hazle-township-land-development-denial",
+   "jurisdiction": "us-pa-hazle-township",
+   "instrument": "Denial of NorthPoint land development application, Project Hazelnut (Nov 2025)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2025-11-14",
+   "summary": "The Board of Supervisors unanimously rejected NorthPoint's land development application for a 15-building data center campus on about 1,280 acres near the Humboldt Industrial Park, after objections that the project should first have gone to the zoning hearing board as a special exception.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Times Leader; Fox 56; Center Square; Food & Water Watch; Penn Capital-Star (Nov 2025-Sept 2026)",
+    "url": "https://www.foodandwaterwatch.org/2025/11/18/hazle-township-pa-unanimously-rejects-data-center-campus/"
+   },
+   "notes": "In Sept 2026 NorthPoint mailed households an offer tied to approval: a $165M package including a $45M resident grant fund ($10,000 per eligible household), a $15M community fund and $105M to the township (~$7M/yr for 15 years). An offer, not an instrument.",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "denial",
+    "special-exception"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "PA",
+   "jurisdiction_name": "Hazle Township",
+   "_path": "entries/PA/us-pa-hazle-township/pa-hazle-township-land-development-denial.json"
+  },
+  {
    "id": "pa-lycoming-county-curative-amendment",
    "jurisdiction": "us-pa-lycoming-county",
    "instrument": "Lycoming County draft curative amendment defining data centers",
@@ -6714,6 +7035,35 @@
    "state": "PA",
    "jurisdiction_name": "City of Reading",
    "_path": "entries/PA/us-pa-reading/pa-reading-zoning-amendment.json"
+  },
+  {
+   "id": "pa-sb1359-statewide-pause",
+   "jurisdiction": "us-pa-state",
+   "instrument": "Senate Bill 1359 (Sen. Muth), statewide pause on data center projects",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Introduced June 4, 2026, calling for a statewide pause on data center projects.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Penn Capital-Star / News From The States, 2026"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "statewide",
+    "moratorium"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "PA",
+   "jurisdiction_name": "Commonwealth of Pennsylvania",
+   "_path": "entries/PA/us-pa-state/pa-sb1359-statewide-pause.json"
   },
   {
    "id": "sc-clarendon-county-moratorium",
@@ -7048,6 +7398,73 @@
    "_path": "entries/TX/us-tx-ercot/tx-queue-audit-batch-zero-suspension.json"
   },
   {
+   "id": "tx-fort-worth-chapter14-grid-approval",
+   "jurisdiction": "us-tx-fort-worth",
+   "instrument": "Ordinance amending City Code Chapter 14: proof of PUC and ERCOT approvals for data center applications (Aug 11, 2026)",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-08-11",
+   "summary": "Passed 10-1 on Aug 11, 2026: new data centers seeking to develop within city limits must provide proof of all permits and approvals required by the PUC and ERCOT in order to file for a development permit, at multiple stages of the process. Does not apply in the city's extraterritorial jurisdiction.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Fort Worth Report; KERA; NBC 5; DCD; The Business Press (Aug 12-14, 2026)",
+    "url": "https://fortworthbusiness.com/government/city-advances-next-steps-in-data-center-regulation-development-process/"
+   },
+   "notes": "",
+   "confidence_note": "Ordinance text not read; ETJ exemption per the Assistant City Manager as reported.",
+   "tags": [
+    "grid-approval",
+    "state-overlay",
+    "etj-exemption"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "TX",
+   "jurisdiction_name": "City of Fort Worth",
+   "_path": "entries/TX/us-tx-fort-worth/tx-fort-worth-chapter14-grid-approval.json"
+  },
+  {
+   "id": "tx-fort-worth-moratorium-process",
+   "jurisdiction": "us-tx-fort-worth",
+   "instrument": "Fort Worth 90-day data center moratorium (process initiated Aug 11, 2026)",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Council voted unanimously Aug 11 to begin the state-required process for a 90-day moratorium on new data centers, extendable to 180 days under Texas law; not in effect until hearings and votes are complete. A final vote is reported for around February, running to May 17. Projects with zoning applications filed beforehand are reported exempt. A Data Center and Infrastructure Commission is expected to report Nov 3.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Fort Worth Report; KERA; NBC 5; DCD; The Business Press (Aug 12-14, 2026)",
+    "url": "https://www.nbcdfw.com/news/local/fort-worth-city-council-outlines-process-for-data-center-regulation-amid-public-pushback/4061229/"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium",
+    "pending"
+   ],
+   "section": "",
+   "text": "",
+   "next": {
+    "date": "2026-11-03",
+    "event": "Fort Worth Data Center and Infrastructure Commission report expected",
+    "url": "https://www.nbcdfw.com/news/local/fort-worth-city-council-outlines-process-for-data-center-regulation-amid-public-pushback/4061229/",
+    "basis": "reported"
+   },
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "TX",
+   "jurisdiction_name": "City of Fort Worth",
+   "_path": "entries/TX/us-tx-fort-worth/tx-fort-worth-moratorium-process.json"
+  },
+  {
    "id": "tx-hill-county-rcm-hill-litigation",
    "jurisdiction": "us-tx-hill-county",
    "instrument": "RCM Hill, LLC v. Hill County, Texas (42 U.S.C. 1983)",
@@ -7145,12 +7562,12 @@
    "instrument": "16 TAC \u00a7 25.194 (draft) and SB 6 statutory deadlines",
    "section": "",
    "mechanism": "rate-allocation",
-   "summary": "Adoption of the large load interconnection rule is anticipated in September 2026. December 31, 2026 is the statutory deadline for the transmission cost review, not for adoption of the rule.",
+   "summary": "The large load interconnection rule was adopted Sept 18, 2026 (Project No. 58481), effective Oct 8, 2026; see tx-25194-interconnection-fee. December 31, 2026 remains the statutory deadline for the transmission cost review.",
    "origin": "RELAYED",
    "entry_state": "NOT_CHECKED",
    "freshness": "LIVE",
-   "status": "draft",
-   "retrieved": "2026-09-18",
+   "status": "adopted",
+   "retrieved": "2026-09-30",
    "source": {
     "kind": "secondary",
     "citation": "PUCT Project No. 58317 coverage; law firm client publications on SB 6 implementation"
@@ -7180,12 +7597,12 @@
    "entry_state": "NOT_CHECKED",
    "freshness": "LIVE",
    "status": "draft",
-   "retrieved": "2026-09-18",
+   "retrieved": "2026-09-30",
    "source": {
     "kind": "secondary",
     "citation": "Law firm client publications on the draft rule, March 2026"
    },
-   "notes": "Duplicate-service-request disclosure addresses queue inflation directly: a single project applying at multiple interconnection points is the mechanism that makes published pipeline figures unreadable. If adopted as drafted, this would be the first requirement identified anywhere that a developer state on the record whether it has applied elsewhere for the same load. Site control by deed or option is separately a county recorder record.",
+   "notes": "Duplicate-service-request disclosure addresses queue inflation directly: a single project applying at multiple interconnection points is the mechanism that makes published pipeline figures unreadable. If adopted as drafted, this would be the first requirement identified anywhere that a developer state on the record whether it has applied elsewhere for the same load. Site control by deed or option is separately a county recorder record. The rule was adopted Sept 18, 2026; whether this draft provision survived unchanged is not confirmed. SB 6 itself (Util. Code 37.0561(d)) requires duplicate-request disclosure.",
    "confidence_note": "Draft rule not read. Whether the provision survives adoption is NOT_CHECKED, and whether any disclosure becomes public or stays with the transmission provider is unestablished.",
    "tags": [
     "duplicate-requests",
@@ -7202,26 +7619,34 @@
    "id": "tx-25194-interconnection-fee",
    "jurisdiction": "us-tx-puct",
    "mechanism": "rate-allocation",
-   "instrument": "16 TAC \u00a7 25.194 (draft)",
+   "instrument": "16 TAC \u00a7 25.194, large load interconnection standards (PUCT Project No. 58481), adopted Sept 18, 2026",
    "section": "",
-   "summary": "Draft rule for loads of 75 MW or greater proposes a security deposit and interconnection fee of $50,000 per megawatt, plus a flat study fee of at least $100,000.",
+   "summary": "Adopted Sept 18, 2026, effective Oct 8, 2026: interconnection standards for loads of 75 MW or more at a single site in ERCOT. The final rule dropped the proposed non-refundable interconnection fee, keeping a flat study fee of $100,000 and requiring financial security of $50,000 per MW before interconnection studies.",
    "origin": "RELAYED",
    "entry_state": "NOT_CHECKED",
    "freshness": "LIVE",
-   "status": "draft",
-   "retrieved": "2026-09-14",
+   "status": "adopted",
+   "retrieved": "2026-09-30",
    "source": {
     "kind": "secondary",
-    "citation": "PUCT publication of draft rule, March 12 2026"
+    "citation": "White & Case client alert (Sept 2026); Utility Dive (Sept 2026); interconnection.fyi",
+    "url": "https://www.whitecase.com/insight-alert/puct-sets-financial-commitments-data-center-interconnection-governor-pauses-permit"
    },
-   "notes": "Final SB 6 large-load rule targeted for December 31, 2026. Stated purpose includes reducing duplicate and never-built queue requests",
+   "notes": "Final SB 6 large-load rule targeted for December 31, 2026. Stated purpose includes reducing duplicate and never-built queue requests SUPERSEDES the March 12, 2026 draft ($50,000/MW security deposit and fee). Threshold wording: the rule is reported as \"equal to or exceeding\" 75 MW; SB 6 (Util. Code 37.0561(c)) says total load at a single site would \"exceed\" 75 MW.",
    "tags": [
     "50k-per-MW",
     "queue"
    ],
    "operator": "MLawrence",
    "text": "",
-   "confidence_note": "Not finally adopted. Figure is provisional; final rule targeted December 31, 2026.",
+   "confidence_note": "Adopted rule text and order not read. Security is reported as refundable; the proposed non-refundable fee was eliminated.",
+   "effective": "2026-10-08",
+   "next": {
+    "date": "2026-10-08",
+    "event": "Texas PUC large-load interconnection rule (16 TAC \u00a7 25.194) takes effect",
+    "url": "https://www.whitecase.com/insight-alert/puct-sets-financial-commitments-data-center-interconnection-governor-pauses-permit",
+    "basis": "reported"
+   },
    "state": "TX",
    "jurisdiction_name": "Public Utility Commission of Texas",
    "_path": "entries/TX/us-tx-puct/tx-25194-interconnection-fee.json"
@@ -7348,6 +7773,75 @@
    "_path": "entries/TX/us-tx-red-oak/tx-red-oak-compass-campus.json"
   },
   {
+   "id": "tx-ag-water-survey-investigation",
+   "jurisdiction": "us-tx-state",
+   "instrument": "Texas Attorney General investigation of data center developments that did not answer the state water-use survey",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-09-24",
+   "summary": "The Attorney General is reported to be investigating data center developments across 18 counties that did not respond to the state's water-use survey. No end date or exit criteria are published.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Foley & Lardner client alert (Sept 24, 2026) as cited in secondary coverage",
+    "url": "https://www.foley.com/?p=129045"
+   },
+   "notes": "",
+   "confidence_note": "Investigation notices not read; scope and county list not confirmed.",
+   "tags": [
+    "water-survey",
+    "enforcement"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "TX",
+   "jurisdiction_name": "State of Texas",
+   "_path": "entries/TX/us-tx-state/tx-ag-water-survey-investigation.json"
+  },
+  {
+   "id": "tx-ercot-state-community-impact-rfi",
+   "jurisdiction": "us-tx-state",
+   "instrument": "ERCOT Request for Information Regarding Data Center State and Community Impacts",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-09-14",
+   "summary": "Per the Governor's Aug 3, 2026 letter, ERCOT requires all developers of data centers of 25 MW or more pursuing interconnection to the ERCOT system to submit information on public financial assistance and tax benefits, grid dependency and on-site generation, water sources and consumption, cooling, noise, light and traffic, and ownership. Deadline Oct 12, 2026; ERCOT and the PUCT will publish a report on or before Dec 10, 2026. Water questions were developed with the Water Development Board under the Governor's Sept 14 letter.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "ERCOT, Data Center Impact RFI page (read Sept 30, 2026)",
+    "url": "https://www.ercot.com/about/legal/data-center-impact-rfi"
+   },
+   "notes": "Report due on or before Dec 10, 2026. RFI questions v1.0 dated Sept 18, 2026; attestation form required.",
+   "confidence_note": "",
+   "tags": [
+    "25-mw",
+    "rfi",
+    "community-impact",
+    "water",
+    "noise"
+   ],
+   "section": "",
+   "text": "ERCOT is issuing an RFI to obtain this information from all developers of data centers 25 MW or more that are pursuing interconnection to the ERCOT System.",
+   "next": {
+    "date": "2026-10-12",
+    "event": "ERCOT data center community-impact RFI responses due (25 MW+ developers)",
+    "url": "https://www.ercot.com/about/legal/data-center-impact-rfi",
+    "basis": "document"
+   },
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "TX",
+   "jurisdiction_name": "State of Texas",
+   "_path": "entries/TX/us-tx-state/tx-ercot-state-community-impact-rfi.json"
+  },
+  {
    "operator": "MLawrence",
    "section": "",
    "text": "",
@@ -7413,6 +7907,38 @@
    "state": "TX",
    "jurisdiction_name": "State of Texas",
    "_path": "entries/TX/us-tx-state/tx-governor-sep21-tceq-permit-halt.json"
+  },
+  {
+   "id": "tx-puc-59076-el-paso-bridge-plant",
+   "jurisdiction": "us-tx-state",
+   "instrument": "Proposal for decision, PUC Docket 59076: El Paso Electric / Enchanted Rock McCloud bridge-to-power plant for Meta (Wurldwide)",
+   "mechanism": "generation",
+   "status": "recommended",
+   "effective": "",
+   "summary": "Two administrative law judges recommended approval of a 366 MW, $499.8 million plant of 813 modular gas generators on 31 acres, owned by El Paso Electric and operated by Enchanted Rock, running as an island for up to five years until transmission is built. Condition: El Paso Electric must shield other retail customers from the plant's capital and operating costs for its life. The judges questioned the lack of competitive bids. Commercial operation expected 2027 if approved.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Microgrid Knowledge / Energy Changemakers (Elisa Wood), Sept 27, 2026",
+    "url": "https://microgridsnow.com/texas-enchanted-rock-meta-bridge-to-power/"
+   },
+   "notes": "El Paso Electric is outside ERCOT. The Sept 21 letter ties the TCEQ pause to ERCOT's review but does not limit it to ERCOT territory; whether the plant's TCEQ air authorization is paused is TCEQ's determination.",
+   "confidence_note": "Proposal for decision not read (PUC interchange blocked automated access).",
+   "tags": [
+    "bridge-power",
+    "onsite-generation",
+    "cost-shield",
+    "non-ercot"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "TX",
+   "jurisdiction_name": "State of Texas",
+   "_path": "entries/TX/us-tx-state/tx-puc-59076-el-paso-bridge-plant.json"
   },
   {
    "id": "tx-sb6-backup-generation-curtailment",
@@ -7763,6 +8289,35 @@
    "_path": "entries/US/us-federal/federal-ferc-proposed-large-load-definition.json"
   },
   {
+   "id": "federal-grid-savings-act",
+   "jurisdiction": "us-federal",
+   "instrument": "GRID Savings Act (Sen. Heinrich)",
+   "mechanism": "utility-service",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Would give FERC rulemaking authority over large loads above 150 MW and require large-load customers to pay for the facilities needed to connect them to the grid. Unanimous-consent request blocked Sept 17, 2026.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Roll Call, Sept 17, 2026; Fox News wire coverage"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "150-mw",
+    "ferc"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "US",
+   "jurisdiction_name": "United States (federal)",
+   "_path": "entries/US/us-federal/federal-grid-savings-act.json"
+  },
+  {
    "id": "federal-naacp-v-xai-southaven",
    "jurisdiction": "us-federal",
    "instrument": "NAACP v. xAI and MZX Tech, No. 3:26-cv-00074-MPM-JMV (N.D. Miss.)",
@@ -7797,7 +8352,7 @@
    "operator": "MLawrence",
    "section": "",
    "text": "",
-   "retrieved": "2026-09-23",
+   "retrieved": "2026-09-30",
    "id": "us-house-ratepayer-protection-act",
    "jurisdiction": "us-federal",
    "instrument": "Ratepayer Protection Act, as passed by the U.S. House of Representatives",
@@ -7805,20 +8360,21 @@
    "status": "proposed",
    "effective": "2026-09-16",
    "freshness": "LIVE",
-   "summary": "The House passed the Ratepayer Protection Act 417-3 on September 16, 2026, directing states to consider standards ensuring that data centers cover their own grid-upgrade costs.",
+   "summary": "H.R. 9340 passed the House 417-3 under suspension of the rules on Sept 16, 2026. It directs state regulators to consider standards so data centers of at least 100 MW at one site or campus pay the incremental cost of grid upgrades, with rates paid before construction. Senate companion S. 5028 (Sen. Husted); unanimous consent blocked Sept 17; a Senate test vote was signaled for the week of Sept 28.",
    "notes": "Senate action unknown. The vote margin is notable given the contested nature of the subject at state and local level.",
-   "confidence_note": "Relayed; the bill text and roll call have not been read. Confirm the bill number and Senate status before citing.",
+   "confidence_note": "Vote record read; bill text not read. 100 MW threshold and pre-construction payment reported (Deseret News, Benton).",
    "source": {
-    "kind": "secondary",
-    "citation": "Congressional reporting, September 2026"
+    "kind": "primary",
+    "citation": "House Clerk, Roll Call 312 (H.R. 9340), Sept 16, 2026",
+    "url": "https://clerk.house.gov/Votes/2026312?Page=1"
    },
    "tags": [
     "federal",
     "417-3",
     "cost-allocation"
    ],
-   "origin": "RELAYED",
-   "entry_state": "NOT_CHECKED",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
    "state": "US",
    "jurisdiction_name": "United States (federal)",
    "_path": "entries/US/us-federal/us-house-ratepayer-protection-act.json"
@@ -10354,6 +10910,35 @@
    "state": "WI",
    "jurisdiction_name": "We Energies (WEPCO)",
    "_path": "entries/WI/us-wi-we-energies/wi-we-energies-very-large-customer-tariff.json"
+  },
+  {
+   "id": "wy-cheyenne-cox-ranch-annexation",
+   "jurisdiction": "us-wy-cheyenne",
+   "instrument": "Annexation and zoning of the Cox Ranch property for SkyBox Data Centers and ViaWest Group",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-09-28",
+   "summary": "Council voted 8-2 on Sept 28, 2026 to annex and zone about 1,259.91 acres for a data center campus.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Strisker Data Centers Daily Notes, Sept 29, 2026 (digest)"
+   },
+   "notes": "",
+   "confidence_note": "Single secondary digest source; ordinance not read.",
+   "tags": [
+    "annexation",
+    "approval"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-09-30",
+   "operator": "MLawrence",
+   "state": "WY",
+   "jurisdiction_name": "City of Cheyenne",
+   "_path": "entries/WY/us-wy-cheyenne/wy-cheyenne-cox-ranch-annexation.json"
   },
   {
    "id": "pjm-iras-large-load-filing",

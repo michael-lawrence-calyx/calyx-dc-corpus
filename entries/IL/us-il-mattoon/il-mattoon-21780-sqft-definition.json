@@ -1,0 +1,27 @@
+{
+ "id": "il-mattoon-21780-sqft-definition",
+ "jurisdiction": "us-il-mattoon",
+ "instrument": "Mattoon moratorium scope (Sept 1, 2026)",
+ "mechanism": "definition",
+ "status": "adopted",
+ "effective": "2026-09-01",
+ "summary": "The moratorium applies to new data center developments larger than 21,780 square feet (about half an acre) within city limits and the area up to 1.5 miles outside where the city has zoning authority. Existing businesses that may meet the definition continue operating.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "City of Mattoon news release, Sept 3, 2026",
+  "url": "https://mattoon.illinois.gov/city-news/city-council-passes-data-center-moratorium/"
+ },
+ "notes": "",
+ "confidence_note": "Read on the city's release; resolution text not read.",
+ "tags": [
+  "square-footage",
+  "extraterritorial"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-30",
+ "operator": "MLawrence"
+}

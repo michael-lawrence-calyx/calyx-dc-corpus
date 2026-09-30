@@ -1,0 +1,36 @@
+{
+ "id": "tx-ercot-state-community-impact-rfi",
+ "jurisdiction": "us-tx-state",
+ "instrument": "ERCOT Request for Information Regarding Data Center State and Community Impacts",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "2026-09-14",
+ "summary": "Per the Governor's Aug 3, 2026 letter, ERCOT requires all developers of data centers of 25 MW or more pursuing interconnection to the ERCOT system to submit information on public financial assistance and tax benefits, grid dependency and on-site generation, water sources and consumption, cooling, noise, light and traffic, and ownership. Deadline Oct 12, 2026; ERCOT and the PUCT will publish a report on or before Dec 10, 2026. Water questions were developed with the Water Development Board under the Governor's Sept 14 letter.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "ERCOT, Data Center Impact RFI page (read Sept 30, 2026)",
+  "url": "https://www.ercot.com/about/legal/data-center-impact-rfi"
+ },
+ "notes": "Report due on or before Dec 10, 2026. RFI questions v1.0 dated Sept 18, 2026; attestation form required.",
+ "confidence_note": "",
+ "tags": [
+  "25-mw",
+  "rfi",
+  "community-impact",
+  "water",
+  "noise"
+ ],
+ "section": "",
+ "text": "ERCOT is issuing an RFI to obtain this information from all developers of data centers 25 MW or more that are pursuing interconnection to the ERCOT System.",
+ "next": {
+  "date": "2026-10-12",
+  "event": "ERCOT data center community-impact RFI responses due (25 MW+ developers)",
+  "url": "https://www.ercot.com/about/legal/data-center-impact-rfi",
+  "basis": "document"
+ },
+ "retrieved": "2026-09-30",
+ "operator": "MLawrence"
+}

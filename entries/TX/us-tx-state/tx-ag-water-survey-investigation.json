@@ -1,0 +1,27 @@
+{
+ "id": "tx-ag-water-survey-investigation",
+ "jurisdiction": "us-tx-state",
+ "instrument": "Texas Attorney General investigation of data center developments that did not answer the state water-use survey",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "2026-09-24",
+ "summary": "The Attorney General is reported to be investigating data center developments across 18 counties that did not respond to the state's water-use survey. No end date or exit criteria are published.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Foley & Lardner client alert (Sept 24, 2026) as cited in secondary coverage",
+  "url": "https://www.foley.com/?p=129045"
+ },
+ "notes": "",
+ "confidence_note": "Investigation notices not read; scope and county list not confirmed.",
+ "tags": [
+  "water-survey",
+  "enforcement"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-30",
+ "operator": "MLawrence"
+}

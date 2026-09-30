@@ -1,0 +1,33 @@
+{
+ "id": "tx-fort-worth-moratorium-process",
+ "jurisdiction": "us-tx-fort-worth",
+ "instrument": "Fort Worth 90-day data center moratorium (process initiated Aug 11, 2026)",
+ "mechanism": "use-permission",
+ "status": "proposed",
+ "effective": "",
+ "summary": "Council voted unanimously Aug 11 to begin the state-required process for a 90-day moratorium on new data centers, extendable to 180 days under Texas law; not in effect until hearings and votes are complete. A final vote is reported for around February, running to May 17. Projects with zoning applications filed beforehand are reported exempt. A Data Center and Infrastructure Commission is expected to report Nov 3.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Fort Worth Report; KERA; NBC 5; DCD; The Business Press (Aug 12-14, 2026)",
+  "url": "https://www.nbcdfw.com/news/local/fort-worth-city-council-outlines-process-for-data-center-regulation-amid-public-pushback/4061229/"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "moratorium",
+  "pending"
+ ],
+ "section": "",
+ "text": "",
+ "next": {
+  "date": "2026-11-03",
+  "event": "Fort Worth Data Center and Infrastructure Commission report expected",
+  "url": "https://www.nbcdfw.com/news/local/fort-worth-city-council-outlines-process-for-data-center-regulation-amid-public-pushback/4061229/",
+  "basis": "reported"
+ },
+ "retrieved": "2026-09-30",
+ "operator": "MLawrence"
+}

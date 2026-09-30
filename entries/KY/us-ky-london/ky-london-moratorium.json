@@ -1,0 +1,25 @@
+{
+ "id": "ky-london-moratorium",
+ "jurisdiction": "us-ky-london",
+ "instrument": "London two-year data center moratorium",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "",
+ "summary": "City Council passed a two-year moratorium on data centers within city limits 5-1, in effect until Sept 30, 2028 and extendable by one year.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "WKYT via regional reporting (Aug 2026)"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "moratorium"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-30",
+ "operator": "MLawrence"
+}

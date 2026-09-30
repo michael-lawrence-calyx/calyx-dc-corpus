@@ -1,0 +1,27 @@
+{
+ "id": "pa-hazle-township-appeal-ruling",
+ "jurisdiction": "us-pa-hazle-township",
+ "instrument": "Luzerne County Court ruling on NP Hazleton Logistics appeal (May 2026)",
+ "mechanism": "litigation",
+ "status": "adopted",
+ "effective": "",
+ "summary": "Judge Lesa Gelb denied the developer's appeal, agreeing the project belongs before the township zoning hearing board as a special-exception application because the zoning ordinance does not address data centers.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Times Leader; Fox 56; Center Square; Food & Water Watch; Penn Capital-Star (Nov 2025-Sept 2026)",
+  "url": "https://www.timesleader.com/news/1744766/about:blank"
+ },
+ "notes": "",
+ "confidence_note": "Opinion not read.",
+ "tags": [
+  "litigation",
+  "special-exception"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-30",
+ "operator": "MLawrence"
+}

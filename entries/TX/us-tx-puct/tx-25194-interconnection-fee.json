@@ -1,25 +1,33 @@
 {
-  "id": "tx-25194-interconnection-fee",
-  "jurisdiction": "us-tx-puct",
-  "mechanism": "rate-allocation",
-  "instrument": "16 TAC \u00a7 25.194 (draft)",
-  "section": "",
-  "summary": "Draft rule for loads of 75 MW or greater proposes a security deposit and interconnection fee of $50,000 per megawatt, plus a flat study fee of at least $100,000.",
-  "origin": "RELAYED",
-  "entry_state": "NOT_CHECKED",
-  "freshness": "LIVE",
-  "status": "draft",
-  "retrieved": "2026-09-14",
-  "source": {
-    "kind": "secondary",
-    "citation": "PUCT publication of draft rule, March 12 2026"
-  },
-  "notes": "Final SB 6 large-load rule targeted for December 31, 2026. Stated purpose includes reducing duplicate and never-built queue requests",
-  "tags": [
-    "50k-per-MW",
-    "queue"
-  ],
-  "operator": "MLawrence",
-  "text": "",
-  "confidence_note": "Not finally adopted. Figure is provisional; final rule targeted December 31, 2026."
+ "id": "tx-25194-interconnection-fee",
+ "jurisdiction": "us-tx-puct",
+ "mechanism": "rate-allocation",
+ "instrument": "16 TAC \u00a7 25.194, large load interconnection standards (PUCT Project No. 58481), adopted Sept 18, 2026",
+ "section": "",
+ "summary": "Adopted Sept 18, 2026, effective Oct 8, 2026: interconnection standards for loads of 75 MW or more at a single site in ERCOT. The final rule dropped the proposed non-refundable interconnection fee, keeping a flat study fee of $100,000 and requiring financial security of $50,000 per MW before interconnection studies.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "status": "adopted",
+ "retrieved": "2026-09-30",
+ "source": {
+  "kind": "secondary",
+  "citation": "White & Case client alert (Sept 2026); Utility Dive (Sept 2026); interconnection.fyi",
+  "url": "https://www.whitecase.com/insight-alert/puct-sets-financial-commitments-data-center-interconnection-governor-pauses-permit"
+ },
+ "notes": "Final SB 6 large-load rule targeted for December 31, 2026. Stated purpose includes reducing duplicate and never-built queue requests SUPERSEDES the March 12, 2026 draft ($50,000/MW security deposit and fee). Threshold wording: the rule is reported as \"equal to or exceeding\" 75 MW; SB 6 (Util. Code 37.0561(c)) says total load at a single site would \"exceed\" 75 MW.",
+ "tags": [
+  "50k-per-MW",
+  "queue"
+ ],
+ "operator": "MLawrence",
+ "text": "",
+ "confidence_note": "Adopted rule text and order not read. Security is reported as refundable; the proposed non-refundable fee was eliminated.",
+ "effective": "2026-10-08",
+ "next": {
+  "date": "2026-10-08",
+  "event": "Texas PUC large-load interconnection rule (16 TAC \u00a7 25.194) takes effect",
+  "url": "https://www.whitecase.com/insight-alert/puct-sets-financial-commitments-data-center-interconnection-governor-pauses-permit",
+  "basis": "reported"
+ }
 }

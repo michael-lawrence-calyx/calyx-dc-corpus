@@ -1,0 +1,28 @@
+{
+ "id": "pa-hazle-township-curative-amendment",
+ "jurisdiction": "us-pa-hazle-township",
+ "instrument": "Municipal curative amendment and 180-day pause on data center applications (June 8, 2026)",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "2026-06-08",
+ "summary": "Supervisors unanimously declared parts of the zoning ordinance invalid for not addressing data centers, triggering a 180-day period to draft a curative amendment for data centers and accessory uses, during which no one else may challenge the ordinance.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Times Leader; Fox 56; Center Square; Food & Water Watch; Penn Capital-Star (Nov 2025-Sept 2026)",
+  "url": "https://www.foodandwaterwatch.org/2026/06/09/hazle-township-pa-pauses-data-center-development-for-six-months/"
+ },
+ "notes": "",
+ "confidence_note": "Resolution not read; expiry (about early December 2026) is derived, not stated.",
+ "tags": [
+  "curative-amendment",
+  "fair-share",
+  "moratorium"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-30",
+ "operator": "MLawrence"
+}

@@ -1,27 +1,28 @@
 {
-  "operator": "MLawrence",
-  "section": "",
-  "text": "",
-  "retrieved": "2026-09-23",
-  "id": "us-house-ratepayer-protection-act",
-  "jurisdiction": "us-federal",
-  "instrument": "Ratepayer Protection Act, as passed by the U.S. House of Representatives",
-  "mechanism": "rate-allocation",
-  "status": "proposed",
-  "effective": "2026-09-16",
-  "freshness": "LIVE",
-  "summary": "The House passed the Ratepayer Protection Act 417-3 on September 16, 2026, directing states to consider standards ensuring that data centers cover their own grid-upgrade costs.",
-  "notes": "Senate action unknown. The vote margin is notable given the contested nature of the subject at state and local level.",
-  "confidence_note": "Relayed; the bill text and roll call have not been read. Confirm the bill number and Senate status before citing.",
-  "source": {
-    "kind": "secondary",
-    "citation": "Congressional reporting, September 2026"
-  },
-  "tags": [
-    "federal",
-    "417-3",
-    "cost-allocation"
-  ],
-  "origin": "RELAYED",
-  "entry_state": "NOT_CHECKED"
+ "operator": "MLawrence",
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-30",
+ "id": "us-house-ratepayer-protection-act",
+ "jurisdiction": "us-federal",
+ "instrument": "Ratepayer Protection Act, as passed by the U.S. House of Representatives",
+ "mechanism": "rate-allocation",
+ "status": "proposed",
+ "effective": "2026-09-16",
+ "freshness": "LIVE",
+ "summary": "H.R. 9340 passed the House 417-3 under suspension of the rules on Sept 16, 2026. It directs state regulators to consider standards so data centers of at least 100 MW at one site or campus pay the incremental cost of grid upgrades, with rates paid before construction. Senate companion S. 5028 (Sen. Husted); unanimous consent blocked Sept 17; a Senate test vote was signaled for the week of Sept 28.",
+ "notes": "Senate action unknown. The vote margin is notable given the contested nature of the subject at state and local level.",
+ "confidence_note": "Vote record read; bill text not read. 100 MW threshold and pre-construction payment reported (Deseret News, Benton).",
+ "source": {
+  "kind": "primary",
+  "citation": "House Clerk, Roll Call 312 (H.R. 9340), Sept 16, 2026",
+  "url": "https://clerk.house.gov/Votes/2026312?Page=1"
+ },
+ "tags": [
+  "federal",
+  "417-3",
+  "cost-allocation"
+ ],
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED"
 }

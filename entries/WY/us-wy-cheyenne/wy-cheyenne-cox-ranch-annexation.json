@@ -1,0 +1,26 @@
+{
+ "id": "wy-cheyenne-cox-ranch-annexation",
+ "jurisdiction": "us-wy-cheyenne",
+ "instrument": "Annexation and zoning of the Cox Ranch property for SkyBox Data Centers and ViaWest Group",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "2026-09-28",
+ "summary": "Council voted 8-2 on Sept 28, 2026 to annex and zone about 1,259.91 acres for a data center campus.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Strisker Data Centers Daily Notes, Sept 29, 2026 (digest)"
+ },
+ "notes": "",
+ "confidence_note": "Single secondary digest source; ordinance not read.",
+ "tags": [
+  "annexation",
+  "approval"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-30",
+ "operator": "MLawrence"
+}

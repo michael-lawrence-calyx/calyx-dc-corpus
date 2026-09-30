@@ -1,0 +1,27 @@
+{
+ "id": "pa-hazle-township-land-development-denial",
+ "jurisdiction": "us-pa-hazle-township",
+ "instrument": "Denial of NorthPoint land development application, Project Hazelnut (Nov 2025)",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "2025-11-14",
+ "summary": "The Board of Supervisors unanimously rejected NorthPoint's land development application for a 15-building data center campus on about 1,280 acres near the Humboldt Industrial Park, after objections that the project should first have gone to the zoning hearing board as a special exception.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Times Leader; Fox 56; Center Square; Food & Water Watch; Penn Capital-Star (Nov 2025-Sept 2026)",
+  "url": "https://www.foodandwaterwatch.org/2025/11/18/hazle-township-pa-unanimously-rejects-data-center-campus/"
+ },
+ "notes": "In Sept 2026 NorthPoint mailed households an offer tied to approval: a $165M package including a $45M resident grant fund ($10,000 per eligible household), a $15M community fund and $105M to the township (~$7M/yr for 15 years). An offer, not an instrument.",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "denial",
+  "special-exception"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-30",
+ "operator": "MLawrence"
+}

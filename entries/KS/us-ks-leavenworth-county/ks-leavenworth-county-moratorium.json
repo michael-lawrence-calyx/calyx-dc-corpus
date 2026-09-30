@@ -1,0 +1,27 @@
+{
+ "id": "ks-leavenworth-county-moratorium",
+ "jurisdiction": "us-ks-leavenworth-county",
+ "instrument": "Leavenworth County moratoria on data center and battery storage applications",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "",
+ "summary": "County commissioners imposed a moratorium on new applications for data centers and a separate moratorium on battery energy storage (reported Sept 3, 2026).",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Leavenworth Times via Kansas Press, Sept 3, 2026",
+  "url": "https://kspress.com/news/2026/09/03/county-imposes-new-data-center-moratorium"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "moratorium",
+  "bess"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-30",
+ "operator": "MLawrence"
+}

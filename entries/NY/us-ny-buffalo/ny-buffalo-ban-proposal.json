@@ -3,15 +3,16 @@
  "jurisdiction": "us-ny-buffalo",
  "instrument": "Proposed two-year data center ban, Buffalo Common Council",
  "mechanism": "use-permission",
- "status": "proposed",
+ "status": "adopted",
  "effective": "",
- "summary": "A proposed two-year ban on data centers showed enough council support at hearing to pass; the sponsor expects a possibly unanimous vote. Mayoral signature uncertain.",
+ "summary": "Common Council adopted as amended on Sept 29, 2026 a resolution calling for a two-year moratorium on new data center projects and no expansions of existing ones, and a nine-member task force, while the city updates zoning and property tax codes. Not yet binding: a local law drafted by Corporation Counsel is expected before the council in early October, with a formal vote to follow. The mayor's office is reviewing the resolution with Corporation Counsel.",
  "origin": "RELAYED",
  "entry_state": "NOT_CHECKED",
  "freshness": "LIVE",
  "source": {
   "kind": "secondary",
-  "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (WGRZ)"
+  "citation": "WIVB, WGRZ, WBEN (Sept 29-30, 2026)",
+  "url": "https://www.wivb.com/news/local-news/buffalo/step-forward-for-2-year-moratorium-on-new-buffalo-data-centers-not-a-done-deal-yet/"
  },
  "notes": "Buffalo News reports the moratorium would apply to data centers of 20 MW or more and include crypto-mining and blockchain facilities; resolution not read.  Corroborated: WKBW and Buffalo News both report the 20 MW threshold; six sponsors including Golombek (veto-proof); mayor's office says Corporation Counsel will review if passed. Resolution text not located.",
  "confidence_note": "Primary instrument not read.",
@@ -21,12 +22,6 @@
  ],
  "section": "",
  "text": "",
- "retrieved": "2026-09-29",
- "operator": "MLawrence",
- "next": {
-  "date": "2026-09-29",
-  "event": "Buffalo Common Council vote on two-year data center ban",
-  "url": "https://www.wgrz.com/article/news/local/buffalo/two-year-data-center-ban-in-buffalo-expected-to-pass-common-council-next-tuesday/71-cb231595-32af-4c96-ad1b-4b07c50de223",
-  "basis": "reported"
- }
+ "retrieved": "2026-09-30",
+ "operator": "MLawrence"
 }

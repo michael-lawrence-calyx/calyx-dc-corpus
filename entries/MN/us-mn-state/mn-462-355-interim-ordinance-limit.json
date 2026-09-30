@@ -1,0 +1,27 @@
+{
+ "id": "mn-462-355-interim-ordinance-limit",
+ "jurisdiction": "us-mn-state",
+ "instrument": "Minn. Stat. \u00a7 462.355, subd. 4(d), as applied in the Inver Grove Heights interim ordinance",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "",
+ "summary": "An interim ordinance (moratorium) alone may not halt, delay or impede a subdivision with preliminary approval, nor unilaterally extend the \u00a7 15.99 review timelines for an application filed before the ordinance takes effect. Minnesota interim ordinances may run up to 12 months and cannot be used solely to delay or prevent a single project.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "City of Inver Grove Heights, June 22/26, 2026 council packet, Item 7.D (interim ordinance text; litigation counsel memo; developer counsel letter)"
+ },
+ "notes": "",
+ "confidence_note": "Read in the ordinance text that restates the statute; the statute itself not read.",
+ "tags": [
+  "moratorium-limits",
+  "pending-applications",
+  "60-day-rule"
+ ],
+ "section": "Interim ordinance \u00a7 5",
+ "text": "nor may it unilaterally extend the timelines set forth in Minnesota Statutes, Section 15.99 with respect to any application filed prior to the effective date of the Ordinance",
+ "retrieved": "2026-09-30",
+ "operator": "MLawrence"
+}

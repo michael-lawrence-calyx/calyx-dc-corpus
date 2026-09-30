@@ -9,6 +9,11 @@
     "name": "Alaska",
     "state": "AK"
   },
+  "us-al-foley": {
+    "kind": "city",
+    "name": "City of Foley",
+    "state": "AL"
+  },
   "us-ar-pulaski-county": {
     "kind": "county",
     "name": "Pulaski County",
@@ -294,10 +299,20 @@
     "name": "De Soto",
     "state": "KS"
   },
+  "us-ks-leavenworth-county": {
+    "kind": "county",
+    "name": "Leavenworth County",
+    "state": "KS"
+  },
   "us-ks-state": {
     "kind": "state",
     "name": "Kansas",
     "state": "KS"
+  },
+  "us-ky-london": {
+    "kind": "city",
+    "name": "City of London",
+    "state": "KY"
   },
   "us-ma-state": {
     "kind": "state",
@@ -349,6 +364,11 @@
     "name": "Port Huron Township",
     "state": "MI"
   },
+  "us-mi-saginaw": {
+    "kind": "city",
+    "name": "City of Saginaw",
+    "state": "MI"
+  },
   "us-mi-saline-township": {
     "kind": "township",
     "name": "Saline Township",
@@ -363,6 +383,11 @@
     "kind": "municipality",
     "name": "Wixom",
     "state": "MI"
+  },
+  "us-mn-eagan": {
+    "kind": "city",
+    "name": "City of Eagan",
+    "state": "MN"
   },
   "us-mn-inver-grove-heights": {
     "kind": "city",
@@ -579,6 +604,11 @@
     "name": "Forward Township",
     "state": "PA"
   },
+  "us-pa-hazle-township": {
+    "kind": "township",
+    "name": "Hazle Township",
+    "state": "PA"
+  },
   "us-pa-lycoming-county": {
     "kind": "county",
     "name": "Lycoming County",
@@ -587,6 +617,11 @@
   "us-pa-reading": {
     "kind": "city",
     "name": "City of Reading",
+    "state": "PA"
+  },
+  "us-pa-state": {
+    "kind": "state",
+    "name": "Commonwealth of Pennsylvania",
     "state": "PA"
   },
   "us-pjm": {
@@ -637,6 +672,11 @@
   "us-tx-ercot": {
     "kind": "iso",
     "name": "ERCOT",
+    "state": "TX"
+  },
+  "us-tx-fort-worth": {
+    "kind": "city",
+    "name": "City of Fort Worth",
     "state": "TX"
   },
   "us-tx-hill-county": {
@@ -778,5 +818,10 @@
     "kind": "utility",
     "name": "We Energies (WEPCO)",
     "state": "WI"
+  },
+  "us-wy-cheyenne": {
+    "kind": "city",
+    "name": "City of Cheyenne",
+    "state": "WY"
   }
 }

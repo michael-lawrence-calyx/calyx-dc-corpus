@@ -1,0 +1,28 @@
+{
+ "id": "tx-fort-worth-chapter14-grid-approval",
+ "jurisdiction": "us-tx-fort-worth",
+ "instrument": "Ordinance amending City Code Chapter 14: proof of PUC and ERCOT approvals for data center applications (Aug 11, 2026)",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "2026-08-11",
+ "summary": "Passed 10-1 on Aug 11, 2026: new data centers seeking to develop within city limits must provide proof of all permits and approvals required by the PUC and ERCOT in order to file for a development permit, at multiple stages of the process. Does not apply in the city's extraterritorial jurisdiction.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Fort Worth Report; KERA; NBC 5; DCD; The Business Press (Aug 12-14, 2026)",
+  "url": "https://fortworthbusiness.com/government/city-advances-next-steps-in-data-center-regulation-development-process/"
+ },
+ "notes": "",
+ "confidence_note": "Ordinance text not read; ETJ exemption per the Assistant City Manager as reported.",
+ "tags": [
+  "grid-approval",
+  "state-overlay",
+  "etj-exemption"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-30",
+ "operator": "MLawrence"
+}

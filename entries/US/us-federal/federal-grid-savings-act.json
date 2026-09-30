@@ -1,0 +1,26 @@
+{
+ "id": "federal-grid-savings-act",
+ "jurisdiction": "us-federal",
+ "instrument": "GRID Savings Act (Sen. Heinrich)",
+ "mechanism": "utility-service",
+ "status": "proposed",
+ "effective": "",
+ "summary": "Would give FERC rulemaking authority over large loads above 150 MW and require large-load customers to pay for the facilities needed to connect them to the grid. Unanimous-consent request blocked Sept 17, 2026.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Roll Call, Sept 17, 2026; Fox News wire coverage"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "150-mw",
+  "ferc"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-09-30",
+ "operator": "MLawrence"
+}
