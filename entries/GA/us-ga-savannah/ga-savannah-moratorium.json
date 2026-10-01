@@ -1,0 +1,28 @@
+{
+ "id": "ga-savannah-moratorium",
+ "jurisdiction": "us-ga-savannah",
+ "instrument": "Temporary moratorium on large-scale data centers (Aug 27, 2026)",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "2026-08-27",
+ "summary": "155-day moratorium on development or conversion activity for data centers with electrical capacity of 10 MW or more, and a prohibition on converting warehouses and industrial buildings of 200,000 sq ft or more to data center use, while staff study infrastructure, zoning and site standards. Adopted unanimously.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "City of Savannah council agenda, Aug 27, 2026 (item 27)",
+  "url": "https://agenda.savannahga.gov/publishing/august-27-2026-city-council-regular-meeting/1589_12681.html"
+ },
+ "notes": "Expires about late January 2027 (derived). City has accepted a permit for a smaller data center under 25,000 sq ft. Contact: Bridget Lidy, Planning & Urban Design Director.",
+ "confidence_note": "Read on the city's agenda; ordinance attachment not read; adoption reported.",
+ "tags": [
+  "10-mw",
+  "200000-sqft",
+  "conversion"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

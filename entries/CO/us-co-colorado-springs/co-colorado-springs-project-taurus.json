@@ -1,0 +1,26 @@
+{
+ "id": "co-colorado-springs-project-taurus",
+ "jurisdiction": "us-co-colorado-springs",
+ "instrument": "Project Taurus (Raeden), former Intel fab, 1615 W. Garden of the Gods Road",
+ "mechanism": "use-permission",
+ "status": "proposed",
+ "effective": "",
+ "summary": "Planning staff approved a roughly 50 MW AI data center conversion; on Sept 17, 2026 council voted 7-2 to postpone the appeal to April 2027 pending a utilities contract and citywide data center rules.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Colorado Springs Gazette; Baxtel"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "appeal",
+  "adaptive-reuse"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

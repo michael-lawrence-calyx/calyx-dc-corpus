@@ -1,0 +1,27 @@
+{
+ "id": "co-jefferson-county-moratorium",
+ "jurisdiction": "us-co-jefferson-county",
+ "instrument": "Jefferson County 10-month data center moratorium (May 19, 2026)",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "2026-05-19",
+ "summary": "Applies to new applications to develop or rezone for data centers, through about March 2027; excludes land already zoned for data centers through a Planned Development if the facility is at least 1,500 feet from any dwelling.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "Jefferson County news release",
+  "url": "https://www.jeffco.us/CivicAlerts.aspx?AID=2596"
+ },
+ "notes": "",
+ "confidence_note": "",
+ "tags": [
+  "moratorium",
+  "1500-ft"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

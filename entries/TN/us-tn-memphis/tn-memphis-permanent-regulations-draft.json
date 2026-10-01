@@ -1,0 +1,27 @@
+{
+ "id": "tn-memphis-permanent-regulations-draft",
+ "jurisdiction": "us-tn-memphis",
+ "instrument": "Data center regulation ordinance (draft, 2026)",
+ "mechanism": "process",
+ "status": "proposed",
+ "effective": "",
+ "summary": "Draft permanent regulations would also reach existing data centers, which would have to submit information to the city within 12 months of adoption.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "primary",
+  "citation": "City of Memphis draft ordinance DC-Regulation-2026v1",
+  "url": "https://memphistn.gov/wp-content/uploads/2026/09/DC-Regulation-2026v1.pdf"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "existing-facilities",
+  "disclosure"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

@@ -1,0 +1,27 @@
+{
+ "id": "tn-nashville-dc-blox-litigation",
+ "jurisdiction": "us-tn-nashville",
+ "instrument": "DC Blox v. Metropolitan Nashville (federal court, Aug 2026)",
+ "mechanism": "litigation",
+ "status": "proposed",
+ "effective": "",
+ "summary": "DC Blox sued over Metro's halt to permit processing for its 10 MW project next to the Nashville Zoo, alleging due process, equal protection and takings violations and citing the zoning administrator's letter that Tennessee's vested rights statutes put the project outside the new rules. Council separately authorized acquisition of the site, including by eminent domain (BL2026-1489).",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "WSMV (Aug 12, 2026); Axios Nashville",
+  "url": "https://www.wsmv.com/2026/08/12/dc-blox-sues-metro-over-nashville-zoo-area-data-center-moratorium-heres-what-we-know/"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "vested-rights",
+  "eminent-domain"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

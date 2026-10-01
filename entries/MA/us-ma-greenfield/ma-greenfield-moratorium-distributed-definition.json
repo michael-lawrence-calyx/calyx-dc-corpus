@@ -1,0 +1,28 @@
+{
+ "id": "ma-greenfield-moratorium-distributed-definition",
+ "jurisdiction": "us-ma-greenfield",
+ "instrument": "Proposed 365-day data center moratorium and definition (Greenfield, Sept 2026)",
+ "mechanism": "definition",
+ "status": "proposed",
+ "effective": "",
+ "summary": "Defines data centers without a size threshold and expressly includes \"distributed, modular, or networked computing facilities that collectively function as a single data processing or storage operation,\" with a \"Fractional or Distributed Data Center\" type placing nodes across multiple residential, commercial or industrial properties. A use is a data center if more than 25% of gross floor area is servers and related infrastructure, or if that is its primary purpose. Would bar data centers in all districts during a 365-day moratorium.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "Proposed ordinance text as published by the Greenfield Recorder",
+  "url": "https://recorder.com/wp-content/uploads/2026/09/Data-Center-Moratorium.pdf"
+ },
+ "notes": "",
+ "confidence_note": "Proposed text read in the original; adoption status not confirmed.",
+ "tags": [
+  "distributed-nodes",
+  "no-threshold",
+  "definition"
+ ],
+ "section": "",
+ "text": "a distributed computing model that places distributed computing nodes across multiple residential, commercial, or industrial properties",
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

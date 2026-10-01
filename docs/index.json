@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-30",
- "count": 346,
+ "generated": "2026-10-01",
+ "count": 370,
  "states": [
   "AK",
   "AL",
@@ -53,17 +53,22 @@
   "Anne Arundel County",
   "Augusta-Richmond County",
   "Baltimore County",
+  "Boulder County",
   "Box Elder County",
   "Brighton Township",
+  "Bulloch County",
+  "Calvert County",
   "Champaign County",
   "Chandler",
   "Chesterfield County",
+  "City and County of Broomfield",
   "City and County of Denver",
   "City of Buffalo",
   "City of Calexico",
   "City of Charlotte",
   "City of Cheyenne",
   "City of Chicago",
+  "City of Colorado Springs",
   "City of Dearborn",
   "City of Eagan",
   "City of Federal Way",
@@ -71,11 +76,14 @@
   "City of Fort Wayne",
   "City of Fort Worth",
   "City of Galesburg",
+  "City of Greenfield",
+  "City of Hastings",
   "City of Hayward",
   "City of Inver Grove Heights",
   "City of Kalamazoo",
   "City of Kirksville",
   "City of London",
+  "City of Minneapolis",
   "City of North Port",
   "City of Oakland",
   "City of Pocatello",
@@ -85,6 +93,8 @@
   "City of Riverbank",
   "City of Saginaw",
   "City of Salem",
+  "City of Savannah",
+  "City of St. Louis",
   "City of Statesboro",
   "City of Tulsa",
   "Clarendon County",
@@ -123,6 +133,7 @@
   "Imperial County",
   "Indianapolis and Marion County",
   "Jasper County",
+  "Jefferson County",
   "Kansas",
   "Kershaw County",
   "Kittitas County",
@@ -138,6 +149,7 @@
   "Mattoon",
   "Memphis",
   "Mendocino County",
+  "Metropolitan Nashville and Davidson County",
   "Miamisburg",
   "Michigan City",
   "Mississippi",
@@ -181,6 +193,7 @@
   "State of Ohio",
   "State of Oklahoma",
   "State of Oregon",
+  "State of South Carolina",
   "State of Texas",
   "State of Utah",
   "State of Washington",
@@ -226,8 +239,8 @@
  "by_origin": {
   "ASSERTED": 1,
   "DERIVED": 1,
-  "OBSERVED": 117,
-  "RELAYED": 227
+  "OBSERVED": 125,
+  "RELAYED": 243
  },
  "upcoming": [
   {
@@ -241,6 +254,15 @@
   },
   {
    "date": "2026-10-06",
+   "event": "Memphis City Council final reading: data center moratorium and regulations",
+   "url": "https://memphistn.gov/wp-content/uploads/2026/08/Data-Center-Temporary-Moratorium-Ordinance-v3.pdf",
+   "basis": "document",
+   "id": "tn-memphis-temporary-moratorium",
+   "state": "TN",
+   "jurisdiction_name": "Memphis"
+  },
+  {
+   "date": "2026-10-06",
    "event": "Mendocino County hearing on extending the 45-day urgency moratorium (can extend up to two years)",
    "url": "https://mendovoice.com/2026/09/mendocino-county-supes-ban-data-centers-for-the-moment-at-least/",
    "basis": "reported",
@@ -250,9 +272,9 @@
   },
   {
    "date": "2026-10-06",
-   "event": "Raleigh City Council possible vote on six-month data center moratorium",
-   "url": "https://www.axios.com/local/raleigh/2026/09/16/raleigh-is-considering-a-six-month-moratorium-on-data-centers",
-   "basis": "reported",
+   "event": "Raleigh City Council public hearing and vote on data center moratorium (draft posted)",
+   "url": "https://cityofraleigh0drupal.blob.core.usgovcloudapi.net/drupal-prod/COR12/data-center-moratorium-ordinance-draft.pdf",
+   "basis": "document",
    "id": "nc-raleigh-10000-sqft-threshold",
    "state": "NC",
    "jurisdiction_name": "Raleigh"
@@ -295,7 +317,7 @@
   },
   {
    "date": "2026-10-20",
-   "event": "Reading Planning Commission possible vote on data center zoning amendment",
+   "event": "Reading Planning Commission vote on data center zoning amendment (fourth draft)",
    "url": "https://www.wfmz.com/news/area/berks/reading-area/reading-planning-commission-sets-october-workshop-meeting-as-a-special-voting-meeting-for-data-center-zoning-amendment/article_c00cd3d8-777f-4e28-9c4c-731d1404bb10.html",
    "basis": "reported",
    "id": "pa-reading-zoning-amendment",
@@ -366,6 +388,24 @@
    "jurisdiction_name": "Chesterfield County"
   },
   {
+   "date": "2026-11-21",
+   "event": "Minneapolis data center moratorium study deadline / expiry",
+   "url": "https://www.fox9.com/news/minneapolis-data-center-development-pause-approved-city-council-june-25-2026",
+   "basis": "reported",
+   "id": "mn-minneapolis-moratorium",
+   "state": "MN",
+   "jurisdiction_name": "City of Minneapolis"
+  },
+  {
+   "date": "2026-12-01",
+   "event": "Nashville data center moratorium (BL2026-1448) expires",
+   "url": "https://www.axios.com/local/nashville/2026/07/22/nashville-data-center-rules-may-delay-but-not-stop-dc-blox-project",
+   "basis": "reported",
+   "id": "tn-nashville-moratorium-bl2026-1448",
+   "state": "TN",
+   "jurisdiction_name": "Metropolitan Nashville and Davidson County"
+  },
+  {
    "date": "2026-12-31",
    "event": "MassDEP deadline to establish the alternative compliance payment for data centers (EO 658 \u00a75)",
    "url": "https://www.mass.gov/executive-orders/no-658-establishing-requirements-for-responsible-data-center-development-and-operations-in-massachusetts-to-protect-and-support-ratepayers-communities-and-the-environment",
@@ -409,6 +449,15 @@
    "id": "nm-slo-green-chile-row-denials",
    "state": "NM",
    "jurisdiction_name": "State of New Mexico"
+  },
+  {
+   "date": "2027-07-07",
+   "event": "New Jersey BPU deadline for large data center tariff rules (A796/S731)",
+   "url": "https://www.assemblydems.com/CivicAlerts.aspx?AID=13131",
+   "basis": "reported",
+   "id": "nj-a796-s731-data-center-tariff",
+   "state": "NJ",
+   "jurisdiction_name": "New Jersey"
   },
   {
    "date": "2028-01-01",
@@ -2408,6 +2457,92 @@
    "_path": "entries/CA/us-ca-tulare-county/ca-tulare-county-opposition-position.json"
   },
   {
+   "id": "co-boulder-county-moratorium",
+   "jurisdiction": "us-co-boulder-county",
+   "instrument": "Boulder County six-month moratorium on data centers and detention facilities (June 2, 2026)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-06-02",
+   "summary": "Applications for data centers in unincorporated Boulder County are denied for six months while the county amends its Land Use Code.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "KGNU; Denver Gazette"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "CO",
+   "jurisdiction_name": "Boulder County",
+   "_path": "entries/CO/us-co-boulder-county/co-boulder-county-moratorium.json"
+  },
+  {
+   "id": "co-broomfield-ordinance-2313",
+   "jurisdiction": "us-co-broomfield",
+   "instrument": "Ordinance No. 2313, data center moratorium (July 7, 2026)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-07-07",
+   "summary": "Unanimous 18-month moratorium, through December 2027 or until regulations pass, on land use applications, site plans and building permits for new or expanded data centers with projected load of 10 MW or more. The city set 10 MW at half the design capacity of its largest data center (20 MW).",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Denver Gazette; Denver7; city council packet as reported"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "10-mw",
+    "moratorium"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "CO",
+   "jurisdiction_name": "City and County of Broomfield",
+   "_path": "entries/CO/us-co-broomfield/co-broomfield-ordinance-2313.json"
+  },
+  {
+   "id": "co-colorado-springs-project-taurus",
+   "jurisdiction": "us-co-colorado-springs",
+   "instrument": "Project Taurus (Raeden), former Intel fab, 1615 W. Garden of the Gods Road",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Planning staff approved a roughly 50 MW AI data center conversion; on Sept 17, 2026 council voted 7-2 to postpone the appeal to April 2027 pending a utilities contract and citywide data center rules.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Colorado Springs Gazette; Baxtel"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "appeal",
+    "adaptive-reuse"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "CO",
+   "jurisdiction_name": "City of Colorado Springs",
+   "_path": "entries/CO/us-co-colorado-springs/co-colorado-springs-project-taurus.json"
+  },
+  {
    "operator": "MLawrence",
    "section": "",
    "text": "",
@@ -2436,6 +2571,36 @@
    "state": "CO",
    "jurisdiction_name": "City and County of Denver",
    "_path": "entries/CO/us-co-denver/co-denver-moratorium.json"
+  },
+  {
+   "id": "co-jefferson-county-moratorium",
+   "jurisdiction": "us-co-jefferson-county",
+   "instrument": "Jefferson County 10-month data center moratorium (May 19, 2026)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-05-19",
+   "summary": "Applies to new applications to develop or rezone for data centers, through about March 2027; excludes land already zoned for data centers through a Planned Development if the facility is at least 1,500 feet from any dwelling.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Jefferson County news release",
+    "url": "https://www.jeffco.us/CivicAlerts.aspx?AID=2596"
+   },
+   "notes": "",
+   "confidence_note": "",
+   "tags": [
+    "moratorium",
+    "1500-ft"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "CO",
+   "jurisdiction_name": "Jefferson County",
+   "_path": "entries/CO/us-co-jefferson-county/co-jefferson-county-moratorium.json"
   },
   {
    "id": "fl-alachua-county-moratorium-draft",
@@ -2539,7 +2704,7 @@
     "kind": "secondary",
     "citation": "CBS12, Sept 24, 2026"
    },
-   "notes": "",
+   "notes": "Commissioners denied Project Tango 5-1 (without prejudice); a previously approved Central Park Commerce Center (202 acres) allows 206,000 sq ft of data center space with no conditions of approval (WPTV).",
    "confidence_note": "Primary instrument not read.",
    "tags": [
     "moratorium",
@@ -2547,7 +2712,7 @@
    ],
    "section": "",
    "text": "",
-   "retrieved": "2026-09-27",
+   "retrieved": "2026-10-01",
    "operator": "MLawrence",
    "state": "FL",
    "jurisdiction_name": "Palm Beach County",
@@ -2671,6 +2836,34 @@
    "_path": "entries/GA/us-ga-augusta/ga-augusta-data-center-zoning-tiers.json"
   },
   {
+   "id": "ga-bulloch-county-moratorium",
+   "jurisdiction": "us-ga-bulloch-county",
+   "instrument": "Bulloch County data center moratorium extension (May 2026)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "summary": "County extended its data center moratorium through the end of 2026 and directed research into whether a full ban would be constitutional.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Statesboro Herald / Grice Connect (May 2026)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "GA",
+   "jurisdiction_name": "Bulloch County",
+   "_path": "entries/GA/us-ga-bulloch-county/ga-bulloch-county-moratorium.json"
+  },
+  {
    "operator": "MLawrence",
    "section": "",
    "text": "",
@@ -2787,6 +2980,68 @@
    "_path": "entries/GA/us-ga-fayetteville/ga-fayetteville-citywide-prohibition.json"
   },
   {
+   "id": "ga-savannah-moratorium",
+   "jurisdiction": "us-ga-savannah",
+   "instrument": "Temporary moratorium on large-scale data centers (Aug 27, 2026)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-08-27",
+   "summary": "155-day moratorium on development or conversion activity for data centers with electrical capacity of 10 MW or more, and a prohibition on converting warehouses and industrial buildings of 200,000 sq ft or more to data center use, while staff study infrastructure, zoning and site standards. Adopted unanimously.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Savannah council agenda, Aug 27, 2026 (item 27)",
+    "url": "https://agenda.savannahga.gov/publishing/august-27-2026-city-council-regular-meeting/1589_12681.html"
+   },
+   "notes": "Expires about late January 2027 (derived). City has accepted a permit for a smaller data center under 25,000 sq ft. Contact: Bridget Lidy, Planning & Urban Design Director.",
+   "confidence_note": "Read on the city's agenda; ordinance attachment not read; adoption reported.",
+   "tags": [
+    "10-mw",
+    "200000-sqft",
+    "conversion"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "GA",
+   "jurisdiction_name": "City of Savannah",
+   "_path": "entries/GA/us-ga-savannah/ga-savannah-moratorium.json"
+  },
+  {
+   "id": "ga-statesboro-ordinance-2026-01",
+   "jurisdiction": "us-ga-statesboro",
+   "instrument": "Ordinance 2026-01, data center amendment to the Unified Development Code (June 2, 2026)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-06-02",
+   "summary": "Adopted 3-1 on June 2, 2026: \"edge\" data centers on lots of 50 acres or less are allowed only as special uses in four districts; \"hyperscale\" data centers (over 50 acres) are unlawful in the city. The final version eliminated an earlier hyperscale classification capped at 200 acres.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Statesboro council minutes, June 2, 2026; Statesboro Herald (quoting the definition)",
+    "url": "https://www.statesboroga.gov/Documents/Government/City%20Council/Agendas%20and%20Minutes/2026/06-02-2026/06-02-2026%20Council%20Minutes.pdf?t=202607271308470"
+   },
+   "notes": "The definition is by lot size, not megawatts. The Burkhalter Road project is on 26.49 acres; its 99 MW figure is from a Georgia Power supply application, not the ordinance.",
+   "confidence_note": "Read in the city council minutes; ordinance text not read.",
+   "tags": [
+    "acreage-definition",
+    "hyperscale",
+    "special-use"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "GA",
+   "jurisdiction_name": "City of Statesboro",
+   "_path": "entries/GA/us-ga-statesboro/ga-statesboro-ordinance-2026-01.json"
+  },
+  {
    "id": "ga-statesboro-rezoning-litigation",
    "jurisdiction": "us-ga-statesboro",
    "instrument": "Coastal Community United et al. v. City of Statesboro and 4 AM Development, SUCV2026000219 (Bulloch Co. Sup. Ct.)",
@@ -2801,7 +3056,7 @@
     "kind": "secondary",
     "citation": "WTOC, Sept 22, 2026"
    },
-   "notes": "Petitioners argue the project sits at the hyperscale threshold the city's ordinance was meant to exclude (Strisker).",
+   "notes": "Petitioners argue the project sits at the hyperscale threshold the city's ordinance was meant to exclude (Strisker). Ordinance 2026-01 defines hyperscale by acreage (over 50 acres); the site is 26.49 acres. 4AM applied to Georgia Power for up to 99 MW (developers).",
    "confidence_note": "Primary instrument not read.",
    "tags": [
     "litigation",
@@ -2809,7 +3064,7 @@
    ],
    "section": "",
    "text": "",
-   "retrieved": "2026-09-28",
+   "retrieved": "2026-10-01",
    "operator": "MLawrence",
    "state": "GA",
    "jurisdiction_name": "City of Statesboro",
@@ -3627,6 +3882,37 @@
    "_path": "entries/KY/us-ky-london/ky-london-moratorium.json"
   },
   {
+   "id": "ma-greenfield-moratorium-distributed-definition",
+   "jurisdiction": "us-ma-greenfield",
+   "instrument": "Proposed 365-day data center moratorium and definition (Greenfield, Sept 2026)",
+   "mechanism": "definition",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Defines data centers without a size threshold and expressly includes \"distributed, modular, or networked computing facilities that collectively function as a single data processing or storage operation,\" with a \"Fractional or Distributed Data Center\" type placing nodes across multiple residential, commercial or industrial properties. A use is a data center if more than 25% of gross floor area is servers and related infrastructure, or if that is its primary purpose. Would bar data centers in all districts during a 365-day moratorium.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Proposed ordinance text as published by the Greenfield Recorder",
+    "url": "https://recorder.com/wp-content/uploads/2026/09/Data-Center-Moratorium.pdf"
+   },
+   "notes": "",
+   "confidence_note": "Proposed text read in the original; adoption status not confirmed.",
+   "tags": [
+    "distributed-nodes",
+    "no-threshold",
+    "definition"
+   ],
+   "section": "",
+   "text": "a distributed computing model that places distributed computing nodes across multiple residential, commercial, or industrial properties",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "MA",
+   "jurisdiction_name": "City of Greenfield",
+   "_path": "entries/MA/us-ma-greenfield/ma-greenfield-moratorium-distributed-definition.json"
+  },
+  {
    "id": "ma-eo-658-clean-electricity-acp",
    "jurisdiction": "us-ma-state",
    "instrument": "Executive Order No. 658, Section 5",
@@ -3878,6 +4164,34 @@
    "state": "MD",
    "jurisdiction_name": "Baltimore County",
    "_path": "entries/MD/us-md-baltimore-county/md-baltimore-county-moratorium-extension.json"
+  },
+  {
+   "id": "md-calvert-county-moratorium",
+   "jurisdiction": "us-md-calvert-county",
+   "instrument": "Calvert County six-month data center moratorium",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "",
+   "summary": "Board of Commissioners approved a six-month moratorium on new data center projects after Amazon abandoned plans for three data centers at the Calvert Cliffs nuclear plant.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "WJLA (Aug 2026)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "MD",
+   "jurisdiction_name": "Calvert County",
+   "_path": "entries/MD/us-md-calvert-county/md-calvert-county-moratorium.json"
   },
   {
    "operator": "MLawrence",
@@ -4317,6 +4631,36 @@
    "_path": "entries/MN/us-mn-eagan/mn-eagan-moratorium.json"
   },
   {
+   "id": "mn-hastings-interim-ordinance",
+   "jurisdiction": "us-mn-hastings",
+   "instrument": "Interim ordinance: moratorium on establishing data centers (Aug 17, 2026)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-08-17",
+   "summary": "Adopted Aug 17, 2026, in effect until Aug 17, 2027 unless rescinded; applies to data centers as a primary use, not to accessory computing.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Hastings council memorandum and interim ordinance",
+    "url": "https://www.hastingsmn.gov/media/xwikghph/viii-06-1st-reading-schedule-public-hearing-interim-moratorium-ordinance-data-centers.pdf"
+   },
+   "notes": "",
+   "confidence_note": "Read in the city's council packet.",
+   "tags": [
+    "moratorium",
+    "accessory-exempt"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "MN",
+   "jurisdiction_name": "City of Hastings",
+   "_path": "entries/MN/us-mn-hastings/mn-hastings-interim-ordinance.json"
+  },
+  {
    "id": "mn-inver-grove-heights-developer-litigation",
    "jurisdiction": "us-mn-inver-grove-heights",
    "instrument": "Developer litigation against the City of Inver Grove Heights over the data center moratorium",
@@ -4406,6 +4750,42 @@
    "state": "MN",
    "jurisdiction_name": "City of Inver Grove Heights",
    "_path": "entries/MN/us-mn-inver-grove-heights/mn-inver-grove-heights-site-plan-approval.json"
+  },
+  {
+   "id": "mn-minneapolis-moratorium",
+   "jurisdiction": "us-mn-minneapolis",
+   "instrument": "Minneapolis data center moratorium (June 25, 2026)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-06-25",
+   "summary": "No data center facility may be established, re-established or expanded, and related zoning approvals and permits are blocked, through Nov 21, 2026 while a study is completed; downtown data centers of 350,000 sq ft or less are exempt.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "FOX 9; MPR; CBS Minnesota (June 25, 2026)",
+    "url": "https://www.fox9.com/news/minneapolis-data-center-development-pause-approved-city-council-june-25-2026"
+   },
+   "notes": "CONFLICT on the vote: 7-5 (MPR live) vs 8-5 (Broadband Breakfast). Mayor Frey opposed.",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium",
+    "downtown-exemption"
+   ],
+   "section": "",
+   "text": "",
+   "next": {
+    "date": "2026-11-21",
+    "event": "Minneapolis data center moratorium study deadline / expiry",
+    "url": "https://www.fox9.com/news/minneapolis-data-center-development-pause-approved-city-council-june-25-2026",
+    "basis": "reported"
+   },
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "MN",
+   "jurisdiction_name": "City of Minneapolis",
+   "_path": "entries/MN/us-mn-minneapolis/mn-minneapolis-moratorium.json"
   },
   {
    "id": "mn-north-mankato-moratorium",
@@ -4587,6 +4967,38 @@
    "state": "MO",
    "jurisdiction_name": "City of Kirksville",
    "_path": "entries/MO/us-mo-kirksville/mo-kirksville-zoning.json"
+  },
+  {
+   "id": "mo-st-louis-armory-cup-cba",
+   "jurisdiction": "us-mo-st-louis",
+   "instrument": "Conditional use permit and community benefits agreement, Armory Innovation Data Center (Apr 21, 2026)",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "2026-04-21",
+   "summary": "Board of Public Service approved a conditional use permit for a 120 MW data center at the former Famous-Barr warehouse. The community benefits agreement requires escalating median-wage job minimums for 20 years (25, 50, then 100) with $2,000 liquidated damages per job short; $15,000 for every $100,000 below projected annual tax revenue if targets are not met by 2029; no local tax abatement; about $15 million to a city fund ($30 per sq ft); operation by Q4 2028. A Project Labor Agreement with the AFL-CIO covers construction.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Mayor's office release; city project summary",
+    "url": "https://stlouis-mo.gov/government/departments/mayor/news/data-center-permit-approved.cfm"
+   },
+   "notes": "City states it is the only such agreement it knows of for a data center taking no incentives. Developers include Contour, TerraWatt and THO Investments.",
+   "confidence_note": "Read on the Mayor's release and the city's project summary; the CBA itself not read.",
+   "tags": [
+    "community-benefits",
+    "liquidated-damages",
+    "no-abatement",
+    "public-finance"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "MO",
+   "jurisdiction_name": "City of St. Louis",
+   "_path": "entries/MO/us-mo-st-louis/mo-st-louis-armory-cup-cba.json"
   },
   {
    "id": "ms-mdeq-xai-southaven-permit",
@@ -4808,18 +5220,19 @@
    "instrument": "Draft moratorium proposal, Raleigh City Council",
    "section": "",
    "mechanism": "load-trigger",
-   "summary": "The mayor requested Council review of a six-month moratorium reaching data centers larger than 10,000 square feet, with a vote set for the October 6, 2026 meeting.",
-   "origin": "RELAYED",
-   "entry_state": "NOT_CHECKED",
+   "summary": "Draft moratorium set for an Oct 6, 2026 public hearing pauses acceptance, processing and approval of development applications and water and/or sewer extension and connection applications for data centers within the corporate limits and the extraterritorial jurisdiction, through no later than April 6, 2027. A \"Minor Utility Data Center\" (unmanned, combined building and land footprint of 10,000 sq ft or less, peak demand of 5 MW or less) is outside it; complete applications filed before the effective date keep permit choice.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
    "freshness": "LIVE",
-   "status": "draft",
-   "retrieved": "2026-09-29",
+   "status": "proposed",
+   "retrieved": "2026-10-01",
    "source": {
-    "kind": "secondary",
-    "citation": "Regional reporting, September 2026"
+    "kind": "primary",
+    "citation": "City of Raleigh, draft data center moratorium ordinance (posted for Oct 6, 2026)",
+    "url": "https://cityofraleigh0drupal.blob.core.usgovcloudapi.net/drupal-prod/COR12/data-center-moratorium-ordinance-draft.pdf"
    },
-   "notes": "The only floor-area threshold identified in this corpus. Every other trigger in the file is expressed in megawatts, acreage, or gallons.",
-   "confidence_note": "Draft not read. Whether the threshold is gross floor area, building footprint or something else is NOT_CHECKED, and that distinction materially changes what it reaches.",
+   "notes": "The only floor-area threshold identified in this corpus. Every other trigger in the file is expressed in megawatts, acreage, or gallons. Notes N.C.G.S. 160D-601(d) limits on down-zoning without owner consent. Correction: earlier reporting gave only the 10,000 sq ft half of the minor/major test.",
+   "confidence_note": "Draft text read in the original; not yet adopted.",
    "tags": [
     "10000-sqft",
     "floor-area",
@@ -4829,10 +5242,11 @@
    "text": "",
    "next": {
     "date": "2026-10-06",
-    "event": "Raleigh City Council possible vote on six-month data center moratorium",
-    "url": "https://www.axios.com/local/raleigh/2026/09/16/raleigh-is-considering-a-six-month-moratorium-on-data-centers",
-    "basis": "reported"
+    "event": "Raleigh City Council public hearing and vote on data center moratorium (draft posted)",
+    "url": "https://cityofraleigh0drupal.blob.core.usgovcloudapi.net/drupal-prod/COR12/data-center-moratorium-ordinance-draft.pdf",
+    "basis": "document"
    },
+   "effective": "2026-10-06",
    "state": "NC",
    "jurisdiction_name": "Raleigh",
    "_path": "entries/NC/us-nc-raleigh/nc-raleigh-10000-sqft-threshold.json"
@@ -4980,6 +5394,44 @@
    "state": "NJ",
    "jurisdiction_name": "New Jersey",
    "_path": "entries/NJ/us-nj-state/nj-a5482-ai-data-center-pause.json"
+  },
+  {
+   "id": "nj-a796-s731-data-center-tariff",
+   "jurisdiction": "us-nj-state",
+   "instrument": "A796/S731, large data center tariff law (signed July 7, 2026)",
+   "mechanism": "rate-allocation",
+   "status": "adopted",
+   "effective": "2026-07-07",
+   "summary": "Directs the Board of Public Utilities to create special electric service rules for new and existing data centers with peak demand of 50 MW or more (or a lower BPU threshold), aggregating facilities under common ownership or on contiguous sites; customers must guarantee at least 85% of requested service for at least 10 years and post deposits for new transmission; data centers are curtailed before residential customers in emergencies; incentives for own clean generation or storage. BPU rules due within 12 months; utilities apply them within 180 days after.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Assembly sponsor release (July 7, 2026); New Jersey Monitor",
+    "url": "https://www.assemblydems.com/CivicAlerts.aspx?AID=13131"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "50-mw",
+    "aggregation",
+    "85-percent",
+    "curtailment"
+   ],
+   "section": "",
+   "text": "",
+   "next": {
+    "date": "2027-07-07",
+    "event": "New Jersey BPU deadline for large data center tariff rules (A796/S731)",
+    "url": "https://www.assemblydems.com/CivicAlerts.aspx?AID=13131",
+    "basis": "reported"
+   },
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "NJ",
+   "jurisdiction_name": "New Jersey",
+   "_path": "entries/NJ/us-nj-state/nj-a796-s731-data-center-tariff.json"
   },
   {
    "id": "nj-dep-vineland-dataone-penalty",
@@ -6897,7 +7349,7 @@
     "citation": "Times Leader; Fox 56; Center Square; Food & Water Watch; Penn Capital-Star (Nov 2025-Sept 2026)",
     "url": "https://www.timesleader.com/news/1744766/about:blank"
    },
-   "notes": "",
+   "notes": "NorthPoint has appealed to the Commonwealth Court (reported). During the township's 180-day curative period (about June 8 to Dec 5, 2026, derived) the township need not consider data center zoning applications.",
    "confidence_note": "Opinion not read.",
    "tags": [
     "litigation",
@@ -6905,7 +7357,7 @@
    ],
    "section": "",
    "text": "",
-   "retrieved": "2026-09-30",
+   "retrieved": "2026-10-01",
    "operator": "MLawrence",
    "state": "PA",
    "jurisdiction_name": "Hazle Township",
@@ -7016,7 +7468,7 @@
     "kind": "secondary",
     "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (WFMZ)"
    },
-   "notes": "",
+   "notes": "Planning Commission to consider the fourth draft Oct 20, 2026; draft sets a 5-acre minimum and setbacks of 500 ft (standard) and 1,000 ft (major) from a Preservation district; council adoption targeted for December; the 180-day application moratorium expires in January. Drafted by consultant Jerome Skrincosky (Hawk Valley Associates).",
    "confidence_note": "Primary instrument not read.",
    "tags": [
     "zoning",
@@ -7024,17 +7476,48 @@
    ],
    "section": "",
    "text": "",
-   "retrieved": "2026-09-28",
+   "retrieved": "2026-10-01",
    "operator": "MLawrence",
    "next": {
     "date": "2026-10-20",
-    "event": "Reading Planning Commission possible vote on data center zoning amendment",
+    "event": "Reading Planning Commission vote on data center zoning amendment (fourth draft)",
     "url": "https://www.wfmz.com/news/area/berks/reading-area/reading-planning-commission-sets-october-workshop-meeting-as-a-special-voting-meeting-for-data-center-zoning-amendment/article_c00cd3d8-777f-4e28-9c4c-731d1404bb10.html",
     "basis": "reported"
    },
    "state": "PA",
    "jurisdiction_name": "City of Reading",
    "_path": "entries/PA/us-pa-reading/pa-reading-zoning-amendment.json"
+  },
+  {
+   "id": "pa-mpc-609-2-municipal-curative-amendment",
+   "jurisdiction": "us-pa-state",
+   "instrument": "Municipalities Planning Code \u00a7 609.2, municipal curative amendment",
+   "mechanism": "process",
+   "status": "adopted",
+   "effective": "",
+   "summary": "A municipality may declare its zoning ordinance substantively invalid for not addressing a use such as data centers, triggering a 180-day period to adopt a curative amendment during which it need not consider data center applications or landowner challenges; a follow-up resolution with specific findings is required within 30 days. Reported as unusable again for 36 months. Used in 2026 by Hazle, Butler, Falls, Doylestown, Warrington, Bensalem, Montgomery and Reading townships/cities.",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Warrington Township Resolution 2026-15; township solicitors as reported",
+    "url": "https://warringtontwp.org/wp-content/uploads/2026/06/2026-15-Warrington-Follow-up-Resolution-Moratorium.pdf"
+   },
+   "notes": "",
+   "confidence_note": "Read in Warrington Township's follow-up resolution; the statute itself not read; the 36-month bar is reported.",
+   "tags": [
+    "curative-amendment",
+    "moratorium",
+    "pennsylvania"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "PA",
+   "jurisdiction_name": "Commonwealth of Pennsylvania",
+   "_path": "entries/PA/us-pa-state/pa-mpc-609-2-municipal-curative-amendment.json"
   },
   {
    "id": "pa-sb1359-statewide-pause",
@@ -7211,6 +7694,36 @@
    "_path": "entries/SC/us-sc-laurens-county/sc-laurens-county-ordinance-1012.json"
   },
   {
+   "id": "sc-spartanburg-300-jones-road-bza",
+   "jurisdiction": "us-sc-spartanburg-county",
+   "instrument": "Board of Zoning Appeals denial, 300 Jones Road data center appeal (Aug 25, 2026)",
+   "mechanism": "litigation",
+   "status": "adopted",
+   "effective": "2026-08-25",
+   "summary": "The board unanimously denied the appeal of LightHouse Data Centers (Lightstone Group) for a 200,000 sq ft, 60 MW data center on a former paper-mill site; staff treated the June rejection as final, so any resubmission is a new application.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "WSPA; Post and Courier (Aug 2026)",
+    "url": "https://www.wspa.com/news/lighthouse-data-centers-proposal-denied/"
+   },
+   "notes": "The final moratorium (Sept 21) exempts sub-65 MW data centers on former industrial sites that do not self-generate, subject to spacing and development-agreement conditions.",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "appeal",
+    "60-mw"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "SC",
+   "jurisdiction_name": "Spartanburg County",
+   "_path": "entries/SC/us-sc-spartanburg-county/sc-spartanburg-300-jones-road-bza.json"
+  },
+  {
    "id": "sc-spartanburg-county-moratorium-amendments",
    "jurisdiction": "us-sc-spartanburg-county",
    "instrument": "Ordinance No. O-26-26, Section 4(3) conditional exemption (enacted Sept 21, 2026)",
@@ -7218,7 +7731,7 @@
    "mechanism": "load-trigger",
    "status": "adopted",
    "effective": "2026-09-21",
-   "retrieved": "2026-09-24",
+   "retrieved": "2026-10-01",
    "summary": "Data centers of 65 IT-megawatts or less may proceed if located in a named industrial park or on a former industrial site and not self-generating power except emergency backup. Exempt projects must submit light-and-glare, noise, and landscaping plans as if all neighboring properties were in a Restrictive Development District, including a noise study establishing pre-construction levels and showing post-construction levels do not increase by more than 10 dB. They may not share a parcel or industrial park with, or sit within one mile of, any other data center, and must enter a development agreement under S.C. Code 6-31-10.",
    "text": "Data Centers which will (A) be located (i) in a named industrial park or (ii) on a former industrial site (B) will not self-generate power, except for emergency back-up power and (C) be 65 IT-megawatts or less, and whose primary function is the storage, management and processing of data.",
    "origin": "OBSERVED",
@@ -7229,7 +7742,7 @@
     "citation": "Spartanburg County Ordinance No. O-26-26, enacted Sept 21, 2026 (4 pp., signed; provided by Clerk to Council)",
     "url": "https://www.spartanburgcounty.gov/DocumentCenter/View/107510/Moratorium-Ordinance-O-26-26"
    },
-   "notes": "CORRECTION: previously RELAYED. Confirms the reported 65 MW (as IT-megawatts), industrial-site and no-self-generation conditions. Reporting understated the anti-clustering clause: it also bars any exempt facility within one (1) mile of any other data center. Not previously reported: the pre-construction noise baseline with a 10 dB post-construction cap, the Restrictive Development District standard applied to neighbors, and the mandatory development agreement. Noise five-element read: limit = relative (+10 dB over measured baseline); measurement standard, weighting and tonal penalty not specified in this ordinance (may be in PZO 2.3.70, not read); measurement by applicant's study; consequence = condition of the application.",
+   "notes": "CORRECTION: previously RELAYED. Confirms the reported 65 MW (as IT-megawatts), industrial-site and no-self-generation conditions. Reporting understated the anti-clustering clause: it also bars any exempt facility within one (1) mile of any other data center. Not previously reported: the pre-construction noise baseline with a 10 dB post-construction cap, the Restrictive Development District standard applied to neighbors, and the mandatory development agreement. Noise five-element read: limit = relative (+10 dB over measured baseline); measurement standard, weighting and tonal penalty not specified in this ordinance (may be in PZO 2.3.70, not read); measurement by applicant's study; consequence = condition of the application. Superseded by the final third-reading version (Sept 21, 2026); see sc-spartanburg-county-moratorium.",
    "confidence_note": "Ordinance read in full. PZO Sections 2.3.70 and 2.3.80 not read.",
    "tags": [
     "65-mw",
@@ -7250,23 +7763,23 @@
    "id": "sc-spartanburg-county-moratorium",
    "jurisdiction": "us-sc-spartanburg-county",
    "instrument": "Ordinance No. O-26-26, moratorium on development applications for data centers (enacted Sept 21, 2026)",
-   "section": "Sections 1(b), 2, 4, 6",
+   "section": "",
    "mechanism": "load-trigger",
    "status": "adopted",
    "effective": "2026-09-21",
-   "retrieved": "2026-09-24",
-   "summary": "Twelve-month moratorium on accepting, processing or approving development applications for data centers, defined as facilities of one megawatt or more of combined connected electrical load whose primary function is data, excluding minor ancillary server rooms or IT closets supporting a different business and digital asset mining businesses. Applications received after first reading are held in abeyance. Exempt: prior conditional plan approvals, data centers issued a development permit in the 18 months before adoption, and a conditional small-facility pathway (see sc-spartanburg-county-moratorium-amendments). Extendable by council resolution.",
-   "text": "Data Centers are defined as a facility comprised of one or more buildings that houses computer systems and associated components, including telecommunications and data storages systems, that has a combined connected electrical load of one megawatt or more, and whose primary function is the storage, management and processing of data and does not include minor, ancillary server rooms, or IT closets that support a different primary business on the same premises; or a Digital Mining Asset Business in accordance with SC Code Section 34-47-10 et seq.",
-   "origin": "OBSERVED",
-   "entry_state": "CONFIRMED",
+   "retrieved": "2026-10-01",
+   "summary": "Adopted 5-1 on third reading Sept 21, 2026: a 12-month moratorium on data centers above 65 IT megawatts of combined electrical load (excluding ancillary equipment and power serving other businesses). Below that, a data center is exempt only if located in a named industrial park or former industrial site and not self-generating except emergency backup; exempt projects must submit light, glare, noise and landscaping plans, sit at least one mile from another data center, and enter a development agreement. Ancillary server rooms and crypto mining are excluded; projects with a development permit in the prior 12 months (Valara) are unaffected.",
+   "text": "",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
    "freshness": "LIVE",
    "source": {
-    "kind": "primary",
-    "citation": "Spartanburg County Ordinance No. O-26-26, enacted Sept 21, 2026 (4 pp., signed; provided by Clerk to Council)",
-    "url": "https://www.spartanburgcounty.gov/DocumentCenter/View/107510/Moratorium-Ordinance-O-26-26"
+    "kind": "secondary",
+    "citation": "WSPA, Fox Carolina, Post and Courier (Sept 21-26, 2026)",
+    "url": "https://www.wspa.com/news/top-stories/spartanburg-county-data-center-moratorium/"
    },
-   "notes": "CORRECTION: prior versions described a >65 MW threshold (Sept 22) and then the unamended first-reading text (Sept 24 load). Enacted text read in original. Changes from first reading: definition now excludes ancillary server rooms/IT closets and digital asset mining; development-permit exemption lookback is 18 months (first reading said 12). Readings: first June 22, second and public hearing July 20, third Sept 21, 2026. Pending Ordinance Doctrine applied from first reading. Opposed at third reading: Coker (reported).",
-   "confidence_note": "Enacted text read in full. Vote tally from reporting, not minutes.",
+   "notes": "CORRECTION: prior versions described a >65 MW threshold (Sept 22) and then the unamended first-reading text (Sept 24 load). Enacted text read in original. Changes from first reading: definition now excludes ancillary server rooms/IT closets and digital asset mining; development-permit exemption lookback is 18 months (first reading said 12). Readings: first June 22, second and public hearing July 20, third Sept 21, 2026. Pending Ordinance Doctrine applied from first reading. Opposed at third reading: Coker (reported). Council reconvened Sept 25 and voted to reconsider third reading; a press attorney says that meeting was illegal and the Sept 21 version stands. The county's posted summary differs from what passed.",
+   "confidence_note": "Adopted text not read. CORRECTION: the earlier version read in the original (1 MW combined connected load, blanket pause) was superseded on third reading.",
    "tags": [
     "moratorium",
     "definition",
@@ -7277,6 +7790,131 @@
    "state": "SC",
    "jurisdiction_name": "Spartanburg County",
    "_path": "entries/SC/us-sc-spartanburg-county/sc-spartanburg-county-moratorium.json"
+  },
+  {
+   "id": "sc-spartanburg-valara-injunction-case",
+   "jurisdiction": "us-sc-spartanburg-county",
+   "instrument": "SELC v. Spartanburg County / Valara (injunction; major vs. minor development)",
+   "mechanism": "litigation",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Argued Sept 17, 2026 before Judge J. Derham Cole Jr.: whether a data center campus with about 457 MW of on-site gas generation was properly classified as a minor land development under the county's land management ordinance. Decision pending.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Post and Courier (Sept 2026)"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "classification",
+    "injunction"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "SC",
+   "jurisdiction_name": "Spartanburg County",
+   "_path": "entries/SC/us-sc-spartanburg-county/sc-spartanburg-valara-injunction-case.json"
+  },
+  {
+   "id": "sc-psc-valara-utility-siting-ruling",
+   "jurisdiction": "us-sc-state",
+   "instrument": "South Carolina Public Service Commission ruling on Valara (Utility Siting Act)",
+   "mechanism": "litigation",
+   "status": "adopted",
+   "effective": "",
+   "summary": "The commission ruled unanimously that the Valara data center does not violate the Utility Siting Act and that only the Office of Regulatory Staff may bring enforcement actions under the Act, on a petition by the Southern Environmental Law Center.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "WSPA (Aug 2026)",
+    "url": "https://www.wspa.com/news/sc-commission-rules-valara-data-center/amp/"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "utility-siting",
+    "enforcement"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "SC",
+   "jurisdiction_name": "State of South Carolina",
+   "_path": "entries/SC/us-sc-state/sc-psc-valara-utility-siting-ruling.json"
+  },
+  {
+   "id": "tn-memphis-permanent-regulations-draft",
+   "jurisdiction": "us-tn-memphis",
+   "instrument": "Data center regulation ordinance (draft, 2026)",
+   "mechanism": "process",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Draft permanent regulations would also reach existing data centers, which would have to submit information to the city within 12 months of adoption.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Memphis draft ordinance DC-Regulation-2026v1",
+    "url": "https://memphistn.gov/wp-content/uploads/2026/09/DC-Regulation-2026v1.pdf"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "existing-facilities",
+    "disclosure"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "TN",
+   "jurisdiction_name": "Memphis",
+   "_path": "entries/TN/us-tn-memphis/tn-memphis-permanent-regulations-draft.json"
+  },
+  {
+   "id": "tn-memphis-temporary-moratorium",
+   "jurisdiction": "us-tn-memphis",
+   "instrument": "Data Center Temporary Moratorium Ordinance (amended; final reading Oct 6, 2026)",
+   "mechanism": "use-permission",
+   "status": "proposed",
+   "effective": "",
+   "summary": "Would impose a temporary moratorium to prevent applications from vesting under existing regulations while permanent rules are written: applications accepted for docketing and completeness review only, not processed, scheduled, heard or approved; waiver process; study committee including the health department, engineering and MLGW.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "primary",
+    "citation": "City of Memphis draft ordinance (v3) and council release, Sept 2026",
+    "url": "https://memphistn.gov/wp-content/uploads/2026/08/Data-Center-Temporary-Moratorium-Ordinance-v3.pdf"
+   },
+   "notes": "Daily Memphian reports questions about the council's authority under Tennessee law.",
+   "confidence_note": "Draft read; amended version for final reading not read.",
+   "tags": [
+    "moratorium",
+    "vesting"
+   ],
+   "section": "",
+   "text": "",
+   "next": {
+    "date": "2026-10-06",
+    "event": "Memphis City Council final reading: data center moratorium and regulations",
+    "url": "https://memphistn.gov/wp-content/uploads/2026/08/Data-Center-Temporary-Moratorium-Ordinance-v3.pdf",
+    "basis": "document"
+   },
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "TN",
+   "jurisdiction_name": "Memphis",
+   "_path": "entries/TN/us-tn-memphis/tn-memphis-temporary-moratorium.json"
   },
   {
    "id": "tn-memphis-xai-tax-revenue-allocation",
@@ -7306,6 +7944,102 @@
    "state": "TN",
    "jurisdiction_name": "Memphis",
    "_path": "entries/TN/us-tn-memphis/tn-memphis-xai-tax-revenue-allocation.json"
+  },
+  {
+   "id": "tn-nashville-dc-blox-litigation",
+   "jurisdiction": "us-tn-nashville",
+   "instrument": "DC Blox v. Metropolitan Nashville (federal court, Aug 2026)",
+   "mechanism": "litigation",
+   "status": "proposed",
+   "effective": "",
+   "summary": "DC Blox sued over Metro's halt to permit processing for its 10 MW project next to the Nashville Zoo, alleging due process, equal protection and takings violations and citing the zoning administrator's letter that Tennessee's vested rights statutes put the project outside the new rules. Council separately authorized acquisition of the site, including by eminent domain (BL2026-1489).",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "WSMV (Aug 12, 2026); Axios Nashville",
+    "url": "https://www.wsmv.com/2026/08/12/dc-blox-sues-metro-over-nashville-zoo-area-data-center-moratorium-heres-what-we-know/"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "vested-rights",
+    "eminent-domain"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "TN",
+   "jurisdiction_name": "Metropolitan Nashville and Davidson County",
+   "_path": "entries/TN/us-tn-nashville/tn-nashville-dc-blox-litigation.json"
+  },
+  {
+   "id": "tn-nashville-moratorium-bl2026-1448",
+   "jurisdiction": "us-tn-nashville",
+   "instrument": "BL2026-1448, data center moratorium (July 21, 2026)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-07-21",
+   "summary": "Pauses new data center permits and Board of Zoning Appeals data center hearings through Dec 1, 2026; operating facilities unaffected.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "WPLN; Axios Nashville",
+    "url": "https://www.axios.com/local/nashville/2026/07/22/nashville-data-center-rules-may-delay-but-not-stop-dc-blox-project"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "moratorium"
+   ],
+   "section": "",
+   "text": "",
+   "next": {
+    "date": "2026-12-01",
+    "event": "Nashville data center moratorium (BL2026-1448) expires",
+    "url": "https://www.axios.com/local/nashville/2026/07/22/nashville-data-center-rules-may-delay-but-not-stop-dc-blox-project",
+    "basis": "reported"
+   },
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "TN",
+   "jurisdiction_name": "Metropolitan Nashville and Davidson County",
+   "_path": "entries/TN/us-tn-nashville/tn-nashville-moratorium-bl2026-1448.json"
+  },
+  {
+   "id": "tn-nashville-zoning-bl2026-1391",
+   "jurisdiction": "us-tn-nashville",
+   "instrument": "BL2026-1391 / BL2026-1392, data center zoning regulations (July 21, 2026)",
+   "mechanism": "use-permission",
+   "status": "adopted",
+   "effective": "2026-07-21",
+   "summary": "Bans data centers over 500,000 sq ft, imposes buffers from homes, schools, hospitals and the zoo and along busy roads, requires a Board of Zoning Appeals special exception with a public hearing, and requires at least 15% renewable energy with incentives at 50%.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "WSMV; WPLN; Axios Nashville (July 22, 2026)",
+    "url": "https://www.axios.com/local/nashville/2026/07/22/nashville-data-center-rules-may-delay-but-not-stop-dc-blox-project"
+   },
+   "notes": "",
+   "confidence_note": "Primary instrument not read.",
+   "tags": [
+    "500000-sqft",
+    "buffers",
+    "renewable"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "TN",
+   "jurisdiction_name": "Metropolitan Nashville and Davidson County",
+   "_path": "entries/TN/us-tn-nashville/tn-nashville-zoning-bl2026-1391.json"
   },
   {
    "id": "tn-shelby-county-xai-colossus1-air-permit",
@@ -7413,7 +8147,7 @@
     "citation": "Fort Worth Report; KERA; NBC 5; DCD; The Business Press (Aug 12-14, 2026)",
     "url": "https://fortworthbusiness.com/government/city-advances-next-steps-in-data-center-regulation-development-process/"
    },
-   "notes": "",
+   "notes": "CONFLICT: NBC 5 reports proof of approval from the PUC or ERCOT; the Mayor's announcement, DCD and The Texan report PUC and ERCOT. Ordinance text not read.",
    "confidence_note": "Ordinance text not read; ETJ exemption per the Assistant City Manager as reported.",
    "tags": [
     "grid-approval",
@@ -7422,7 +8156,7 @@
    ],
    "section": "",
    "text": "",
-   "retrieved": "2026-09-30",
+   "retrieved": "2026-10-01",
    "operator": "MLawrence",
    "state": "TX",
    "jurisdiction_name": "City of Fort Worth",
@@ -7444,7 +8178,7 @@
     "citation": "Fort Worth Report; KERA; NBC 5; DCD; The Business Press (Aug 12-14, 2026)",
     "url": "https://www.nbcdfw.com/news/local/fort-worth-city-council-outlines-process-for-data-center-regulation-amid-public-pushback/4061229/"
    },
-   "notes": "",
+   "notes": "Final adoption requires a three-fourths council majority, with a vote 12 days after the first hearing and a second vote 28 days later (Fort Worth Report). CONFLICT on timing: the city said in July final action would not be considered until December; NBC 5 later reported February.",
    "confidence_note": "Primary instrument not read.",
    "tags": [
     "moratorium",
@@ -7458,7 +8192,7 @@
     "url": "https://www.nbcdfw.com/news/local/fort-worth-city-council-outlines-process-for-data-center-regulation-amid-public-pushback/4061229/",
     "basis": "reported"
    },
-   "retrieved": "2026-09-30",
+   "retrieved": "2026-10-01",
    "operator": "MLawrence",
    "state": "TX",
    "jurisdiction_name": "City of Fort Worth",
@@ -7870,6 +8604,36 @@
    "state": "TX",
    "jurisdiction_name": "State of Texas",
    "_path": "entries/TX/us-tx-state/tx-governor-aug3-queue-audit.json"
+  },
+  {
+   "id": "tx-governor-june10-puc-ercot-letter",
+   "jurisdiction": "us-tx-state",
+   "instrument": "Governor's letter to the PUC and ERCOT on data center costs (June 10, 2026)",
+   "mechanism": "rate-allocation",
+   "status": "adopted",
+   "effective": "2026-06-10",
+   "summary": "Directs the PUC to require data centers to pay for their electric infrastructure costs so that no residential ratepayer is burdened, and directs the PUC and ERCOT to review their authorities and act to safeguard Texans. The first of three 2026 directives (June 10, Aug 3, Sept 21).",
+   "origin": "OBSERVED",
+   "entry_state": "CONFIRMED",
+   "freshness": "FIXED",
+   "source": {
+    "kind": "primary",
+    "citation": "Governor's letter to PUC Chairman Thomas Gleeson and ERCOT CEO Pablo Vegas, June 10, 2026",
+    "url": "https://www.texaspolicyresearch.com/wp-content/uploads/2026/06/thomas-gleeson-pablo-vegas-data-centers-directive-letter-to-puc-ercot-final.pdf"
+   },
+   "notes": "",
+   "confidence_note": "",
+   "tags": [
+    "governor",
+    "cost-allocation"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "TX",
+   "jurisdiction_name": "State of Texas",
+   "_path": "entries/TX/us-tx-state/tx-governor-june10-puc-ercot-letter.json"
   },
   {
    "id": "tx-governor-sep21-tceq-permit-halt",
@@ -10970,6 +11734,37 @@
    "state": "XX",
    "jurisdiction_name": "PJM Interconnection",
    "_path": "entries/XX/us-pjm/pjm-iras-large-load-filing.json"
+  },
+  {
+   "id": "pjm-reliability-backstop-procurement",
+   "jurisdiction": "us-pjm",
+   "instrument": "Reliability Backstop Procurement (FERC Docket ER26-3380)",
+   "mechanism": "generation",
+   "status": "proposed",
+   "effective": "",
+   "summary": "PJM's emergency procurement for a projected 6,831 MW shortfall for 2028/29, with contracts of up to 15 years, had been set to accept offers Sept 30 to Oct 21, 2026 and has been delayed. The July board package also proposed a mandatory registry of large loads subject to curtailment during system stress.",
+   "origin": "RELAYED",
+   "entry_state": "NOT_CHECKED",
+   "freshness": "LIVE",
+   "source": {
+    "kind": "secondary",
+    "citation": "Utility Dive; PJM reliability backstop workshop materials",
+    "url": "https://www.pjm.com/committees-and-groups/workshops/rbpw"
+   },
+   "notes": "",
+   "confidence_note": "Delay reported; filing and new schedule not read.",
+   "tags": [
+    "capacity",
+    "curtailment-registry",
+    "backstop"
+   ],
+   "section": "",
+   "text": "",
+   "retrieved": "2026-10-01",
+   "operator": "MLawrence",
+   "state": "XX",
+   "jurisdiction_name": "PJM Interconnection",
+   "_path": "entries/XX/us-pjm/pjm-reliability-backstop-procurement.json"
   }
  ]
 }

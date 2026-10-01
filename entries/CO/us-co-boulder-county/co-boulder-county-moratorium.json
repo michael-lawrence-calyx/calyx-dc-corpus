@@ -1,0 +1,25 @@
+{
+ "id": "co-boulder-county-moratorium",
+ "jurisdiction": "us-co-boulder-county",
+ "instrument": "Boulder County six-month moratorium on data centers and detention facilities (June 2, 2026)",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "2026-06-02",
+ "summary": "Applications for data centers in unincorporated Boulder County are denied for six months while the county amends its Land Use Code.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "KGNU; Denver Gazette"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "moratorium"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

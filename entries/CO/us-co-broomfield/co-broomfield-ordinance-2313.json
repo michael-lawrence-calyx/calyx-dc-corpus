@@ -1,0 +1,26 @@
+{
+ "id": "co-broomfield-ordinance-2313",
+ "jurisdiction": "us-co-broomfield",
+ "instrument": "Ordinance No. 2313, data center moratorium (July 7, 2026)",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "2026-07-07",
+ "summary": "Unanimous 18-month moratorium, through December 2027 or until regulations pass, on land use applications, site plans and building permits for new or expanded data centers with projected load of 10 MW or more. The city set 10 MW at half the design capacity of its largest data center (20 MW).",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Denver Gazette; Denver7; city council packet as reported"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "10-mw",
+  "moratorium"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

@@ -1,0 +1,27 @@
+{
+ "id": "tx-governor-june10-puc-ercot-letter",
+ "jurisdiction": "us-tx-state",
+ "instrument": "Governor's letter to the PUC and ERCOT on data center costs (June 10, 2026)",
+ "mechanism": "rate-allocation",
+ "status": "adopted",
+ "effective": "2026-06-10",
+ "summary": "Directs the PUC to require data centers to pay for their electric infrastructure costs so that no residential ratepayer is burdened, and directs the PUC and ERCOT to review their authorities and act to safeguard Texans. The first of three 2026 directives (June 10, Aug 3, Sept 21).",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "Governor's letter to PUC Chairman Thomas Gleeson and ERCOT CEO Pablo Vegas, June 10, 2026",
+  "url": "https://www.texaspolicyresearch.com/wp-content/uploads/2026/06/thomas-gleeson-pablo-vegas-data-centers-directive-letter-to-puc-ercot-final.pdf"
+ },
+ "notes": "",
+ "confidence_note": "",
+ "tags": [
+  "governor",
+  "cost-allocation"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

@@ -1,0 +1,33 @@
+{
+ "id": "tn-memphis-temporary-moratorium",
+ "jurisdiction": "us-tn-memphis",
+ "instrument": "Data Center Temporary Moratorium Ordinance (amended; final reading Oct 6, 2026)",
+ "mechanism": "use-permission",
+ "status": "proposed",
+ "effective": "",
+ "summary": "Would impose a temporary moratorium to prevent applications from vesting under existing regulations while permanent rules are written: applications accepted for docketing and completeness review only, not processed, scheduled, heard or approved; waiver process; study committee including the health department, engineering and MLGW.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "primary",
+  "citation": "City of Memphis draft ordinance (v3) and council release, Sept 2026",
+  "url": "https://memphistn.gov/wp-content/uploads/2026/08/Data-Center-Temporary-Moratorium-Ordinance-v3.pdf"
+ },
+ "notes": "Daily Memphian reports questions about the council's authority under Tennessee law.",
+ "confidence_note": "Draft read; amended version for final reading not read.",
+ "tags": [
+  "moratorium",
+  "vesting"
+ ],
+ "section": "",
+ "text": "",
+ "next": {
+  "date": "2026-10-06",
+  "event": "Memphis City Council final reading: data center moratorium and regulations",
+  "url": "https://memphistn.gov/wp-content/uploads/2026/08/Data-Center-Temporary-Moratorium-Ordinance-v3.pdf",
+  "basis": "document"
+ },
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

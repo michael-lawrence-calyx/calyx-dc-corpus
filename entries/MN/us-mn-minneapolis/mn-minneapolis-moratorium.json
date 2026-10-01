@@ -1,0 +1,33 @@
+{
+ "id": "mn-minneapolis-moratorium",
+ "jurisdiction": "us-mn-minneapolis",
+ "instrument": "Minneapolis data center moratorium (June 25, 2026)",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "2026-06-25",
+ "summary": "No data center facility may be established, re-established or expanded, and related zoning approvals and permits are blocked, through Nov 21, 2026 while a study is completed; downtown data centers of 350,000 sq ft or less are exempt.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "FOX 9; MPR; CBS Minnesota (June 25, 2026)",
+  "url": "https://www.fox9.com/news/minneapolis-data-center-development-pause-approved-city-council-june-25-2026"
+ },
+ "notes": "CONFLICT on the vote: 7-5 (MPR live) vs 8-5 (Broadband Breakfast). Mayor Frey opposed.",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "moratorium",
+  "downtown-exemption"
+ ],
+ "section": "",
+ "text": "",
+ "next": {
+  "date": "2026-11-21",
+  "event": "Minneapolis data center moratorium study deadline / expiry",
+  "url": "https://www.fox9.com/news/minneapolis-data-center-development-pause-approved-city-council-june-25-2026",
+  "basis": "reported"
+ },
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

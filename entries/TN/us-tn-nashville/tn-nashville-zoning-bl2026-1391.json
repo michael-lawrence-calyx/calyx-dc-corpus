@@ -1,0 +1,28 @@
+{
+ "id": "tn-nashville-zoning-bl2026-1391",
+ "jurisdiction": "us-tn-nashville",
+ "instrument": "BL2026-1391 / BL2026-1392, data center zoning regulations (July 21, 2026)",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "2026-07-21",
+ "summary": "Bans data centers over 500,000 sq ft, imposes buffers from homes, schools, hospitals and the zoo and along busy roads, requires a Board of Zoning Appeals special exception with a public hearing, and requires at least 15% renewable energy with incentives at 50%.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "WSMV; WPLN; Axios Nashville (July 22, 2026)",
+  "url": "https://www.axios.com/local/nashville/2026/07/22/nashville-data-center-rules-may-delay-but-not-stop-dc-blox-project"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "500000-sqft",
+  "buffers",
+  "renewable"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

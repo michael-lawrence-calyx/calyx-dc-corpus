@@ -4,18 +4,19 @@
  "instrument": "Draft moratorium proposal, Raleigh City Council",
  "section": "",
  "mechanism": "load-trigger",
- "summary": "The mayor requested Council review of a six-month moratorium reaching data centers larger than 10,000 square feet, with a vote set for the October 6, 2026 meeting.",
- "origin": "RELAYED",
- "entry_state": "NOT_CHECKED",
+ "summary": "Draft moratorium set for an Oct 6, 2026 public hearing pauses acceptance, processing and approval of development applications and water and/or sewer extension and connection applications for data centers within the corporate limits and the extraterritorial jurisdiction, through no later than April 6, 2027. A \"Minor Utility Data Center\" (unmanned, combined building and land footprint of 10,000 sq ft or less, peak demand of 5 MW or less) is outside it; complete applications filed before the effective date keep permit choice.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
  "freshness": "LIVE",
- "status": "draft",
- "retrieved": "2026-09-29",
+ "status": "proposed",
+ "retrieved": "2026-10-01",
  "source": {
-  "kind": "secondary",
-  "citation": "Regional reporting, September 2026"
+  "kind": "primary",
+  "citation": "City of Raleigh, draft data center moratorium ordinance (posted for Oct 6, 2026)",
+  "url": "https://cityofraleigh0drupal.blob.core.usgovcloudapi.net/drupal-prod/COR12/data-center-moratorium-ordinance-draft.pdf"
  },
- "notes": "The only floor-area threshold identified in this corpus. Every other trigger in the file is expressed in megawatts, acreage, or gallons.",
- "confidence_note": "Draft not read. Whether the threshold is gross floor area, building footprint or something else is NOT_CHECKED, and that distinction materially changes what it reaches.",
+ "notes": "The only floor-area threshold identified in this corpus. Every other trigger in the file is expressed in megawatts, acreage, or gallons. Notes N.C.G.S. 160D-601(d) limits on down-zoning without owner consent. Correction: earlier reporting gave only the 10,000 sq ft half of the minor/major test.",
+ "confidence_note": "Draft text read in the original; not yet adopted.",
  "tags": [
   "10000-sqft",
   "floor-area",
@@ -25,8 +26,9 @@
  "text": "",
  "next": {
   "date": "2026-10-06",
-  "event": "Raleigh City Council possible vote on six-month data center moratorium",
-  "url": "https://www.axios.com/local/raleigh/2026/09/16/raleigh-is-considering-a-six-month-moratorium-on-data-centers",
-  "basis": "reported"
- }
+  "event": "Raleigh City Council public hearing and vote on data center moratorium (draft posted)",
+  "url": "https://cityofraleigh0drupal.blob.core.usgovcloudapi.net/drupal-prod/COR12/data-center-moratorium-ordinance-draft.pdf",
+  "basis": "document"
+ },
+ "effective": "2026-10-06"
 }

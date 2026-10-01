@@ -13,7 +13,7 @@
   "kind": "secondary",
   "citation": "Strisker Data Centers Weekly Briefing, Sept 21-24, 2026 (digest), citing local reporting (WFMZ)"
  },
- "notes": "",
+ "notes": "Planning Commission to consider the fourth draft Oct 20, 2026; draft sets a 5-acre minimum and setbacks of 500 ft (standard) and 1,000 ft (major) from a Preservation district; council adoption targeted for December; the 180-day application moratorium expires in January. Drafted by consultant Jerome Skrincosky (Hawk Valley Associates).",
  "confidence_note": "Primary instrument not read.",
  "tags": [
   "zoning",
@@ -21,11 +21,11 @@
  ],
  "section": "",
  "text": "",
- "retrieved": "2026-09-28",
+ "retrieved": "2026-10-01",
  "operator": "MLawrence",
  "next": {
   "date": "2026-10-20",
-  "event": "Reading Planning Commission possible vote on data center zoning amendment",
+  "event": "Reading Planning Commission vote on data center zoning amendment (fourth draft)",
   "url": "https://www.wfmz.com/news/area/berks/reading-area/reading-planning-commission-sets-october-workshop-meeting-as-a-special-voting-meeting-for-data-center-zoning-amendment/article_c00cd3d8-777f-4e28-9c4c-731d1404bb10.html",
   "basis": "reported"
  }

@@ -1,0 +1,28 @@
+{
+ "id": "pa-mpc-609-2-municipal-curative-amendment",
+ "jurisdiction": "us-pa-state",
+ "instrument": "Municipalities Planning Code \u00a7 609.2, municipal curative amendment",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "",
+ "summary": "A municipality may declare its zoning ordinance substantively invalid for not addressing a use such as data centers, triggering a 180-day period to adopt a curative amendment during which it need not consider data center applications or landowner challenges; a follow-up resolution with specific findings is required within 30 days. Reported as unusable again for 36 months. Used in 2026 by Hazle, Butler, Falls, Doylestown, Warrington, Bensalem, Montgomery and Reading townships/cities.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "Warrington Township Resolution 2026-15; township solicitors as reported",
+  "url": "https://warringtontwp.org/wp-content/uploads/2026/06/2026-15-Warrington-Follow-up-Resolution-Moratorium.pdf"
+ },
+ "notes": "",
+ "confidence_note": "Read in Warrington Township's follow-up resolution; the statute itself not read; the 36-month bar is reported.",
+ "tags": [
+  "curative-amendment",
+  "moratorium",
+  "pennsylvania"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

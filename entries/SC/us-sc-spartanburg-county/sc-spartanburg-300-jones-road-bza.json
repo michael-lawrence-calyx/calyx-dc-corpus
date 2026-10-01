@@ -1,0 +1,27 @@
+{
+ "id": "sc-spartanburg-300-jones-road-bza",
+ "jurisdiction": "us-sc-spartanburg-county",
+ "instrument": "Board of Zoning Appeals denial, 300 Jones Road data center appeal (Aug 25, 2026)",
+ "mechanism": "litigation",
+ "status": "adopted",
+ "effective": "2026-08-25",
+ "summary": "The board unanimously denied the appeal of LightHouse Data Centers (Lightstone Group) for a 200,000 sq ft, 60 MW data center on a former paper-mill site; staff treated the June rejection as final, so any resubmission is a new application.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "WSPA; Post and Courier (Aug 2026)",
+  "url": "https://www.wspa.com/news/lighthouse-data-centers-proposal-denied/"
+ },
+ "notes": "The final moratorium (Sept 21) exempts sub-65 MW data centers on former industrial sites that do not self-generate, subject to spacing and development-agreement conditions.",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "appeal",
+  "60-mw"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

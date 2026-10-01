@@ -1,0 +1,28 @@
+{
+ "id": "pjm-reliability-backstop-procurement",
+ "jurisdiction": "us-pjm",
+ "instrument": "Reliability Backstop Procurement (FERC Docket ER26-3380)",
+ "mechanism": "generation",
+ "status": "proposed",
+ "effective": "",
+ "summary": "PJM's emergency procurement for a projected 6,831 MW shortfall for 2028/29, with contracts of up to 15 years, had been set to accept offers Sept 30 to Oct 21, 2026 and has been delayed. The July board package also proposed a mandatory registry of large loads subject to curtailment during system stress.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Utility Dive; PJM reliability backstop workshop materials",
+  "url": "https://www.pjm.com/committees-and-groups/workshops/rbpw"
+ },
+ "notes": "",
+ "confidence_note": "Delay reported; filing and new schedule not read.",
+ "tags": [
+  "capacity",
+  "curtailment-registry",
+  "backstop"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

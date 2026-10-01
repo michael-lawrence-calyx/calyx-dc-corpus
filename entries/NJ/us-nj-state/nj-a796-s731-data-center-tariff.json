@@ -1,0 +1,35 @@
+{
+ "id": "nj-a796-s731-data-center-tariff",
+ "jurisdiction": "us-nj-state",
+ "instrument": "A796/S731, large data center tariff law (signed July 7, 2026)",
+ "mechanism": "rate-allocation",
+ "status": "adopted",
+ "effective": "2026-07-07",
+ "summary": "Directs the Board of Public Utilities to create special electric service rules for new and existing data centers with peak demand of 50 MW or more (or a lower BPU threshold), aggregating facilities under common ownership or on contiguous sites; customers must guarantee at least 85% of requested service for at least 10 years and post deposits for new transmission; data centers are curtailed before residential customers in emergencies; incentives for own clean generation or storage. BPU rules due within 12 months; utilities apply them within 180 days after.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "Assembly sponsor release (July 7, 2026); New Jersey Monitor",
+  "url": "https://www.assemblydems.com/CivicAlerts.aspx?AID=13131"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "50-mw",
+  "aggregation",
+  "85-percent",
+  "curtailment"
+ ],
+ "section": "",
+ "text": "",
+ "next": {
+  "date": "2027-07-07",
+  "event": "New Jersey BPU deadline for large data center tariff rules (A796/S731)",
+  "url": "https://www.assemblydems.com/CivicAlerts.aspx?AID=13131",
+  "basis": "reported"
+ },
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

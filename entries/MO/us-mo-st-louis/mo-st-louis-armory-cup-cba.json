@@ -1,0 +1,29 @@
+{
+ "id": "mo-st-louis-armory-cup-cba",
+ "jurisdiction": "us-mo-st-louis",
+ "instrument": "Conditional use permit and community benefits agreement, Armory Innovation Data Center (Apr 21, 2026)",
+ "mechanism": "process",
+ "status": "adopted",
+ "effective": "2026-04-21",
+ "summary": "Board of Public Service approved a conditional use permit for a 120 MW data center at the former Famous-Barr warehouse. The community benefits agreement requires escalating median-wage job minimums for 20 years (25, 50, then 100) with $2,000 liquidated damages per job short; $15,000 for every $100,000 below projected annual tax revenue if targets are not met by 2029; no local tax abatement; about $15 million to a city fund ($30 per sq ft); operation by Q4 2028. A Project Labor Agreement with the AFL-CIO covers construction.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "Mayor's office release; city project summary",
+  "url": "https://stlouis-mo.gov/government/departments/mayor/news/data-center-permit-approved.cfm"
+ },
+ "notes": "City states it is the only such agreement it knows of for a data center taking no incentives. Developers include Contour, TerraWatt and THO Investments.",
+ "confidence_note": "Read on the Mayor's release and the city's project summary; the CBA itself not read.",
+ "tags": [
+  "community-benefits",
+  "liquidated-damages",
+  "no-abatement",
+  "public-finance"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

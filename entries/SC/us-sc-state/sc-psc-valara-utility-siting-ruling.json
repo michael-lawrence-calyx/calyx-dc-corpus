@@ -1,0 +1,27 @@
+{
+ "id": "sc-psc-valara-utility-siting-ruling",
+ "jurisdiction": "us-sc-state",
+ "instrument": "South Carolina Public Service Commission ruling on Valara (Utility Siting Act)",
+ "mechanism": "litigation",
+ "status": "adopted",
+ "effective": "",
+ "summary": "The commission ruled unanimously that the Valara data center does not violate the Utility Siting Act and that only the Office of Regulatory Staff may bring enforcement actions under the Act, on a petition by the Southern Environmental Law Center.",
+ "origin": "RELAYED",
+ "entry_state": "NOT_CHECKED",
+ "freshness": "LIVE",
+ "source": {
+  "kind": "secondary",
+  "citation": "WSPA (Aug 2026)",
+  "url": "https://www.wspa.com/news/sc-commission-rules-valara-data-center/amp/"
+ },
+ "notes": "",
+ "confidence_note": "Primary instrument not read.",
+ "tags": [
+  "utility-siting",
+  "enforcement"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

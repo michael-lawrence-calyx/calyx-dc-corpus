@@ -129,9 +129,29 @@
     "name": "Tulare County",
     "state": "CA"
   },
+  "us-co-boulder-county": {
+    "kind": "county",
+    "name": "Boulder County",
+    "state": "CO"
+  },
+  "us-co-broomfield": {
+    "kind": "city",
+    "name": "City and County of Broomfield",
+    "state": "CO"
+  },
+  "us-co-colorado-springs": {
+    "kind": "city",
+    "name": "City of Colorado Springs",
+    "state": "CO"
+  },
   "us-co-denver": {
     "kind": "city",
     "name": "City and County of Denver",
+    "state": "CO"
+  },
+  "us-co-jefferson-county": {
+    "kind": "county",
+    "name": "Jefferson County",
     "state": "CO"
   },
   "us-federal": {
@@ -179,6 +199,11 @@
     "name": "Augusta-Richmond County",
     "state": "GA"
   },
+  "us-ga-bulloch-county": {
+    "kind": "county",
+    "name": "Bulloch County",
+    "state": "GA"
+  },
   "us-ga-dekalb-county": {
     "kind": "county",
     "name": "DeKalb County",
@@ -197,6 +222,11 @@
   "us-ga-psc": {
     "kind": "regulator",
     "name": "Georgia Public Service Commission",
+    "state": "GA"
+  },
+  "us-ga-savannah": {
+    "kind": "city",
+    "name": "City of Savannah",
     "state": "GA"
   },
   "us-ga-state": {
@@ -314,6 +344,11 @@
     "name": "City of London",
     "state": "KY"
   },
+  "us-ma-greenfield": {
+    "kind": "city",
+    "name": "City of Greenfield",
+    "state": "MA"
+  },
   "us-ma-state": {
     "kind": "state",
     "name": "Commonwealth of Massachusetts",
@@ -327,6 +362,11 @@
   "us-md-baltimore-county": {
     "kind": "county",
     "name": "Baltimore County",
+    "state": "MD"
+  },
+  "us-md-calvert-county": {
+    "kind": "county",
+    "name": "Calvert County",
     "state": "MD"
   },
   "us-md-frederick-county": {
@@ -389,9 +429,19 @@
     "name": "City of Eagan",
     "state": "MN"
   },
+  "us-mn-hastings": {
+    "kind": "city",
+    "name": "City of Hastings",
+    "state": "MN"
+  },
   "us-mn-inver-grove-heights": {
     "kind": "city",
     "name": "City of Inver Grove Heights",
+    "state": "MN"
+  },
+  "us-mn-minneapolis": {
+    "kind": "city",
+    "name": "City of Minneapolis",
     "state": "MN"
   },
   "us-mn-north-mankato": {
@@ -417,6 +467,11 @@
   "us-mo-kirksville": {
     "kind": "city",
     "name": "City of Kirksville",
+    "state": "MO"
+  },
+  "us-mo-st-louis": {
+    "kind": "city",
+    "name": "City of St. Louis",
     "state": "MO"
   },
   "us-ms-state": {
@@ -659,9 +714,19 @@
     "name": "Spartanburg County",
     "state": "SC"
   },
+  "us-sc-state": {
+    "kind": "state",
+    "name": "State of South Carolina",
+    "state": "SC"
+  },
   "us-tn-memphis": {
     "kind": "city",
     "name": "Memphis",
+    "state": "TN"
+  },
+  "us-tn-nashville": {
+    "kind": "city",
+    "name": "Metropolitan Nashville and Davidson County",
     "state": "TN"
   },
   "us-tn-shelby-county": {

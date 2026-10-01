@@ -1,0 +1,27 @@
+{
+ "id": "mn-hastings-interim-ordinance",
+ "jurisdiction": "us-mn-hastings",
+ "instrument": "Interim ordinance: moratorium on establishing data centers (Aug 17, 2026)",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "2026-08-17",
+ "summary": "Adopted Aug 17, 2026, in effect until Aug 17, 2027 unless rescinded; applies to data centers as a primary use, not to accessory computing.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "City of Hastings council memorandum and interim ordinance",
+  "url": "https://www.hastingsmn.gov/media/xwikghph/viii-06-1st-reading-schedule-public-hearing-interim-moratorium-ordinance-data-centers.pdf"
+ },
+ "notes": "",
+ "confidence_note": "Read in the city's council packet.",
+ "tags": [
+  "moratorium",
+  "accessory-exempt"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}

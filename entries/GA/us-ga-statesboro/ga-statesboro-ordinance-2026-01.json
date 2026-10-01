@@ -1,0 +1,28 @@
+{
+ "id": "ga-statesboro-ordinance-2026-01",
+ "jurisdiction": "us-ga-statesboro",
+ "instrument": "Ordinance 2026-01, data center amendment to the Unified Development Code (June 2, 2026)",
+ "mechanism": "use-permission",
+ "status": "adopted",
+ "effective": "2026-06-02",
+ "summary": "Adopted 3-1 on June 2, 2026: \"edge\" data centers on lots of 50 acres or less are allowed only as special uses in four districts; \"hyperscale\" data centers (over 50 acres) are unlawful in the city. The final version eliminated an earlier hyperscale classification capped at 200 acres.",
+ "origin": "OBSERVED",
+ "entry_state": "CONFIRMED",
+ "freshness": "FIXED",
+ "source": {
+  "kind": "primary",
+  "citation": "City of Statesboro council minutes, June 2, 2026; Statesboro Herald (quoting the definition)",
+  "url": "https://www.statesboroga.gov/Documents/Government/City%20Council/Agendas%20and%20Minutes/2026/06-02-2026/06-02-2026%20Council%20Minutes.pdf?t=202607271308470"
+ },
+ "notes": "The definition is by lot size, not megawatts. The Burkhalter Road project is on 26.49 acres; its 99 MW figure is from a Georgia Power supply application, not the ordinance.",
+ "confidence_note": "Read in the city council minutes; ordinance text not read.",
+ "tags": [
+  "acreage-definition",
+  "hyperscale",
+  "special-use"
+ ],
+ "section": "",
+ "text": "",
+ "retrieved": "2026-10-01",
+ "operator": "MLawrence"
+}
